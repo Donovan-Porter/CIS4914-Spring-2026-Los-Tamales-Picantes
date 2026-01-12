@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+
+<head>
+
+<title>
+Ollama Chat Interface
+</title>
+
+<link rel="stylesheet" type="text/css" href="/static/css/style.css" >
+
+<link rel="stylesheet" type="text/css" href="/static/css/chatbot.css" >
+
+</head>
+
+
+<body>
+
+<span class="header">
+</span>
+
+<span id="chatbot-output">
+</span>
+
+<form id="chatbot-input" action="{{ url_for('chatbot_input') }}" method="POST">
+    <input type="text">
+    <button type="submit">
+    </button>
+</form>
+
+<script async type="text/javascript" src="/static/javascript/header.js"></script>
+
+</body>
