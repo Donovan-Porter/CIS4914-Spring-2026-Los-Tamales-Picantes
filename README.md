@@ -15,7 +15,7 @@ Ollama provides text-to-text chatting capability.
 - Flask (Python package, web development)
 - Flask Web GUI (Python package, stand-alone application interfaces based on Flask); requires Python 3.12 or newer.
 - Ollama (Python package, text-to-text large-language model (LLM))
-- PyIntaller (Bundles source code into a single executable for ease of consumption)
+- PyInstaller (Bundles source code into a single executable for ease of consumption)
 <!--> - Psychopy-Whisper (Python package, speech-to-text) <-->
 <!--> - Vosk (Python package, speech-to-text) <-->
 <!--> - ffmpeg (Python package, audio file manipulation) <-->
