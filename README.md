@@ -11,10 +11,11 @@ Ollama provides text-to-text chatting capability.
 
 ### Dependencies
 
-- Python (scripting language)
+- Python (scripting language); 3.12 or newer.
 - Flask (Python package, web development)
-- Flask Web GUI (Python package, stand-alone application interfaces based on Flask)
+- Flask Web GUI (Python package, stand-alone application interfaces based on Flask); requires Python 3.12 or newer.
 - Ollama (Python package, text-to-text large-language model (LLM))
+- PyIntaller (Bundles source code into a single executable for ease of consumption)
 <!--> - Psychopy-Whisper (Python package, speech-to-text) <-->
 <!--> - Vosk (Python package, speech-to-text) <-->
 <!--> - ffmpeg (Python package, audio file manipulation) <-->
@@ -30,7 +31,9 @@ Follow the instructions to install the most recent stable release.
 
 ## How to Run
 
-`tutor.bat` can be run on Windows to open a stand-alone application.
+If PyInstaller has been run, and you're on Windows, then simply double-click dist/tutor/tutor.exe.
+
+Otherwise, `tutor.bat` can be run on Windows to open a stand-alone application.
 This is equivalent to `py tutor.py`.
 
 For debugging mode, run `tutor_db.bat`.
@@ -40,6 +43,7 @@ This requires you to navigate to the given IP address and port that is given in 
 
 ## Future Development
 
+- ~~Single executable to run~~
 - Spanish text-to-text chatting.
 - Persistent learning profiles.
 - Varied learning modalities (fill-in-the-blank, grammar exercises, flashcards, etc)
