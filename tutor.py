@@ -3,6 +3,10 @@ from flaskwebgui import FlaskUI
 
 import os
 
+from transformers import pipeline
+
+os.environ['TRANSFORMERS_OFFLINE'] = '1'
+
 
 app = Flask(__name__, static_folder="/")
 
@@ -15,8 +19,10 @@ def index() :
     test_text = "Lorem Ipsum Dolor Sit Amet..."
     return render_template("index.html", index_testing=test_text)
 
-@app.route("/chatbot-input>", methods = ['GET', 'POST', 'DELETE'])
-def chatbot_input() :
+@app.route("/chat", methods = ['GET', 'POST', 'DELETE'])
+def chat() :
+    # TODO: Save chat history
+    # TODO: Stream chat without refreshing page
     return render_template("chat.html")
 
 
