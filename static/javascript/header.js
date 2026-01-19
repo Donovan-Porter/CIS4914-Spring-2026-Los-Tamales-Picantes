@@ -22,6 +22,9 @@ header = `
                 <a href="/" title="Home">
                     Home
                 </a>
+                <a href="/chat" title="Chat">
+                    Chat
+                </a>
             </ul>
 
         </nav>
@@ -33,7 +36,7 @@ header = `
 document.querySelector(".header").innerHTML = header;
 
 var header_ul = document.getElementById("header-ul");
-var menu_icon = document.querySelector(".menu-icon");
+var menu_icon = document.querySelector("#menu-icon");
 
 
 menu_icon.addEventListener("click", menuToggle);

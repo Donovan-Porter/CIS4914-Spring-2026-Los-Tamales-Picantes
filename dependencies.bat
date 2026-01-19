@@ -1,1 +1,1 @@
-pip install Flask flaskwebgui ollama pyinstaller
+pip install Flask flaskwebgui pyinstaller transformers
