@@ -3,11 +3,12 @@ from flaskwebgui import FlaskUI
 
 import os
 
-from transformers import pipeline
-
 # Huggingface transformers stuff
+os.environ["HF_HUB_OFFLINE"] = "1" 
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
-pipe = pipeline("text-generation", model=os.path.join(os.getcwd(), "model"))
+from transformers import pipeline
+base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
 
