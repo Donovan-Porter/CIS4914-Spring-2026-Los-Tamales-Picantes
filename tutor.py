@@ -1,12 +1,13 @@
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, send_from_directory, request
 from flaskwebgui import FlaskUI
 
 import os
 
 from transformers import pipeline
 
+# Huggingface transformers stuff
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
-
+pipe = pipeline("text-generation", model=os.path.join(os.getcwd(), "model"))
 
 app = Flask(__name__, static_folder="/")
 
@@ -23,8 +24,20 @@ def index() :
 def chat() :
     # TODO: Save chat history
     # TODO: Stream chat without refreshing page
-    return render_template("chat.html")
 
+    if "GET" == request.method :
+        return render_template("chat.html")
+    elif "POST" == request.method :
+        print(request.form["chat-input"])
+        input = request.form["chat-input"]
+
+        messages = [
+            {"role": "user", "content": input},
+        ]
+        out = pipe(messages)
+
+        output = out[0]['generated_text'][1]['content']
+        return render_template("chat.html", chat_output = input + '\n\n' + output)
 
 
 if __name__ == "__main__" :

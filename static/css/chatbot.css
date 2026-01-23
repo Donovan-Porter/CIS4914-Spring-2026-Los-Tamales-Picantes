@@ -1,7 +1,9 @@
 body
 {
-    background-color: black;
-    text-color: 0x160016;
+}
+
+form
+{
 }
 
 #chatbot-output
