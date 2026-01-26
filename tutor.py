@@ -1,8 +1,14 @@
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, send_from_directory, request
 from flaskwebgui import FlaskUI
 
 import os
 
+# Huggingface transformers stuff
+os.environ["HF_HUB_OFFLINE"] = "1" 
+os.environ['TRANSFORMERS_OFFLINE'] = '1'
+from transformers import pipeline
+base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
 
@@ -15,10 +21,24 @@ def index() :
     test_text = "Lorem Ipsum Dolor Sit Amet..."
     return render_template("index.html", index_testing=test_text)
 
-@app.route("/chatbot-input>", methods = ['GET', 'POST', 'DELETE'])
-def chatbot_input() :
-    return render_template("chat.html")
+@app.route("/chat", methods = ['GET', 'POST', 'DELETE'])
+def chat() :
+    # TODO: Save chat history
+    # TODO: Stream chat without refreshing page
 
+    if "GET" == request.method :
+        return render_template("chat.html")
+    elif "POST" == request.method :
+        print(request.form["chat-input"])
+        input = request.form["chat-input"]
+
+        messages = [
+            {"role": "user", "content": input},
+        ]
+        out = pipe(messages)
+
+        output = out[0]['generated_text'][1]['content']
+        return render_template("chat.html", chat_output = input + '\n\n' + output)
 
 
 if __name__ == "__main__" :

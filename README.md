@@ -2,33 +2,50 @@
 
 ## Synopsis
 
-This is a Spanish learning application.
+This is a Spanish learning application created as a senior project for the Spring 2026 semester for the group *Los Tamales Picantes*.
 It utilizes Python, and hypertext markup language (HTML) via Flask, for the graphical user interface (GUI).
-Ollama provides text-to-text chatting capability.
 
 
 ## Installation
 
 ### Dependencies
 
-- Python (scripting language)
-- Flask (Python package, web development)
-- Flask Web GUI (Python package, stand-alone application interfaces based on Flask)
-- Ollama (Python package, text-to-text large-language model (LLM))
-<!--> - Psychopy-Whisper (Python package, speech-to-text) <-->
-<!--> - Vosk (Python package, speech-to-text) <-->
-<!--> - ffmpeg (Python package, audio file manipulation) <-->
+#### User
 
-After installing Python, the requisitepackages can be installed via the given `dependencies.bat`.
+None.
+
+
+#### Developer
+
+- [Python](https://python.org) (scripting language); 3.12 or newer.
+- [Flask](https://pypi.org/project/Flask/) (Python package, web development)
+- [Flask Web GUI](https://pypi.org/project/flaskwebgui/) (Python package, stand-alone application interfaces based on Flask); requires Python 3.12 or newer.
+- ~~[Ollama](https://pypi.org/project/ollama/) (Python package, text-to-text large-language model (LLM))~~
+- [Transformers](https://pypi.org/project/transformers/) (text-to-text (t2t) model used now instead of Ollama)
+- [PyInstaller](https://pypi.org/project/pyinstaller/) (Bundles source code into a single executable for ease of consumption)
+
+After installing Python, the requisite packages can be installed via the given `dependencies.bat`.
 This is equivalent to `pip install <package1> <package2>...`.
 
-#### Python Installation
+The LLM used as of Jan 19, 2026, is included in the folder `/model`.
+It is the *Liquid AI*'s `LFM2-350M` model, which can be found on [HuggingFace](https://huggingface.co/LiquidAI/LFM2-350M).
+The associated *lfm1* license is included in that directory.
 
-To install the Python scripting language, go to `python.org/downloads/` in a browser.
+
+##### Python Installation
+
+The Python scripting language can be installed [here](python.org/downloads/).
 Follow the instructions to install the most recent stable release.
 
 
 ## How to Run
+
+### User
+
+End users should not be here; please look [here](https://mega.nz/folder/ovMjlajJ#4AlZ0oFrY9M3Zy3VLrcEjg) to find the executable for Windows, as I've added the output of PyInstaller to the git ignore-list.
+
+
+### Developer
 
 `tutor.bat` can be run on Windows to open a stand-alone application.
 This is equivalent to `py tutor.py`.
@@ -40,15 +57,19 @@ This requires you to navigate to the given IP address and port that is given in 
 
 ## Future Development
 
+- ~~Single executable to run~~
+- Flashcards.
+- Conjugation exercises.
+- Fill-in-the-blank exercises.
 - Spanish text-to-text chatting.
 - Persistent learning profiles.
-- Varied learning modalities (fill-in-the-blank, grammar exercises, flashcards, etc)
 - Text-to-speech.
 - Variable voice options.
 - Speech-to-text.
 - Custom PyTorch classifiers for vocal coaching.
 - Hover-over dictionary lookup.
+- In-app translation.
 - Targeted learning algorithms.
-- Slang.
+- Colloquialisms.
 - Accents.
 - Learning anchors in the form of geographical, geopolitical, and cultural, content.
