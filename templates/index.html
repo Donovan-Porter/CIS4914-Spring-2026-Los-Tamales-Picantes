@@ -4,10 +4,10 @@
 <head>
 
 <title>
-El Tamale Más Picante
+Learn - El Tamale Picante
 </title>
 
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="/static/css/style.css" >
 
 </head>
 
@@ -19,6 +19,10 @@ El Tamale Más Picante
 <p> Testing, 1, 2, 3..</p>
 <p>{{index_testing}}</p>
 
-<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+<a href=" {{ url_for('start_quiz') }}">
+    <button class="btn btn-primary">Start Quiz</button>
+</a>
+
+<script async type="text/javascript" src="/static/javascript/header.js"></script>
 
 </body>
