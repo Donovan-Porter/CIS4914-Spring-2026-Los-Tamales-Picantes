@@ -1,13 +1,19 @@
 body
 {
+    width: 100vw;
+    max-width: 100vw;
 }
 
 form
 {
+    width: 100vw;
+    max-width: 100vw;
 }
 
 #chatbot-output
 {
+    width: 100vw;
+    max-width: 100vw;
 }
 
 #chatbot-input

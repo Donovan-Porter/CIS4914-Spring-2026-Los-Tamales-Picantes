@@ -1,14 +1,16 @@
 from flask import Flask, render_template, send_from_directory, request
 from flaskwebgui import FlaskUI
 
-import os
+import os, sys
 
 # Huggingface transformers stuff
 os.environ["HF_HUB_OFFLINE"] = "1" 
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
-from transformers import pipeline
-base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+from transformers import pipeline, AutoModel
+model = AutoModel.from_pretrained("model_name", torch_dtype="auto")
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
+
+base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 
 app = Flask(__name__, static_folder="/")
 
@@ -24,7 +26,8 @@ def index() :
 @app.route("/chat", methods = ['GET', 'POST', 'DELETE'])
 def chat() :
     # TODO: Save chat history
-    # TODO: Stream chat without refreshing page
+    # TODO: Add Markdown support.
+    # TODO: Make output pretty
 
     if "GET" == request.method :
         return render_template("chat.html")
