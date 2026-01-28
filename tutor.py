@@ -1,22 +1,17 @@
 from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for
 from flaskwebgui import FlaskUI
 
-<<<<<<< HEAD
-=======
 #TODO: fix quiz
 from quiztest import Quiz, Question
 
->>>>>>> project/main
 import os, sys
 
 # Huggingface transformers stuff
 os.environ["HF_HUB_OFFLINE"] = "1" 
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
-from transformers import pipeline, AutoModel
-model = AutoModel.from_pretrained("model_name", torch_dtype="auto")
-pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
-
+from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
 
