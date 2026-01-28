@@ -1,1 +1,4 @@
-.virtenv
+/__pycache__/
+/build/
+/dist/
+/tutor.spec

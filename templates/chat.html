@@ -3,12 +3,12 @@
 <head>
 
 <title>
-Ollama Chat Interface
+LLM Chat Interface
 </title>
 
-<link rel="stylesheet" type="text/css" href="/static/css/style.css" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
 
-<link rel="stylesheet" type="text/css" href="/static/css/chatbot.css" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/chatbot.css') }}" >
 
 </head>
 
@@ -18,15 +18,17 @@ Ollama Chat Interface
 <span class="header">
 </span>
 
-<span id="chatbot-output">
-</span>
+<pre id="chatbot-output">
+    {{chat_output}}
+</pre>
 
-<form id="chatbot-input" action="{{ url_for('chatbot_input') }}" method="POST">
-    <input type="text">
+<form id="chatbot-input" action="{{url_for('chat')}}" method="POST" autocomplete="off">
+    <input type="text" name="chat-input">
     <button type="submit">
+        chat
     </button>
 </form>
 
-<script async type="text/javascript" src="/static/javascript/header.js"></script>
+<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
 
 </body>
