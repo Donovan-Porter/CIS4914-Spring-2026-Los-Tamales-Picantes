@@ -1,0 +1,302 @@
+{
+  "groups": [
+    {
+      "title-es": "LAS PARTES DEL CUERPO",
+      "title-en": "PARTS OF THE BODY",
+      "vocabulary": [
+        {
+          "es": "la cabeza",
+          "en": "head"
+        },
+        {
+          "es": "la cara",
+          "en": "face"
+        },
+        {
+          "es": "la boca",
+          "en": "mouth"
+        },
+        {
+          "es": "la garganta",
+          "en": "throat"
+        },
+        {
+          "es": "la nariz",
+          "en": "nose"
+        },
+        {
+          "es": "el oído / la oreja",
+          "en": "inner ear / outer ear"
+        },
+        {
+          "es": "el ojo",
+          "en": "eye"
+        },
+        {
+          "es": "el brazo",
+          "en": "arm"
+        },
+        {
+          "es": "la espalda",
+          "en": "back"
+        },
+        {
+          "es": "el estómago",
+          "en": "stomach"
+        },
+        {
+          "es": "la mano",
+          "en": "hand"
+        },
+        {
+          "es": "el pie",
+          "en": "foot"
+        },
+        {
+          "es": "el dedo (de la mano/del pie)",
+          "en": "finger / toe"
+        },
+        {
+          "es": "la pierna",
+          "en": "leg"
+        },
+        {
+          "es": "la rodilla",
+          "en": "knee"
+        },
+        {
+          "es": "el tobillo",
+          "en": "ankle"
+        },
+        {
+          "es": "el cerebro",
+          "en": "brain"
+        },
+        {
+          "es": "el corazón",
+          "en": "heart"
+        },
+        {
+          "es": "el hueso",
+          "en": "bone"
+        },
+        {
+          "es": "los pulmones",
+          "en": "lungs"
+        },
+        {
+          "es": "la sangre",
+          "en": "blood"
+        },
+{
+      "title-es": "LA SALUD Y LAS ENFERMEDADES",
+      "title-en": "HEALTH",
+      "vocabulary": [
+        {
+          "es": "el bienestar",
+          "en": "well-being"
+        },
+        {
+          "es": "el examen físico",
+          "en": "physical (exam)"
+        },
+        {
+          "es": "el/la médico/a",
+          "en": "doctor"
+        },
+        {
+          "es": "la sala de urgencias / de espera",
+          "en": "emergency / waiting room"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS SÍNTOMAS Y LAS ENFERMEDADES",
+      "title-en": "SYMPTOMS AND ILLNESSES",
+      "vocabulary": [
+        {
+          "es": "la alergia (ser alérgico/a)",
+          "en": "allergy (to be allergic)"
+        },
+        {
+          "es": "la anorexia nervosa",
+          "en": "anorexia nervosa"
+        },
+        {
+          "es": "la ansiedad",
+          "en": "anxiety"
+        },
+        {
+          "es": "la bulimia",
+          "en": "bulimia"
+        },
+        {
+          "es": "la cita (médica)",
+          "en": "(medical) appointment"
+        },
+        {
+          "es": "la congestión",
+          "en": "congestion"
+        },
+        {
+          "es": "la depresión",
+          "en": "depression"
+        },
+        {
+          "es": "estar enfermo/a",
+          "en": "to be sick"
+        },
+        {
+          "es": "la falta de atención",
+          "en": "attention deficit"
+        },
+        {
+          "es": "la gripe",
+          "en": "flu"
+        },
+        {
+          "es": "la herida",
+          "en": "wound"
+        },
+        {
+          "es": "la hiperactividad",
+          "en": "hyperactivity"
+        },
+        {
+          "es": "la presión (alta / baja)",
+          "en": "(high / low) blood pressure"
+        },
+        {
+          "es": "el resfriado",
+          "en": "cold"
+        },
+        {
+          "es": "tener fiebre",
+          "en": "(to have) a fever"
+        },
+        {
+          "es": "tener dolor de ...",
+          "en": "(to have) a pain/ache in ..."
+        },
+        {
+          "es": "la tos",
+          "en": "cough"
+        },
+        {
+          "es": "el trastorno (psicológico)",
+          "en": "(psychological) disorder"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA DESCRIBIR ESTADOS",
+      "title-en": "TO DESCRIBE STATES",
+      "vocabulary": [
+        {
+          "es": "grave",
+          "en": "serious"
+        },
+        {
+          "es": "sano/a",
+          "en": "healthy"
+        },
+        {
+          "es": "roto/a",
+          "en": "broken"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS TRATAMIENTOS",
+      "title-en": "TREATMENTS",
+      "vocabulary": [
+        {
+          "es": "la curita [la tirita (Spain)] / la venda",
+          "en": "bandaid / bandage"
+        },
+        {
+          "es": "el jarabe",
+          "en": "syrup"
+        },
+        {
+          "es": "el medicamento",
+          "en": "medication, medicine"
+        },
+        {
+          "es": "la pastilla",
+          "en": "pill"
+        },
+        {
+          "es": "la receta",
+          "en": "prescription"
+        },
+        {
+          "es": "la terapia / la psicoterapia",
+          "en": "(psycho)therapy"
+        },
+        {
+          "es": "la vacuna",
+          "en": "immunization / vaccine"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA MANTENERSE SANO",
+      "title-en": "TO REMAIN HEALTHY",
+      "vocabulary": [
+        {
+          "es": "adelgazar",
+          "en": "to lose weight"
+        },
+        {
+          "es": "cuidarse",
+          "en": "to take care of oneself"
+        },
+        {
+          "es": "descansar",
+          "en": "to rest"
+        },
+        {
+          "es": "engordar",
+          "en": "to gain weight"
+        },
+        {
+          "es": "evitar",
+          "en": "to avoid"
+        },
+        {
+          "es": "lavarse las manos",
+          "en": "to wash one's hands"
+        },
+        {
+          "es": "mantener la buena salud",
+          "en": "to maintain good health"
+        },
+        {
+          "es": "mantenerse (e:ie) en forma",
+          "en": "to stay in good shape"
+        },
+        {
+          "es": "preocuparse (por)",
+          "en": "to worry (about)"
+        },
+        {
+          "es": "prevenir una enfermedad",
+          "en": "to prevent an illness"
+        },
+        {
+          "es": "seguir (e:i) las recomen- daciones",
+          "en": "to follow the recommendations"
+        },
+        {
+          "es": "tratar de (+ infinitive)",
+          "en": "to try to (do something)"
+        },
+        {
+          "es": "vacunarse / ponerse una vacuna",
+          "en": "to get vaccinated"
+        }
+      ]
+    }
+  ]
+}

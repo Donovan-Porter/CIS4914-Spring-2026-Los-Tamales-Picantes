@@ -1,0 +1,388 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS ESTEREOTIPOS",
+      "title-en": "STEREOTYPES",
+      "vocabulary": [
+        {
+          "es": "con sobrepeso",
+          "en": "overweight"
+        },
+        {
+          "es": "de baja estatura",
+          "en": "short"
+        },
+        {
+          "es": "exitoso/a",
+          "en": "successful"
+        },
+        {
+          "es": "guerrero/a",
+          "en": "warrior, fighter"
+        },
+        {
+          "es": "mujeriego",
+          "en": "womanizer"
+        },
+        {
+          "es": "orgulloso/a",
+          "en": "proud"
+        },
+        {
+          "es": "parrandero/a",
+          "en": "party animal"
+        },
+        {
+          "es": "racista",
+          "en": "racist"
+        },
+        {
+          "es": "religioso/a",
+          "en": "religious"
+        },
+        {
+          "es": "(super)fiestero/a",
+          "en": "party-going"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS SÍMBOLOS Y LOS VALORES",
+      "title-en": "SYMBOLS AND VALUES",
+      "vocabulary": [
+        {
+          "es": "la fidelidad",
+          "en": "faithfulness"
+        },
+        {
+          "es": "el infierno",
+          "en": "hell"
+        },
+        {
+          "es": "el nopal",
+          "en": "prickly pear cactus"
+        },
+        {
+          "es": "el orgullo",
+          "en": "pride"
+        },
+        {
+          "es": "la tolerancia",
+          "en": "tolerance"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA REFERIRSE A ESTUDIOS E INVESTIGACIONES",
+      "title-en": "TO REFER TO STUDIES AND RESEARCH",
+      "vocabulary": [
+        {
+          "es": "la creciente preocupación",
+          "en": "growing concern"
+        },
+        {
+          "es": "el cuestionario",
+          "en": "questionnaire"
+        },
+        {
+          "es": "el dato curioso",
+          "en": "interesting fact"
+        },
+        {
+          "es": "la encuesta",
+          "en": "survey"
+        },
+        {
+          "es": "las estadísticas",
+          "en": "statistics"
+        },
+        {
+          "es": "el habitante",
+          "en": "inhabitant"
+        },
+        {
+          "es": "el promedio",
+          "en": "average"
+        },
+        {
+          "es": "la raíz",
+          "en": "root / cause / source"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DE LOS ESTEREOTIPOS",
+      "title-en": "TO TALK ABOUT STEREOTYPES",
+      "vocabulary": [
+        {
+          "es": "aportar",
+          "en": "to contribute"
+        },
+        {
+          "es": "calificarse (como)",
+          "en": "to qualify oneself (as)"
+        },
+        {
+          "es": "coincidir (con)",
+          "en": "to coincide / to agree (with)"
+        },
+        {
+          "es": "conservar tradiciones",
+          "en": "to keep/maintain traditions"
+        },
+        {
+          "es": "construir(y) un estereotipo",
+          "en": "to construct a stereotype"
+        },
+        {
+          "es": "definir a una persona / definirse (como)",
+          "en": "to define a person / to define oneself (as)"
+        },
+        {
+          "es": "estar dispuesto/a (a)",
+          "en": "to be willing/able (to)"
+        },
+        {
+          "es": "pretender",
+          "en": "to try / to pretend"
+        },
+        {
+          "es": "prevalecer (las opiniones negativas / positivas)",
+          "en": "to prevail (negative / positive opinions)"
+        },
+        {
+          "es": "realizar",
+          "en": "to achieve / to complete"
+        },
+        {
+          "es": "recurrir (a)",
+          "en": "to appeal (to) / to draw on"
+        },
+        {
+          "es": "reforzar (ue)",
+          "en": "to reinforce"
+        },
+        {
+          "es": "revelar",
+          "en": "to reveal"
+        },
+        {
+          "es": "ser culpa de (alguien)",
+          "en": "to be (someone's) blame/fault"
+        },
+        {
+          "es": "ser/estar socialmente aceptado/a",
+          "en": "to be socially acceptable"
+        },
+        {
+          "es": "violar (las garantías / los derechos humanos)",
+          "en": "to violate (guarantees / human rights)"
+        }
+      ]
+    },
+    {
+      "title-es": "ATRIBUTOS POSITIVOS",
+      "title-en": "POSITIVE ATTRIBUTES",
+      "vocabulary": [
+        {
+          "es": "culto/a",
+          "en": "cultured / well educated"
+        },
+        {
+          "es": "diligente",
+          "en": "diligent"
+        },
+        {
+          "es": "humilde",
+          "en": "humble"
+        },
+        {
+          "es": "puntual",
+          "en": "punctual"
+        }
+      ]
+    },
+    {
+      "title-es": "ATRIBUTOS NEGATIVOS",
+      "title-en": "NEGATIVE ATTRIBUTES",
+      "vocabulary": [
+        {
+          "es": "borracho/a",
+          "en": "drunk"
+        },
+        {
+          "es": "bruto/a",
+          "en": "rude / crude"
+        },
+        {
+          "es": "codicioso/a",
+          "en": "greedy"
+        },
+        {
+          "es": "excesivo/a",
+          "en": "wasteful / excessive / inflated"
+        },
+        {
+          "es": "gruñón/gruñona",
+          "en": "grumpy"
+        },
+        {
+          "es": "impulsivo/a",
+          "en": "impulsive"
+        },
+        {
+          "es": "incómodo/a",
+          "en": "uncomfortable"
+        },
+        {
+          "es": "indeciso/a",
+          "en": "indecisive"
+        },
+        {
+          "es": "malévolo/a",
+          "en": "malicious / spiteful / mean"
+        },
+        {
+          "es": "materialista",
+          "en": "materialistic"
+        },
+        {
+          "es": "mimado/a",
+          "en": "spoiled"
+        },
+        {
+          "es": "necio/a",
+          "en": "foolish"
+        },
+        {
+          "es": "perezoso/a",
+          "en": "lazy"
+        },
+        {
+          "es": "terco/a",
+          "en": "stubborn"
+        },
+        {
+          "es": "torpe",
+          "en": "clumsy"
+        },
+        {
+          "es": "travieso/a",
+          "en": "naughty"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS ACTITUDES HACIA LAS PERSONAS",
+      "title-en": "ATTITUDES TOWARDS PEOPLE",
+      "vocabulary": [
+        {
+          "es": "la clase media/baja/ alta",
+          "en": "middle/lower/upper class"
+        },
+        {
+          "es": "la creencia",
+          "en": "belief"
+        },
+        {
+          "es": "el defecto",
+          "en": "flaw"
+        },
+        {
+          "es": "las (des)ventajas",
+          "en": "(dis)advantages"
+        },
+        {
+          "es": "la diversidad",
+          "en": "diversity"
+        },
+        {
+          "es": "el espacio personal",
+          "en": "personal space"
+        },
+        {
+          "es": "la etnia",
+          "en": "ethnicity"
+        },
+        {
+          "es": "la ignorancia",
+          "en": "ignorance"
+        },
+        {
+          "es": "la mayoría",
+          "en": "majority"
+        },
+        {
+          "es": "la minoría",
+          "en": "minority"
+        },
+        {
+          "es": "el prejuicio",
+          "en": "prejudice"
+        },
+        {
+          "es": "el rasgo",
+          "en": "trait"
+        },
+        {
+          "es": "la raza",
+          "en": "race"
+        },
+        {
+          "es": "la tendencia",
+          "en": "tendency"
+        },
+        {
+          "es": "la tolerancia",
+          "en": "tolerance"
+        },
+        {
+          "es": "los valores",
+          "en": "values"
+        }
+      ]
+    },
+    {
+      "title-es": "CÓMO TRATAR A LAS PERSONAS",
+      "title-en": "HOW TO TREAT PEOPLE",
+      "vocabulary": [
+        {
+          "es": "aceptar",
+          "en": "to accept"
+        },
+        {
+          "es": "encajar",
+          "en": "to fit in"
+        },
+        {
+          "es": "excluir (y)",
+          "en": "to exclude"
+        },
+        {
+          "es": "incluir",
+          "en": "to include"
+        },
+        {
+          "es": "juzgar",
+          "en": "to judge"
+        },
+        {
+          "es": "rechazar",
+          "en": "to reject"
+        },
+        {
+          "es": "soler (ue)",
+          "en": "to usually do"
+        },
+        {
+          "es": "tender (ie) a",
+          "en": "to tend (to)"
+        },
+        {
+          "es": "tolerar",
+          "en": "to tolerate"
+        }
+      ]
+    }
+  ]
+}

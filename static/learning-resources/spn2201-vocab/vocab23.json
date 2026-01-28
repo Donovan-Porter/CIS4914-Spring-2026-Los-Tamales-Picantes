@@ -1,0 +1,176 @@
+{
+  "groups": [
+    {
+      "title-es": "EL GRAFITI",
+      "title-en": "GRAFFITI",
+      "vocabulary": [
+        {
+          "es": "el arte callejero",
+          "en": "street art"
+        },
+        {
+          "es": "el/la artista anarquista",
+          "en": "anarchist artist"
+        },
+        {
+          "es": "el capitalista oportunista",
+          "en": "opportunistic capitalist"
+        },
+        {
+          "es": "(des)penalizar",
+          "en": "(de)penalize"
+        },
+        {
+          "es": "el/la grafitero/a",
+          "en": "graffiti artist"
+        },
+        {
+          "es": "la libertad de expresión",
+          "en": "freedom of expression"
+        },
+        {
+          "es": "ser legal/ilegal",
+          "en": "to be legal/illegal"
+        },
+        {
+          "es": "el vandalismo",
+          "en": "vandalism"
+        },
+        {
+          "es": "la vibrante escena",
+          "en": "vibrant scene"
+        }
+      ]
+    },
+    {
+      "title-es": "EL ARTE SOCIAL",
+      "title-en": "SOCIAL ART",
+      "vocabulary": [
+        {
+          "es": "el arte urbano",
+          "en": "urban art"
+        },
+        {
+          "es": "el/la artista urbano/a",
+          "en": "urban artist"
+        },
+        {
+          "es": "contener un mensaje (político)",
+          "en": "to contain a (political) message"
+        },
+        {
+          "es": "crear una cultura (sanadora)",
+          "en": "to create a (healing) culture"
+        },
+        {
+          "es": "determinar/plantear la agenda (social)",
+          "en": "to determine / to set the (social) agenda"
+        },
+        {
+          "es": "empoderar a",
+          "en": "to empower"
+        },
+        {
+          "es": "el feminismo",
+          "en": "feminism"
+        },
+        {
+          "es": "el/la feminista",
+          "en": "feminist"
+        },
+        {
+          "es": "generar el cambio social",
+          "en": "to generate social change"
+        },
+        {
+          "es": "intervenir en (la calle / los espacios públicos / las conversaciones)",
+          "en": "to intervene, to take part in (the street / public spaces / conversations)"
+        },
+        {
+          "es": "luchar contra/por",
+          "en": "to fight against/for"
+        },
+        {
+          "es": "la obra comunitaria",
+          "en": "communal art"
+        },
+        {
+          "es": "el/la opositor/a",
+          "en": "opponent"
+        },
+        {
+          "es": "la organización comunitaria",
+          "en": "community organization"
+        },
+        {
+          "es": "el/la partidario/a",
+          "en": "supporter"
+        },
+        {
+          "es": "el poder transformador de",
+          "en": "transformative power of"
+        },
+        {
+          "es": "protestar contra (los abusos de poder)",
+          "en": "to protest against (abuses of power)"
+        },
+        {
+          "es": "silenciar/dar voz a (comunidades en desventaja)",
+          "en": "to silence / to give a voice to (disadvantaged communities)"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS PROPÓSITOS DEL ARTE",
+      "title-en": "THE PURPOSES OF ART",
+      "vocabulary": [
+        {
+          "es": "combatir (la injusticia social)",
+          "en": "to combat (social injustice)"
+        },
+        {
+          "es": "defender (la justicia social)",
+          "en": "to defend (social justice)"
+        },
+        {
+          "es": "desencadenar (la revolución social)",
+          "en": "to unleash (social revolution)"
+        },
+        {
+          "es": "hacer negocios",
+          "en": "to do business"
+        },
+        {
+          "es": "promover la causa de",
+          "en": "to promote the cause of"
+        },
+        {
+          "es": "tener un impacto (revolucionario)",
+          "en": "to have a (revolutionary) impact"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS TAREAS DEL GRAFITERO",
+      "title-en": "THE GRAFFITI ARTIST'S TASKS",
+      "vocabulary": [
+        {
+          "es": "crear un portafolio",
+          "en": "to create a portfolio"
+        },
+        {
+          "es": "hacer demostraciones",
+          "en": "to demonstrate, to do demos"
+        },
+        {
+          "es": "pintar en (paredes públicas / casas privadas)",
+          "en": "to paint on (public walls / private houses)"
+        },
+        {
+          "es": "usar la lata de aerosol",
+          "en": "to use a spray can"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2032 @@
+[
+  {
+    "standardizationId": "kG9l6V9L",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "yXUEwEzN",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_13-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS RECUERDOS",
+          "title-en": "MEMORIES",
+          "vocabulary": [
+            {
+              "es": "la añoranza",
+              "en": "longing"
+            },
+            {
+              "es": "la caja",
+              "en": "box"
+            },
+            {
+              "es": "la chispa",
+              "en": "spark"
+            },
+            {
+              "es": "el hilo (de la identidad)",
+              "en": "thread (of identity)"
+            },
+            {
+              "es": "el proceso retrospectivo",
+              "en": "reflective process"
+            },
+            {
+              "es": "el recuerdo",
+              "en": "memory"
+            },
+            {
+              "es": "dejar atrás",
+              "en": "to leave behind"
+            },
+            {
+              "es": "provocar",
+              "en": "to provoke"
+            },
+            {
+              "es": "quedar atrás",
+              "en": "to be left behind"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS EMOCIONES",
+          "title-en": "EMOTIONS",
+          "vocabulary": [
+            {
+              "es": "la lágrima",
+              "en": "tear"
+            },
+            {
+              "es": "la mejilla",
+              "en": "cheek"
+            },
+            {
+              "es": "la tristeza",
+              "en": "sadness"
+            },
+            {
+              "es": "hundir en",
+              "en": "to sink"
+            },
+            {
+              "es": "clavado/a",
+              "en": "fixated"
+            },
+            {
+              "es": "nostálgico/a",
+              "en": "nostalgic"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS MOMENTOS IMPORTANTES",
+          "title-en": "IMPORTANT EVENTS",
+          "vocabulary": [
+            {
+              "es": "la bandera",
+              "en": "flag"
+            },
+            {
+              "es": "la ceremonia de ciudadanía",
+              "en": "naturalization ceremony"
+            },
+            {
+              "es": "el juramento",
+              "en": "oath"
+            },
+            {
+              "es": "nacer de nuevo",
+              "en": "to be born again"
+            },
+            {
+              "es": "volver a (infinitivo)",
+              "en": "to (do something) again"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS EXPRESIONES TEMPORALES",
+          "title-en": "TIME EXPRESSIONS",
+          "vocabulary": [
+            {
+              "es": "(diez) años atrás",
+              "en": "(ten) years ago"
+            },
+            {
+              "es": "apenas",
+              "en": "barely"
+            },
+            {
+              "es": "de repente",
+              "en": "suddenly"
+            },
+            {
+              "es": "después de (la clase)",
+              "en": "after (class)"
+            },
+            {
+              "es": "ese día",
+              "en": "that day"
+            },
+            {
+              "es": "esa tarde",
+              "en": "that afternoon"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "FOOehssk",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "M85YkTnJ",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_13-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS PROCESOS",
+          "title-en": "PROCESSES",
+          "vocabulary": [
+            {
+              "es": "asimilar(se)",
+              "en": "to assimilate"
+            },
+            {
+              "es": "cruzar",
+              "en": "to cross"
+            },
+            {
+              "es": "deportar",
+              "en": "to deport"
+            },
+            {
+              "es": "emigrar",
+              "en": "to emigrate (leave country of origin to move to another)"
+            },
+            {
+              "es": "heredar",
+              "en": "to inherit"
+            },
+            {
+              "es": "inmigrar",
+              "en": "to immigrate (come to a new country permanently)"
+            },
+            {
+              "es": "mejorar",
+              "en": "to improve"
+            },
+            {
+              "es": "mudar(se)",
+              "en": "to move (i.e., to a new place)"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS PERSONAS Y LAS COMUNIDADES",
+          "title-en": "PEOPLE AND COMMUNITY",
+          "vocabulary": [
+            {
+              "es": "el/la ciudadano/a",
+              "en": "citizen"
+            },
+            {
+              "es": "la comunidad",
+              "en": "community"
+            },
+            {
+              "es": "la generación",
+              "en": "generation"
+            },
+            {
+              "es": "el/la indocumentado/a",
+              "en": "undocumented person"
+            },
+            {
+              "es": "el/la inmigrante",
+              "en": "immigrant"
+            },
+            {
+              "es": "la población",
+              "en": "population"
+            },
+            {
+              "es": "el/la refugiado/a",
+              "en": "refugee"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS CAUSAS Y EL CONTEXTO",
+          "title-en": "CAUSES AND CONTEXT",
+          "vocabulary": [
+            {
+              "es": "la crisis",
+              "en": "crisis"
+            },
+            {
+              "es": "la democracia",
+              "en": "democracy"
+            },
+            {
+              "es": "la dictadura",
+              "en": "dictatorship"
+            },
+            {
+              "es": "la frontera",
+              "en": "border"
+            },
+            {
+              "es": "el gobierno",
+              "en": "government"
+            },
+            {
+              "es": "la guerra",
+              "en": "war"
+            },
+            {
+              "es": "la migración forzada/voluntaria",
+              "en": "forced/voluntary migration"
+            },
+            {
+              "es": "la paz",
+              "en": "peace"
+            }
+          ]
+        },
+        {
+          "title-es": "EL ESTATUS LEGAL",
+          "title-en": "LEGAL STATUS",
+          "vocabulary": [
+            {
+              "es": "la amnistía",
+              "en": "amnesty"
+            },
+            {
+              "es": "el asilo político",
+              "en": "political asylum"
+            },
+            {
+              "es": "la ley / las leyes",
+              "en": "law(s)"
+            },
+            {
+              "es": "la naturalización",
+              "en": "naturalization"
+            },
+            {
+              "es": "la tarjeta de residente permanente (la tarjeta verde)",
+              "en": "permanent resident card (green card)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "imH9x0Ta",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "yzIYmesm",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_14-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LAS PERSONAS",
+          "title-en": "PEOPLE",
+          "vocabulary": [
+            {
+              "es": "el/la artista",
+              "en": "artist"
+            },
+            {
+              "es": "el/la coleccionista",
+              "en": "collector"
+            },
+            {
+              "es": "la comunidad artística",
+              "en": "artistic community"
+            },
+            {
+              "es": "el/la crítico/a de arte",
+              "en": "art critic"
+            },
+            {
+              "es": "el equipo",
+              "en": "team"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS LUGARES Y LOS EVENTOS",
+          "title-en": "PLACES AND EVENTS",
+          "vocabulary": [
+            {
+              "es": "la casa propia",
+              "en": "one's own house"
+            },
+            {
+              "es": "la colección",
+              "en": "collection"
+            },
+            {
+              "es": "la exposición",
+              "en": "exhibit"
+            },
+            {
+              "es": "la galería",
+              "en": "gallery"
+            },
+            {
+              "es": "la muestra",
+              "en": "exhibition / showing"
+            },
+            {
+              "es": "el museo (fantasma)",
+              "en": "(ghost) museum"
+            },
+            {
+              "es": "el plano",
+              "en": "blueprint"
+            },
+            {
+              "es": "la sede",
+              "en": "headquarters"
+            },
+            {
+              "es": "el terreno",
+              "en": "land"
+            }
+          ]
+        },
+        {
+          "title-es": "EL ORIGEN DEL MUSEO",
+          "title-en": "THE ORIGINS OF THE MUSEUM",
+          "vocabulary": [
+            {
+              "es": "el arte / las artes",
+              "en": "art /the arts"
+            },
+            {
+              "es": "el chiste",
+              "en": "joke"
+            },
+            {
+              "es": "el golpe de estado",
+              "en": "coup d'état"
+            },
+            {
+              "es": "la inquietud",
+              "en": "concern"
+            },
+            {
+              "es": "la política (anti)vanguardista",
+              "en": "(anti) avant-garde policy"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS FUNCIONES DEL MUSEO Y SUS ARTISTAS",
+          "title-en": "ARTISTS AND FUNCTIONS OF THE MUSEUM",
+          "vocabulary": [
+            {
+              "es": "auspiciar",
+              "en": "to sponsor"
+            },
+            {
+              "es": "generar",
+              "en": "to generate"
+            },
+            {
+              "es": "actuar / hacer performance",
+              "en": "to do performances"
+            },
+            {
+              "es": "inaugurar(se)",
+              "en": "to inaugurate, open"
+            },
+            {
+              "es": "integrar(se)",
+              "en": "to integrate (oneself)"
+            },
+            {
+              "es": "posicionar(se)",
+              "en": "to position (oneself)"
+            },
+            {
+              "es": "ser desarrollado (desarrollarse)",
+              "en": "to develop"
+            },
+            {
+              "es": "ser despuesto (deponer)",
+              "en": "to be displaced / to displace / to oust"
+            },
+            {
+              "es": "vibrar",
+              "en": "to vibrate / to pulse"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "4003LZpL",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "0t6sFEnH",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_14-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS ARTISTAS Y SUS OBRAS",
+          "title-en": "ARTISTS AND THEIR WORKS",
+          "vocabulary": [
+            {
+              "es": "la acuarela",
+              "en": "watercolor"
+            },
+            {
+              "es": "el cuadro",
+              "en": "picture"
+            },
+            {
+              "es": "el dibujo",
+              "en": "drawing"
+            },
+            {
+              "es": "el diseño",
+              "en": "design"
+            },
+            {
+              "es": "la escultura",
+              "en": "sculpture"
+            },
+            {
+              "es": "la estatua",
+              "en": "statue"
+            },
+            {
+              "es": "el grabado",
+              "en": "engraving"
+            },
+            {
+              "es": "el lienzo",
+              "en": "canvas"
+            },
+            {
+              "es": "el monumento",
+              "en": "monument"
+            },
+            {
+              "es": "el/la pintor/a",
+              "en": "painter"
+            },
+            {
+              "es": "la pintura",
+              "en": "painting"
+            },
+            {
+              "es": "la pintura al óleo",
+              "en": "oil painting"
+            },
+            {
+              "es": "el retrato / el autorretrato",
+              "en": "portrait / self-portrait"
+            }
+          ]
+        },
+        {
+          "title-es": "COLORES",
+          "title-en": "COLORS",
+          "vocabulary": [
+            {
+              "es": "amarillento/a",
+              "en": "yellowish"
+            },
+            {
+              "es": "anaranjado/a",
+              "en": "orange"
+            },
+            {
+              "es": "azulado/a",
+              "en": "blueish"
+            },
+            {
+              "es": "dorado/a",
+              "en": "golden"
+            },
+            {
+              "es": "grisáceo/a",
+              "en": "grayish"
+            },
+            {
+              "es": "plateado/a",
+              "en": "silver"
+            },
+            {
+              "es": "rojizo/a",
+              "en": "reddish"
+            },
+            {
+              "es": "verdoso/a",
+              "en": "greenish"
+            },
+            {
+              "es": "violáceo/a",
+              "en": "violet-toned"
+            },
+            {
+              "es": "(color +) brillante / fuerte",
+              "en": "bright (color)"
+            },
+            {
+              "es": "(color +) claro",
+              "en": "light (color)"
+            },
+            {
+              "es": "(color +) opaco / mate",
+              "en": "dull/matte (color)"
+            },
+            {
+              "es": "(color +) oscuro",
+              "en": "dark (color)"
+            }
+          ]
+        },
+        {
+          "title-es": "ESTILOS",
+          "title-en": "STYLES",
+          "vocabulary": [
+            {
+              "es": "(el arte) antiguo",
+              "en": "ancient (art)"
+            },
+            {
+              "es": "(el arte) cotemporáneo",
+              "en": "contemporary (art)"
+            },
+            {
+              "es": "(el arte) moderno",
+              "en": "modern (art)"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA DESCRIBIR UNA OBRA DE ARTE",
+          "title-en": "TO DESCRIBE A WORK OF ART",
+          "vocabulary": [
+            {
+              "es": "conmovedor/a",
+              "en": "poignant / moving"
+            },
+            {
+              "es": "destacado/a",
+              "en": "highlighted"
+            },
+            {
+              "es": "detallado/a",
+              "en": "detailed"
+            },
+            {
+              "es": "clásico/a",
+              "en": "classical"
+            },
+            {
+              "es": "gráfico/a",
+              "en": "graphic"
+            },
+            {
+              "es": "impresionista",
+              "en": "impressionist"
+            },
+            {
+              "es": "naturalista",
+              "en": "naturalist"
+            },
+            {
+              "es": "(foto)realista",
+              "en": "(photo)realist / realistic"
+            },
+            {
+              "es": "surrealista",
+              "en": "surrealist"
+            },
+            {
+              "es": "el matiz",
+              "en": "hue / shade"
+            },
+            {
+              "es": "la obra maestra",
+              "en": "masterpiece"
+            },
+            {
+              "es": "mezclar (la mezcla de ... )",
+              "en": "to mix (the mixture of ... )"
+            },
+            {
+              "es": "sencillo/a",
+              "en": "simple"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "G4BmJMM4",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "yQzFxqzg",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_15-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS PERSONAJES",
+          "title-en": "CHARACTERS",
+          "vocabulary": [
+            {
+              "es": "el fray",
+              "en": "brother (religious) / friar"
+            },
+            {
+              "es": "el/la indígena",
+              "en": "indigenous person"
+            },
+            {
+              "es": "el/la opresor/a",
+              "en": "oppressor"
+            }
+          ]
+        },
+        {
+          "title-es": "EL LUGAR",
+          "title-en": "PLACE",
+          "vocabulary": [
+            {
+              "es": "la selva",
+              "en": "jungle"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DEL FRAY",
+          "title-en": "TO TALK ABOUT THE BROTHER",
+          "vocabulary": [
+            {
+              "es": "el conocimiento",
+              "en": "knowledge"
+            },
+            {
+              "es": "el dominio de lenguas",
+              "en": "command of languages"
+            },
+            {
+              "es": "la esperanza",
+              "en": "hope"
+            },
+            {
+              "es": "la incredulidad",
+              "en": "incredulity / disbelief"
+            },
+            {
+              "es": "la muerte",
+              "en": "death"
+            },
+            {
+              "es": "el pensamiento",
+              "en": "thought"
+            },
+            {
+              "es": "el temor",
+              "en": "fear"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE LOS INDÍGENAS",
+          "title-en": "TO TALK ABOUT INDIGENOUS PEOPLE",
+          "vocabulary": [
+            {
+              "es": "la prisa (con/sin prisa)",
+              "en": "hurry (with/without hurry)"
+            },
+            {
+              "es": "el rostro",
+              "en": "face"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS EMOCIONES DE LOS PERSONAJES",
+          "title-en": "CHARACTERS' EMOTIONS",
+          "vocabulary": [
+            {
+              "es": "aislado/a",
+              "en": "isolated"
+            },
+            {
+              "es": "apresado/a",
+              "en": "captured"
+            },
+            {
+              "es": "arduo/a",
+              "en": "arduous / difficult"
+            },
+            {
+              "es": "impasible",
+              "en": "unemotional / apathetic"
+            },
+            {
+              "es": "perdido/a",
+              "en": "lost"
+            },
+            {
+              "es": "rodeado/a",
+              "en": "surrounded"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS ACCIONES",
+          "title-en": "ACTIONS",
+          "vocabulary": [
+            {
+              "es": "chorrear",
+              "en": "to drip"
+            },
+            {
+              "es": "confiar",
+              "en": "to trust"
+            },
+            {
+              "es": "disponer",
+              "en": "to decide"
+            },
+            {
+              "es": "disponerse a + infinitive",
+              "en": "to get ready to"
+            },
+            {
+              "es": "engañar",
+              "en": "to trick / to mislead"
+            },
+            {
+              "es": "florecer",
+              "en": "to flourish"
+            },
+            {
+              "es": "morir",
+              "en": "to die"
+            },
+            {
+              "es": "oscurecerse",
+              "en": "to get dark"
+            },
+            {
+              "es": "sacrificar",
+              "en": "to sacrifice"
+            },
+            {
+              "es": "salvar",
+              "en": "to save"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "QYRW2AUF",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "uoi7aRNv",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_15-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "PARA ANALIZAR LA LITERATURA",
+          "title-en": "ANALYZING LITERATURE",
+          "vocabulary": [
+            {
+              "es": "el/la autor/a",
+              "en": "author"
+            },
+            {
+              "es": "el (micro)cuento",
+              "en": "(very) short story"
+            },
+            {
+              "es": "la escena",
+              "en": "scene"
+            },
+            {
+              "es": "la justicia poética",
+              "en": "poetic justice"
+            },
+            {
+              "es": "la metáfora",
+              "en": "metaphor"
+            },
+            {
+              "es": "la narrativa",
+              "en": "narrative"
+            },
+            {
+              "es": "la novela",
+              "en": "novel"
+            },
+            {
+              "es": "la parodia",
+              "en": "parody"
+            },
+            {
+              "es": "el párrafo",
+              "en": "paragraph"
+            },
+            {
+              "es": "el personaje",
+              "en": "character"
+            },
+            {
+              "es": "el propósito",
+              "en": "purpose"
+            },
+            {
+              "es": "el/la protagonista",
+              "en": "protagonist"
+            },
+            {
+              "es": "el punto de vista (narrativo)",
+              "en": "(narrative) point of view"
+            },
+            {
+              "es": "el símil",
+              "en": "simile"
+            },
+            {
+              "es": "el suceso",
+              "en": "event"
+            },
+            {
+              "es": "el tema",
+              "en": "theme"
+            },
+            {
+              "es": "la trama",
+              "en": "plot"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA DESCRIBIR ELEMENTOS LITERARIOS",
+          "title-en": "TO DESCRIBE LITERARY ELEMENTS",
+          "vocabulary": [
+            {
+              "es": "clave",
+              "en": "key"
+            },
+            {
+              "es": "irónico/a",
+              "en": "ironic"
+            },
+            {
+              "es": "polémico/a",
+              "en": "polemical / controversial"
+            },
+            {
+              "es": "retórico/a",
+              "en": "rhetorical"
+            },
+            {
+              "es": "significativo/a",
+              "en": "significant"
+            },
+            {
+              "es": "simbólico/a",
+              "en": "symbolic"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA EXPRESAR IDEAS",
+          "title-en": "TO EXPRESS IDEAS",
+          "vocabulary": [
+            {
+              "es": "describir",
+              "en": "to describe"
+            },
+            {
+              "es": "exponer",
+              "en": "to explain"
+            },
+            {
+              "es": "informar",
+              "en": "to inform"
+            },
+            {
+              "es": "narrar",
+              "en": "to narrate"
+            },
+            {
+              "es": "opinar",
+              "en": "to believe"
+            },
+            {
+              "es": "presentar",
+              "en": "to present"
+            },
+            {
+              "es": "relatar",
+              "en": "to relate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "umXAZN5M",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "ENYu5J04",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_16-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "EXPRESIONES ÚTILES DEL CORTOMETRAJE",
+          "title-en": "USEFUL EXPRESSIONS FROM THE SHORT FILM",
+          "vocabulary": [
+            {
+              "es": "¿A que sí?",
+              "en": "Right?"
+            },
+            {
+              "es": "por mi parte",
+              "en": "as far as I'm concerned"
+            },
+            {
+              "es": "tener sentido",
+              "en": "to make sense"
+            },
+            {
+              "es": "¡Vaya!",
+              "en": "Wow!"
+            },
+            {
+              "es": "¡Venga!",
+              "en": "Come on!"
+            },
+            {
+              "es": "¿Yo qué sé?",
+              "en": "How should I know?"
+            }
+          ]
+        },
+        {
+          "title-es": "LA COMUNICACIÓN",
+          "title-en": "COMMUNICATION",
+          "vocabulary": [
+            {
+              "es": "la abreviatura",
+              "en": "abbreviation"
+            },
+            {
+              "es": "la broma",
+              "en": "joke"
+            },
+            {
+              "es": "la bronca (echar una bronca)",
+              "en": "fight / quarrel (to tell off)"
+            },
+            {
+              "es": "cara a cara",
+              "en": "face to face"
+            },
+            {
+              "es": "el malentendido",
+              "en": "misunderstanding"
+            },
+            {
+              "es": "el medio de comunicación",
+              "en": "medium of communication"
+            },
+            {
+              "es": "el reproche",
+              "en": "reproach / rebuke"
+            },
+            {
+              "es": "el sentimiento",
+              "en": "feeling"
+            },
+            {
+              "es": "el tono de voz",
+              "en": "tone of voice"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS RELACIONES PERSONALES",
+          "title-en": "PERSONAL RELATIONSHIPS",
+          "vocabulary": [
+            {
+              "es": "consolar",
+              "en": "to console"
+            },
+            {
+              "es": "enfadarse (con)",
+              "en": "to get angry (with) (Spain)"
+            },
+            {
+              "es": "enojarse (con)",
+              "en": "to get angry (with) (Latin America)"
+            },
+            {
+              "es": "fastidiar",
+              "en": "to bother"
+            },
+            {
+              "es": "gritar",
+              "en": "to scream / to yell"
+            },
+            {
+              "es": "hacer(le) caso (a alguien)",
+              "en": "to pay attention / listen (to someone)"
+            },
+            {
+              "es": "hacer falta",
+              "en": "to lack"
+            },
+            {
+              "es": "hacer sentir bien/mal (a alguien)",
+              "en": "to make someone feel good / bad"
+            },
+            {
+              "es": "importar(le)",
+              "en": "to care about"
+            },
+            {
+              "es": "negarse (a)",
+              "en": "to refuse"
+            },
+            {
+              "es": "pelear",
+              "en": "to fight"
+            },
+            {
+              "es": "respetar",
+              "en": "to respect"
+            },
+            {
+              "es": "tardar",
+              "en": "to take time"
+            },
+            {
+              "es": "tomar(le) el pelo a alguien",
+              "en": "to joke around with someone (literally to pull someone's hair)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "fyhRqCwg",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "Sq6Gllu1",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_16-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LAS PERSONAS",
+          "title-en": "PEOPLE",
+          "vocabulary": [
+            {
+              "es": "el alma gemela",
+              "en": "soulmate"
+            },
+            {
+              "es": "el/la conocido/a",
+              "en": "acquaintance"
+            },
+            {
+              "es": "el/la enemigo/a",
+              "en": "enemy"
+            },
+            {
+              "es": "la media naranja",
+              "en": "soulmate"
+            },
+            {
+              "es": "los novios/as",
+              "en": "boyfriends / girlfriends / boyfriend-girlfriend"
+            },
+            {
+              "es": "la pareja",
+              "en": "the couple"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS SENTIMIENTOS",
+          "title-en": "FEELINGS",
+          "vocabulary": [
+            {
+              "es": "la amistad",
+              "en": "friendship"
+            },
+            {
+              "es": "el amor",
+              "en": "love"
+            },
+            {
+              "es": "el cariño",
+              "en": "affection"
+            },
+            {
+              "es": "el desamor",
+              "en": "lack of affection"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS CARACTERÍSTICAS Y LOS ESTADOS",
+          "title-en": "CHARACTERISTICS AND STATES",
+          "vocabulary": [
+            {
+              "es": "amistoso/a",
+              "en": "friendly"
+            },
+            {
+              "es": "cariñoso/a",
+              "en": "affectionate"
+            },
+            {
+              "es": "celoso/a",
+              "en": "jealous"
+            },
+            {
+              "es": "complicado/a",
+              "en": "complicated"
+            },
+            {
+              "es": "comprometido/a",
+              "en": "engaged"
+            },
+            {
+              "es": "distinto/a",
+              "en": "different"
+            },
+            {
+              "es": "enojado/a",
+              "en": "angry"
+            },
+            {
+              "es": "fiel",
+              "en": "faithful"
+            },
+            {
+              "es": "harto/a",
+              "en": "fed up"
+            },
+            {
+              "es": "infiel",
+              "en": "unfaithful"
+            },
+            {
+              "es": "molesto/a",
+              "en": "annoyed"
+            },
+            {
+              "es": "tonto/a",
+              "en": "dumb / silly"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE SENTIMIENTOS Y RELACIONES",
+          "title-en": "TO TALK ABOUT FEELINGS AND RELATIONSHIPS",
+          "vocabulary": [
+            {
+              "es": "abrazar",
+              "en": "to hug"
+            },
+            {
+              "es": "acariciar",
+              "en": "to caress"
+            },
+            {
+              "es": "amar",
+              "en": "to love"
+            },
+            {
+              "es": "arrepentir(se) de",
+              "en": "to regret"
+            },
+            {
+              "es": "besar",
+              "en": "to kiss"
+            },
+            {
+              "es": "convivir (con alguien)",
+              "en": "to live (with someone)"
+            },
+            {
+              "es": "coquetear",
+              "en": "to flirt"
+            },
+            {
+              "es": "dejar (a alguien)",
+              "en": "to dump (someone)"
+            },
+            {
+              "es": "enamorarse (de)",
+              "en": "to fall in love (with)"
+            },
+            {
+              "es": "estar loco/a por",
+              "en": "to be crazy about"
+            },
+            {
+              "es": "querer",
+              "en": "to love"
+            },
+            {
+              "es": "romper (con)",
+              "en": "to break up (with)"
+            },
+            {
+              "es": "salir juntos/as",
+              "en": "to go out with"
+            },
+            {
+              "es": "separarse (de)",
+              "en": "to separate (from)"
+            },
+            {
+              "es": "tener una relación (con)",
+              "en": "to be in a relationship (with)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "7OSZbnpo",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "uw22NUWx",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_17-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS ESTEREOTIPOS",
+          "title-en": "STEREOTYPES",
+          "vocabulary": [
+            {
+              "es": "con sobrepeso",
+              "en": "overweight"
+            },
+            {
+              "es": "de baja estatura",
+              "en": "short"
+            },
+            {
+              "es": "exitoso/a",
+              "en": "successful"
+            },
+            {
+              "es": "guerrero/a",
+              "en": "warrior, fighter"
+            },
+            {
+              "es": "mujeriego",
+              "en": "womanizer"
+            },
+            {
+              "es": "orgulloso/a",
+              "en": "proud"
+            },
+            {
+              "es": "parrandero/a",
+              "en": "party animal"
+            },
+            {
+              "es": "racista",
+              "en": "racist"
+            },
+            {
+              "es": "religioso/a",
+              "en": "religious"
+            },
+            {
+              "es": "(super)fiestero/a",
+              "en": "party-going"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS SÍMBOLOS Y LOS VALORES",
+          "title-en": "SYMBOLS AND VALUES",
+          "vocabulary": [
+            {
+              "es": "la fidelidad",
+              "en": "faithfulness"
+            },
+            {
+              "es": "el infierno",
+              "en": "hell"
+            },
+            {
+              "es": "el nopal",
+              "en": "prickly pear cactus"
+            },
+            {
+              "es": "el orgullo",
+              "en": "pride"
+            },
+            {
+              "es": "la tolerancia",
+              "en": "tolerance"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA REFERIRSE A ESTUDIOS E INVESTIGACIONES",
+          "title-en": "TO REFER TO STUDIES AND RESEARCH",
+          "vocabulary": [
+            {
+              "es": "la creciente preocupación",
+              "en": "growing concern"
+            },
+            {
+              "es": "el cuestionario",
+              "en": "questionnaire"
+            },
+            {
+              "es": "el dato curioso",
+              "en": "interesting fact"
+            },
+            {
+              "es": "la encuesta",
+              "en": "survey"
+            },
+            {
+              "es": "las estadísticas",
+              "en": "statistics"
+            },
+            {
+              "es": "el habitante",
+              "en": "inhabitant"
+            },
+            {
+              "es": "el promedio",
+              "en": "average"
+            },
+            {
+              "es": "la raíz",
+              "en": "root / cause / source"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE LOS ESTEREOTIPOS",
+          "title-en": "TO TALK ABOUT STEREOTYPES",
+          "vocabulary": [
+            {
+              "es": "aportar",
+              "en": "to contribute"
+            },
+            {
+              "es": "calificarse (como)",
+              "en": "to qualify oneself (as)"
+            },
+            {
+              "es": "coincidir (con)",
+              "en": "to coincide / to agree (with)"
+            },
+            {
+              "es": "conservar tradiciones",
+              "en": "to keep/maintain traditions"
+            },
+            {
+              "es": "construir(y) un estereotipo",
+              "en": "to construct a stereotype"
+            },
+            {
+              "es": "definir a una persona / definirse (como)",
+              "en": "to define a person / to define oneself (as)"
+            },
+            {
+              "es": "estar dispuesto/a (a)",
+              "en": "to be willing/able (to)"
+            },
+            {
+              "es": "pretender",
+              "en": "to try / to pretend"
+            },
+            {
+              "es": "prevalecer (las opiniones negativas / positivas)",
+              "en": "to prevail (negative / positive opinions)"
+            },
+            {
+              "es": "realizar",
+              "en": "to achieve / to complete"
+            },
+            {
+              "es": "recurrir (a)",
+              "en": "to appeal (to) / to draw on"
+            },
+            {
+              "es": "reforzar (ue)",
+              "en": "to reinforce"
+            },
+            {
+              "es": "revelar",
+              "en": "to reveal"
+            },
+            {
+              "es": "ser culpa de (alguien)",
+              "en": "to be (someone's) blame/fault"
+            },
+            {
+              "es": "ser/estar socialmente aceptado/a",
+              "en": "to be socially acceptable"
+            },
+            {
+              "es": "violar (las garantías / los derechos humanos)",
+              "en": "to violate (guarantees / human rights)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "dUVxHKpb",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "LDg5bPEf",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_17-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "ATRIBUTOS POSITIVOS",
+          "title-en": "POSITIVE ATTRIBUTES",
+          "vocabulary": [
+            {
+              "es": "culto/a",
+              "en": "cultured / well educated"
+            },
+            {
+              "es": "diligente",
+              "en": "diligent"
+            },
+            {
+              "es": "humilde",
+              "en": "humble"
+            },
+            {
+              "es": "puntual",
+              "en": "punctual"
+            }
+          ]
+        },
+        {
+          "title-es": "ATRIBUTOS NEGATIVOS",
+          "title-en": "NEGATIVE ATTRIBUTES",
+          "vocabulary": [
+            {
+              "es": "borracho/a",
+              "en": "drunk"
+            },
+            {
+              "es": "bruto/a",
+              "en": "rude / crude"
+            },
+            {
+              "es": "codicioso/a",
+              "en": "greedy"
+            },
+            {
+              "es": "excesivo/a",
+              "en": "wasteful / excessive / inflated"
+            },
+            {
+              "es": "gruñón/gruñona",
+              "en": "grumpy"
+            },
+            {
+              "es": "impulsivo/a",
+              "en": "impulsive"
+            },
+            {
+              "es": "incómodo/a",
+              "en": "uncomfortable"
+            },
+            {
+              "es": "indeciso/a",
+              "en": "indecisive"
+            },
+            {
+              "es": "malévolo/a",
+              "en": "malicious / spiteful / mean"
+            },
+            {
+              "es": "materialista",
+              "en": "materialistic"
+            },
+            {
+              "es": "mimado/a",
+              "en": "spoiled"
+            },
+            {
+              "es": "necio/a",
+              "en": "foolish"
+            },
+            {
+              "es": "perezoso/a",
+              "en": "lazy"
+            },
+            {
+              "es": "terco/a",
+              "en": "stubborn"
+            },
+            {
+              "es": "torpe",
+              "en": "clumsy"
+            },
+            {
+              "es": "travieso/a",
+              "en": "naughty"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS ACTITUDES HACIA LAS PERSONAS",
+          "title-en": "ATTITUDES TOWARDS PEOPLE",
+          "vocabulary": [
+            {
+              "es": "la clase media/baja/ alta",
+              "en": "middle/lower/upper class"
+            },
+            {
+              "es": "la creencia",
+              "en": "belief"
+            },
+            {
+              "es": "el defecto",
+              "en": "flaw"
+            },
+            {
+              "es": "las (des)ventajas",
+              "en": "(dis)advantages"
+            },
+            {
+              "es": "la diversidad",
+              "en": "diversity"
+            },
+            {
+              "es": "el espacio personal",
+              "en": "personal space"
+            },
+            {
+              "es": "la etnia",
+              "en": "ethnicity"
+            },
+            {
+              "es": "la ignorancia",
+              "en": "ignorance"
+            },
+            {
+              "es": "la mayoría",
+              "en": "majority"
+            },
+            {
+              "es": "la minoría",
+              "en": "minority"
+            },
+            {
+              "es": "el prejuicio",
+              "en": "prejudice"
+            },
+            {
+              "es": "el rasgo",
+              "en": "trait"
+            },
+            {
+              "es": "la raza",
+              "en": "race"
+            },
+            {
+              "es": "la tendencia",
+              "en": "tendency"
+            },
+            {
+              "es": "la tolerancia",
+              "en": "tolerance"
+            },
+            {
+              "es": "los valores",
+              "en": "values"
+            }
+          ]
+        },
+        {
+          "title-es": "CÓMO TRATAR A LAS PERSONAS",
+          "title-en": "HOW TO TREAT PEOPLE",
+          "vocabulary": [
+            {
+              "es": "aceptar",
+              "en": "to accept"
+            },
+            {
+              "es": "encajar",
+              "en": "to fit in"
+            },
+            {
+              "es": "excluir (y)",
+              "en": "to exclude"
+            },
+            {
+              "es": "incluir",
+              "en": "to include"
+            },
+            {
+              "es": "juzgar",
+              "en": "to judge"
+            },
+            {
+              "es": "rechazar",
+              "en": "to reject"
+            },
+            {
+              "es": "soler (ue)",
+              "en": "to usually do"
+            },
+            {
+              "es": "tender (ie) a",
+              "en": "to tend (to)"
+            },
+            {
+              "es": "tolerar",
+              "en": "to tolerate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "vlZ2X2cF",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "oHnBJ10u",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_18-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "EL POEMA",
+          "title-en": "THE POEM",
+          "vocabulary": [
+            {
+              "es": "borinquen",
+              "en": "Puerto Rican"
+            },
+            {
+              "es": "la Isla del encanto",
+              "en": "The Island of Enchantment"
+            },
+            {
+              "es": "nuyoriqueño/a",
+              "en": "Puerto Rican from New York"
+            },
+            {
+              "es": "¡Que viva ...!",
+              "en": "Hurray! / Long live ...!"
+            },
+            {
+              "es": "los Reyes Magos",
+              "en": "The Wisemen / Three Kings"
+            },
+            {
+              "es": "el rosal",
+              "en": "rosebush"
+            },
+            {
+              "es": "sentir orgullo de",
+              "en": "to feel pride for"
+            },
+            {
+              "es": "wepa",
+              "en": "an exclamation of joy and/or triumph used by Hispanics, especially in Puerto Rican communities"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA ANALIZAR EL POEMA",
+          "title-en": "TO ANALYZE THE POEM",
+          "vocabulary": [
+            {
+              "es": "a través de",
+              "en": "through"
+            },
+            {
+              "es": "afuera",
+              "en": "outside"
+            },
+            {
+              "es": "ampliar",
+              "en": "to expand"
+            },
+            {
+              "es": "enfatizar",
+              "en": "to emphasize"
+            },
+            {
+              "es": "desear",
+              "en": "to desire / to wish"
+            },
+            {
+              "es": "lamentar",
+              "en": "to regret"
+            },
+            {
+              "es": "oscilar (entre)",
+              "en": "to oscillate / to fluctuate (between)"
+            },
+            {
+              "es": "otorgar",
+              "en": "to award / to give"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE LOS ELEMENTOS Y EMOCIONES DEL POEMA",
+          "title-en": "TO TALK ABOUT THE ELEMENTS AND FEELINGS OF A POEM",
+          "vocabulary": [
+            {
+              "es": "el alma",
+              "en": "soul"
+            },
+            {
+              "es": "anglosajón/anglosajona",
+              "en": "anglosaxon"
+            },
+            {
+              "es": "bilingüe",
+              "en": "bilingual"
+            },
+            {
+              "es": "la complejidad",
+              "en": "complexity"
+            },
+            {
+              "es": "dicho/a",
+              "en": "already stated / aforementioned"
+            },
+            {
+              "es": "eficaz",
+              "en": "effective"
+            },
+            {
+              "es": "el/la forastero/a",
+              "en": "foreigner"
+            },
+            {
+              "es": "híbrido/a",
+              "en": "hybrid"
+            },
+            {
+              "es": "homogéneo/a",
+              "en": "homogeneous"
+            },
+            {
+              "es": "el poeta (masc.), la poetisa (fem.)",
+              "en": "poet"
+            },
+            {
+              "es": "la raíz (sing.), las raíces (pl.)",
+              "en": "root/s"
+            },
+            {
+              "es": "los vocablos",
+              "en": "terms / words"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "3PBGvKqw",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "zvOkMDcA",
+    "dataset": "spn2200",
+    "filename": "Contrasena_Vocabulario_18-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "RASGOS SOCIO-DEMOGRÁFICOS",
+          "title-en": "SOCIO-DEMOGRAPHIC TRAITS",
+          "vocabulary": [
+            {
+              "es": "los antepasados",
+              "en": "ancestors"
+            },
+            {
+              "es": "la ascendencia",
+              "en": "ancestry"
+            },
+            {
+              "es": "la herencia",
+              "en": "inheritance / legacy"
+            },
+            {
+              "es": "la identidad étnica",
+              "en": "ethnic identity"
+            },
+            {
+              "es": "la lengua materna",
+              "en": "mother tongue"
+            },
+            {
+              "es": "la patria",
+              "en": "homeland"
+            },
+            {
+              "es": "los rasgos físicos",
+              "en": "physical traits"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS PERSONAS Y LAS CREENCIAS",
+          "title-en": "PEOPLE AND BELIEFS",
+          "vocabulary": [
+            {
+              "es": "la autoestima",
+              "en": "self esteem"
+            },
+            {
+              "es": "las creencias personales",
+              "en": "personal beliefs"
+            },
+            {
+              "es": "la identidad personal",
+              "en": "personal identity"
+            },
+            {
+              "es": "la imagen de sí mismo/a",
+              "en": "self image"
+            },
+            {
+              "es": "el individuo",
+              "en": "individual"
+            },
+            {
+              "es": "el juicio",
+              "en": "opinion"
+            },
+            {
+              "es": "los pensamientos",
+              "en": "thoughts"
+            },
+            {
+              "es": "el respeto",
+              "en": "respect"
+            },
+            {
+              "es": "los sentimientos",
+              "en": "feelings"
+            },
+            {
+              "es": "el sistema de creencias",
+              "en": "belief system"
+            },
+            {
+              "es": "las suposiciones",
+              "en": "assumptions"
+            }
+          ]
+        },
+        {
+          "title-es": "LA VIDA QUE UNO LLEVA",
+          "title-en": "THE LIFE ONE LEADS",
+          "vocabulary": [
+            {
+              "es": "la capacidad / la discapacidad",
+              "en": "ability / disability"
+            },
+            {
+              "es": "la creatividad",
+              "en": "creativity"
+            },
+            {
+              "es": "educarse",
+              "en": "to educate oneself"
+            },
+            {
+              "es": "el género",
+              "en": "gender"
+            },
+            {
+              "es": "la justicia",
+              "en": "justice"
+            },
+            {
+              "es": "la orientación sexual (heterosexual, bisexual, homosexual)",
+              "en": "sexual orientation (heterosexual, bisexual, homosexual)"
+            },
+            {
+              "es": "la realidad",
+              "en": "reality"
+            },
+            {
+              "es": "la uniformidad",
+              "en": "uniformity"
+            }
+          ]
+        },
+        {
+          "title-es": "EL INDIVIDUO EN LA SOCIEDAD",
+          "title-en": "THE INDIVIDUAL IN SOCIETY",
+          "vocabulary": [
+            {
+              "es": "la afinidad",
+              "en": "similarity"
+            },
+            {
+              "es": "la armonía",
+              "en": "harmony"
+            },
+            {
+              "es": "la coincidencia",
+              "en": "coincidence"
+            },
+            {
+              "es": "el colectivismo",
+              "en": "colectivism"
+            },
+            {
+              "es": "el conjunto",
+              "en": "combination"
+            },
+            {
+              "es": "la fusión",
+              "en": "fusion / union"
+            },
+            {
+              "es": "el individualismo",
+              "en": "individualism"
+            },
+            {
+              "es": "la intersección de identidades",
+              "en": "intersection of identities"
+            },
+            {
+              "es": "la interseccionalidad",
+              "en": "intersectionality"
+            },
+            {
+              "es": "marginar",
+              "en": "to marginalize"
+            },
+            {
+              "es": "el mestizaje",
+              "en": "blend of races (miscegenation)"
+            },
+            {
+              "es": "la mezcla",
+              "en": "mixture"
+            },
+            {
+              "es": "la similitud",
+              "en": "similarity"
+            },
+            {
+              "es": "la solidaridad",
+              "en": "solidarity"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

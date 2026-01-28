@@ -1,0 +1,317 @@
+{
+  "groups": [
+    {
+      "title-es": "LAS ACTIVIDADES Y LOS DEPORTES",
+      "title-en": "ACTIVITIES AND SPORTS",
+      "vocabulary": [
+        {
+          "es": "escalar montañas",
+          "en": "to mountain climb"
+        },
+        {
+          "es": "esquiar",
+          "en": "to ski"
+        },
+        {
+          "es": "montar a caballo",
+          "en": "to ride horseback"
+        },
+        {
+          "es": "nadar",
+          "en": "to swim"
+        },
+        {
+          "es": "pasear en bicicleta",
+          "en": "to ride a bike"
+        },
+        {
+          "es": "patinar (en línea, sobre hielo)",
+          "en": "to skate (to rollerblade/to in-line skate, to ice-skate)"
+        }
+      ]
+    },
+    {
+      "title-es": "JUGAR (U>UE) AL ...",
+      "title-en": "TO PLAY ...",
+      "vocabulary": [
+        {
+          "es": "(el) básquetbol",
+          "en": "basketball"
+        },
+        {
+          "es": "(el) béisbol",
+          "en": "baseball"
+        },
+        {
+          "es": "(el) fútbol",
+          "en": "soccer"
+        },
+        {
+          "es": "(el) fútbol americano",
+          "en": "American football"
+        },
+        {
+          "es": "(el) golf",
+          "en": "golf"
+        },
+        {
+          "es": "(el) hockey",
+          "en": "hockey"
+        },
+        {
+          "es": "(el) tenis",
+          "en": "tennis"
+        },
+        {
+          "es": "(el) vóleibol",
+          "en": "volleyball"
+        }
+      ]
+    },
+    {
+      "title-es": "PRACTICAR/ HACER ...",
+      "title-en": "TO PRACTICE/ TO DO ...",
+      "vocabulary": [
+        {
+          "es": "(la) caminata",
+          "en": "walking/hiking"
+        },
+        {
+          "es": "(el) ciclismo",
+          "en": "cycling"
+        },
+        {
+          "es": "(el) esquí acuático",
+          "en": "water skiing"
+        },
+        {
+          "es": "(la) natación",
+          "en": "swimming"
+        },
+        {
+          "es": "(el) surf",
+          "en": "surfing"
+        },
+        {
+          "es": "(el) yoga",
+          "en": "yoga"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS RESULTADOS",
+      "title-en": "RESULTS",
+      "vocabulary": [
+        {
+          "es": "empatar",
+          "en": "to tie"
+        },
+        {
+          "es": "ganar",
+          "en": "to win"
+        },
+        {
+          "es": "perder (e>ie)",
+          "en": "to lose"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS PERSONAS",
+      "title-en": "PEOPLE",
+      "vocabulary": [
+        {
+          "es": "el/la aficionado/a (ser un/a aficionado/a)",
+          "en": "sports fan (to be a sports fan)"
+        },
+        {
+          "es": "el/la atleta",
+          "en": "athlete"
+        },
+        {
+          "es": "el/la corredor/a",
+          "en": "runner"
+        },
+        {
+          "es": "el/la entrenador/a",
+          "en": "trainer"
+        },
+        {
+          "es": "el equipo",
+          "en": "team"
+        },
+        {
+          "es": "el/la jugador(a)",
+          "en": "player"
+        }
+      ]
+    },
+    {
+      "title-es": "EL EQUIPO, LOS LUGARES Y LOS EVENTOS",
+      "title-en": "EQUIPMENT, PLACES AND EVENTS",
+      "vocabulary": [
+        {
+          "es": "el campo",
+          "en": "field / course"
+        },
+        {
+          "es": "la cancha (de tenis, de fútbol)",
+          "en": "(tennis) court, (soccer) field"
+        },
+        {
+          "es": "la carrera",
+          "en": "race"
+        },
+        {
+          "es": "la competición/la competencia",
+          "en": "competition"
+        },
+        {
+          "es": "el estadio",
+          "en": "stadium"
+        },
+        {
+          "es": "la liga",
+          "en": "league"
+        },
+        {
+          "es": "el partido",
+          "en": "game/match"
+        },
+        {
+          "es": "la pelota",
+          "en": "ball"
+        },
+        {
+          "es": "las pesas",
+          "en": "weights"
+        },
+        {
+          "es": "la piscina",
+          "en": "(swimming) pool"
+        },
+        {
+          "es": "la (semi)final",
+          "en": "(semi) final game/ match"
+        }
+    },
+    {
+      "title-es": "LA EDUCACIÓN",
+      "title-en": "EDUCATION",
+      "vocabulary": [
+        {
+          "es": "el/la investigador/a",
+          "en": "researcher"
+        },
+        {
+          "es": "el/la maestro/a",
+          "en": "teacher"
+        },
+        {
+          "es": "el/la profesor/a",
+          "en": "professor"
+        },
+        {
+          "es": "educar",
+          "en": "to educate"
+        },
+        {
+          "es": "enseñar",
+          "en": "to teach"
+        },
+        {
+          "es": "investigar",
+          "en": "to research"
+        },
+        {
+          "es": "mejorar (la sociedad)",
+          "en": "to make (society) better"
+        },
+        {
+          "es": "motivar",
+          "en": "to motivate"
+        }
+      ]
+    },
+    {
+      "title-es": "LA SEGURIDAD PÚBLICA Y LA LEY",
+      "title-en": "PUBLIC SAFETY AND THE LAW",
+      "vocabulary": [
+        {
+          "es": "el/la abogado/a",
+          "en": "lawyer"
+        },
+        {
+          "es": "el/la agente federal",
+          "en": "federal agent"
+        },
+        {
+          "es": "el/la defensor/a público/a",
+          "en": "public defender"
+        },
+        {
+          "es": "el/la fiscal",
+          "en": "prosecutor"
+        },
+        {
+          "es": "las fuerzas armadas",
+          "en": "armed forces"
+        },
+        {
+          "es": "el/la juez/a",
+          "en": "judge"
+        },
+        {
+          "es": "la ley",
+          "en": "law"
+        },
+        {
+          "es": "el/la militar",
+          "en": "soldier"
+        },
+        {
+          "es": "el/la policía",
+          "en": "police officer"
+        },
+        {
+          "es": "defender",
+          "en": "to defend"
+        },
+        {
+          "es": "proteger",
+          "en": "to protect"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS MEDIOS DE COMUNICACIÓN",
+      "title-en": "THE MEDIA",
+      "vocabulary": [
+        {
+          "es": "el/la consultor/a (de mercadeo)",
+          "en": "(marketing) consultant"
+        },
+        {
+          "es": "el/la periodista",
+          "en": "journalist"
+        },
+        {
+          "es": "el/la publicista",
+          "en": "advertising agent"
+        },
+        {
+          "es": "el/la relacionista público/a",
+          "en": "public relations agent"
+        },
+        {
+          "es": "convencer",
+          "en": "to convince"
+        },
+        {
+          "es": "informar",
+          "en": "to inform"
+        }
+      ]
+    }
+  ]
+}
