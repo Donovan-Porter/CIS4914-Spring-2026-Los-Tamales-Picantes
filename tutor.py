@@ -4,6 +4,11 @@ from flaskwebgui import FlaskUI
 #TODO: fix quiz
 from quiztest import Quiz, Question
 
+# TODO: valerie matching game
+from minigames.matching import MemoryGame
+import uuid
+
+
 import os, sys
 
 # Huggingface transformers stuff
@@ -86,6 +91,46 @@ def chat() :
 
         output = out[0]['generated_text'][1]['content']
         return render_template("chat.html", chat_output = input + '\n\n' + output)
+
+
+
+
+# TODO: valerie matching game
+# store each unique matching game
+games = {}
+
+# get the correct html for the matching game
+@app.route("/matching_page")
+def matching_page():
+    return render_template("matching.html")
+
+
+# create a matching game
+@app.route("/matching", methods=["POST"])
+def create_matching_game():
+    returned_size = request.json.get("size", 4)
+
+    # create a memory game with the size we are looking for
+    game = MemoryGame(size = returned_size)
+
+    # get the game id
+    game_id = str(uuid.uuid4())
+    games[game_id] = game
+    return {"game_id": game_id, "state": game.state()}
+
+
+# handle a card click
+@app.route("/matching/<game_id>/click", methods=["POST"])
+def click_card(game_id):
+    # get the game
+    game = games.get(game_id)
+
+    # get the position of the card
+    row = request.json.get("row")
+    col = request.json.get("col")
+
+    result = game.click_card(row, col)
+    return result
 
 
 if __name__ == "__main__" :
