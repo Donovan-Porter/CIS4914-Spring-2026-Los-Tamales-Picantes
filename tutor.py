@@ -4,13 +4,29 @@ from flaskwebgui import FlaskUI
 #TODO: fix quiz
 from quiztest import Quiz, Question
 
+import argostranslate.package # TODO: See if this import is necessary
+import argostranslate.translate
+
 import os, sys
+
+#
+# ____/\____
+#      O __|
+#    _____|
+# _/
+#
+
+# Global variables
+lang_flow = "row"
+en_src = True
+
 
 # Huggingface transformers stuff
 os.environ["HF_HUB_OFFLINE"] = "1" 
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+# TODO: Find source and fix 'headertoolarge' error caused by pipeline on pulls from branches not don-dev
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
@@ -87,6 +103,35 @@ def chat() :
 
         output = out[0]['generated_text'][1]['content']
         return render_template("chat.html", chat_output = input + '\n\n' + output)
+
+@app.route("/translate", methods = ['GET', 'POST'])
+def translate() :
+    global en_src
+    global lang_flow
+
+    if "GET" == request.method :
+        return render_template("translate.html")
+
+    elif "POST" == request.method :
+        but_val = request.form.get("input_button")
+
+        if "submit_input" == but_val :
+            input = request.form["input"]
+            if en_src :
+                output = argostranslate.translate.translate(input, "en", "es")
+            else :
+                output = argostranslate.translate.translate(input, "es", "en")
+            return render_template("translate.html", output = output, lang_flow=lang_flow)
+
+        elif "switch_lang" == but_val :
+            if en_src :
+                en_src = False
+                lang_flow = "row-reverse"
+            else :
+                en_src = True
+                lang_flow = "row"
+
+            return render_template("translate.html", lang_flow=lang_flow)
 
 
 if __name__ == "__main__" :

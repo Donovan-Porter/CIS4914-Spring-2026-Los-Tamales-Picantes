@@ -25,6 +25,9 @@ header = `
                 <a href="/chat" title="Chat">
                     Chat
                 </a>
+                <a href="/translate" title="Translate">
+                    Translate
+                </a>
             </ul>
 
         </nav>
