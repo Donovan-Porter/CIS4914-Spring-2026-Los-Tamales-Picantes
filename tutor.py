@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for
+from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify
 from flaskwebgui import FlaskUI
 
 #TODO: fix quiz
@@ -15,6 +15,9 @@ pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
 
+# Toggles
+timerOn = True
+
 # TODO: fix quiz (tutorial video: https://www.youtube.com/watch?v=PdHYd8N30_4)
 app.secret_key = "quiz-dev-key"
 quiz = Quiz()
@@ -29,6 +32,21 @@ def favicon() :
 def index() :
     test_text = "Lorem Ipsum Dolor Sit Amet..."
     return render_template("index.html", index_testing=test_text)
+
+
+@app.route("/toggleTimer", methods=['GET', 'POST'])
+def toggle_timer():
+    global timerOn
+    
+    if request.method == 'POST':
+        status = request.get_json().get("status")
+        timerOn = status
+        return jsonify({"Timer Toggle Status": timerOn})
+        
+    if request.method == 'GET':
+        return jsonify({'status' : timerOn})
+ 
+    return jsonify({"Error Timer Toggle": "Error: Could not process /toggleTimer"})
     
 @app.route("/start_quiz")
 def start_quiz():
@@ -55,7 +73,6 @@ def quiz_view():
     current_question_index = session.get('current_question')
     question = quiz.questions[current_question_index]
     return render_template('quiz.html', question=question, question_index=current_question_index + 1, total_questions = len(quiz.questions))
-
 
 @app.route("/results")
 def results():
