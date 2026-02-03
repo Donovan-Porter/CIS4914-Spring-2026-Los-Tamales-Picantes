@@ -27,7 +27,7 @@ os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 # TODO: Find source and fix 'headertoolarge' error caused by pipeline on pulls from branches not don-dev
-pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
+#pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
 
@@ -67,6 +67,7 @@ def quiz_view():
         if session['current_question'] >= len(quiz.questions):
             current_question_index = 0
             return redirect(url_for('results'))
+
 
     current_question_index = session.get('current_question')
     question = quiz.questions[current_question_index]
