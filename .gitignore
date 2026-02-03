@@ -3,3 +3,5 @@
 /dist/
 /test-scripts/
 /tutor.spec
+.virtenv
+/minigames/__pycache__/
