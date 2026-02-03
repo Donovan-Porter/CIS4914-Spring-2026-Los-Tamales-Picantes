@@ -1,0 +1,333 @@
+{
+    "groups": [
+        {
+            "title": "-ER VERB CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "I eat.",
+                    "derivative": "Yo como."
+                },
+                {
+                    "integral": "You eat. (singular, informal)",
+                    "derivative": "Tú comes."
+                },
+                {
+                    "integral": "You eat. (singular, formal)",
+                    "derivative": "Usted come."
+                },
+                {
+                    "integral": "He eats.",
+                    "derivative": "Él come."
+                },
+                {
+                    "integral": "She eats.",
+                    "derivative": "Ella come."
+                },
+                {
+                    "integral": "We eat. (masculine)",
+                    "derivative": "Nosotros comemos."
+                },
+                {
+                    "integral": "We eat. (feminine)",
+                    "derivative": "Nosotras comemos."
+                },
+                {
+                    "integral": "You all eat. (masculine, informal Castillian)",
+                    "derivative": "Vosotros coméis."
+                },
+                {
+                    "integral": "You all eat. (feminine, informal Castillian)",
+                    "derivative": "Vosotras coméis."
+                },
+                {
+                    "integral": "You all eat. (formal or informal American)",
+                    "derivative": "Ustedes comen."
+                },
+                {
+                    "integral": "They eat. (masculine)",
+                    "derivative": "Ellos comen."
+                },
+                {
+                    "integral": "They eat. (feminine)",
+                    "derivative": "Ellas comen."
+                }
+            ]
+        },
+        {
+            "title": "-IR VERB CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "I write.",
+                    "derivative": "Yo escribo."
+                },
+                {
+                    "integral": "You write. (singular, informal)",
+                    "derivative": "Tú escribes."
+                },
+                {
+                    "integral": "You write. (singular, formal)",
+                    "derivative": "Usted escribe."
+                },
+                {
+                    "integral": "He writes.",
+                    "derivative": "Él escribe."
+                },
+                {
+                    "integral": "She writes.",
+                    "derivative": "Ella escribe."
+                },
+                {
+                    "integral": "We write. (masculine)",
+                    "derivative": "Nosotros escribimos."
+                },
+                {
+                    "integral": "We write. (feminine)",
+                    "derivative": "Nosotras escribimos."
+                },
+                {
+                    "integral": "You all write. (masculine, informal Castillian)",
+                    "derivative": "Vosotros escribis."
+                },
+                {
+                    "integral": "You all write. (feminine, informal Castillian)",
+                    "derivative": "Vosotras escribis."
+                },
+                {
+                    "integral": "You all write. (formal or informal American)",
+                    "derivative": "Ustedes escriben."
+                },
+                {
+                    "integral": "They write. (masculine)",
+                    "derivative": "Ellos escriben."
+                },
+                {
+                    "integral": "They write. (feminine)",
+                    "derivative": "Ellas escriben."
+                }
+            ]
+        },
+        {
+            "title": "-ER AND -IR VERB EXAMPLES",
+            "examples": [
+                {
+                    "integral": "comer",
+                    "derivative": "to eat"
+                },
+                {
+                    "integral": "compartir",
+                    "derivative": "to share"
+                },
+                {
+                    "integral": "comprender",
+                    "derivative": "to understand"
+                },
+                {
+                    "integral": "creer",
+                    "derivative": "to create"
+                },
+                {
+                    "integral": "cumplir",
+                    "derivative": "to complete"
+                },
+                {
+                    "integral": "discutir",
+                    "derivative": "to argue"
+                },
+                {
+                    "integral": "escribir",
+                    "derivative": "to write"
+                },
+                {
+                    "integral": "insistir (en)",
+                    "derivative": "to insist (on)"
+                },
+                {
+                    "integral": "leer",
+                    "derivative": "to read"
+                },
+                {
+                    "integral": "permitir",
+                    "derivative": "to permit"
+                },
+                {
+                    "integral": "recibir",
+                    "derivative": "to receive"
+                },
+                {
+                    "integral": "vivir",
+                    "derivative": "to live"
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE EQUIVALENTS",
+            "examples": [
+                {
+                    "integral": "I write a letter now. (drop subject)",
+                    "derivative": "Ahora escribo una carta."
+                },
+                {
+                    "integral": "I write a letter to my mom every sunday. (drop subject)",
+                    "derivative": "Escribo una carta a mi mamá todos los domingos."
+                },
+                {
+                    "integral": "Tomorrow I'm writing a letter to my friend. (drop subject, feminine friend)",
+                    "derivative": "A mañana escribo una carta a mi amiga."
+                }
+            ]
+        },
+        {
+            "title": "PERSONAL 'A' TO REFER TO SENTIENT BEINGS",
+            "examples": [
+                {
+                    "integral": "You know my roommate. (informal, masculine roommate)",
+                    "derivative": "Conoces a mi compañero de cuarto."
+                },
+                {
+                    "integral": "We know Felipe's dog. (drop subject)",
+                    "derivative": "Conocemos al perro de Felipe."
+                }
+            ]
+        },
+        {
+            "title": "SABER CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "I know.",
+                    "derivative": "Yo sé."
+                },
+                {
+                    "integral": "You know. (singular, informal)",
+                    "derivative": "Tú sabes."
+                },
+                {
+                    "integral": "You know. (singular, formal)",
+                    "derivative": "Usted sabe."
+                },
+                {
+                    "integral": "He knows.",
+                    "derivative": "Él sabe"
+                },
+                {
+                    "integral": "She knows.",
+                    "derivative": "Ella sabe."
+                },
+                {
+                    "integral": "We know. (masculine)",
+                    "derivative": "Nosotros sabemos."
+                },
+                {
+                    "integral": "We know. (feminine)",
+                    "derivative": "Nosotras sabemos."
+                },
+                {
+                    "integral": "You all know. (masculine, informal Castillian)",
+                    "derivative": "Vosotros sabéis."
+                },
+                {
+                    "integral": "You all know. (feminine, informal Castillian)",
+                    "derivative": "Vosotras sabéis."
+                },
+                {
+                    "integral": "You all know. (formal or informal American)",
+                    "derivative": "Ustedes sabe."
+                },
+                {
+                    "integral": "They know. (masculine)",
+                    "derivative": "Ellos saben."
+                },
+                {
+                    "integral": "They know. (feminine)",
+                    "derivative": "Ellas saben."
+                }
+            ]
+        },
+        {
+            "title": "SABER EXAMPLES",
+            "examples": [
+                {
+                    "integral": "I don't know the answer.",
+                    "derivative": "Yo no sé la respuesta."
+                },
+                {
+                    "integral": "Do you know the phone number? (informal, subject after verb)",
+                    "derivative": "¿Sabes el número de teléfono?"
+                },
+                {
+                    "integral": "She knows how to play the piano.",
+                    "derivative": "Ella sabe tocar el piano."
+                }
+            ]
+        },
+        {
+            "title": "CONOCER CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "I know.",
+                    "derivative": "Yo conozco."
+                },
+                {
+                    "integral": "You know. (singular, informal)",
+                    "derivative": "Tú conoces."
+                },
+                {
+                    "integral": "You know. (singular, formal)",
+                    "derivative": "Usted conoce."
+                },
+                {
+                    "integral": "He knows.",
+                    "derivative": "Él conoce"
+                },
+                {
+                    "integral": "She knows.",
+                    "derivative": "Ella conoce."
+                },
+                {
+                    "integral": "We know. (masculine)",
+                    "derivative": "Nosotros conocemos."
+                },
+                {
+                    "integral": "We know. (feminine)",
+                    "derivative": "Nosotras conocemos."
+                },
+                {
+                    "integral": "You all know. (masculine, informal Castillian)",
+                    "derivative": "Vosotros conocéis."
+                },
+                {
+                    "integral": "You all know. (feminine, informal Castillian)",
+                    "derivative": "Vosotras conocéis."
+                },
+                {
+                    "integral": "You all know. (formal or informal American)",
+                    "derivative": "Ustedes conoce."
+                },
+                {
+                    "integral": "They know. (masculine)",
+                    "derivative": "Ellos conocen."
+                },
+                {
+                    "integral": "They know. (feminine)",
+                    "derivative": "Ellas conocen."
+                }
+            ]
+        },
+        {
+            "title": "CONOCER EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Do you know Ms. Garcia? (informal, subject after verb)",
+                    "derivative": "¿Conoces tú a la Sra. Garcia?"
+                },
+                {
+                    "integral": "I know Buenos Aires well.",
+                    "derivative": "Yo conozco bien Buenos Aires."
+                },
+                {
+                    "integral": "He's familiar with the book 'Don Quixote'.",
+                    "derivative": "Él conoce el libro 'Don Quijote'."
+                }
+            ]
+        }
+    ]
+}
