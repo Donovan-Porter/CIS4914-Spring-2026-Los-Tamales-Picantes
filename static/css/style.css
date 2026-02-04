@@ -1,6 +1,6 @@
 body
 {
-    /*background-color: gold;*/
+    background-color: #FFFEF0;
     border: 0;
     margin: 0;
     padding: 0;
@@ -11,4 +11,10 @@ body
 
     text-align: center;
 
+}
+
+*
+{
+    font-family: 'Trebuchet', sans-serif;
+    font-weight: bold;
 }
