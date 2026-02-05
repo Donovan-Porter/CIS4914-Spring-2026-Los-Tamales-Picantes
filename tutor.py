@@ -23,6 +23,10 @@ import os, sys
 # Global variables
 lang_flow = "row"
 en_src = True
+messages = [
+            {"role": "system", "content": "You are an insightful, patient, and knowledgable, tutor for the Spanish language."},
+            {"role": "user", "content": "How can you help me learn Spanish?"},
+            {"role": "assistant", "content": "Yo puedo asistirlo para hablar de español muchos maneros. Que lo quedaría aprender? (I can assist you with Spanish speaking in many ways. What would you like to learn?)"}]
 
 
 # Huggingface transformers stuff
@@ -31,7 +35,7 @@ os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 # TODO: Find source and fix 'headertoolarge' error caused by pipeline on pulls from branches not don-dev
-#pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
+pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
 
@@ -112,19 +116,28 @@ def chat() :
     # TODO: Add Markdown support.
     # TODO: Make output pretty
 
+    global messages
+
     if "GET" == request.method :
-        return render_template("chat.html")
+        output = ""
+        for n in range(1, len(messages)) :
+            output = output + messages[n]["content"] + '\n\n'
+        return render_template("chat.html", chat_output = output)
     elif "POST" == request.method :
         print(request.form["chat-input"])
         input = request.form["chat-input"]
 
-        messages = [
-            {"role": "user", "content": input},
-        ]
-        out = pipe(messages)
+        messages.append({"role": "user", "content": input})
+        #messages = [{"role": "user", "content": input}]
+        #out = pipe(messages)
+        out = pipe(messages, max_new_tokens=150)
+        messages.append(out[0]["generated_text"][-1])
 
-        output = out[0]['generated_text'][1]['content']
-        return render_template("chat.html", chat_output = input + '\n\n' + output)
+        output = ""
+        for n in range(1, len(messages)) :
+            output = output + messages[n]['content'] + '\n\n'
+
+        return render_template("chat.html", chat_output = output)
 
 @app.route("/translate", methods = ['GET', 'POST'])
 def translate() :
