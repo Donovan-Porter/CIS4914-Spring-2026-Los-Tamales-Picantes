@@ -44,16 +44,42 @@
             margin-top: 10px; 
             font-size: 20px; 
         }
+
+
+
+
+        .home-button {
+        background-color: #7d0adb;
+        color: white;
+        font-size: 15px;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+
+        .home-button:hover {
+        background-color: gray;
+        }
+
     </style>
 </head>
 
 <body>
     <h1>Matching Game</h1>
     <div id="board"></div>
+
+
     <div id="match-count">Matches: 0</div>
     <div id="status"></div>
+
+    <div id="return-button" style="display:none;">
+        <button id="home-button" class="home-button">Return to Homepage</button>
+    </div>
 
     <script 
         defer type="text/javascript" src="/static/javascript/matching.js">
     </script>
+
+
 </body>

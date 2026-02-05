@@ -9,7 +9,8 @@ const matchDiv = document.getElementById("match-count");
 const statusDiv = document.getElementById("status");
 
 // set up board after it fully loads
-document.addEventListener("DOMContentLoaded", async () => {
+async function setupBoard(size) 
+{
     // set up a new game with size 4
     const res = await fetch("/matching", {
         method: "POST",
@@ -26,9 +27,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // draw the cards on the board
     loadBoard(data.state);
-});
+}
+document.addEventListener("DOMContentLoaded", setupBoard);
 
-function loadBoard(state) {
+function loadBoard(state) 
+{
     // start fresh
     boardDiv.innerHTML = "";
 
@@ -145,6 +148,13 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     // check if finished
     if (result.state.finished) 
     {
+        // display that it is done
         statusDiv.innerText = "Game Done";
+
+        // show the home button
+        document.getElementById('return-button').style.display = 'block';
     }
 }
+
+// redirect to home page
+document.getElementById('home-button').onclick = function() { window.location.href = '/'; };
