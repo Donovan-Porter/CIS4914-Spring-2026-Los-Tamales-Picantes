@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Vocab Story</title></head>
+  <body>
+    <h1>Fill the blanks to continue the story</h1>
+
+    <h3>Word bank</h3>
+    <div>
+      {% for w in vocab_list %}
+        <span style="padding:4px;border:1px solid #ddd;margin:2px;display:inline-block">{{ w }}</span>
+      {% endfor %}
+    </div>
+
+    <h4>Spanish keyboard</h4>
+    <div id="sp-keyboard" style="margin-bottom:12px">
+      {% set keys = ['á','é','í','ó','ú','ñ','Á','É','Í','Ó','Ú','Ñ'] %}
+      {% for k in keys %}
+        <button type="button" class="sp-key" style="margin:2px;padding:6px 8px">{{ k }}</button>
+      {% endfor %}
+    </div>
+
+    <hr>
+
+    {% if finished %}
+      <h2>Story complete!</h2>
+      <p>The full words used:</p>
+      <ul>
+        {% for w in vocab_list %}
+          <li>{{ w }}</li>
+        {% endfor %}
+      </ul>
+      <p><a href="{{ url_for('choose_course') }}">Choose another course</a></p>
+    {% else %}
+      <div>
+        {% for part in story %}
+          <p>
+            {{ part.before }}
+            {% set idx = loop.index0 %}
+            {% if revealed[idx] %}
+              <strong>{{ part.word }}</strong>
+            {% elif idx == current_index %}
+              <form method="post" style="display:inline">
+                <input id="guess-input" name="guess" autocomplete="off" placeholder="Type the word..." style="width:260px;padding:4px">
+                <button type="submit">Submit</button>
+              </form>
+            {% else %}
+              <u style="color:#999">_______</u>
+            {% endif %}
+            {{ part.after }}
+          </p>
+        {% endfor %}
+      </div>
+      {% if message %}
+        <p style="color:red">{{ message }}</p>
+      {% endif %}
+      <p><a href="{{ url_for('choose_course') }}">Back to courses</a></p>
+    {% endif %}
+
+      <script>
+      (function(){
+        function insertAtCursor(ch){
+          var input = document.getElementById('guess-input');
+          if(!input) return;
+          var start = input.selectionStart || 0;
+          var end = input.selectionEnd || 0;
+          var val = input.value || '';
+          input.value = val.slice(0, start) + ch + val.slice(end);
+          var pos = start + ch.length;
+          input.selectionStart = input.selectionEnd = pos;
+          input.focus();
+        }
+
+        document.getElementById('sp-keyboard').addEventListener('click', function(e){
+          if(e.target && e.target.classList && e.target.classList.contains('sp-key')){
+            insertAtCursor(e.target.textContent || e.target.innerText);
+          }
+        });
+      })();
+      </script>
+  </body>
+</html>

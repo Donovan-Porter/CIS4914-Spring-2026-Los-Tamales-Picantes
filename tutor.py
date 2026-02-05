@@ -7,7 +7,8 @@ from quiztest import Quiz, Question
 import argostranslate.package # TODO: See if this import is necessary
 import argostranslate.translate
 
-import os, sys
+import os, sys, json, random
+from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
 
 #
 # ____/\____
@@ -133,6 +134,118 @@ def translate() :
 
             return render_template("translate.html", lang_flow=lang_flow)
 
+@app.route('/choose_course')
+def choose_course():
+    courses = find_vocab_dirs()
+    return render_template('choose_course.html', courses=courses)
+
+@app.route('/choose_chapter')
+def choose_chapter():
+    course = request.args.get('course')
+    if not course:
+        return redirect(url_for('choose_course'))
+    dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
+    files = []
+    try:
+        files = sorted([f for f in os.listdir(dirpath) if f.endswith('.json')])
+    except Exception:
+        files = []
+    return render_template('choose_chapter.html', course=course, files=files)
+
+@app.route('/choose_vocab_group', methods=['GET','POST'])
+def choose_vocab_group():
+    course = request.values.get('course')
+    vocab_file = request.values.get('file')
+    if not course or not vocab_file:
+        return redirect(url_for('choose_course'))
+    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
+    try:
+        with open(path, 'r', encoding='utf-8') as fh:
+            data = json.load(fh)
+    except Exception as e:
+        return f'Error loading vocab file: {e}'
+
+    groups = data.get('groups', [])
+    if request.method == 'POST':
+        group_index = int(request.form.get('group_index', 0))
+
+        vocab_group = groups[group_index]
+        vocab_list = [v.get('es','') for v in vocab_group.get('vocabulary', [])]
+
+        session['course'] = course
+        session['file'] = vocab_file
+        session['group_index'] = group_index
+        session['group_title'] = vocab_group.get('title-es','')
+
+        # TODO: shuffle order
+        order = list(range(len(vocab_list)))
+        random.shuffle(order)
+
+        vocab_shuffled = [vocab_list[i] for i in order]
+        session['vocab_list'] = vocab_shuffled
+
+        story = generate_story_with_model(pipe, vocab_shuffled, title=vocab_group.get('title-es'))
+        if not story:
+            return 'Story generation failed.'
+
+        session['story'] = story
+        session['revealed'] = [False] * len(vocab_shuffled)
+        session['current_index'] = 0
+
+        return redirect(url_for('story'))
+
+
+    return render_template('choose_vocab_group.html', course=course, vocab_file=vocab_file, groups=groups)
+
+# TODO: need to fix answer checking - using wordbox instead of text input
+@app.route('/story', methods=['GET','POST'])
+def story():
+    story = session.get('story')
+    if not story:
+        return redirect(url_for('choose_course'))
+
+    current = session.get('current_index', 0)
+    revealed = session.get('revealed', [False]*len(story))
+    message = None
+
+    if request.method == 'POST':
+        guess = request.form.get('guess','').strip()
+        if current >= len(story):
+            return redirect(url_for('story'))
+
+        expected_word = story[current]['word']
+        guess_n = normalize_text(guess)
+        expected_n = normalize_text(expected_word)
+
+        if guess_n == expected_n:
+            revealed[current] = True
+            session['revealed'] = revealed
+            session['current_index'] = current + 1
+
+            if session['current_index'] >= len(story):
+                # finished
+                return render_template(
+                    'story.html',
+                    story=story,
+                    revealed=revealed,
+                    finished=True,
+                    current_index=current,
+                    message=None
+                )
+
+            return redirect(url_for('story'))
+        else:
+            message = 'Try again!'
+
+
+    return render_template(
+        'story.html',
+        story=story,
+        revealed=revealed,
+        current_index=current,
+        message=message,
+        finished=False
+    )
 
 if __name__ == "__main__" :
 

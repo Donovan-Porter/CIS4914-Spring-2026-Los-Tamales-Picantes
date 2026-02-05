@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Choose Course</title></head>
+  <body>
+    <h1>Choose Course</h1>
+    <ul>
+      {% for c in courses %}
+      <li><a href="{{ url_for('choose_chapter') }}?course={{ c }}">{{ c }}</a></li>
+      {% endfor %}
+    </ul>
+    <p><a href="/">Home</a></p>
+  </body>
+</html>
