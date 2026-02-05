@@ -2,15 +2,53 @@ let gameId = null;
 let matchCount = 0;
 let clickedCards = [];
 let waiting = false;
-let boardSize = 4;
 
 const boardDiv = document.getElementById("board");
 const matchDiv = document.getElementById("match-count");
 const statusDiv = document.getElementById("status");
+const homeDiv = document.getElementById('return-button');
 
-// set up board after it fully loads
-async function setupBoard(size) 
+const difficultyButtons = document.querySelectorAll(".difficulty-button");
+
+
+// set the input board size based on diffculty
+difficultyButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        let boardSize;
+        if (button.innerText === "TEST")
+        { 
+            boardSize = 2;
+        }        
+        if (button.innerText === "Easy")
+        { 
+            boardSize = 4;
+        }
+        else if (button.innerText === "Medium") 
+        { 
+            boardSize = 6;
+        }
+
+        else if (button.innerText === "Hard")
+        { 
+            boardSize = 8;
+        }
+
+        setupBoard(boardSize);
+    });
+});
+
+// set up board with difficulty based size
+async function setupBoard(boardSize) 
 {
+    // reset everything on a new load
+    matchCount = 0;
+    clickedCards = [];
+    waiting = false;
+    matchDiv.innerText = `Matches: ${matchCount}`;
+    homeDiv.style.display = "none";
+    statusDiv.innerText = "";
+
+
     // set up a new game with size 4
     const res = await fetch("/matching", {
         method: "POST",
@@ -28,11 +66,10 @@ async function setupBoard(size)
     // draw the cards on the board
     loadBoard(data.state);
 }
-document.addEventListener("DOMContentLoaded", setupBoard);
 
 function loadBoard(state) 
 {
-    // start fresh
+    // remove the old board
     boardDiv.innerHTML = "";
 
     // loop through the entire board
@@ -123,9 +160,9 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
 
 
         // change the cards to be matched colors
-        clickedCards.forEach(c => {
-            c.classList.remove("pending-match")
-            c.classList.add("matched")}
+        clickedCards.forEach(card => {
+            card.classList.remove("pending-match")
+            card.classList.add("matched")}
         );
     } 
 
@@ -135,7 +172,7 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
         statusDiv.innerText = "Not a match";
 
         // clear the pending visuals on the card
-        clickedCards.forEach(c => c.classList.remove("pending-match"));
+        clickedCards.forEach(card => card.classList.remove("pending-match"));
     }
 
 
@@ -152,7 +189,7 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
         statusDiv.innerText = "Game Done";
 
         // show the home button
-        document.getElementById('return-button').style.display = 'block';
+        homeDiv.style.display = 'block';
     }
 }
 

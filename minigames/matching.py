@@ -39,8 +39,8 @@ class MemoryGame:
             self.matched.append(row)
         
 
-        # test 
-        test = string.ascii_uppercase
+        # test to handle hard size board
+        test = string.ascii_uppercase + string.ascii_lowercase
 
         # only add the amount of letters we need
         for count in range(self.total_pairs):

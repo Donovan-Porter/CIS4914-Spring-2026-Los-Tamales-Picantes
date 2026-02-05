@@ -11,6 +11,7 @@
             display: grid; 
             gap: 10px; 
             margin: 20px auto; 
+            justify-content: center; 
         }
 
         .card { 
@@ -26,7 +27,7 @@
         }
 
         .matched { 
-            background-color: green; 
+            background-color: #76BA9D; 
             color: grey; 
         }
 
@@ -46,7 +47,24 @@
         }
 
 
+        .difficulty-button {
+        background-color: #04361D;
+        color: white;
+        font-size: 15px;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
 
+        .difficulty-button:hover {
+        background-color: gray;
+        }
+
+        .difficulty-button:active {
+        background-color: pink;
+        transform: scale(0.75);
+        }
 
         .home-button {
         background-color: #7d0adb;
@@ -67,13 +85,20 @@
 
 <body>
     <h1>Matching Game</h1>
-    <div id="board"></div>
 
+    <div id="difficulty-buttons" style="margin: 20px 0;">
+        <button class="difficulty-button">TEST</button>
+        <button class="difficulty-button">Easy</button>
+        <button class="difficulty-button">Medium</button>
+        <button class="difficulty-button">Hard</button>
+    </div>
+
+    <div id="board"></div>
 
     <div id="match-count">Matches: 0</div>
     <div id="status"></div>
 
-    <div id="return-button" style="display:none;">
+    <div id="return-button" style="display:none; margin-top: 20px;">
         <button id="home-button" class="home-button">Return to Homepage</button>
     </div>
 
