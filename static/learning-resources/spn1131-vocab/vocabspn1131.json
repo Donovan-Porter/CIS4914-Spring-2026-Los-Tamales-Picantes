@@ -1,0 +1,1910 @@
+[
+  {
+    "standardizationId": "EpbWpEPf",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "Gjnfmmp3",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_09-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LA SALUD Y LAS ENFERMEDADES",
+          "title-en": "HEALTH",
+          "vocabulary": [
+            {
+              "es": "el bienestar",
+              "en": "well-being"
+            },
+            {
+              "es": "el examen físico",
+              "en": "physical (exam)"
+            },
+            {
+              "es": "el/la médico/a",
+              "en": "doctor"
+            },
+            {
+              "es": "la sala de urgencias / de espera",
+              "en": "emergency / waiting room"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS SÍNTOMAS Y LAS ENFERMEDADES",
+          "title-en": "SYMPTOMS AND ILLNESSES",
+          "vocabulary": [
+            {
+              "es": "la alergia (ser alérgico/a)",
+              "en": "allergy (to be allergic)"
+            },
+            {
+              "es": "la anorexia nervosa",
+              "en": "anorexia nervosa"
+            },
+            {
+              "es": "la ansiedad",
+              "en": "anxiety"
+            },
+            {
+              "es": "la bulimia",
+              "en": "bulimia"
+            },
+            {
+              "es": "la cita (médica)",
+              "en": "(medical) appointment"
+            },
+            {
+              "es": "la congestión",
+              "en": "congestion"
+            },
+            {
+              "es": "la depresión",
+              "en": "depression"
+            },
+            {
+              "es": "estar enfermo/a",
+              "en": "to be sick"
+            },
+            {
+              "es": "la falta de atención",
+              "en": "attention deficit"
+            },
+            {
+              "es": "la gripe",
+              "en": "flu"
+            },
+            {
+              "es": "la herida",
+              "en": "wound"
+            },
+            {
+              "es": "la hiperactividad",
+              "en": "hyperactivity"
+            },
+            {
+              "es": "la presión (alta / baja)",
+              "en": "(high / low) blood pressure"
+            },
+            {
+              "es": "el resfriado",
+              "en": "cold"
+            },
+            {
+              "es": "tener fiebre",
+              "en": "(to have) a fever"
+            },
+            {
+              "es": "tener dolor de ...",
+              "en": "(to have) a pain/ache in ..."
+            },
+            {
+              "es": "la tos",
+              "en": "cough"
+            },
+            {
+              "es": "el trastorno (psicológico)",
+              "en": "(psychological) disorder"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA DESCRIBIR ESTADOS",
+          "title-en": "TO DESCRIBE STATES",
+          "vocabulary": [
+            {
+              "es": "grave",
+              "en": "serious"
+            },
+            {
+              "es": "sano/a",
+              "en": "healthy"
+            },
+            {
+              "es": "roto/a",
+              "en": "broken"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS TRATAMIENTOS",
+          "title-en": "TREATMENTS",
+          "vocabulary": [
+            {
+              "es": "la curita [la tirita (Spain)] / la venda",
+              "en": "bandaid / bandage"
+            },
+            {
+              "es": "el jarabe",
+              "en": "syrup"
+            },
+            {
+              "es": "el medicamento",
+              "en": "medication, medicine"
+            },
+            {
+              "es": "la pastilla",
+              "en": "pill"
+            },
+            {
+              "es": "la receta",
+              "en": "prescription"
+            },
+            {
+              "es": "la terapia / la psicoterapia",
+              "en": "(psycho)therapy"
+            },
+            {
+              "es": "la vacuna",
+              "en": "immunization / vaccine"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA MANTENERSE SANO",
+          "title-en": "TO REMAIN HEALTHY",
+          "vocabulary": [
+            {
+              "es": "adelgazar",
+              "en": "to lose weight"
+            },
+            {
+              "es": "cuidarse",
+              "en": "to take care of oneself"
+            },
+            {
+              "es": "descansar",
+              "en": "to rest"
+            },
+            {
+              "es": "engordar",
+              "en": "to gain weight"
+            },
+            {
+              "es": "evitar",
+              "en": "to avoid"
+            },
+            {
+              "es": "lavarse las manos",
+              "en": "to wash one's hands"
+            },
+            {
+              "es": "mantener la buena salud",
+              "en": "to maintain good health"
+            },
+            {
+              "es": "mantenerse (e:ie) en forma",
+              "en": "to stay in good shape"
+            },
+            {
+              "es": "preocuparse (por)",
+              "en": "to worry (about)"
+            },
+            {
+              "es": "prevenir una enfermedad",
+              "en": "to prevent an illness"
+            },
+            {
+              "es": "seguir (e:i) las recomen- daciones",
+              "en": "to follow the recommendations"
+            },
+            {
+              "es": "tratar de (+ infinitive)",
+              "en": "to try to (do something)"
+            },
+            {
+              "es": "vacunarse / ponerse una vacuna",
+              "en": "to get vaccinated"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "bjQpZHht",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "bUQIE7mw",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_09-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LAS PARTES DEL CUERPO",
+          "title-en": "PARTS OF THE BODY",
+          "vocabulary": [
+            {
+              "es": "la cabeza",
+              "en": "head"
+            },
+            {
+              "es": "la cara",
+              "en": "face"
+            },
+            {
+              "es": "la boca",
+              "en": "mouth"
+            },
+            {
+              "es": "la garganta",
+              "en": "throat"
+            },
+            {
+              "es": "la nariz",
+              "en": "nose"
+            },
+            {
+              "es": "el oído / la oreja",
+              "en": "inner ear / outer ear"
+            },
+            {
+              "es": "el ojo",
+              "en": "eye"
+            },
+            {
+              "es": "el brazo",
+              "en": "arm"
+            },
+            {
+              "es": "la espalda",
+              "en": "back"
+            },
+            {
+              "es": "el estómago",
+              "en": "stomach"
+            },
+            {
+              "es": "la mano",
+              "en": "hand"
+            },
+            {
+              "es": "el pie",
+              "en": "foot"
+            },
+            {
+              "es": "el dedo (de la mano/del pie)",
+              "en": "finger / toe"
+            },
+            {
+              "es": "la pierna",
+              "en": "leg"
+            },
+            {
+              "es": "la rodilla",
+              "en": "knee"
+            },
+            {
+              "es": "el tobillo",
+              "en": "ankle"
+            },
+            {
+              "es": "el cerebro",
+              "en": "brain"
+            },
+            {
+              "es": "el corazón",
+              "en": "heart"
+            },
+            {
+              "es": "el hueso",
+              "en": "bone"
+            },
+            {
+              "es": "los pulmones",
+              "en": "lungs"
+            },
+            {
+              "es": "la sangre",
+              "en": "blood"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "DqOtLT1Q",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "39J45Pzb",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_08-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LAS COMIDAS",
+          "title-en": "MEALS",
+          "vocabulary": [
+            {
+              "es": "el desayuno",
+              "en": "breakfast"
+            },
+            {
+              "es": "el almuerzo",
+              "en": "lunch"
+            },
+            {
+              "es": "la merienda",
+              "en": "snack"
+            },
+            {
+              "es": "la comida (principal)",
+              "en": "(main) meal / dinner (served midday in many Hispanic countries)"
+            },
+            {
+              "es": "la cena",
+              "en": "supper"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS UTENSILIOS",
+          "title-en": "UTENSILS",
+          "vocabulary": [
+            {
+              "es": "la cuchara",
+              "en": "spoon"
+            },
+            {
+              "es": "el cuchillo",
+              "en": "knife"
+            },
+            {
+              "es": "el plato",
+              "en": "plate"
+            },
+            {
+              "es": "el plato hondo",
+              "en": "bowl"
+            },
+            {
+              "es": "el tenedor",
+              "en": "fork"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA PREPARAR COMIDA",
+          "title-en": "TO PREPARE FOOD",
+          "vocabulary": [
+            {
+              "es": "batir",
+              "en": "to beat / to shake"
+            },
+            {
+              "es": "calentar (e>ie)",
+              "en": "to warm / to heat up"
+            },
+            {
+              "es": "cortar",
+              "en": "to cut"
+            },
+            {
+              "es": "freír (e>i)",
+              "en": "to fry"
+            },
+            {
+              "es": "hervir (e>ie)",
+              "en": "to boil"
+            },
+            {
+              "es": "mezclar",
+              "en": "to mix"
+            },
+            {
+              "es": "pelar",
+              "en": "to peel"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS PLATOS Y LAS PREPARACIONES",
+          "title-en": "DISHES AND PREPARATIONS",
+          "vocabulary": [
+            {
+              "es": "la ensalada (mixta)",
+              "en": "(mixed) salad"
+            },
+            {
+              "es": "el sándwich / el bocadillo (Spain)",
+              "en": "sandwich / sub"
+            },
+            {
+              "es": "la sopa",
+              "en": "soup"
+            },
+            {
+              "es": "a la parrilla",
+              "en": "grilled"
+            },
+            {
+              "es": "al horno",
+              "en": "baked"
+            },
+            {
+              "es": "al vapor",
+              "en": "steamed"
+            },
+            {
+              "es": "crudo/a",
+              "en": "raw"
+            },
+            {
+              "es": "frito/a",
+              "en": "fried"
+            },
+            {
+              "es": "vegano/a",
+              "en": "vegan"
+            },
+            {
+              "es": "vegetariano/a",
+              "en": "vegetarian"
+            },
+            {
+              "es": "servir (e>i) frío/caliente/a temperatura ambiente",
+              "en": "to serve cold/hot/room temperature"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA DESCRIBIR LAS COMIDAS",
+          "title-en": "TO DESCRIBE FOOD",
+          "vocabulary": [
+            {
+              "es": "agridulce",
+              "en": "sweet and sour, bittersweet"
+            },
+            {
+              "es": "amargo/a",
+              "en": "bitter"
+            },
+            {
+              "es": "casero/a",
+              "en": "homemade"
+            },
+            {
+              "es": "dulce",
+              "en": "sweet"
+            },
+            {
+              "es": "grasoso/a",
+              "en": "fatty"
+            },
+            {
+              "es": "liviano/a",
+              "en": "light"
+            },
+            {
+              "es": "picante",
+              "en": "spicy"
+            },
+            {
+              "es": "rico/a",
+              "en": "delicious"
+            },
+            {
+              "es": "sano/a",
+              "en": "healthy"
+            },
+            {
+              "es": "suave",
+              "en": "smooth"
+            },
+            {
+              "es": "Sabe a (ajo/pollo).",
+              "en": "Tastes like (garlic/ chicken)."
+            },
+            {
+              "es": "Sabe bien/mal.",
+              "en": "Tastes good/bad."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "Bi893vnl",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "jwzgHGeQ",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_08-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LAS PROTEÍNAS",
+          "title-en": "PROTEINS",
+          "vocabulary": [
+            {
+              "es": "la carne de res (picada)",
+              "en": "(ground) beef"
+            },
+            {
+              "es": "el chorizo",
+              "en": "(type of) sausage"
+            },
+            {
+              "es": "los huevos",
+              "en": "eggs"
+            },
+            {
+              "es": "el jamón",
+              "en": "ham"
+            },
+            {
+              "es": "los mariscos",
+              "en": "shellfish"
+            },
+            {
+              "es": "el pavo",
+              "en": "turkey"
+            },
+            {
+              "es": "el pescado",
+              "en": "fish"
+            },
+            {
+              "es": "el pollo",
+              "en": "chicken"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS FRUTAS Y LAS VERDURAS",
+          "title-en": "FRUITS AND VEGETABLES",
+          "vocabulary": [
+            {
+              "es": "las aceitunas",
+              "en": "olives"
+            },
+            {
+              "es": "el ajo",
+              "en": "garlic"
+            },
+            {
+              "es": "la banana / el plátano",
+              "en": "banana"
+            },
+            {
+              "es": "la cebolla",
+              "en": "onion"
+            },
+            {
+              "es": "el champiñón",
+              "en": "mushroom"
+            },
+            {
+              "es": "las fresas",
+              "en": "strawberries"
+            },
+            {
+              "es": "la lechuga",
+              "en": "lettuce"
+            },
+            {
+              "es": "la manzana",
+              "en": "apple"
+            },
+            {
+              "es": "la naranja",
+              "en": "orange"
+            },
+            {
+              "es": "las papas (Lat. Am.) / las patatas (Spain)",
+              "en": "potatoes"
+            },
+            {
+              "es": "el pimiento",
+              "en": "pepper"
+            },
+            {
+              "es": "el tomate",
+              "en": "tomato"
+            },
+            {
+              "es": "las uvas",
+              "en": "grapes"
+            },
+            {
+              "es": "la zanahoria",
+              "en": "carrot"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS GRANOS",
+          "title-en": "GRAINS",
+          "vocabulary": [
+            {
+              "es": "el arroz",
+              "en": "rice"
+            },
+            {
+              "es": "el pan (tostado / blanco / integral)",
+              "en": "(toasted / white / wheat) bread"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS PRODUCTOS LÁCTEOS",
+          "title-en": "DAIRY PRODUCTS",
+          "vocabulary": [
+            {
+              "es": "la leche (de soja / de almendra)",
+              "en": "(soy / almond) milk"
+            },
+            {
+              "es": "la mantequilla",
+              "en": "butter"
+            },
+            {
+              "es": "el queso",
+              "en": "cheese"
+            },
+            {
+              "es": "el yogur",
+              "en": "yogurt"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS CONDIMENTOS",
+          "title-en": "CONDIMENTS",
+          "vocabulary": [
+            {
+              "es": "el aceite (de oliva)",
+              "en": "(olive) oil"
+            },
+            {
+              "es": "con / sin",
+              "en": "with / without"
+            },
+            {
+              "es": "la pimienta",
+              "en": "pepper"
+            },
+            {
+              "es": "la sal",
+              "en": "salt"
+            },
+            {
+              "es": "el vinagre",
+              "en": "vinegar"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "aYKM47yE",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "J4ldngRc",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_07-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "PARA PARTICIPAR EN DEPORTES",
+          "title-en": "TO PARTICIPATE IN SPORTS",
+          "vocabulary": [
+            {
+              "es": "aliviar el estrés",
+              "en": "to relieve stress"
+            },
+            {
+              "es": "apuntar(se)",
+              "en": "to sign up"
+            },
+            {
+              "es": "conectar(se)",
+              "en": "to connect"
+            },
+            {
+              "es": "contactar(se)",
+              "en": "to contact"
+            },
+            {
+              "es": "entrenar (en equipo, solo)",
+              "en": "to train (with a team, alone)"
+            },
+            {
+              "es": "juntar(se)",
+              "en": "to get together"
+            },
+            {
+              "es": "participar",
+              "en": "to participate"
+            },
+            {
+              "es": "poner(se) en forma",
+              "en": "to get in shape"
+            },
+            {
+              "es": "sentir(se) (e>ie)",
+              "en": "to feel"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS EMOCIONES",
+          "title-en": "EMOTIONS",
+          "vocabulary": [
+            {
+              "es": "decepcionado/a",
+              "en": "disappointed"
+            },
+            {
+              "es": "deportivo/a",
+              "en": "sporty"
+            },
+            {
+              "es": "deprimido/a",
+              "en": "depressed"
+            },
+            {
+              "es": "desilusionado/a",
+              "en": "disappointed"
+            },
+            {
+              "es": "entusiasmado/a",
+              "en": "enthusiastic / excited"
+            },
+            {
+              "es": "equilibrado/a",
+              "en": "balanced"
+            },
+            {
+              "es": "feliz",
+              "en": "happy"
+            },
+            {
+              "es": "frustrado/a",
+              "en": "frustrated"
+            },
+            {
+              "es": "ilusionado/a",
+              "en": "excited"
+            },
+            {
+              "es": "motivado/a",
+              "en": "motivated, excited"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "q4s3Ou8x",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "uL2PFcwE",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_11-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LAS PRENDAS DE VESTIR",
+          "title-en": "ARTICLES OF CLOTHING",
+          "vocabulary": [
+            {
+              "es": "el abrigo",
+              "en": "coat / overcoat"
+            },
+            {
+              "es": "los calcetines",
+              "en": "socks"
+            },
+            {
+              "es": "la camisa",
+              "en": "shirt"
+            },
+            {
+              "es": "la camiseta",
+              "en": "t-shirt"
+            },
+            {
+              "es": "el chaleco",
+              "en": "vest"
+            },
+            {
+              "es": "la chaqueta /el saco",
+              "en": "jacket"
+            },
+            {
+              "es": "la (mini)falda",
+              "en": "(mini)skirt"
+            },
+            {
+              "es": "las mallas",
+              "en": "leggings"
+            },
+            {
+              "es": "las medias",
+              "en": "tights / pantyhose"
+            },
+            {
+              "es": "los pantalones",
+              "en": "pants"
+            },
+            {
+              "es": "los pantalones cortos",
+              "en": "shorts"
+            },
+            {
+              "es": "la sudadera",
+              "en": "sweatshirt"
+            },
+            {
+              "es": "el suéter",
+              "en": "sweater"
+            },
+            {
+              "es": "el traje de baño",
+              "en": "bathing suit"
+            },
+            {
+              "es": "el vestido",
+              "en": "dress"
+            },
+            {
+              "es": "los vaqueros / los jeans",
+              "en": "jeans"
+            }
+          ]
+        },
+        {
+          "title-es": "EL CALZADO",
+          "title-en": "FOOTWEAR",
+          "vocabulary": [
+            {
+              "es": "las botas",
+              "en": "boots"
+            },
+            {
+              "es": "las chanclas",
+              "en": "flip flops"
+            },
+            {
+              "es": "las sandalias",
+              "en": "sandals"
+            },
+            {
+              "es": "las zapatillas (de tenis)",
+              "en": "tennis shoes / gym shoes"
+            },
+            {
+              "es": "los zapatos",
+              "en": "shoes"
+            },
+            {
+              "es": "los zapatos de tacón / los tacones altos",
+              "en": "high heels"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA DECIR CÓMO QUEDA LA ROPA",
+          "title-en": "TO SAY HOW CLOTHES LOOK",
+          "vocabulary": [
+            {
+              "es": "la cintura",
+              "en": "waist"
+            },
+            {
+              "es": "el conjunto",
+              "en": "outfit"
+            },
+            {
+              "es": "el estilo",
+              "en": "style"
+            },
+            {
+              "es": "el glúteo",
+              "en": "gluteus (to refer to \"rear\")"
+            },
+            {
+              "es": "la moda",
+              "en": "fashion"
+            },
+            {
+              "es": "el número",
+              "en": "size (for shoes)"
+            },
+            {
+              "es": "el pecho",
+              "en": "the chest"
+            },
+            {
+              "es": "la silueta",
+              "en": "silhouette"
+            },
+            {
+              "es": "la talla",
+              "en": "size (for clothing)"
+            },
+            {
+              "es": "el toque personal",
+              "en": "(individual) touch"
+            },
+            {
+              "es": "destacar",
+              "en": "to draw attention to/ to highlight"
+            },
+            {
+              "es": "disimular",
+              "en": "to detract attention from / to downplay"
+            },
+            {
+              "es": "elegir (j)",
+              "en": "to choose"
+            },
+            {
+              "es": "llevar",
+              "en": "to wear"
+            },
+            {
+              "es": "quedarle bien/mal (quedar)",
+              "en": "to look good/bad"
+            },
+            {
+              "es": "Me queda bien.",
+              "en": "It looks good/fits well."
+            },
+            {
+              "es": "No me queda bien.",
+              "en": "It doesn't look good on me. / It doesn't fit me well."
+            },
+            {
+              "es": "¡Te queda muy bien!",
+              "en": "It looks really good on you!"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA COMPRAR",
+          "title-en": "TO SHOP",
+          "vocabulary": [
+            {
+              "es": "comprar (en línea)",
+              "en": "to buy (online)"
+            },
+            {
+              "es": "devolver (ue)",
+              "en": "to return"
+            },
+            {
+              "es": "pagar",
+              "en": "to pay"
+            },
+            {
+              "es": "probar(se) (ue)",
+              "en": "to try on"
+            },
+            {
+              "es": "quedárselo(s) / quedársela(s)",
+              "en": "to keep it/them"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "Ejtqowan",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "9qN08uHG",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_10-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LA SALUD",
+          "title-en": "HEALTH",
+          "vocabulary": [
+            {
+              "es": "el/la cirujano/a",
+              "en": "surgeon"
+            },
+            {
+              "es": "el/la consejero/a",
+              "en": "counselor"
+            },
+            {
+              "es": "el/la dentista",
+              "en": "dentist"
+            },
+            {
+              "es": "el/la director/a del hospital",
+              "en": "hospital director"
+            },
+            {
+              "es": "el/la enfermero/a",
+              "en": "nurse"
+            },
+            {
+              "es": "el/la farmacéutico/a",
+              "en": "pharmacist"
+            },
+            {
+              "es": "el/la fisioterapeuta",
+              "en": "physical therapist"
+            },
+            {
+              "es": "el/la médico/a",
+              "en": "doctor (of medicine)"
+            },
+            {
+              "es": "el /la psicólogo/a",
+              "en": "psychologist"
+            },
+            {
+              "es": "cuidar",
+              "en": "to care for"
+            },
+            {
+              "es": "curar",
+              "en": "to cure"
+            },
+            {
+              "es": "preparar (medicamentos)",
+              "en": "to prepare (medication)"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS NEGOCIOS",
+          "title-en": "BUSINESS",
+          "vocabulary": [
+            {
+              "es": "el/la asesor/a financiero/a",
+              "en": "financial advisor"
+            },
+            {
+              "es": "el/la contador/a",
+              "en": "accountant"
+            },
+            {
+              "es": "el/la ejecutivo/a",
+              "en": "executive"
+            },
+            {
+              "es": "el/la gerente",
+              "en": "manager"
+            },
+            {
+              "es": "aconsejar",
+              "en": "to advise"
+            },
+            {
+              "es": "administrar (una compañía)",
+              "en": "to run, to manage (a company)"
+            },
+            {
+              "es": "comprar",
+              "en": "to buy"
+            },
+            {
+              "es": "ganar dinero",
+              "en": "to earn money"
+            },
+            {
+              "es": "invertir",
+              "en": "to invest"
+            },
+            {
+              "es": "vender",
+              "en": "to sell"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS CIENCIAS, LA INGENIERÍA, EL DISEÑO Y LA COMPUTACIÓN",
+          "title-en": "SCIENCE, ENGINEERING, DESIGN AND COMPUTING",
+          "vocabulary": [
+            {
+              "es": "el/la arquitecto/a",
+              "en": "architect"
+            },
+            {
+              "es": "el/la científico/a",
+              "en": "scientist"
+            },
+            {
+              "es": "el /la diseñador/a",
+              "en": "designer"
+            },
+            {
+              "es": "el/la ecologista",
+              "en": "ecologist"
+            },
+            {
+              "es": "el/la ingeniero/a",
+              "en": "engineer"
+            },
+            {
+              "es": "el /la programador/a de computación",
+              "en": "computer programmer"
+            },
+            {
+              "es": "analizar",
+              "en": "analyze"
+            },
+            {
+              "es": "diseñar",
+              "en": "design"
+            },
+            {
+              "es": "programar",
+              "en": "program"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "uHUcTmCD",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "zeSNbLvt",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_11-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS ACCESORIOS",
+          "title-en": "ACCESSORIES",
+          "vocabulary": [
+            {
+              "es": "el anillo",
+              "en": "ring"
+            },
+            {
+              "es": "el bolso",
+              "en": "purse"
+            },
+            {
+              "es": "la bufanda",
+              "en": "scarf"
+            },
+            {
+              "es": "el cinturón",
+              "en": "belt"
+            },
+            {
+              "es": "el collar",
+              "en": "necklace"
+            },
+            {
+              "es": "la corbata",
+              "en": "tie"
+            },
+            {
+              "es": "las gafas (de sol)",
+              "en": "the (sun)glasses"
+            },
+            {
+              "es": "el gorro",
+              "en": "winter hat"
+            },
+            {
+              "es": "el maletín",
+              "en": "briefcase"
+            },
+            {
+              "es": "el pañuelo",
+              "en": "scarf / handkerchief"
+            },
+            {
+              "es": "la pulsera",
+              "en": "bracelet"
+            },
+            {
+              "es": "el reloj",
+              "en": "watch"
+            },
+            {
+              "es": "el sombrero",
+              "en": "hat"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS ESTILOS",
+          "title-en": "STYLES",
+          "vocabulary": [
+            {
+              "es": "ajustado/a",
+              "en": "tight"
+            },
+            {
+              "es": "arreglado/a",
+              "en": "put together"
+            },
+            {
+              "es": "arriesgado/a",
+              "en": "daring"
+            },
+            {
+              "es": "clásico/a",
+              "en": "classic, / conservative"
+            },
+            {
+              "es": "cómodo/a",
+              "en": "comfortable"
+            },
+            {
+              "es": "deportivo/a",
+              "en": "sporty"
+            },
+            {
+              "es": "elegante",
+              "en": "elegant"
+            },
+            {
+              "es": "entallado/a",
+              "en": "fitted"
+            },
+            {
+              "es": "formal",
+              "en": "formal"
+            },
+            {
+              "es": "holgado/a",
+              "en": "loose"
+            },
+            {
+              "es": "informal",
+              "en": "casual"
+            },
+            {
+              "es": "profesional",
+              "en": "professional"
+            },
+            {
+              "es": "recto/a",
+              "en": "straight"
+            },
+            {
+              "es": "relajado/a",
+              "en": "relaxed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "9HRH7qNj",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "7Q2ZdLEV",
+    "dataset": "unassigned",
+    "filename": "Contrasena_Vocabulario_12-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS LUGARES",
+          "title-en": "PLACES",
+          "vocabulary": [
+            {
+              "es": "el cañón",
+              "en": "canyon"
+            },
+            {
+              "es": "la cascada",
+              "en": "waterfall"
+            },
+            {
+              "es": "el desierto",
+              "en": "desert"
+            },
+            {
+              "es": "la montaña",
+              "en": "mountain"
+            },
+            {
+              "es": "el paisaje",
+              "en": "landscape"
+            },
+            {
+              "es": "la playa",
+              "en": "beach"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS MEDIOS DE TRANSPORTE",
+          "title-en": "MEANS OF TRANSPORTATION",
+          "vocabulary": [
+            {
+              "es": "ir en autobús",
+              "en": "to go in/by bus"
+            },
+            {
+              "es": "ir en carro (Am. Lat.) / coche (Esp.)",
+              "en": "to go in/by car"
+            },
+            {
+              "es": "ir en tren",
+              "en": "to go in/by train"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS ACTIVIDADES",
+          "title-en": "ACTIVITIES",
+          "vocabulary": [
+            {
+              "es": "andar/montar en bicicleta (de montaña)",
+              "en": "to ride a (mountain) bike"
+            },
+            {
+              "es": "bucear",
+              "en": "to go scuba diving"
+            },
+            {
+              "es": "explorar una cueva",
+              "en": "to explore a cave"
+            },
+            {
+              "es": "hacer/practicar paracaidismo",
+              "en": "(to go) skydiving"
+            },
+            {
+              "es": "hacer/practicar senderismo",
+              "en": "(to go) trekking"
+            },
+            {
+              "es": "hacer vía ferrata",
+              "en": "mountain route equipped with fixed ladders, cables, and bridges to be accessible to climbers and walkers"
+            },
+            {
+              "es": "montar a caballo",
+              "en": "to ride a horse"
+            },
+            {
+              "es": "observar la puesta del sol",
+              "en": "watch the sunset"
+            },
+            {
+              "es": "practicar tirolesa",
+              "en": "to do zip lining"
+            }
+          ]
+        },
+        {
+          "title-es": "MEDIOAMBIENTE Y EL ECOTURISMO",
+          "title-en": "THE ENVIRONMENT AND ECOTOURISM",
+          "vocabulary": [
+            {
+              "es": "el ave (sing.), las aves (pl.)",
+              "en": "bird, birds"
+            },
+            {
+              "es": "la biodiversidad",
+              "en": "biodiversity"
+            },
+            {
+              "es": "el cambio climático",
+              "en": "climate change"
+            },
+            {
+              "es": "la conciencia ambiental",
+              "en": "environmental awareness"
+            },
+            {
+              "es": "la contaminación",
+              "en": "pollution"
+            },
+            {
+              "es": "la deforestación",
+              "en": "deforestation"
+            },
+            {
+              "es": "la ecología",
+              "en": "ecology"
+            },
+            {
+              "es": "la especie (en peligro de extinción)",
+              "en": "(endangered) species"
+            },
+            {
+              "es": "la inundación",
+              "en": "floods"
+            },
+            {
+              "es": "el medioambiente",
+              "en": "environment"
+            },
+            {
+              "es": "la naturaleza",
+              "en": "nature"
+            },
+            {
+              "es": "la población",
+              "en": "population"
+            },
+            {
+              "es": "los recursos naturales",
+              "en": "natural resources"
+            },
+            {
+              "es": "el santuario natural",
+              "en": "nature preserve"
+            },
+            {
+              "es": "la sequía",
+              "en": "droughts"
+            },
+            {
+              "es": "la tierra",
+              "en": "land (when capitalized, refers to planet Earth)"
+            },
+            {
+              "es": "la tortuga (marina)",
+              "en": "(sea) turtle"
+            },
+            {
+              "es": "concientizar",
+              "en": "to raise awareness"
+            },
+            {
+              "es": "dejar huella",
+              "en": "to leave a footprint"
+            },
+            {
+              "es": "preservar",
+              "en": "to preserve"
+            },
+            {
+              "es": "proteger",
+              "en": "to protect"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "R4YLHX4V",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "83AZFNCy",
+    "dataset": "spn1131",
+    "filename": "Contrasena_Vocabulario_12-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "PALABRAS INDEFINIDAS",
+          "title-en": "INDEFINITE WORDS",
+          "vocabulary": [
+            {
+              "es": "algo",
+              "en": "something, anything"
+            },
+            {
+              "es": "alguien",
+              "en": "someone, somebody, anyone"
+            },
+            {
+              "es": "algún, alguno/a(s)",
+              "en": "some, any"
+            },
+            {
+              "es": "alguna vez",
+              "en": "sometimes, ever, once"
+            },
+            {
+              "es": "O ... 0",
+              "en": "(either ... ) or"
+            },
+            {
+              "es": "siempre",
+              "en": "always"
+            },
+            {
+              "es": "también",
+              "en": "also, too"
+            }
+          ]
+        },
+        {
+          "title-es": "PALABRAS NEGATIVAS",
+          "title-en": "NEGATIVE WORDS",
+          "vocabulary": [
+            {
+              "es": "nada",
+              "en": "Nothing, not anything"
+            },
+            {
+              "es": "nadie",
+              "en": "no one, nobody, not anyone"
+            },
+            {
+              "es": "ningún, ninguno/a",
+              "en": "no, none, not any"
+            },
+            {
+              "es": "ni ... ni",
+              "en": "neither ... nor"
+            },
+            {
+              "es": "nunca",
+              "en": "never, not ever"
+            },
+            {
+              "es": "tampoco",
+              "en": "not either, neither"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "40HXbb9r",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "1OjNrpHa",
+    "dataset": "spn1131",
+    "filename": "Contrasena_Vocabulario_10-2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LA EDUCACIÓN",
+          "title-en": "EDUCATION",
+          "vocabulary": [
+            {
+              "es": "el/la investigador/a",
+              "en": "researcher"
+            },
+            {
+              "es": "el/la maestro/a",
+              "en": "teacher"
+            },
+            {
+              "es": "el/la profesor/a",
+              "en": "professor"
+            },
+            {
+              "es": "educar",
+              "en": "to educate"
+            },
+            {
+              "es": "enseñar",
+              "en": "to teach"
+            },
+            {
+              "es": "investigar",
+              "en": "to research"
+            },
+            {
+              "es": "mejorar (la sociedad)",
+              "en": "to make (society) better"
+            },
+            {
+              "es": "motivar",
+              "en": "to motivate"
+            }
+          ]
+        },
+        {
+          "title-es": "LA SEGURIDAD PÚBLICA Y LA LEY",
+          "title-en": "PUBLIC SAFETY AND THE LAW",
+          "vocabulary": [
+            {
+              "es": "el/la abogado/a",
+              "en": "lawyer"
+            },
+            {
+              "es": "el/la agente federal",
+              "en": "federal agent"
+            },
+            {
+              "es": "el/la defensor/a público/a",
+              "en": "public defender"
+            },
+            {
+              "es": "el/la fiscal",
+              "en": "prosecutor"
+            },
+            {
+              "es": "las fuerzas armadas",
+              "en": "armed forces"
+            },
+            {
+              "es": "el/la juez/a",
+              "en": "judge"
+            },
+            {
+              "es": "la ley",
+              "en": "law"
+            },
+            {
+              "es": "el/la militar",
+              "en": "soldier"
+            },
+            {
+              "es": "el/la policía",
+              "en": "police officer"
+            },
+            {
+              "es": "defender",
+              "en": "to defend"
+            },
+            {
+              "es": "proteger",
+              "en": "to protect"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS MEDIOS DE COMUNICACIÓN",
+          "title-en": "THE MEDIA",
+          "vocabulary": [
+            {
+              "es": "el/la consultor/a (de mercadeo)",
+              "en": "(marketing) consultant"
+            },
+            {
+              "es": "el/la periodista",
+              "en": "journalist"
+            },
+            {
+              "es": "el/la publicista",
+              "en": "advertising agent"
+            },
+            {
+              "es": "el/la relacionista público/a",
+              "en": "public relations agent"
+            },
+            {
+              "es": "convencer",
+              "en": "to convince"
+            },
+            {
+              "es": "informar",
+              "en": "to inform"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "DApn9M3T",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "F0GWxJyg",
+    "dataset": "spn1131",
+    "filename": "2026-01-28-14-55-Contrasena_Vocabulario_07-1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LAS ACTIVIDADES Y LOS DEPORTES",
+          "title-en": "ACTIVITIES AND SPORTS",
+          "vocabulary": [
+            {
+              "es": "escalar montañas",
+              "en": "to mountain climb"
+            },
+            {
+              "es": "esquiar",
+              "en": "to ski"
+            },
+            {
+              "es": "montar a caballo",
+              "en": "to ride horseback"
+            },
+            {
+              "es": "nadar",
+              "en": "to swim"
+            },
+            {
+              "es": "pasear en bicicleta",
+              "en": "to ride a bike"
+            },
+            {
+              "es": "patinar (en línea, sobre hielo)",
+              "en": "to skate (to rollerblade/to in-line skate, to ice-skate)"
+            }
+          ]
+        },
+        {
+          "title-es": "JUGAR (U>UE) AL ...",
+          "title-en": "TO PLAY ...",
+          "vocabulary": [
+            {
+              "es": "(el) básquetbol",
+              "en": "basketball"
+            },
+            {
+              "es": "(el) béisbol",
+              "en": "baseball"
+            },
+            {
+              "es": "(el) fútbol",
+              "en": "soccer"
+            },
+            {
+              "es": "(el) fútbol americano",
+              "en": "American football"
+            },
+            {
+              "es": "(el) golf",
+              "en": "golf"
+            },
+            {
+              "es": "(el) hockey",
+              "en": "hockey"
+            },
+            {
+              "es": "(el) tenis",
+              "en": "tennis"
+            },
+            {
+              "es": "(el) vóleibol",
+              "en": "volleyball"
+            }
+          ]
+        },
+        {
+          "title-es": "PRACTICAR/ HACER ...",
+          "title-en": "TO PRACTICE/ TO DO ...",
+          "vocabulary": [
+            {
+              "es": "(la) caminata",
+              "en": "walking/hiking"
+            },
+            {
+              "es": "(el) ciclismo",
+              "en": "cycling"
+            },
+            {
+              "es": "(el) esquí acuático",
+              "en": "water skiing"
+            },
+            {
+              "es": "(la) natación",
+              "en": "swimming"
+            },
+            {
+              "es": "(el) surf",
+              "en": "surfing"
+            },
+            {
+              "es": "(el) yoga",
+              "en": "yoga"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS RESULTADOS",
+          "title-en": "RESULTS",
+          "vocabulary": [
+            {
+              "es": "empatar",
+              "en": "to tie"
+            },
+            {
+              "es": "ganar",
+              "en": "to win"
+            },
+            {
+              "es": "perder (e>ie)",
+              "en": "to lose"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS PERSONAS",
+          "title-en": "PEOPLE",
+          "vocabulary": [
+            {
+              "es": "el/la aficionado/a (ser un/a aficionado/a)",
+              "en": "sports fan (to be a sports fan)"
+            },
+            {
+              "es": "el/la atleta",
+              "en": "athlete"
+            },
+            {
+              "es": "el/la corredor/a",
+              "en": "runner"
+            },
+            {
+              "es": "el/la entrenador/a",
+              "en": "trainer"
+            },
+            {
+              "es": "el equipo",
+              "en": "team"
+            },
+            {
+              "es": "el/la jugador(a)",
+              "en": "player"
+            }
+          ]
+        },
+        {
+          "title-es": "EL EQUIPO, LOS LUGARES Y LOS EVENTOS",
+          "title-en": "EQUIPMENT, PLACES AND EVENTS",
+          "vocabulary": [
+            {
+              "es": "el campo",
+              "en": "field / course"
+            },
+            {
+              "es": "la cancha (de tenis, de fútbol)",
+              "en": "(tennis) court, (soccer) field"
+            },
+            {
+              "es": "la carrera",
+              "en": "race"
+            },
+            {
+              "es": "la competición/la competencia",
+              "en": "competition"
+            },
+            {
+              "es": "el estadio",
+              "en": "stadium"
+            },
+            {
+              "es": "la liga",
+              "en": "league"
+            },
+            {
+              "es": "el partido",
+              "en": "game/match"
+            },
+            {
+              "es": "la pelota",
+              "en": "ball"
+            },
+            {
+              "es": "las pesas",
+              "en": "weights"
+            },
+            {
+              "es": "la piscina",
+              "en": "(swimming) pool"
+            },
+            {
+              "es": "la (semi)final",
+              "en": "(semi) final game/ match"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

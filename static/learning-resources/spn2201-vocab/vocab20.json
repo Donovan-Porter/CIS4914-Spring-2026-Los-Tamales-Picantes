@@ -1,0 +1,196 @@
+{
+  "groups": [
+    {
+      "title-es": "SOBRE AARÓN",
+      "title-en": "ABOUT AARÓN",
+      "vocabulary": [
+        {
+          "es": "el/la bloguero/a",
+          "en": "blogger"
+        }
+      ]
+    },
+    {
+      "title-es": "SUS OBJETIVOS Y SUEÑOS",
+      "title-en": "HIS GOALS AND DREAMS",
+      "vocabulary": [
+        {
+          "es": "distinguir(se)",
+          "en": "to distinguish (oneself), to stand out"
+        },
+        {
+          "es": "hacer un sueño realidad",
+          "en": "to make a dream come true"
+        },
+        {
+          "es": "sentir(se) valorado/a",
+          "en": "to feel valued"
+        },
+        {
+          "es": "ser un referente (para mi pueblo)",
+          "en": "to be a model (for my people)"
+        }
+      ]
+    },
+    {
+      "title-es": "SUS TAREAS DE INFLUENCER",
+      "title-en": "HIS TASKS AS INFLUENCER",
+      "vocabulary": [
+        {
+          "es": "asistir a (eventos)",
+          "en": "to attend (events)"
+        },
+        {
+          "es": "dar consejos sobre (moda de hombre y belleza masculina)",
+          "en": "to give advice on (fashion for men and male beauty)"
+        },
+        {
+          "es": "grabar(se)",
+          "en": "to record (oneself)"
+        },
+        {
+          "es": "hacer publicaciones",
+          "en": "to post"
+        },
+        {
+          "es": "recibir productos y paquetes",
+          "en": "to receive products and packages"
+        },
+        {
+          "es": "subir contenido a (historias)",
+          "en": "to upload content to (stories)"
+        },
+        {
+          "es": "tener un canal de YouTube",
+          "en": "to have a YouTube channel"
+        }
+      ]
+    },
+    {
+      "title-es": "SUS DESAFÍOS",
+      "title-en": "HIS CHALLENGES",
+      "vocabulary": [
+        {
+          "es": "hacer el ridículo",
+          "en": "to make a fool of oneself"
+        },
+        {
+          "es": "juntar (los estudios) con ...",
+          "en": "to juggle (studies) with ..."
+        },
+        {
+          "es": "los odiadores, los enemigos",
+          "en": "haters"
+        }
+      ]
+    },
+    {
+      "title-es": "EL FENÓMENO DE LOS INFLUENCERS",
+      "title-en": "THE PHENOMENON OF INFLUENCERS",
+      "vocabulary": [
+        {
+          "es": "acumular suscriptores",
+          "en": "to get subscribers"
+        },
+        {
+          "es": "el creador/la creadora de contenido",
+          "en": "content creator"
+        },
+        {
+          "es": "conceder (una entrevista)",
+          "en": "to grant (an interview)"
+        },
+        {
+          "es": "dar el botón de \"(no) me gusta\"",
+          "en": "to click the \"like/dislike\" button"
+        },
+        {
+          "es": "la herramienta de trabajo",
+          "en": "work tool"
+        },
+        {
+          "es": "humanizar las marcas",
+          "en": "to humanize brands"
+        },
+        {
+          "es": "identificar(se) con la marca",
+          "en": "to identify oneself with the brand"
+        },
+        {
+          "es": "ofrecer la oportunidad de (comunicar/ vender)",
+          "en": "to offer the opportunity to (communicate/ sell)"
+        },
+        {
+          "es": "profesionalizar(se)",
+          "en": "to become a professional"
+        },
+        {
+          "es": "ser falso/a",
+          "en": "to be fake"
+        },
+        {
+          "es": "ser natural, auténtico/a",
+          "en": "to be natural, authentic"
+        },
+        {
+          "es": "suministrar (productos)",
+          "en": "to supply (products)"
+        },
+        {
+          "es": "tener capacidad de (influir)",
+          "en": "to have the ability to (influence)"
+        },
+        {
+          "es": "tener una responsabilidad social",
+          "en": "to have a social responsibility"
+        },
+        {
+          "es": "el/la usuario/a de (Instagram)",
+          "en": "(Instagram) user"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS PELIGROS DE LA INDUSTRIA",
+      "title-en": "THE DANGERS OF THE INDUSTRY",
+      "vocabulary": [
+        {
+          "es": "comprar seguidores",
+          "en": "to buy followers"
+        },
+        {
+          "es": "la falta de protección al consumidor",
+          "en": "lack of consumer protection"
+        },
+        {
+          "es": "la forma de publicidad efectiva",
+          "en": "effective form of advertising"
+        },
+        {
+          "es": "la granja de bots",
+          "en": "bot farm"
+        },
+        {
+          "es": "hacer campaña con influencers",
+          "en": "to create/do a campaign with influencers"
+        },
+        {
+          "es": "mostrar el lado perfecto",
+          "en": "to show the perfect side"
+        },
+        {
+          "es": "regular el fenómeno",
+          "en": "to regulate the phenomenon"
+        },
+        {
+          "es": "ser un fraude",
+          "en": "to be a fraud"
+        },
+        {
+          "es": "ser un (gran/buen/mal) negocio",
+          "en": "to be a (great/good/bad) business"
+        }
+      ]
+    }
+  ]
+}

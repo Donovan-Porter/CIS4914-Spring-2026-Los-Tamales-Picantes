@@ -1,0 +1,267 @@
+{
+    "groups": [
+        {
+            "title": "EXPRESS TIME ON THE DOT",
+            "examples": [
+                {
+                    "integral": "On the dot.",
+                    "derivative": "En punto."
+                },
+                {
+                    "integral": "It's one o'clock.",
+                    "derivative": "Es la una."
+                },
+                {
+                    "integral": "It's two o'clock.",
+                    "derivative": "Son las dos."
+                },
+                {
+                    "integral": "It's three o'clock.",
+                    "derivative": "Son las tres."
+                },
+                {
+                    "integral": "It's four o'clock.",
+                    "derivative": "Son las cuatro."
+                },
+                {
+                    "integral": "It's five o'clock.",
+                    "derivative": "Son las cinco."
+                },
+                {
+                    "integral": "It's six o'clock.",
+                    "derivative": "Son las seis."
+                },
+                {
+                    "integral": "It's seven o'clock.",
+                    "derivative": "Son las siete."
+                },
+                {
+                    "integral": "It's eight o'clock.",
+                    "derivative": "Son las ocho."
+                },
+                {
+                    "integral": "It's nine o'clock.",
+                    "derivative": "Son las nueve."
+                },
+                {
+                    "integral": "It's ten o'clock.",
+                    "derivative": "Son las diez."
+                },
+                {
+                    "integral": "It's eleven o'clock.",
+                    "derivative": "Son las once."
+                },
+                {
+                    "integral": "It's twelve o'clock.",
+                    "derivative": "Son las doce."
+                },
+                {
+                    "integral": "It's noon.",
+                    "derivative": "Es el mediodía."
+                },
+                {
+                    "integral": "It's midnight.",
+                    "derivative": "Es la medianoche."
+                }
+            ]
+        },
+        {
+            "title": "EXPRESS TIME WITH MINUTES",
+            "examples": [
+                {
+                    "integral": "It's ten after ten.",
+                    "derivative": "Son las diez y diez."
+                },
+                {
+                    "integral": "It's a quarter past ten.",
+                    "derivative": "Son las diez y cuarto."
+                },
+                {
+                    "integral": "It's fifteen minutes past ten.",
+                    "derivative": "Son las diez y quince."
+                },
+                {
+                    "integral": "It's half past ten.",
+                    "derivative": "Son las diez y media."
+                },
+                {
+                    "integral": "It's ten-thirty.",
+                    "derivative": "Son las diez y treinta."
+                },
+                {
+                    "integral": "It's twenty minutes before eleven.",
+                    "derivative": "Son las onces menos veinte."
+                },
+                {
+                    "integral": "It's ten-forty.",
+                    "derivative": "Son las diez y cuarenta."
+                },
+                {
+                    "integral": "It's a quarter to eleven.",
+                    "derivative": "Son las once menos cuarto."
+                },
+                {
+                    "integral": "It's ten-forty-five.",
+                    "derivative": "Son las diez y cuarenta y cinco."
+                },
+                {
+                    "integral": "It's five til eleven.",
+                    "derivative": "Son las once menos cinco."
+                },
+                {
+                    "integral": "It's ten-fifty-five.",
+                    "derivative": "Son las diez y cincuenta y cinco."
+                }
+            ]
+        },
+        {
+            "title": "TIMES OF DAY",
+            "examples": [
+                {
+                    "integral": "In the morning.",
+                    "derivative": "De la mañana."
+                },
+                {
+                    "integral": "In the afternoon.",
+                    "derivative": "De la tarde."
+                },
+                {
+                    "integral": "In the evening.",
+                    "derivative": "De la noche."
+                }
+            ]
+        },
+        {
+            "title": "TO GO",
+            "examples": [
+                {
+                    "integral": "I'm going to practice yoga this afternoon. (drop subject)",
+                    "derivative": "Voy a practicar yoga esta tarde."
+                },
+                {
+                    "integral": "Are you going out Saturday night? (informal, drop subject)",
+                    "derivative": "¿Vas a salir el sábado por la noche?"
+                }
+            ]
+        },
+        {
+            "title": "HAVE TO",
+            "examples": [
+                {
+                    "integral": "We have to work this afternoon. (drop subject)",
+                    "derivative": "Tenemos que trabajar esta tarde."
+                },
+                {
+                    "integral": "Do they have to study in the morning? (drop subject)",
+                    "derivative": "¿Tienen que estudiar por la mañana?"
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF IR",
+            "examples": [
+                {
+                    "integral": "I go.",
+                    "derivative": "Yo voy."
+                },
+                {
+                    "integral": "You go. (informal)",
+                    "derivative": "Tú vas."
+                },
+                {
+                    "integral": "You go. (formal)",
+                    "derivative": "Usted va."
+                },
+                {
+                    "integral": "He goes.",
+                    "derivative": "Él va."
+                },
+                {
+                    "integral": "She goes.",
+                    "derivative": "Ella va."
+                },
+                {
+                    "integral": "We go. (masculine or mixed)",
+                    "derivative": "Nosotros vamos."
+                },
+                {
+                    "integral": "We go. (feminine)",
+                    "derivative": "Nosotras vamos."
+                },
+                {
+                    "integral": "You all go. (masculine, informal Castillian)",
+                    "derivative": "Vosotros vais."
+                },
+                {
+                    "integral": "You all go. (feminine, informal Castillian)",
+                    "derivative": "Vosotras vais."
+                },
+                {
+                    "integral": "You all go. (formal or informal American)",
+                    "derivative": "Ustedes van."
+                },
+                {
+                    "integral": "They all go. (masculine)",
+                    "derivative": "Ellos van."
+                },
+                {
+                    "integral": "They all go. (feminine)",
+                    "derivative": "Ellas van."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF TENER",
+            "examples": [
+                {
+                    "integral": "I have.",
+                    "derivative": "Yo tengo."
+                },
+                {
+                    "integral": "You have. (informal)",
+                    "derivative": "Tú tienes."
+                },
+                {
+                    "integral": "You have. (formal)",
+                    "derivative": "Usted tiene."
+                },
+                {
+                    "integral": "He has.",
+                    "derivative": "Él tiene."
+                },
+                {
+                    "integral": "She has.",
+                    "derivative": "Ella tiene."
+                },
+                {
+                    "integral": "We have. (masculine)",
+                    "derivative": "Nosotros tenemos."
+                },
+                {
+                    "integral": "We have. (feminine)",
+                    "derivative": "Nosotras tenemos."
+                },
+                {
+                    "integral": "You all have. (masculine, informal Castillian)",
+                    "derivative": "Vosotros tenéis."
+                },
+                {
+                    "integral": "You all have. (feminine, informal Castillian)",
+                    "derivative": "Vosotras tenéis."
+                },
+                {
+                    "integral": "You all have. (formal or informal American)",
+                    "derivative": "Ustedes tiene."
+                },
+                {
+                    "integral": "They all have. (masculine)",
+                    "derivative": "Ellos tienen."
+                },
+                {
+                    "integral": "They all have. (feminine)",
+                    "derivative": "Ellas tienen."
+                }
+            ]
+        }
+    ]
+}

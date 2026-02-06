@@ -1,0 +1,332 @@
+{
+  "groups": [
+    {
+      "title-es": "LAS PERSONAS",
+      "title-en": "PEOPLE",
+      "vocabulary": [
+        {
+          "es": "el/la artista",
+          "en": "artist"
+        },
+        {
+          "es": "el/la coleccionista",
+          "en": "collector"
+        },
+        {
+          "es": "la comunidad artística",
+          "en": "artistic community"
+        },
+        {
+          "es": "el/la crítico/a de arte",
+          "en": "art critic"
+        },
+        {
+          "es": "el equipo",
+          "en": "team"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS LUGARES Y LOS EVENTOS",
+      "title-en": "PLACES AND EVENTS",
+      "vocabulary": [
+        {
+          "es": "la casa propia",
+          "en": "one's own house"
+        },
+        {
+          "es": "la colección",
+          "en": "collection"
+        },
+        {
+          "es": "la exposición",
+          "en": "exhibit"
+        },
+        {
+          "es": "la galería",
+          "en": "gallery"
+        },
+        {
+          "es": "la muestra",
+          "en": "exhibition / showing"
+        },
+        {
+          "es": "el museo (fantasma)",
+          "en": "(ghost) museum"
+        },
+        {
+          "es": "el plano",
+          "en": "blueprint"
+        },
+        {
+          "es": "la sede",
+          "en": "headquarters"
+        },
+        {
+          "es": "el terreno",
+          "en": "land"
+        }
+      ]
+    },
+    {
+      "title-es": "EL ORIGEN DEL MUSEO",
+      "title-en": "THE ORIGINS OF THE MUSEUM",
+      "vocabulary": [
+        {
+          "es": "el arte / las artes",
+          "en": "art /the arts"
+        },
+        {
+          "es": "el chiste",
+          "en": "joke"
+        },
+        {
+          "es": "el golpe de estado",
+          "en": "coup d'état"
+        },
+        {
+          "es": "la inquietud",
+          "en": "concern"
+        },
+        {
+          "es": "la política (anti)vanguardista",
+          "en": "(anti) avant-garde policy"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS FUNCIONES DEL MUSEO Y SUS ARTISTAS",
+      "title-en": "ARTISTS AND FUNCTIONS OF THE MUSEUM",
+      "vocabulary": [
+        {
+          "es": "auspiciar",
+          "en": "to sponsor"
+        },
+        {
+          "es": "generar",
+          "en": "to generate"
+        },
+        {
+          "es": "actuar / hacer performance",
+          "en": "to do performances"
+        },
+        {
+          "es": "inaugurar(se)",
+          "en": "to inaugurate, open"
+        },
+        {
+          "es": "integrar(se)",
+          "en": "to integrate (oneself)"
+        },
+        {
+          "es": "posicionar(se)",
+          "en": "to position (oneself)"
+        },
+        {
+          "es": "ser desarrollado (desarrollarse)",
+          "en": "to develop"
+        },
+        {
+          "es": "ser despuesto (deponer)",
+          "en": "to be displaced / to displace / to oust"
+        },
+        {
+          "es": "vibrar",
+          "en": "to vibrate / to pulse"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS ARTISTAS Y SUS OBRAS",
+      "title-en": "ARTISTS AND THEIR WORKS",
+      "vocabulary": [
+        {
+          "es": "la acuarela",
+          "en": "watercolor"
+        },
+        {
+          "es": "el cuadro",
+          "en": "picture"
+        },
+        {
+          "es": "el dibujo",
+          "en": "drawing"
+        },
+        {
+          "es": "el diseño",
+          "en": "design"
+        },
+        {
+          "es": "la escultura",
+          "en": "sculpture"
+        },
+        {
+          "es": "la estatua",
+          "en": "statue"
+        },
+        {
+          "es": "el grabado",
+          "en": "engraving"
+        },
+        {
+          "es": "el lienzo",
+          "en": "canvas"
+        },
+        {
+          "es": "el monumento",
+          "en": "monument"
+        },
+        {
+          "es": "el/la pintor/a",
+          "en": "painter"
+        },
+        {
+          "es": "la pintura",
+          "en": "painting"
+        },
+        {
+          "es": "la pintura al óleo",
+          "en": "oil painting"
+        },
+        {
+          "es": "el retrato / el autorretrato",
+          "en": "portrait / self-portrait"
+        }
+      ]
+    },
+    {
+      "title-es": "COLORES",
+      "title-en": "COLORS",
+      "vocabulary": [
+        {
+          "es": "amarillento/a",
+          "en": "yellowish"
+        },
+        {
+          "es": "anaranjado/a",
+          "en": "orange"
+        },
+        {
+          "es": "azulado/a",
+          "en": "blueish"
+        },
+        {
+          "es": "dorado/a",
+          "en": "golden"
+        },
+        {
+          "es": "grisáceo/a",
+          "en": "grayish"
+        },
+        {
+          "es": "plateado/a",
+          "en": "silver"
+        },
+        {
+          "es": "rojizo/a",
+          "en": "reddish"
+        },
+        {
+          "es": "verdoso/a",
+          "en": "greenish"
+        },
+        {
+          "es": "violáceo/a",
+          "en": "violet-toned"
+        },
+        {
+          "es": "(color +) brillante / fuerte",
+          "en": "bright (color)"
+        },
+        {
+          "es": "(color +) claro",
+          "en": "light (color)"
+        },
+        {
+          "es": "(color +) opaco / mate",
+          "en": "dull/matte (color)"
+        },
+        {
+          "es": "(color +) oscuro",
+          "en": "dark (color)"
+        }
+      ]
+    },
+    {
+      "title-es": "ESTILOS",
+      "title-en": "STYLES",
+      "vocabulary": [
+        {
+          "es": "(el arte) antiguo",
+          "en": "ancient (art)"
+        },
+        {
+          "es": "(el arte) cotemporáneo",
+          "en": "contemporary (art)"
+        },
+        {
+          "es": "(el arte) moderno",
+          "en": "modern (art)"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA DESCRIBIR UNA OBRA DE ARTE",
+      "title-en": "TO DESCRIBE A WORK OF ART",
+      "vocabulary": [
+        {
+          "es": "conmovedor/a",
+          "en": "poignant / moving"
+        },
+        {
+          "es": "destacado/a",
+          "en": "highlighted"
+        },
+        {
+          "es": "detallado/a",
+          "en": "detailed"
+        },
+        {
+          "es": "clásico/a",
+          "en": "classical"
+        },
+        {
+          "es": "gráfico/a",
+          "en": "graphic"
+        },
+        {
+          "es": "impresionista",
+          "en": "impressionist"
+        },
+        {
+          "es": "naturalista",
+          "en": "naturalist"
+        },
+        {
+          "es": "(foto)realista",
+          "en": "(photo)realist / realistic"
+        },
+        {
+          "es": "surrealista",
+          "en": "surrealist"
+        },
+        {
+          "es": "el matiz",
+          "en": "hue / shade"
+        },
+        {
+          "es": "la obra maestra",
+          "en": "masterpiece"
+        },
+        {
+          "es": "mezclar (la mezcla de ... )",
+          "en": "to mix (the mixture of ... )"
+        },
+        {
+          "es": "sencillo/a",
+          "en": "simple"
+        }
+      ]
+    }
+  ]
+}

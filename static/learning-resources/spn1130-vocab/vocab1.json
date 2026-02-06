@@ -1,0 +1,598 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS PERFILES",
+      "title-en": "PROFILES",
+      "vocabulary": [
+        {
+          "es": "el calendario de eventos",
+          "en": "calendar of events"
+        },
+        {
+          "es": "la cronología",
+          "en": "timeline"
+        },
+        {
+          "es": "el estado",
+          "en": "status"
+        },
+        {
+          "es": "la foto/la fotografía",
+          "en": "picture/photograph"
+        },
+        {
+          "es": "el perfil",
+          "en": "profile"
+        },
+        {
+          "es": "la red social",
+          "en": "the social network"
+        },
+        {
+          "es": "el video",
+          "en": "video"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS ACCIONES",
+      "title-en": "ACTIONS",
+      "vocabulary": [
+        {
+          "es": "actualizar",
+          "en": "to update"
+        },
+        {
+          "es": "crear",
+          "en": "to create"
+        },
+        {
+          "es": "editar",
+          "en": "to edit"
+        },
+        {
+          "es": "mandar un mensaje (de texto)",
+          "en": "to send a (text) message"
+        }
+      ]
+    },
+    {
+      "title-es": "LA INFORMACIÓN BÁSICA",
+      "title-en": "BASIC INFORMATION",
+      "vocabulary": [
+        {
+          "es": "el apellido/los apellidos",
+          "en": "last name/s"
+        },
+        {
+          "es": "la dirección de correo electrónico/el e-mail",
+          "en": "email address"
+        },
+        {
+          "es": "la edad",
+          "en": "age"
+        },
+        {
+          "es": "el nombre",
+          "en": "first name"
+        },
+        {
+          "es": "el (número de) teléfono",
+          "en": "telephone number"
+        }
+      ]
+    },
+    {
+      "title-es": "LA BIOGRAFÍA",
+      "title-en": "BIOGRAPHY",
+      "vocabulary": [
+        {
+          "es": "la ciudad",
+          "en": "city"
+        },
+        {
+          "es": "el cumpleaños",
+          "en": "birthday"
+        },
+        {
+          "es": "la escuela secundaria",
+          "en": "high school"
+        },
+        {
+          "es": "el estado",
+          "en": "state"
+        },
+        {
+          "es": "la fecha de nacimiento",
+          "en": "birthdate"
+        },
+        {
+          "es": "el país",
+          "en": "country"
+        },
+        {
+          "es": "el trabajo",
+          "en": "work"
+        },
+        {
+          "es": "la universidad",
+          "en": "university/college"
+        }
+      ]
+    },
+    {
+      "title-es": "YO SOY ...",
+      "title-en": "I AM ...",
+      "vocabulary": [
+        {
+          "es": "generoso/a",
+          "en": "generous"
+        },
+        {
+          "es": "inteligente",
+          "en": "intelligent"
+        },
+        {
+          "es": "sedentario/a",
+          "en": "sedentary"
+        },
+        {
+          "es": "tímido/a",
+          "en": "timid"
+        },
+        {
+          "es": "trabajador/a",
+          "en": "hard-working"
+        },
+        {
+          "es": "activo/a",
+          "en": "active"
+        },
+        {
+          "es": "atlético/a",
+          "en": "athletic"
+        },
+        {
+          "es": "aventurero/a",
+          "en": "adventurous"
+        },
+        {
+          "es": "cómico/a",
+          "en": "funny, comical"
+        },
+        {
+          "es": "estudioso/a",
+          "en": "studious"
+        }
+      ]
+    },
+    {
+      "title-es": "AHORA ESTOY ...",
+      "title-en": "RIGHT NOW I AM ...",
+      "vocabulary": [
+        {
+          "es": "aburrido/a",
+          "en": "bored"
+        },
+        {
+          "es": "cansado/a",
+          "en": "tired"
+        },
+        {
+          "es": "contento/a",
+          "en": "happy"
+        },
+        {
+          "es": "emocionado/a",
+          "en": "excited, emotional"
+        },
+        {
+          "es": "enojado/a",
+          "en": "angry"
+        },
+        {
+          "es": "nervioso/a",
+          "en": "nervous"
+        },
+        {
+          "es": "ocupado/a",
+          "en": "busy, occupied"
+        },
+        {
+          "es": "relajado/a",
+          "en": "relaxed"
+        }
+      ]
+    },
+    {
+      "title-es": "AHORA TENGO ...",
+      "title-en": "RIGHT NOW I'M ...",
+      "vocabulary": [
+        {
+          "es": "( ... ) años",
+          "en": "( ... ) years old"
+        },
+        {
+          "es": "calor",
+          "en": "hot"
+        },
+        {
+          "es": "frío",
+          "en": "cold"
+        },
+        {
+          "es": "hambre",
+          "en": "hungry"
+        },
+        {
+          "es": "miedo",
+          "en": "scared"
+        },
+        {
+          "es": "sueño",
+          "en": "sleepy"
+        },
+        {
+          "es": "sed",
+          "en": "thirsty"
+        },
+        {
+          "es": "vergüenza",
+          "en": "embarrassed"
+        }
+      ]
+    },
+    {
+      "title-es": "Los números del 0 al 20",
+      "title-en": "Numbers 0-20",
+      "vocabulary": [
+        {
+          "es": "cero",
+          "en": "zero"
+        },
+        {
+          "es": "uno",
+          "en": "one"
+        },
+        {
+          "es": "dos",
+          "en": "two"
+        },
+        {
+          "es": "tres",
+          "en": "three"
+        },
+        {
+          "es": "cuatro",
+          "en": "four"
+        },
+        {
+          "es": "cinco",
+          "en": "five"
+        },
+        {
+          "es": "seis",
+          "en": "six"
+        },
+        {
+          "es": "siete",
+          "en": "seven"
+        },
+        {
+          "es": "ocho",
+          "en": "eight"
+        },
+        {
+          "es": "nueve",
+          "en": "nine"
+        },
+        {
+          "es": "diez",
+          "en": "ten"
+        },
+        {
+          "es": "once",
+          "en": "eleven"
+        },
+        {
+          "es": "doce",
+          "en": "twelve"
+        },
+        {
+          "es": "trece",
+          "en": "thirteen"
+        },
+        {
+          "es": "catorce",
+          "en": "fourteen"
+        },
+        {
+          "es": "quince",
+          "en": "fifteen"
+        },
+        {
+          "es": "dieciséis",
+          "en": "sixteen"
+        },
+        {
+          "es": "diecisiete",
+          "en": "seventeen"
+        },
+        {
+          "es": "dieciocho",
+          "en": "eighteen"
+        },
+        {
+          "es": "diecinueve",
+          "en": "nineteen"
+        },
+        {
+          "es": "veinte",
+          "en": "twenty"
+        },
+        {
+          "es": "veintiuno",
+          "en": "twenty-one"
+        },
+        {
+          "es": "veintidós",
+          "en": "twenty-two"
+        },
+        {
+          "es": "veintitrés",
+          "en": "twenty-three"
+        },
+        {
+          "es": "veinticuatro",
+          "en": "twenty-four"
+        },
+        {
+          "es": "veinticinco",
+          "en": "twenty-five"
+        },
+        {
+          "es": "veintiséis",
+          "en": "twenty-six"
+        },
+        {
+          "es": "veintisiete",
+          "en": "twenty-seven"
+        },
+        {
+          "es": "veintiocho",
+          "en": "twenty-eight"
+        },
+        {
+          "es": "veintinueve",
+          "en": "twenty-nine"
+        },
+        {
+          "es": "treinta",
+          "en": "thirty"
+        }
+      ]
+    },
+    {
+      "title-es": "Los números del 31 al 39",
+      "title-en": "Numbers 31-39",
+      "vocabulary": [
+        {
+          "es": "treinta y uno",
+          "en": "thirty-one"
+        },
+        {
+          "es": "treinta y dos",
+          "en": "thirty-two"
+        },
+        {
+          "es": "treinta y tres",
+          "en": "thirty-three"
+        },
+        {
+          "es": "treinta y cuatro",
+          "en": "thirty-four"
+        },
+        {
+          "es": "treinta y cinco",
+          "en": "thirty-five"
+        },
+        {
+          "es": "treinta y seis",
+          "en": "thirty-six"
+        },
+        {
+          "es": "treinta y siete",
+          "en": "thirty-seven"
+        },
+        {
+          "es": "treinta y ocho",
+          "en": "thirty-eight"
+        },
+        {
+          "es": "treinta y nueve",
+          "en": "thirty-nine"
+        }
+      ]
+    },
+    {
+      "title-es": "Los números del 10 al 90",
+      "title-en": "Numbers 10-90",
+      "vocabulary": [
+        {
+          "es": "diez",
+          "en": "ten"
+        },
+        {
+          "es": "veinte",
+          "en": "twenty"
+        },
+        {
+          "es": "treinta",
+          "en": "thirty"
+        },
+        {
+          "es": "cuarenta",
+          "en": "forty"
+        },
+        {
+          "es": "cincuenta",
+          "en": "fifty"
+        },
+        {
+          "es": "sesenta",
+          "en": "sixty"
+        },
+        {
+          "es": "setenta",
+          "en": "seventy"
+        },
+        {
+          "es": "ochenta",
+          "en": "eighty"
+        },
+        {
+          "es": "noventa",
+          "en": "ninety"
+        }
+      ]
+    },
+    {
+      "title-es": "Los números del 100 al 900",
+      "title-en": "Numbers 100-900",
+      "vocabulary": [
+        {
+          "es": "cien",
+          "en": "one hundred"
+        },
+        {
+          "es": "doscientos",
+          "en": "two hundred"
+        },
+        {
+          "es": "trescientos",
+          "en": "three hundred"
+        },
+        {
+          "es": "cuatrocientos",
+          "en": "four hundred"
+        },
+        {
+          "es": "quinientos",
+          "en": "five hundred"
+        },
+        {
+          "es": "seiscientos",
+          "en": "six hundred"
+        },
+        {
+          "es": "setecientos",
+          "en": "seven hundred"
+        },
+        {
+          "es": "ochocientos",
+          "en": "eight hundred"
+        },
+        {
+          "es": "novecientos",
+          "en": "nine hundred"
+        }
+      ]
+    },
+    {
+      "title-es": "Los números del 1.000 al 10.000",
+      "title-en": "Numbers 1,000-10,000",
+      "vocabulary": [
+        {
+          "es": "mil",
+          "en": "one thousand"
+        },
+        {
+          "es": "dos mil",
+          "en": "two thousand"
+        },
+        {
+          "es": "tres mil",
+          "en": "three thousand"
+        },
+        {
+          "es": "cuatro mil",
+          "en": "four thousand"
+        },
+        {
+          "es": "cinco mil",
+          "en": "five thousand"
+        },
+        {
+          "es": "seis mil",
+          "en": "six thousand"
+        },
+        {
+          "es": "siete mil",
+          "en": "seven thousand"
+        },
+        {
+          "es": "ocho mil",
+          "en": "eight thousand"
+        },
+        {
+          "es": "nueve mil",
+          "en": "nine thousand"
+        },
+        {
+          "es": "diez mil",
+          "en": "ten thousand"
+        }
+      ]
+    },
+    {
+      "title-es": "Los números del 10.000 a 2.000.000",
+      "title-en": "Numbers 10, 000-2,000,000",
+      "vocabulary": [
+        {
+          "es": "diez mil",
+          "en": "ten thousand"
+        },
+        {
+          "es": "veinte mil",
+          "en": "twenty thousand"
+        },
+        {
+          "es": "treinta mil",
+          "en": "thirty thousand"
+        },
+        {
+          "es": "cuarenta mil",
+          "en": "forty thousand"
+        },
+        {
+          "es": "cincuenta mil",
+          "en": "fifty thousand"
+        },
+        {
+          "es": "sesenta mil",
+          "en": "sixty thousand"
+        },
+        {
+          "es": "setenta mil",
+          "en": "seventy thousand"
+        },
+        {
+          "es": "ochenta mil",
+          "en": "eighty thousand"
+        },
+        {
+          "es": "noventa mil",
+          "en": "ninety thousand"
+        },
+        {
+          "es": "un millón",
+          "en": "one million"
+        },
+        {
+          "es": "dos millones",
+          "en": "two million"
+        }
+      ]
+    }
+  ]
+}

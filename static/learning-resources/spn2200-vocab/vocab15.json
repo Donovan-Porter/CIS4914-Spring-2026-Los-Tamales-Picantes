@@ -1,0 +1,294 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS PERSONAJES",
+      "title-en": "CHARACTERS",
+      "vocabulary": [
+        {
+          "es": "el fray",
+          "en": "brother (religious) / friar"
+        },
+        {
+          "es": "el/la indígena",
+          "en": "indigenous person"
+        },
+        {
+          "es": "el/la opresor/a",
+          "en": "oppressor"
+        }
+      ]
+    },
+    {
+      "title-es": "EL LUGAR",
+      "title-en": "PLACE",
+      "vocabulary": [
+        {
+          "es": "la selva",
+          "en": "jungle"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DEL FRAY",
+      "title-en": "TO TALK ABOUT THE BROTHER",
+      "vocabulary": [
+        {
+          "es": "el conocimiento",
+          "en": "knowledge"
+        },
+        {
+          "es": "el dominio de lenguas",
+          "en": "command of languages"
+        },
+        {
+          "es": "la esperanza",
+          "en": "hope"
+        },
+        {
+          "es": "la incredulidad",
+          "en": "incredulity / disbelief"
+        },
+        {
+          "es": "la muerte",
+          "en": "death"
+        },
+        {
+          "es": "el pensamiento",
+          "en": "thought"
+        },
+        {
+          "es": "el temor",
+          "en": "fear"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DE LOS INDÍGENAS",
+      "title-en": "TO TALK ABOUT INDIGENOUS PEOPLE",
+      "vocabulary": [
+        {
+          "es": "la prisa (con/sin prisa)",
+          "en": "hurry (with/without hurry)"
+        },
+        {
+          "es": "el rostro",
+          "en": "face"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS EMOCIONES DE LOS PERSONAJES",
+      "title-en": "CHARACTERS' EMOTIONS",
+      "vocabulary": [
+        {
+          "es": "aislado/a",
+          "en": "isolated"
+        },
+        {
+          "es": "apresado/a",
+          "en": "captured"
+        },
+        {
+          "es": "arduo/a",
+          "en": "arduous / difficult"
+        },
+        {
+          "es": "impasible",
+          "en": "unemotional / apathetic"
+        },
+        {
+          "es": "perdido/a",
+          "en": "lost"
+        },
+        {
+          "es": "rodeado/a",
+          "en": "surrounded"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS ACCIONES",
+      "title-en": "ACTIONS",
+      "vocabulary": [
+        {
+          "es": "chorrear",
+          "en": "to drip"
+        },
+        {
+          "es": "confiar",
+          "en": "to trust"
+        },
+        {
+          "es": "disponer",
+          "en": "to decide"
+        },
+        {
+          "es": "disponerse a + infinitive",
+          "en": "to get ready to"
+        },
+        {
+          "es": "engañar",
+          "en": "to trick / to mislead"
+        },
+        {
+          "es": "florecer",
+          "en": "to flourish"
+        },
+        {
+          "es": "morir",
+          "en": "to die"
+        },
+        {
+          "es": "oscurecerse",
+          "en": "to get dark"
+        },
+        {
+          "es": "sacrificar",
+          "en": "to sacrifice"
+        },
+        {
+          "es": "salvar",
+          "en": "to save"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA ANALIZAR LA LITERATURA",
+      "title-en": "ANALYZING LITERATURE",
+      "vocabulary": [
+        {
+          "es": "el/la autor/a",
+          "en": "author"
+        },
+        {
+          "es": "el (micro)cuento",
+          "en": "(very) short story"
+        },
+        {
+          "es": "la escena",
+          "en": "scene"
+        },
+        {
+          "es": "la justicia poética",
+          "en": "poetic justice"
+        },
+        {
+          "es": "la metáfora",
+          "en": "metaphor"
+        },
+        {
+          "es": "la narrativa",
+          "en": "narrative"
+        },
+        {
+          "es": "la novela",
+          "en": "novel"
+        },
+        {
+          "es": "la parodia",
+          "en": "parody"
+        },
+        {
+          "es": "el párrafo",
+          "en": "paragraph"
+        },
+        {
+          "es": "el personaje",
+          "en": "character"
+        },
+        {
+          "es": "el propósito",
+          "en": "purpose"
+        },
+        {
+          "es": "el/la protagonista",
+          "en": "protagonist"
+        },
+        {
+          "es": "el punto de vista (narrativo)",
+          "en": "(narrative) point of view"
+        },
+        {
+          "es": "el símil",
+          "en": "simile"
+        },
+        {
+          "es": "el suceso",
+          "en": "event"
+        },
+        {
+          "es": "el tema",
+          "en": "theme"
+        },
+        {
+          "es": "la trama",
+          "en": "plot"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA DESCRIBIR ELEMENTOS LITERARIOS",
+      "title-en": "TO DESCRIBE LITERARY ELEMENTS",
+      "vocabulary": [
+        {
+          "es": "clave",
+          "en": "key"
+        },
+        {
+          "es": "irónico/a",
+          "en": "ironic"
+        },
+        {
+          "es": "polémico/a",
+          "en": "polemical / controversial"
+        },
+        {
+          "es": "retórico/a",
+          "en": "rhetorical"
+        },
+        {
+          "es": "significativo/a",
+          "en": "significant"
+        },
+        {
+          "es": "simbólico/a",
+          "en": "symbolic"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA EXPRESAR IDEAS",
+      "title-en": "TO EXPRESS IDEAS",
+      "vocabulary": [
+        {
+          "es": "describir",
+          "en": "to describe"
+        },
+        {
+          "es": "exponer",
+          "en": "to explain"
+        },
+        {
+          "es": "informar",
+          "en": "to inform"
+        },
+        {
+          "es": "narrar",
+          "en": "to narrate"
+        },
+        {
+          "es": "opinar",
+          "en": "to believe"
+        },
+        {
+          "es": "presentar",
+          "en": "to present"
+        },
+        {
+          "es": "relatar",
+          "en": "to relate"
+        }
+      ]
+    }
+  ]
+}

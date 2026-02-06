@@ -1,0 +1,156 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS SENTIMIENTOS Y LAS CIRCUNSTANCIAS",
+      "title-en": "FEELINGS AND CIRCUMSTANCES",
+      "vocabulary": [
+        {
+          "es": "estar o sentirse desconcertado/a",
+          "en": "to be or feel puzzled"
+        },
+        {
+          "es": "estar encaminado/a",
+          "en": "to be headed (toward)"
+        },
+        {
+          "es": "estremecer(se)",
+          "en": "to quiver, to shake"
+        },
+        {
+          "es": "retener las lágrimas",
+          "en": "to hold back tears"
+        },
+        {
+          "es": "sentir(se) tenso/a",
+          "en": "to feel tense"
+        },
+        {
+          "es": "ser improbable",
+          "en": "to be improbable"
+        },
+        {
+          "es": "ser inseparable",
+          "en": "to be inseparable"
+        }
+      ]
+    },
+    {
+      "title-es": "HACIA LA UNIVERSIDAD",
+      "title-en": "COLLEGE-BOUND",
+      "vocabulary": [
+        {
+          "es": "abandonar",
+          "en": "to abandon"
+        },
+        {
+          "es": "alistar(se)",
+          "en": "to get ready, to prepare"
+        },
+        {
+          "es": "descargar (la caja)",
+          "en": "to unload (a box)"
+        },
+        {
+          "es": "inscribir(se)",
+          "en": "to check in, to register"
+        },
+        {
+          "es": "las instrucciones",
+          "en": "directions"
+        }
+      ]
+    },
+    {
+      "title-es": "EL ENTORNO",
+      "title-en": "THE SETTING",
+      "vocabulary": [
+        {
+          "es": "el campanario",
+          "en": "bell tower"
+        },
+        {
+          "es": "la fachada",
+          "en": "facade"
+        },
+        {
+          "es": "la glorieta",
+          "en": "roundabout"
+        },
+        {
+          "es": "el portón principal",
+          "en": "main gate"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS EXPERIENCIAS DE VIDA",
+      "title-en": "LIFE EXPERIENCES",
+      "vocabulary": [
+        {
+          "es": "adaptar(se) al nuevo lugar/contexto",
+          "en": "to adapt oneself to the new place/context"
+        },
+        {
+          "es": "alejar(se) de (la familia / los amigos)",
+          "en": "to get away from (family/friends)"
+        },
+        {
+          "es": "ampliar la perspectiva",
+          "en": "to broaden one's perspective"
+        },
+        {
+          "es": "asumir (la responsabilidad)",
+          "en": "to take on, to accept (responsibility)"
+        },
+        {
+          "es": "comportarse como un/a adulto/a",
+          "en": "to behave like an adult, to \"adult\""
+        },
+        {
+          "es": "conocerse a sí mismo/a",
+          "en": "to know oneself"
+        },
+        {
+          "es": "darse por vencido/a",
+          "en": "to give up"
+        },
+        {
+          "es": "descubrir (una experiencia nueva)",
+          "en": "to discover (a new experience)"
+        },
+        {
+          "es": "enfrentar (un desafío / una dificultad / un miedo)",
+          "en": "to face (a challenge / a difficulty / a fear)"
+        },
+        {
+          "es": "hacerse cargo de (los errores)",
+          "en": "to take responsibility for (one's mistakes)"
+        },
+        {
+          "es": "independizar(se)",
+          "en": "to become independent"
+        },
+        {
+          "es": "madurar",
+          "en": "to grow up, to mature"
+        },
+        {
+          "es": "postergar (el proyecto)",
+          "en": "to postpone (the project)"
+        },
+        {
+          "es": "sentirse fuera de lugar",
+          "en": "to feel out of place"
+        },
+        {
+          "es": "la transición (a la universidad / la vida adulta)",
+          "en": "transition (to university/adult life)"
+        },
+        {
+          "es": "transformar (la vida)",
+          "en": "to transform (one's life)"
+        }
+      ]
+    }
+  ]
+}

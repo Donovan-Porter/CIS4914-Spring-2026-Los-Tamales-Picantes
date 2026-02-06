@@ -1,6 +1,7 @@
 /__pycache__/
 /build/
 /dist/
+/test-scripts/
 /tutor.spec
 .virtenv
 /minigames/__pycache__/

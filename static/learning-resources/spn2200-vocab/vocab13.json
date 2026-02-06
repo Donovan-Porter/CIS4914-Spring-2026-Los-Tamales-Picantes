@@ -1,0 +1,268 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS RECUERDOS",
+      "title-en": "MEMORIES",
+      "vocabulary": [
+        {
+          "es": "la añoranza",
+          "en": "longing"
+        },
+        {
+          "es": "la caja",
+          "en": "box"
+        },
+        {
+          "es": "la chispa",
+          "en": "spark"
+        },
+        {
+          "es": "el hilo (de la identidad)",
+          "en": "thread (of identity)"
+        },
+        {
+          "es": "el proceso retrospectivo",
+          "en": "reflective process"
+        },
+        {
+          "es": "el recuerdo",
+          "en": "memory"
+        },
+        {
+          "es": "dejar atrás",
+          "en": "to leave behind"
+        },
+        {
+          "es": "provocar",
+          "en": "to provoke"
+        },
+        {
+          "es": "quedar atrás",
+          "en": "to be left behind"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS EMOCIONES",
+      "title-en": "EMOTIONS",
+      "vocabulary": [
+        {
+          "es": "la lágrima",
+          "en": "tear"
+        },
+        {
+          "es": "la mejilla",
+          "en": "cheek"
+        },
+        {
+          "es": "la tristeza",
+          "en": "sadness"
+        },
+        {
+          "es": "hundir en",
+          "en": "to sink"
+        },
+        {
+          "es": "clavado/a",
+          "en": "fixated"
+        },
+        {
+          "es": "nostálgico/a",
+          "en": "nostalgic"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS MOMENTOS IMPORTANTES",
+      "title-en": "IMPORTANT EVENTS",
+      "vocabulary": [
+        {
+          "es": "la bandera",
+          "en": "flag"
+        },
+        {
+          "es": "la ceremonia de ciudadanía",
+          "en": "naturalization ceremony"
+        },
+        {
+          "es": "el juramento",
+          "en": "oath"
+        },
+        {
+          "es": "nacer de nuevo",
+          "en": "to be born again"
+        },
+        {
+          "es": "volver a (infinitivo)",
+          "en": "to (do something) again"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS EXPRESIONES TEMPORALES",
+      "title-en": "TIME EXPRESSIONS",
+      "vocabulary": [
+        {
+          "es": "(diez) años atrás",
+          "en": "(ten) years ago"
+        },
+        {
+          "es": "apenas",
+          "en": "barely"
+        },
+        {
+          "es": "de repente",
+          "en": "suddenly"
+        },
+        {
+          "es": "después de (la clase)",
+          "en": "after (class)"
+        },
+        {
+          "es": "ese día",
+          "en": "that day"
+        },
+        {
+          "es": "esa tarde",
+          "en": "that afternoon"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS PROCESOS",
+      "title-en": "PROCESSES",
+      "vocabulary": [
+        {
+          "es": "asimilar(se)",
+          "en": "to assimilate"
+        },
+        {
+          "es": "cruzar",
+          "en": "to cross"
+        },
+        {
+          "es": "deportar",
+          "en": "to deport"
+        },
+        {
+          "es": "emigrar",
+          "en": "to emigrate (leave country of origin to move to another)"
+        },
+        {
+          "es": "heredar",
+          "en": "to inherit"
+        },
+        {
+          "es": "inmigrar",
+          "en": "to immigrate (come to a new country permanently)"
+        },
+        {
+          "es": "mejorar",
+          "en": "to improve"
+        },
+        {
+          "es": "mudar(se)",
+          "en": "to move (i.e., to a new place)"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS PERSONAS Y LAS COMUNIDADES",
+      "title-en": "PEOPLE AND COMMUNITY",
+      "vocabulary": [
+        {
+          "es": "el/la ciudadano/a",
+          "en": "citizen"
+        },
+        {
+          "es": "la comunidad",
+          "en": "community"
+        },
+        {
+          "es": "la generación",
+          "en": "generation"
+        },
+        {
+          "es": "el/la indocumentado/a",
+          "en": "undocumented person"
+        },
+        {
+          "es": "el/la inmigrante",
+          "en": "immigrant"
+        },
+        {
+          "es": "la población",
+          "en": "population"
+        },
+        {
+          "es": "el/la refugiado/a",
+          "en": "refugee"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS CAUSAS Y EL CONTEXTO",
+      "title-en": "CAUSES AND CONTEXT",
+      "vocabulary": [
+        {
+          "es": "la crisis",
+          "en": "crisis"
+        },
+        {
+          "es": "la democracia",
+          "en": "democracy"
+        },
+        {
+          "es": "la dictadura",
+          "en": "dictatorship"
+        },
+        {
+          "es": "la frontera",
+          "en": "border"
+        },
+        {
+          "es": "el gobierno",
+          "en": "government"
+        },
+        {
+          "es": "la guerra",
+          "en": "war"
+        },
+        {
+          "es": "la migración forzada/voluntaria",
+          "en": "forced/voluntary migration"
+        },
+        {
+          "es": "la paz",
+          "en": "peace"
+        }
+      ]
+    },
+    {
+      "title-es": "EL ESTATUS LEGAL",
+      "title-en": "LEGAL STATUS",
+      "vocabulary": [
+        {
+          "es": "la amnistía",
+          "en": "amnesty"
+        },
+        {
+          "es": "el asilo político",
+          "en": "political asylum"
+        },
+        {
+          "es": "la ley / las leyes",
+          "en": "law(s)"
+        },
+        {
+          "es": "la naturalización",
+          "en": "naturalization"
+        },
+        {
+          "es": "la tarjeta de residente permanente (la tarjeta verde)",
+          "en": "permanent resident card (green card)"
+        }
+      ]
+    }
+  ]
+}

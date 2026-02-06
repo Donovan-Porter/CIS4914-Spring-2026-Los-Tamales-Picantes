@@ -1,0 +1,228 @@
+{
+    "groups": [
+        {
+            "title": "E to IE STEM CHANGE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "I want.",
+                    "derivative": "Yo quiero."
+                },
+                {
+                    "integral": "You want. (informal)",
+                    "derivative": "Tú quieres."
+                },
+                {
+                    "integral": "You want. (formal)",
+                    "derivative": "Usted quiere."
+                },
+                {
+                    "integral": "He wants.",
+                    "derivative": "Él quiere."
+                },
+                {
+                    "integral": "She wants.",
+                    "derivative": "Ella quiere."
+                },
+                {
+                    "integral": "We want. (masculine)",
+                    "derivative": "Nosotros queremos."
+                },
+                {
+                    "integral": "We want. (feminine)",
+                    "derivative": "Nosotras queremos."
+                },
+                {
+                    "integral": "You all want. (masculine, informal Castillian)",
+                    "derivative": "Vosotros queréis."
+                },
+                {
+                    "integral": "You all want. (feminine, informal Castillian)",
+                    "derivative": "Vosotras queréis."
+                },
+                {
+                    "integral": "You all want. (formal or informal American)",
+                    "derivative": "Ustedes quieren."
+                },
+                {
+                    "integral": "They want. (masculine)",
+                    "derivative": "Ellos quieren."
+                },
+                {
+                    "integral": "They want. (feminine)",
+                    "derivative": "Ellas quieren."
+                }
+            ]
+        },
+        {
+            "title": "E to I STEM CHANGE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "I serve.",
+                    "derivative": "Yo sirvo."
+                },
+                {
+                    "integral": "You serve. (informal)",
+                    "derivative": "Tú sirves."
+                },
+                {
+                    "integral": "You serve. (formal)",
+                    "derivative": "Usted sirve."
+                },
+                {
+                    "integral": "He serves.",
+                    "derivative": "Él sirve."
+                },
+                {
+                    "integral": "She serves.",
+                    "derivative": "Ella sirve."
+                },
+                {
+                    "integral": "We serve. (masculine)",
+                    "derivative": "Nosotros servemos."
+                },
+                {
+                    "integral": "We serve. (feminine)",
+                    "derivative": "Nosotras servemos."
+                },
+                {
+                    "integral": "You all serve. (masculine, informal Castillian)",
+                    "derivative": "Vosotros servis."
+                },
+                {
+                    "integral": "You all serve. (feminine, informal Castillian",
+                    "derivative": "Vosotras servis."
+                },
+                {
+                    "integral": "You all serve. (formal or informal American)",
+                    "derivative": "Ustedes sirven."
+                },
+                {
+                    "integral": "They serve. (masculine)",
+                    "derivative": "Ellos sirven."
+                },
+                {
+                    "integral": "They serve. (feminine)",
+                    "derivative": "Ellas sirven."
+                }
+            ]
+        },
+        {
+            "title": "O to UE STEM CHANGE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "I can.",
+                    "derivative": "Yo puedo."
+                },
+                {
+                    "integral": "You can. (informal)",
+                    "derivative": "Tú puedes."
+                },
+                {
+                    "integral": "You can. (formal)",
+                    "derivative": "Usted puede."
+                },
+                {
+                    "integral": "He can.",
+                    "derivative": "Él puede."
+                },
+                {
+                    "integral": "She can.",
+                    "derivative": "Ella puede."
+                },
+                {
+                    "integral": "We can. (masculine)",
+                    "derivative": "Nosotros podemos."
+                },
+                {
+                    "integral": "We can. (feminine)",
+                    "derivative": "Nosotras podemos."
+                },
+                {
+                    "integral": "You all can. (masculine, informal Castillian)",
+                    "derivative": "Vosotros podéis."
+                },
+                {
+                    "integral": "You all can. (feminine, informal Castillian)",
+                    "derivative": "Vosotras podéis."
+                },
+                {
+                    "integral": "You all can. (formal or informal American)",
+                    "derivative": "Ustedes pueden."
+                },
+                {
+                    "integral": "They can. (masculine)",
+                    "derivative": "Ellos pueden."
+                },
+                {
+                    "integral": "They can. (feminine)",
+                    "derivative": "Ellas pueden."
+                }
+            ]
+        },
+        {
+            "title": "STEM-CHANGING VERB EXAMPLES",
+            "examples": [
+                {
+                    "integral": "to start",
+                    "derivative": "empezar"
+                },
+                {
+                    "integral": "to understand",
+                    "derivative": "entender"
+                },
+                {
+                    "integral": "to think",
+                    "derivative": "pensar (en)"
+                },
+                {
+                    "integral": "to prefer",
+                    "derivative": "preferir"
+                },
+                {
+                    "integral": "to lose",
+                    "derivative": "perder"
+                },
+                {
+                    "integral": "to want",
+                    "derivative": "querer"
+                },
+                {
+                    "integral": "to count / to recount (a tale)",
+                    "derivative": "contar"
+                },
+                {
+                    "integral": "to be able to",
+                    "derivative": "poder"
+                },
+                {
+                    "integral": "to dream (about)",
+                    "derivative": "soñar (con)"
+                },
+                {
+                    "integral": "to smile",
+                    "derivative": "sonreír"
+                },
+                {
+                    "integral": "to laugh",
+                    "derivative": "reír"
+                },
+                {
+                    "integral": "to repeat",
+                    "derivative": "repetir"
+                },
+                {
+                    "integral": "to serve",
+                    "derivative": "servir"
+                },
+                {
+                    "integral": "to play",
+                    "derivative": "jugar"
+                },
+                {
+                    "integral": "to have",
+                    "derivative": "tener"
+                }
+            ]
+        }
+    ]
+}

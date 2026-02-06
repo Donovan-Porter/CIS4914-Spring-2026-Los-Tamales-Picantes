@@ -1,0 +1,248 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS LUGARES",
+      "title-en": "PLACES",
+      "vocabulary": [
+        {
+          "es": "el cañón",
+          "en": "canyon"
+        },
+        {
+          "es": "la cascada",
+          "en": "waterfall"
+        },
+        {
+          "es": "el desierto",
+          "en": "desert"
+        },
+        {
+          "es": "la montaña",
+          "en": "mountain"
+        },
+        {
+          "es": "el paisaje",
+          "en": "landscape"
+        },
+        {
+          "es": "la playa",
+          "en": "beach"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS MEDIOS DE TRANSPORTE",
+      "title-en": "MEANS OF TRANSPORTATION",
+      "vocabulary": [
+        {
+          "es": "ir en autobús",
+          "en": "to go in/by bus"
+        },
+        {
+          "es": "ir en carro (Am. Lat.) / coche (Esp.)",
+          "en": "to go in/by car"
+        },
+        {
+          "es": "ir en tren",
+          "en": "to go in/by train"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS ACTIVIDADES",
+      "title-en": "ACTIVITIES",
+      "vocabulary": [
+        {
+          "es": "andar/montar en bicicleta (de montaña)",
+          "en": "to ride a (mountain) bike"
+        },
+        {
+          "es": "bucear",
+          "en": "to go scuba diving"
+        },
+        {
+          "es": "explorar una cueva",
+          "en": "to explore a cave"
+        },
+        {
+          "es": "hacer/practicar paracaidismo",
+          "en": "(to go) skydiving"
+        },
+        {
+          "es": "hacer/practicar senderismo",
+          "en": "(to go) trekking"
+        },
+        {
+          "es": "hacer vía ferrata",
+          "en": "mountain route equipped with fixed ladders, cables, and bridges to be accessible to climbers and walkers"
+        },
+        {
+          "es": "montar a caballo",
+          "en": "to ride a horse"
+        },
+        {
+          "es": "observar la puesta del sol",
+          "en": "watch the sunset"
+        },
+        {
+          "es": "practicar tirolesa",
+          "en": "to do zip lining"
+        }
+      ]
+    },
+    {
+      "title-es": "MEDIOAMBIENTE Y EL ECOTURISMO",
+      "title-en": "THE ENVIRONMENT AND ECOTOURISM",
+      "vocabulary": [
+        {
+          "es": "el ave (sing.), las aves (pl.)",
+          "en": "bird, birds"
+        },
+        {
+          "es": "la biodiversidad",
+          "en": "biodiversity"
+        },
+        {
+          "es": "el cambio climático",
+          "en": "climate change"
+        },
+        {
+          "es": "la conciencia ambiental",
+          "en": "environmental awareness"
+        },
+        {
+          "es": "la contaminación",
+          "en": "pollution"
+        },
+        {
+          "es": "la deforestación",
+          "en": "deforestation"
+        },
+        {
+          "es": "la ecología",
+          "en": "ecology"
+        },
+        {
+          "es": "la especie (en peligro de extinción)",
+          "en": "(endangered) species"
+        },
+        {
+          "es": "la inundación",
+          "en": "floods"
+        },
+        {
+          "es": "el medioambiente",
+          "en": "environment"
+        },
+        {
+          "es": "la naturaleza",
+          "en": "nature"
+        },
+        {
+          "es": "la población",
+          "en": "population"
+        },
+        {
+          "es": "los recursos naturales",
+          "en": "natural resources"
+        },
+        {
+          "es": "el santuario natural",
+          "en": "nature preserve"
+        },
+        {
+          "es": "la sequía",
+          "en": "droughts"
+        },
+        {
+          "es": "la tierra",
+          "en": "land (when capitalized, refers to planet Earth)"
+        },
+        {
+          "es": "la tortuga (marina)",
+          "en": "(sea) turtle"
+        },
+        {
+          "es": "concientizar",
+          "en": "to raise awareness"
+        },
+        {
+          "es": "dejar huella",
+          "en": "to leave a footprint"
+        },
+        {
+          "es": "preservar",
+          "en": "to preserve"
+        },
+        {
+          "es": "proteger",
+          "en": "to protect"
+        }
+      ]
+    },
+    {
+      "title-es": "PALABRAS INDEFINIDAS",
+      "title-en": "INDEFINITE WORDS",
+      "vocabulary": [
+        {
+          "es": "algo",
+          "en": "something, anything"
+        },
+        {
+          "es": "alguien",
+          "en": "someone, somebody, anyone"
+        },
+        {
+          "es": "algún, alguno/a(s)",
+          "en": "some, any"
+        },
+        {
+          "es": "alguna vez",
+          "en": "sometimes, ever, once"
+        },
+        {
+          "es": "O ... 0",
+          "en": "(either ... ) or"
+        },
+        {
+          "es": "siempre",
+          "en": "always"
+        },
+        {
+          "es": "también",
+          "en": "also, too"
+        }
+      ]
+    },
+    {
+      "title-es": "PALABRAS NEGATIVAS",
+      "title-en": "NEGATIVE WORDS",
+      "vocabulary": [
+        {
+          "es": "nada",
+          "en": "Nothing, not anything"
+        },
+        {
+          "es": "nadie",
+          "en": "no one, nobody, not anyone"
+        },
+        {
+          "es": "ningún, ninguno/a",
+          "en": "no, none, not any"
+        },
+        {
+          "es": "ni ... ni",
+          "en": "neither ... nor"
+        },
+        {
+          "es": "nunca",
+          "en": "never, not ever"
+        },
+        {
+          "es": "tampoco",
+          "en": "not either, neither"
+        }
+      ]
+    }
+  ]
+}

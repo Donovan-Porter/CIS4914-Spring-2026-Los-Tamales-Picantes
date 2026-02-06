@@ -15,19 +15,19 @@ LLM Chat Interface
 
 <body>
 
-<span class="header">
-</span>
+    <span class="header">
+    </span>
 
-<pre id="chatbot-output">
-    {{chat_output}}
-</pre>
+    <pre id="chatbot-output">
+        {{chat_output}}
+    </pre>
 
-<form id="chatbot-input" action="{{url_for('chat')}}" method="POST" autocomplete="off">
-    <input type="text" name="chat-input">
-    <button type="submit">
-        chat
-    </button>
-</form>
+    <form id="chatbot-input" action="{{url_for('chat')}}" method="POST" autocomplete="off">
+        <input type="text" name="chat-input">
+        <button type="submit">
+            chat
+        </button>
+    </form>
 
 <script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
 

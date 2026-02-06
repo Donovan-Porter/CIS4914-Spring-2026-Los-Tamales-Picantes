@@ -1,0 +1,238 @@
+{
+    "groups": [
+        {
+            "title": "USES OF SER, ESTAR, AND HABER",
+            "examples": [
+                {
+                    "integral": "I'm a student.",
+                    "derivative": "Yo soy estudiante."
+                },
+                {
+                    "integral": "We are from Colombia. (masculine)",
+                    "derivative": "Nosotros somos de Colombia."
+                },
+                {
+                    "integral": "I'm at the library.",
+                    "derivative": "Yo estoy en la biblioteca."
+                },
+                {
+                    "integral": "The residences are far from the gym.",
+                    "derivative": "Las residencias están lejos del gimnasio."
+                },
+                {
+                    "integral": "There is a library on campus.",
+                    "derivative": "Hay un biblioteca en el campus."
+                },
+                {
+                    "integral": "There are lots of books on the table.",
+                    "derivative": "Hay muchos libros en la mesa."
+                }
+            ]
+        },
+        {
+            "title": "EXPRESSING NEGATION",
+            "examples": [
+                {
+                    "integral": "The building is not a library.",
+                    "derivative": "El edificio no es una biblioteca."
+                },
+                {
+                    "integral": "Lucia is not in the library.",
+                    "derivative": "Lucía no está en la biblioteca."
+                },
+                {
+                    "integral": "There aren't five books on the desk; there are four.",
+                    "derivative": "No hay cinco libros en al escritorio; hay cuatro."
+                }
+            ]
+        },
+        {
+            "title": "-AR VERB CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "I study.",
+                    "derivative": "Yo estudio."
+                },
+                {
+                    "integral": "You study. (singular, informal)",
+                    "derivative": "Tú estudias."
+                },
+                {
+                    "integral": "You study. (singular, formal)",
+                    "derivative": "Usted estudia."
+                },
+                {
+                    "integral": "He studies.",
+                    "derivative": "Él estudia."
+                },
+                {
+                    "integral": "She studies.",
+                    "derivative": "Ella estudia."
+                },
+                {
+                    "integral": "We study. (masculine)",
+                    "derivative": "Nosotros estudiamos."
+                },
+                {
+                    "integral": "We study. (feminine)",
+                    "derivative": "Nosotras estudiamos."
+                },
+                {
+                    "integral": "You all study. (masculine, informal Castillian)",
+                    "derivative": "Vosotros estudiáis."
+                },
+                {
+                    "integral": "You all study. (feminine, informal Castillian)",
+                    "derivative": "Vosotras estudiáis."
+                },
+                {
+                    "integral": "You all study. (formal or informal American)",
+                    "derivative": "Ustedes estudian."
+                },
+                {
+                    "integral": "They study. (masculine)",
+                    "derivative": "Ellos estudian."
+                },
+                {
+                    "integral": "They study. (feminine)",
+                    "derivative": "Ellas estudian."
+                }
+            ]
+        },
+        {
+            "title": "-AR VERB EXAMPLES",
+            "examples": [
+                {
+                    "integral": "ayudar",
+                    "derivative": "to help"
+                },
+                {
+                    "integral": "bailar",
+                    "derivative": "to dance"
+                },
+                {
+                    "integral": "buscar",
+                    "derivative": "to search"
+                },
+                {
+                    "integral": "cenar",
+                    "derivative": "to eat dinner"
+                },
+                {
+                    "integral": "cocinar",
+                    "derivative": "to cook"
+                },
+                {
+                    "integral": "comprar",
+                    "derivative": "to buy"
+                },
+                {
+                    "integral": "desayunar",
+                    "derivative": "to eat breakfast"
+                },
+                {
+                    "integral": "descansar",
+                    "derivative": "to rest"
+                },
+                {
+                    "integral": "editar",
+                    "derivative": "to edit"
+                },
+                {
+                    "integral": "ensayar",
+                    "derivative": "to rehearse"
+                },
+                {
+                    "integral": "enseñar",
+                    "derivative": "to teach"
+                },
+                {
+                    "integral": "escuchar (música)",
+                    "derivative": "to listen (to music)"
+                },
+                {
+                    "integral": "hablar",
+                    "derivative": "to speak"
+                },
+                {
+                    "integral": "lavar (la ropa)",
+                    "derivative": "to wash (clothes)"
+                },
+                {
+                    "integral": "llegar",
+                    "derivative": "to arrive"
+                },
+                {
+                    "integral": "mandar",
+                    "derivative": "to send"
+                },
+                {
+                    "integral": "mirar",
+                    "derivative": "to look at"
+                },
+                {
+                    "integral": "pintar",
+                    "derivative": "to paint"
+                },
+                {
+                    "integral": "practicar (yoga)",
+                    "derivative": "to practice (yoga)"
+                },
+                {
+                    "integral": "preperar",
+                    "derivative": "to prepare"
+                },
+                {
+                    "integral": "quedar (con)",
+                    "derivative": "to arrange to meet (with)"
+                },
+                {
+                    "integral": "regresar (a)",
+                    "derivative": "to return (to)"
+                },
+                {
+                    "integral": "tomar (algo)",
+                    "derivative": "to have (a drink)"
+                },
+                {
+                    "integral": "trabajar (en)",
+                    "derivative": "to work (in)"
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE EQUIVALENTS",
+            "examples": [
+                {
+                    "integral": "Ahora escucho música.",
+                    "derivative": "I listen to music now."
+                },
+                {
+                    "integral": "Escucho música todos los días.",
+                    "derivative": "I listen to music every day."
+                },
+                {
+                    "integral": "Mañana desayuno temprano.",
+                    "derivative": "Tomorrow I will have breakfast early."
+                }
+            ]
+        },
+        {
+            "title": "NEGATION",
+            "examples": [
+                {
+                    "integral": "Ahora no escucho música.",
+                    "derivative": "I do not listen to music now."
+                },
+                {
+                    "integral": "No escucho música todos los días.",
+                    "derivative": "I don't listen to music every day."
+                },
+                {
+                    "integral": "Mañana no desayuno temprano.",
+                    "derivative": "Tomorrow I will not have breakfast early."
+                }
+            ]
+        }
+    ]
+}

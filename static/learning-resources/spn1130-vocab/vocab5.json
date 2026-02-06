@@ -1,0 +1,304 @@
+{
+  "groups": [
+    {
+      "title-es": "CUALIDADES POSITIVAS",
+      "title-en": "POSITIVE QUALITIES",
+      "vocabulary": [
+        {
+          "es": "abierto/a",
+          "en": "open"
+        },
+        {
+          "es": "alegre",
+          "en": "happy"
+        },
+        {
+          "es": "amable",
+          "en": "friendly"
+        },
+        {
+          "es": "bondadoso/a",
+          "en": "kind/good"
+        },
+        {
+          "es": "bueno/a",
+          "en": "good"
+        },
+        {
+          "es": "capaz",
+          "en": "capable"
+        },
+        {
+          "es": "cariñoso/a",
+          "en": "caring"
+        },
+        {
+          "es": "chistoso/a",
+          "en": "funny"
+        },
+        {
+          "es": "compasivo/a",
+          "en": "compassionate"
+        },
+        {
+          "es": "comprensivo/a",
+          "en": "understanding"
+        },
+        {
+          "es": "creativo/a",
+          "en": "creative"
+        },
+        {
+          "es": "entusiasta",
+          "en": "enthusiastic"
+        },
+        {
+          "es": "fácil",
+          "en": "easy"
+        },
+        {
+          "es": "fiel",
+          "en": "faithful"
+        },
+        {
+          "es": "gracioso/a",
+          "en": "funny"
+        },
+        {
+          "es": "honesto/a",
+          "en": "honest"
+        },
+        {
+          "es": "imaginativo/a",
+          "en": "imaginative"
+        },
+        {
+          "es": "inteligente",
+          "en": "intelligent"
+        },
+        {
+          "es": "leal",
+          "en": "loyal"
+        },
+        {
+          "es": "listo/a",
+          "en": "bright, smart"
+        },
+        {
+          "es": "mejor",
+          "en": "best"
+        },
+        {
+          "es": "nuevo/a",
+          "en": "new"
+        },
+        {
+          "es": "paciente",
+          "en": "patient"
+        },
+        {
+          "es": "pacífico/a",
+          "en": "peaceful"
+        },
+        {
+          "es": "positivo/a",
+          "en": "positive"
+        },
+        {
+          "es": "responsable",
+          "en": "responsible"
+        },
+        {
+          "es": "sensible",
+          "en": "sensitive"
+        },
+        {
+          "es": "simpático/a",
+          "en": "kind, nice"
+        },
+        {
+          "es": "talentoso/a",
+          "en": "talented"
+        },
+        {
+          "es": "tranquilo/a",
+          "en": "calm/quiet"
+        },
+        {
+          "es": "único/a",
+          "en": "unique"
+        },
+        {
+          "es": "valiente",
+          "en": "brave"
+        }
+      ]
+    },
+    {
+      "title-es": "CUALIDADES NEGATIVAS",
+      "title-en": "NEGATIVE QUALITIES",
+      "vocabulary": [
+        {
+          "es": "aburrido/a",
+          "en": "boring"
+        },
+        {
+          "es": "cerrado/a",
+          "en": "closed (minded)"
+        },
+        {
+          "es": "egoísta",
+          "en": "selfish"
+        },
+        {
+          "es": "incapaz",
+          "en": "incapable"
+        },
+        {
+          "es": "insensible",
+          "en": "insensitive"
+        },
+        {
+          "es": "malo/a",
+          "en": "bad"
+        },
+        {
+          "es": "nervioso/a",
+          "en": "nervous"
+        },
+        {
+          "es": "triste",
+          "en": "sad"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DE PERSONAS ADMIRADAS",
+      "title-en": "TO TALK ABOUT ADMIRED PEOPLE",
+      "vocabulary": [
+        {
+          "es": "acompañar",
+          "en": "to accompany"
+        },
+        {
+          "es": "admirar",
+          "en": "to admire"
+        },
+        {
+          "es": "apoyar",
+          "en": "to support"
+        },
+        {
+          "es": "ayudar",
+          "en": "to help"
+        },
+        {
+          "es": "comer",
+          "en": "to eat"
+        },
+        {
+          "es": "compartir",
+          "en": "to share"
+        },
+        {
+          "es": "comprender",
+          "en": "to understand"
+        },
+        {
+          "es": "conocer",
+          "en": "to know"
+        },
+        {
+          "es": "crear",
+          "en": "to create"
+        },
+        {
+          "es": "creer",
+          "en": "to believe"
+        },
+        {
+          "es": "cumplir",
+          "en": "to complete, finish"
+        },
+        {
+          "es": "escoger",
+          "en": "to choose"
+        },
+        {
+          "es": "escribir",
+          "en": "to write"
+        },
+        {
+          "es": "exigir",
+          "en": "to demand"
+        },
+        {
+          "es": "insistir (en)",
+          "en": "to insist on"
+        },
+        {
+          "es": "merecer",
+          "en": "to deserve"
+        },
+        {
+          "es": "nominar",
+          "en": "to nominate"
+        },
+        {
+          "es": "permitir",
+          "en": "to allow"
+        },
+        {
+          "es": "preservar",
+          "en": "to preserve"
+        },
+        {
+          "es": "recibir",
+          "en": "to receive"
+        },
+        {
+          "es": "resolver",
+          "en": "to resolve"
+        },
+        {
+          "es": "saber",
+          "en": "to know"
+        },
+        {
+          "es": "vivir",
+          "en": "to live"
+        }
+      ]
+    },
+    {
+      "title-es": "EXPRESIONES PARA CARTAS FORMALES",
+      "title-en": "EXPRESSIONS FOR FORMAL LETTERS",
+      "vocabulary": [
+        {
+          "es": "Querido/a:",
+          "en": "Dear,"
+        },
+        {
+          "es": "Estimado/a:",
+          "en": "Dear, (formal; lit. \"Esteemed,\")"
+        },
+        {
+          "es": "Por la presente, quisiera nominar a ...",
+          "en": "Herein I'd like to nominate ..."
+        },
+        {
+          "es": "Quedo a su disposición para ...",
+          "en": "Please feel free to contact me should you ..."
+        },
+        {
+          "es": "Atentamente,",
+          "en": "Sincerely,"
+        },
+        {
+          "es": "Saludos cordiales,",
+          "en": "Best regards,"
+        }
+      ]
+    }
+  ]
+}

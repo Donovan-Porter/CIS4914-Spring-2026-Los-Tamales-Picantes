@@ -1,0 +1,310 @@
+{
+  "groups": [
+    {
+      "title-es": "EXPRESIONES ÚTILES DEL CORTOMETRAJE",
+      "title-en": "USEFUL EXPRESSIONS FROM THE SHORT FILM",
+      "vocabulary": [
+        {
+          "es": "¿A que sí?",
+          "en": "Right?"
+        },
+        {
+          "es": "por mi parte",
+          "en": "as far as I'm concerned"
+        },
+        {
+          "es": "tener sentido",
+          "en": "to make sense"
+        },
+        {
+          "es": "¡Vaya!",
+          "en": "Wow!"
+        },
+        {
+          "es": "¡Venga!",
+          "en": "Come on!"
+        },
+        {
+          "es": "¿Yo qué sé?",
+          "en": "How should I know?"
+        }
+      ]
+    },
+    {
+      "title-es": "LA COMUNICACIÓN",
+      "title-en": "COMMUNICATION",
+      "vocabulary": [
+        {
+          "es": "la abreviatura",
+          "en": "abbreviation"
+        },
+        {
+          "es": "la broma",
+          "en": "joke"
+        },
+        {
+          "es": "la bronca (echar una bronca)",
+          "en": "fight / quarrel (to tell off)"
+        },
+        {
+          "es": "cara a cara",
+          "en": "face to face"
+        },
+        {
+          "es": "el malentendido",
+          "en": "misunderstanding"
+        },
+        {
+          "es": "el medio de comunicación",
+          "en": "medium of communication"
+        },
+        {
+          "es": "el reproche",
+          "en": "reproach / rebuke"
+        },
+        {
+          "es": "el sentimiento",
+          "en": "feeling"
+        },
+        {
+          "es": "el tono de voz",
+          "en": "tone of voice"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS RELACIONES PERSONALES",
+      "title-en": "PERSONAL RELATIONSHIPS",
+      "vocabulary": [
+        {
+          "es": "consolar",
+          "en": "to console"
+        },
+        {
+          "es": "enfadarse (con)",
+          "en": "to get angry (with) (Spain)"
+        },
+        {
+          "es": "enojarse (con)",
+          "en": "to get angry (with) (Latin America)"
+        },
+        {
+          "es": "fastidiar",
+          "en": "to bother"
+        },
+        {
+          "es": "gritar",
+          "en": "to scream / to yell"
+        },
+        {
+          "es": "hacer(le) caso (a alguien)",
+          "en": "to pay attention / listen (to someone)"
+        },
+        {
+          "es": "hacer falta",
+          "en": "to lack"
+        },
+        {
+          "es": "hacer sentir bien/mal (a alguien)",
+          "en": "to make someone feel good / bad"
+        },
+        {
+          "es": "importar(le)",
+          "en": "to care about"
+        },
+        {
+          "es": "negarse (a)",
+          "en": "to refuse"
+        },
+        {
+          "es": "pelear",
+          "en": "to fight"
+        },
+        {
+          "es": "respetar",
+          "en": "to respect"
+        },
+        {
+          "es": "tardar",
+          "en": "to take time"
+        },
+        {
+          "es": "tomar(le) el pelo a alguien",
+          "en": "to joke around with someone (literally to pull someone's hair)"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS PERSONAS",
+      "title-en": "PEOPLE",
+      "vocabulary": [
+        {
+          "es": "el alma gemela",
+          "en": "soulmate"
+        },
+        {
+          "es": "el/la conocido/a",
+          "en": "acquaintance"
+        },
+        {
+          "es": "el/la enemigo/a",
+          "en": "enemy"
+        },
+        {
+          "es": "la media naranja",
+          "en": "soulmate"
+        },
+        {
+          "es": "los novios/as",
+          "en": "boyfriends / girlfriends / boyfriend-girlfriend"
+        },
+        {
+          "es": "la pareja",
+          "en": "the couple"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS SENTIMIENTOS",
+      "title-en": "FEELINGS",
+      "vocabulary": [
+        {
+          "es": "la amistad",
+          "en": "friendship"
+        },
+        {
+          "es": "el amor",
+          "en": "love"
+        },
+        {
+          "es": "el cariño",
+          "en": "affection"
+        },
+        {
+          "es": "el desamor",
+          "en": "lack of affection"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS CARACTERÍSTICAS Y LOS ESTADOS",
+      "title-en": "CHARACTERISTICS AND STATES",
+      "vocabulary": [
+        {
+          "es": "amistoso/a",
+          "en": "friendly"
+        },
+        {
+          "es": "cariñoso/a",
+          "en": "affectionate"
+        },
+        {
+          "es": "celoso/a",
+          "en": "jealous"
+        },
+        {
+          "es": "complicado/a",
+          "en": "complicated"
+        },
+        {
+          "es": "comprometido/a",
+          "en": "engaged"
+        },
+        {
+          "es": "distinto/a",
+          "en": "different"
+        },
+        {
+          "es": "enojado/a",
+          "en": "angry"
+        },
+        {
+          "es": "fiel",
+          "en": "faithful"
+        },
+        {
+          "es": "harto/a",
+          "en": "fed up"
+        },
+        {
+          "es": "infiel",
+          "en": "unfaithful"
+        },
+        {
+          "es": "molesto/a",
+          "en": "annoyed"
+        },
+        {
+          "es": "tonto/a",
+          "en": "dumb / silly"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DE SENTIMIENTOS Y RELACIONES",
+      "title-en": "TO TALK ABOUT FEELINGS AND RELATIONSHIPS",
+      "vocabulary": [
+        {
+          "es": "abrazar",
+          "en": "to hug"
+        },
+        {
+          "es": "acariciar",
+          "en": "to caress"
+        },
+        {
+          "es": "amar",
+          "en": "to love"
+        },
+        {
+          "es": "arrepentir(se) de",
+          "en": "to regret"
+        },
+        {
+          "es": "besar",
+          "en": "to kiss"
+        },
+        {
+          "es": "convivir (con alguien)",
+          "en": "to live (with someone)"
+        },
+        {
+          "es": "coquetear",
+          "en": "to flirt"
+        },
+        {
+          "es": "dejar (a alguien)",
+          "en": "to dump (someone)"
+        },
+        {
+          "es": "enamorarse (de)",
+          "en": "to fall in love (with)"
+        },
+        {
+          "es": "estar loco/a por",
+          "en": "to be crazy about"
+        },
+        {
+          "es": "querer",
+          "en": "to love"
+        },
+        {
+          "es": "romper (con)",
+          "en": "to break up (with)"
+        },
+        {
+          "es": "salir juntos/as",
+          "en": "to go out with"
+        },
+        {
+          "es": "separarse (de)",
+          "en": "to separate (from)"
+        },
+        {
+          "es": "tener una relación (con)",
+          "en": "to be in a relationship (with)"
+        }
+      ]
+    }
+  ]
+}
