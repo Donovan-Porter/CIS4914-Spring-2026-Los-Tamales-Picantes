@@ -1,0 +1,276 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS MIEMBROS DE LA FAMILIA",
+      "title-en": "FAMILY MEMBERS",
+      "vocabulary": [
+        {
+          "es": "el/la abuelo/a",
+          "en": "grandfather/grandmother"
+        },
+        {
+          "es": "el/la esposo/a",
+          "en": "husband/wife"
+        },
+        {
+          "es": "el/la gato/a",
+          "en": "cat"
+        },
+        {
+          "es": "el/la gemelo/a",
+          "en": "twin"
+        },
+        {
+          "es": "el/la hermanastro/a",
+          "en": "step-brother/sister"
+        },
+        {
+          "es": "el/la hermano/a",
+          "en": "brother/sister"
+        },
+        {
+          "es": "el/la hijastro/a",
+          "en": "step-son/daughter"
+        },
+        {
+          "es": "los hijos/las hijas",
+          "en": "sons/daughters"
+        },
+        {
+          "es": "la madrastra",
+          "en": "stepmother"
+        },
+        {
+          "es": "la madre (la mamá)",
+          "en": "mother"
+        },
+        {
+          "es": "el/la medio/a hermano/a",
+          "en": "half-brother/sister"
+        },
+        {
+          "es": "el/la nieto/a",
+          "en": "grandson/granddaughter"
+        },
+        {
+          "es": "el/la niño/a",
+          "en": "boy/girl"
+        },
+        {
+          "es": "el padrastro",
+          "en": "stepfather"
+        },
+        {
+          "es": "el padre (el papá)",
+          "en": "father"
+        },
+        {
+          "es": "los padres",
+          "en": "parents"
+        },
+        {
+          "es": "los parientes",
+          "en": "relatives"
+        },
+        {
+          "es": "el/la perro/a",
+          "en": "dog"
+        },
+        {
+          "es": "el/la primo/a",
+          "en": "cousin"
+        },
+        {
+          "es": "el/la tío/a",
+          "en": "uncle/aunt"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS ESTADOS",
+      "title-en": "STATUS",
+      "vocabulary": [
+        {
+          "es": "(estar) casado/a",
+          "en": "(to be) married"
+        },
+        {
+          "es": "(estar) divorciado/a",
+          "en": "(to be) divorced"
+        },
+        {
+          "es": "(estar) muerto/a",
+          "en": "(to be) dead"
+        },
+        {
+          "es": "(estar de) novio/a",
+          "en": "(to have) a boyfriend/girlfriend (romantic interest)"
+        },
+        {
+          "es": "(estar en) pareja",
+          "en": "(to have) a partner"
+        },
+        {
+          "es": "(estar) separado/a",
+          "en": "(to be) separated"
+        },
+        {
+          "es": "(estar) solo/a",
+          "en": "(to be) alone"
+        },
+        {
+          "es": "(estar) soltero/a",
+          "en": "(to be) single"
+        },
+        {
+          "es": "el/la hijo/a adoptado/a",
+          "en": "adopted son/daughter"
+        },
+        {
+          "es": "el matrimonio igualitario",
+          "en": "same-sex marriage"
+        },
+        {
+          "es": "la unión legal/la unión civil",
+          "en": "legal union/civil union"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS CARACTERÍSTICAS FÍSICAS",
+      "title-en": "PHYSICAL CHARACTERISTICS",
+      "vocabulary": [
+        {
+          "es": "alto/a",
+          "en": "tall"
+        },
+        {
+          "es": "atlético/a",
+          "en": "athletic"
+        },
+        {
+          "es": "bajo/a",
+          "en": "short (height)"
+        },
+        {
+          "es": "bonito/a",
+          "en": "pretty"
+        },
+        {
+          "es": "corto/a",
+          "en": "short (length)"
+        },
+        {
+          "es": "débil",
+          "en": "weak"
+        },
+        {
+          "es": "delgado/a",
+          "en": "thin"
+        },
+        {
+          "es": "feo/a",
+          "en": "ugly"
+        },
+        {
+          "es": "fuerte",
+          "en": "strong"
+        },
+        {
+          "es": "gordo/a (affectionate: gordito/a)",
+          "en": "fat"
+        },
+        {
+          "es": "grande",
+          "en": "big"
+        },
+        {
+          "es": "guapo/a",
+          "en": "handsome/attractive"
+        },
+        {
+          "es": "joven",
+          "en": "young"
+        },
+        {
+          "es": "largo/a",
+          "en": "long"
+        },
+        {
+          "es": "mayor (form of respect)",
+          "en": "older"
+        },
+        {
+          "es": "menor",
+          "en": "younger"
+        },
+        {
+          "es": "moreno/a",
+          "en": "dark skinned / dark haired"
+        },
+        {
+          "es": "las pecas",
+          "en": "freckles"
+        },
+        {
+          "es": "pelirrojo/a",
+          "en": "redhead"
+        },
+        {
+          "es": "pequeño/a",
+          "en": "small/little"
+        },
+        {
+          "es": "rizado/a",
+          "en": "curly"
+        },
+        {
+          "es": "rubio/a",
+          "en": "blonde"
+        },
+        {
+          "es": "viejo/a",
+          "en": "old"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DE LAS PERSONAS",
+      "title-en": "TO TALK ABOUT PEOPLE",
+      "vocabulary": [
+        {
+          "es": "contar (o>ue)",
+          "en": "to tell"
+        },
+        {
+          "es": "entender (e>ie)",
+          "en": "to understand"
+        },
+        {
+          "es": "parecerse a",
+          "en": "to look like (someone)"
+        },
+        {
+          "es": "pensar (e>ie)",
+          "en": "to think"
+        },
+        {
+          "es": "poder (o>ue)",
+          "en": "to be able to"
+        },
+        {
+          "es": "preferir (e>ie)",
+          "en": "to prefer"
+        },
+        {
+          "es": "sonreír (e>i)",
+          "en": "to smile"
+        },
+        {
+          "es": "soñar (con) (o>ue)",
+          "en": "to dream (about)"
+        }
+      ]
+    }
+  ]
+}

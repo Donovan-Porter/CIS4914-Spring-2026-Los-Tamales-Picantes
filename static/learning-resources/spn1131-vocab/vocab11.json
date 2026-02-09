@@ -1,0 +1,328 @@
+{
+  "groups": [
+    {
+      "title-es": "LAS PRENDAS DE VESTIR",
+      "title-en": "ARTICLES OF CLOTHING",
+      "vocabulary": [
+        {
+          "es": "el abrigo",
+          "en": "coat / overcoat"
+        },
+        {
+          "es": "los calcetines",
+          "en": "socks"
+        },
+        {
+          "es": "la camisa",
+          "en": "shirt"
+        },
+        {
+          "es": "la camiseta",
+          "en": "t-shirt"
+        },
+        {
+          "es": "el chaleco",
+          "en": "vest"
+        },
+        {
+          "es": "la chaqueta /el saco",
+          "en": "jacket"
+        },
+        {
+          "es": "la (mini)falda",
+          "en": "(mini)skirt"
+        },
+        {
+          "es": "las mallas",
+          "en": "leggings"
+        },
+        {
+          "es": "las medias",
+          "en": "tights / pantyhose"
+        },
+        {
+          "es": "los pantalones",
+          "en": "pants"
+        },
+        {
+          "es": "los pantalones cortos",
+          "en": "shorts"
+        },
+        {
+          "es": "la sudadera",
+          "en": "sweatshirt"
+        },
+        {
+          "es": "el suéter",
+          "en": "sweater"
+        },
+        {
+          "es": "el traje de baño",
+          "en": "bathing suit"
+        },
+        {
+          "es": "el vestido",
+          "en": "dress"
+        },
+        {
+          "es": "los vaqueros / los jeans",
+          "en": "jeans"
+        }
+      ]
+    },
+    {
+      "title-es": "EL CALZADO",
+      "title-en": "FOOTWEAR",
+      "vocabulary": [
+        {
+          "es": "las botas",
+          "en": "boots"
+        },
+        {
+          "es": "las chanclas",
+          "en": "flip flops"
+        },
+        {
+          "es": "las sandalias",
+          "en": "sandals"
+        },
+        {
+          "es": "las zapatillas (de tenis)",
+          "en": "tennis shoes / gym shoes"
+        },
+        {
+          "es": "los zapatos",
+          "en": "shoes"
+        },
+        {
+          "es": "los zapatos de tacón / los tacones altos",
+          "en": "high heels"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA DECIR CÓMO QUEDA LA ROPA",
+      "title-en": "TO SAY HOW CLOTHES LOOK",
+      "vocabulary": [
+        {
+          "es": "la cintura",
+          "en": "waist"
+        },
+        {
+          "es": "el conjunto",
+          "en": "outfit"
+        },
+        {
+          "es": "el estilo",
+          "en": "style"
+        },
+        {
+          "es": "el glúteo",
+          "en": "gluteus (to refer to \"rear\")"
+        },
+        {
+          "es": "la moda",
+          "en": "fashion"
+        },
+        {
+          "es": "el número",
+          "en": "size (for shoes)"
+        },
+        {
+          "es": "el pecho",
+          "en": "the chest"
+        },
+        {
+          "es": "la silueta",
+          "en": "silhouette"
+        },
+        {
+          "es": "la talla",
+          "en": "size (for clothing)"
+        },
+        {
+          "es": "el toque personal",
+          "en": "(individual) touch"
+        },
+        {
+          "es": "destacar",
+          "en": "to draw attention to/ to highlight"
+        },
+        {
+          "es": "disimular",
+          "en": "to detract attention from / to downplay"
+        },
+        {
+          "es": "elegir (j)",
+          "en": "to choose"
+        },
+        {
+          "es": "llevar",
+          "en": "to wear"
+        },
+        {
+          "es": "quedarle bien/mal (quedar)",
+          "en": "to look good/bad"
+        },
+        {
+          "es": "Me queda bien.",
+          "en": "It looks good/fits well."
+        },
+        {
+          "es": "No me queda bien.",
+          "en": "It doesn't look good on me. / It doesn't fit me well."
+        },
+        {
+          "es": "¡Te queda muy bien!",
+          "en": "It looks really good on you!"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA COMPRAR",
+      "title-en": "TO SHOP",
+      "vocabulary": [
+        {
+          "es": "comprar (en línea)",
+          "en": "to buy (online)"
+        },
+        {
+          "es": "devolver (ue)",
+          "en": "to return"
+        },
+        {
+          "es": "pagar",
+          "en": "to pay"
+        },
+        {
+          "es": "probar(se) (ue)",
+          "en": "to try on"
+        },
+        {
+          "es": "quedárselo(s) / quedársela(s)",
+          "en": "to keep it/them"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS ACCESORIOS",
+      "title-en": "ACCESSORIES",
+      "vocabulary": [
+        {
+          "es": "el anillo",
+          "en": "ring"
+        },
+        {
+          "es": "el bolso",
+          "en": "purse"
+        },
+        {
+          "es": "la bufanda",
+          "en": "scarf"
+        },
+        {
+          "es": "el cinturón",
+          "en": "belt"
+        },
+        {
+          "es": "el collar",
+          "en": "necklace"
+        },
+        {
+          "es": "la corbata",
+          "en": "tie"
+        },
+        {
+          "es": "las gafas (de sol)",
+          "en": "the (sun)glasses"
+        },
+        {
+          "es": "el gorro",
+          "en": "winter hat"
+        },
+        {
+          "es": "el maletín",
+          "en": "briefcase"
+        },
+        {
+          "es": "el pañuelo",
+          "en": "scarf / handkerchief"
+        },
+        {
+          "es": "la pulsera",
+          "en": "bracelet"
+        },
+        {
+          "es": "el reloj",
+          "en": "watch"
+        },
+        {
+          "es": "el sombrero",
+          "en": "hat"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS ESTILOS",
+      "title-en": "STYLES",
+      "vocabulary": [
+        {
+          "es": "ajustado/a",
+          "en": "tight"
+        },
+        {
+          "es": "arreglado/a",
+          "en": "put together"
+        },
+        {
+          "es": "arriesgado/a",
+          "en": "daring"
+        },
+        {
+          "es": "clásico/a",
+          "en": "classic, / conservative"
+        },
+        {
+          "es": "cómodo/a",
+          "en": "comfortable"
+        },
+        {
+          "es": "deportivo/a",
+          "en": "sporty"
+        },
+        {
+          "es": "elegante",
+          "en": "elegant"
+        },
+        {
+          "es": "entallado/a",
+          "en": "fitted"
+        },
+        {
+          "es": "formal",
+          "en": "formal"
+        },
+        {
+          "es": "holgado/a",
+          "en": "loose"
+        },
+        {
+          "es": "informal",
+          "en": "casual"
+        },
+        {
+          "es": "profesional",
+          "en": "professional"
+        },
+        {
+          "es": "recto/a",
+          "en": "straight"
+        },
+        {
+          "es": "relajado/a",
+          "en": "relaxed"
+        }
+      ]
+    }
+  ]
+}

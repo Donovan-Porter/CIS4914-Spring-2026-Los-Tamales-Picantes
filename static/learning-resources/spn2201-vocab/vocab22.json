@@ -1,0 +1,232 @@
+{
+  "groups": [
+    {
+      "title-es": "EL TELETRABAJO",
+      "title-en": "TELECOMMUTING",
+      "vocabulary": [
+        {
+          "es": "concentrar la semana laboral (en)",
+          "en": "to compress/condense the work week (in)"
+        },
+        {
+          "es": "la flexibilidad (de entrada y de salida)",
+          "en": "flexibility (of start and end times)"
+        },
+        {
+          "es": "la flexibilidad laboral",
+          "en": "job flexibility"
+        },
+        {
+          "es": "la jornada laboral",
+          "en": "workday"
+        },
+        {
+          "es": "teletrabajar",
+          "en": "to telecommute"
+        },
+        {
+          "es": "el/la teletrabajador/a",
+          "en": "telecommuter"
+        },
+        {
+          "es": "tener puntos de conexión (wifi)",
+          "en": "to have (wifi) hotspots"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS BENEFICIOS",
+      "title-en": "THE BENEFITS",
+      "vocabulary": [
+        {
+          "es": "desarrollar/fomentar la creatividad",
+          "en": "to develop/foster creativity"
+        },
+        {
+          "es": "reducir el estrés",
+          "en": "to reduce stress"
+        },
+        {
+          "es": "salvar el planeta",
+          "en": "to save the planet"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS DESVENTAJAS",
+      "title-en": "THE DISADVANTAGES",
+      "vocabulary": [
+        {
+          "es": "generar emisiones de CO2",
+          "en": "to generate CO2 emissions"
+        },
+        {
+          "es": "(no) ser sostenible",
+          "en": "to (not) be sustainable"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS ASPECTOS CULTURALES",
+      "title-en": "CULTURAL ASPECTS",
+      "vocabulary": [
+        {
+          "es": "el cambio de paradigma",
+          "en": "paradigm shift"
+        },
+        {
+          "es": "una cultura de presencia",
+          "en": "culture of presence"
+        },
+        {
+          "es": "gestionar equipos (des)localizados",
+          "en": "to manage remote/local teams"
+        }
+      ]
+    },
+    {
+      "title-es": "EL IMPACTO ECONÓMICO",
+      "title-en": "ECONOMIC IMPACT",
+      "vocabulary": [
+        {
+          "es": "ahorrar en ...",
+          "en": "to save on ..."
+        },
+        {
+          "es": "el área metropolitana (más/menos) congestionada",
+          "en": "(more/less) congested metropolitan area"
+        },
+        {
+          "es": "aumentar/disminuir la productividad",
+          "en": "to increase/decrease productivity"
+        },
+        {
+          "es": "la oficina en casa",
+          "en": "home office"
+        },
+        {
+          "es": "reducir los costos operacionales",
+          "en": "to reduce operational costs"
+        },
+        {
+          "es": "la regulación de (la forma de trabajo)",
+          "en": "regulation of (a work model)"
+        },
+        {
+          "es": "el/la trabajador/a asalariado/a",
+          "en": "salaried worker"
+        },
+        {
+          "es": "el/la trabajador/a independiente",
+          "en": "freelancer, independent worker"
+        }
+      ]
+    },
+    {
+      "title-es": "OTROS IMPACTOS AL ESTILO DE VIDA",
+      "title-en": "OTHER LIFESTYLE IMPACTS",
+      "vocabulary": [
+        {
+          "es": "la (mejor/peor) calidad de vida",
+          "en": "(better/worse) quality of life"
+        },
+        {
+          "es": "el conflicto familiar",
+          "en": "family conflict"
+        },
+        {
+          "es": "la disminución de gastos personales",
+          "en": "reduction of personal expenses"
+        },
+        {
+          "es": "la distancia social",
+          "en": "social distance/distancing"
+        },
+        {
+          "es": "enriquecer (la vida personal/profesional)",
+          "en": "to enrich (one's personal/professional life)"
+        },
+        {
+          "es": "el equilibrio entre la vida y el trabajo",
+          "en": "work-life balance"
+        },
+        {
+          "es": "la falta de contacto físico",
+          "en": "lack of physical contact"
+        },
+        {
+          "es": "la fatiga de ...",
+          "en": "fatigue of/from ..."
+        },
+        {
+          "es": "el sedentarismo",
+          "en": "sedentary lifestyle, sedentariness"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS HERRAMIENTAS DIGITALES",
+      "title-en": "DIGITAL TOOLS",
+      "vocabulary": [
+        {
+          "es": "la banda ancha",
+          "en": "broadband"
+        },
+        {
+          "es": "la conexión veloz de internet",
+          "en": "high-speed internet"
+        },
+        {
+          "es": "la herramienta de colaboración",
+          "en": "collaborative tool"
+        },
+        {
+          "es": "la plataforma digital",
+          "en": "digital platform"
+        },
+        {
+          "es": "la red privada",
+          "en": "private network"
+        },
+        {
+          "es": "la videollamada",
+          "en": "video call"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HACER VIDEOLLAMADAS",
+      "title-en": "TO DO VIDEO CALLS",
+      "vocabulary": [
+        {
+          "es": "agendar una reunión",
+          "en": "to set up a meeting"
+        },
+        {
+          "es": "bajar/subir el archivo",
+          "en": "to download / to upload a file"
+        },
+        {
+          "es": "compartir pantalla",
+          "en": "to screen share, to share one's screen"
+        },
+        {
+          "es": "descargar la aplicación",
+          "en": "to download an application"
+        },
+        {
+          "es": "detener video",
+          "en": "to stop video"
+        },
+        {
+          "es": "entrar a / finalizar una reunión",
+          "en": "to join/end a meeting"
+        },
+        {
+          "es": "(no) silenciar (a alguien)",
+          "en": "to (not) mute (someone)"
+        }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,8 @@ from flaskwebgui import FlaskUI
 #TODO: fix quiz
 from quiztest import Quiz, Question
 
+import argostranslate.package # TODO: See if this import is necessary
+import argostranslate.translate
 # TODO: valerie matching game
 from minigames.matching import MemoryGame
 import uuid
@@ -11,11 +13,28 @@ import uuid
 
 import os, sys
 
+#
+# ____/\____
+#      O __|
+#    _____|
+# _/
+#
+
+# Global variables
+lang_flow = "row"
+en_src = True
+messages = [
+            {"role": "system", "content": "You are an insightful, patient, and knowledgable, tutor for the Spanish language."},
+            {"role": "user", "content": "How can you help me learn Spanish?"},
+            {"role": "assistant", "content": "Yo puedo asistirlo para hablar de español muchos maneros. Que lo quedaría aprender? (I can assist you with Spanish speaking in many ways. What would you like to learn?)"}]
+
+
 # Huggingface transformers stuff
 os.environ["HF_HUB_OFFLINE"] = "1" 
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+# TODO: Find source and fix 'headertoolarge' error caused by pipeline on pulls from branches not don-dev
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
@@ -75,6 +94,7 @@ def quiz_view():
             current_question_index = 0
             return redirect(url_for('results'))
 
+
     current_question_index = session.get('current_question')
     question = quiz.questions[current_question_index]
     return render_template('quiz.html', question=question, question_index=current_question_index + 1, total_questions = len(quiz.questions))
@@ -93,21 +113,60 @@ def results():
 @app.route("/chat", methods = ['GET', 'POST', 'DELETE'])
 def chat() :
     # TODO: Save chat history
-    # TODO: Stream chat without refreshing page
+    # TODO: Add Markdown support.
+    # TODO: Make output pretty
+
+    global messages
 
     if "GET" == request.method :
-        return render_template("chat.html")
+        output = ""
+        for n in range(1, len(messages)) :
+            output = output + messages[n]["content"] + '\n\n'
+        return render_template("chat.html", chat_output = output)
     elif "POST" == request.method :
         print(request.form["chat-input"])
         input = request.form["chat-input"]
 
-        messages = [
-            {"role": "user", "content": input},
-        ]
-        out = pipe(messages)
+        messages.append({"role": "user", "content": input})
+        #messages = [{"role": "user", "content": input}]
+        #out = pipe(messages)
+        out = pipe(messages, max_new_tokens=150)
+        messages.append(out[0]["generated_text"][-1])
 
-        output = out[0]['generated_text'][1]['content']
-        return render_template("chat.html", chat_output = input + '\n\n' + output)
+        output = ""
+        for n in range(1, len(messages)) :
+            output = output + messages[n]['content'] + '\n\n'
+
+        return render_template("chat.html", chat_output = output)
+
+@app.route("/translate", methods = ['GET', 'POST'])
+def translate() :
+    global en_src
+    global lang_flow
+
+    if "GET" == request.method :
+        return render_template("translate.html")
+
+    elif "POST" == request.method :
+        but_val = request.form.get("input_button")
+
+        if "submit_input" == but_val :
+            input = request.form["input"]
+            if en_src :
+                output = argostranslate.translate.translate(input, "en", "es")
+            else :
+                output = argostranslate.translate.translate(input, "es", "en")
+            return render_template("translate.html", output = output, lang_flow=lang_flow)
+
+        elif "switch_lang" == but_val :
+            if en_src :
+                en_src = False
+                lang_flow = "row-reverse"
+            else :
+                en_src = True
+                lang_flow = "row"
+
+            return render_template("translate.html", lang_flow=lang_flow)
 
 
 
