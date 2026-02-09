@@ -86,8 +86,9 @@ def chat() :
 
         output = out[0]['generated_text'][1]['content']
         print(output)
-        #= input + '\n\n' + output
-        return render_template("chat.html", chat_user_output=input, chat_ai_output=output)
+        #= input + '\n\n' + output    
+        
+        return render_template("chat.html", chat_output=output)
 
 
 if __name__ == "__main__" :

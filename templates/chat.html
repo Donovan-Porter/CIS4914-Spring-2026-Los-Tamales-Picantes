@@ -20,15 +20,15 @@
     <div class="chatbot-messagebox">
 
         <div id="chatbot-output">
-            {% if chat_user_output %}
-                <div class="chatbot-user">{{chat_user_output | safe }}</div>
-            {% else %}
-                <div class="chatbot-ai">Envíame un mensaje para chatear conmigo!</div>
-            {% endif %}
+            <div class="chatbot-ai">Envíame un mensaje para chatear conmigo!</div>
+            {% for msg in chat_output %}
+                {% if loop.index0 % 2 == 0 %}
+                    <div class="chatbot-user">{{msg}}</div>
+                {% else %}
+                    <div class="chatbot-ai">{{msg}}</div>
+                {% endif %}
+            {% endfor %}
 
-            {% if chat_user_output %}
-                <div class="chatbot-ai">{{chat_ai_output | safe}}</div>
-            {% endif %}
         </div>
 
         <form id="chatbot-input" action="{{url_for('chat')}}" method="POST" autocomplete="off" onsubmit="showLoad()">
