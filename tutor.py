@@ -172,6 +172,9 @@ def choose_vocab_group():
         vocab_group = groups[group_index]
         vocab_list = [v.get('es','') for v in vocab_group.get('vocabulary', [])]
 
+        # STATIC word bank (all vocab in the group)
+        session['vocab_bank'] = vocab_list
+
         session['course'] = course
         session['file'] = vocab_file
         session['group_index'] = group_index
@@ -187,7 +190,11 @@ def choose_vocab_group():
         story = generate_story_with_model(pipe, vocab_shuffled, title=vocab_group.get('title-es'))
         if not story:
             return 'Story generation failed.'
+        
+        # DYNAMIC answer list (only words actually used, in order)
+        answer_vocab = [part['word'] for part in story]
 
+        session['answer_vocab'] = answer_vocab 
         session['story'] = story
         session['revealed'] = [False] * len(vocab_shuffled)
         session['current_index'] = 0
@@ -200,6 +207,9 @@ def choose_vocab_group():
 # TODO: need to fix answer checking - using wordbox instead of text input
 @app.route('/story', methods=['GET','POST'])
 def story():
+    vocab_bank = session.get('vocab_bank', [])  # Static list of all vocab words
+    answer_vocab = session.get('answer_vocab', [])  # Dynamic list of words used in the story
+
     story = session.get('story')
     if not story:
         return redirect(url_for('choose_course'))
@@ -230,7 +240,9 @@ def story():
                     revealed=revealed,
                     finished=True,
                     current_index=current,
-                    message=None
+                    message=None,
+                    vocab_list=vocab_bank,
+                    answer_vocab=answer_vocab
                 )
 
             return redirect(url_for('story'))
@@ -244,7 +256,9 @@ def story():
         revealed=revealed,
         current_index=current,
         message=message,
-        finished=False
+        finished=False,
+        vocab_list=vocab_bank,
+        answer_vocab=answer_vocab
     )
 
 if __name__ == "__main__" :

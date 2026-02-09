@@ -67,22 +67,17 @@ def generate_story_with_model(pipe, vocab_list, title=None):
             # TODO: sometimes LLM doesn't generate correctly, so if vocab word not found in any sentence, skip it
             if not found_sentence:
                 continue
+            
+            # find exact match position safely using normalized text
+            match = re.search(w_norm, normalize_text(found_sentence))
+            if not match:
+                continue
 
-            s_norm = normalize_text(found_sentence)
-            idx = s_norm.find(w_norm)
+            start = match.start()
+            end = match.end()
 
-            if idx != -1:
-                orig_idx = found_sentence.lower().find(w_norm)
-                before = found_sentence[:orig_idx].rstrip()
-
-                if before.endswith(("el", "la", "los", "las", "un", "una")):
-                    before_words = before.split()
-                    if before_words[-1] in ["el", "la", "los", "las", "un", "una"]:
-                        before = " ".join(before_words[:-1]) + " "
-
-                after = found_sentence[orig_idx + len(w):].lstrip()
-            else:
-                before, after = found_sentence, ""
+            before = found_sentence[:start]
+            after = found_sentence[end:]
 
             result.append({
                 "before": before,
