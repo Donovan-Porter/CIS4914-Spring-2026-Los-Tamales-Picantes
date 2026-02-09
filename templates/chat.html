@@ -23,7 +23,7 @@
             {% if chat_user_output %}
                 <div class="chatbot-user">{{chat_user_output | safe }}</div>
             {% else %}
-                <div class="chatbot-ai">Send me a message to chat with me!</div>
+                <div class="chatbot-ai">Envíame un mensaje para chatear conmigo!</div>
             {% endif %}
 
             {% if chat_user_output %}
@@ -32,9 +32,9 @@
         </div>
 
         <form id="chatbot-input" action="{{url_for('chat')}}" method="POST" autocomplete="off" onsubmit="showLoad()">
-            <input id="chat-input-field" type="text" name="chat-input">
+            <input id="chat-input-field" type="text" name="chat-input" placeholder="Mensaje de texto">
             <button type="submit" id="chatbot-submit">
-                Send
+                Envías
             </button>
             <span>temp</span>
         </form>
