@@ -1,34 +1,77 @@
 <!DOCTYPE HTML>
 
 <head>
-
-<title>
-LLM Chat Interface
-</title>
-
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
-
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/chatbot.css') }}" >
-
+    <title>
+        LLM Chat Interface
+    </title>
 </head>
 
+<span class="header"></span>
+
+<br>
 
 <body>
+<div class="chatbot-container">
+    <div class="chatbot-header">
+        <span>temp</span>
+        <span>Chatear Conmigo</span>
+    </div>
 
-    <span class="header">
-    </span>
+    <div class="chatbot-messagebox">
 
-    <pre id="chatbot-output">
-        {{chat_output}}
-    </pre>
+        <div id="chatbot-output">
+            <div class="chatbot-user"> How can you help me learn Spanish? </div>
+            <div class="chatbot-ai"> Yo puedo asistirlo para hablar de español muchos maneros. Que lo quedaría aprender? (I can assist you with Spanish speaking in many ways. What would you like to learn?) </div>
+            {% for msg in chat_output %}
+                {% if loop.index0 % 2 == 0 %}
+                    <div class="chatbot-user">{{msg}}</div>
+                {% else %}
+                    <div class="chatbot-ai">{{msg}}</div>
+                {% endif %}
+            {% endfor %}
 
-    <form id="chatbot-input" action="{{url_for('chat')}}" method="POST" autocomplete="off">
-        <input type="text" name="chat-input">
-        <button type="submit">
-            chat
+        </div>
+
+        <form id="chatbot-input" action="{{url_for('chat')}}" method="POST" autocomplete="off" onsubmit="showLoad()">
+            <input id="chat-input-field" type="text" name="chat-input" placeholder="Mensaje de texto">
+            <button type="submit" id="chatbot-submit">
+                Envías
+            </button>
+            <span>temp</span>
+        </form>
+    </div>
+
+    <form action="{{url_for('chat_clear')}}" method="POST" autocomplete="off">
+        <button id="chatbot-clearbttn">
+            Borrar Chat
         </button>
     </form>
 
-<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
-
+</div>
 </body>
+
+<link rel="stylesheet" type="text/css" href="/static/css/style.css" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/chatbot.css') }}" >
+<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+<script>
+    function showLoad()
+    {
+        const submitBttn = document.getElementById('chatbot-submit');
+        const inputField = document.getElementById('chat-input-field');
+
+        const ellipsis = document.createElement("span");
+        ellipsis.classList.add("ellipsis");
+        ellipsis.innerHTML = '<span>.</span><span>.</span><span>.</span>'
+
+        submitBttn.innerHTML = "";
+        submitBttn.appendChild(ellipsis);
+
+        submitBttn.disabled = true;
+
+        setTimeout(() => {
+            inputField.disabled = true;
+        }, 1);
+
+        return true;
+    }
+</script>
