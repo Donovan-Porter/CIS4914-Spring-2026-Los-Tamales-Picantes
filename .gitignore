@@ -5,3 +5,5 @@
 /tutor.spec
 .virtenv
 /minigames/__pycache__/
+__pycache__/
+*.pyc
