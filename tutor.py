@@ -23,10 +23,8 @@ import os, sys
 # Global variables
 lang_flow = "row"
 en_src = True
-messages = [
-            {"role": "system", "content": "You are an insightful, patient, and knowledgable, tutor for the Spanish language."},
-            {"role": "user", "content": "How can you help me learn Spanish?"},
-            {"role": "assistant", "content": "Yo puedo asistirlo para hablar de español muchos maneros. Que lo quedaría aprender? (I can assist you with Spanish speaking in many ways. What would you like to learn?)"}]
+message_role = {"role": "system", "content": "You are an insightful, patient, and knowledgable, tutor for the Spanish language."}
+messages = [message_role]
 
 
 # Huggingface transformers stuff
@@ -117,11 +115,12 @@ def chat() :
     # TODO: Make output pretty
 
     global messages
-
+    output = []
+    
     if "GET" == request.method :
-        output = ""
         for n in range(1, len(messages)) :
-            output = output + messages[n]["content"] + '\n\n'
+            output.append(messages[n]['content'])
+            
         return render_template("chat.html", chat_output = output)
     elif "POST" == request.method :
         print(request.form["chat-input"])
@@ -133,11 +132,24 @@ def chat() :
         out = pipe(messages, max_new_tokens=150)
         messages.append(out[0]["generated_text"][-1])
 
-        output = ""
         for n in range(1, len(messages)) :
-            output = output + messages[n]['content'] + '\n\n'
+            output.append(messages[n]['content'])
+   # output = output + messages[n]['content'] + '\n\n'
+   
+        print(output)
 
         return render_template("chat.html", chat_output = output)
+    
+@app.route("/chat/clear", methods = ['POST'])
+def chat_clear():
+    
+    global messages, message_role
+    
+    if "POST" == request.method:
+        messages.clear()
+        messages = [message_role]
+            
+    return render_template("chat.html")
 
 @app.route("/translate", methods = ['GET', 'POST'])
 def translate() :

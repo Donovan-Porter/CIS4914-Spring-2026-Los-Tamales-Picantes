@@ -87,8 +87,8 @@
     border: none;
     border-radius: 5px;
 
-    width: 7vw;
-    height: 6vh;
+    width: 5vw;
+    height: 4vh;
 
     padding: 5px;
 
@@ -106,6 +106,35 @@
 }
 
 #chatbot-input button:active
+{
+    transform: scale(1.4);
+}
+
+#chatbot-clearbttn {
+    margin-top: 5px;
+
+    border: none;
+    border-radius: 5px;
+
+    width: 9vw;
+    height: 4vh;
+
+    padding: 5px;
+
+    color: white;
+    background-color: #0067A5;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#chatbot-clearbttn:hover
+{
+    background-color: #FFBF00;
+    color: black;
+}
+
+#chatbot-clearbttn:active
 {
     transform: scale(1.4);
 }

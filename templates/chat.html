@@ -20,7 +20,8 @@
     <div class="chatbot-messagebox">
 
         <div id="chatbot-output">
-            <div class="chatbot-ai">Envíame un mensaje para chatear conmigo!</div>
+            <div class="chatbot-user"> How can you help me learn Spanish? </div>
+            <div class="chatbot-ai"> Yo puedo asistirlo para hablar de español muchos maneros. Que lo quedaría aprender? (I can assist you with Spanish speaking in many ways. What would you like to learn?) </div>
             {% for msg in chat_output %}
                 {% if loop.index0 % 2 == 0 %}
                     <div class="chatbot-user">{{msg}}</div>
@@ -39,6 +40,13 @@
             <span>temp</span>
         </form>
     </div>
+
+    <form action="{{url_for('chat_clear')}}" method="POST" autocomplete="off">
+        <button id="chatbot-clearbttn">
+            Borrar Chat
+        </button>
+    </form>
+
 </div>
 </body>
 
