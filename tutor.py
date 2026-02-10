@@ -170,23 +170,17 @@ def choose_vocab_group():
         group_index = int(request.form.get('group_index', 0))
 
         vocab_group = groups[group_index]
-        vocab_list = [v.get('es','') for v in vocab_group.get('vocabulary', [])]
 
-        # STATIC word bank (all vocab in the group)
-        session['vocab_bank'] = vocab_list
+        raw_vocab = [v.get('es','') for v in vocab_group.get('vocabulary', [])]
 
-        session['course'] = course
-        session['file'] = vocab_file
-        session['group_index'] = group_index
-        session['group_title'] = vocab_group.get('title-es','')
+        session['vocab_bank'] = raw_vocab
 
-        # TODO: shuffle order
-        order = list(range(len(vocab_list)))
+        order = list(range(len(raw_vocab)))
         random.shuffle(order)
 
-        vocab_shuffled = [vocab_list[i] for i in order]
+        vocab_shuffled = [raw_vocab[i] for i in order]
         session['vocab_list'] = vocab_shuffled
-
+    
         story = generate_story_with_model(pipe, vocab_shuffled, title=vocab_group.get('title-es'))
         if not story:
             return 'Story generation failed.'

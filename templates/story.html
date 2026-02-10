@@ -40,7 +40,14 @@
               <strong>{{ part.word }}</strong>
             {% elif idx == current_index %}
               <form method="post" style="display:inline">
-                <input id="guess-input" name="guess" autocomplete="off" placeholder="Type the word..." style="width:260px;padding:4px">
+                <select name="guess" required style="padding:4px;min-width:260px">
+                  <option value="" disabled selected>
+                    -- Choose a word --
+                  </option>
+                  {% for w in vocab_list %}
+                    <option value="{{ w }}">{{ w }}</option>
+                  {% endfor %}
+                </select>
                 <button type="submit">Submit</button>
               </form>
             {% else %}

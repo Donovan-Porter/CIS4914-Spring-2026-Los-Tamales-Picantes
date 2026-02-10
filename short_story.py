@@ -52,7 +52,7 @@ def generate_story_with_model(pipe, vocab_list, title=None):
         used_sentences = set()
 
         for w in vocab_list:
-            w_norm = normalize_text(strip_article(w))
+            w_norm = normalize_text(w)
             found_sentence = None
 
             # find an unused sentence containing the vocab word
@@ -77,11 +77,20 @@ def generate_story_with_model(pipe, vocab_list, title=None):
             end = match.end()
 
             before = found_sentence[:start]
+
+            # Remove trailing article from before (el/la/los/las/un/una)
+            before = re.sub(
+                r'\b(el|la|los|las|un|una)\s*$',
+                '',
+                before,
+                flags=re.IGNORECASE
+            )
+
             after = found_sentence[end:]
 
             result.append({
                 "before": before,
-                "word": strip_article(w),
+                "word": w,
                 "after": after
             })
 
