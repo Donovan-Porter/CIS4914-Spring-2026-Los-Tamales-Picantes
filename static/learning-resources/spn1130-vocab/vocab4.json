@@ -1,0 +1,274 @@
+{
+  "groups": [
+    {
+      "title-es": "LAS PERSONAS Y LOS LUGARES",
+      "title-en": "PEOPLE AND PLACES",
+      "vocabulary": [
+        {
+          "es": "el apartamento",
+          "en": "the apartment"
+        },
+        {
+          "es": "el aula (virtual)",
+          "en": "the (virtual) classroom"
+        },
+        {
+          "es": "la biblioteca",
+          "en": "the library"
+        },
+        {
+          "es": "la cafetería",
+          "en": "the cafeteria"
+        },
+        {
+          "es": "el campus (virtual)",
+          "en": "the (virtual) campus"
+        },
+        {
+          "es": "la casa",
+          "en": "the house"
+        },
+        {
+          "es": "el centro estudiantil",
+          "en": "the student center"
+        },
+        {
+          "es": "la clase",
+          "en": "the class"
+        },
+        {
+          "es": "el/la compañero/a de cuarto",
+          "en": "the roommate"
+        },
+        {
+          "es": "el cuarto",
+          "en": "the room"
+        },
+        {
+          "es": "el edificio",
+          "en": "the building"
+        },
+        {
+          "es": "el gimnasio",
+          "en": "the gym"
+        },
+        {
+          "es": "el laboratorio",
+          "en": "the lab"
+        },
+        {
+          "es": "la librería",
+          "en": "the bookstore"
+        },
+        {
+          "es": "la oficina",
+          "en": "the office"
+        },
+        {
+          "es": "la residencia estudiantil",
+          "en": "the dormitory"
+        },
+        {
+          "es": "la reunión",
+          "en": "the meeting"
+        },
+        {
+          "es": "el salón de clase",
+          "en": "the classroom"
+        },
+        {
+          "es": "la tienda (virtual)",
+          "en": "the (online) store"
+        }
+      ]
+    },
+    {
+      "title-es": "EN EL SALÓN DE CLASE",
+      "title-en": "IN THE CLASSROOM",
+      "vocabulary": [
+        {
+          "es": "el bolígrafo, la pluma",
+          "en": "the pen"
+        },
+        {
+          "es": "el cuaderno",
+          "en": "the notebook"
+        },
+        {
+          "es": "el escritorio",
+          "en": "the desk"
+        },
+        {
+          "es": "la fecha de entrega",
+          "en": "the due date"
+        },
+        {
+          "es": "el foro",
+          "en": "the discussion board"
+        },
+        {
+          "es": "el libro de texto",
+          "en": "the textbook"
+        },
+        {
+          "es": "la nota",
+          "en": "the grade"
+        },
+        {
+          "es": "la computadora (portátil)",
+          "en": "the laptop"
+        },
+        {
+          "es": "la prueba",
+          "en": "the quiz"
+        },
+        {
+          "es": "la tableta",
+          "en": "the tablet"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA DESCRIBIR A PERSONAS Y LUGARES",
+      "title-en": "TO DESCRIBE PEOPLE AND PLACES",
+      "vocabulary": [
+        {
+          "es": "administrativo/a",
+          "en": "administrative"
+        },
+        {
+          "es": "cerca de",
+          "en": "close to"
+        },
+        {
+          "es": "desordenado/a",
+          "en": "disorganized/messy"
+        },
+        {
+          "es": "lejos de",
+          "en": "far from"
+        },
+        {
+          "es": "limpio/a",
+          "en": "clean"
+        },
+        {
+          "es": "moderno/a",
+          "en": "modern"
+        },
+        {
+          "es": "nuevo/a",
+          "en": "new"
+        },
+        {
+          "es": "ordenado/a",
+          "en": "organized/neat"
+        },
+        {
+          "es": "sucio/a",
+          "en": "dirty"
+        },
+        {
+          "es": "último/a",
+          "en": "last (most recent)"
+        },
+        {
+          "es": "universitario/a",
+          "en": "university-"
+        },
+        {
+          "es": "viejo/a",
+          "en": "old"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DE LO QUE HACES",
+      "title-en": "TO TALK ABOUT WHAT YOU DO",
+      "vocabulary": [
+        {
+          "es": "aprender",
+          "en": "to learn"
+        },
+        {
+          "es": "buscar",
+          "en": "to look for"
+        },
+        {
+          "es": "calificar",
+          "en": "to grade"
+        },
+        {
+          "es": "caminar",
+          "en": "to walk"
+        },
+        {
+          "es": "compartir",
+          "en": "to share"
+        },
+        {
+          "es": "comprar",
+          "en": "to buy"
+        },
+        {
+          "es": "enseñar",
+          "en": "to teach"
+        },
+        {
+          "es": "escribir",
+          "en": "to write"
+        },
+        {
+          "es": "hablar",
+          "en": "to speak"
+        },
+        {
+          "es": "leer",
+          "en": "to read"
+        },
+        {
+          "es": "participar",
+          "en": "to participate"
+        },
+        {
+          "es": "pasar (tiempo)",
+          "en": "to pass (time)"
+        },
+        {
+          "es": "recibir",
+          "en": "to receive"
+        },
+        {
+          "es": "sacar (un libro/una nota)",
+          "en": "to take out (a book); to get (a grade)"
+        },
+        {
+          "es": "terminar",
+          "en": "to finish"
+        },
+        {
+          "es": "tomar (una clase)",
+          "en": "to take (a class)"
+        }
+      ]
+    },
+    {
+      "title-es": "GUSTOS",
+      "title-en": "LIKES/DISLIKES",
+      "vocabulary": [
+        {
+          "es": "gustar",
+          "en": "to be pleasing to someone"
+        },
+        {
+          "es": "Me gusta(n) ...",
+          "en": "I like ..."
+        },
+        {
+          "es": "No me gusta(n) ...",
+          "en": "I don't like ..."
+        }
+      ]
+    }
+  ]
+}

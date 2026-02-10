@@ -1,0 +1,158 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS PERSONAJES Y LOS ELEMENTOS CENTRALES",
+      "title-en": "CHARACTERS AND CENTRAL ELEMENTS",
+      "vocabulary": [
+        {
+          "es": "la infusión",
+          "en": "tea infusion"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS SUCESOS",
+      "title-en": "EVENTS",
+      "vocabulary": [
+        {
+          "es": "hacer el esfuerzo por + inf.",
+          "en": "to make the effort to + inf."
+        },
+        {
+          "es": "lamentar(se)",
+          "en": "to lament"
+        },
+        {
+          "es": "tostar (ue)",
+          "en": "to toast"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS VALORES",
+      "title-en": "VALUES",
+      "vocabulary": [
+        {
+          "es": "la amistad",
+          "en": "friendship"
+        },
+        {
+          "es": "la hospitalidad",
+          "en": "hospitality"
+        },
+        {
+          "es": "la valentía",
+          "en": "bravery"
+        }
+      ]
+    },
+    {
+      "title-es": "TOMAR MATE",
+      "title-en": "DRINKING MATE",
+      "vocabulary": [
+        {
+          "es": "la bombilla",
+          "en": "metal straw"
+        },
+        {
+          "es": "el/la cebador/a",
+          "en": "person who prepares and serves mate"
+        },
+        {
+          "es": "la calabaza",
+          "en": "gourd"
+        },
+        {
+          "es": "cebar un mate",
+          "en": "to brew mate"
+        },
+        {
+          "es": "gracias",
+          "en": "thanks (pragmatically: no more mate; enough)"
+        },
+        {
+          "es": "hacer una mateada/terereada",
+          "en": "to gather to drink mate/tereré"
+        },
+        {
+          "es": "la guampa",
+          "en": "gourd container/cup"
+        },
+        {
+          "es": "el mate (amargo/dulce)",
+          "en": "(bitter/sweet) herbal tea infusion"
+        },
+        {
+          "es": "la pava",
+          "en": "kettle"
+        },
+        {
+          "es": "la ronda de mate",
+          "en": "round of mate drinking"
+        },
+        {
+          "es": "el sorbo (de mate / de tereré)",
+          "en": "sip (of mate/tereré)"
+        },
+        {
+          "es": "el tereré",
+          "en": "cold-brewed or iced mate"
+        },
+        {
+          "es": "el termo",
+          "en": "thermos"
+        },
+        {
+          "es": "la yerba",
+          "en": "mate leaves"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS COSTUMBRES Y LAS TRADICIONES",
+      "title-en": "CUSTOMS AND TRADITIONS",
+      "vocabulary": [
+        {
+          "es": "abandonar (una costumbre / una tradición)",
+          "en": "to abandon (a custom / a tradition)"
+        },
+        {
+          "es": "el código (de una norma social)",
+          "en": "code (of a social norm)"
+        },
+        {
+          "es": "construir (y)",
+          "en": "to construct"
+        },
+        {
+          "es": "convertir (la costumbre en tradición)",
+          "en": "to convert (a custom into tradition)"
+        },
+        {
+          "es": "evolucionar",
+          "en": "to evolve"
+        },
+        {
+          "es": "introducir (la costumbre)",
+          "en": "to introduce (a custom)"
+        },
+        {
+          "es": "perdurar (con el paso del tiempo)",
+          "en": "to endure (the passage of time)"
+        },
+        {
+          "es": "rechazar (una costumbre / una tradición)",
+          "en": "to reject (a custom / a tradition)"
+        },
+        {
+          "es": "el valor social",
+          "en": "social value"
+        },
+        {
+          "es": "transmitir por tradición oral",
+          "en": "to pass down by oral tradition"
+        }
+      ]
+    }
+  ]
+}

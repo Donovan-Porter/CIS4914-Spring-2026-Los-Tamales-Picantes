@@ -1,0 +1,356 @@
+{
+  "groups": [
+    {
+      "title-es": "LAS COMIDAS",
+      "title-en": "MEALS",
+      "vocabulary": [
+        {
+          "es": "el desayuno",
+          "en": "breakfast"
+        },
+        {
+          "es": "el almuerzo",
+          "en": "lunch"
+        },
+        {
+          "es": "la merienda",
+          "en": "snack"
+        },
+        {
+          "es": "la comida (principal)",
+          "en": "(main) meal / dinner (served midday in many Hispanic countries)"
+        },
+        {
+          "es": "la cena",
+          "en": "supper"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS UTENSILIOS",
+      "title-en": "UTENSILS",
+      "vocabulary": [
+        {
+          "es": "la cuchara",
+          "en": "spoon"
+        },
+        {
+          "es": "el cuchillo",
+          "en": "knife"
+        },
+        {
+          "es": "el plato",
+          "en": "plate"
+        },
+        {
+          "es": "el plato hondo",
+          "en": "bowl"
+        },
+        {
+          "es": "el tenedor",
+          "en": "fork"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA PREPARAR COMIDA",
+      "title-en": "TO PREPARE FOOD",
+      "vocabulary": [
+        {
+          "es": "batir",
+          "en": "to beat / to shake"
+        },
+        {
+          "es": "calentar (e>ie)",
+          "en": "to warm / to heat up"
+        },
+        {
+          "es": "cortar",
+          "en": "to cut"
+        },
+        {
+          "es": "freír (e>i)",
+          "en": "to fry"
+        },
+        {
+          "es": "hervir (e>ie)",
+          "en": "to boil"
+        },
+        {
+          "es": "mezclar",
+          "en": "to mix"
+        },
+        {
+          "es": "pelar",
+          "en": "to peel"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS PLATOS Y LAS PREPARACIONES",
+      "title-en": "DISHES AND PREPARATIONS",
+      "vocabulary": [
+        {
+          "es": "la ensalada (mixta)",
+          "en": "(mixed) salad"
+        },
+        {
+          "es": "el sándwich / el bocadillo (Spain)",
+          "en": "sandwich / sub"
+        },
+        {
+          "es": "la sopa",
+          "en": "soup"
+        },
+        {
+          "es": "a la parrilla",
+          "en": "grilled"
+        },
+        {
+          "es": "al horno",
+          "en": "baked"
+        },
+        {
+          "es": "al vapor",
+          "en": "steamed"
+        },
+        {
+          "es": "crudo/a",
+          "en": "raw"
+        },
+        {
+          "es": "frito/a",
+          "en": "fried"
+        },
+        {
+          "es": "vegano/a",
+          "en": "vegan"
+        },
+        {
+          "es": "vegetariano/a",
+          "en": "vegetarian"
+        },
+        {
+          "es": "servir (e>i) frío/caliente/a temperatura ambiente",
+          "en": "to serve cold/hot/room temperature"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA DESCRIBIR LAS COMIDAS",
+      "title-en": "TO DESCRIBE FOOD",
+      "vocabulary": [
+        {
+          "es": "agridulce",
+          "en": "sweet and sour, bittersweet"
+        },
+        {
+          "es": "amargo/a",
+          "en": "bitter"
+        },
+        {
+          "es": "casero/a",
+          "en": "homemade"
+        },
+        {
+          "es": "dulce",
+          "en": "sweet"
+        },
+        {
+          "es": "grasoso/a",
+          "en": "fatty"
+        },
+        {
+          "es": "liviano/a",
+          "en": "light"
+        },
+        {
+          "es": "picante",
+          "en": "spicy"
+        },
+        {
+          "es": "rico/a",
+          "en": "delicious"
+        },
+        {
+          "es": "sano/a",
+          "en": "healthy"
+        },
+        {
+          "es": "suave",
+          "en": "smooth"
+        },
+        {
+          "es": "Sabe a (ajo/pollo).",
+          "en": "Tastes like (garlic/ chicken)."
+        },
+        {
+          "es": "Sabe bien/mal.",
+          "en": "Tastes good/bad."
+        }
+      ]
+    },
+    {
+      "title-es": "LAS PROTEÍNAS",
+      "title-en": "PROTEINS",
+      "vocabulary": [
+        {
+          "es": "la carne de res (picada)",
+          "en": "(ground) beef"
+        },
+        {
+          "es": "el chorizo",
+          "en": "(type of) sausage"
+        },
+        {
+          "es": "los huevos",
+          "en": "eggs"
+        },
+        {
+          "es": "el jamón",
+          "en": "ham"
+        },
+        {
+          "es": "los mariscos",
+          "en": "shellfish"
+        },
+        {
+          "es": "el pavo",
+          "en": "turkey"
+        },
+        {
+          "es": "el pescado",
+          "en": "fish"
+        },
+        {
+          "es": "el pollo",
+          "en": "chicken"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS FRUTAS Y LAS VERDURAS",
+      "title-en": "FRUITS AND VEGETABLES",
+      "vocabulary": [
+        {
+          "es": "las aceitunas",
+          "en": "olives"
+        },
+        {
+          "es": "el ajo",
+          "en": "garlic"
+        },
+        {
+          "es": "la banana / el plátano",
+          "en": "banana"
+        },
+        {
+          "es": "la cebolla",
+          "en": "onion"
+        },
+        {
+          "es": "el champiñón",
+          "en": "mushroom"
+        },
+        {
+          "es": "las fresas",
+          "en": "strawberries"
+        },
+        {
+          "es": "la lechuga",
+          "en": "lettuce"
+        },
+        {
+          "es": "la manzana",
+          "en": "apple"
+        },
+        {
+          "es": "la naranja",
+          "en": "orange"
+        },
+        {
+          "es": "las papas (Lat. Am.) / las patatas (Spain)",
+          "en": "potatoes"
+        },
+        {
+          "es": "el pimiento",
+          "en": "pepper"
+        },
+        {
+          "es": "el tomate",
+          "en": "tomato"
+        },
+        {
+          "es": "las uvas",
+          "en": "grapes"
+        },
+        {
+          "es": "la zanahoria",
+          "en": "carrot"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS GRANOS",
+      "title-en": "GRAINS",
+      "vocabulary": [
+        {
+          "es": "el arroz",
+          "en": "rice"
+        },
+        {
+          "es": "el pan (tostado / blanco / integral)",
+          "en": "(toasted / white / wheat) bread"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS PRODUCTOS LÁCTEOS",
+      "title-en": "DAIRY PRODUCTS",
+      "vocabulary": [
+        {
+          "es": "la leche (de soja / de almendra)",
+          "en": "(soy / almond) milk"
+        },
+        {
+          "es": "la mantequilla",
+          "en": "butter"
+        },
+        {
+          "es": "el queso",
+          "en": "cheese"
+        },
+        {
+          "es": "el yogur",
+          "en": "yogurt"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS CONDIMENTOS",
+      "title-en": "CONDIMENTS",
+      "vocabulary": [
+        {
+          "es": "el aceite (de oliva)",
+          "en": "(olive) oil"
+        },
+        {
+          "es": "con / sin",
+          "en": "with / without"
+        },
+        {
+          "es": "la pimienta",
+          "en": "pepper"
+        },
+        {
+          "es": "la sal",
+          "en": "salt"
+        },
+        {
+          "es": "el vinagre",
+          "en": "vinegar"
+        }
+      ]
+    }
+  ]
+}

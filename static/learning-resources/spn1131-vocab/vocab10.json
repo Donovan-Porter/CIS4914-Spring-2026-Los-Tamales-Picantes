@@ -1,0 +1,264 @@
+{
+  "groups": [
+    {
+      "title-es": "LA SALUD",
+      "title-en": "HEALTH",
+      "vocabulary": [
+        {
+          "es": "el/la cirujano/a",
+          "en": "surgeon"
+        },
+        {
+          "es": "el/la consejero/a",
+          "en": "counselor"
+        },
+        {
+          "es": "el/la dentista",
+          "en": "dentist"
+        },
+        {
+          "es": "el/la director/a del hospital",
+          "en": "hospital director"
+        },
+        {
+          "es": "el/la enfermero/a",
+          "en": "nurse"
+        },
+        {
+          "es": "el/la farmacéutico/a",
+          "en": "pharmacist"
+        },
+        {
+          "es": "el/la fisioterapeuta",
+          "en": "physical therapist"
+        },
+        {
+          "es": "el/la médico/a",
+          "en": "doctor (of medicine)"
+        },
+        {
+          "es": "el /la psicólogo/a",
+          "en": "psychologist"
+        },
+        {
+          "es": "cuidar",
+          "en": "to care for"
+        },
+        {
+          "es": "curar",
+          "en": "to cure"
+        },
+        {
+          "es": "preparar (medicamentos)",
+          "en": "to prepare (medication)"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS NEGOCIOS",
+      "title-en": "BUSINESS",
+      "vocabulary": [
+        {
+          "es": "el/la asesor/a financiero/a",
+          "en": "financial advisor"
+        },
+        {
+          "es": "el/la contador/a",
+          "en": "accountant"
+        },
+        {
+          "es": "el/la ejecutivo/a",
+          "en": "executive"
+        },
+        {
+          "es": "el/la gerente",
+          "en": "manager"
+        },
+        {
+          "es": "aconsejar",
+          "en": "to advise"
+        },
+        {
+          "es": "administrar (una compañía)",
+          "en": "to run, to manage (a company)"
+        },
+        {
+          "es": "comprar",
+          "en": "to buy"
+        },
+        {
+          "es": "ganar dinero",
+          "en": "to earn money"
+        },
+        {
+          "es": "invertir",
+          "en": "to invest"
+        },
+        {
+          "es": "vender",
+          "en": "to sell"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS CIENCIAS, LA INGENIERÍA, EL DISEÑO Y LA COMPUTACIÓN",
+      "title-en": "SCIENCE, ENGINEERING, DESIGN AND COMPUTING",
+      "vocabulary": [
+        {
+          "es": "el/la arquitecto/a",
+          "en": "architect"
+        },
+        {
+          "es": "el/la científico/a",
+          "en": "scientist"
+        },
+        {
+          "es": "el /la diseñador/a",
+          "en": "designer"
+        },
+        {
+          "es": "el/la ecologista",
+          "en": "ecologist"
+        },
+        {
+          "es": "el/la ingeniero/a",
+          "en": "engineer"
+        },
+        {
+          "es": "el /la programador/a de computación",
+          "en": "computer programmer"
+        },
+        {
+          "es": "analizar",
+          "en": "analyze"
+        },
+        {
+          "es": "diseñar",
+          "en": "design"
+        },
+        {
+          "es": "programar",
+          "en": "program"
+        }
+      ]
+    },
+    {
+      "title-es": "LA EDUCACIÓN",
+      "title-en": "EDUCATION",
+      "vocabulary": [
+        {
+          "es": "el/la investigador/a",
+          "en": "researcher"
+        },
+        {
+          "es": "el/la maestro/a",
+          "en": "teacher"
+        },
+        {
+          "es": "el/la profesor/a",
+          "en": "professor"
+        },
+        {
+          "es": "educar",
+          "en": "to educate"
+        },
+        {
+          "es": "enseñar",
+          "en": "to teach"
+        },
+        {
+          "es": "investigar",
+          "en": "to research"
+        },
+        {
+          "es": "mejorar (la sociedad)",
+          "en": "to make (society) better"
+        },
+        {
+          "es": "motivar",
+          "en": "to motivate"
+        }
+      ]
+    },
+    {
+      "title-es": "LA SEGURIDAD PÚBLICA Y LA LEY",
+      "title-en": "PUBLIC SAFETY AND THE LAW",
+      "vocabulary": [
+        {
+          "es": "el/la abogado/a",
+          "en": "lawyer"
+        },
+        {
+          "es": "el/la agente federal",
+          "en": "federal agent"
+        },
+        {
+          "es": "el/la defensor/a público/a",
+          "en": "public defender"
+        },
+        {
+          "es": "el/la fiscal",
+          "en": "prosecutor"
+        },
+        {
+          "es": "las fuerzas armadas",
+          "en": "armed forces"
+        },
+        {
+          "es": "el/la juez/a",
+          "en": "judge"
+        },
+        {
+          "es": "la ley",
+          "en": "law"
+        },
+        {
+          "es": "el/la militar",
+          "en": "soldier"
+        },
+        {
+          "es": "el/la policía",
+          "en": "police officer"
+        },
+        {
+          "es": "defender",
+          "en": "to defend"
+        },
+        {
+          "es": "proteger",
+          "en": "to protect"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS MEDIOS DE COMUNICACIÓN",
+      "title-en": "THE MEDIA",
+      "vocabulary": [
+        {
+          "es": "el/la consultor/a (de mercadeo)",
+          "en": "(marketing) consultant"
+        },
+        {
+          "es": "el/la periodista",
+          "en": "journalist"
+        },
+        {
+          "es": "el/la publicista",
+          "en": "advertising agent"
+        },
+        {
+          "es": "el/la relacionista público/a",
+          "en": "public relations agent"
+        },
+        {
+          "es": "convencer",
+          "en": "to convince"
+        },
+        {
+          "es": "informar",
+          "en": "to inform"
+        }
+      ]
+    }
+  ]
+}

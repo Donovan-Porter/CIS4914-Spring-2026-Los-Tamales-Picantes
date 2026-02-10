@@ -1,0 +1,1144 @@
+[
+  {
+    "standardizationId": "DyoIsslC",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "BqWeU9Am",
+    "dataset": "spn2201",
+    "filename": "Contrasena_v6_Vocabulario_19",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS SENTIMIENTOS Y LAS CIRCUNSTANCIAS",
+          "title-en": "FEELINGS AND CIRCUMSTANCES",
+          "vocabulary": [
+            {
+              "es": "estar o sentirse desconcertado/a",
+              "en": "to be or feel puzzled"
+            },
+            {
+              "es": "estar encaminado/a",
+              "en": "to be headed (toward)"
+            },
+            {
+              "es": "estremecer(se)",
+              "en": "to quiver, to shake"
+            },
+            {
+              "es": "retener las lágrimas",
+              "en": "to hold back tears"
+            },
+            {
+              "es": "sentir(se) tenso/a",
+              "en": "to feel tense"
+            },
+            {
+              "es": "ser improbable",
+              "en": "to be improbable"
+            },
+            {
+              "es": "ser inseparable",
+              "en": "to be inseparable"
+            }
+          ]
+        },
+        {
+          "title-es": "HACIA LA UNIVERSIDAD",
+          "title-en": "COLLEGE-BOUND",
+          "vocabulary": [
+            {
+              "es": "abandonar",
+              "en": "to abandon"
+            },
+            {
+              "es": "alistar(se)",
+              "en": "to get ready, to prepare"
+            },
+            {
+              "es": "descargar (la caja)",
+              "en": "to unload (a box)"
+            },
+            {
+              "es": "inscribir(se)",
+              "en": "to check in, to register"
+            },
+            {
+              "es": "las instrucciones",
+              "en": "directions"
+            }
+          ]
+        },
+        {
+          "title-es": "EL ENTORNO",
+          "title-en": "THE SETTING",
+          "vocabulary": [
+            {
+              "es": "el campanario",
+              "en": "bell tower"
+            },
+            {
+              "es": "la fachada",
+              "en": "facade"
+            },
+            {
+              "es": "la glorieta",
+              "en": "roundabout"
+            },
+            {
+              "es": "el portón principal",
+              "en": "main gate"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS EXPERIENCIAS DE VIDA",
+          "title-en": "LIFE EXPERIENCES",
+          "vocabulary": [
+            {
+              "es": "adaptar(se) al nuevo lugar/contexto",
+              "en": "to adapt oneself to the new place/context"
+            },
+            {
+              "es": "alejar(se) de (la familia / los amigos)",
+              "en": "to get away from (family/friends)"
+            },
+            {
+              "es": "ampliar la perspectiva",
+              "en": "to broaden one's perspective"
+            },
+            {
+              "es": "asumir (la responsabilidad)",
+              "en": "to take on, to accept (responsibility)"
+            },
+            {
+              "es": "comportarse como un/a adulto/a",
+              "en": "to behave like an adult, to \"adult\""
+            },
+            {
+              "es": "conocerse a sí mismo/a",
+              "en": "to know oneself"
+            },
+            {
+              "es": "darse por vencido/a",
+              "en": "to give up"
+            },
+            {
+              "es": "descubrir (una experiencia nueva)",
+              "en": "to discover (a new experience)"
+            },
+            {
+              "es": "enfrentar (un desafío / una dificultad / un miedo)",
+              "en": "to face (a challenge / a difficulty / a fear)"
+            },
+            {
+              "es": "hacerse cargo de (los errores)",
+              "en": "to take responsibility for (one's mistakes)"
+            },
+            {
+              "es": "independizar(se)",
+              "en": "to become independent"
+            },
+            {
+              "es": "madurar",
+              "en": "to grow up, to mature"
+            },
+            {
+              "es": "postergar (el proyecto)",
+              "en": "to postpone (the project)"
+            },
+            {
+              "es": "sentirse fuera de lugar",
+              "en": "to feel out of place"
+            },
+            {
+              "es": "la transición (a la universidad / la vida adulta)",
+              "en": "transition (to university/adult life)"
+            },
+            {
+              "es": "transformar (la vida)",
+              "en": "to transform (one's life)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "mYK2em9h",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "n4a5f5Za",
+    "dataset": "spn2201",
+    "filename": "Contrasena_v6_Vocabulario_20",
+    "data": {
+      "groups": [
+        {
+          "title-es": "SOBRE AARÓN",
+          "title-en": "ABOUT AARÓN",
+          "vocabulary": [
+            {
+              "es": "el/la bloguero/a",
+              "en": "blogger"
+            }
+          ]
+        },
+        {
+          "title-es": "SUS OBJETIVOS Y SUEÑOS",
+          "title-en": "HIS GOALS AND DREAMS",
+          "vocabulary": [
+            {
+              "es": "distinguir(se)",
+              "en": "to distinguish (oneself), to stand out"
+            },
+            {
+              "es": "hacer un sueño realidad",
+              "en": "to make a dream come true"
+            },
+            {
+              "es": "sentir(se) valorado/a",
+              "en": "to feel valued"
+            },
+            {
+              "es": "ser un referente (para mi pueblo)",
+              "en": "to be a model (for my people)"
+            }
+          ]
+        },
+        {
+          "title-es": "SUS TAREAS DE INFLUENCER",
+          "title-en": "HIS TASKS AS INFLUENCER",
+          "vocabulary": [
+            {
+              "es": "asistir a (eventos)",
+              "en": "to attend (events)"
+            },
+            {
+              "es": "dar consejos sobre (moda de hombre y belleza masculina)",
+              "en": "to give advice on (fashion for men and male beauty)"
+            },
+            {
+              "es": "grabar(se)",
+              "en": "to record (oneself)"
+            },
+            {
+              "es": "hacer publicaciones",
+              "en": "to post"
+            },
+            {
+              "es": "recibir productos y paquetes",
+              "en": "to receive products and packages"
+            },
+            {
+              "es": "subir contenido a (historias)",
+              "en": "to upload content to (stories)"
+            },
+            {
+              "es": "tener un canal de YouTube",
+              "en": "to have a YouTube channel"
+            }
+          ]
+        },
+        {
+          "title-es": "SUS DESAFÍOS",
+          "title-en": "HIS CHALLENGES",
+          "vocabulary": [
+            {
+              "es": "hacer el ridículo",
+              "en": "to make a fool of oneself"
+            },
+            {
+              "es": "juntar (los estudios) con ...",
+              "en": "to juggle (studies) with ..."
+            },
+            {
+              "es": "los odiadores, los enemigos",
+              "en": "haters"
+            }
+          ]
+        },
+        {
+          "title-es": "EL FENÓMENO DE LOS INFLUENCERS",
+          "title-en": "THE PHENOMENON OF INFLUENCERS",
+          "vocabulary": [
+            {
+              "es": "acumular suscriptores",
+              "en": "to get subscribers"
+            },
+            {
+              "es": "el creador/la creadora de contenido",
+              "en": "content creator"
+            },
+            {
+              "es": "conceder (una entrevista)",
+              "en": "to grant (an interview)"
+            },
+            {
+              "es": "dar el botón de \"(no) me gusta\"",
+              "en": "to click the \"like/dislike\" button"
+            },
+            {
+              "es": "la herramienta de trabajo",
+              "en": "work tool"
+            },
+            {
+              "es": "humanizar las marcas",
+              "en": "to humanize brands"
+            },
+            {
+              "es": "identificar(se) con la marca",
+              "en": "to identify oneself with the brand"
+            },
+            {
+              "es": "ofrecer la oportunidad de (comunicar/ vender)",
+              "en": "to offer the opportunity to (communicate/ sell)"
+            },
+            {
+              "es": "profesionalizar(se)",
+              "en": "to become a professional"
+            },
+            {
+              "es": "ser falso/a",
+              "en": "to be fake"
+            },
+            {
+              "es": "ser natural, auténtico/a",
+              "en": "to be natural, authentic"
+            },
+            {
+              "es": "suministrar (productos)",
+              "en": "to supply (products)"
+            },
+            {
+              "es": "tener capacidad de (influir)",
+              "en": "to have the ability to (influence)"
+            },
+            {
+              "es": "tener una responsabilidad social",
+              "en": "to have a social responsibility"
+            },
+            {
+              "es": "el/la usuario/a de (Instagram)",
+              "en": "(Instagram) user"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS PELIGROS DE LA INDUSTRIA",
+          "title-en": "THE DANGERS OF THE INDUSTRY",
+          "vocabulary": [
+            {
+              "es": "comprar seguidores",
+              "en": "to buy followers"
+            },
+            {
+              "es": "la falta de protección al consumidor",
+              "en": "lack of consumer protection"
+            },
+            {
+              "es": "la forma de publicidad efectiva",
+              "en": "effective form of advertising"
+            },
+            {
+              "es": "la granja de bots",
+              "en": "bot farm"
+            },
+            {
+              "es": "hacer campaña con influencers",
+              "en": "to create/do a campaign with influencers"
+            },
+            {
+              "es": "mostrar el lado perfecto",
+              "en": "to show the perfect side"
+            },
+            {
+              "es": "regular el fenómeno",
+              "en": "to regulate the phenomenon"
+            },
+            {
+              "es": "ser un fraude",
+              "en": "to be a fraud"
+            },
+            {
+              "es": "ser un (gran/buen/mal) negocio",
+              "en": "to be a (great/good/bad) business"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "Zg6h2csJ",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "aBEwASbj",
+    "dataset": "spn2201",
+    "filename": "Contrasena_v6_Vocabulario_22",
+    "data": {
+      "groups": [
+        {
+          "title-es": "EL TELETRABAJO",
+          "title-en": "TELECOMMUTING",
+          "vocabulary": [
+            {
+              "es": "concentrar la semana laboral (en)",
+              "en": "to compress/condense the work week (in)"
+            },
+            {
+              "es": "la flexibilidad (de entrada y de salida)",
+              "en": "flexibility (of start and end times)"
+            },
+            {
+              "es": "la flexibilidad laboral",
+              "en": "job flexibility"
+            },
+            {
+              "es": "la jornada laboral",
+              "en": "workday"
+            },
+            {
+              "es": "teletrabajar",
+              "en": "to telecommute"
+            },
+            {
+              "es": "el/la teletrabajador/a",
+              "en": "telecommuter"
+            },
+            {
+              "es": "tener puntos de conexión (wifi)",
+              "en": "to have (wifi) hotspots"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS BENEFICIOS",
+          "title-en": "THE BENEFITS",
+          "vocabulary": [
+            {
+              "es": "desarrollar/fomentar la creatividad",
+              "en": "to develop/foster creativity"
+            },
+            {
+              "es": "reducir el estrés",
+              "en": "to reduce stress"
+            },
+            {
+              "es": "salvar el planeta",
+              "en": "to save the planet"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS DESVENTAJAS",
+          "title-en": "THE DISADVANTAGES",
+          "vocabulary": [
+            {
+              "es": "generar emisiones de CO2",
+              "en": "to generate CO2 emissions"
+            },
+            {
+              "es": "(no) ser sostenible",
+              "en": "to (not) be sustainable"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS ASPECTOS CULTURALES",
+          "title-en": "CULTURAL ASPECTS",
+          "vocabulary": [
+            {
+              "es": "el cambio de paradigma",
+              "en": "paradigm shift"
+            },
+            {
+              "es": "una cultura de presencia",
+              "en": "culture of presence"
+            },
+            {
+              "es": "gestionar equipos (des)localizados",
+              "en": "to manage remote/local teams"
+            }
+          ]
+        },
+        {
+          "title-es": "EL IMPACTO ECONÓMICO",
+          "title-en": "ECONOMIC IMPACT",
+          "vocabulary": [
+            {
+              "es": "ahorrar en ...",
+              "en": "to save on ..."
+            },
+            {
+              "es": "el área metropolitana (más/menos) congestionada",
+              "en": "(more/less) congested metropolitan area"
+            },
+            {
+              "es": "aumentar/disminuir la productividad",
+              "en": "to increase/decrease productivity"
+            },
+            {
+              "es": "la oficina en casa",
+              "en": "home office"
+            },
+            {
+              "es": "reducir los costos operacionales",
+              "en": "to reduce operational costs"
+            },
+            {
+              "es": "la regulación de (la forma de trabajo)",
+              "en": "regulation of (a work model)"
+            },
+            {
+              "es": "el/la trabajador/a asalariado/a",
+              "en": "salaried worker"
+            },
+            {
+              "es": "el/la trabajador/a independiente",
+              "en": "freelancer, independent worker"
+            }
+          ]
+        },
+        {
+          "title-es": "OTROS IMPACTOS AL ESTILO DE VIDA",
+          "title-en": "OTHER LIFESTYLE IMPACTS",
+          "vocabulary": [
+            {
+              "es": "la (mejor/peor) calidad de vida",
+              "en": "(better/worse) quality of life"
+            },
+            {
+              "es": "el conflicto familiar",
+              "en": "family conflict"
+            },
+            {
+              "es": "la disminución de gastos personales",
+              "en": "reduction of personal expenses"
+            },
+            {
+              "es": "la distancia social",
+              "en": "social distance/distancing"
+            },
+            {
+              "es": "enriquecer (la vida personal/profesional)",
+              "en": "to enrich (one's personal/professional life)"
+            },
+            {
+              "es": "el equilibrio entre la vida y el trabajo",
+              "en": "work-life balance"
+            },
+            {
+              "es": "la falta de contacto físico",
+              "en": "lack of physical contact"
+            },
+            {
+              "es": "la fatiga de ...",
+              "en": "fatigue of/from ..."
+            },
+            {
+              "es": "el sedentarismo",
+              "en": "sedentary lifestyle, sedentariness"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS HERRAMIENTAS DIGITALES",
+          "title-en": "DIGITAL TOOLS",
+          "vocabulary": [
+            {
+              "es": "la banda ancha",
+              "en": "broadband"
+            },
+            {
+              "es": "la conexión veloz de internet",
+              "en": "high-speed internet"
+            },
+            {
+              "es": "la herramienta de colaboración",
+              "en": "collaborative tool"
+            },
+            {
+              "es": "la plataforma digital",
+              "en": "digital platform"
+            },
+            {
+              "es": "la red privada",
+              "en": "private network"
+            },
+            {
+              "es": "la videollamada",
+              "en": "video call"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HACER VIDEOLLAMADAS",
+          "title-en": "TO DO VIDEO CALLS",
+          "vocabulary": [
+            {
+              "es": "agendar una reunión",
+              "en": "to set up a meeting"
+            },
+            {
+              "es": "bajar/subir el archivo",
+              "en": "to download / to upload a file"
+            },
+            {
+              "es": "compartir pantalla",
+              "en": "to screen share, to share one's screen"
+            },
+            {
+              "es": "descargar la aplicación",
+              "en": "to download an application"
+            },
+            {
+              "es": "detener video",
+              "en": "to stop video"
+            },
+            {
+              "es": "entrar a / finalizar una reunión",
+              "en": "to join/end a meeting"
+            },
+            {
+              "es": "(no) silenciar (a alguien)",
+              "en": "to (not) mute (someone)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "lcVR0oZg",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "2d9TRAPs",
+    "dataset": "spn2201",
+    "filename": "Contrasena_v6_Vocabulario_21",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS PERSONAJES Y LOS ELEMENTOS CENTRALES",
+          "title-en": "CHARACTERS AND CENTRAL ELEMENTS",
+          "vocabulary": [
+            {
+              "es": "la infusión",
+              "en": "tea infusion"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS SUCESOS",
+          "title-en": "EVENTS",
+          "vocabulary": [
+            {
+              "es": "hacer el esfuerzo por + inf.",
+              "en": "to make the effort to + inf."
+            },
+            {
+              "es": "lamentar(se)",
+              "en": "to lament"
+            },
+            {
+              "es": "tostar (ue)",
+              "en": "to toast"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS VALORES",
+          "title-en": "VALUES",
+          "vocabulary": [
+            {
+              "es": "la amistad",
+              "en": "friendship"
+            },
+            {
+              "es": "la hospitalidad",
+              "en": "hospitality"
+            },
+            {
+              "es": "la valentía",
+              "en": "bravery"
+            }
+          ]
+        },
+        {
+          "title-es": "TOMAR MATE",
+          "title-en": "DRINKING MATE",
+          "vocabulary": [
+            {
+              "es": "la bombilla",
+              "en": "metal straw"
+            },
+            {
+              "es": "el/la cebador/a",
+              "en": "person who prepares and serves mate"
+            },
+            {
+              "es": "la calabaza",
+              "en": "gourd"
+            },
+            {
+              "es": "cebar un mate",
+              "en": "to brew mate"
+            },
+            {
+              "es": "gracias",
+              "en": "thanks (pragmatically: no more mate; enough)"
+            },
+            {
+              "es": "hacer una mateada/terereada",
+              "en": "to gather to drink mate/tereré"
+            },
+            {
+              "es": "la guampa",
+              "en": "gourd container/cup"
+            },
+            {
+              "es": "el mate (amargo/dulce)",
+              "en": "(bitter/sweet) herbal tea infusion"
+            },
+            {
+              "es": "la pava",
+              "en": "kettle"
+            },
+            {
+              "es": "la ronda de mate",
+              "en": "round of mate drinking"
+            },
+            {
+              "es": "el sorbo (de mate / de tereré)",
+              "en": "sip (of mate/tereré)"
+            },
+            {
+              "es": "el tereré",
+              "en": "cold-brewed or iced mate"
+            },
+            {
+              "es": "el termo",
+              "en": "thermos"
+            },
+            {
+              "es": "la yerba",
+              "en": "mate leaves"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS COSTUMBRES Y LAS TRADICIONES",
+          "title-en": "CUSTOMS AND TRADITIONS",
+          "vocabulary": [
+            {
+              "es": "abandonar (una costumbre / una tradición)",
+              "en": "to abandon (a custom / a tradition)"
+            },
+            {
+              "es": "el código (de una norma social)",
+              "en": "code (of a social norm)"
+            },
+            {
+              "es": "construir (y)",
+              "en": "to construct"
+            },
+            {
+              "es": "convertir (la costumbre en tradición)",
+              "en": "to convert (a custom into tradition)"
+            },
+            {
+              "es": "evolucionar",
+              "en": "to evolve"
+            },
+            {
+              "es": "introducir (la costumbre)",
+              "en": "to introduce (a custom)"
+            },
+            {
+              "es": "perdurar (con el paso del tiempo)",
+              "en": "to endure (the passage of time)"
+            },
+            {
+              "es": "rechazar (una costumbre / una tradición)",
+              "en": "to reject (a custom / a tradition)"
+            },
+            {
+              "es": "el valor social",
+              "en": "social value"
+            },
+            {
+              "es": "transmitir por tradición oral",
+              "en": "to pass down by oral tradition"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "odZJXaxN",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "4GZDLJfA",
+    "dataset": "spn2201",
+    "filename": "Contrasena_v6_Vocabulario_23",
+    "data": {
+      "groups": [
+        {
+          "title-es": "EL GRAFITI",
+          "title-en": "GRAFFITI",
+          "vocabulary": [
+            {
+              "es": "el arte callejero",
+              "en": "street art"
+            },
+            {
+              "es": "el/la artista anarquista",
+              "en": "anarchist artist"
+            },
+            {
+              "es": "el capitalista oportunista",
+              "en": "opportunistic capitalist"
+            },
+            {
+              "es": "(des)penalizar",
+              "en": "(de)penalize"
+            },
+            {
+              "es": "el/la grafitero/a",
+              "en": "graffiti artist"
+            },
+            {
+              "es": "la libertad de expresión",
+              "en": "freedom of expression"
+            },
+            {
+              "es": "ser legal/ilegal",
+              "en": "to be legal/illegal"
+            },
+            {
+              "es": "el vandalismo",
+              "en": "vandalism"
+            },
+            {
+              "es": "la vibrante escena",
+              "en": "vibrant scene"
+            }
+          ]
+        },
+        {
+          "title-es": "EL ARTE SOCIAL",
+          "title-en": "SOCIAL ART",
+          "vocabulary": [
+            {
+              "es": "el arte urbano",
+              "en": "urban art"
+            },
+            {
+              "es": "el/la artista urbano/a",
+              "en": "urban artist"
+            },
+            {
+              "es": "contener un mensaje (político)",
+              "en": "to contain a (political) message"
+            },
+            {
+              "es": "crear una cultura (sanadora)",
+              "en": "to create a (healing) culture"
+            },
+            {
+              "es": "determinar/plantear la agenda (social)",
+              "en": "to determine / to set the (social) agenda"
+            },
+            {
+              "es": "empoderar a",
+              "en": "to empower"
+            },
+            {
+              "es": "el feminismo",
+              "en": "feminism"
+            },
+            {
+              "es": "el/la feminista",
+              "en": "feminist"
+            },
+            {
+              "es": "generar el cambio social",
+              "en": "to generate social change"
+            },
+            {
+              "es": "intervenir en (la calle / los espacios públicos / las conversaciones)",
+              "en": "to intervene, to take part in (the street / public spaces / conversations)"
+            },
+            {
+              "es": "luchar contra/por",
+              "en": "to fight against/for"
+            },
+            {
+              "es": "la obra comunitaria",
+              "en": "communal art"
+            },
+            {
+              "es": "el/la opositor/a",
+              "en": "opponent"
+            },
+            {
+              "es": "la organización comunitaria",
+              "en": "community organization"
+            },
+            {
+              "es": "el/la partidario/a",
+              "en": "supporter"
+            },
+            {
+              "es": "el poder transformador de",
+              "en": "transformative power of"
+            },
+            {
+              "es": "protestar contra (los abusos de poder)",
+              "en": "to protest against (abuses of power)"
+            },
+            {
+              "es": "silenciar/dar voz a (comunidades en desventaja)",
+              "en": "to silence / to give a voice to (disadvantaged communities)"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS PROPÓSITOS DEL ARTE",
+          "title-en": "THE PURPOSES OF ART",
+          "vocabulary": [
+            {
+              "es": "combatir (la injusticia social)",
+              "en": "to combat (social injustice)"
+            },
+            {
+              "es": "defender (la justicia social)",
+              "en": "to defend (social justice)"
+            },
+            {
+              "es": "desencadenar (la revolución social)",
+              "en": "to unleash (social revolution)"
+            },
+            {
+              "es": "hacer negocios",
+              "en": "to do business"
+            },
+            {
+              "es": "promover la causa de",
+              "en": "to promote the cause of"
+            },
+            {
+              "es": "tener un impacto (revolucionario)",
+              "en": "to have a (revolutionary) impact"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS TAREAS DEL GRAFITERO",
+          "title-en": "THE GRAFFITI ARTIST'S TASKS",
+          "vocabulary": [
+            {
+              "es": "crear un portafolio",
+              "en": "to create a portfolio"
+            },
+            {
+              "es": "hacer demostraciones",
+              "en": "to demonstrate, to do demos"
+            },
+            {
+              "es": "pintar en (paredes públicas / casas privadas)",
+              "en": "to paint on (public walls / private houses)"
+            },
+            {
+              "es": "usar la lata de aerosol",
+              "en": "to use a spray can"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "z3Tp7D1g",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "yChPqSw3",
+    "dataset": "spn2201",
+    "filename": "Contrasena_v6_Vocabulario_24",
+    "data": {
+      "groups": [
+        {
+          "title-es": "PARA HABLAR DE LOS ALIMENTOS",
+          "title-en": "TO TALK ABOUT FOOD",
+          "vocabulary": [
+            {
+              "es": "la agricultura (intensiva/ sostenible)",
+              "en": "(intensive/sustainable) agriculture"
+            },
+            {
+              "es": "amigable con el medioambiente",
+              "en": "eco-friendly"
+            },
+            {
+              "es": "asequible",
+              "en": "affordable"
+            },
+            {
+              "es": "el superalimento",
+              "en": "superfood"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE ALGUNOS PROBLEMAS",
+          "title-en": "TO TALK ABOUT SOME PROBLEMS",
+          "vocabulary": [
+            {
+              "es": "el exceso del consumo",
+              "en": "overconsumption"
+            },
+            {
+              "es": "el impacto (negativo/ positivo)",
+              "en": "(negative/positive) impact"
+            },
+            {
+              "es": "el que (no) tiene voz [figurative]",
+              "en": "one who has (does not have) a voice"
+            },
+            {
+              "es": "oponerse (rotundamente) a",
+              "en": "to (adamantly) oppose"
+            },
+            {
+              "es": "el/la pequeño/a productor/a",
+              "en": "small grower"
+            },
+            {
+              "es": "la política pública",
+              "en": "public policy"
+            },
+            {
+              "es": "ser depredado/a",
+              "en": "to be preyed on; to be plundered"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE SOLUCIONES",
+          "title-en": "TO TALK ABOUT SOLUTIONS",
+          "vocabulary": [
+            {
+              "es": "abrazar (la diversidad)",
+              "en": "to embrace (diversity)"
+            },
+            {
+              "es": "la conectividad",
+              "en": "connectivity"
+            },
+            {
+              "es": "construir puentes",
+              "en": "to build bridges"
+            },
+            {
+              "es": "elaborar una agenda (de/ sobre)",
+              "en": "to create a policy (about)"
+            },
+            {
+              "es": "integrar",
+              "en": "to integrate"
+            },
+            {
+              "es": "llevar prosperidad",
+              "en": "to bring prosperity"
+            },
+            {
+              "es": "llevar un mensaje (de)",
+              "en": "to bring a message (of)"
+            },
+            {
+              "es": "pasar a la acción",
+              "en": "to take action"
+            },
+            {
+              "es": "ponerse de acuerdo en (algo)",
+              "en": "to agree on (something)"
+            },
+            {
+              "es": "recuperar (el medioambiente / la salud)",
+              "en": "to restore the environment/health"
+            },
+            {
+              "es": "sacar adelante a (la familia / los hijos)",
+              "en": "to provide for (one's family/children)"
+            },
+            {
+              "es": "ser consciente de (algo)",
+              "en": "to be aware of (something)"
+            },
+            {
+              "es": "trabajar en (el objetivo colectivo)",
+              "en": "to work toward (a collective goal)"
+            },
+            {
+              "es": "unirse en (un lugar)",
+              "en": "to join, to come together at/in (a place)"
+            },
+            {
+              "es": "unirse gracias a (algo/ alguien)",
+              "en": "to join, to come together thanks to (something/someone)"
+            },
+            {
+              "es": "unirse para (un propósito)",
+              "en": "to join, to come together for (a purpose)"
+            }
+          ]
+        },
+        {
+          "title-es": "LA SOSTENIBILIDAD Y LOS DESAFÍOS GLOBALES",
+          "title-en": "SUSTAINABILITY AND GLOBAL CHALLENGES",
+          "vocabulary": [
+            {
+              "es": "el/la activista (ambiental/ político)",
+              "en": "(environmental/ political) activist"
+            },
+            {
+              "es": "la agricultura de subsistencia",
+              "en": "subsistence farming"
+            },
+            {
+              "es": "la cadena de suministro",
+              "en": "supply chain"
+            },
+            {
+              "es": "la comida sostenible",
+              "en": "sustainable food"
+            },
+            {
+              "es": "la emergencia alimentaria/climática",
+              "en": "food/climate emergency"
+            },
+            {
+              "es": "la glocalización",
+              "en": "glocalization"
+            },
+            {
+              "es": "la (in)seguridad alimentaria",
+              "en": "food (in)security"
+            },
+            {
+              "es": "la reducción del desperdicio",
+              "en": "waste reduction"
+            },
+            {
+              "es": "la sostenibilidad (Esp.) / la sustentabilidad (Am. Lat.)",
+              "en": "sustainability"
+            },
+            {
+              "es": "las emisiones de gases de efecto invernadero",
+              "en": "greenhouse gas emissions"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
