@@ -1,0 +1,332 @@
+{
+  "groups": [
+    {
+      "title-es": "LOS DÍAS DE LA SEMANA",
+      "title-en": "DAYS OF THE WEEK",
+      "vocabulary": [
+        {
+          "es": "lunes",
+          "en": "Monday"
+        },
+        {
+          "es": "martes",
+          "en": "Tuesday"
+        },
+        {
+          "es": "miércoles",
+          "en": "Wednesday"
+        },
+        {
+          "es": "jueves",
+          "en": "Thursday"
+        },
+        {
+          "es": "viernes",
+          "en": "Friday"
+        },
+        {
+          "es": "sábado",
+          "en": "Saturday"
+        },
+        {
+          "es": "domingo",
+          "en": "Sunday"
+        }
+      ]
+    },
+    {
+      "title-es": "LOS MESES DEL AÑO",
+      "title-en": "MONTHS OF THE YEAR",
+      "vocabulary": [
+        {
+          "es": "enero",
+          "en": "January"
+        },
+        {
+          "es": "febrero",
+          "en": "February"
+        },
+        {
+          "es": "marzo",
+          "en": "March"
+        },
+        {
+          "es": "abril",
+          "en": "April"
+        },
+        {
+          "es": "mayo",
+          "en": "May"
+        },
+        {
+          "es": "junio",
+          "en": "June"
+        },
+        {
+          "es": "julio",
+          "en": "July"
+        },
+        {
+          "es": "agosto",
+          "en": "August"
+        },
+        {
+          "es": "septiembre",
+          "en": "September"
+        },
+        {
+          "es": "octubre",
+          "en": "October"
+        },
+        {
+          "es": "noviembre",
+          "en": "November"
+        },
+        {
+          "es": "diciembre",
+          "en": "December"
+        }
+      ]
+    },
+    {
+      "title-es": "LAS ESTACIONES",
+      "title-en": "SEASONS",
+      "vocabulary": [
+        {
+          "es": "el otoño",
+          "en": "fall"
+        },
+        {
+          "es": "el invierno",
+          "en": "winter"
+        },
+        {
+          "es": "la primavera",
+          "en": "spring"
+        },
+        {
+          "es": "el verano",
+          "en": "summer"
+        }
+      ]
+    },
+    {
+      "title-es": "ACTIVIDADES DIARIAS",
+      "title-en": "DAILY ACTIVITIES",
+      "vocabulary": [
+        {
+          "es": "almorzar",
+          "en": "to have lunch"
+        },
+        {
+          "es": "desayunar",
+          "en": "to have breakfast"
+        },
+        {
+          "es": "dormir",
+          "en": "to sleep/to fall asleep"
+        },
+        {
+          "es": "cenar",
+          "en": "to have supper"
+        },
+        {
+          "es": "regresar (a casa)",
+          "en": "to return (home)"
+        }
+      ]
+    },
+    {
+      "title-es": "OTRAS ACTIVIDADES",
+      "title-en": "OTHER ACTIVITIES",
+      "vocabulary": [
+        {
+          "es": "ayudar",
+          "en": "to help"
+        },
+        {
+          "es": "bailar",
+          "en": "to dance"
+        },
+        {
+          "es": "cocinar",
+          "en": "to cook"
+        },
+        {
+          "es": "correr",
+          "en": "to run"
+        },
+        {
+          "es": "descansar",
+          "en": "to rest"
+        },
+        {
+          "es": "ensayar",
+          "en": "to practice"
+        },
+        {
+          "es": "escuchar (música)",
+          "en": "to listen (to music)"
+        },
+        {
+          "es": "estar libre",
+          "en": "to be free"
+        },
+        {
+          "es": "estudiar",
+          "en": "to study"
+        },
+        {
+          "es": "hablar",
+          "en": "to speak/talk"
+        },
+        {
+          "es": "hacer ejercicio",
+          "en": "to do exercise"
+        },
+        {
+          "es": "hacer una videollamada",
+          "en": "to make a videocall"
+        },
+        {
+          "es": "ir (al gimnasio/al picnic/ al cine/de compras ... )",
+          "en": "to go (to the gym/on a picnic/to the movies/ shopping)"
+        },
+        {
+          "es": "jugar al ... videojuego/ tenis/fútbol",
+          "en": "to play ... a videogame/ tennis/ football or soccer"
+        },
+        {
+          "es": "lavar (la ropa)",
+          "en": "to wash (clothes)"
+        },
+        {
+          "es": "limpiar (la casa)",
+          "en": "to clean (the house)"
+        },
+        {
+          "es": "llegar",
+          "en": "to arrive"
+        },
+        {
+          "es": "pintar",
+          "en": "to paint"
+        },
+        {
+          "es": "practicar (yoga)",
+          "en": "to practice/do (yoga)"
+        },
+        {
+          "es": "preparar",
+          "en": "to prepare"
+        },
+        {
+          "es": "quedar con",
+          "en": "to arrange to meet with"
+        },
+        {
+          "es": "salir (a)",
+          "en": "to go out, to leave"
+        },
+        {
+          "es": "tomar (algo)",
+          "en": "to have (a drink)"
+        },
+        {
+          "es": "trabajar (en)",
+          "en": "to work"
+        },
+        {
+          "es": "ver",
+          "en": "to see"
+        }
+      ]
+    },
+    {
+      "title-es": "INVITAR Y HACER PLANES",
+      "title-en": "TO EXTEND AN INVITATION AND TO MAKE PLANS",
+      "vocabulary": [
+        {
+          "es": "¿Qué tal ...?",
+          "en": "How about / What about ...?"
+        },
+        {
+          "es": "¿Qué te parece?",
+          "en": "What do you think?"
+        },
+        {
+          "es": "¿Qué vas a hacer ...?",
+          "en": "What are you doing/go- ing to do ...?"
+        },
+        {
+          "es": "Tengo que ... [inf. tener que]",
+          "en": "I have to do [inf. to have to do]"
+        },
+        {
+          "es": "Tengo ganas de ... [inf. tener ganas de]",
+          "en": "I feel [inf. to feel like] (doing something)"
+        },
+        {
+          "es": "¿Tienes planes?",
+          "en": "Do you have plans?"
+        }
+      ]
+    },
+    {
+      "title-es": "ACEPTAR O RECHAZAR UNA INVITACIÓN",
+      "title-en": "TO ACCEPT OR REJECT AN INVITATION",
+      "vocabulary": [
+        {
+          "es": "¡Ay, no!",
+          "en": "Oh no!"
+        },
+        {
+          "es": "¡Buena idea!",
+          "en": "Good idea!"
+        },
+        {
+          "es": "¡Qué lástima!",
+          "en": "What a shame!"
+        }
+      ]
+    },
+    {
+      "title-es": "EXPRESIONES TEMPORALES",
+      "title-en": "EXPRESSIONS OF TIME",
+      "vocabulary": [
+        {
+          "es": "¿A qué hora?",
+          "en": "At what time?"
+        },
+        {
+          "es": "en punto",
+          "en": "on the dot"
+        },
+        {
+          "es": "por la mañana",
+          "en": "in the morning"
+        },
+        {
+          "es": "por la tarde",
+          "en": "in the afternoon"
+        },
+        {
+          "es": "por la noche",
+          "en": "at night"
+        },
+        {
+          "es": "tarde",
+          "en": "late/afternoon"
+        },
+        {
+          "es": "temprano",
+          "en": "early"
+        },
+        {
+          "es": "todos los días",
+          "en": "every day"
+        }
+      ]
+    }
+  ]
+}

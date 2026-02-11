@@ -1,0 +1,2140 @@
+[
+  {
+    "standardizationId": "3dPt4ci4",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "NTWlJOpU",
+    "dataset": "spn1130",
+    "filename": "vocab4",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LAS PERSONAS Y LOS LUGARES",
+          "title-en": "PEOPLE AND PLACES",
+          "vocabulary": [
+            {
+              "es": "el apartamento",
+              "en": "the apartment"
+            },
+            {
+              "es": "el aula (virtual)",
+              "en": "the (virtual) classroom"
+            },
+            {
+              "es": "la biblioteca",
+              "en": "the library"
+            },
+            {
+              "es": "la cafetería",
+              "en": "the cafeteria"
+            },
+            {
+              "es": "el campus (virtual)",
+              "en": "the (virtual) campus"
+            },
+            {
+              "es": "la casa",
+              "en": "the house"
+            },
+            {
+              "es": "el centro estudiantil",
+              "en": "the student center"
+            },
+            {
+              "es": "la clase",
+              "en": "the class"
+            },
+            {
+              "es": "el/la compañero/a de cuarto",
+              "en": "the roommate"
+            },
+            {
+              "es": "el cuarto",
+              "en": "the room"
+            },
+            {
+              "es": "el edificio",
+              "en": "the building"
+            },
+            {
+              "es": "el gimnasio",
+              "en": "the gym"
+            },
+            {
+              "es": "el laboratorio",
+              "en": "the lab"
+            },
+            {
+              "es": "la librería",
+              "en": "the bookstore"
+            },
+            {
+              "es": "la oficina",
+              "en": "the office"
+            },
+            {
+              "es": "la residencia estudiantil",
+              "en": "the dormitory"
+            },
+            {
+              "es": "la reunión",
+              "en": "the meeting"
+            },
+            {
+              "es": "el salón de clase",
+              "en": "the classroom"
+            },
+            {
+              "es": "la tienda (virtual)",
+              "en": "the (online) store"
+            }
+          ]
+        },
+        {
+          "title-es": "EN EL SALÓN DE CLASE",
+          "title-en": "IN THE CLASSROOM",
+          "vocabulary": [
+            {
+              "es": "el bolígrafo, la pluma",
+              "en": "the pen"
+            },
+            {
+              "es": "el cuaderno",
+              "en": "the notebook"
+            },
+            {
+              "es": "el escritorio",
+              "en": "the desk"
+            },
+            {
+              "es": "la fecha de entrega",
+              "en": "the due date"
+            },
+            {
+              "es": "el foro",
+              "en": "the discussion board"
+            },
+            {
+              "es": "el libro de texto",
+              "en": "the textbook"
+            },
+            {
+              "es": "la nota",
+              "en": "the grade"
+            },
+            {
+              "es": "la computadora (portátil)",
+              "en": "the laptop"
+            },
+            {
+              "es": "la prueba",
+              "en": "the quiz"
+            },
+            {
+              "es": "la tableta",
+              "en": "the tablet"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA DESCRIBIR A PERSONAS Y LUGARES",
+          "title-en": "TO DESCRIBE PEOPLE AND PLACES",
+          "vocabulary": [
+            {
+              "es": "administrativo/a",
+              "en": "administrative"
+            },
+            {
+              "es": "cerca de",
+              "en": "close to"
+            },
+            {
+              "es": "desordenado/a",
+              "en": "disorganized/messy"
+            },
+            {
+              "es": "lejos de",
+              "en": "far from"
+            },
+            {
+              "es": "limpio/a",
+              "en": "clean"
+            },
+            {
+              "es": "moderno/a",
+              "en": "modern"
+            },
+            {
+              "es": "nuevo/a",
+              "en": "new"
+            },
+            {
+              "es": "ordenado/a",
+              "en": "organized/neat"
+            },
+            {
+              "es": "sucio/a",
+              "en": "dirty"
+            },
+            {
+              "es": "último/a",
+              "en": "last (most recent)"
+            },
+            {
+              "es": "universitario/a",
+              "en": "university-"
+            },
+            {
+              "es": "viejo/a",
+              "en": "old"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE LO QUE HACES",
+          "title-en": "TO TALK ABOUT WHAT YOU DO",
+          "vocabulary": [
+            {
+              "es": "aprender",
+              "en": "to learn"
+            },
+            {
+              "es": "buscar",
+              "en": "to look for"
+            },
+            {
+              "es": "calificar",
+              "en": "to grade"
+            },
+            {
+              "es": "caminar",
+              "en": "to walk"
+            },
+            {
+              "es": "compartir",
+              "en": "to share"
+            },
+            {
+              "es": "comprar",
+              "en": "to buy"
+            },
+            {
+              "es": "enseñar",
+              "en": "to teach"
+            },
+            {
+              "es": "escribir",
+              "en": "to write"
+            },
+            {
+              "es": "hablar",
+              "en": "to speak"
+            },
+            {
+              "es": "leer",
+              "en": "to read"
+            },
+            {
+              "es": "participar",
+              "en": "to participate"
+            },
+            {
+              "es": "pasar (tiempo)",
+              "en": "to pass (time)"
+            },
+            {
+              "es": "recibir",
+              "en": "to receive"
+            },
+            {
+              "es": "sacar (un libro/una nota)",
+              "en": "to take out (a book); to get (a grade)"
+            },
+            {
+              "es": "terminar",
+              "en": "to finish"
+            },
+            {
+              "es": "tomar (una clase)",
+              "en": "to take (a class)"
+            }
+          ]
+        },
+        {
+          "title-es": "GUSTOS",
+          "title-en": "LIKES/DISLIKES",
+          "vocabulary": [
+            {
+              "es": "gustar",
+              "en": "to be pleasing to someone"
+            },
+            {
+              "es": "Me gusta(n) ...",
+              "en": "I like ..."
+            },
+            {
+              "es": "No me gusta(n) ...",
+              "en": "I don't like ..."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "855bwFac",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "20SlaWCU",
+    "dataset": "spn1130",
+    "filename": "vocab5",
+    "data": {
+      "groups": [
+        {
+          "title-es": "CUALIDADES POSITIVAS",
+          "title-en": "POSITIVE QUALITIES",
+          "vocabulary": [
+            {
+              "es": "abierto/a",
+              "en": "open"
+            },
+            {
+              "es": "alegre",
+              "en": "happy"
+            },
+            {
+              "es": "amable",
+              "en": "friendly"
+            },
+            {
+              "es": "bondadoso/a",
+              "en": "kind/good"
+            },
+            {
+              "es": "bueno/a",
+              "en": "good"
+            },
+            {
+              "es": "capaz",
+              "en": "capable"
+            },
+            {
+              "es": "cariñoso/a",
+              "en": "caring"
+            },
+            {
+              "es": "chistoso/a",
+              "en": "funny"
+            },
+            {
+              "es": "compasivo/a",
+              "en": "compassionate"
+            },
+            {
+              "es": "comprensivo/a",
+              "en": "understanding"
+            },
+            {
+              "es": "creativo/a",
+              "en": "creative"
+            },
+            {
+              "es": "entusiasta",
+              "en": "enthusiastic"
+            },
+            {
+              "es": "fácil",
+              "en": "easy"
+            },
+            {
+              "es": "fiel",
+              "en": "faithful"
+            },
+            {
+              "es": "gracioso/a",
+              "en": "funny"
+            },
+            {
+              "es": "honesto/a",
+              "en": "honest"
+            },
+            {
+              "es": "imaginativo/a",
+              "en": "imaginative"
+            },
+            {
+              "es": "inteligente",
+              "en": "intelligent"
+            },
+            {
+              "es": "leal",
+              "en": "loyal"
+            },
+            {
+              "es": "listo/a",
+              "en": "bright, smart"
+            },
+            {
+              "es": "mejor",
+              "en": "best"
+            },
+            {
+              "es": "nuevo/a",
+              "en": "new"
+            },
+            {
+              "es": "paciente",
+              "en": "patient"
+            },
+            {
+              "es": "pacífico/a",
+              "en": "peaceful"
+            },
+            {
+              "es": "positivo/a",
+              "en": "positive"
+            },
+            {
+              "es": "responsable",
+              "en": "responsible"
+            },
+            {
+              "es": "sensible",
+              "en": "sensitive"
+            },
+            {
+              "es": "simpático/a",
+              "en": "kind, nice"
+            },
+            {
+              "es": "talentoso/a",
+              "en": "talented"
+            },
+            {
+              "es": "tranquilo/a",
+              "en": "calm/quiet"
+            },
+            {
+              "es": "único/a",
+              "en": "unique"
+            },
+            {
+              "es": "valiente",
+              "en": "brave"
+            }
+          ]
+        },
+        {
+          "title-es": "CUALIDADES NEGATIVAS",
+          "title-en": "NEGATIVE QUALITIES",
+          "vocabulary": [
+            {
+              "es": "aburrido/a",
+              "en": "boring"
+            },
+            {
+              "es": "cerrado/a",
+              "en": "closed (minded)"
+            },
+            {
+              "es": "egoísta",
+              "en": "selfish"
+            },
+            {
+              "es": "incapaz",
+              "en": "incapable"
+            },
+            {
+              "es": "insensible",
+              "en": "insensitive"
+            },
+            {
+              "es": "malo/a",
+              "en": "bad"
+            },
+            {
+              "es": "nervioso/a",
+              "en": "nervous"
+            },
+            {
+              "es": "triste",
+              "en": "sad"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE PERSONAS ADMIRADAS",
+          "title-en": "TO TALK ABOUT ADMIRED PEOPLE",
+          "vocabulary": [
+            {
+              "es": "acompañar",
+              "en": "to accompany"
+            },
+            {
+              "es": "admirar",
+              "en": "to admire"
+            },
+            {
+              "es": "apoyar",
+              "en": "to support"
+            },
+            {
+              "es": "ayudar",
+              "en": "to help"
+            },
+            {
+              "es": "comer",
+              "en": "to eat"
+            },
+            {
+              "es": "compartir",
+              "en": "to share"
+            },
+            {
+              "es": "comprender",
+              "en": "to understand"
+            },
+            {
+              "es": "conocer",
+              "en": "to know"
+            },
+            {
+              "es": "crear",
+              "en": "to create"
+            },
+            {
+              "es": "creer",
+              "en": "to believe"
+            },
+            {
+              "es": "cumplir",
+              "en": "to complete, finish"
+            },
+            {
+              "es": "escoger",
+              "en": "to choose"
+            },
+            {
+              "es": "escribir",
+              "en": "to write"
+            },
+            {
+              "es": "exigir",
+              "en": "to demand"
+            },
+            {
+              "es": "insistir (en)",
+              "en": "to insist on"
+            },
+            {
+              "es": "merecer",
+              "en": "to deserve"
+            },
+            {
+              "es": "nominar",
+              "en": "to nominate"
+            },
+            {
+              "es": "permitir",
+              "en": "to allow"
+            },
+            {
+              "es": "preservar",
+              "en": "to preserve"
+            },
+            {
+              "es": "recibir",
+              "en": "to receive"
+            },
+            {
+              "es": "resolver",
+              "en": "to resolve"
+            },
+            {
+              "es": "saber",
+              "en": "to know"
+            },
+            {
+              "es": "vivir",
+              "en": "to live"
+            }
+          ]
+        },
+        {
+          "title-es": "EXPRESIONES PARA CARTAS FORMALES",
+          "title-en": "EXPRESSIONS FOR FORMAL LETTERS",
+          "vocabulary": [
+            {
+              "es": "Querido/a:",
+              "en": "Dear,"
+            },
+            {
+              "es": "Estimado/a:",
+              "en": "Dear, (formal; lit. \"Esteemed,\")"
+            },
+            {
+              "es": "Por la presente, quisiera nominar a ...",
+              "en": "Herein I'd like to nominate ..."
+            },
+            {
+              "es": "Quedo a su disposición para ...",
+              "en": "Please feel free to contact me should you ..."
+            },
+            {
+              "es": "Atentamente,",
+              "en": "Sincerely,"
+            },
+            {
+              "es": "Saludos cordiales,",
+              "en": "Best regards,"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "DEyzkoT9",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "Di1Rs6oT",
+    "dataset": "spn1130",
+    "filename": "vocab2",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS SALUDOS",
+          "title-en": "GREETINGS",
+          "vocabulary": [
+            {
+              "es": "¡Buenos días!",
+              "en": "Good morning!"
+            },
+            {
+              "es": "¡Buenas tardes!",
+              "en": "Good afternoon!"
+            },
+            {
+              "es": "¡Buenas noches!",
+              "en": "Good evening!"
+            },
+            {
+              "es": "¡Hola!",
+              "en": "Hi!"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS DESPEDIDAS",
+          "title-en": "FAREWELLS",
+          "vocabulary": [
+            {
+              "es": "¡Adiós! / ¡Chau!",
+              "en": "Goodbye! /Bye!"
+            },
+            {
+              "es": "¡Hasta luego!",
+              "en": "See you later!"
+            },
+            {
+              "es": "¡Hasta mañana!",
+              "en": "See you tomorrow!"
+            },
+            {
+              "es": "¡Hasta pronto!",
+              "en": "See you soon!"
+            },
+            {
+              "es": "¡Nos vemos!",
+              "en": "See you!"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS PREGUNTAS Y RESPUESTAS",
+          "title-en": "QUESTIONS AND ANSWERS",
+          "vocabulary": [
+            {
+              "es": "¿Cómo se llama (usted) / te llamas (tú)?",
+              "en": "What is your name? (formal / informal)"
+            },
+            {
+              "es": "Me llamo ...",
+              "en": "My name is ..."
+            },
+            {
+              "es": "¿Cómo está (usted)? / ¿Cómo estás (tú)?",
+              "en": "How are you? (formal / informal)"
+            },
+            {
+              "es": "¿Qué pasa? / ¿Qué hay de nuevo?",
+              "en": "What's up? / What's new?"
+            },
+            {
+              "es": "¿Qué tal?",
+              "en": "How are you?"
+            },
+            {
+              "es": "(No) Muy bien.",
+              "en": "(Not) Very well."
+            },
+            {
+              "es": "Regular. /Así así.",
+              "en": "OK."
+            },
+            {
+              "es": "¿De dónde es (usted)? / ¿De dónde eres (tú)?",
+              "en": "Where are you from? (formal / informal)"
+            },
+            {
+              "es": "Soy de ...",
+              "en": "I'm from ..."
+            },
+            {
+              "es": "¿Qué estudia (usted) / estudias (tú)?",
+              "en": "What do you study? (formal / informal)"
+            },
+            {
+              "es": "Estudio ...",
+              "en": "I study ..."
+            },
+            {
+              "es": "¿Cuál es tu especialización?",
+              "en": "What's your major?"
+            },
+            {
+              "es": "Mi especialización es ...",
+              "en": "My major is ..."
+            },
+            {
+              "es": "No sé.",
+              "en": "I don't know."
+            },
+            {
+              "es": "¿Y usted / tú?",
+              "en": "And you? (formal / informal)"
+            },
+            {
+              "es": "Gracias.",
+              "en": "Thank you."
+            },
+            {
+              "es": "Mucho gusto.",
+              "en": "Pleased to meet you."
+            },
+            {
+              "es": "Igualmente.",
+              "en": "Likewise."
+            }
+          ]
+        },
+        {
+          "title-es": "Las humanidades",
+          "title-en": "Humanities",
+          "vocabulary": [
+            {
+              "es": "la arquitectura",
+              "en": "architecture"
+            },
+            {
+              "es": "el arte",
+              "en": "art"
+            },
+            {
+              "es": "el derecho",
+              "en": "law"
+            },
+            {
+              "es": "el español",
+              "en": "Spanish"
+            },
+            {
+              "es": "la filosofía",
+              "en": "philosophy"
+            },
+            {
+              "es": "la historia",
+              "en": "history"
+            },
+            {
+              "es": "los idiomas",
+              "en": "languages"
+            },
+            {
+              "es": "el inglés",
+              "en": "English"
+            },
+            {
+              "es": "la literatura",
+              "en": "literature"
+            },
+            {
+              "es": "la música",
+              "en": "music"
+            },
+            {
+              "es": "la pedagogía",
+              "en": "pedagogy"
+            },
+            {
+              "es": "el periodismo",
+              "en": "journalism"
+            }
+          ]
+        },
+        {
+          "title-es": "Las ciencias naturales y formales",
+          "title-en": "Natural and Formal Sciences",
+          "vocabulary": [
+            {
+              "es": "la biología",
+              "en": "biology"
+            },
+            {
+              "es": "las ciencias naturales",
+              "en": "natural sciences"
+            },
+            {
+              "es": "la computación / la informática",
+              "en": "computer science"
+            },
+            {
+              "es": "la física",
+              "en": "physics"
+            },
+            {
+              "es": "la matemática",
+              "en": "mathematics"
+            },
+            {
+              "es": "la medicina",
+              "en": "medicine"
+            },
+            {
+              "es": "la química",
+              "en": "chemistry"
+            }
+          ]
+        },
+        {
+          "title-es": "Las ciencias sociales",
+          "title-en": "Social Sciences",
+          "vocabulary": [
+            {
+              "es": "la administración de empresas",
+              "en": "business administration"
+            },
+            {
+              "es": "las ciencias (políticas / sociales)",
+              "en": "(political / social) science"
+            },
+            {
+              "es": "las comunicaciones",
+              "en": "communications / public relations"
+            },
+            {
+              "es": "la contabilidad",
+              "en": "accounting"
+            },
+            {
+              "es": "la economía",
+              "en": "economics"
+            },
+            {
+              "es": "la geografía",
+              "en": "geography"
+            },
+            {
+              "es": "el mercadeo",
+              "en": "marketing"
+            },
+            {
+              "es": "la psicología",
+              "en": "psychology"
+            },
+            {
+              "es": "la sociología",
+              "en": "sociology"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE LOS CURSOS",
+          "title-en": "TO TALK ABOUT COURSES",
+          "vocabulary": [
+            {
+              "es": "el curso",
+              "en": "course"
+            },
+            {
+              "es": "el departamento",
+              "en": "department"
+            },
+            {
+              "es": "el examen",
+              "en": "exam"
+            },
+            {
+              "es": "el horario",
+              "en": "schedule"
+            },
+            {
+              "es": "la lección",
+              "en": "lesson"
+            },
+            {
+              "es": "el semestre",
+              "en": "semester"
+            },
+            {
+              "es": "el trimestre",
+              "en": "trimester"
+            },
+            {
+              "es": "estudiar",
+              "en": "study"
+            },
+            {
+              "es": "difícil",
+              "en": "difficult / hard"
+            },
+            {
+              "es": "fácil",
+              "en": "easy"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "QYKenXci",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "gJSSCxKm",
+    "dataset": "spn1130",
+    "filename": "vocab1",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS PERFILES",
+          "title-en": "PROFILES",
+          "vocabulary": [
+            {
+              "es": "el calendario de eventos",
+              "en": "calendar of events"
+            },
+            {
+              "es": "la cronología",
+              "en": "timeline"
+            },
+            {
+              "es": "el estado",
+              "en": "status"
+            },
+            {
+              "es": "la foto/la fotografía",
+              "en": "picture/photograph"
+            },
+            {
+              "es": "el perfil",
+              "en": "profile"
+            },
+            {
+              "es": "la red social",
+              "en": "the social network"
+            },
+            {
+              "es": "el video",
+              "en": "video"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS ACCIONES",
+          "title-en": "ACTIONS",
+          "vocabulary": [
+            {
+              "es": "actualizar",
+              "en": "to update"
+            },
+            {
+              "es": "crear",
+              "en": "to create"
+            },
+            {
+              "es": "editar",
+              "en": "to edit"
+            },
+            {
+              "es": "mandar un mensaje (de texto)",
+              "en": "to send a (text) message"
+            }
+          ]
+        },
+        {
+          "title-es": "LA INFORMACIÓN BÁSICA",
+          "title-en": "BASIC INFORMATION",
+          "vocabulary": [
+            {
+              "es": "el apellido/los apellidos",
+              "en": "last name/s"
+            },
+            {
+              "es": "la dirección de correo electrónico/el e-mail",
+              "en": "email address"
+            },
+            {
+              "es": "la edad",
+              "en": "age"
+            },
+            {
+              "es": "el nombre",
+              "en": "first name"
+            },
+            {
+              "es": "el (número de) teléfono",
+              "en": "telephone number"
+            }
+          ]
+        },
+        {
+          "title-es": "LA BIOGRAFÍA",
+          "title-en": "BIOGRAPHY",
+          "vocabulary": [
+            {
+              "es": "la ciudad",
+              "en": "city"
+            },
+            {
+              "es": "el cumpleaños",
+              "en": "birthday"
+            },
+            {
+              "es": "la escuela secundaria",
+              "en": "high school"
+            },
+            {
+              "es": "el estado",
+              "en": "state"
+            },
+            {
+              "es": "la fecha de nacimiento",
+              "en": "birthdate"
+            },
+            {
+              "es": "el país",
+              "en": "country"
+            },
+            {
+              "es": "el trabajo",
+              "en": "work"
+            },
+            {
+              "es": "la universidad",
+              "en": "university/college"
+            }
+          ]
+        },
+        {
+          "title-es": "YO SOY ...",
+          "title-en": "I AM ...",
+          "vocabulary": [
+            {
+              "es": "generoso/a",
+              "en": "generous"
+            },
+            {
+              "es": "inteligente",
+              "en": "intelligent"
+            },
+            {
+              "es": "sedentario/a",
+              "en": "sedentary"
+            },
+            {
+              "es": "tímido/a",
+              "en": "timid"
+            },
+            {
+              "es": "trabajador/a",
+              "en": "hard-working"
+            },
+            {
+              "es": "activo/a",
+              "en": "active"
+            },
+            {
+              "es": "atlético/a",
+              "en": "athletic"
+            },
+            {
+              "es": "aventurero/a",
+              "en": "adventurous"
+            },
+            {
+              "es": "cómico/a",
+              "en": "funny, comical"
+            },
+            {
+              "es": "estudioso/a",
+              "en": "studious"
+            }
+          ]
+        },
+        {
+          "title-es": "AHORA ESTOY ...",
+          "title-en": "RIGHT NOW I AM ...",
+          "vocabulary": [
+            {
+              "es": "aburrido/a",
+              "en": "bored"
+            },
+            {
+              "es": "cansado/a",
+              "en": "tired"
+            },
+            {
+              "es": "contento/a",
+              "en": "happy"
+            },
+            {
+              "es": "emocionado/a",
+              "en": "excited, emotional"
+            },
+            {
+              "es": "enojado/a",
+              "en": "angry"
+            },
+            {
+              "es": "nervioso/a",
+              "en": "nervous"
+            },
+            {
+              "es": "ocupado/a",
+              "en": "busy, occupied"
+            },
+            {
+              "es": "relajado/a",
+              "en": "relaxed"
+            }
+          ]
+        },
+        {
+          "title-es": "AHORA TENGO ...",
+          "title-en": "RIGHT NOW I'M ...",
+          "vocabulary": [
+            {
+              "es": "( ... ) años",
+              "en": "( ... ) years old"
+            },
+            {
+              "es": "calor",
+              "en": "hot"
+            },
+            {
+              "es": "frío",
+              "en": "cold"
+            },
+            {
+              "es": "hambre",
+              "en": "hungry"
+            },
+            {
+              "es": "miedo",
+              "en": "scared"
+            },
+            {
+              "es": "sueño",
+              "en": "sleepy"
+            },
+            {
+              "es": "sed",
+              "en": "thirsty"
+            },
+            {
+              "es": "vergüenza",
+              "en": "embarrassed"
+            }
+          ]
+        },
+        {
+          "title-es": "Los números del 0 al 20",
+          "title-en": "Numbers 0-20",
+          "vocabulary": [
+            {
+              "es": "cero",
+              "en": "zero"
+            },
+            {
+              "es": "uno",
+              "en": "one"
+            },
+            {
+              "es": "dos",
+              "en": "two"
+            },
+            {
+              "es": "tres",
+              "en": "three"
+            },
+            {
+              "es": "cuatro",
+              "en": "four"
+            },
+            {
+              "es": "cinco",
+              "en": "five"
+            },
+            {
+              "es": "seis",
+              "en": "six"
+            },
+            {
+              "es": "siete",
+              "en": "seven"
+            },
+            {
+              "es": "ocho",
+              "en": "eight"
+            },
+            {
+              "es": "nueve",
+              "en": "nine"
+            },
+            {
+              "es": "diez",
+              "en": "ten"
+            },
+            {
+              "es": "once",
+              "en": "eleven"
+            },
+            {
+              "es": "doce",
+              "en": "twelve"
+            },
+            {
+              "es": "trece",
+              "en": "thirteen"
+            },
+            {
+              "es": "catorce",
+              "en": "fourteen"
+            },
+            {
+              "es": "quince",
+              "en": "fifteen"
+            },
+            {
+              "es": "dieciséis",
+              "en": "sixteen"
+            },
+            {
+              "es": "diecisiete",
+              "en": "seventeen"
+            },
+            {
+              "es": "dieciocho",
+              "en": "eighteen"
+            },
+            {
+              "es": "diecinueve",
+              "en": "nineteen"
+            },
+            {
+              "es": "veinte",
+              "en": "twenty"
+            },
+            {
+              "es": "veintiuno",
+              "en": "twenty-one"
+            },
+            {
+              "es": "veintidós",
+              "en": "twenty-two"
+            },
+            {
+              "es": "veintitrés",
+              "en": "twenty-three"
+            },
+            {
+              "es": "veinticuatro",
+              "en": "twenty-four"
+            },
+            {
+              "es": "veinticinco",
+              "en": "twenty-five"
+            },
+            {
+              "es": "veintiséis",
+              "en": "twenty-six"
+            },
+            {
+              "es": "veintisiete",
+              "en": "twenty-seven"
+            },
+            {
+              "es": "veintiocho",
+              "en": "twenty-eight"
+            },
+            {
+              "es": "veintinueve",
+              "en": "twenty-nine"
+            },
+            {
+              "es": "treinta",
+              "en": "thirty"
+            }
+          ]
+        },
+        {
+          "title-es": "Los números del 31 al 39",
+          "title-en": "Numbers 31-39",
+          "vocabulary": [
+            {
+              "es": "treinta y uno",
+              "en": "thirty-one"
+            },
+            {
+              "es": "treinta y dos",
+              "en": "thirty-two"
+            },
+            {
+              "es": "treinta y tres",
+              "en": "thirty-three"
+            },
+            {
+              "es": "treinta y cuatro",
+              "en": "thirty-four"
+            },
+            {
+              "es": "treinta y cinco",
+              "en": "thirty-five"
+            },
+            {
+              "es": "treinta y seis",
+              "en": "thirty-six"
+            },
+            {
+              "es": "treinta y siete",
+              "en": "thirty-seven"
+            },
+            {
+              "es": "treinta y ocho",
+              "en": "thirty-eight"
+            },
+            {
+              "es": "treinta y nueve",
+              "en": "thirty-nine"
+            }
+          ]
+        },
+        {
+          "title-es": "Los números del 10 al 90",
+          "title-en": "Numbers 10-90",
+          "vocabulary": [
+            {
+              "es": "diez",
+              "en": "ten"
+            },
+            {
+              "es": "veinte",
+              "en": "twenty"
+            },
+            {
+              "es": "treinta",
+              "en": "thirty"
+            },
+            {
+              "es": "cuarenta",
+              "en": "forty"
+            },
+            {
+              "es": "cincuenta",
+              "en": "fifty"
+            },
+            {
+              "es": "sesenta",
+              "en": "sixty"
+            },
+            {
+              "es": "setenta",
+              "en": "seventy"
+            },
+            {
+              "es": "ochenta",
+              "en": "eighty"
+            },
+            {
+              "es": "noventa",
+              "en": "ninety"
+            }
+          ]
+        },
+        {
+          "title-es": "Los números del 100 al 900",
+          "title-en": "Numbers 100-900",
+          "vocabulary": [
+            {
+              "es": "cien",
+              "en": "one hundred"
+            },
+            {
+              "es": "doscientos",
+              "en": "two hundred"
+            },
+            {
+              "es": "trescientos",
+              "en": "three hundred"
+            },
+            {
+              "es": "cuatrocientos",
+              "en": "four hundred"
+            },
+            {
+              "es": "quinientos",
+              "en": "five hundred"
+            },
+            {
+              "es": "seiscientos",
+              "en": "six hundred"
+            },
+            {
+              "es": "setecientos",
+              "en": "seven hundred"
+            },
+            {
+              "es": "ochocientos",
+              "en": "eight hundred"
+            },
+            {
+              "es": "novecientos",
+              "en": "nine hundred"
+            }
+          ]
+        },
+        {
+          "title-es": "Los números del 1.000 al 10.000",
+          "title-en": "Numbers 1,000-10,000",
+          "vocabulary": [
+            {
+              "es": "mil",
+              "en": "one thousand"
+            },
+            {
+              "es": "dos mil",
+              "en": "two thousand"
+            },
+            {
+              "es": "tres mil",
+              "en": "three thousand"
+            },
+            {
+              "es": "cuatro mil",
+              "en": "four thousand"
+            },
+            {
+              "es": "cinco mil",
+              "en": "five thousand"
+            },
+            {
+              "es": "seis mil",
+              "en": "six thousand"
+            },
+            {
+              "es": "siete mil",
+              "en": "seven thousand"
+            },
+            {
+              "es": "ocho mil",
+              "en": "eight thousand"
+            },
+            {
+              "es": "nueve mil",
+              "en": "nine thousand"
+            },
+            {
+              "es": "diez mil",
+              "en": "ten thousand"
+            }
+          ]
+        },
+        {
+          "title-es": "Los números del 10.000 a 2.000.000",
+          "title-en": "Numbers 10, 000-2,000,000",
+          "vocabulary": [
+            {
+              "es": "diez mil",
+              "en": "ten thousand"
+            },
+            {
+              "es": "veinte mil",
+              "en": "twenty thousand"
+            },
+            {
+              "es": "treinta mil",
+              "en": "thirty thousand"
+            },
+            {
+              "es": "cuarenta mil",
+              "en": "forty thousand"
+            },
+            {
+              "es": "cincuenta mil",
+              "en": "fifty thousand"
+            },
+            {
+              "es": "sesenta mil",
+              "en": "sixty thousand"
+            },
+            {
+              "es": "setenta mil",
+              "en": "seventy thousand"
+            },
+            {
+              "es": "ochenta mil",
+              "en": "eighty thousand"
+            },
+            {
+              "es": "noventa mil",
+              "en": "ninety thousand"
+            },
+            {
+              "es": "un millón",
+              "en": "one million"
+            },
+            {
+              "es": "dos millones",
+              "en": "two million"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "9v1ll9fn",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "5WqDly8I",
+    "dataset": "spn1130",
+    "filename": "vocab3",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS DÍAS DE LA SEMANA",
+          "title-en": "DAYS OF THE WEEK",
+          "vocabulary": [
+            {
+              "es": "lunes",
+              "en": "Monday"
+            },
+            {
+              "es": "martes",
+              "en": "Tuesday"
+            },
+            {
+              "es": "miércoles",
+              "en": "Wednesday"
+            },
+            {
+              "es": "jueves",
+              "en": "Thursday"
+            },
+            {
+              "es": "viernes",
+              "en": "Friday"
+            },
+            {
+              "es": "sábado",
+              "en": "Saturday"
+            },
+            {
+              "es": "domingo",
+              "en": "Sunday"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS MESES DEL AÑO",
+          "title-en": "MONTHS OF THE YEAR",
+          "vocabulary": [
+            {
+              "es": "enero",
+              "en": "January"
+            },
+            {
+              "es": "febrero",
+              "en": "February"
+            },
+            {
+              "es": "marzo",
+              "en": "March"
+            },
+            {
+              "es": "abril",
+              "en": "April"
+            },
+            {
+              "es": "mayo",
+              "en": "May"
+            },
+            {
+              "es": "junio",
+              "en": "June"
+            },
+            {
+              "es": "julio",
+              "en": "July"
+            },
+            {
+              "es": "agosto",
+              "en": "August"
+            },
+            {
+              "es": "septiembre",
+              "en": "September"
+            },
+            {
+              "es": "octubre",
+              "en": "October"
+            },
+            {
+              "es": "noviembre",
+              "en": "November"
+            },
+            {
+              "es": "diciembre",
+              "en": "December"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS ESTACIONES",
+          "title-en": "SEASONS",
+          "vocabulary": [
+            {
+              "es": "el otoño",
+              "en": "fall"
+            },
+            {
+              "es": "el invierno",
+              "en": "winter"
+            },
+            {
+              "es": "la primavera",
+              "en": "spring"
+            },
+            {
+              "es": "el verano",
+              "en": "summer"
+            }
+          ]
+        },
+        {
+          "title-es": "ACTIVIDADES DIARIAS",
+          "title-en": "DAILY ACTIVITIES",
+          "vocabulary": [
+            {
+              "es": "almorzar",
+              "en": "to have lunch"
+            },
+            {
+              "es": "desayunar",
+              "en": "to have breakfast"
+            },
+            {
+              "es": "dormir",
+              "en": "to sleep/to fall asleep"
+            },
+            {
+              "es": "cenar",
+              "en": "to have supper"
+            },
+            {
+              "es": "regresar (a casa)",
+              "en": "to return (home)"
+            }
+          ]
+        },
+        {
+          "title-es": "OTRAS ACTIVIDADES",
+          "title-en": "OTHER ACTIVITIES",
+          "vocabulary": [
+            {
+              "es": "ayudar",
+              "en": "to help"
+            },
+            {
+              "es": "bailar",
+              "en": "to dance"
+            },
+            {
+              "es": "cocinar",
+              "en": "to cook"
+            },
+            {
+              "es": "correr",
+              "en": "to run"
+            },
+            {
+              "es": "descansar",
+              "en": "to rest"
+            },
+            {
+              "es": "ensayar",
+              "en": "to practice"
+            },
+            {
+              "es": "escuchar (música)",
+              "en": "to listen (to music)"
+            },
+            {
+              "es": "estar libre",
+              "en": "to be free"
+            },
+            {
+              "es": "estudiar",
+              "en": "to study"
+            },
+            {
+              "es": "hablar",
+              "en": "to speak/talk"
+            },
+            {
+              "es": "hacer ejercicio",
+              "en": "to do exercise"
+            },
+            {
+              "es": "hacer una videollamada",
+              "en": "to make a videocall"
+            },
+            {
+              "es": "ir (al gimnasio/al picnic/ al cine/de compras ... )",
+              "en": "to go (to the gym/on a picnic/to the movies/ shopping)"
+            },
+            {
+              "es": "jugar al ... videojuego/ tenis/fútbol",
+              "en": "to play ... a videogame/ tennis/ football or soccer"
+            },
+            {
+              "es": "lavar (la ropa)",
+              "en": "to wash (clothes)"
+            },
+            {
+              "es": "limpiar (la casa)",
+              "en": "to clean (the house)"
+            },
+            {
+              "es": "llegar",
+              "en": "to arrive"
+            },
+            {
+              "es": "pintar",
+              "en": "to paint"
+            },
+            {
+              "es": "practicar (yoga)",
+              "en": "to practice/do (yoga)"
+            },
+            {
+              "es": "preparar",
+              "en": "to prepare"
+            },
+            {
+              "es": "quedar con",
+              "en": "to arrange to meet with"
+            },
+            {
+              "es": "salir (a)",
+              "en": "to go out, to leave"
+            },
+            {
+              "es": "tomar (algo)",
+              "en": "to have (a drink)"
+            },
+            {
+              "es": "trabajar (en)",
+              "en": "to work"
+            },
+            {
+              "es": "ver",
+              "en": "to see"
+            }
+          ]
+        },
+        {
+          "title-es": "INVITAR Y HACER PLANES",
+          "title-en": "TO EXTEND AN INVITATION AND TO MAKE PLANS",
+          "vocabulary": [
+            {
+              "es": "¿Qué tal ...?",
+              "en": "How about / What about ...?"
+            },
+            {
+              "es": "¿Qué te parece?",
+              "en": "What do you think?"
+            },
+            {
+              "es": "¿Qué vas a hacer ...?",
+              "en": "What are you doing/go- ing to do ...?"
+            },
+            {
+              "es": "Tengo que ... [inf. tener que]",
+              "en": "I have to do [inf. to have to do]"
+            },
+            {
+              "es": "Tengo ganas de ... [inf. tener ganas de]",
+              "en": "I feel [inf. to feel like] (doing something)"
+            },
+            {
+              "es": "¿Tienes planes?",
+              "en": "Do you have plans?"
+            }
+          ]
+        },
+        {
+          "title-es": "ACEPTAR O RECHAZAR UNA INVITACIÓN",
+          "title-en": "TO ACCEPT OR REJECT AN INVITATION",
+          "vocabulary": [
+            {
+              "es": "¡Ay, no!",
+              "en": "Oh no!"
+            },
+            {
+              "es": "¡Buena idea!",
+              "en": "Good idea!"
+            },
+            {
+              "es": "¡Qué lástima!",
+              "en": "What a shame!"
+            }
+          ]
+        },
+        {
+          "title-es": "EXPRESIONES TEMPORALES",
+          "title-en": "EXPRESSIONS OF TIME",
+          "vocabulary": [
+            {
+              "es": "¿A qué hora?",
+              "en": "At what time?"
+            },
+            {
+              "es": "en punto",
+              "en": "on the dot"
+            },
+            {
+              "es": "por la mañana",
+              "en": "in the morning"
+            },
+            {
+              "es": "por la tarde",
+              "en": "in the afternoon"
+            },
+            {
+              "es": "por la noche",
+              "en": "at night"
+            },
+            {
+              "es": "tarde",
+              "en": "late/afternoon"
+            },
+            {
+              "es": "temprano",
+              "en": "early"
+            },
+            {
+              "es": "todos los días",
+              "en": "every day"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "standardizationId": "fL8iyxJI",
+    "schemaId": "NFXMj0lY",
+    "schemaName": "Spanish-English Vocabulary List",
+    "documentId": "dG9kUGrI",
+    "dataset": "spn1130",
+    "filename": "vocab6",
+    "data": {
+      "groups": [
+        {
+          "title-es": "LOS MIEMBROS DE LA FAMILIA",
+          "title-en": "FAMILY MEMBERS",
+          "vocabulary": [
+            {
+              "es": "el/la abuelo/a",
+              "en": "grandfather/grandmother"
+            },
+            {
+              "es": "el/la esposo/a",
+              "en": "husband/wife"
+            },
+            {
+              "es": "el/la gato/a",
+              "en": "cat"
+            },
+            {
+              "es": "el/la gemelo/a",
+              "en": "twin"
+            },
+            {
+              "es": "el/la hermanastro/a",
+              "en": "step-brother/sister"
+            },
+            {
+              "es": "el/la hermano/a",
+              "en": "brother/sister"
+            },
+            {
+              "es": "el/la hijastro/a",
+              "en": "step-son/daughter"
+            },
+            {
+              "es": "los hijos/las hijas",
+              "en": "sons/daughters"
+            },
+            {
+              "es": "la madrastra",
+              "en": "stepmother"
+            },
+            {
+              "es": "la madre (la mamá)",
+              "en": "mother"
+            },
+            {
+              "es": "el/la medio/a hermano/a",
+              "en": "half-brother/sister"
+            },
+            {
+              "es": "el/la nieto/a",
+              "en": "grandson/granddaughter"
+            },
+            {
+              "es": "el/la niño/a",
+              "en": "boy/girl"
+            },
+            {
+              "es": "el padrastro",
+              "en": "stepfather"
+            },
+            {
+              "es": "el padre (el papá)",
+              "en": "father"
+            },
+            {
+              "es": "los padres",
+              "en": "parents"
+            },
+            {
+              "es": "los parientes",
+              "en": "relatives"
+            },
+            {
+              "es": "el/la perro/a",
+              "en": "dog"
+            },
+            {
+              "es": "el/la primo/a",
+              "en": "cousin"
+            },
+            {
+              "es": "el/la tío/a",
+              "en": "uncle/aunt"
+            }
+          ]
+        },
+        {
+          "title-es": "LOS ESTADOS",
+          "title-en": "STATUS",
+          "vocabulary": [
+            {
+              "es": "(estar) casado/a",
+              "en": "(to be) married"
+            },
+            {
+              "es": "(estar) divorciado/a",
+              "en": "(to be) divorced"
+            },
+            {
+              "es": "(estar) muerto/a",
+              "en": "(to be) dead"
+            },
+            {
+              "es": "(estar de) novio/a",
+              "en": "(to have) a boyfriend/girlfriend (romantic interest)"
+            },
+            {
+              "es": "(estar en) pareja",
+              "en": "(to have) a partner"
+            },
+            {
+              "es": "(estar) separado/a",
+              "en": "(to be) separated"
+            },
+            {
+              "es": "(estar) solo/a",
+              "en": "(to be) alone"
+            },
+            {
+              "es": "(estar) soltero/a",
+              "en": "(to be) single"
+            },
+            {
+              "es": "el/la hijo/a adoptado/a",
+              "en": "adopted son/daughter"
+            },
+            {
+              "es": "el matrimonio igualitario",
+              "en": "same-sex marriage"
+            },
+            {
+              "es": "la unión legal/la unión civil",
+              "en": "legal union/civil union"
+            }
+          ]
+        },
+        {
+          "title-es": "LAS CARACTERÍSTICAS FÍSICAS",
+          "title-en": "PHYSICAL CHARACTERISTICS",
+          "vocabulary": [
+            {
+              "es": "alto/a",
+              "en": "tall"
+            },
+            {
+              "es": "atlético/a",
+              "en": "athletic"
+            },
+            {
+              "es": "bajo/a",
+              "en": "short (height)"
+            },
+            {
+              "es": "bonito/a",
+              "en": "pretty"
+            },
+            {
+              "es": "corto/a",
+              "en": "short (length)"
+            },
+            {
+              "es": "débil",
+              "en": "weak"
+            },
+            {
+              "es": "delgado/a",
+              "en": "thin"
+            },
+            {
+              "es": "feo/a",
+              "en": "ugly"
+            },
+            {
+              "es": "fuerte",
+              "en": "strong"
+            },
+            {
+              "es": "gordo/a (affectionate: gordito/a)",
+              "en": "fat"
+            },
+            {
+              "es": "grande",
+              "en": "big"
+            },
+            {
+              "es": "guapo/a",
+              "en": "handsome/attractive"
+            },
+            {
+              "es": "joven",
+              "en": "young"
+            },
+            {
+              "es": "largo/a",
+              "en": "long"
+            },
+            {
+              "es": "mayor (form of respect)",
+              "en": "older"
+            },
+            {
+              "es": "menor",
+              "en": "younger"
+            },
+            {
+              "es": "moreno/a",
+              "en": "dark skinned / dark haired"
+            },
+            {
+              "es": "las pecas",
+              "en": "freckles"
+            },
+            {
+              "es": "pelirrojo/a",
+              "en": "redhead"
+            },
+            {
+              "es": "pequeño/a",
+              "en": "small/little"
+            },
+            {
+              "es": "rizado/a",
+              "en": "curly"
+            },
+            {
+              "es": "rubio/a",
+              "en": "blonde"
+            },
+            {
+              "es": "viejo/a",
+              "en": "old"
+            }
+          ]
+        },
+        {
+          "title-es": "PARA HABLAR DE LAS PERSONAS",
+          "title-en": "TO TALK ABOUT PEOPLE",
+          "vocabulary": [
+            {
+              "es": "contar (o>ue)",
+              "en": "to tell"
+            },
+            {
+              "es": "entender (e>ie)",
+              "en": "to understand"
+            },
+            {
+              "es": "parecerse a",
+              "en": "to look like (someone)"
+            },
+            {
+              "es": "pensar (e>ie)",
+              "en": "to think"
+            },
+            {
+              "es": "poder (o>ue)",
+              "en": "to be able to"
+            },
+            {
+              "es": "preferir (e>ie)",
+              "en": "to prefer"
+            },
+            {
+              "es": "sonreír (e>i)",
+              "en": "to smile"
+            },
+            {
+              "es": "soñar (con) (o>ue)",
+              "en": "to dream (about)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

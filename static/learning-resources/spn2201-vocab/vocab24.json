@@ -1,0 +1,176 @@
+{
+  "groups": [
+    {
+      "title-es": "PARA HABLAR DE LOS ALIMENTOS",
+      "title-en": "TO TALK ABOUT FOOD",
+      "vocabulary": [
+        {
+          "es": "la agricultura (intensiva/ sostenible)",
+          "en": "(intensive/sustainable) agriculture"
+        },
+        {
+          "es": "amigable con el medioambiente",
+          "en": "eco-friendly"
+        },
+        {
+          "es": "asequible",
+          "en": "affordable"
+        },
+        {
+          "es": "el superalimento",
+          "en": "superfood"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DE ALGUNOS PROBLEMAS",
+      "title-en": "TO TALK ABOUT SOME PROBLEMS",
+      "vocabulary": [
+        {
+          "es": "el exceso del consumo",
+          "en": "overconsumption"
+        },
+        {
+          "es": "el impacto (negativo/ positivo)",
+          "en": "(negative/positive) impact"
+        },
+        {
+          "es": "el que (no) tiene voz [figurative]",
+          "en": "one who has (does not have) a voice"
+        },
+        {
+          "es": "oponerse (rotundamente) a",
+          "en": "to (adamantly) oppose"
+        },
+        {
+          "es": "el/la pequeño/a productor/a",
+          "en": "small grower"
+        },
+        {
+          "es": "la política pública",
+          "en": "public policy"
+        },
+        {
+          "es": "ser depredado/a",
+          "en": "to be preyed on; to be plundered"
+        }
+      ]
+    },
+    {
+      "title-es": "PARA HABLAR DE SOLUCIONES",
+      "title-en": "TO TALK ABOUT SOLUTIONS",
+      "vocabulary": [
+        {
+          "es": "abrazar (la diversidad)",
+          "en": "to embrace (diversity)"
+        },
+        {
+          "es": "la conectividad",
+          "en": "connectivity"
+        },
+        {
+          "es": "construir puentes",
+          "en": "to build bridges"
+        },
+        {
+          "es": "elaborar una agenda (de/ sobre)",
+          "en": "to create a policy (about)"
+        },
+        {
+          "es": "integrar",
+          "en": "to integrate"
+        },
+        {
+          "es": "llevar prosperidad",
+          "en": "to bring prosperity"
+        },
+        {
+          "es": "llevar un mensaje (de)",
+          "en": "to bring a message (of)"
+        },
+        {
+          "es": "pasar a la acción",
+          "en": "to take action"
+        },
+        {
+          "es": "ponerse de acuerdo en (algo)",
+          "en": "to agree on (something)"
+        },
+        {
+          "es": "recuperar (el medioambiente / la salud)",
+          "en": "to restore the environment/health"
+        },
+        {
+          "es": "sacar adelante a (la familia / los hijos)",
+          "en": "to provide for (one's family/children)"
+        },
+        {
+          "es": "ser consciente de (algo)",
+          "en": "to be aware of (something)"
+        },
+        {
+          "es": "trabajar en (el objetivo colectivo)",
+          "en": "to work toward (a collective goal)"
+        },
+        {
+          "es": "unirse en (un lugar)",
+          "en": "to join, to come together at/in (a place)"
+        },
+        {
+          "es": "unirse gracias a (algo/ alguien)",
+          "en": "to join, to come together thanks to (something/someone)"
+        },
+        {
+          "es": "unirse para (un propósito)",
+          "en": "to join, to come together for (a purpose)"
+        }
+      ]
+    },
+    {
+      "title-es": "LA SOSTENIBILIDAD Y LOS DESAFÍOS GLOBALES",
+      "title-en": "SUSTAINABILITY AND GLOBAL CHALLENGES",
+      "vocabulary": [
+        {
+          "es": "el/la activista (ambiental/ político)",
+          "en": "(environmental/ political) activist"
+        },
+        {
+          "es": "la agricultura de subsistencia",
+          "en": "subsistence farming"
+        },
+        {
+          "es": "la cadena de suministro",
+          "en": "supply chain"
+        },
+        {
+          "es": "la comida sostenible",
+          "en": "sustainable food"
+        },
+        {
+          "es": "la emergencia alimentaria/climática",
+          "en": "food/climate emergency"
+        },
+        {
+          "es": "la glocalización",
+          "en": "glocalization"
+        },
+        {
+          "es": "la (in)seguridad alimentaria",
+          "en": "food (in)security"
+        },
+        {
+          "es": "la reducción del desperdicio",
+          "en": "waste reduction"
+        },
+        {
+          "es": "la sostenibilidad (Esp.) / la sustentabilidad (Am. Lat.)",
+          "en": "sustainability"
+        },
+        {
+          "es": "las emisiones de gases de efecto invernadero",
+          "en": "greenhouse gas emissions"
+        }
+      ]
+    }
+  ]
+}
