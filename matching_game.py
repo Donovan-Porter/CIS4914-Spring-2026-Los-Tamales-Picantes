@@ -8,7 +8,7 @@ games = {}
 def create_game(returned_size):
 
     # create a memory game with the size we are looking for
-    game = MemoryGame(size=returned_size)
+    game = MemoryGame(size=returned_size, chapter_num=1)
 
     # get the game id
     game_id = str(uuid.uuid4())
