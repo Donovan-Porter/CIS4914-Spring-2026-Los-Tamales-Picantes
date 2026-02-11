@@ -1,5 +1,3 @@
-from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify
-from flaskwebgui import FlaskUI
 from minigames.matching import MemoryGame
 import uuid
 
