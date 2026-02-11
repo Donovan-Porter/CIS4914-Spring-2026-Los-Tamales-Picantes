@@ -55,7 +55,7 @@ class MemoryGame:
         self.matches_found = 0
 
         # set up the board
-        self.board = self._create_board(chapter_num)
+        self.string_board = self._create_board(chapter_num)
 
 
     def get_string_board_from_game_board(self, game_board):
@@ -174,7 +174,7 @@ class MemoryGame:
 
 
         # do they match
-        if self.board[first_row][first_col] == self.board[second_row][second_col]:
+        if self.string_board[first_row][first_col] == self.string_board[second_row][second_col]:
             # set that they have been matched
             self.matched[first_row][first_col] = True
             self.matched[second_row][second_col] = True
@@ -192,7 +192,7 @@ class MemoryGame:
         game_state = {}
 
         # get all card values
-        game_state["board"] = self.board
+        game_state["board"] = self.string_board
 
         # which cards are matched
         game_state["matched"] = self.matched
