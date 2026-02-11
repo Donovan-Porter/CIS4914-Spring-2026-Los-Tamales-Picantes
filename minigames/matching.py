@@ -34,12 +34,14 @@ class Card:
     
 
 class MemoryGame:
-    def __init__(self, size=4, chapter_num=1):
+    def __init__(self, size=4, spanish_level="spn1130", chapter_num=1, is_vocab=True):
         '''
         Set up for the matching game
         
         :param size: size of the board
-        :param chapter_num: chapter to load 
+        :param spanish_level: spanish level of file to load
+        :param chapter_num: chapter number to load 
+        :param is_vocab: is it a vocab file or grammar file
         '''
         # width & height of board
         self.size = size
@@ -61,7 +63,12 @@ class MemoryGame:
         self.matches_found = 0
 
         # set up the board
-        self.string_board = self._create_board(chapter_num)
+        self.spn_lvl = spanish_level
+        self.chp_num = chapter_num
+        self.is_vocab = is_vocab
+
+        self.string_board = self._create_board()
+
 
     def get_string_board_from_game_board(self, game_board):
         '''
@@ -78,29 +85,23 @@ class MemoryGame:
             string_board.append(cur_row)
         return string_board
 
-    def get_data_from_file(self, chapter_num, is_vocab):
-        '''
-        Parse the data from the files
-        
-        :param chapter_num: chapter number that was selected
-        :param is_vocab: is this a vocabulary file
-        '''
-        # TODO: handle spanish 1 and spanish 2
-        
-        if is_vocab:
-            self._handle_vocab_file(chapter_num)
-        else:
-            self._handle_grammar_file(chapter_num)
 
-    def _handle_vocab_file(self, chapter_num):
+    def get_data_from_file(self):
+        '''
+        determine if a vocab or grammar json needs to be parsed
+        
+        '''
+        if self.is_vocab:
+            self._handle_vocab_file()
+        else:
+            self._handle_grammar_file()
+    def _handle_vocab_file(self):
         '''
         Parsing the data from a vocab file
         
-        :param chapter_num: chapter select
         '''
-        base_vocab_string = "static\\learning-resources\\spn1130-vocab\\"
-
-        filename = base_vocab_string + f"vocab{chapter_num}.json"
+        base_vocab_string = "static\\learning-resources\\"
+        filename = base_vocab_string + f"{self.spn_lvl}-vocab\\vocab{self.chp_num}.json"
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -117,16 +118,13 @@ class MemoryGame:
 
         # for card in self.data_pool:
         #     print("English: " + card.english + " || Spanish: " + card.spanish)
-
-    def _handle_grammar_file(self, chapter_num):
+    def _handle_grammar_file(self):
         '''
         Parsing the data from a grammar file
         
-        :param chapter_num: chapter select
         '''
-        base_grammar_string = "static\\learning-resources\\spn1130-grammar\\"
-
-        filename = base_grammar_string + f"grammar{chapter_num}.json"
+        base_grammar_string = "static\\learning-resources\\"
+        filename = base_grammar_string + f"{self.spn_lvl}-grammar\\grammar{self.chp_num}.json"
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -145,12 +143,10 @@ class MemoryGame:
         #     print("English: " + card.english + " || Spanish: " + card.spanish)
 
 
-    def _create_board(self, chapter_num):
+    def _create_board(self):
         '''
         Create a shuffled board
         
-        :param chapter_num: chapter select
-
         '''
         # how many pairs are needed?
         self.total_pairs = (self.size * self.size) // 2
@@ -165,9 +161,7 @@ class MemoryGame:
             self.matched.append(row)
 
         # load the file
-        # TODO: test test test
-        is_vocab = False
-        self.get_data_from_file(chapter_num, is_vocab)                    
+        self.get_data_from_file()                    
 
         # shuffle this stuff
         random.shuffle(self.data_pool)
@@ -201,6 +195,7 @@ class MemoryGame:
         string_board = self.get_string_board_from_game_board(self.game_board)
 
         return string_board
+
 
     def click_card(self, row, col):
         '''
