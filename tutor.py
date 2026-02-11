@@ -195,7 +195,11 @@ def create_matching_game():
     create a matching game
     '''
     returned_size = request.json.get("size", 4)
-    return matching_game.create_game(returned_size)
+    spn_lvl = request.json.get("spanish_level", "spn1130")
+    chp_num = request.json.get("chapter_number", 1)
+    is_vocab = request.json.get("is_vocab", True)
+
+    return matching_game.create_game(returned_size, spn_lvl, chp_num, is_vocab)
 
 @app.route("/matching/<game_id>/click", methods=["POST"])
 def click_card(game_id):
