@@ -5,15 +5,23 @@ import uuid
 games = {}
 
 # create a matching game
-def create_game(returned_size):
+def create_game(board_size, spn_lvl, chp_num, is_vocab):
     # spanish levels
     # spanish_1 = "spn1130"
     # spanish_2 = "spn1131"
     # spanish_3 = "spn2200"
     # spanish_4 = "spn2201"
 
+    # print("\nthis is create_game -> matching_game.py")
+
+    # print(board_size)
+    # print(spn_lvl)
+    # print(chp_num)
+    # print(is_vocab)
+
+
     # create a memory game with the size we are looking for
-    game = MemoryGame(size=returned_size, spanish_level="spn1130", chapter_num=1, is_vocab=True )
+    game = MemoryGame(size=board_size, spanish_level=spn_lvl, chapter_num=chp_num, is_vocab=is_vocab)
 
     # get the game id
     game_id = str(uuid.uuid4())

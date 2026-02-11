@@ -93,6 +93,32 @@
         <button class="difficulty-button">Hard</button>
     </div>
 
+    <div id="dropdown-select">
+        <label for="file_select">
+            Choose File: 
+        </label>
+        <select name="vocab_select"  id="vocab_select">
+            <option value="True">Vocabulary</option>
+            <option value="False">Grammar</option>
+        </select>
+        <select name="spn_lvl"  id="spn_lvl">
+            <option value="spn1130">Spainsh 1130</option>
+            <option value="spn1131">Spainsh 1131</option>
+            <option value="spn2200">Spainsh 2200</option>
+            <option value="spn2201">Spainsh 2201</option>
+        </select>
+        <select name="chp_num"  id="chp_num">
+            <option value="1">Chapter 1</option>
+            <option value="2">Chapter 2</option>
+            <option value="3">Chapter 3</option>
+            <option value="4">Chapter 4</option>
+            <option value="5">Chapter 5</option>
+            <option value="6">Chapter 6</option>
+        </select>
+        <br><br>
+        <button id= "load-file">Load File</button>
+    </div>
+
     <div id="board"></div>
 
     <div id="match-count">Matches: 0</div>

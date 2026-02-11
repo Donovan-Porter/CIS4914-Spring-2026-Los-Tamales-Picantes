@@ -91,6 +91,9 @@ class MemoryGame:
         determine if a vocab or grammar json needs to be parsed
         
         '''
+
+        self.data_pool = []
+
         if self.is_vocab:
             self._handle_vocab_file()
         else:

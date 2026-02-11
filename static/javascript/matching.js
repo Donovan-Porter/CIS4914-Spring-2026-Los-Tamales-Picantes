@@ -8,37 +8,92 @@ const matchDiv = document.getElementById("match-count");
 const statusDiv = document.getElementById("status");
 const homeDiv = document.getElementById('return-button');
 
-const difficultyButtons = document.querySelectorAll(".difficulty-button");
+// const difficultyButtons = document.querySelectorAll(".difficulty-button");
+// // set the input board size based on diffculty
+// difficultyButtons.forEach(button => {
+//     button.addEventListener("click", () => {
+//         let board_size;
+//         if (button.innerText === "TEST")
+//         { 
+//             board_size = 2;
+//         }        
+//         if (button.innerText === "Easy")
+//         { 
+//             board_size = 4;
+//         }
+//         else if (button.innerText === "Medium") 
+//         { 
+//             board_size = 6;
+//         }
+
+//         else if (button.innerText === "Hard")
+//         { 
+//             board_size = 8;
+//         }
+
+//         // setupBoard(board_size);
+//     });
+// });
 
 
-// set the input board size based on diffculty
-difficultyButtons.forEach(button => {
-    button.addEventListener("click", () => {
-        let boardSize;
-        if (button.innerText === "TEST")
-        { 
-            boardSize = 2;
-        }        
-        if (button.innerText === "Easy")
-        { 
-            boardSize = 4;
-        }
-        else if (button.innerText === "Medium") 
-        { 
-            boardSize = 6;
-        }
+// redirect to home page
+document.getElementById('home-button').onclick = function() { window.location.href = '/'; };
 
-        else if (button.innerText === "Hard")
-        { 
-            boardSize = 8;
-        }
 
-        setupBoard(boardSize);
-    });
-});
+// change the chapter selection 
+const spanish_select = document.getElementById("spn_lvl");
+spanish_select.addEventListener("change", update_chap_numbers);
+function update_chap_numbers()
+{
+    const all_chap_num = {
+        spn1130: [1, 2, 3, 4, 5, 6],
+        spn1131: [7, 8, 9, 10, 11, 12],
+        spn2200: [13, 14, 15, 16, 17, 18],
+        spn2201: [19, 20, 21, 22, 23, 24]};
 
-// set up board with difficulty based size
-async function setupBoard(boardSize) 
+    const fill_in_chap = document.getElementById("chp_num");
+
+    // work
+    const working_chap = all_chap_num[spanish_select.value];
+
+    // clear the dropdown
+    fill_in_chap.innerHTML = "";
+
+    // add each chapter option
+    for (num of working_chap)
+    {
+        // create an option
+        option = document.createElement("option");
+        option.value = num;
+        option.innerText = `Chapter ${num}`;
+        // add it on the html side
+        fill_in_chap.appendChild(option);
+    }
+}
+
+
+function get_board_size()
+{
+    const level = document.getElementById("spn_lvl").value;
+
+    switch (level)
+    {
+        case "spn1130":
+            return 4;
+        case "spn1131":
+            return 6;
+        case "spn2200":
+            return 8;
+        case "spn2201":
+            return 8;
+        default:
+            return 4;
+    }
+}
+
+// send the file parts to the game
+document.getElementById('load-file').onclick = parse_the_file_info_and_setup;
+async function parse_the_file_info_and_setup()
 {
     // reset everything on a new load
     matchCount = 0;
@@ -48,12 +103,17 @@ async function setupBoard(boardSize)
     homeDiv.style.display = "none";
     statusDiv.innerText = "";
 
+    // send the info to set up a new game
+    const board_size = get_board_size();
 
-    // set up a new game with size 4
     const res = await fetch("/matching", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ size: boardSize })
+        body: JSON.stringify({ 
+            size: board_size , 
+            spanish_level: document.getElementById("spn_lvl").value,
+            chapter_number: document.getElementById("chp_num").value,
+            is_vocab: document.getElementById("vocab_select").value})
     });
     const data = await res.json();
 
@@ -66,6 +126,7 @@ async function setupBoard(boardSize)
     // draw the cards on the board
     loadBoard(data.state);
 }
+
 
 function loadBoard(state) 
 {
@@ -193,5 +254,3 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     }
 }
 
-// redirect to home page
-document.getElementById('home-button').onclick = function() { window.location.href = '/'; };
