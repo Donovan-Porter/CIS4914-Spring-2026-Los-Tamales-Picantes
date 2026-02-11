@@ -126,25 +126,23 @@ class MemoryGame:
         '''
         base_grammar_string = "static\\learning-resources\\spn1130-grammar\\"
 
-        filename = base_grammar_string + f"vocab{chapter_num}.json"
+        filename = base_grammar_string + f"grammar{chapter_num}.json"
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        # TODO: update to handle grammar structure
-
-        # groups = data["groups"]
-        # for each_group in groups:
-        #     # get the vocab
-        #     vocab_list = each_group["vocabulary"]
-        #     for each_pair in vocab_list:
-        #         spanish = each_pair["es"]
-        #         english = each_pair["en"]
+        groups = data["groups"]
+        for each_group in groups:
+            # get the vocab
+            example_list = each_group["examples"]
+            for each_pair in example_list:
+                spanish = each_pair["integral"]
+                english = each_pair["derivative"]
                 
-        #         self.data_pool.append(Card(english,spanish))
+                self.data_pool.append(Card(english,spanish))
 
-        for card in self.data_pool:
-            print("English: " + card.english + " || Spanish: " + card.spanish)
+        # for card in self.data_pool:
+        #     print("English: " + card.english + " || Spanish: " + card.spanish)
 
 
     def _create_board(self, chapter_num):
@@ -168,7 +166,7 @@ class MemoryGame:
 
         # load the file
         # TODO: test test test
-        is_vocab = True
+        is_vocab = False
         self.get_data_from_file(chapter_num, is_vocab)                    
 
         # shuffle this stuff
