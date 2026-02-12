@@ -47,7 +47,7 @@
         }
 
 
-        .difficulty-button {
+        /* .difficulty-button {
         background-color: #04361D;
         color: white;
         font-size: 15px;
@@ -64,7 +64,7 @@
         .difficulty-button:active {
         background-color: pink;
         transform: scale(0.75);
-        }
+        } */
 
         .home-button {
         background-color: #7d0adb;
@@ -86,20 +86,16 @@
 <body>
     <h1>Matching Game</h1>
 
-    <div id="difficulty-buttons" style="margin: 20px 0;">
-        <button class="difficulty-button">TEST</button>
-        <button class="difficulty-button">Easy</button>
-        <button class="difficulty-button">Medium</button>
-        <button class="difficulty-button">Hard</button>
-    </div>
+    <button id="home-button" class="home-button">Return to Homepage</button>
 
     <div id="dropdown-select">
+        <br><br>
         <label for="file_select">
             Choose File: 
         </label>
         <select name="vocab_select"  id="vocab_select">
-            <option value="True">Vocabulary</option>
-            <option value="False">Grammar</option>
+            <option value="Vocabulary">Vocabulary</option>
+            <option value="Grammar">Grammar</option>
         </select>
         <select name="spn_lvl"  id="spn_lvl">
             <option value="spn1130">Spainsh 1130</option>
@@ -124,9 +120,6 @@
     <div id="match-count">Matches: 0</div>
     <div id="status"></div>
 
-    <div id="return-button" style="display:none; margin-top: 20px;">
-        <button id="home-button" class="home-button">Return to Homepage</button>
-    </div>
 
     <script 
         defer type="text/javascript" src="/static/javascript/matching.js">

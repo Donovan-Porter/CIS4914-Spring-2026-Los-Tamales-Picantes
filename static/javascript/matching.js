@@ -6,34 +6,6 @@ let waiting = false;
 const boardDiv = document.getElementById("board");
 const matchDiv = document.getElementById("match-count");
 const statusDiv = document.getElementById("status");
-const homeDiv = document.getElementById('return-button');
-
-// const difficultyButtons = document.querySelectorAll(".difficulty-button");
-// // set the input board size based on diffculty
-// difficultyButtons.forEach(button => {
-//     button.addEventListener("click", () => {
-//         let board_size;
-//         if (button.innerText === "TEST")
-//         { 
-//             board_size = 2;
-//         }        
-//         if (button.innerText === "Easy")
-//         { 
-//             board_size = 4;
-//         }
-//         else if (button.innerText === "Medium") 
-//         { 
-//             board_size = 6;
-//         }
-
-//         else if (button.innerText === "Hard")
-//         { 
-//             board_size = 8;
-//         }
-
-//         // setupBoard(board_size);
-//     });
-// });
 
 
 // redirect to home page
@@ -51,24 +23,60 @@ function update_chap_numbers()
         spn2200: [13, 14, 15, 16, 17, 18],
         spn2201: [19, 20, 21, 22, 23, 24]};
 
-    const fill_in_chap = document.getElementById("chp_num");
-
     // work
     const working_chap = all_chap_num[spanish_select.value];
 
+    let fill_in_chap = document.getElementById("chp_num");
     // clear the dropdown
     fill_in_chap.innerHTML = "";
 
     // add each chapter option
-    for (num of working_chap)
+    for (const num of working_chap)
     {
         // create an option
-        option = document.createElement("option");
+        const option = document.createElement("option");
         option.value = num;
         option.innerText = `Chapter ${num}`;
         // add it on the html side
         fill_in_chap.appendChild(option);
     }
+}
+
+
+// change the course selection 
+const vocab_select = document.getElementById("vocab_select");
+vocab_select.addEventListener("change", update_course_options);
+function update_course_options()
+{
+    const course_options = {
+        Vocabulary: [
+            {value: "spn1130", text: "Spainsh 1130"},
+            {value: "spn1131", text: "Spainsh 1131"},
+            {value: "spn2200", text: "Spainsh 2200"},
+            {value: "spn2201", text: "Spainsh 2201"}],
+        Grammar: [
+            {value: "spn1130", text: "Spainsh 1130"}]};
+
+    // work
+    const working_list = course_options[vocab_select.value];
+
+    const spn_options = document.getElementById("spn_lvl");
+    // clear the dropdown
+    spn_options.innerHTML = "";
+
+    // add each course option
+    for (const course of working_list)
+    {
+        // create an option
+        const option = document.createElement("option");
+        option.value = course.value;
+        option.innerText = course.text;
+        // add it on the html side
+        spn_options.appendChild(option);
+    }
+
+    // then update the chapter numbers too
+    update_chap_numbers();
 }
 
 
@@ -100,7 +108,6 @@ async function parse_the_file_info_and_setup()
     clickedCards = [];
     waiting = false;
     matchDiv.innerText = `Matches: ${matchCount}`;
-    homeDiv.style.display = "none";
     statusDiv.innerText = "";
 
     // send the info to set up a new game
@@ -113,7 +120,7 @@ async function parse_the_file_info_and_setup()
             size: board_size , 
             spanish_level: document.getElementById("spn_lvl").value,
             chapter_number: document.getElementById("chp_num").value,
-            is_vocab: document.getElementById("vocab_select").value})
+            file_type: document.getElementById("vocab_select").value})
     });
     const data = await res.json();
 
@@ -126,6 +133,7 @@ async function parse_the_file_info_and_setup()
     // draw the cards on the board
     loadBoard(data.state);
 }
+
 
 
 function loadBoard(state) 
@@ -248,9 +256,6 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     {
         // display that it is done
         statusDiv.innerText = "Game Done";
-
-        // show the home button
-        homeDiv.style.display = 'block';
     }
 }
 

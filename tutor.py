@@ -197,9 +197,16 @@ def create_matching_game():
     returned_size = request.json.get("size", 4)
     spn_lvl = request.json.get("spanish_level", "spn1130")
     chp_num = request.json.get("chapter_number", 1)
-    is_vocab = request.json.get("is_vocab", True)
+    file_type = request.json.get("file_type", "True")
 
-    return matching_game.create_game(returned_size, spn_lvl, chp_num, is_vocab)
+
+    # print("\nthis is  before create_game -> tutor.py")
+    # print(returned_size)
+    # print(spn_lvl)
+    # print(chp_num)
+    # print(file_type)
+
+    return matching_game.create_game(returned_size, spn_lvl, chp_num, file_type)
 
 @app.route("/matching/<game_id>/click", methods=["POST"])
 def click_card(game_id):

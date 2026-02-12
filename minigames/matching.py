@@ -34,14 +34,14 @@ class Card:
     
 
 class MemoryGame:
-    def __init__(self, size=4, spanish_level="spn1130", chapter_num=1, is_vocab=True):
+    def __init__(self, size=4, spanish_level="spn1130", chapter_num=1, file_type="Vocabulary"):
         '''
         Set up for the matching game
         
         :param size: size of the board
         :param spanish_level: spanish level of file to load
         :param chapter_num: chapter number to load 
-        :param is_vocab: is it a vocab file or grammar file
+        :param file_type: is it a vocab file or grammar file
         '''
         # width & height of board
         self.size = size
@@ -65,7 +65,15 @@ class MemoryGame:
         # set up the board
         self.spn_lvl = spanish_level
         self.chp_num = chapter_num
-        self.is_vocab = is_vocab
+        self.file_type = file_type
+
+
+        # print("\nthis is the __init__ -> matching.py")
+        # print(self.size)
+        # print(self.spn_lvl)
+        # print(self.chp_num)
+        # print(self.file_type)
+
 
         self.string_board = self._create_board()
 
@@ -94,7 +102,7 @@ class MemoryGame:
 
         self.data_pool = []
 
-        if self.is_vocab:
+        if self.file_type == "Vocabulary":
             self._handle_vocab_file()
         else:
             self._handle_grammar_file()
@@ -105,6 +113,7 @@ class MemoryGame:
         '''
         base_vocab_string = "static\\learning-resources\\"
         filename = base_vocab_string + f"{self.spn_lvl}-vocab\\vocab{self.chp_num}.json"
+        # print(f"this is the vocab filename: {filename}")
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -128,6 +137,7 @@ class MemoryGame:
         '''
         base_grammar_string = "static\\learning-resources\\"
         filename = base_grammar_string + f"{self.spn_lvl}-grammar\\grammar{self.chp_num}.json"
+        # print(f"this is the grammar filename: {filename}")
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)
