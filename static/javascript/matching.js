@@ -128,7 +128,7 @@ async function parse_the_file_info_and_setup()
     gameId = data.game_id;
 
     // create col grid
-    boardDiv.style.gridTemplateColumns = `repeat(${data.state.size}, 60px)`;
+    boardDiv.style.gridTemplateColumns = `repeat(${data.state.size}, auto)`;
 
     // draw the cards on the board
     loadBoard(data.state);
