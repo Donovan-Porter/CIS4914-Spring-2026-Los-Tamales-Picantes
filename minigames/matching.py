@@ -9,6 +9,8 @@ class Card:
         self.spanish = spn
         self._is_matched = False
         self._is_spanish = False
+        self.row = 0
+        self.col = 0
 
     def compare(self, incoming_word):
         if self.english == incoming_word or self.spanish == incoming_word:
@@ -32,6 +34,12 @@ class Card:
             return self.spanish
         return self.english
     
+    def set_row_col(self, row, col):
+        self.row = row
+        self.col = col
+
+    def get_row_col(self):
+        return self.row, self.col
 
 class MemoryGame:
     def __init__(self, size=4, spanish_level="spn1130", chapter_num=1, file_type="Vocabulary"):
@@ -200,7 +208,9 @@ class MemoryGame:
         for row in range(self.size):
             current_row = []
             for col in range(self.size):
-                current_row.append((temp_board[cur_idx]))
+                current_card = temp_board[cur_idx]
+                current_card.set_row_col(row, col)
+                current_row.append(current_card)
                 cur_idx += 1
             self.game_board.append(current_row)
 
@@ -226,30 +236,39 @@ class MemoryGame:
 
         # first card
         if self.first_card is None:
-            self.first_card = (row, col)
+            self.first_card = self.game_board[row][col]
             return {"result": game_state, "state": self.state()}
 
         # second card has been selected
+        second_card = self.game_board[row][col]
         second_row = row
         second_col = col
+        second_word = second_card.get_word()
 
-        # get first card info        
-        first_row, first_col = self.first_card
-        self.first_card = None
+        # get first card info
+        first_card = self.first_card        
+        first_row, first_col = first_card.get_row_col()
 
+        # check translation
+        they_match = first_card.compare(second_word)
 
         # do they match
-        if self.string_board[first_row][first_col] == self.string_board[second_row][second_col]:
+        # if self.game_board[first_row][first_col] == self.game_board[second_row][second_col]:
+        if they_match:
             # set that they have been matched
             self.matched[first_row][first_col] = True
             self.matched[second_row][second_col] = True
+
+            second_card.change_matched_to_true()
+            first_card.change_matched_to_true()
+
             self.matches_found += 1
             game_state = "match"
-        
         # they dont match
         else:
             game_state = "no_match"
         
+        self.first_card = None
         return {"result": game_state, "state": self.state()}
 
     
