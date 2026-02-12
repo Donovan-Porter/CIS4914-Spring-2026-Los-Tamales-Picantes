@@ -51,7 +51,10 @@ class MemoryGame:
         :param chapter_num: chapter number to load 
         :param file_type: is it a vocab file or grammar file
         '''
-        # width & height of board
+        # base file location
+        self.base_file = "static\\learning-resources\\"
+        
+                # width & height of board
         self.size = size
 
         # all the data that is loaded from the file
@@ -74,14 +77,6 @@ class MemoryGame:
         self.spn_lvl = spanish_level
         self.chp_num = chapter_num
         self.file_type = file_type
-
-
-        # print("\nthis is the __init__ -> matching.py")
-        # print(self.size)
-        # print(self.spn_lvl)
-        # print(self.chp_num)
-        # print(self.file_type)
-
 
         self.string_board = self._create_board()
 
@@ -119,9 +114,7 @@ class MemoryGame:
         Parsing the data from a vocab file
         
         '''
-        base_vocab_string = "static\\learning-resources\\"
-        filename = base_vocab_string + f"{self.spn_lvl}-vocab\\vocab{self.chp_num}.json"
-        # print(f"this is the vocab filename: {filename}")
+        filename = self.base_file + f"{self.spn_lvl}-vocab\\vocab{self.chp_num}.json"
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -135,17 +128,12 @@ class MemoryGame:
                 english = each_pair["en"]
                 
                 self.data_pool.append(Card(english,spanish))
-
-        # for card in self.data_pool:
-        #     print("English: " + card.english + " || Spanish: " + card.spanish)
     def _handle_grammar_file(self):
         '''
         Parsing the data from a grammar file
         
         '''
-        base_grammar_string = "static\\learning-resources\\"
-        filename = base_grammar_string + f"{self.spn_lvl}-grammar\\grammar{self.chp_num}.json"
-        # print(f"this is the grammar filename: {filename}")
+        filename = self.base_file + f"{self.spn_lvl}-grammar\\grammar{self.chp_num}.json"
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -159,10 +147,6 @@ class MemoryGame:
                 english = each_pair["derivative"]
                 
                 self.data_pool.append(Card(english,spanish))
-
-        # for card in self.data_pool:
-        #     print("English: " + card.english + " || Spanish: " + card.spanish)
-
 
     def _create_board(self):
         '''
@@ -253,7 +237,6 @@ class MemoryGame:
         they_match = first_card.compare(second_word)
 
         # do they match
-        # if self.game_board[first_row][first_col] == self.game_board[second_row][second_col]:
         if they_match:
             # set that they have been matched
             self.matched[first_row][first_col] = True
@@ -294,6 +277,5 @@ class MemoryGame:
         else:
             game_state["finished"] = False
         
-
         return game_state
         

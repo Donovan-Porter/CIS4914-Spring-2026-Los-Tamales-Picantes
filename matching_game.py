@@ -4,21 +4,17 @@ import uuid
 # store each unique matching game
 games = {}
 
-# create a matching game
+
 def create_game(board_size, spn_lvl, chp_num, file_type):
-    # spanish levels
-    # spanish_1 = "spn1130"
-    # spanish_2 = "spn1131"
-    # spanish_3 = "spn2200"
-    # spanish_4 = "spn2201"
+    '''
+    create a matching game
 
-    # print("\nthis is create_game -> matching_game.py")
-    # print(board_size)
-    # print(spn_lvl)
-    # print(chp_num)
-    # print(file_type)
+    :param board_size: size of the board that will be spawned
+    :param spn_lvl: spanish course number
+    :param chp_num: chapter number
+    :param file_type: vocab or grammar file
 
-
+    '''
     # create a memory game with the size we are looking for
     game = MemoryGame(size=board_size, spanish_level=spn_lvl, chapter_num=chp_num, file_type=file_type)
 
@@ -27,9 +23,14 @@ def create_game(board_size, spn_lvl, chp_num, file_type):
     games[game_id] = game
     return {"game_id": game_id, "state": game.state()}
 
-# handle a card click
 def handle_click_card(game_id, row, col):
+    '''
+    handle a card click
 
+    :param game_id: game id
+    :param row: row number
+    :param col: col number
+    '''
     # get the game
     game = games.get(game_id)
 

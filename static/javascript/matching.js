@@ -135,7 +135,6 @@ async function parse_the_file_info_and_setup()
 }
 
 
-
 function loadBoard(state) 
 {
     // remove the old board
