@@ -11,22 +11,32 @@
             display: grid; 
             gap: 10px; 
             margin: 20px auto; 
+            justify-content: center; 
+            max-width: 1000px;
         }
 
         .card { 
-            width: 60px; 
-            height: 60px; 
-            font-size: 24px; 
+            min-width: 60px; 
+            min-height: 60px; 
+            padding: 10px;
+
+            font-size: 18px;
+
             display: flex; 
             align-items: center; 
             justify-content: center; 
+
             background-color: grey; 
             color: black; 
             border-radius: 10px; 
+
+            text-align: center;
+            white-space: normal;
+            word-break: break-word;
         }
 
         .matched { 
-            background-color: green; 
+            background-color: #76BA9D; 
             color: grey; 
         }
 
@@ -44,166 +54,65 @@
             margin-top: 10px; 
             font-size: 20px; 
         }
+
+        .home-button {
+            background-color: #7d0adb;
+            color: white;
+            font-size: 15px;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .home-button:hover {
+            background-color: gray;
+        }
+
     </style>
 </head>
 
 <body>
     <h1>Matching Game</h1>
+
+    <button id="home-button" class="home-button">Return to Homepage</button>
+
+    <div id="dropdown-select">
+        <br><br>
+        <label for="file_select">
+            Choose File: 
+        </label>
+        <select name="file_type"  id="file_type">
+            <option value="Vocabulary">Vocabulary</option>
+            <option value="Grammar">Grammar</option>
+        </select>
+        <select name="spn_lvl"  id="spn_lvl">
+            <option value="spn1130">Spainsh 1130</option>
+            <option value="spn1131">Spainsh 1131</option>
+            <option value="spn2200">Spainsh 2200</option>
+            <option value="spn2201">Spainsh 2201</option>
+        </select>
+        <select name="chp_num"  id="chp_num">
+            <option value="1">Chapter 1</option>
+            <option value="2">Chapter 2</option>
+            <option value="3">Chapter 3</option>
+            <option value="4">Chapter 4</option>
+            <option value="5">Chapter 5</option>
+            <option value="6">Chapter 6</option>
+        </select>
+        <br><br>
+        <button id= "load-file">Load File</button>
+    </div>
+
     <div id="board"></div>
+
     <div id="match-count">Matches: 0</div>
     <div id="status"></div>
 
-    <script>
-        let gameId = null;
-        let matchCount = 0;
-        let clickedCards = [];
-        let waiting = false;
-        let boardSize = 4;
 
-        const boardDiv = document.getElementById("board");
-        const matchDiv = document.getElementById("match-count");
-        const statusDiv = document.getElementById("status");
-
-        // set up board after it fully loads
-        document.addEventListener("DOMContentLoaded", async () => {
-            // set up a new game with size 4
-            const res = await fetch("/matching", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ size: boardSize })
-            });
-            const data = await res.json();
-
-            // save game ID
-            gameId = data.game_id;
-
-            // create col grid
-            boardDiv.style.gridTemplateColumns = `repeat(${data.state.size}, 60px)`;
-
-            // draw the cards on the board
-            loadBoard(data.state);
-        });
-
-        function loadBoard(state) {
-            // start fresh
-            boardDiv.innerHTML = "";
-
-            // loop through the entire board
-            for (let eachRow = 0; eachRow < state.size; eachRow++) 
-            {
-                for (let eachCol = 0; eachCol < state.size; eachCol++) 
-                {
-                    // create a clickable card
-                    const cardDiv = document.createElement("div");
-                    cardDiv.classList.add("card");
-
-                    // store the position
-                    cardDiv.dataset.row = eachRow;
-                    cardDiv.dataset.col = eachCol;
-
-                    // set card value
-                    cardDiv.innerText = state.board[eachRow][eachCol];
-
-                    // Check if there is a matched array
-                    if (state.matched) 
-                    {
-                        // make sure the row exists
-                        if (state.matched[eachRow]) 
-                        {
-                            // is this card matched??
-                            if (state.matched[eachRow][eachCol] === true) 
-                            {
-                                // change the match look
-                                cardDiv.classList.add("matched");
-                            }
-                        }
-                    }
-
-                    // add the click handle
-                    cardDiv.addEventListener("click", () => clickedCard(eachRow, eachCol, cardDiv));
-                    
-                    // add the card to the board
-                    boardDiv.appendChild(cardDiv);
-                }
-            }
-        }
-
-        // handle when the card is clicked
-        async function clickedCard(incomingRow, incomingCol, cardDiv) 
-        {
-            // we are waiting
-            // clicked the matched cards
-            // clicking the same card
-            if (waiting || 
-                cardDiv.classList.contains("matched") || 
-                clickedCards.includes(cardDiv)) 
-            {
-                return;
-            }
-
-
-            // show what cards are clicked visually
-            clickedCards.push(cardDiv);
-            cardDiv.classList.add("pending-match");
-
-
-            // send the card to the backend
-            const res = await fetch(`/matching/${gameId}/click`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ row: incomingRow, col: incomingCol })
-            });
-            const result = await res.json();
-
-            // the first card that is clicked returns none
-            if (result.result === null ||
-                clickedCards.length == 1) 
-            {
-                return;
-            }
-
-            // we are on to the second click now
-            // locks the board while we are checking
-            waiting = true;
-
-            // we have a match
-            if (result.result === "match") 
-            {
-                // increase the match count
-                matchCount++;
-                matchDiv.innerText = `Matches: ${matchCount}`;
-                statusDiv.innerText = "MATCH";
-
-
-                // change the cards to be matched colors
-                clickedCards.forEach(c => {
-                    c.classList.remove("pending-match")
-                    c.classList.add("matched")}
-                );
-            } 
-
-            // no match
-            else 
-            {
-                statusDiv.innerText = "Not a match";
-
-                // clear the pending visuals on the card
-                clickedCards.forEach(c => c.classList.remove("pending-match"));
-            }
-
-
-            // clear the cards we are comparing
-            clickedCards = [];
-
-            // unlock the board
-            waiting = false;
-
-            // check if finished
-            if (result.state.finished) 
-            {
-                statusDiv.innerText = "Game Done";
-            }
-            
-        }
+    <script 
+        defer type="text/javascript" src="/static/javascript/matching.js">
     </script>
+
+
 </body>
