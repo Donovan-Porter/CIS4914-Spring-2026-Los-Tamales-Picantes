@@ -44,8 +44,8 @@ function update_chap_numbers()
 
 
 // change the course selection 
-const vocab_select = document.getElementById("vocab_select");
-vocab_select.addEventListener("change", update_course_options);
+const file_type = document.getElementById("file_type");
+file_type.addEventListener("change", update_course_options);
 function update_course_options()
 {
     const course_options = {
@@ -60,7 +60,7 @@ function update_course_options()
         ]};
 
     // work
-    const working_list = course_options[vocab_select.value];
+    const working_list = course_options[file_type.value];
 
     const spn_options = document.getElementById("spn_lvl");
     // clear the dropdown
@@ -122,7 +122,7 @@ async function parse_the_file_info_and_setup()
             size: board_size , 
             spanish_level: document.getElementById("spn_lvl").value,
             chapter_number: document.getElementById("chp_num").value,
-            file_type: document.getElementById("vocab_select").value})
+            file_type: document.getElementById("file_type").value})
     });
     const data = await res.json();
 
