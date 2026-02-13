@@ -1,0 +1,237 @@
+{
+  "groups": [
+    {
+      "title": "GUSTAR AND SIMILAR VERBS: TRANSLATION",
+      "examples": [
+        {
+          "integral": "I like Mexican food.",
+          "derivative": "Me gusta la comida mexicana."
+        },
+        {
+          "integral": "I don't like fish.",
+          "derivative": "No me gusta el pescado."
+        },
+        {
+          "integral": "Miguel doesn't like oranges.",
+          "derivative": "A Miguel no le gustan las naranjas."
+        },
+        {
+          "integral": "You like carrots.",
+          "derivative": "Te gustan las zanahorias."
+        },
+        {
+          "integral": "They like to cook.",
+          "derivative": "Les gusta cocinar."
+        },
+        {
+          "integral": "She is grossed out by tomatoes.",
+          "derivative": "Le dan asco los tomates."
+        },
+        {
+          "integral": "We love Venezuelan food.",
+          "derivative": "Nos encanta la comida venezolana."
+        },
+        {
+          "integral": "It doesn't seem like a good idea to me.",
+          "derivative": "No me parece buena idea."
+        }
+      ]
+    },
+    {
+      "title": "GUSTAR AND SIMILAR VERBS: VOCABULARY",
+      "examples": [
+        {
+          "integral": "to be appealing/to sound good",
+          "derivative": "apetecer"
+        },
+        {
+          "integral": "to be gross",
+          "derivative": "dar asco"
+        },
+        {
+          "integral": "to be enchanting",
+          "derivative": "encantar"
+        },
+        {
+          "integral": "to be important",
+          "derivative": "importar"
+        },
+        {
+          "integral": "to interest",
+          "derivative": "interesar"
+        },
+        {
+          "integral": "to seem",
+          "derivative": "parecer"
+        }
+      ]
+    },
+    {
+      "title": "GUSTAR AND SIMILAR VERBS: EMPHASIS",
+      "examples": [
+        {
+          "integral": "I like carrots but my brothers don't.",
+          "derivative": "A mí me gustan las zanahorias, pero a mis hermanos no."
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE TENSE EXAMPLES",
+      "examples": [
+        {
+          "integral": "Yesterday, I had yogurt for breakfast.",
+          "derivative": "Ayer desayuné yogur."
+        },
+        {
+          "integral": "Last week, we ate at a Mexican restaurant.",
+          "derivative": "La semana pasada comimos en un restaurante mexicano."
+        },
+        {
+          "integral": "Last night, you made a delicious supper.",
+          "derivative": "Anoche preparaste una cena muy rica."
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE TENSE -AR VERB CONJUGATIONS (DESAYUNAR)",
+      "examples": [
+        {
+          "integral": "yo (To have breakfast)",
+          "derivative": "yo desayuné"
+        },
+        {
+          "integral": "tú (To have breakfast)",
+          "derivative": "tú desayunaste"
+        },
+        {
+          "integral": "él/ella; Ud. (To have breakfast)",
+          "derivative": "él/ella; Ud. desayunó"
+        },
+        {
+          "integral": "nosotros/nosotras (To have breakfast)",
+          "derivative": "nosotros/nosotras desayunamos"
+        },
+        {
+          "integral": "vosotros/vosotras (To have breakfast)",
+          "derivative": "vosotros/vosotras desayunasteis"
+        },
+        {
+          "integral": "ellos/ellas; Uds. (To have breakfast)",
+          "derivative": "ellos/ellas; Uds. desayunaron"
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE TENSE -ER VERB CONJUGATIONS (COMER)",
+      "examples": [
+        {
+          "integral": "yo (To Eat)",
+          "derivative": "yo comí"
+        },
+        {
+          "integral": "tú (To Eat)",
+          "derivative": "tú comiste"
+        },
+        {
+          "integral": "él/ella; Ud. (To Eat)",
+          "derivative": "él/ella; Ud. comió"
+        },
+        {
+          "integral": "nosotros/nosotras (To Eat)",
+          "derivative": "nosotros/nosotras comimos"
+        },
+        {
+          "integral": "vosotros/vosotras (To Eat)",
+          "derivative": "vosotros/vosotras comisteis"
+        },
+        {
+          "integral": "ellos/ellas; Uds. (To Eat)",
+          "derivative": "ellos/ellas; Uds. comieron"
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE TENSE -IR VERB CONJUGATIONS (BATIR)",
+      "examples": [
+        {
+          "integral": "yo (To Beat, To Shake)",
+          "derivative": "yo bati"
+        },
+        {
+          "integral": "tú (To Beat, To Shake)",
+          "derivative": "tú batiste"
+        },
+        {
+          "integral": "él/ella; Ud. (To Beat, To Shake)",
+          "derivative": "él/ella; Ud. batió"
+        },
+        {
+          "integral": "nosotros/nosotras (To Beat, To Shake)",
+          "derivative": "nosotros/nosotras batimos"
+        },
+        {
+          "integral": "vosotros/vosotras (To Beat, To Shake)",
+          "derivative": "vosotros/vosotras batisteis"
+        },
+        {
+          "integral": "ellos/ellas; Uds. (To Beat, To Shake)",
+          "derivative": "ellos/ellas; Uds. batieron"
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE VS. PRESENT TENSE (NOSOTROS)",
+      "examples": [
+        {
+          "integral": "What do we have for breakfast today?",
+          "derivative": "¿Qué desayunamos hoy?"
+        },
+        {
+          "integral": "What did we have for breakfast yesterday?",
+          "derivative": "¿Qué desayunamos ayer?"
+        },
+        {
+          "integral": "We write a letter today.",
+          "derivative": "Escribimos una carta hoy."
+        },
+        {
+          "integral": "We wrote a letter yesterday.",
+          "derivative": "Escribimos una carta ayer."
+        }
+      ]
+    },
+    {
+      "title": "PAST TENSE EXPRESSIONS",
+      "examples": [
+        {
+          "integral": "last night",
+          "derivative": "anoche"
+        },
+        {
+          "integral": "yesterday",
+          "derivative": "ayer"
+        },
+        {
+          "integral": "the day before yesterday",
+          "derivative": "anteayer"
+        },
+        {
+          "integral": "last week",
+          "derivative": "la semana pasada"
+        },
+        {
+          "integral": "last month",
+          "derivative": "el mes pasado"
+        },
+        {
+          "integral": "last year",
+          "derivative": "el año pasado"
+        },
+        {
+          "integral": "(two) years ago",
+          "derivative": "(dos) años atras"
+        }
+      ]
+    }
+  ]
+}
