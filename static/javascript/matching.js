@@ -55,7 +55,9 @@ function update_course_options()
             {value: "spn2200", text: "Spainsh 2200"},
             {value: "spn2201", text: "Spainsh 2201"}],
         Grammar: [
-            {value: "spn1130", text: "Spainsh 1130"}]};
+            {value: "spn1130", text: "Spainsh 1130"},
+            {value: "spn1131", text: "Spainsh 1131"},
+        ]};
 
     // work
     const working_list = course_options[vocab_select.value];
