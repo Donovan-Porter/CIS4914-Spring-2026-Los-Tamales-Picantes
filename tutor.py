@@ -197,7 +197,7 @@ def create_matching_game():
     returned_size = request.json.get("size", 4)
     spn_lvl = request.json.get("spanish_level", "spn1130")
     chp_num = request.json.get("chapter_number", 1)
-    file_type = request.json.get("file_type", "True")
+    file_type = request.json.get("file_type", "Vocabulary")
 
     return matching_game.create_game(returned_size, spn_lvl, chp_num, file_type)
 
