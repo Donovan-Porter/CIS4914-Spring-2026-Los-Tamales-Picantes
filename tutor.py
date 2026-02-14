@@ -134,6 +134,8 @@ def translate() :
 
             return render_template("translate.html", lang_flow=lang_flow)
 
+# TODO: changing to dialogue based format with focus on conjugation (fill-in-the-blank style)
+
 @app.route('/choose_course')
 def choose_course():
     courses = find_vocab_dirs()
