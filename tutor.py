@@ -12,7 +12,7 @@ import uuid
 
 
 import os, sys, json, random
-from conjugation_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
+from conjugation_story import normalize_text, strip_article, find_grammar_dirs, generate_conjugation_story
 
 #
 # ____/\____
@@ -181,31 +181,30 @@ def translate() :
 
             return render_template("translate.html", lang_flow=lang_flow)
 
-@app.route('/conjugation/choose_course')
-def choose_course():
-    courses = find_vocab_dirs()
-    return render_template('choose_course.html', courses=courses)
+@app.route('/choose_course_conjugation')
+def choose_course_conjugation():
+    courses = find_grammar_dirs()
+    return render_template('choose_course_conjugation.html', courses=courses)
 
-@app.route('/conjugation/choose_chapter')
-def choose_chapter():
+@app.route('/choose_chapter_conjugation')
+def choose_chapter_conjugation():
     course = request.args.get('course')
     if not course:
-        return redirect(url_for('choose_course'))
+        return redirect(url_for('choose_course_conjugation'))
     dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
     files = []
     try:
         files = sorted([f for f in os.listdir(dirpath) if f.endswith('.json')])
     except Exception:
         files = []
-    return render_template('choose_chapter.html', course=course, files=files)
+    return render_template('choose_chapter_conjugation.html', course=course, files=files)
 
-# TODO: update this to be grammar gropu instead? Or should we just keep is as vocab group but work it to be use grammar as well?
-@app.route('/conjugation/choose_vocab_group', methods=['GET','POST'])
-def choose_vocab_group():
+@app.route('/choose_group_conjugation', methods=['GET','POST'])
+def choose_group_conjugation():
     course = request.values.get('course')
     vocab_file = request.values.get('file')
     if not course or not vocab_file:
-        return redirect(url_for('choose_course'))
+        return redirect(url_for('choose_course_conjugation'))
     path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
     try:
         with open(path, 'r', encoding='utf-8') as fh:
@@ -217,57 +216,49 @@ def choose_vocab_group():
     if request.method == 'POST':
         group_index = int(request.form.get('group_index', 0))
 
-        vocab_group = groups[group_index]
-        vocab_list = [v.get('es','') for v in vocab_group.get('vocabulary', [])]
+        grammar_group = groups[group_index]
+        grammar_list = [ex['derivative'] for ex in grammar_group.get('examples', [])]
 
-        # STATIC word bank (all vocab in the group)
-        session['vocab_bank'] = vocab_list
-
-        session['course'] = course
-        session['file'] = vocab_file
-        session['group_index'] = group_index
-        session['group_title'] = vocab_group.get('title-es','')
-
-        # TODO: shuffle order
-        order = list(range(len(vocab_list)))
+        session['vocab_bank'] = grammar_list
+        order = list(range(len(grammar_list)))
         random.shuffle(order)
+        grammar_shuffled = [grammar_list[i] for i in order]
+        session['vocab_list'] = grammar_shuffled
 
-        vocab_shuffled = [vocab_list[i] for i in order]
-        session['vocab_list'] = vocab_shuffled
+        story = generate_conjugation_story(pipe, grammar_shuffled, title=grammar_group.get('title',''))
 
-        story = generate_story_with_model(pipe, vocab_shuffled, title=vocab_group.get('title-es'))
         if not story:
             return 'Story generation failed.'
         
         # DYNAMIC answer list (only words actually used, in order)
         answer_vocab = [part['word'] for part in story]
 
-        session['answer_vocab'] = answer_vocab 
-        session['story'] = story
-        session['revealed'] = [False] * len(vocab_shuffled)
-        session['current_index'] = 0
+        session['story_conjugation'] = story
+        session['answer_vocab_conjugation'] = answer_vocab
+        session['revealed_conjugation'] = [False] * len(grammar_shuffled)
+        session['current_index_conjugation'] = 0
 
-        return redirect(url_for('story'))
+        return redirect(url_for('story_conjugation'))
 
-    return render_template('choose_vocab_group.html', course=course, vocab_file=vocab_file, groups=groups)
+    return render_template('choose_group_conjugation.html', course=course, vocab_file=vocab_file, groups=groups)
 
-@app.route('/conjugation/story', methods=['GET','POST'])
-def story():
+@app.route('/story_conjugation', methods=['GET','POST'])
+def story_conjugation():
     vocab_bank = session.get('vocab_bank', [])  # Static list of all vocab words
-    answer_vocab = session.get('answer_vocab', [])  # Dynamic list of words used in the story
+    answer_vocab = session.get('answer_vocab_conjugation', [])  # Dynamic list of words used in the story
 
-    story = session.get('story')
+    story = session.get('story_conjugation')
     if not story:
-        return redirect(url_for('choose_course'))
+        return redirect(url_for('choose_course_conjugation'))
 
-    current = session.get('current_index', 0)
-    revealed = session.get('revealed', [False]*len(story))
+    current = session.get('current_index_conjugation', 0)
+    revealed = session.get('revealed_conjugation', [False]*len(story))
     message = None
 
     if request.method == 'POST':
         guess = request.form.get('guess','').strip()
         if current >= len(story):
-            return redirect(url_for('story'))
+            return redirect(url_for('story_conjugation'))
 
         expected_word = story[current]['word']
         guess_n = normalize_text(guess)
@@ -275,10 +266,10 @@ def story():
 
         if guess_n == expected_n:
             revealed[current] = True
-            session['revealed'] = revealed
-            session['current_index'] = current + 1
+            session['revealed_conjugation'] = revealed
+            session['current_index_conjugation'] = current + 1
 
-            if session['current_index'] >= len(story):
+            if session['current_index_conjugation'] >= len(story):
                 # finished
                 return render_template(
                     'story_conjugation.html',
@@ -291,7 +282,7 @@ def story():
                     answer_vocab=answer_vocab
                 )
 
-            return redirect(url_for('story'))
+            return redirect(url_for('story_conjugation'))
         else:
             message = 'Try again!'
 
@@ -306,7 +297,6 @@ def story():
         vocab_list=vocab_bank,
         answer_vocab=answer_vocab
     )
-
 
 
 # TODO: valerie matching game

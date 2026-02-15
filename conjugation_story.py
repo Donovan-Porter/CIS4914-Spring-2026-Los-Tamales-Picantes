@@ -22,54 +22,57 @@ def strip_article(s):
             return s[len(a):].strip()
     return s
 
-def find_vocab_dirs():
+def find_grammar_dirs():
+    # Return list of grammar courses (folders ending with -grammar).
     lr = os.path.join(base_path, 'static', 'learning-resources')
     if not os.path.isdir(lr):
         return []
-    entries = [d for d in os.listdir(lr) if d.endswith('-vocab') and os.path.isdir(os.path.join(lr, d))]
+    entries = [d for d in os.listdir(lr)
+               if d.endswith('-grammar') and os.path.isdir(os.path.join(lr, d))]
     entries.sort()
     return entries
 
-# using language model to generate a short story with given vocab list
-def generate_story_with_model(pipe, vocab_list, title=None):
+# Generate a story using a list of Spanish verbs/grammar items. Each item in grammar_list should be a string (e.g., 'hablar - present yo').
+def generate_conjugation_story(pipe, grammar_group_examples, title=None):
+
     try:
-        vocab_str = ", ".join(vocab_list)
+        grammar_str = ", ".join(grammar_group_examples)
         user_prompt = (
-            f"Write a short story using the following Spanish vocab words: {vocab_str}. "
+            f"Write a short story in Spanish using the following sentences/phrases: {grammar_str}. "
             "Keep it simple (A1–A2 level), present tense, 6–10 words per sentence. "
-            "Do not translate the words; use them as written. "
-            "The story should be coherent and natural."
+            "Use the exact sentences provided. "
+            "Do not translate. Make the story coherent and natural."
         )
 
         messages = [{"role": "user", "content": user_prompt}]
         out = pipe(messages)
         story_text = out[0]['generated_text'][1]['content'].strip()
 
+        # split into sentences
         sentences = re.split(r'(?<=[.!?])\s+', story_text)
         clean_sentences = [s.strip() for s in sentences if s.strip()]
 
         result = []
         used_sentences = set()
 
-        for w in vocab_list:
-            w_norm = normalize_text(strip_article(w))
+        for g in grammar_group_examples:
+            g_norm = normalize_text(g)
             found_sentence = None
 
-            # find an unused sentence containing the vocab word
+            # find an unused sentence containing the grammar example
             for s in clean_sentences:
                 if s in used_sentences:
                     continue
-                if normalize_text(s).find(w_norm) != -1:
+                if normalize_text(s).find(g_norm) != -1:
                     found_sentence = s
                     used_sentences.add(s)
                     break
 
-            # TODO: sometimes LLM doesn't generate correctly, so if vocab word not found in any sentence, skip it
+            # skip if LLM didn't generate sentence with the grammar example
             if not found_sentence:
                 continue
-            
-            # find exact match position safely using normalized text
-            match = re.search(w_norm, normalize_text(found_sentence))
+
+            match = re.search(g_norm, normalize_text(found_sentence))
             if not match:
                 continue
 
@@ -81,7 +84,7 @@ def generate_story_with_model(pipe, vocab_list, title=None):
 
             result.append({
                 "before": before,
-                "word": strip_article(w),
+                "word": g,
                 "after": after
             })
 
