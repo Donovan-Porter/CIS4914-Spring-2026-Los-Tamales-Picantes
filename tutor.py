@@ -134,14 +134,12 @@ def translate() :
 
             return render_template("translate.html", lang_flow=lang_flow)
 
-# TODO: changing to dialogue based format with focus on conjugation (fill-in-the-blank style)
-
-@app.route('/choose_course')
+@app.route('/conjugation/choose_course')
 def choose_course():
     courses = find_vocab_dirs()
     return render_template('choose_course.html', courses=courses)
 
-@app.route('/choose_chapter')
+@app.route('/conjugation/choose_chapter')
 def choose_chapter():
     course = request.args.get('course')
     if not course:
@@ -154,7 +152,7 @@ def choose_chapter():
         files = []
     return render_template('choose_chapter.html', course=course, files=files)
 
-@app.route('/choose_vocab_group', methods=['GET','POST'])
+@app.route('/conjugation/choose_vocab_group', methods=['GET','POST'])
 def choose_vocab_group():
     course = request.values.get('course')
     vocab_file = request.values.get('file')
@@ -206,7 +204,7 @@ def choose_vocab_group():
 
     return render_template('choose_vocab_group.html', course=course, vocab_file=vocab_file, groups=groups)
 
-@app.route('/story', methods=['GET','POST'])
+@app.route('/conjugation/story', methods=['GET','POST'])
 def story():
     vocab_bank = session.get('vocab_bank', [])  # Static list of all vocab words
     answer_vocab = session.get('answer_vocab', [])  # Dynamic list of words used in the story
