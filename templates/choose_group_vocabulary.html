@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
-  <head><meta charset="utf-8"><title>Choose Vocab Group</title></head>
+  <head><meta charset="utf-8"><title>Choose Group</title></head>
   <body>
-    <h1>Choose Vocab Group in {{ vocab_file }}</h1>
+    <h1>Choose Group in {{ vocab_file }}</h1>
     <form method="post">
       <ul>
         {% for g in groups %}
@@ -19,6 +19,6 @@
       <!-- AI generation is automatic now; no user option required -->
       <button type="submit">Start Story</button>
     </form>
-    <p><a href="{{ url_for('choose_chapter') }}?course={{ course }}">Back</a></p>
+    <p><a href="{{ url_for('choose_chapter_vocabulary') }}?course={{ course }}">Back</a></p>
   </body>
 </html>

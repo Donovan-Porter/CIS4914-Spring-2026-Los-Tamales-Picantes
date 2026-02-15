@@ -5,9 +5,9 @@
     <h1>Choose Chapter in {{ course }}</h1>
     <ul>
       {% for f in files %}
-      <li><a href="{{ url_for('choose_vocab_group') }}?course={{ course }}&file={{ f }}">{{ f }}</a></li>
+      <li><a href="{{ url_for('choose_group_vocabulary') }}?course={{ course }}&file={{ f }}">{{ f }}</a></li>
       {% endfor %}
     </ul>
-    <p><a href="{{ url_for('choose_course') }}">Back to courses</a></p>
+    <p><a href="{{ url_for('choose_course_vocabulary') }}">Back to courses</a></p>
   </body>
 </html>

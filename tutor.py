@@ -181,30 +181,30 @@ def translate() :
 
             return render_template("translate.html", lang_flow=lang_flow)
 
-@app.route('/vocabulary/choose_course')
-def choose_course():
+@app.route('/choose_course_vocabulary')
+def choose_course_vocabulary():
     courses = find_vocab_dirs()
-    return render_template('choose_course.html', courses=courses)
+    return render_template('choose_course_vocabulary.html', courses=courses)
 
-@app.route('/vocabulary/choose_chapter')
-def choose_chapter():
+@app.route('/choose_chapter_vocabulary')
+def choose_chapter_vocabulary():
     course = request.args.get('course')
     if not course:
-        return redirect(url_for('choose_course'))
+        return redirect(url_for('choose_course_vocabulary'))
     dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
     files = []
     try:
         files = sorted([f for f in os.listdir(dirpath) if f.endswith('.json')])
     except Exception:
         files = []
-    return render_template('choose_chapter.html', course=course, files=files)
+    return render_template('choose_chapter_vocabulary.html', course=course, files=files)
 
-@app.route('/vocabulary/choose_vocab_group', methods=['GET','POST'])
-def choose_vocab_group():
+@app.route('/choose_group_vocabulary', methods=['GET','POST'])
+def choose_group_vocabulary():
     course = request.values.get('course')
     vocab_file = request.values.get('file')
     if not course or not vocab_file:
-        return redirect(url_for('choose_course'))
+        return redirect(url_for('choose_course_vocabulary'))
     path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
     try:
         with open(path, 'r', encoding='utf-8') as fh:
@@ -235,33 +235,33 @@ def choose_vocab_group():
         # DYNAMIC answer list (only words actually used, in order)
         answer_vocab = [part['word'] for part in story]
 
-        session['answer_vocab'] = answer_vocab 
-        session['story'] = story
-        session['revealed'] = [False] * len(vocab_shuffled)
-        session['current_index'] = 0
+        session['answer_vocab_vocabulary'] = answer_vocab 
+        session['story_vocabulary'] = story
+        session['revealed_vocabulary'] = [False] * len(vocab_shuffled)
+        session['current_index_vocabulary'] = 0
 
-        return redirect(url_for('story'))
+        return redirect(url_for('story_vocabulary'))
 
 
-    return render_template('choose_vocab_group.html', course=course, vocab_file=vocab_file, groups=groups)
+    return render_template('choose_group_vocabulary.html', course=course, vocab_file=vocab_file, groups=groups)
 
-@app.route('/vocabulary/story', methods=['GET','POST'])
-def story():
+@app.route('/story_vocabulary', methods=['GET','POST'])
+def story_vocabulary():
     vocab_bank = session.get('vocab_bank', [])  # Static list of all vocab words
-    answer_vocab = session.get('answer_vocab', [])  # Dynamic list of words used in the story
+    answer_vocab = session.get('answer_vocab_vocabulary', [])  # Dynamic list of words used in the story
 
-    story = session.get('story')
+    story = session.get('story_vocabulary')
     if not story:
-        return redirect(url_for('choose_course'))
+        return redirect(url_for('choose_course_vocabulary'))
 
-    current = session.get('current_index', 0)
-    revealed = session.get('revealed', [False]*len(story))
+    current = session.get('current_index_vocabulary', 0)
+    revealed = session.get('revealed_vocabulary', [False]*len(story))
     message = None
 
     if request.method == 'POST':
         guess = request.form.get('guess','').strip()
         if current >= len(story):
-            return redirect(url_for('story'))
+            return redirect(url_for('story_vocabulary'))
 
         expected_word = story[current]['word']
         guess_n = normalize_text(guess)
@@ -269,10 +269,10 @@ def story():
 
         if guess_n == expected_n:
             revealed[current] = True
-            session['revealed'] = revealed
-            session['current_index'] = current + 1
+            session['revealed_vocabulary'] = revealed
+            session['current_index_vocabulary'] = current + 1
 
-            if session['current_index'] >= len(story):
+            if session['current_index_vocabulary'] >= len(story):
                 # finished
                 return render_template(
                     'story_vocab.html',
@@ -285,7 +285,7 @@ def story():
                     answer_vocab=answer_vocab
                 )
 
-            return redirect(url_for('story'))
+            return redirect(url_for('story_vocabulary'))
         else:
             message = 'Try again!'
 

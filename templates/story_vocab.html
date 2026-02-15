@@ -21,7 +21,7 @@
           <li>{{ w }}</li>
         {% endfor %}
       </ul>
-      <p><a href="{{ url_for('choose_course') }}">Choose another course</a></p>
+      <p><a href="{{ url_for('choose_course_vocabulary') }}">Choose another course</a></p>
     {% else %}
       <div>
         {% for part in story %}
@@ -52,7 +52,7 @@
       {% if message %}
         <p style="color:red">{{ message }}</p>
       {% endif %}
-      <p><a href="{{ url_for('choose_course') }}">Back to courses</a></p>
+      <p><a href="{{ url_for('choose_course_vocabulary') }}">Back to courses</a></p>
     {% endif %}
   </body>
 </html>
