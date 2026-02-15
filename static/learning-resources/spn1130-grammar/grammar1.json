@@ -1,0 +1,305 @@
+{
+    "groups": [
+        {
+            "title": "PRESENT TENSE OF SER, SINGULAR",
+            "examples": [
+                {
+                    "integral": "I am.",
+                    "derivative": "Yo soy."
+                },
+                {
+                    "integral": "You are. (informal)",
+                    "derivative": "Tú eres."
+                },
+                {
+                    "integral": "You are. (formal)",
+                    "derivative": "Usted es."
+                },
+                {
+                    "integral": "He is.",
+                    "derivative": "Él es."
+                },
+                {
+                    "integral": "She is.",
+                    "derivative": "Ella es."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF ESTAR, SINGULAR",
+            "examples": [
+                {
+                    "integral": "I am.",
+                    "derivative": "Yo estoy."
+                },
+                {
+                    "integral": "You are. (informal)",
+                    "derivative": "Tú estás."
+                },
+                {
+                    "integral": "You are. (formal)",
+                    "derivative": "Usted está."
+                },
+                {
+                    "integral": "He is.",
+                    "derivative": "Él está."
+                },
+                {
+                    "integral": "She is.",
+                    "derivative": "Ella está."
+                }
+            ]
+        },
+        {
+            "title": "FORMAL AND INFORMAL PRONOUNS",
+            "examples": [
+                {
+                    "integral": "You. (singular, informal)",
+                    "derivative": "Tú."
+                },
+                {
+                    "integral": "You. (singular, formal)",
+                    "derivative": "Usted."
+                }
+            ]
+        },
+        {
+            "title": "DROPPING OF SUBJECT",
+            "examples": [
+                {
+                    "integral": "Yo soy Lucas.",
+                    "derivative": "Soy Lucas."
+                },
+                {
+                    "integral": "Tú eres intelegente.",
+                    "derivative": "Eres inteligente."
+                },
+                {
+                    "integral": "Él es de Mexico.",
+                    "derivative": "Es de Mexico."
+                }
+            ]
+        },
+        {
+            "title": "USE OF SUBJECT FOR EMPHASIS",
+            "examples": [
+                {
+                    "integral": "No eres el favorito, soy el favorito.",
+                    "derivative": "Tú no eres el favorito, yo soy favorito."
+                },
+                {
+                    "integral": "No soy de Peru, eres de Peru.",
+                    "derivative": "Yo no soy de Peru, tú eres de Peru."
+                }
+            ]
+        },
+        {
+            "title": "USES OF SER",
+            "examples": [
+                {
+                    "integral": "David is from Texas.",
+                    "derivative": "David es de Tejas."
+                },
+                {
+                    "integral": "I am adventurous.",
+                    "derivative": "Soy aventurera."
+                },
+                {
+                    "integral": "The students are intelligent.",
+                    "derivative": "Los estudiantes son inteligentes."
+                },
+                {
+                    "integral": "My birthday is April 30th.",
+                    "derivative": "Mi cumpleaños es el treinta de abril."
+                }
+            ]
+        },
+        {
+            "title": "USES OF ESTAR",
+            "examples": [
+                {
+                    "integral": "The information is in the profile.",
+                    "derivative": "La información está en el perfil."
+                },
+                {
+                    "integral": "I am in Spanish class.",
+                    "derivative": "Estoy en la clase de Español."
+                },
+                {
+                    "integral": "I am stressed because I have a lot of work.",
+                    "derivative": "Estoy estresada porque tengo mucho trabajo."
+                },
+                {
+                    "integral": "I am tired because I slept very little last night.",
+                    "derivative": "Estoy cansado porque dormi muy poco anoche."
+                }
+            ]
+        },
+        {
+            "title": "STATEMENT NEGATION",
+            "examples": [
+                {
+                    "integral": "David es de Nueva York.",
+                    "derivative": "David no es de Nueva York."
+                },
+                {
+                    "integral": "Estoy cansada ahora",
+                    "derivative": "No estoy cansada ahora."
+                }
+            ]
+        },
+        {
+            "title": "AGREEMENT WITH DEFINITE ARTICLES",
+            "examples": [
+                {
+                    "integral": "the profile",
+                    "derivative": "el perfil"
+                },
+                {
+                    "integral": "the profiles",
+                    "derivative": "los perfiles"
+                },
+                {
+                    "integral": "the photograph",
+                    "derivative": "la fotografía"
+                },
+                {
+                    "integral": "feminine plural",
+                    "derivative": "las fotografías"
+                }
+            ]
+        },
+        {
+            "title": "ADJECTIVE AGREEMENT",
+            "examples": [
+                {
+                    "integral": "the intelligent woman",
+                    "derivative": "la mujer intelegente"
+                },
+                {
+                    "integral": "the funny profiles",
+                    "derivative": "los perfiles cómicos"
+                }
+            ]
+        },
+        {
+            "title": "NOUN PLURALIZATION",
+            "examples": [
+                {
+                    "integral": "el estudiante",
+                    "derivative": "los estudiantes"
+                },
+                {
+                    "integral": "el chico",
+                    "derivative": "los chicos"
+                },
+                {
+                    "integral": "la fotografía",
+                    "derivative": "las fotografías"
+                },
+                {
+                    "integral": "el perfil",
+                    "derivative": "los perfiles"
+                }
+            ]
+        },
+        {
+            "title": "ADJECTIVE PLURALIZATION",
+            "examples": [
+                {
+                    "integral": "activo",
+                    "derivative": "activos"
+                },
+                {
+                    "integral": "aventurera",
+                    "derivative": "aventureras"
+                },
+                {
+                    "integral": "trabajador",
+                    "derivative": "trabajadores"
+                }
+            ]
+        },
+        {
+            "title": "GRAMMATICAL GENDER -o, MASCULINE",
+            "examples": [
+                {
+                    "integral": "the small calendar",
+                    "derivative": "el calendario pequeño"
+                },
+                {
+                    "integral": "the small calendars",
+                    "derivative": "los calendarios pequeños"
+                }
+            ]
+        },
+        {
+            "title": "GRAMMATICAL GENDER -a, FEMININE",
+            "examples": [
+                {
+                    "integral": "the small photograph",
+                    "derivative": "la fotografía pequeña"
+                },
+                {
+                    "integral": "the small photographs",
+                    "derivative": "las fotografías pequeñas"
+                }
+            ]
+        },
+        {
+            "title": "GRAMMATICAL GENDER -e, EITHER",
+            "examples": [
+                {
+                    "integral": "the small profile",
+                    "derivative": "el perfil pequeño"
+                },
+                {
+                    "integral": "the small profiles",
+                    "derivative": "los perfiles pequeños"
+                },
+                {
+                    "integral": "the small university",
+                    "derivative": "la universidad pequeña"
+                },
+                {
+                    "integral": "the small universities",
+                    "derivative": "las universidades pequeñas"
+                }
+            ]
+        },
+        {
+            "title": "BIOLOGICAL GENDER, DEPENDANT",
+            "examples": [
+                {
+                    "integral": "the funny boy",
+                    "derivative": "el chico cómico"
+                },
+                {
+                    "integral": "the funny boys",
+                    "derivative": "los chicos cómicos"
+                },
+                {
+                    "integral": "the funny girl",
+                    "derivative": "la chica cómica"
+                },
+                {
+                    "integral": "the funny girls",
+                    "derivative": "las chicas cómicas"
+                }
+            ]
+        },
+        {
+            "title": "GROUPS OF MIXED BIOLOGICAL GENDER",
+            "examples": [
+                {
+                    "integral": "el chico y la chica",
+                    "derivative": "los chicos"
+                },
+                {
+                    "integral": "el estudiante y la estudiante",
+                    "derivative": "los estudiantes"
+                }
+            ]
+        }
+    ]
+}

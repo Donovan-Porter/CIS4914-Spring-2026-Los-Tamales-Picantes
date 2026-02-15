@@ -24,6 +24,7 @@ None.
 - [Transformers](https://pypi.org/project/transformers/) (text-to-text (t2t) model used now instead of Ollama)
 - [PyInstaller](https://pypi.org/project/pyinstaller/) (Bundles source code into a single executable for ease of consumption)
 
+
 After installing Python, the requisite packages can be installed via the given `dependencies.bat`.
 This is equivalent to `pip install <package1> <package2>...`.
 
@@ -43,6 +44,8 @@ Follow the instructions to install the most recent stable release.
 ### User
 
 End users should not be here; please look [here](https://mega.nz/folder/ovMjlajJ#4AlZ0oFrY9M3Zy3VLrcEjg) to find the executable for Windows, as I've added the output of PyInstaller to the git ignore-list.
+~~If PyInstaller was run before the code was pulled, and you're on Windows, then you should only need to run `dist/tutor/tutor.exe`.~~
+End users should not be here; please refer to this [link](https://mega.nz/folder/ovMjlajJ#4AlZ0oFrY9M3Zy3VLrcEjg) to find the executable for Windows, as I've added the output of PyInstaller to the git ignore-list.
 
 
 ### Developer
