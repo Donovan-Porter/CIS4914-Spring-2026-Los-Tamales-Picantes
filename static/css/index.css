@@ -1,3 +1,15 @@
+.main-decor-image {
+  position: fixed;
+
+  height: 40vh;
+  width: auto;
+
+  top: 13vh;
+  left: 80vw;
+
+  transform: rotate(5deg);
+}
+
 .main-choose-msg {
     color: #EF233C;
     margin-left: 10px;
