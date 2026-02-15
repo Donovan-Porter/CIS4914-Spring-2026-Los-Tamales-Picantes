@@ -12,7 +12,7 @@ import uuid
 
 
 import os, sys, json, random
-from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
+from conjugation_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
 
 #
 # ____/\____
@@ -199,6 +199,7 @@ def choose_chapter():
         files = []
     return render_template('choose_chapter.html', course=course, files=files)
 
+# TODO: update this to be grammar gropu instead? Or should we just keep is as vocab group but work it to be use grammar as well?
 @app.route('/conjugation/choose_vocab_group', methods=['GET','POST'])
 def choose_vocab_group():
     course = request.values.get('course')
@@ -248,7 +249,6 @@ def choose_vocab_group():
 
         return redirect(url_for('story'))
 
-
     return render_template('choose_vocab_group.html', course=course, vocab_file=vocab_file, groups=groups)
 
 @app.route('/conjugation/story', methods=['GET','POST'])
@@ -281,7 +281,7 @@ def story():
             if session['current_index'] >= len(story):
                 # finished
                 return render_template(
-                    'story.html',
+                    'story_conjugation.html',
                     story=story,
                     revealed=revealed,
                     finished=True,
@@ -297,7 +297,7 @@ def story():
 
 
     return render_template(
-        'story.html',
+        'story_conjugation.html',
         story=story,
         revealed=revealed,
         current_index=current,
