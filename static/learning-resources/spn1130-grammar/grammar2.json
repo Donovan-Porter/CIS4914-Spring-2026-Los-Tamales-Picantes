@@ -1,0 +1,251 @@
+{
+    "groups": [
+        {
+            "title": "USES OF SER",
+            "examples": [
+                {
+                    "integral": "David is from Texas.",
+                    "derivative": "David es de Tejas."
+                },
+                {
+                    "integral": "I am adventurous.",
+                    "derivative": "Yo soy aventurera."
+                },
+                {
+                    "integral": "The students are intelligent.",
+                    "derivative": "Los estudiantes son inteligentes."
+                },
+                {
+                    "integral": "My birthday is April 30th.",
+                    "derivative": "Mi cumpleaños es el treinta de abril."
+                }
+            ]
+        },
+        {
+            "title": "USES OF ESTAR",
+            "examples": [
+                {
+                    "integral": "The information is in the profile.",
+                    "derivative": "La información está en el perfil."
+                },
+                {
+                    "integral": "I am in Spanish class.",
+                    "derivative": "Yo estoy en la clase de Español."
+                },
+                {
+                    "integral": "I am stressed because I have a lot of work.",
+                    "derivative": "Yo estoy estresada porque tengo mucho trabajo."
+                },
+                {
+                    "integral": "I am tired because I slept very little last night.",
+                    "derivative": "Yo estoy cansado porque dormi muy poco anoche."
+                }
+            ]
+        },
+        {
+            "title": "DROPPING OF SUBJECT",
+            "examples": [
+                {
+                    "integral": "Nosotros somos de Guatemala. (drop subject)",
+                    "derivative": "Somos de Guatemala."
+                },
+                {
+                    "integral": "Vosotros sois cómicos. (drop subject)",
+                    "derivative": "Sois cómicos."
+                },
+                {
+                    "integral": "Los libros son interesantes. (drop subject)",
+                    "derivative": "Son interesantes."
+                }
+            ]
+        },
+        {
+            "title": "ADJECTIVE AGREEMENT",
+            "examples": [
+                {
+                    "integral": "Nosotros estamos <tired>.",
+                    "derivative": "Nosotros estamos cansados."
+                },
+                {
+                    "integral": "Ellas están <content>.",
+                    "derivative": "Ellas están contentas."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF SER, PLURAL",
+            "examples": [
+                {
+                    "integral": "We are. (masculine)",
+                    "derivative": "Nosotros somos."
+                },
+                {
+                    "integral": "We are. (feminine)",
+                    "derivative": "Nosotras somos."
+                },
+                {
+                    "integral": "You all are. (masculine, informal Castillian)",
+                    "derivative": "Vosotros sois."
+                },
+                {
+                    "integral": "You all are. (feminine, informal Castillian)",
+                    "derivative": "Vosotras sois."
+                },
+                {
+                    "integral": "You all are. (formal or informal American)",
+                    "derivative": "Ustedes son."
+                },
+                {
+                    "integral": "They all are. (masculine)",
+                    "derivative": "Ellos son."
+                },
+                {
+                    "integral": "They all are. (feminine)",
+                    "derivative": "Ellas son."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF ESTAR, PLURAL",
+            "examples": [
+                {
+                    "integral": "We are. (masculine)",
+                    "derivative": "Nosotros estamos."
+                },
+                {
+                    "integral": "We are. (feminine)",
+                    "derivative": "Nosotras estamos."
+                },
+                {
+                    "integral": "You all are. (masculine or mixed, informal Castillian)",
+                    "derivative": "Vosotros estáis."
+                },
+                {
+                    "integral": "You all are. (feminine, informal Castillian)",
+                    "derivative": "Vosotras estáis."
+                },
+                {
+                    "integral": "You all are. (formal or informal American)",
+                    "derivative": "Ustedes están."
+                },
+                {
+                    "integral": "They all are. (masculine)",
+                    "derivative": "Ellos están."
+                },
+                {
+                    "integral": "They all are. (feminine)",
+                    "derivative": "Ellas están."
+                }
+            ]
+        },
+        {
+            "title": "THIRD PERSON PLURAL REGIONAL DIFFERENCES",
+            "examples": [
+                {
+                    "integral": "You all are funny. (informal American)",
+                    "derivative": "Ustedes son cómicos."
+                },
+                {
+                    "integral": "You all are funny. (informal Castillian)",
+                    "derivative": "Vosotros sois cómicos."
+                }
+            ]
+        },
+        {
+            "title": "INVERTING ORDER OF SUBJECT AND VERB TO ASK A QUESTION",
+            "examples": [
+                {
+                    "integral": "Ustedes están aburridos. (reverse subject-verb order)",
+                    "derivative": "¿Están ustedes aburridos?"
+                }
+            ]
+        },
+        {
+            "title": "ADDING A QUESTION TAG TO ASK A QUESTION",
+            "examples": [
+                {
+                    "integral": "You are bored, right?",
+                    "derivative": "Ustedes están aburridos, ¿verdad?"
+                },
+                {
+                    "integral": "You are called Maria, no? (informal)",
+                    "derivative": "Te llamos Maria, ¿no?"
+                }
+            ]
+        },
+        {
+            "title": "INTERROGATIVE WORDS",
+            "examples": [
+                {
+                    "integral": "What time is it?",
+                    "derivative": "¿Qué hora es?"
+                },
+                {
+                    "integral": "Who is your Spanish professor?",
+                    "derivative": "¿Quién es tu profesor de Español?"
+                },
+                {
+                    "integral": "Who are your favorite professors?",
+                    "derivative": "¿Tienes son tus profesores favoritos?"
+                },
+                {
+                    "integral": "What classes do you have?",
+                    "derivative": "¿Que clases tienes?"
+                },
+                {
+                    "integral": "What is your major?",
+                    "derivative": "¿Cuál es tu especialización?"
+                },
+                {
+                    "integral": "What are your favorite classes?",
+                    "derivative": "¿Cuáles son tus clases preferidas?"
+                },
+                {
+                    "integral": "Why do you study Spanish? (informal; drop subject)",
+                    "derivative": "¿Por qué estudias español?"
+                },
+                {
+                    "integral": "When is Spanish class?",
+                    "derivative": "¿Cuándo es el clase de español?"
+                },
+                {
+                    "integral": "Where is the Spanish class?",
+                    "derivative": "¿Donde es la clase de español?"
+                },
+                {
+                    "integral": "What are you called? (formal)",
+                    "derivative": "¿Cómo se llama?"
+                },
+                {
+                    "integral": "What are you called? (informal)",
+                    "derivative": "¿Cómo te llama?"
+                },
+                {
+                    "integral": "How much does the program cost?",
+                    "derivative": "¿Cuánto cuesta el programa?"
+                },
+                {
+                    "integral": "How many courses are you taking? (informal, drop subject)",
+                    "derivative": "¿Cuántos cursos tomas?"
+                }
+            ]
+        },
+        {
+            "title": "DIFFERENCE BETWEEN QUÉ AND CUÁL",
+            "examples": [
+                {
+                    "integral": "What is accounting",
+                    "derivative": "¿Qué es la contabilidad?"
+                },
+                {
+                    "integral": "What classes do you have? (informal, drop subject)",
+                    "derivative": "¿Qué clases tienes?"
+                },
+                {
+                    "integral": "Which are the dates of the exam?",
+                    "derivative": "¿Cuáles son las fechas de los exámenes?"
+                }
+            ]
+        }
+    ]
+}

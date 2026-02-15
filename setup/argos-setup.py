@@ -2,7 +2,7 @@ import argostranslate.package
 import argostranslate.translate
 
 
-def download(from_code, to_code)
+def download(from_code, to_code) :
 
     # Download and install Argos Translate package
     argostranslate.package.update_package_index()
@@ -19,7 +19,7 @@ def download(from_code, to_code)
     #print(translatedText)
     # '¡Hola Mundo!'
 
-    return;
+    return
 
 
 from_code = "en"

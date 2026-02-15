@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for
+from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify
 from flaskwebgui import FlaskUI
 
 #TODO: fix quiz
@@ -6,6 +6,10 @@ from quiztest import Quiz, Question
 
 import argostranslate.package # TODO: See if this import is necessary
 import argostranslate.translate
+# TODO: valerie matching game
+from minigames.matching import MemoryGame
+import uuid
+
 
 import os, sys, json, random
 from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
@@ -20,6 +24,8 @@ from short_story import normalize_text, strip_article, find_vocab_dirs, generate
 # Global variables
 lang_flow = "row"
 en_src = True
+message_role = {"role": "system", "content": "You are an insightful, patient, and knowledgable, tutor for the Spanish language."}
+messages = [message_role]
 
 
 # Huggingface transformers stuff
@@ -31,6 +37,9 @@ base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
+
+# Toggles
+timerOn = True
 
 # TODO: fix quiz (tutorial video: https://www.youtube.com/watch?v=PdHYd8N30_4)
 app.secret_key = "quiz-dev-key"
@@ -46,6 +55,21 @@ def favicon() :
 def index() :
     test_text = "Lorem Ipsum Dolor Sit Amet..."
     return render_template("index.html", index_testing=test_text)
+
+
+@app.route("/toggleTimer", methods=['GET', 'POST'])
+def toggle_timer():
+    global timerOn
+    
+    if request.method == 'POST':
+        status = request.get_json().get("status")
+        timerOn = status
+        return jsonify({"Timer Toggle Status": timerOn})
+        
+    if request.method == 'GET':
+        return jsonify({'status' : timerOn})
+ 
+    return jsonify({"Error Timer Toggle": "Error: Could not process /toggleTimer"})
     
 @app.route("/start_quiz")
 def start_quiz():
@@ -69,10 +93,10 @@ def quiz_view():
             current_question_index = 0
             return redirect(url_for('results'))
 
+
     current_question_index = session.get('current_question')
     question = quiz.questions[current_question_index]
     return render_template('quiz.html', question=question, question_index=current_question_index + 1, total_questions = len(quiz.questions))
-
 
 @app.route("/results")
 def results():
@@ -91,19 +115,42 @@ def chat() :
     # TODO: Add Markdown support.
     # TODO: Make output pretty
 
+    global messages
+    output = []
+    
     if "GET" == request.method :
-        return render_template("chat.html")
+        for n in range(1, len(messages)) :
+            output.append(messages[n]['content'])
+            
+        return render_template("chat.html", chat_output = output)
     elif "POST" == request.method :
         print(request.form["chat-input"])
         input = request.form["chat-input"]
 
-        messages = [
-            {"role": "user", "content": input},
-        ]
-        out = pipe(messages)
+        messages.append({"role": "user", "content": input})
+        #messages = [{"role": "user", "content": input}]
+        #out = pipe(messages)
+        out = pipe(messages, max_new_tokens=150)
+        messages.append(out[0]["generated_text"][-1])
 
-        output = out[0]['generated_text'][1]['content']
-        return render_template("chat.html", chat_output = input + '\n\n' + output)
+        for n in range(1, len(messages)) :
+            output.append(messages[n]['content'])
+   # output = output + messages[n]['content'] + '\n\n'
+   
+        print(output)
+
+        return render_template("chat.html", chat_output = output)
+    
+@app.route("/chat/clear", methods = ['POST'])
+def chat_clear():
+    
+    global messages, message_role
+    
+    if "POST" == request.method:
+        messages.clear()
+        messages = [message_role]
+            
+    return render_template("chat.html")
 
 @app.route("/translate", methods = ['GET', 'POST'])
 def translate() :
@@ -253,6 +300,46 @@ def story():
         vocab_list=vocab_bank,
         answer_vocab=answer_vocab
     )
+
+
+
+# TODO: valerie matching game
+# store each unique matching game
+games = {}
+
+# get the correct html for the matching game
+@app.route("/matching_page")
+def matching_page():
+    return render_template("matching.html")
+
+
+# create a matching game
+@app.route("/matching", methods=["POST"])
+def create_matching_game():
+    returned_size = request.json.get("size", 4)
+
+    # create a memory game with the size we are looking for
+    game = MemoryGame(size = returned_size)
+
+    # get the game id
+    game_id = str(uuid.uuid4())
+    games[game_id] = game
+    return {"game_id": game_id, "state": game.state()}
+
+
+# handle a card click
+@app.route("/matching/<game_id>/click", methods=["POST"])
+def click_card(game_id):
+    # get the game
+    game = games.get(game_id)
+
+    # get the position of the card
+    row = request.json.get("row")
+    col = request.json.get("col")
+
+    result = game.click_card(row, col)
+    return result
+
 
 if __name__ == "__main__" :
 
