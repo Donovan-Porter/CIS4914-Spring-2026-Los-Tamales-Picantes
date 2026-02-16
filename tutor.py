@@ -217,7 +217,10 @@ def choose_group_conjugation():
         group_index = int(request.form.get('group_index', 0))
 
         grammar_group = groups[group_index]
-        grammar_list = [ex['derivative'] for ex in grammar_group.get('examples', [])]
+        grammar_list = [
+            ex['derivative'].strip().rstrip('.!?') 
+            for ex in grammar_group.get('examples', [])
+        ]
 
         session['vocab_bank'] = grammar_list
         order = list(range(len(grammar_list)))

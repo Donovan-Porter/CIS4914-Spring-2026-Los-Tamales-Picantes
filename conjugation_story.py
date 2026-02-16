@@ -32,64 +32,69 @@ def find_grammar_dirs():
     entries.sort()
     return entries
 
-# Generate a story using a list of Spanish verbs/grammar items. Each item in grammar_list should be a string (e.g., 'hablar - present yo').
-def generate_conjugation_story(pipe, grammar_group_examples, title=None):
-
+def generate_conjugation_story(pipe, grammar_phrases, title=None):
     try:
-        grammar_str = ", ".join(grammar_group_examples)
-        user_prompt = (
-            f"Write a short story in Spanish using the following sentences/phrases: {grammar_str}. "
-            "Keep it simple (A1–A2 level), present tense, 6–10 words per sentence. "
-            "Use the exact sentences provided. "
-            "Do not translate. Make the story coherent and natural."
-        )
-
-        messages = [{"role": "user", "content": user_prompt}]
-        out = pipe(messages)
-        story_text = out[0]['generated_text'][1]['content'].strip()
-
-        # split into sentences
-        sentences = re.split(r'(?<=[.!?])\s+', story_text)
-        clean_sentences = [s.strip() for s in sentences if s.strip()]
-
+        phrases = [g.strip().rstrip('.!?') for g in grammar_phrases]
         result = []
-        used_sentences = set()
 
-        for g in grammar_group_examples:
-            g_norm = normalize_text(g)
-            found_sentence = None
+        for phrase in phrases:
 
-            # find an unused sentence containing the grammar example
-            for s in clean_sentences:
-                if s in used_sentences:
-                    continue
-                if normalize_text(s).find(g_norm) != -1:
-                    found_sentence = s
-                    used_sentences.add(s)
-                    break
+            user_prompt = (
+                f'Write ONE simple Spanish sentence that begins with "{phrase}". '
+                "The sentence must be 6–12 words total. "
+                "Use present tense only. "
+                "Keep it A1–A2 level. "
+                "Make the grammar consistent with the subject. "
+                "Do not list phrases. "
+                "Write only the sentence."
+            )
 
-            # skip if LLM didn't generate sentence with the grammar example
-            if not found_sentence:
+            messages = [{"role": "user", "content": user_prompt}]
+            out = pipe(messages)
+
+            sentence = out[0]['generated_text'][1]['content'].strip()
+            sentence = sentence.replace("\n", " ").strip()
+
+            # Keep only first sentence
+            sentence = re.split(r'[.!?]', sentence)[0].strip()
+
+            if not sentence:
                 continue
 
-            match = re.search(g_norm, normalize_text(found_sentence))
+            # Ensure it starts with the phrase (critical for stability)
+            if not normalize_text(sentence).startswith(normalize_text(phrase)):
+                continue
+
+            # Enforce word count
+            words = sentence.split()
+            if len(words) < 6 or len(words) > 12:
+                continue
+
+            if not sentence.endswith("."):
+                sentence += "."
+
+            # Extract before/after (should always be before = "")
+            phrase_norm = normalize_text(phrase)
+            sentence_norm = normalize_text(sentence)
+
+            match = re.search(phrase_norm, sentence_norm)
             if not match:
                 continue
 
             start = match.start()
             end = match.end()
 
-            before = found_sentence[:start]
-            after = found_sentence[end:]
+            before = sentence[:start]
+            after = sentence[end:]
 
             result.append({
                 "before": before,
-                "word": g,
+                "word": phrase,
                 "after": after
             })
 
-        return result
+        return result if result else None
 
     except Exception as e:
-        print("ERROR in generate_story_with_model:", e)
+        print("ERROR in generate_conjugation_story:", e)
         return None
