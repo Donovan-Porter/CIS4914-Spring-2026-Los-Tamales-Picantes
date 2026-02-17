@@ -23,7 +23,7 @@ def strip_article(s):
     return s
 
 def find_grammar_dirs():
-    # Return list of grammar courses (folders ending with -grammar).
+    # return list of grammar courses (folders ending with -grammar).
     lr = os.path.join(base_path, 'static', 'learning-resources')
     if not os.path.isdir(lr):
         return []
@@ -34,58 +34,55 @@ def find_grammar_dirs():
 
 def generate_conjugation_story(pipe, grammar_phrases, title=None):
     try:
+        # remove trailing punctuation
         phrases = [g.strip().rstrip('.!?') for g in grammar_phrases]
+        phrase_str = ", ".join(phrases)
+
+        user_prompt = (
+            f"Write ONE simple Spanish sentence for EACH of the following phrases: {phrase_str}. "
+            "Keep sentences 6–12 words. "
+            "A1–A2 level Spanish. "
+            "Include a second simple action joined with 'y'. "
+            "Write only the sentences."
+        )
+
+        messages = [{"role": "user", "content": user_prompt}]
+        out = pipe(messages)
+
+        story_text = out[0]['generated_text'][1]['content'].strip()
+        story_text = story_text.replace("\n", " ")
+
+        sentences = re.split(r'(?<=[.!?])\s+', story_text)
+        clean_sentences = [s.strip() for s in sentences if s.strip()]
+
         result = []
+        used_sentences = set()
 
         for phrase in phrases:
-
-            user_prompt = (
-                f'Write ONE simple Spanish sentence that begins with "{phrase}". '
-                "The sentence must be 6–12 words total. "
-                "Use present tense only. "
-                "Keep it A1–A2 level. "
-                "Make the grammar consistent with the subject. "
-                "Do not list phrases. "
-                "Write only the sentence."
-            )
-
-            messages = [{"role": "user", "content": user_prompt}]
-            out = pipe(messages)
-
-            sentence = out[0]['generated_text'][1]['content'].strip()
-            sentence = sentence.replace("\n", " ").strip()
-
-            # Keep only first sentence
-            sentence = re.split(r'[.!?]', sentence)[0].strip()
-
-            if not sentence:
-                continue
-
-            # Ensure it starts with the phrase (critical for stability)
-            if not normalize_text(sentence).startswith(normalize_text(phrase)):
-                continue
-
-            # Enforce word count
-            words = sentence.split()
-            if len(words) < 6 or len(words) > 12:
-                continue
-
-            if not sentence.endswith("."):
-                sentence += "."
-
-            # Extract before/after (should always be before = "")
             phrase_norm = normalize_text(phrase)
-            sentence_norm = normalize_text(sentence)
+            found_sentence = None
 
-            match = re.search(phrase_norm, sentence_norm)
+            # find unused sentence that starts with phrase
+            for s in clean_sentences:
+                if s in used_sentences:
+                    continue
+                if normalize_text(s).startswith(phrase_norm):
+                    found_sentence = s
+                    used_sentences.add(s)
+                    break
+
+            if not found_sentence:
+                continue
+
+            match = re.search(phrase_norm, normalize_text(found_sentence))
             if not match:
                 continue
 
             start = match.start()
             end = match.end()
 
-            before = sentence[:start]
-            after = sentence[end:]
+            before = found_sentence[:start]
+            after = found_sentence[end:]
 
             result.append({
                 "before": before,
