@@ -2,40 +2,52 @@
 <!DOCTYPE HTML>
 
 <head>
-
-<title>
-Learn - El Tamale Picante
-</title>
-
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
-
+  <title>
+    Learn - El Tamale Picante
+  </title>
 </head>
 
 
-<body>
-
 <span class="header"></span>
-<h1>Hello, World.</h1>
-<p> Testing, 1, 2, 3..</p>
-<p>{{index_testing}}</p>
+
+<img src="/static/images/capy.png" alt="Capy Decor" class="main-decor-image" draggable="false">
 
 <div>
-    <a href=" {{ url_for('start_quiz') }}">
-        <button class="btn btn-primary">Start Quiz</button>
-    </a>
-    
-    <br>
-    <p id="timer_status"> Timer Status: ON </p>
+  <h1 class="main-choose-msg">¡Vamos aprender! Choose an activity to get started!</h1>
+  <div class="main-game-container">
+      <a class="game-bttn" href="/matching_page" title="Matching Game">
+          Matching Game
+      </a>
+      <a class="game-bttn" href="/matching_page" title="Matching Game">
+          Matching Game
+      </a>
+      <a class="game-bttn" href="/matching_page" title="Matching Game">
+          Matching Game
+      </a>
+  </div>
 
-    <label class="switch">
-        <input type="checkbox" id="timerToggle" checked>
-        <span class="slider round"></span>
-    </label>
+  <div style="text-align: center;">
+    <!--
+      <a href=" {{ url_for('start_quiz') }}">
+          <button class="btn btn-primary">Start Quiz</button>
+      </a>
+      
+      <br>
+    -->
+      <p id="timer_status"> Timer: ON </p>
+
+      <label class="switch">
+          <input type="checkbox" id="timerToggle" checked>
+          <span class="slider round"></span>
+      </label>
+  </div>
+
 </div>
-
 
 <script async type="text/javascript" src="/static/javascript/header.js"></script>
 <script>
+    header = document.querySelector(".header");
+
     window.onload = loadTimerToggle;
 
     timerToggle.addEventListener("change", setTimerToggle);
@@ -44,7 +56,7 @@ Learn - El Tamale Picante
         const timerToggle = document.getElementById('timerToggle')
         const status = timerToggle.checked;
 
-        document.getElementById('timer_status').textContent = status ? 'Timer Status: ON' : 'Timer Status: OFF';
+        document.getElementById('timer_status').textContent = status ? 'Timer: ON' : 'Timer: OFF';
 
         // passing into backend variable
         fetch('/toggleTimer', {
@@ -72,7 +84,7 @@ Learn - El Tamale Picante
         .then(data => {
             console.log(data.status);
             document.getElementById('timerToggle').checked = data.status;
-            document.getElementById('timer_status').textContent = data.status ? 'Timer Status: ON' : 'Timer Status: OFF';
+            document.getElementById('timer_status').textContent = data.status ? 'Timer: ON' : 'Timer: OFF';
 
         })
         .catch(error => {
@@ -82,67 +94,5 @@ Learn - El Tamale Picante
 
 </script>
 
-</body>
-
-<style>
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-</style>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/index.css') }}" >
