@@ -32,6 +32,17 @@ def find_grammar_dirs():
     entries.sort()
     return entries
 
+def clean_model_output(text):
+    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text) # Removes bold markdown
+    text = re.sub(r'\*([^*]+)\*', r'\1', text) # Removes italic markdown
+        
+    text = text.replace('\n', ' ')  # Replace newlines with space
+    text = re.sub(r'\s+', ' ', text)  # Replace multiple spaces with a single space
+    
+    # Remove leading and trailing spaces
+    text = text.strip()  
+    return text
+
 def generate_conjugation_story(pipe, grammar_phrases, title=None):
     try:
         # remove trailing punctuation
@@ -43,16 +54,17 @@ def generate_conjugation_story(pipe, grammar_phrases, title=None):
             "Keep sentences 6–12 words. "
             "A1–A2 level Spanish. "
             "Include a second simple action joined with 'y'. "
-            "Write only the sentences."
+            "Write only the sentences"
         )
 
         messages = [{"role": "user", "content": user_prompt}]
         out = pipe(messages)
 
         story_text = out[0]['generated_text'][1]['content'].strip()
-        story_text = story_text.replace("\n", " ")
+        cleaned_story_text = clean_model_output(story_text)
+        print(cleaned_story_text)
 
-        sentences = re.split(r'(?<=[.!?])\s+', story_text)
+        sentences = re.split(r'(?<=[.!?])\s+', cleaned_story_text)
         clean_sentences = [s.strip() for s in sentences if s.strip()]
 
         result = []
