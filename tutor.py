@@ -10,7 +10,8 @@ import argostranslate.translate
 # TODO: valerie matching game
 import matching_game
 
-import os, sys
+import os, sys, json, random
+from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
 
 #
 # ____/\____
@@ -179,6 +180,125 @@ def translate() :
 
             return render_template("translate.html", lang_flow=lang_flow)
 
+@app.route('/choose_course_vocabulary')
+def choose_course_vocabulary():
+    courses = find_vocab_dirs()
+    return render_template('choose_course_vocabulary.html', courses=courses)
+
+@app.route('/choose_chapter_vocabulary')
+def choose_chapter_vocabulary():
+    course = request.args.get('course')
+    if not course:
+        return redirect(url_for('choose_course_vocabulary'))
+    dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
+    files = []
+    try:
+        files = sorted([f for f in os.listdir(dirpath) if f.endswith('.json')])
+    except Exception:
+        files = []
+    return render_template('choose_chapter_vocabulary.html', course=course, files=files)
+
+@app.route('/choose_group_vocabulary', methods=['GET','POST'])
+def choose_group_vocabulary():
+    course = request.values.get('course')
+    vocab_file = request.values.get('file')
+    if not course or not vocab_file:
+        return redirect(url_for('choose_course_vocabulary'))
+    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
+    try:
+        with open(path, 'r', encoding='utf-8') as fh:
+            data = json.load(fh)
+    except Exception as e:
+        return f'Error loading vocab file: {e}'
+
+    groups = data.get('groups', [])
+    if request.method == 'POST':
+        group_index = int(request.form.get('group_index', 0))
+
+        vocab_group = groups[group_index]
+
+        raw_vocab = [v.get('es','') for v in vocab_group.get('vocabulary', [])]
+
+        session['vocab_bank'] = raw_vocab
+
+        order = list(range(len(raw_vocab)))
+        random.shuffle(order)
+
+        vocab_shuffled = [raw_vocab[i] for i in order]
+        session['vocab_list'] = vocab_shuffled
+    
+        story = generate_story_with_model(pipe, vocab_shuffled, title=vocab_group.get('title-es'))
+        if not story:
+            return 'Story generation failed.'
+        
+        # DYNAMIC answer list (only words actually used, in order)
+        answer_vocab = [part['word'] for part in story]
+
+        session['answer_vocab_vocabulary'] = answer_vocab 
+        session['story_vocabulary'] = story
+        session['revealed_vocabulary'] = [False] * len(vocab_shuffled)
+        session['current_index_vocabulary'] = 0
+
+        return redirect(url_for('story_vocabulary'))
+
+
+    return render_template('choose_group_vocabulary.html', course=course, vocab_file=vocab_file, groups=groups)
+
+@app.route('/story_vocabulary', methods=['GET','POST'])
+def story_vocabulary():
+    vocab_bank = session.get('vocab_bank', [])  # Static list of all vocab words
+    answer_vocab = session.get('answer_vocab_vocabulary', [])  # Dynamic list of words used in the story
+
+    story = session.get('story_vocabulary')
+    if not story:
+        return redirect(url_for('choose_course_vocabulary'))
+
+    current = session.get('current_index_vocabulary', 0)
+    revealed = session.get('revealed_vocabulary', [False]*len(story))
+    message = None
+
+    if request.method == 'POST':
+        guess = request.form.get('guess','').strip()
+        if current >= len(story):
+            return redirect(url_for('story_vocabulary'))
+
+        expected_word = story[current]['word']
+        guess_n = normalize_text(guess)
+        expected_n = normalize_text(expected_word)
+
+        if guess_n == expected_n:
+            revealed[current] = True
+            session['revealed_vocabulary'] = revealed
+            session['current_index_vocabulary'] = current + 1
+
+            if session['current_index_vocabulary'] >= len(story):
+                # finished
+                return render_template(
+                    'story_vocab.html',
+                    story=story,
+                    revealed=revealed,
+                    finished=True,
+                    current_index=current,
+                    message=None,
+                    vocab_list=vocab_bank,
+                    answer_vocab=answer_vocab
+                )
+
+            return redirect(url_for('story_vocabulary'))
+        else:
+            message = 'Try again!'
+
+
+    return render_template(
+        'story_vocab.html',
+        story=story,
+        revealed=revealed,
+        current_index=current,
+        message=message,
+        finished=False,
+        vocab_list=vocab_bank,
+        answer_vocab=answer_vocab
+    )
 
 
 # TODO: valerie matching game
