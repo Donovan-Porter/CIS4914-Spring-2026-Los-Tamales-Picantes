@@ -10,6 +10,8 @@ import argostranslate.translate
 from minigames.matching import MemoryGame
 import uuid
 
+# TODO: firebase
+from firebase import firebase_handler
 
 import os, sys
 
@@ -25,6 +27,10 @@ lang_flow = "row"
 en_src = True
 message_role = {"role": "system", "content": "You are an insightful, patient, and knowledgable, tutor for the Spanish language."}
 messages = [message_role]
+
+
+#firebase & env
+firebase_cursor = firebase_handler()
 
 
 # Huggingface transformers stuff
@@ -52,8 +58,58 @@ def favicon() :
 
 @app.route("/")
 def index() :
-    test_text = "Lorem Ipsum Dolor Sit Amet..."
-    return render_template("index.html", index_testing=test_text)
+    return render_template("index.html")
+
+@app.route("/profile", methods=["POST", "GET"])
+def load_profile():
+        if session.get("logged_in") is True:
+            points = firebase_cursor.get_points(session.get("uid"))
+            return render_template("profile.html", email=session['email'], points=f"Points: {points}")
+        
+        return redirect(url_for('sign_up'))
+
+@app.route("/sign-up", methods=["POST", "GET"])
+def sign_up():
+    if request.method == "POST":
+        email = request.form["email"]
+        password = request.form["password"]
+        
+        try:
+            firebase_cursor.sign_up_user(email, password)
+            return redirect(url_for('index'))
+            
+        except Exception as e:
+            print("Error occurred during sign up:", e)
+            return redirect(url_for('sign_up'))
+
+    session["logged_in"] = False
+    session["email"] = ""
+    session["uid"] = ""
+    return render_template("sign-up.html")
+
+@app.route("/login", methods=["POST", "GET"])
+def login():
+    if request.method == "POST":
+        email = request.form["email"]
+        password = request.form["password"]
+        
+        try:
+            user = firebase_cursor.login_user(email, password)
+
+            session["logged_in"] = True
+            session["email"] = user["email"]
+            session["uid"] = user["localId"]
+            
+            return redirect(url_for('index'))
+            
+        except Exception as e:
+            print("Error occurred during sign up:", e)
+            return redirect(url_for('login'))
+        
+    session["logged_in"] = False
+    session["email"] = ""
+    session["uid"] = ""
+    return render_template("login.html")
 
 
 @app.route("/toggleTimer", methods=['GET', 'POST'])

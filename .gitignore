@@ -8,3 +8,4 @@
 __pycache__/
 *.pyc
 minigames/__pycache__/
+.env

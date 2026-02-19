@@ -46,6 +46,13 @@ header = `
                 </svg>
             </a>
 
+            <a href="/profile" title="Signup" class="nav-link">
+                <svg id="user-icon" data-name="user-layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+                    <path d="M157.35,207.97c20.8-1.13,46.5-1.21,67.31-.25,69.93,3.23,118.38,59.31,111.34,129.4-.79,7.9-6.54,13.96-14.59,14.66l-262.02-.54c-6.12-1.95-10.52-6.97-11.31-13.44-8.34-68.79,40.84-126.1,109.26-129.82Z"/>
+                    <path d="M182.84,32.47c80.05-7.71,121.05,91.51,59.76,141.51-55.97,45.65-138.93-.88-130.01-72.26,4.44-35.5,34.41-65.8,70.25-69.25Z"/>
+                </svg>
+            </a>
+
         </nav>
 
     </div>
@@ -67,7 +74,7 @@ header = `
             font-weight: bold;
             color: #04361D; 
             align-self: center;
-            margin-right: 50vw;
+            margin-right: 45vw;
             
         }
                 
