@@ -51,6 +51,11 @@ quiz = Quiz()
 quiz.add_question(Question("What is my name?", ['Poop', 'Poop1', 'Poop2'], 0))
 quiz.add_question(Question("What is my age?", ['1', '12', '14'], 2))
 
+def reset_login_session():
+    session["local_login"] = False
+    session["username"] = ""
+    session["points"] = ""
+
 @app.route('/favicon.ico')
 def favicon() :
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
@@ -78,10 +83,25 @@ def toggle_timer():
 @app.route("/profile", methods=["POST", "GET"])
 def load_profile():
     if session.get("local_login") is True:
-        return render_template("profile.html", email=session['username'], points=f"Points: {session['points']}")
+        return render_template("profile.html", username=session['username'], points=f"Points: {session['points']}")
 
     return redirect(url_for('sign_up'))
 
+@app.route("/profile/logout", methods=["POST", "GET"])
+def logout():
+    reset_login_session()
+    return redirect(url_for('login'))
+
+@app.route("/profile/delete", methods=["POST", "GET"])
+def delete():
+    print("session", session["username"])
+    res = localdb_handler.delete_user(session["username"])
+    
+    if res == 404:
+        return redirect(url_for('load_profile'))
+
+    reset_login_session()
+    return redirect(url_for('sign_up'))
 
 @app.route("/sign-up", methods=["POST", "GET"])
 def sign_up():
@@ -103,9 +123,7 @@ def sign_up():
             print("Error occurred during sign up:", e)
             return redirect(url_for('sign_up'))
 
-    session["local_login"] = False
-    session["username"] = ""
-    session["points"] = ""
+    reset_login_session()
     return render_template("sign-up.html")
 
 
@@ -115,8 +133,13 @@ def login():
         username = request.form["username"]
 
         try:
+            user = localdb_handler.get_user(username)
+            
+            if user is None:
+                return redirect(url_for('login'))
+            
             session["local_login"] = True
-            session["username"] = localdb_handler.get_user(username)
+            session["username"] = user
             session["points"] = localdb_handler.get_points(username)
 
             return redirect(url_for('load_profile'))
@@ -125,9 +148,7 @@ def login():
             print("Error occurred during local sign up:", e)
             return redirect(url_for('login'))
 
-    session["local_login"] = False
-    session["username"] = ""
-    session["points"] = ""
+    reset_login_session()
     return render_template("login.html")
     
 @app.route("/start_quiz")

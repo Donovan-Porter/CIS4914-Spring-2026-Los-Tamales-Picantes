@@ -12,8 +12,24 @@
 
 
 <div>
-    <span>Perfil</span>
-    <span>{{email}}</span>
-    <span>{{points}}</span>
+    <p>Perfil</p>
+    <p>{{username}}</p>
+    <p>{{points}}</p>
+
+    <div>
+        <a href="/profile/logout" title="Logout">
+            <button>
+                Logout
+            </button>
+        </a>
+    </div>
+
+    <div>
+        <a href="/profile/delete" title="Delete" onclick="return confirm('Are you sure you want to delete your account?');">
+            <button>
+                Delete
+            </button>
+        </a>
+    </div>
 
 </div>

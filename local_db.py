@@ -34,7 +34,6 @@ class LocalDB:
         try:
             cursor.execute('''SELECT NAME FROM Users WHERE NAME = ?''', (name,))
             res = cursor.fetchone()
-            
             if res is not None:
                 return res[0]
             return None
@@ -91,6 +90,7 @@ class LocalDB:
             cursor.execute('''DELETE FROM Users WHERE NAME = ?''', (name,))
             print("User deleted from db: ", name)
             conn.commit()
+            return name
             
         finally:
             cursor.close()
