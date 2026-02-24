@@ -1,0 +1,165 @@
+.match-decor-image {
+    position: fixed;
+
+    height: 27vh;
+    width: auto;
+
+    top: 0vh;
+    left: 0vw;
+
+    transform: scaleX(-1);
+}
+
+h1 {
+    color: #EF233C;
+    margin: 2vw;
+}
+
+.match-game-header {
+    margin-left: 15vw;
+}
+
+#dropdown-select {
+    margin: 1vw;
+    font-size: 18px;
+}
+
+.drop-options {
+    font-size: 15px;
+    border: solid 2px #0067A5;
+}
+
+
+.board-container {
+    background: white;
+    text-align: center;
+}
+
+.match-result-container {
+    text-align: center;
+}
+
+.matching-game-line {
+    background-color: #FFBF00;
+
+    border-width: 0;
+
+    height: 0.4vh;
+    width: 80vw;
+}
+
+#board { 
+    display: grid; 
+    gap: 10px; 
+    margin: 20px auto; 
+    justify-content: center; 
+    max-width: 70%;
+}
+
+.card { 
+    min-width: 60px; 
+    min-height: 60px; 
+    padding: 10px;
+
+    font-size: 18px;
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+    background-color: #FFBF00; 
+    color: black; 
+    border-radius: 10px; 
+
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+
+    transition-duration: 0.3s;
+}
+
+.matched { 
+    background-color: #00A86B; 
+    color: white; 
+}
+
+.pending-match {
+    background-color: #0067A5; 
+    color: white; 
+}
+
+#match-count { 
+    font-size: 20px; 
+    margin-top: 10px; 
+}
+
+#status { 
+    margin-top: 10px; 
+    font-size: 20px; 
+}
+
+.home-button {
+    background-color: #0067A5;
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+
+.home-button:hover {
+    background-color: #FFBF00;
+    color: black;
+}
+
+.home-button:active {
+    transform: scale(1.4);
+}
+
+.file_bttn {
+    background-color: #0067A5;
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition-duration: 0.4s;
+}
+
+.file_bttn:hover {
+    background-color: #FFBF00;
+    color: black;
+}
+
+.file_bttn:active {
+    transform: scale(1.4);
+}
+
+.hint_bttn {
+    display: none;
+
+    background-color: #0067A5;
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition-duration: 0.4s;
+}
+
+.hint_bttn:hover {
+    background-color: #FFBF00;
+    color: black;
+}
+
+.hint_bttn:active {
+    transform: scale(1.4);
+}

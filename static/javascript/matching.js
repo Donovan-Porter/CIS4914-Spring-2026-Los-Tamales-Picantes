@@ -111,6 +111,7 @@ async function parse_the_file_info_and_setup()
     waiting = false;
     matchDiv.innerText = `Matches: ${matchCount}`;
     statusDiv.innerText = "";
+    statusDiv.style.color = 'black';
 
     // send the info to set up a new game
     const board_size = get_board_size();
@@ -180,6 +181,9 @@ function loadBoard(state)
             boardDiv.appendChild(cardDiv);
         }
     }
+
+    // loading the hint button 
+    document.getElementById("hint").style.display = 'inline-block'; 
 }
 
 // handle when the card is clicked
@@ -227,6 +231,7 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
         matchCount++;
         matchDiv.innerText = `Matches: ${matchCount}`;
         statusDiv.innerText = "MATCH";
+        statusDiv.style.color = '#00A86B';
 
 
         // change the cards to be matched colors
@@ -240,6 +245,7 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     else 
     {
         statusDiv.innerText = "Not a match";
+        statusDiv.style.color = '#EF233C';
 
         // clear the pending visuals on the card
         clickedCards.forEach(card => card.classList.remove("pending-match"));
@@ -257,6 +263,7 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     {
         // display that it is done
         statusDiv.innerText = "Game Done";
+        statusDiv.style.color = "black";
     }
 }
 
