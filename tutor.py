@@ -1,6 +1,9 @@
 from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify
 from flaskwebgui import FlaskUI
 
+import sqlite3
+from local_db import LocalDB
+
 #TODO: fix quiz
 from quiztest import Quiz, Question
 
@@ -36,6 +39,9 @@ pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 app = Flask(__name__, static_folder="/")
 
+# LOCAL DB
+localdb_handler = LocalDB()
+
 # Toggles
 timerOn = True
 
@@ -68,6 +74,61 @@ def toggle_timer():
         return jsonify({'status' : timerOn})
  
     return jsonify({"Error Timer Toggle": "Error: Could not process /toggleTimer"})
+
+@app.route("/profile", methods=["POST", "GET"])
+def load_profile():
+    if session.get("local_login") is True:
+        return render_template("profile.html", email=session['username'], points=f"Points: {session['points']}")
+
+    return redirect(url_for('sign_up'))
+
+
+@app.route("/sign-up", methods=["POST", "GET"])
+def sign_up():
+    if request.method == "POST":
+        username = request.form["username"]
+
+        try:
+            res = localdb_handler.create_user(username)
+            
+            if res == 409:
+                return redirect(url_for('login'))
+            
+            session["local_login"] = True
+            session["username"] = localdb_handler.get_user(username)
+            session["points"] = localdb_handler.get_points(username)
+            return redirect(url_for('load_profile'))
+
+        except Exception as e:
+            print("Error occurred during sign up:", e)
+            return redirect(url_for('sign_up'))
+
+    session["local_login"] = False
+    session["username"] = ""
+    session["points"] = ""
+    return render_template("sign-up.html")
+
+
+@app.route("/login", methods=["POST", "GET"])
+def login():
+    if request.method == "POST":
+        username = request.form["username"]
+
+        try:
+            session["local_login"] = True
+            session["username"] = localdb_handler.get_user(username)
+            session["points"] = localdb_handler.get_points(username)
+
+            return redirect(url_for('load_profile'))
+
+        except Exception as e:
+            print("Error occurred during local sign up:", e)
+            return redirect(url_for('login'))
+
+    session["local_login"] = False
+    session["username"] = ""
+    session["points"] = ""
+    return render_template("login.html")
     
 @app.route("/start_quiz")
 def start_quiz():
