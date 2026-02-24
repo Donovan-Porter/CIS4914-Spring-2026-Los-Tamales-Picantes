@@ -32,8 +32,9 @@ os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
-# TODO: Find source and fix 'headertoolarge' error caused by pipeline on pulls from branches not don-dev
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
+from re import sub, compile # For stripping un-punctuated portions
+unpunctuated = compile("(?<=[!?.])[^!?.]*$")
 
 app = Flask(__name__, static_folder="/")
 
@@ -110,33 +111,51 @@ def results():
 
 @app.route("/chat", methods = ['GET', 'POST', 'DELETE'])
 def chat() :
-    # TODO: Save chat history
     # TODO: Add Markdown support.
-    # TODO: Make output pretty
+    # TODO: Ensure ends in punctuation
 
+    # Declared at top of file
     global messages
     output = []
     
+    # First page load
     if "GET" == request.method :
+
+        # Pre-loaded messages (see messages declaration)
         for n in range(1, len(messages)) :
             output.append(messages[n]['content'])
-            
+        # Render page with pre-loaded messages
         return render_template("chat.html", chat_output = output)
+    # Update the logs
     elif "POST" == request.method :
-        print(request.form["chat-input"])
+
+        # Get form data submitted by page
         input = request.form["chat-input"]
 
+        # Add data to 'messages' variable
         messages.append({"role": "user", "content": input})
-        #messages = [{"role": "user", "content": input}]
-        #out = pipe(messages)
-        out = pipe(messages, max_new_tokens=150)
-        messages.append(out[0]["generated_text"][-1])
 
+        # Generate output
+        out = pipe(messages, max_new_tokens=333)
+
+        # Get generated string
+        generated_string = out[0]["generated_text"][-1]
+
+        # Strip any un-punctuated trailing bits
+        # TODO: Make a better fix for the LLM cutting off mid-sentence.
+        global unpunctuated
+        new_content = generated_string["content"]
+        generated_string["content"] = sub(unpunctuated, "", new_content)
+
+        # Add output to 'messages'
+        # The LLM input is these chat logs
+        messages.append(generated_string)
+
+        # 'output' is local variable
+        # Copy over messages so that chat history shows on the page
+        # TODO: See if persistent variable is faster
         for n in range(1, len(messages)) :
             output.append(messages[n]['content'])
-   # output = output + messages[n]['content'] + '\n\n'
-   
-        print(output)
 
         return render_template("chat.html", chat_output = output)
     
