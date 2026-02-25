@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<head>
+    <title>
+        Profile
+    </title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<span class="header"></span>
+<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+
+
+<div>
+    <p>Perfil</p>
+    <p>{{username}}</p>
+    <p>{{points}}</p>
+
+    <div>
+        <a href="/profile/logout" title="Logout">
+            <button>
+                Logout
+            </button>
+        </a>
+    </div>
+
+    <div>
+        <a href="/profile/delete" title="Delete" onclick="return confirm('Are you sure you want to delete your account?');">
+            <button>
+                Delete
+            </button>
+        </a>
+    </div>
+
+</div>
