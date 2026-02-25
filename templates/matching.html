@@ -1,118 +1,63 @@
 <!DOCTYPE html>
 <head>
     <title>Matching Game</title>
-    <style>
-        body { 
-            font-family: Arial; 
-            text-align: center;
-        }
-
-        #board { 
-            display: grid; 
-            gap: 10px; 
-            margin: 20px auto; 
-            justify-content: center; 
-            max-width: 1000px;
-        }
-
-        .card { 
-            min-width: 60px; 
-            min-height: 60px; 
-            padding: 10px;
-
-            font-size: 18px;
-
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
-
-            background-color: grey; 
-            color: black; 
-            border-radius: 10px; 
-
-            text-align: center;
-            white-space: normal;
-            word-break: break-word;
-        }
-
-        .matched { 
-            background-color: #76BA9D; 
-            color: grey; 
-        }
-
-        .pending-match {
-            background-color: orange; 
-            color: black; 
-        }
-
-        #match-count { 
-            font-size: 20px; 
-            margin-top: 10px; 
-        }
-
-        #status { 
-            margin-top: 10px; 
-            font-size: 20px; 
-        }
-
-        .home-button {
-            background-color: #7d0adb;
-            color: white;
-            font-size: 15px;
-            padding: 12px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .home-button:hover {
-            background-color: gray;
-        }
-
-    </style>
 </head>
 
-<body>
-    <h1>Matching Game</h1>
+<div class="match-game-container">
+    <div class="match-game-header">
+        <img src="/static/images/picantecapy.png" alt="Capy Decor" class="match-decor-image" draggable="false">
+        
+        <h1>Matching Game</h1>
+       
+        <hr class="matching-game-line" style="margin-left: 0vw;"> 
 
-    <button id="home-button" class="home-button">Return to Homepage</button>
-
-    <div id="dropdown-select">
-        <br><br>
-        <label for="file_select">
-            Choose File: 
-        </label>
-        <select name="file_type"  id="file_type">
-            <option value="Vocabulary">Vocabulary</option>
-            <option value="Grammar">Grammar</option>
-        </select>
-        <select name="spn_lvl"  id="spn_lvl">
-            <option value="spn1130">Spainsh 1130</option>
-            <option value="spn1131">Spainsh 1131</option>
-            <option value="spn2200">Spainsh 2200</option>
-            <option value="spn2201">Spainsh 2201</option>
-        </select>
-        <select name="chp_num"  id="chp_num">
-            <option value="1">Chapter 1</option>
-            <option value="2">Chapter 2</option>
-            <option value="3">Chapter 3</option>
-            <option value="4">Chapter 4</option>
-            <option value="5">Chapter 5</option>
-            <option value="6">Chapter 6</option>
-        </select>
-        <br><br>
-        <button id= "load-file">Load File</button>
+        <div id="dropdown-select">
+            <label for="file_select">
+                Choose File: 
+            </label>
+            <select name="file_type"  id="file_type" class="drop-options">
+                <option value="Vocabulary">Vocabulary</option>
+                <option value="Grammar">Grammar</option>
+            </select>
+            <select name="spn_lvl"  id="spn_lvl" class="drop-options">
+                <option value="spn1130">Spanish 1130</option>
+                <option value="spn1131">Spanish 1131</option>
+                <option value="spn2200">Spanish 2200</option>
+                <option value="spn2201">Spanish 2201</option>
+            </select>
+            <select name="chp_num"  id="chp_num" class="drop-options">
+                <option value="1">Chapter 1</option>
+                <option value="2">Chapter 2</option>
+                <option value="3">Chapter 3</option>
+                <option value="4">Chapter 4</option>
+                <option value="5">Chapter 5</option>
+                <option value="6">Chapter 6</option>
+            </select>
+            <br><br>
+            <button class="file_bttn" id="load-file">Load File</button>
+            <button class="hint_bttn" id="hint" disabled>Hint</button>
+        </div>
     </div>
 
-    <div id="board"></div>
+    <hr class="matching-game-line" style="margin-left: 13vw;"> 
 
-    <div id="match-count">Matches: 0</div>
-    <div id="status"></div>
+    <div class="board-container">
+        <div id="board"></div>
+    </div>
 
+    <div class="match-result-container">
+        <div id="match-count">Matches: 0</div>
+        <div id="status"></div>
+
+        <button id="home-button" class="home-button">Return to Homepage</button>
+    </div>
 
     <script 
         defer type="text/javascript" src="/static/javascript/matching.js">
     </script>
 
 
-</body>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/static/css/style.css" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/matching.css') }}" >
