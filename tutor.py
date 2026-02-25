@@ -203,8 +203,10 @@ def choose_chapter_conjugation():
 def choose_group_conjugation():
     course = request.values.get('course')
     vocab_file = request.values.get('file')
+
     if not course or not vocab_file:
         return redirect(url_for('choose_course_conjugation'))
+    
     path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
     try:
         with open(path, 'r', encoding='utf-8') as fh:
@@ -213,6 +215,7 @@ def choose_group_conjugation():
         return f'Error loading vocab file: {e}'
 
     groups = data.get('groups', [])
+    
     if request.method == 'POST':
         group_index = int(request.form.get('group_index', 0))
 

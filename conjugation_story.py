@@ -45,24 +45,25 @@ def clean_model_output(text):
 
 def generate_conjugation_story(pipe, grammar_phrases, title=None):
     try:
-        # remove trailing punctuation
+        # Clean and prepare the input phrases (remove trailing punctuation)
         phrases = [g.strip().rstrip('.!?') for g in grammar_phrases]
         phrase_str = ", ".join(phrases)
 
+        # Create a user prompt instructing the model to generate simple Spanish sentences
         user_prompt = (
-            f"Write ONE simple Spanish sentence for EACH of the following phrases: {phrase_str}. "
-            "Keep sentences 6–12 words. "
-            "A1–A2 level Spanish. "
-            "Include a second simple action joined with 'y'. "
-            "Write only the sentences"
+            f"Escribe UNA oración simple en español para cada una de las siguientes frases: {phrase_str}. "
+            "Las oraciones deben tener entre 6 y 12 palabras. "
+            "Usa un nivel de español A1-A2 y asegúrate de incluir una acción secundaria unida por 'y'. "
+            "Escribe SOLO las oraciones, sin ningún texto adicional."
         )
 
+        # Prepare the input messages for the LFM2 model
         messages = [{"role": "user", "content": user_prompt}]
         out = pipe(messages)
-
+        
         story_text = out[0]['generated_text'][1]['content'].strip()
         cleaned_story_text = clean_model_output(story_text)
-        print(cleaned_story_text)
+        print(cleaned_story_text)  # For debugging
 
         sentences = re.split(r'(?<=[.!?])\s+', cleaned_story_text)
         clean_sentences = [s.strip() for s in sentences if s.strip()]
@@ -74,7 +75,7 @@ def generate_conjugation_story(pipe, grammar_phrases, title=None):
             phrase_norm = normalize_text(phrase)
             found_sentence = None
 
-            # find unused sentence that starts with phrase
+            # Look for a sentence that starts with the current phrase
             for s in clean_sentences:
                 if s in used_sentences:
                     continue
