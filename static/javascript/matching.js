@@ -2,10 +2,13 @@ let gameId = null;
 let matchCount = 0;
 let clickedCards = [];
 let waiting = false;
+let lastClickedCard = {row: -1, col: -1};
+
 
 const boardDiv = document.getElementById("board");
 const matchDiv = document.getElementById("match-count");
 const statusDiv = document.getElementById("status");
+const hintDiv = document.getElementById("hint-container");
 
 
 // redirect to home page
@@ -50,13 +53,13 @@ function update_course_options()
 {
     const course_options = {
         Vocabulary: [
-            {value: "spn1130", text: "Spainsh 1130"},
-            {value: "spn1131", text: "Spainsh 1131"},
-            {value: "spn2200", text: "Spainsh 2200"},
-            {value: "spn2201", text: "Spainsh 2201"}],
+            {value: "spn1130", text: "Spanish 1130"},
+            {value: "spn1131", text: "Spanish 1131"},
+            {value: "spn2200", text: "Spanish 2200"},
+            {value: "spn2201", text: "Spanish 2201"}],
         Grammar: [
-            {value: "spn1130", text: "Spainsh 1130"},
-            {value: "spn1131", text: "Spainsh 1131"},
+            {value: "spn1130", text: "Spanish 1130"},
+            {value: "spn1131", text: "Spanish 1131"},
         ]};
 
     // work
@@ -112,6 +115,13 @@ async function parse_the_file_info_and_setup()
     matchDiv.innerText = `Matches: ${matchCount}`;
     statusDiv.innerText = "";
     statusDiv.style.color = 'black';
+    lastClickedCard = {row: -1, col: -1};
+    // if there is a hint image remove it
+    let imgElement = hintDiv.querySelector("img");
+    if (imgElement)
+    {
+        imgElement.remove();
+    }
 
     // send the info to set up a new game
     const board_size = get_board_size();
@@ -213,6 +223,10 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     });
     const result = await res.json();
 
+    // save this for later if a hint is needed
+    lastClickedCard.row = incomingRow;
+    lastClickedCard.col = incomingCol;
+
     // the first card that is clicked returns none
     if (result.result === null ||
         clickedCards.length == 1) 
@@ -267,3 +281,49 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     }
 }
 
+document.getElementById('hint').onclick = hint_hint_baby;
+async function hint_hint_baby() 
+{
+    const row = lastClickedCard.row;
+    const col = lastClickedCard.col;
+
+    if (row == -1) 
+    {
+        hintDiv.textContent = "Please click a card...";
+        return;
+    }
+
+    // loading screen
+    hintDiv.textContent = "Loading Hint...";
+
+    // reset things
+    lastClickedCard = { row: -1, col: -1 };
+
+    try 
+    {
+        // make sure we can actually grab the image
+        const response = await fetch(`/matching/${gameId}/hint?row=${row}&col=${col}`);
+        if (!response.ok) 
+        {
+            hintDiv.textContent = "Failed to Load Hint...";
+            throw new Error("Failed to fetch hint image");
+        }
+
+        const blob = await response.blob();
+
+        const imgElement = document.createElement("img");
+        // lets cap this so it doesnt look crazy
+        imgElement.style.maxWidth = "300px";
+        imgElement.src = URL.createObjectURL(blob);
+
+        // clear all the writing
+        hintDiv.innerHTML = "";
+
+        // add the image
+        hintDiv.appendChild(imgElement);
+    } 
+    catch (error) 
+    {
+        console.error("Error loading hint image:", error);
+    }
+}
