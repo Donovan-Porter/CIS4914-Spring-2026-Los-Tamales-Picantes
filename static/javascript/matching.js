@@ -263,6 +263,8 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
 
         // clear the pending visuals on the card
         clickedCards.forEach(card => card.classList.remove("pending-match"));
+        // reset things
+        lastClickedCard = { row: -1, col: -1 };
     }
 
 
@@ -314,6 +316,7 @@ async function hint_hint_baby()
         const imgElement = document.createElement("img");
         // lets cap this so it doesnt look crazy
         imgElement.style.maxWidth = "300px";
+        imgElement.style.maxHeight = "300px";
         imgElement.src = URL.createObjectURL(blob);
 
         // clear all the writing

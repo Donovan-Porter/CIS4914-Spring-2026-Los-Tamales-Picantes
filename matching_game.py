@@ -1,9 +1,13 @@
+import os
+import uuid
+import requests
+import random
+
 from minigames.matching import MemoryGame
 from huggingface_hub import InferenceClient
 from dotenv import load_dotenv
-import os
-import uuid
-
+from PIL import Image
+from io import BytesIO
 
 # store each unique matching game
 games = {}
@@ -77,48 +81,113 @@ def _open_file(image_path):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
+def _get_keyword(word):
+    '''
+    clean up the word and get the main idea
+
+    :param word: english word 
+    '''
+    # check if it has special charater
+    has_special_char = False
+    special_char = ["/", "\\", ",", "("]
+    for each_char in special_char:
+        if word.find(each_char) != -1:
+            has_special_char = True
+        
+    # the word is short enough
+    if len(word) <= 100:
+        # no special char
+        if has_special_char == False:
+            return word
+    
+    # working with a word with a special char or too long
+    key_word = None
+
+    # remove everything after comma
+    clean_word = word.split(",")[0]
+
+    # remove everything after parenthesis
+    clean_word = clean_word.split("(")[0]
+
+    clean_word = clean_word.replace("/", " ").strip()
+    clean_word = clean_word.replace("\\", " ").strip()
+    noneed_words = ["to", "a", "the", "of", "in", "on", "at", "for", "with", "by", "from"]
+    words = clean_word.split()
+
+    for each_word in words:
+        if each_word.lower() not in noneed_words:
+            key_word = each_word
+            break
+
+    # if every word was filler then just take the first one
+    if key_word is None:
+        key_word = words[0]
+
+    return key_word
+
 def _image_generation(word):
     '''
     handle getting the image from the offsite model
+    handle if both models are rate limited
     save it locally
 
     :param word: english word 
     '''
+    key_word = _get_keyword(word)
+    image_path = f"minigames\\images\\{key_word}.png"
 
-    image_path = f"minigames\\images\\{word}.png"
 
     #TODO: maybe this is not needed because if the picture is bad...
     # try to see if the image has already been generated to save time
-    file_created = _open_file(image_path)
-    if file_created:
-        return image_path
+    # file_created = _open_file(image_path)
+    # if file_created:
+    #     return image_path
     
-    # get the token
+
+    # hugging face stuff
     HF_TOKEN = os.getenv("HF_TOKEN")
-
-    # prompt doesn't want just the word printed
     neg_prompt = "text, words"
-
     prompt_base = f"""
-    Subject Definition: {word}
-    Action and Context: Depict a capybara acting {word}
+    Subject Definition: {key_word}
+    Action and Context: Depict a capybara acting {key_word}
     Environment and Setting: Morning time
     Visual Style and References: 2000's art style, illustrative 
     Lighting and Color: dramatic
     Camera and Composition: framing
-    Quality and Realism Control: cinematic polish 
-    """
-    # different models that both work serverless
-    # model_id = "black-forest-labs/FLUX.1-schnell" # this one is nicer quality
-    model_id = "stabilityai/stable-diffusion-xl-base-1.0" # less nice but works
+    Quality and Realism Control: cinematic polish"""
+    models = ["black-forest-labs/FLUX.1-schnell",
+              "stabilityai/stable-diffusion-xl-base-1.0"]
 
-    
-    # get the image
     client = InferenceClient(token=HF_TOKEN)
-    image = client.text_to_image(
-        model=model_id,
-        negative_prompt=neg_prompt,
-        prompt=prompt_base)
 
-    image.save(image_path)
-    return image_path
+    for each_model in models:
+        try:
+            image = client.text_to_image(
+                        model=each_model,
+                        negative_prompt=neg_prompt,
+                        prompt=prompt_base)
+            image.save(image_path)
+            return image_path
+        except Exception as e:
+            print(f"Model {each_model} failed: {e}")
+
+
+    # both models failed so just search for the word
+    try:
+        PIXABAY_KEY = os.getenv("PIXABAY_KEY")
+        params = {
+            "key" : PIXABAY_KEY,
+            "q": key_word
+        }
+
+        response = requests.get("https://pixabay.com/api/", params=params).json()
+        hits = response["hits"]
+        # pick a random image from the results
+        img_url = random.choice(hits)["webformatURL"]
+
+        image = Image.open(BytesIO(requests.get(img_url).content))
+        image.save(image_path)
+        return image_path
+    except Exception as e:
+        print(f"Cannot find an image for {word}: {e}")
+        return None
