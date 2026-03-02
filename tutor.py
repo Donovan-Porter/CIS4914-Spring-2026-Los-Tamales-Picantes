@@ -12,7 +12,8 @@ import uuid
 
 
 import os, sys, json, random
-from conjugation_story import normalize_text, strip_article, find_grammar_dirs, generate_conjugation_story
+# from conjugation_story import normalize_text, strip_article, find_grammar_dirs, generate_conjugation_story
+from conjugation_convo import generate_conjugation_exercise_from_list, find_grammar_dirs, normalize_text
 
 #
 # ____/\____
@@ -181,31 +182,33 @@ def translate() :
 
             return render_template("translate.html", lang_flow=lang_flow)
 
-@app.route('/choose_course_conjugation')
-def choose_course_conjugation():
-    courses = find_grammar_dirs()
-    return render_template('choose_course_conjugation.html', courses=courses)
+@app.route('/choose_course_convo')
+def choose_course_convo():
+    courses = find_grammar_dirs()  # same function as before
+    return render_template('choose_course_convo.html', courses=courses)
 
-@app.route('/choose_chapter_conjugation')
-def choose_chapter_conjugation():
+@app.route('/choose_chapter_convo')
+def choose_chapter_convo():
     course = request.args.get('course')
     if not course:
-        return redirect(url_for('choose_course_conjugation'))
+        return redirect(url_for('choose_course_convo'))
+
     dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
     files = []
     try:
         files = sorted([f for f in os.listdir(dirpath) if f.endswith('.json')])
     except Exception:
         files = []
-    return render_template('choose_chapter_conjugation.html', course=course, files=files)
 
-@app.route('/choose_group_conjugation', methods=['GET','POST'])
-def choose_group_conjugation():
+    return render_template('choose_chapter_convo.html', course=course, files=files)
+
+@app.route('/choose_group_convo', methods=['GET','POST'])
+def choose_group_convo():
     course = request.values.get('course')
     vocab_file = request.values.get('file')
 
     if not course or not vocab_file:
-        return redirect(url_for('choose_course_conjugation'))
+        return redirect(url_for('choose_course_convo'))
     
     path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
     try:
@@ -215,92 +218,74 @@ def choose_group_conjugation():
         return f'Error loading vocab file: {e}'
 
     groups = data.get('groups', [])
-    
+
     if request.method == 'POST':
         group_index = int(request.form.get('group_index', 0))
-
         grammar_group = groups[group_index]
-        grammar_list = [
-            ex['derivative'].strip().rstrip('.!?') 
-            for ex in grammar_group.get('examples', [])
-        ]
 
-        session['vocab_bank'] = grammar_list
-        order = list(range(len(grammar_list)))
-        random.shuffle(order)
-        grammar_shuffled = [grammar_list[i] for i in order]
-        session['vocab_list'] = grammar_shuffled
+        # List of verbs/phrases
+        grammar_list = [ex['derivative'].strip().rstrip('.!?') for ex in grammar_group.get('examples', [])]
+        random.shuffle(grammar_list)
 
-        story = generate_conjugation_story(pipe, grammar_shuffled, title=grammar_group.get('title',''))
+        # Generate random conjugation exercises
+        exercises = generate_conjugation_exercise_from_list(pipe, grammar_list)
 
-        if not story:
-            return 'Story generation failed.'
-        
-        # DYNAMIC answer list (only words actually used, in order)
-        answer_vocab = [part['word'] for part in story]
+        # Save in session
+        session['convo_conjugation'] = exercises
+        session['revealed_convo'] = [False]*len(exercises)
+        session['current_index_convo'] = 0
+        session['vocab_list_convo'] = grammar_list
+        session['answer_vocab_convo'] = [ex['answer'] for ex in exercises]
 
-        session['story_conjugation'] = story
-        session['answer_vocab_conjugation'] = answer_vocab
-        session['revealed_conjugation'] = [False] * len(grammar_shuffled)
-        session['current_index_conjugation'] = 0
+        return redirect(url_for('convo_conjugation'))
 
-        return redirect(url_for('story_conjugation'))
+    return render_template('choose_group_convo.html', course=course, vocab_file=vocab_file, groups=groups)
 
-    return render_template('choose_group_conjugation.html', course=course, vocab_file=vocab_file, groups=groups)
+@app.route('/convo_conjugation', methods=['GET','POST'])
+def convo_conjugation():
+    exercises = session.get('convo_conjugation', [])
+    if not exercises:
+        return redirect(url_for('choose_course_convo'))
 
-@app.route('/story_conjugation', methods=['GET','POST'])
-def story_conjugation():
-    vocab_bank = session.get('vocab_bank', [])  # Static list of all vocab words
-    answer_vocab = session.get('answer_vocab_conjugation', [])  # Dynamic list of words used in the story
-
-    story = session.get('story_conjugation')
-    if not story:
-        return redirect(url_for('choose_course_conjugation'))
-
-    current = session.get('current_index_conjugation', 0)
-    revealed = session.get('revealed_conjugation', [False]*len(story))
+    current = session.get('current_index_convo', 0)
+    revealed = session.get('revealed_convo', [False]*len(exercises))
+    vocab_list = session.get('vocab_list_convo', [])
+    answer_vocab = session.get('answer_vocab_convo', [])
     message = None
 
     if request.method == 'POST':
         guess = request.form.get('guess','').strip()
-        if current >= len(story):
-            return redirect(url_for('story_conjugation'))
+        if current >= len(exercises):
+            return redirect(url_for('convo_conjugation'))
 
-        expected_word = story[current]['word']
-        guess_n = normalize_text(guess)
-        expected_n = normalize_text(expected_word)
-
-        if guess_n == expected_n:
+        expected_word = exercises[current]['answer']
+        if normalize_text(guess) == normalize_text(expected_word):
             revealed[current] = True
-            session['revealed_conjugation'] = revealed
-            session['current_index_conjugation'] = current + 1
-
-            if session['current_index_conjugation'] >= len(story):
-                # finished
+            session['revealed_convo'] = revealed
+            session['current_index_convo'] = current + 1
+            if current + 1 >= len(exercises):
                 return render_template(
-                    'story_conjugation.html',
-                    story=story,
+                    'convo_conjugation.html',
+                    story=exercises,
                     revealed=revealed,
                     finished=True,
                     current_index=current,
                     message=None,
-                    vocab_list=vocab_bank,
+                    vocab_list=vocab_list,
                     answer_vocab=answer_vocab
                 )
-
-            return redirect(url_for('story_conjugation'))
+            return redirect(url_for('convo_conjugation'))
         else:
             message = 'Try again!'
 
-
     return render_template(
-        'story_conjugation.html',
-        story=story,
+        'convo_conjugation.html',
+        story=exercises,
         revealed=revealed,
         current_index=current,
-        message=message,
         finished=False,
-        vocab_list=vocab_bank,
+        message=message,
+        vocab_list=vocab_list,
         answer_vocab=answer_vocab
     )
 
