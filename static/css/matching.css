@@ -10,9 +10,31 @@
     transform: scaleX(-1);
 }
 
+.match-top-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.points-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-left: auto;
+
+    font-size: 35px;
+    color: #FFBF00;
+}
+
+.points-container svg {
+    width: 3vw;
+    height: auto;
+}
+
 h1 {
     color: #EF233C;
-    margin: 2vw;
+    margin: 1vw;
 }
 
 .match-game-header {

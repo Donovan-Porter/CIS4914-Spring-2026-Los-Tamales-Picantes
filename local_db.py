@@ -66,10 +66,11 @@ class LocalDB:
         res = self.get_points(name)
         
         if res is None:
-            return 404
+            return "404"
         
         try:
             cursor.execute('''UPDATE Users SET POINTS = ?''', (points + res,))
+            print(points + res)
             conn.commit()
             
             return self.get_points(name)

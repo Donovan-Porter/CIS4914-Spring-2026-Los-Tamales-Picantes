@@ -3,6 +3,10 @@ let matchCount = 0;
 let clickedCards = [];
 let waiting = false;
 
+let points = 0;
+
+const pointsSpan = document.getElementById("points-number");
+
 const boardDiv = document.getElementById("board");
 const matchDiv = document.getElementById("match-count");
 const statusDiv = document.getElementById("status");
@@ -143,6 +147,10 @@ function loadBoard(state)
     // remove the old board
     boardDiv.innerHTML = "";
 
+    //reset points
+    points = 0;
+    pointsSpan.innerHTML = points;
+
     // loop through the entire board
     for (let eachRow = 0; eachRow < state.size; eachRow++) 
     {
@@ -239,6 +247,9 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
             card.classList.remove("pending-match")
             card.classList.add("matched")}
         );
+
+        // add points if correct
+        points++;
     } 
 
     // no match
@@ -249,6 +260,9 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
 
         // clear the pending visuals on the card
         clickedCards.forEach(card => card.classList.remove("pending-match"));
+
+        // subtract points if they get the match wrong
+        points--;
     }
 
 
@@ -264,6 +278,31 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
         // display that it is done
         statusDiv.innerText = "Game Done";
         statusDiv.style.color = "black";
+
+        // update in the backend
+        fetch('/update-points', {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({points: points})
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.status);
+            if (data.status === "OK")
+            {
+                alert("Points Recieved!");
+                points = 0;
+                pointsSpan.innerHTML = points;
+            }
+        })
+        .catch(error => {
+            console.log('Error', error)
+        });
     }
+
+    // update points frontend
+    pointsSpan.innerHTML = points;
 }
 
