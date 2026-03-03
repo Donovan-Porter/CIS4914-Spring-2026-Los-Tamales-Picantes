@@ -50,17 +50,17 @@ def subject_to_image(person):
 
     # Map plural feminine/masculine to shared images if needed
     mapping = {
-        "Yo": "Yo.png",
-        "Tú": "Tu.png",
-        "Usted": "Usted.png",
-        "Él": "El.png",
-        "Ella": "Ella.png",
-        "Nosotros": "Nosotros.png",
-        "Nosotras": "Nosotras.png",
-        "Vosotros": "Vosotros.png",
-        "Vosotras": "Vosotras.png",
-        "Ellos": "Ellos.png",
-        "Ellas": "Ellas.png"
+        "Yo": "YoCapy.png",
+        "Tú": "TuCapy.png",
+        "Usted": "UstedCapy.png",
+        "Él": "ElCapy.png",
+        "Ella": "EllaCapy.png",
+        "Nosotros": "NosotrosCapy.png",
+        "Nosotras": "NosotraCapy.png",
+        "Vosotros": "VosotrosCapy.png",
+        "Vosotras": "VosotrasCapy.png",
+        "Ellos": "EllosCapy.png",
+        "Ellas": "EllasCapy.png"
     }
 
     return mapping.get(key, "Default.png")
@@ -79,6 +79,45 @@ def extract_subject(phrase):
         if phrase.startswith(s + " "):  # ensure full word match
             return s
     return None
+
+def swap_article_for_gender_change(sentence, person_from, person_to):
+    """
+    Swap the article (el/la, un/una) if there's a gender change between person_from and person_to.
+    """
+    gender_map = {
+        "Yo": None,  # no gender associated directly
+        "Tú": None,
+        "Usted": None,
+        "Él": "masculine",
+        "Ella": "feminine",
+        "Nosotros": "masculine",
+        "Nosotras": "feminine",
+        "Vosotros": "masculine",
+        "Vosotras": "feminine",
+        "Ellos": "masculine",
+        "Ellas": "feminine",
+    }
+    
+    def get_gender(person):
+        return gender_map.get(person, None)
+
+    # get gender of both subjects
+    gender_from = get_gender(person_from)
+    gender_to = get_gender(person_to)
+
+    # if gender changes
+    if gender_from != gender_to:
+        article_changes = {
+            "el": "la", "la": "el",  # masculine/feminine singular
+            "un": "una", "una": "un",  # masculine/feminine singular
+            "los": "las", "las": "los",  # masculine/feminine plural
+            "unos": "unas", "unas": "unos"  # masculine/feminine plural
+        }
+
+        for article_from, article_to in article_changes.items():
+            sentence = re.sub(rf'\b{article_from}\b', article_to, sentence)
+        
+    return sentence
 
 def generate_conjugation_exercise_from_list(pipe, grammar_list):
 
@@ -158,6 +197,10 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
         if not person_from or not person_to:
             print("[DEBUG] Could not extract subject(s). Skipping.")
             continue
+
+        sentence_changed = swap_article_for_gender_change(sentence_changed, person_from, person_to)
+
+        print(f"[DEBUG] Sentence after gender-based article swap: {sentence_changed}")
 
         # Create blank
         sentence_blank = re.sub(
