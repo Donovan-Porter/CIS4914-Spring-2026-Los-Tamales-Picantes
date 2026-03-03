@@ -34,21 +34,19 @@ def find_grammar_dirs():
     return entries
 
 def clean_model_output(text):
-    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text) # Removes bold markdown
-    text = re.sub(r'\*([^*]+)\*', r'\1', text) # Removes italic markdown
+    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text) # removes bold markdown
+    text = re.sub(r'\*([^*]+)\*', r'\1', text) # removes italic markdown
         
-    text = text.replace('\n', ' ')  # Replace newlines with space
-    text = re.sub(r'\s+', ' ', text)  # Replace multiple spaces with a single space
+    text = text.replace('\n', ' ')  # replace newlines with space
+    text = re.sub(r'\s+', ' ', text)  # replace multiple spaces with a single space
     
-    # Remove leading and trailing spaces
+    # remove leading and trailing spaces
     text = text.strip()  
     return text
 
 def subject_to_image(person):
-    # Normalize capitalization
     key = person.capitalize()
 
-    # Map plural feminine/masculine to shared images if needed
     mapping = {
         "Yo": "YoCapy.png",
         "Tú": "TuCapy.png",
@@ -56,7 +54,7 @@ def subject_to_image(person):
         "Él": "ElCapy.png",
         "Ella": "EllaCapy.png",
         "Nosotros": "NosotrosCapy.png",
-        "Nosotras": "NosotraCapy.png",
+        "Nosotras": "NosotrasCapy.png",
         "Vosotros": "VosotrosCapy.png",
         "Vosotras": "VosotrasCapy.png",
         "Ellos": "EllosCapy.png",
@@ -85,7 +83,7 @@ def swap_article_for_gender_change(sentence, person_from, person_to):
     Swap the article (el/la, un/una) if there's a gender change between person_from and person_to.
     """
     gender_map = {
-        "Yo": None,  # no gender associated directly
+        "Yo": None, # no gender associated directly
         "Tú": None,
         "Usted": None,
         "Él": "masculine",
@@ -164,14 +162,14 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
 
         print(f"[DEBUG] Model generated sentence: {full_sentence}")
 
-        # Ensure exact match
+        # exact match
         if not re.search(rf'\b{re.escape(phrase_from)}\b', full_sentence):
             print("[DEBUG] phrase_from NOT found exactly in sentence. Skipping.")
             continue
 
         print("[DEBUG] phrase_from found successfully.")
 
-        # Replace subject phrase
+        # replace subject phrase
         sentence_changed = re.sub(
             rf'\b{re.escape(phrase_from)}\b',
             phrase_to,
@@ -187,7 +185,7 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
 
         print("[DEBUG] phrase_to confirmed in changed sentence.")
 
-        # Extract subjects
+        # extract subjects
         person_from = extract_subject(phrase_from)
         person_to = extract_subject(phrase_to)
 
@@ -202,7 +200,7 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
 
         print(f"[DEBUG] Sentence after gender-based article swap: {sentence_changed}")
 
-        # Create blank
+        # create blank
         sentence_blank = re.sub(
             rf'\b{re.escape(phrase_to)}\b',
             "_______",

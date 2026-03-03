@@ -3,6 +3,29 @@
 <head>
   <meta charset="utf-8">
   <title>Conjugation Conversation Exercise</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    .button-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .button-container button {
+      margin-left: 10px;
+    }
+
+    .sentence-with-blank {
+      display: inline;
+    }
+
+    #guess-input {
+      display: inline-block;
+      width: 200px;
+      padding: 4px;
+      margin-left: 10px;
+    }
+  </style>
 </head>
 <body>
 <h1>Fill the blanks to practice conjugation</h1>
@@ -41,37 +64,52 @@
 
       <div style="margin-bottom:20px">
 
-        <!-- First sentence image -->
+        <!-- first sentence image -->
         <img src="{{ ex.image_from }}" alt="{{ ex.from }}" style="height:120px;margin-bottom:10px">
 
-        <!-- First sentence -->
-        <p>{{ ex.sentence_full }}</p>
+        <!-- button for text to speech -->
+        <div style="display: flex; align-items: center;">
+          <!-- first sentence -->
+          <p style="margin-right: 10px;">{{ ex.sentence_full }}</p>
 
-        <!-- Second sentence image -->
+          <!-- button for text to speech (speaker button to the right) -->
+          <button onclick="speakSentence('{{ ex.sentence_full }}')" title="Listen to Sentence">
+            <i class="fas fa-volume-up"></i> <!-- Speaker icon -->
+          </button>
+        </div>
+
+        <!-- second sentence image -->
         <img src="{{ ex.image_to }}" alt="{{ ex.to }}" style="height:120px;margin:10px 0">
 
-        <!-- Second sentence (blank or filled) -->
+        <!-- second sentence (blank or filled) -->
         <p>
-          {% if revealed[idx] %}
-            {{ ex.sentence_blank.replace('_______', '<strong>' ~ ex.answer ~ '</strong>') | safe }}
+        {% if revealed[idx] %}
+          {{ ex.sentence_blank.replace('_______', '<strong>' ~ ex.answer ~ '</strong>') | safe }}
 
-          {% elif idx == current_index %}
-            {{ ex.sentence_blank }}
+        {% elif idx == current_index %}
 
-            <form method="post" style="margin-top:10px">
-              <input id="guess-input" name="guess" autocomplete="off"
-                    placeholder="Type here..." style="width:200px;padding:4px;display:block;margin-bottom:8px">
-              <button type="submit">Submit</button>
-            </form>
+          {% set inline_input %}
+            <input id="guess-input" name="guess" autocomplete="off"
+                  placeholder="Type here..." style="width:140px"
+                  value="{{ request.form.get('guess', '') }}">
+            <button type="submit" style="margin-left:6px">Submit</button>
+            <button type="button" onclick="toggleSpeechToText()" title="Speak the Answer"
+                    style="margin-left:6px">
+              <i class="fas fa-microphone"></i>
+            </button>
+            <span id="microphone-status" style="margin-left:6px"></span>
+          {% endset %}
 
-          {% else %}
-            {{ ex.sentence_blank }}
-          {% endif %}
+          <form method="post" style="display:inline">
+            {{ ex.sentence_blank.replace('_______', inline_input) | safe }}
+          </form>
+
+        {% else %}
+          {{ ex.sentence_blank }}
+        {% endif %}
         </p>
 
       </div>
-
-
     {% endfor %}
   </div>
 
@@ -83,25 +121,41 @@
 {% endif %}
 
 <script>
-(function(){
-  function insertAtCursor(ch){
-    var input = document.getElementById('guess-input');
-    if(!input) return;
-    var start = input.selectionStart || 0;
-    var end = input.selectionEnd || 0;
-    var val = input.value || '';
-    input.value = val.slice(0, start) + ch + val.slice(end);
-    var pos = start + ch.length;
-    input.selectionStart = input.selectionEnd = pos;
-    input.focus();
-  }
+let isListening = false;  // Track whether speech-to-text is active or not
 
-  document.getElementById('sp-keyboard').addEventListener('click', function(e){
-    if(e.target && e.target.classList.contains('sp-key')){
-      insertAtCursor(e.target.textContent);
-    }
-  });
-})();
+function speakSentence(sentence) {
+  const msg = new SpeechSynthesisUtterance(sentence);
+  msg.lang = 'es-ES';  // use Spanish language
+  window.speechSynthesis.speak(msg);  // speak the sentence
+}
+
+function toggleSpeechToText() {
+  const inputField = document.getElementById('guess-input');
+  const microphoneStatus = document.getElementById('microphone-status');
+
+  if (isListening) {
+    recognition.stop();
+    microphoneStatus.textContent = '';
+    isListening = false;
+  } else {
+    recognition.start();
+    microphoneStatus.textContent = 'Listening...';
+    isListening = true;
+  }
+}
+
+const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+recognition.lang = 'es-ES';
+
+recognition.onresult = function(event) {
+  const transcript = event.results[0][0].transcript;
+  const inputField = document.getElementById("guess-input");
+  inputField.value = transcript;
+}
+
+recognition.onerror = function(event) {
+  console.error('Speech recognition error:', event.error);
+}
 </script>
 
 </body>
