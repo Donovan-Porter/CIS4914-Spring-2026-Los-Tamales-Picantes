@@ -1,0 +1,102 @@
+h1 {
+    margin-left: 2vw;
+    color: #EF233C;
+}
+
+hr {
+    background: #FFBF00;
+
+    border-width: 0;
+    height: 0.4vh;
+}
+
+.profile-container {
+    margin: auto;
+
+    width: 50vw;
+    border: 1px solid black;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    background: #FFBF00;
+    font-size: 25px;
+
+    border-bottom: 1px solid black;
+
+    padding: 5px;
+}
+
+#user-icon {
+    width: 3vw;
+    height: auto;
+}
+
+.user-container{
+    width: 30vw;
+}
+
+.content {
+    color: #EF233C;
+    float: right;
+}
+
+.user-info {
+    margin: 1vw;
+}
+
+.delete-bttn {
+    float: right;
+    margin-right: 25vw;
+    margin-top: 2vh;
+}
+
+.delete-bttn button
+{
+    border: none;
+    border-radius: 5px;
+
+    width: 7vw;
+    height: 3.5vh;
+
+    padding: 5px;
+
+    color: white;
+    background-color: #EF233C;
+
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.delete-bttn button:hover
+{
+    transform: scale(1.1);
+}
+
+.logout-bttn button
+{
+    border: none;
+    border-radius: 5px;
+
+    width: 7vw;
+    height: 3.5vh;
+
+    padding: 5px;
+
+    color: white;
+    background-color: #0067A5;
+
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+    margin-top: 1vh;
+}
+
+.logout-bttn button:hover
+{
+    transform: scale(1.1);
+}
