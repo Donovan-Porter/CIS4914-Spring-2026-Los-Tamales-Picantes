@@ -97,7 +97,7 @@ def toggle_timer():
 @app.route("/profile", methods=["POST", "GET"])
 def load_profile():
     if session.get("local_login") is True:
-        return render_template("profile.html", username=session['username'], points=f"Points: {session['points']}")
+        return render_template("profile.html", username=session['username'], points=session['points'])
 
     return redirect(url_for('sign_up'))
 
@@ -123,6 +123,9 @@ def sign_up():
         username = request.form["username"]
 
         try:
+            if len(username) == 0:
+                return redirect(url_for('sign_up'))
+            
             res = localdb_handler.create_user(username)
             
             if res == 409:
