@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+
+
+<head>
+    <title>
+    {% block title %}
+    {% endblock %}
+    </title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<span class="header"></span>
+<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+
+<!-- Copied from Google, which probably got it from: https://flask.palletsprojects.com/en/stable/patterns/flashing/ 
+It's also found here https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <script type="text/javascript">
+      {% for category, message in messages %}
+        alert("{{ message }}");
+      {% endfor %}
+    </script>
+  {% endif %}
+{% endwith %}
+
+<body>
+{% block body %}
+{% endblock %}
+</body>
+</html>
+
+
