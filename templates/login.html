@@ -5,27 +5,33 @@
         Log-In
     </title>
     <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/login.css">
 </head>
 
 <span class="header"></span>
 <script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
 
 
-<div>
-    <span>LOG IN PAGE</span>
-    <form id="login-form" action="{{url_for('login')}}" method="POST">
-        <div>
-            <label for="">Username</label>
-            <input id="username" type="username" name="username">
-        </div>
+<div class="login-container">
+    <div class="welcome-container">
+        <span>¡Bienvenido! ¿Listo para jugar?</span>
+        <img src="/static/images/picantecapy.png" alt="Logo" class="profile-image" draggable="false">
+    </div>
 
-        <button type="submit">
-            Enter.
-        </button>
-    </form>
+    <div class="login-section">
+        <span class="login-title">Login</span>
+        <form id="login-form" action="{{url_for('login')}}" method="POST">
+            <div>
+                <label for="">Username</label>
+                <input id="username" type="username" name="username">
+            </div>
 
-    <div>
-        <a href="/sign-up" title="Login">Sign Up</a>
+            <button type="submit">
+                ¡Vamos!
+            </button>
+        </form>
+        
+        <a id="signup-link" href="/sign-up" title="Login">No account? Make one!</a>
     </div>
 
 </div>
