@@ -79,7 +79,26 @@ def update_points():
     
     if session.get("local_login") is True:
         points = request.get_json().get("points")
-        print("Updating points", points)
+        time = request.get_json().get("time")
+        size = request.get_json().get("size")
+        
+        high = 30 # last time before normal points are rewarded
+        low = 20  # first time where half points are rewarded
+        
+        if size == 6:
+            high = 120
+            low = 60
+        elif size == 8:
+            high = 240
+            low = 180
+        
+        if time > 0:
+            if high > time >= low:
+                points = points * (size/2)
+            elif low > time:
+                points = points * size
+        
+        print("Updating points", points, "time", time)
         res = localdb_handler.update_points(session["username"], points)
         
         if res == "404":

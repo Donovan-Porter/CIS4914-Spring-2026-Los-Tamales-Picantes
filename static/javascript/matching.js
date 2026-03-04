@@ -3,8 +3,9 @@ let matchCount = 0;
 let clickedCards = [];
 let waiting = false;
 
-let points = 0;
+let start = false;
 
+let points = 0;
 const pointsSpan = document.getElementById("points-number");
 
 const boardDiv = document.getElementById("board");
@@ -117,6 +118,10 @@ async function parse_the_file_info_and_setup()
     statusDiv.innerText = "";
     statusDiv.style.color = 'black';
 
+    // reset timer variables
+    start = false;
+    count = 0;
+
     // send the info to set up a new game
     const board_size = get_board_size();
 
@@ -189,6 +194,9 @@ function loadBoard(state)
             boardDiv.appendChild(cardDiv);
         }
     }
+
+    // set start to true to start the timer
+    start = true;
 
     // loading the hint button 
     document.getElementById("hint").style.display = 'inline-block'; 
@@ -279,13 +287,16 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
         statusDiv.innerText = "Game Done";
         statusDiv.style.color = "black";
 
+        // stop the time
+        start = false;
+
         // update in the backend
         fetch('/update-points', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({points: points})
+            body: JSON.stringify({points: points, time: count, size: get_board_size()})
         })
         .then(response => response.json())
         .then(data => {
@@ -306,3 +317,41 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     pointsSpan.innerHTML = points;
 }
 
+// timer
+timeBox = document.getElementById("timer-container");
+time = document.getElementById("time");
+var count = 0;
+var interval = setInterval(function() {
+
+    fetch('/toggleTimer', {
+        method: 'GET',
+    })
+    .then(response => response.json())
+    .then(data => {
+       // console.log(data.status);
+        if (data.status === true)
+        {
+            timeBox.style.display = "flex";
+
+            if (start === true)
+            {
+                count++;
+                time.innerHTML = count;
+            }
+            else
+            {
+                time.innerHTML = count;
+            }
+        }
+        else
+        {
+            clearInterval(interval);
+            timeBox.style.display = "none";
+            time.innerHTML = "";
+        }
+    })
+    .catch(error => {
+        console.log('Error', error)
+    });
+
+}, 1000);

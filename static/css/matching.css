@@ -185,3 +185,15 @@ h1 {
 .hint_bttn:active {
     transform: scale(1.4);
 }
+
+#timer-container {
+    display: none;
+    align-items: center;
+
+    margin-top: 2vh;
+}
+
+#time {
+    font-size: 20px;
+    margin: 10px;
+}
