@@ -3,7 +3,8 @@ from flaskwebgui import FlaskUI
 
 #TODO: fix quiz
 from quiztest import Quiz, Question
-
+import sqlite3
+from local_db import LocalDB
 import argostranslate.translate
 
 # TODO: valerie matching game
@@ -52,6 +53,9 @@ trailing = compile(r'(?<=[!?.])\s*(?:\n[#*]+[^\n]*\n)?(?:(?:\d+|\S)\.)?[^!?.`"\'
 # TODO: Improve the regular expression
 
 app = Flask(__name__, static_folder="/")
+
+# LOCAL DB
+localdb_handler = LocalDB()
 
 # Toggles
 timerOn = True
