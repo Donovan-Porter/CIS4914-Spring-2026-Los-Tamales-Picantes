@@ -1,8 +1,8 @@
 from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify, send_file
 from flaskwebgui import FlaskUI
 
-#TODO: fix quiz
-from quiztest import Quiz, Question
+import sqlite3
+from local_db import LocalDB
 
 import argostranslate.package # TODO: See if this import is necessary
 import argostranslate.translate
@@ -53,11 +53,7 @@ app = Flask(__name__, static_folder="/")
 # Toggles
 timerOn = True
 
-# TODO: fix quiz (tutorial video: https://www.youtube.com/watch?v=PdHYd8N30_4)
 app.secret_key = "quiz-dev-key"
-quiz = Quiz()
-quiz.add_question(Question("What is my name?", ['Poop', 'Poop1', 'Poop2'], 0))
-quiz.add_question(Question("What is my age?", ['1', '12', '14'], 2))
 
 @app.route('/favicon.ico')
 def favicon() :
@@ -82,6 +78,41 @@ def toggle_timer():
         return jsonify({'status' : timerOn})
  
     return jsonify({"Error Timer Toggle": "Error: Could not process /toggleTimer"})
+
+@app.route("/update-points", methods=["POST"])
+def update_points():
+    
+    if session.get("local_login") is True:
+        points = request.get_json().get("points")
+        time = request.get_json().get("time")
+        size = request.get_json().get("size")
+        
+        high = 30 # last time before normal points are rewarded
+        low = 20  # first time where half points are rewarded
+        
+        if size == 6:
+            high = 120
+            low = 60
+        elif size == 8:
+            high = 240
+            low = 180
+        
+        if time > 0:
+            if high > time >= low:
+                points = points * (size/2)
+            elif low > time:
+                points = points * size
+        
+        print("Updating points", points, "time", time)
+        res = localdb_handler.update_points(session["username"], points)
+        
+        if res == "404":
+            return jsonify({"Error Update Points": "Error: Could not process points update"})
+       
+        # update the session points to display on UI
+        session['points'] = res
+        return jsonify({'status' : "OK"})
+
 
 @app.route("/profile", methods=["POST", "GET"])
 def load_profile():
@@ -157,44 +188,7 @@ def login():
     reset_login_session()
     return render_template("login.html")
     
-@app.route("/start_quiz")
-def start_quiz():
-    session.clear()
-    session['current_question'] = 0
-    session['score'] = 0
-    return redirect(url_for('quiz_view'))
     
-@app.route("/quiz_view", methods=['GET', 'POST'])
-def quiz_view():   
-    if request.method == 'POST':
-        selected_option = request.form.get('option')
-        current_question_index = session.get('current_question')
-        if selected_option is not None:
-            correct_option = quiz.questions[current_question_index].correct_option
-            if int(selected_option) == correct_option:
-                session['score'] += 1
-        
-        session['current_question'] += 1
-        if session['current_question'] >= len(quiz.questions):
-            current_question_index = 0
-            return redirect(url_for('results'))
-
-
-    current_question_index = session.get('current_question')
-    question = quiz.questions[current_question_index]
-    return render_template('quiz.html', question=question, question_index=current_question_index + 1, total_questions = len(quiz.questions))
-
-@app.route("/results")
-def results():
-    score = session.get('score')
-    total_questions = len(quiz.questions)
-    
-    if score is None:
-        score = 0
-        
-    return f'<h1>Your Score: {score}/{total_questions}</h1> <a href="/">Home</a>'        
-
-
 @app.route("/chat", methods = ['GET', 'POST', 'DELETE'])
 def chat() :
     # TODO: Save chat history
