@@ -1,5 +1,4 @@
 import random
-import string
 import json
 
 
@@ -34,6 +33,9 @@ class Card:
             return self.spanish
         return self.english
     
+    def get_english_word(self):
+        return self.english
+
     def set_row_col(self, row, col):
         self.row = row
         self.col = col
@@ -255,6 +257,21 @@ class MemoryGame:
         return {"result": game_state, "state": self.state()}
 
     
+    def get_english_word_for_card(self, row, col):
+        '''
+        Handle generating an image for the 
+        
+        :param row: row for the clicked card
+        :param col: col for the clicked card
+        '''
+
+        current_card = self.game_board[row][col]
+
+        english_word = current_card.get_english_word()
+
+        return english_word
+
+
     def state(self):
         '''
         Get the game state for the frontend  

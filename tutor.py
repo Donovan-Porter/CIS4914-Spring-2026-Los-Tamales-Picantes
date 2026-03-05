@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify
+from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify, send_file
 from flaskwebgui import FlaskUI
 
 import sqlite3
@@ -50,18 +50,10 @@ unpunctuated = compile("(?<=[!?.])[^!?.]*$")
 
 app = Flask(__name__, static_folder="/")
 
-# LOCAL DB
-localdb_handler = LocalDB()
-
 # Toggles
 timerOn = True
 
 app.secret_key = "quiz-dev-key"
-
-def reset_login_session():
-    session["local_login"] = False
-    session["username"] = ""
-    session["points"] = ""
 
 @app.route('/favicon.ico')
 def favicon() :
@@ -420,7 +412,6 @@ def create_matching_game():
     spn_lvl = request.json.get("spanish_level", "spn1130")
     chp_num = request.json.get("chapter_number", 1)
     file_type = request.json.get("file_type", "Vocabulary")
-
     return matching_game.create_game(returned_size, spn_lvl, chp_num, file_type)
 
 @app.route("/matching/<game_id>/click", methods=["POST"])
@@ -432,6 +423,17 @@ def click_card(game_id):
     row = request.json.get("row")
     col = request.json.get("col")
     return matching_game.handle_click_card(game_id, row, col)
+
+@app.route("/matching/<game_id>/hint", methods=["GET"])
+def hint_image(game_id):
+    """
+    generate and return a hint image for the selected card
+    """
+    row = int(request.args.get("row"))
+    col = int(request.args.get("col"))
+    image_path = matching_game.handle_hint_image(game_id, row, col)
+    # send the image to the frontend to display
+    return send_file(image_path, mimetype="image/png")
 
 
 if __name__ == "__main__" :
