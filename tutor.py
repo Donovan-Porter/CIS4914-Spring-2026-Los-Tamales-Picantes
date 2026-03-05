@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify, senf_file, abort, flash
+from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify, send_file, abort, flash
 from flaskwebgui import FlaskUI
 
 #TODO: fix quiz
@@ -477,3 +477,4 @@ def hint_image(game_id):
 if __name__ == "__main__" :
 
     FlaskUI(app=app, server="flask").run()
+
