@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
 
-<head>
-    <title>
-        Log-In
-    </title>
-    <link rel="stylesheet" href="/static/css/style.css">
-    <link rel="stylesheet" href="/static/css/login.css">
-</head>
+{% extends "base.html" %}
 
-<span class="header"></span>
-<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+{% block title %} Log-In {% endblock %}
 
+{% block body %}
+<link rel="stylesheet" href="/static/css/login.css">
 
 <div class="login-container">
     <div class="welcome-container">
@@ -35,3 +29,4 @@
     </div>
 
 </div>
+{% endblock %}

@@ -1,10 +1,10 @@
-from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify, send_file
+from flask import Flask, render_template, send_from_directory, request, session, redirect, url_for, jsonify, send_file, abort, flash
 from flaskwebgui import FlaskUI
 
 #TODO: fix quiz
 from quiztest import Quiz, Question
-
-import argostranslate.package # TODO: See if this import is necessary
+import sqlite3
+from local_db import LocalDB
 import argostranslate.translate
 
 # TODO: valerie matching game
@@ -23,7 +23,6 @@ from short_story import normalize_text, strip_article, find_vocab_dirs, generate
 # Global variables
 lang_flow = "row"
 en_src = True
-#message_role = {"role": "system", "content": "You are an insightful, patient, and knowledgable, tutor for the Spanish language."}
 message_role = {
     "role": "system",
     "content": """
@@ -42,13 +41,21 @@ os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
-# TODO: Find source and fix 'headertoolarge' error caused by pipeline on pulls from branches not don-dev
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
-from re import sub, compile # For stripping un-punctuated portions
-unpunctuated = compile("(?<=[!?.])[^!?.]*$")
 
+# Chatbot output sanitation using regular expression
+from re import sub, compile
+# Match any whitespace after punctuation == r'(?<=[!?.])\s*'
+# Match a potential line starting with '#' or '*' (markdown headers) == r'(?:\n[#*]+[^\n]*\n)?'
+# Match a potential number with arbitrary digits or non-whitespace followed by a period, e.g. '1.', 'a.', '-.', or '99.' (markdown lists) == r'(?:(?:\d+|\S)\.)?'
+# Match an arbirary string until end of input unless is has ending punctuations like exclamation, single or double quotation, question, period, or tick mark (markdown code block) == r'[^!?.`"\']*$'
+trailing = compile(r'(?<=[!?.])\s*(?:\n[#*]+[^\n]*\n)?(?:(?:\d+|\S)\.)?[^!?.`"\']*$')
+# TODO: Improve the regular expression
 
 app = Flask(__name__, static_folder="/")
+
+# LOCAL DB
+localdb_handler = LocalDB()
 
 # Toggles
 timerOn = True
@@ -58,7 +65,11 @@ app.secret_key = "quiz-dev-key"
 quiz = Quiz()
 quiz.add_question(Question("What is my name?", ['Poop', 'Poop1', 'Poop2'], 0))
 quiz.add_question(Question("What is my age?", ['1', '12', '14'], 2))
-
+def reset_login_session():
+    session["local_login"] = False
+    session["username"] = ""
+    session["points"] = ""
+    
 @app.route('/favicon.ico')
 def favicon() :
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
@@ -86,7 +97,7 @@ def toggle_timer():
 @app.route("/profile", methods=["POST", "GET"])
 def load_profile():
     if session.get("local_login") is True:
-        return render_template("profile.html", username=session['username'], points=session['points'])
+        return render_template("profile.html", username=session['username'], points=f"Points: {session['points']}")
 
     return redirect(url_for('sign_up'))
 
@@ -97,14 +108,21 @@ def logout():
 
 @app.route("/profile/delete", methods=["POST", "GET"])
 def delete():
-    print("session", session["username"])
-    res = localdb_handler.delete_user(session["username"])
-    
-    if res == 404:
-        return redirect(url_for('load_profile'))
+    try:
+        print("session", session["username"])
+        res = localdb_handler.delete_user(session["username"])
+        
+        if res == 404:
+            flash("ERROR 404: User not found.")
+            return redirect(url_for('load_profile'))
 
-    reset_login_session()
-    return redirect(url_for('sign_up'))
+    except Exception as e:
+        print("Error occurred during profile deletion:", e)
+        flash("An error has occurred.")
+
+    finally:
+        reset_login_session()
+        return redirect(url_for('sign_up'))
 
 @app.route("/sign-up", methods=["POST", "GET"])
 def sign_up():
@@ -112,12 +130,10 @@ def sign_up():
         username = request.form["username"]
 
         try:
-            if len(username) == 0:
-                return redirect(url_for('sign_up'))
-            
             res = localdb_handler.create_user(username)
             
             if res == 409:
+                flash("User already exists.")
                 return redirect(url_for('login'))
             
             session["local_login"] = True
@@ -127,6 +143,7 @@ def sign_up():
 
         except Exception as e:
             print("Error occurred during sign up:", e)
+            flash("An error occurred.")
             return redirect(url_for('sign_up'))
 
     reset_login_session()
@@ -142,17 +159,19 @@ def login():
             user = localdb_handler.get_user(username)
             
             if user is None:
+                flash("Invalid user.")
                 return redirect(url_for('login'))
             
             session["local_login"] = True
             session["username"] = user
             session["points"] = localdb_handler.get_points(username)
 
-            return redirect(url_for('load_profile'))
-
         except Exception as e:
             print("Error occurred during local sign up:", e)
             return redirect(url_for('login'))
+
+        finally:
+            return redirect(url_for('load_profile'))
 
     reset_login_session()
     return render_template("login.html")
@@ -197,34 +216,43 @@ def results():
 
 @app.route("/chat", methods = ['GET', 'POST', 'DELETE'])
 def chat() :
-    # TODO: Save chat history
     # TODO: Add Markdown support.
-    # TODO: Make output pretty
+    # TODO: Ensure ends in punctuation
 
+    # Declared at top of file
     global messages
     output = []
     
+    # First page load
     if "GET" == request.method :
+
+        # Pre-loaded messages (see messages declaration)
         for n in range(1, len(messages)) :
             output.append(messages[n]['content'])
-            
+        # Render page with pre-loaded messages
         return render_template("chat.html", chat_output = output)
+    # Update the logs
     elif "POST" == request.method :
-        print(request.form["chat-input"])
+
+        # Get form data submitted by page
         input = request.form["chat-input"]
 
+        # Add data to 'messages' variable
         messages.append({"role": "user", "content": input})
-        #messages = [{"role": "user", "content": input}]
-        #out = pipe(messages)
+
+        # Generate output
         out = pipe(messages, max_new_tokens=333)
+
         # Get generated string
         generated_string = out[0]["generated_text"][-1]
 
         # Strip any un-punctuated trailing bits
-        # TODO: Make a better fix for the LLM cutting off mid-sentence.
-        global unpunctuated
+        # TODO: Test lag time of regular expression use; look into faster options
+        global trailing
         new_content = generated_string["content"]
-        generated_string["content"] = sub(unpunctuated, "", new_content)
+
+        generated_string["content"] = sub(trailing, "", new_content)
+        new_content = generated_string["content"]
 
         # Add output to 'messages'
         # The LLM input is these chat logs
@@ -235,8 +263,6 @@ def chat() :
         # TODO: See if persistent variable is faster
         for n in range(1, len(messages)) :
             output.append(messages[n]['content'])
-   
-        print(output)
 
         return render_template("chat.html", chat_output = output)
     
@@ -430,6 +456,20 @@ def click_card(game_id):
     col = request.json.get("col")
     return matching_game.handle_click_card(game_id, row, col)
 
+# TODO: Remove the giant 'CAUSE ERROR' button in index, and remove this (or, keep it. Whatever.)
+# Just for showing the `abort()` functionality
+@app.route("/ERROR", methods=["GET"])
+def ERROR() :
+    abort(500)
+
+@app.errorhandler(500)
+def internal_error(error) :
+    return render_template("500.html")
+
+@app.errorhandler(409)
+def conflict_error(error) :
+    #flash("Input cannot be used.")
+    pass
 @app.route("/matching/<game_id>/hint", methods=["GET"])
 def hint_image(game_id):
     """
@@ -445,3 +485,4 @@ def hint_image(game_id):
 if __name__ == "__main__" :
 
     FlaskUI(app=app, server="flask").run()
+
