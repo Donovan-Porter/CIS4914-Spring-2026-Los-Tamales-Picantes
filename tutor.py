@@ -61,7 +61,11 @@ app.secret_key = "quiz-dev-key"
 quiz = Quiz()
 quiz.add_question(Question("What is my name?", ['Poop', 'Poop1', 'Poop2'], 0))
 quiz.add_question(Question("What is my age?", ['1', '12', '14'], 2))
-
+def reset_login_session():
+    session["local_login"] = False
+    session["username"] = ""
+    session["points"] = ""
+    
 @app.route('/favicon.ico')
 def favicon() :
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
