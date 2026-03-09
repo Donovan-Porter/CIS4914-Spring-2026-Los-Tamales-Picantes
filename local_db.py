@@ -1,14 +1,28 @@
 import sqlite3
-# cursor.execute("CREATE TABLE Users(NAME TEXT, POINTS INTEGER)")  
+# cursor.execute("CREATE TABLE Users(NAME TEXT, POINTS INTEGER)") 
+import os, sys
 
 class LocalDB:
+
     def __init__(self):
-        conn = sqlite3.connect('local_users.db') 
+        conn = sqlite3.connect(LocalDB.Path('local_users.db'))
         conn.cursor()
+
+    @staticmethod
+    def Path(relative_path):
+        """ Stolen from Google, which stole from StackOverflow:
+            https://stackoverflow.com/questions/51060894/adding-a-data-file-in-pyinstaller-using-the-onefile-option"""
+        try:
+            # PyInstaller creates a temp folder and stores path in _MEIPASS
+            base_path = sys._MEIPASS
+        except Exception:
+            base_path = os.path.abspath(".")
+        return os.path.join(base_path, relative_path)
+
             
     def create_user(self, name):
         
-        conn = sqlite3.connect('local_users.db') 
+        conn = sqlite3.connect(LocalDB.Path('local_users.db'))
         cursor = conn.cursor()
         res = self.get_user(name)
         
@@ -28,7 +42,7 @@ class LocalDB:
 
     
     def get_user(self, name):
-        conn = sqlite3.connect('local_users.db') 
+        conn = sqlite3.connect(LocalDB.Path('local_users.db'))
         cursor = conn.cursor()
         
         try:
@@ -44,7 +58,7 @@ class LocalDB:
 
             
     def get_points(self, name):
-        conn = sqlite3.connect('local_users.db') 
+        conn = sqlite3.connect(LocalDB.Path('local_users.db'))
         cursor = conn.cursor()
         
         try:
@@ -61,7 +75,7 @@ class LocalDB:
 
 
     def update_points(self, name, points):
-        conn = sqlite3.connect('local_users.db') 
+        conn = sqlite3.connect(LocalDB.Path('local_users.db'))
         cursor = conn.cursor()
         res = self.get_points(name)
         
@@ -80,7 +94,7 @@ class LocalDB:
 
     
     def delete_user(self, name):
-        conn = sqlite3.connect('local_users.db') 
+        conn = sqlite3.connect(LocalDB.Path('local_users.db'))
         cursor = conn.cursor()
         res = self.get_user(name)
         

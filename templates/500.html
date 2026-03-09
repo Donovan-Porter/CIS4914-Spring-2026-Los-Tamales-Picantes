@@ -1,0 +1,53 @@
+
+<!DOCTYPE HTML>
+
+<head>
+  <title>
+    Learn - El Tamale Picante
+  </title>
+
+<style>
+    .center {text-align:center;}
+    .left-decor-image {
+  position: fixed;
+
+  height: 40vh;
+  width: auto;
+
+  top: 13vh;
+  left: 5vw;
+
+  transform: rotate(-5deg);;}
+</style>
+
+</head>
+
+
+<span class="header"></span>
+
+<img src="/static/images/duck.png" alt="Duck Decor" class="left-decor-image" draggable="false">
+<img src="/static/images/capy.png" alt="Capy Decor" class="main-decor-image" draggable="false">
+
+<div class="center">
+    <h1>
+        ERROR 500: INTERNAL SERVER ERROR
+    </h1>
+    <p>
+        An unknown, but definitely bland, error has occurred.
+        We're sorry for the inconvenience.
+    </p>
+    <p>
+        <a href="/">
+            Home
+        </a>
+    </p>
+</div>
+
+
+<script async type="text/javascript" src="/static/javascript/header.js"></script>
+<script>
+    header = document.querySelector(".header");
+</script>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/index.css') }}" >
