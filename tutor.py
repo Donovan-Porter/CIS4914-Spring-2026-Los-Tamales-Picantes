@@ -50,10 +50,17 @@ unpunctuated = compile("(?<=[!?.])[^!?.]*$")
 
 app = Flask(__name__, static_folder="/")
 
+# LOCAL DB
+localdb_handler = LocalDB()
+
 # Toggles
 timerOn = True
 
 app.secret_key = "quiz-dev-key"
+def reset_login_session():
+    session["local_login"] = False
+    session["username"] = ""
+    session["points"] = ""
 
 @app.route('/favicon.ico')
 def favicon() :
