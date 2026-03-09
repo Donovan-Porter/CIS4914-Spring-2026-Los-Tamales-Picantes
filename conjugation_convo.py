@@ -34,14 +34,19 @@ def find_grammar_dirs():
     return entries
 
 def clean_model_output(text):
-    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text) # removes bold markdown
-    text = re.sub(r'\*([^*]+)\*', r'\1', text) # removes italic markdown
+    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)  # removes bold markdown
+    text = re.sub(r'\*([^*]+)\*', r'\1', text)  # removes italic markdown
         
     text = text.replace('\n', ' ')  # replace newlines with space
     text = re.sub(r'\s+', ' ', text)  # replace multiple spaces with a single space
     
     # remove leading and trailing spaces
-    text = text.strip()  
+    text = text.strip()
+
+    # check if the text contains more than one sentence, only take the first
+    if '.' in text:
+        text = text.split('.')[0].strip() + '.'
+
     return text
 
 def subject_to_image(person):
@@ -115,6 +120,17 @@ def swap_article_for_gender_change(sentence, person_from, person_to):
         for article_from, article_to in article_changes.items():
             sentence = re.sub(rf'\b{article_from}\b', article_to, sentence)
         
+        adjective_changes = {
+            "único": "única",
+            "primer": "primera"
+        }
+
+        for adj_from, adj_to in adjective_changes.items():
+            if gender_from == "masculine" and gender_to == "feminine":
+                sentence = re.sub(rf'\b{adj_from}\b', adj_to, sentence)
+            elif gender_from == "feminine" and gender_to == "masculine":
+                sentence = re.sub(rf'\b{adj_to}\b', adj_from, sentence)
+        
     return sentence
 
 def swap_indirect_pronouns(person_from, person_to, sentence):
@@ -184,6 +200,11 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
         full_sentence = clean_model_output(
             out[0]['generated_text'][1]['content'].strip()
         )
+
+        # common LLM generated mistake sentences to skip
+        if full_sentence == "Yo soy yo." or full_sentence == "Yo soy tú.":
+            print(f"[DEBUG] Skipping invalid sentence generation for phrase: {phrase_from}")
+            continue
 
         print(f"[DEBUG] Model generated sentence: {full_sentence}")
 
