@@ -88,20 +88,18 @@
 
         {% elif idx == current_index %}
 
-          {% set inline_input %}
+          <form method="post" style="display:inline">
+            {{ ex.sentence_blank.split('_______')[0]|safe }}
             <input id="guess-input" name="guess" autocomplete="off"
                   placeholder="Type here..." style="width:140px"
                   value="{{ request.form.get('guess', '') }}">
+            {{ ex.sentence_blank.split('_______')[1]|safe }}
             <button type="submit" style="margin-left:6px">Submit</button>
             <button type="button" onclick="toggleSpeechToText()" title="Speak the Answer"
                     style="margin-left:6px">
               <i class="fas fa-microphone"></i>
             </button>
             <span id="microphone-status" style="margin-left:6px"></span>
-          {% endset %}
-
-          <form method="post" style="display:inline">
-            {{ ex.sentence_blank.replace('_______', inline_input) | safe }}
           </form>
 
         {% else %}
@@ -121,7 +119,7 @@
 {% endif %}
 
 <script>
-let isListening = false;  // Track whether speech-to-text is active or not
+let isListening = false;  // track whether speech-to-text is active or not
 
 function speakSentence(sentence) {
   const msg = new SpeechSynthesisUtterance(sentence);
@@ -156,6 +154,27 @@ recognition.onresult = function(event) {
 recognition.onerror = function(event) {
   console.error('Speech recognition error:', event.error);
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const keyboardButtons = document.querySelectorAll('.sp-key');
+  const inputField = document.getElementById('guess-input');
+
+  keyboardButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const char = button.textContent;
+
+      const start = inputField.selectionStart;
+      const end = inputField.selectionEnd;
+      const value = inputField.value;
+
+      inputField.value = value.slice(0, start) + char + value.slice(end);
+
+      inputField.selectionStart = inputField.selectionEnd = start + char.length;
+
+      inputField.focus();
+    });
+  });
+});
 </script>
 
 </body>

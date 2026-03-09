@@ -117,6 +117,31 @@ def swap_article_for_gender_change(sentence, person_from, person_to):
         
     return sentence
 
+def swap_indirect_pronouns(person_from, person_to, sentence):
+    # define indirect pronouns based on the subject
+    indirect_pronouns = {
+        "Yo": "me",        # Yo -> me
+        "Tú": "te",        # Tú -> te
+        "Usted": "le",     # Usted -> le
+        "Él": "le",        # Él -> le
+        "Ella": "le",      # Ella -> le
+        "Nosotros": "nos", # Nosotros -> nos
+        "Nosotras": "nos", # Nosotras -> nos
+        "Vosotros": "os",  # Vosotros -> os
+        "Vosotras": "os",  # Vosotras -> os
+        "Ellos": "les",    # Ellos -> les
+        "Ellas": "les"     # Ellas -> les
+    }
+
+    # get the indirect pronoun for each subject
+    pronoun_from = indirect_pronouns.get(person_from, None)
+    pronoun_to = indirect_pronouns.get(person_to, None)
+
+    if pronoun_from and pronoun_to:
+        sentence = re.sub(r'\b' + re.escape(pronoun_from) + r'\b', pronoun_to, sentence)
+    
+    return sentence
+
 def generate_conjugation_exercise_from_list(pipe, grammar_list):
 
     exercises = []
@@ -148,7 +173,7 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
         print(f"[DEBUG] phrase_to selected: {phrase_to}")
 
         prompt = (
-            f"Escribe SÓLO una oración que use EXACTAMENTE la frase '{phrase_from}'. "
+            f"Escribe SÓLO una oración que simple use EXACTAMENTE la frase '{phrase_from}'. "
             "No cambies el verbo ni el tiempo. Incluye un complemento."
         )
 
@@ -196,6 +221,7 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
             print("[DEBUG] Could not extract subject(s). Skipping.")
             continue
 
+        sentence_changed = swap_indirect_pronouns(person_from, person_to, sentence_changed)
         sentence_changed = swap_article_for_gender_change(sentence_changed, person_from, person_to)
 
         print(f"[DEBUG] Sentence after gender-based article swap: {sentence_changed}")
