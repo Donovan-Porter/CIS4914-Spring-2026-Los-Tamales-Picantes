@@ -312,7 +312,13 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({points: points, time: count, size: get_board_size()})
+            body: JSON.stringify(
+            {
+                game: "match",
+                points: points, 
+                time: count, 
+                size: get_board_size()}
+            )
         })
         .then(response => response.json())
         .then(data => {
@@ -371,6 +377,8 @@ var interval = setInterval(function() {
     });
 
 }, 1000);
+
+
 document.getElementById('hint').onclick = hint_hint_baby;
 async function hint_hint_baby() 
 {
