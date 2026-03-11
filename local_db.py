@@ -48,6 +48,7 @@ class LocalDB:
         try:
             cursor.execute('''SELECT NAME FROM Users WHERE NAME = ?''', (name,))
             res = cursor.fetchone()
+            print("GETTING USER", name, res)
             if res is not None:
                 return res[0]
             return None
@@ -64,7 +65,7 @@ class LocalDB:
         try:
             cursor.execute('''SELECT POINTS FROM Users WHERE NAME = ?''', (name,))
             res = cursor.fetchone()
-            
+            print("GETTING POINTS", name, res)
             if res is not None:
                 return res[0]
             return None
@@ -83,8 +84,8 @@ class LocalDB:
             return "404"
         
         try:
-            cursor.execute('''UPDATE Users SET POINTS = ?''', (points + res,))
-            print(points + res)
+            cursor.execute('''UPDATE Users SET POINTS = ? WHERE NAME = ?''', (points + res, name,))
+            print("UPDATING POINTS", name, points + res)
             conn.commit()
             
             return self.get_points(name)
