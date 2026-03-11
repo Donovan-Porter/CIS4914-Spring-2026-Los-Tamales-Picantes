@@ -60,7 +60,7 @@ def subject_to_image(person):
         "Ella": "EllaCapy.png",
         "Nosotros": "NosotrosCapy.png",
         "Nosotras": "NosotrasCapy.png",
-        "Vosotros": "VosotrosCapy.png",
+        "Vosotros": "VosotrosCapy.png", # TODO: no images for vosotros/as rn
         "Vosotras": "VosotrasCapy.png",
         "Ellos": "EllosCapy.png",
         "Ellas": "EllasCapy.png"
@@ -79,74 +79,59 @@ def extract_subject(phrase):
     ]
 
     for s in subjects:
-        if phrase.startswith(s + " "):  # ensure full word match
+        if phrase.startswith(s + " "):
             return s
     return None
 
-def swap_article_for_gender_change(sentence, person_from, person_to):
-    """
-    Swap the article (el/la, un/una) if there's a gender change between person_from and person_to.
-    """
+def fix_ser_identity(sentence, person_from, person_to):
+
     gender_map = {
-        "Yo": None, # no gender associated directly
-        "Tú": None,
-        "Usted": None,
         "Él": "masculine",
         "Ella": "feminine",
+        "Ellos": "masculine",
+        "Ellas": "feminine",
         "Nosotros": "masculine",
         "Nosotras": "feminine",
         "Vosotros": "masculine",
-        "Vosotras": "feminine",
-        "Ellos": "masculine",
-        "Ellas": "feminine",
+        "Vosotras": "feminine"
     }
-    
-    def get_gender(person):
-        return gender_map.get(person, None)
 
-    # get gender of both subjects
-    gender_from = get_gender(person_from)
-    gender_to = get_gender(person_to)
+    gender_to = gender_map.get(person_to)
 
-    # if gender changes
-    if gender_from != gender_to:
-        article_changes = {
-            "el": "la", "la": "el",  # masculine/feminine singular
-            "un": "una", "una": "un",  # masculine/feminine singular
-            "los": "las", "las": "los",  # masculine/feminine plural
-            "unos": "unas", "unas": "unos"  # masculine/feminine plural
-        }
+    if not gender_to:
+        return sentence
 
-        for article_from, article_to in article_changes.items():
-            sentence = re.sub(rf'\b{article_from}\b', article_to, sentence)
-        
-        adjective_changes = {
-            "único": "única",
-            "primer": "primera"
-        }
+    article_map = {
+        "masculine": {"la": "el", "una": "un", "las": "los"},
+        "feminine": {"el": "la", "un": "una", "los": "las"}
+    }
 
-        for adj_from, adj_to in adjective_changes.items():
-            if gender_from == "masculine" and gender_to == "feminine":
-                sentence = re.sub(rf'\b{adj_from}\b', adj_to, sentence)
-            elif gender_from == "feminine" and gender_to == "masculine":
-                sentence = re.sub(rf'\b{adj_to}\b', adj_from, sentence)
-        
-    return sentence
+    def replace(match):
+        article = match.group(1)
+
+        if article in article_map[gender_to]:
+            return match.group(0).replace(article, article_map[gender_to][article])
+
+        return match.group(0)
+
+    pattern = r'\b(es|son|somos|eres|soy|sois)\s+(el|la|los|las|un|una)\b'
+
+    return re.sub(pattern, lambda m: m.group(1) + " " + article_map.get(gender_to, {}).get(m.group(2), m.group(2)), sentence)
 
 def swap_indirect_pronouns(person_from, person_to, sentence):
     # define indirect pronouns based on the subject
     indirect_pronouns = {
-        "Yo": "me",        # Yo -> me
-        "Tú": "te",        # Tú -> te
-        "Usted": "le",     # Usted -> le
-        "Él": "le",        # Él -> le
-        "Ella": "le",      # Ella -> le
-        "Nosotros": "nos", # Nosotros -> nos
-        "Nosotras": "nos", # Nosotras -> nos
-        "Vosotros": "os",  # Vosotros -> os
-        "Vosotras": "os",  # Vosotras -> os
-        "Ellos": "les",    # Ellos -> les
-        "Ellas": "les"     # Ellas -> les
+        "Yo": "me",
+        "Tú": "te",
+        "Usted": "le",
+        "Él": "le",
+        "Ella": "le",
+        "Nosotros": "nos",
+        "Nosotras": "nos",
+        "Vosotros": "os",
+        "Vosotras": "os",
+        "Ellos": "les",
+        "Ellas": "les"
     }
 
     # get the indirect pronoun for each subject
@@ -157,6 +142,36 @@ def swap_indirect_pronouns(person_from, person_to, sentence):
         sentence = re.sub(r'\b' + re.escape(pronoun_from) + r'\b', pronoun_to, sentence)
     
     return sentence
+
+def fix_reflexive_infinitive(sentence, person_to):
+
+    reflexive_map = {
+        "Yo": "me",
+        "Tú": "te",
+        "Usted": "se",
+        "Él": "se",
+        "Ella": "se",
+        "Nosotros": "nos",
+        "Nosotras": "nos",
+        "Vosotros": "os",
+        "Vosotras": "os",
+        "Ellos": "se",
+        "Ellas": "se"
+    }
+
+    target_pronoun = reflexive_map.get(person_to)
+
+    if not target_pronoun:
+        return sentence
+
+    # infinitive verbs with reflexive pronouns attached (e.g. "levantarse"), replace the pronoun with the correct one for the new subject
+    pattern = r'\b(\w+(?:ar|er|ir))(me|te|se|nos|os)\b'
+
+    def replace(match):
+        verb = match.group(1)
+        return verb + target_pronoun
+
+    return re.sub(pattern, replace, sentence)
 
 def generate_conjugation_exercise_from_list(pipe, grammar_list):
 
@@ -201,6 +216,11 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
             out[0]['generated_text'][1]['content'].strip()
         )
 
+
+        if ":" in full_sentence or '"' in full_sentence:
+            print(f"[DEBUG] Skipping sentence with invalid punctuation: {full_sentence}")
+            continue
+
         # common LLM generated mistake sentences to skip
         if full_sentence == "Yo soy yo." or full_sentence == "Yo soy tú.":
             print(f"[DEBUG] Skipping invalid sentence generation for phrase: {phrase_from}")
@@ -214,6 +234,10 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
             continue
 
         print("[DEBUG] phrase_from found successfully.")
+
+        # create question version of the original sentence
+        sentence_question = full_sentence.rstrip(".")
+        sentence_question = f"¿{sentence_question}?"
 
         # replace subject phrase
         sentence_changed = re.sub(
@@ -243,7 +267,8 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
             continue
 
         sentence_changed = swap_indirect_pronouns(person_from, person_to, sentence_changed)
-        sentence_changed = swap_article_for_gender_change(sentence_changed, person_from, person_to)
+        sentence_changed = fix_ser_identity(sentence_changed, person_from, person_to)
+        sentence_changed = fix_reflexive_infinitive(sentence_changed, person_to)
 
         print(f"[DEBUG] Sentence after gender-based article swap: {sentence_changed}")
 
@@ -264,7 +289,7 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
         print(f"[DEBUG] image_to path: {image_to}")
 
         exercises.append({
-            "sentence_full": full_sentence,
+            "sentence_full": sentence_question,
             "sentence_blank": sentence_blank,
             "answer": phrase_to,
             "from": person_from,
