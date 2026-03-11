@@ -12,6 +12,7 @@ import matching_game
 
 import os, sys, json, random
 from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
+from conjugation_convo import generate_conjugation_exercise_from_list, find_grammar_dirs, normalize_text
 
 #
 # ____/\____
@@ -313,7 +314,8 @@ def choose_chapter_vocabulary():
     dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
     files = []
     try:
-        files = sorted([f for f in os.listdir(dirpath) if f.endswith('.json')])
+        files = sorted([f[:-5] if f.endswith('.json') else f
+                        for f in os.listdir(dirpath) if f.endswith('.json')])
     except Exception:
         files = []
     return render_template('choose_chapter_vocabulary.html', course=course, files=files)
@@ -324,7 +326,7 @@ def choose_group_vocabulary():
     vocab_file = request.values.get('file')
     if not course or not vocab_file:
         return redirect(url_for('choose_course_vocabulary'))
-    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
+    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file + '.json')
     try:
         with open(path, 'r', encoding='utf-8') as fh:
             data = json.load(fh)
@@ -360,7 +362,6 @@ def choose_group_vocabulary():
         session['current_index_vocabulary'] = 0
 
         return redirect(url_for('story_vocabulary'))
-
 
     return render_template('choose_group_vocabulary.html', course=course, vocab_file=vocab_file, groups=groups)
 
@@ -420,6 +421,114 @@ def story_vocabulary():
         answer_vocab=answer_vocab
     )
 
+@app.route('/choose_course_convo')
+def choose_course_convo():
+    courses = find_grammar_dirs()  # same function as before
+    return render_template('choose_course_convo.html', courses=courses)
+
+@app.route('/choose_chapter_convo')
+def choose_chapter_convo():
+    course = request.args.get('course')
+    if not course:
+        return redirect(url_for('choose_course_convo'))
+
+    dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
+    files = []
+    try:
+        files = sorted([f[:-5] if f.endswith('.json') else f
+                        for f in os.listdir(dirpath) if f.endswith('.json')])
+    except Exception:
+        files = []
+
+    return render_template('choose_chapter_convo.html', course=course, files=files)
+
+@app.route('/choose_group_convo', methods=['GET','POST'])
+def choose_group_convo():
+    course = request.values.get('course')
+    vocab_file = request.values.get('file')
+
+    if not course or not vocab_file:
+        return redirect(url_for('choose_course_convo'))
+    
+    # Add .json back to match actual filename
+    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file + '.json')
+    try:
+        with open(path, 'r', encoding='utf-8') as fh:
+            data = json.load(fh)
+    except Exception as e:
+        return f'Error loading vocab file: {e}'
+
+    groups = data.get('groups', [])
+
+    if request.method == 'POST':
+        group_index = int(request.form.get('group_index', 0))
+        grammar_group = groups[group_index]
+
+        # List of verbs/phrases
+        grammar_list = [ex['derivative'].strip().rstrip('.!?') for ex in grammar_group.get('examples', [])]
+        random.shuffle(grammar_list)
+
+        # Generate random conjugation exercises
+        exercises = generate_conjugation_exercise_from_list(pipe, grammar_list)
+
+        # Save in session
+        session['convo_conjugation'] = exercises
+        session['revealed_convo'] = [False]*len(exercises)
+        session['current_index_convo'] = 0
+        session['vocab_list_convo'] = grammar_list
+        session['answer_vocab_convo'] = [ex['answer'] for ex in exercises]
+
+        return redirect(url_for('convo_conjugation'))
+
+    return render_template('choose_group_convo.html', course=course, vocab_file=vocab_file, groups=groups)
+
+@app.route('/convo_conjugation', methods=['GET','POST'])
+def convo_conjugation():
+    exercises = session.get('convo_conjugation', [])
+    if not exercises:
+        return redirect(url_for('choose_course_convo'))
+
+    current = session.get('current_index_convo', 0)
+    revealed = session.get('revealed_convo', [False]*len(exercises))
+    vocab_list = session.get('vocab_list_convo', [])
+    answer_vocab = session.get('answer_vocab_convo', [])
+    message = None
+
+    if request.method == 'POST':
+        guess = request.form.get('guess','').strip()
+        if current >= len(exercises):
+            return redirect(url_for('convo_conjugation'))
+
+        expected_word = exercises[current]['answer']
+        if normalize_text(guess) == normalize_text(expected_word):
+            revealed[current] = True
+            session['revealed_convo'] = revealed
+            session['current_index_convo'] = current + 1
+            if current + 1 >= len(exercises):
+                return render_template(
+                    'convo_conjugation.html',
+                    story=exercises,
+                    revealed=revealed,
+                    finished=True,
+                    current_index=current,
+                    message=None,
+                    vocab_list=vocab_list,
+                    answer_vocab=answer_vocab
+                )
+            return redirect(url_for('convo_conjugation'))
+        else:
+            message = 'Try again!'
+
+    return render_template(
+        'convo_conjugation.html',
+        story=exercises,
+        revealed=revealed,
+        current_index=current,
+        finished=False,
+        message=message,
+        vocab_list=vocab_list,
+        answer_vocab=answer_vocab
+    )
 
 # TODO: valerie matching game
 @app.route("/matching_page")
