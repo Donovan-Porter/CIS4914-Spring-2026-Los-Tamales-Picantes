@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Vocab Story</title></head>
+  <body>
+    <h1>Fill the blanks to continue the story</h1>
+
+    <h3>Word bank</h3>
+    <div>
+      {% for w in vocab_list %}
+        <span style="padding:4px;border:1px solid #ddd;margin:2px;display:inline-block">{{ w }}</span>
+      {% endfor %}
+    </div>
+
+    <hr>
+
+    {% if finished %}
+      <h2>Story complete!</h2>
+      <p>The full words used:</p>
+      <ul>
+        {% for w in answer_vocab %}
+          <li>{{ w }}</li>
+        {% endfor %}
+      </ul>
+      <p><a href="{{ url_for('choose_course_vocabulary') }}">Choose another course</a></p>
+    {% else %}
+      <div>
+        {% for part in story %}
+          <p>
+            {{ part.before }}
+            {% set idx = loop.index0 %}
+            {% if revealed[idx] %}
+              <strong>{{ part.word }}</strong>
+            {% elif idx == current_index %}
+              <form method="post" style="display:inline">
+                <select name="guess" required style="padding:4px;min-width:260px">
+                  <option value="" disabled selected>
+                    -- Choose a word --
+                  </option>
+                  {% for w in vocab_list %}
+                    <option value="{{ w }}">{{ w }}</option>
+                  {% endfor %}
+                </select>
+                <button type="submit">Submit</button>
+              </form>
+            {% else %}
+              <u style="color:#999">_______</u>
+            {% endif %}
+            {{ part.after }}
+          </p>
+        {% endfor %}
+      </div>
+      {% if message %}
+        <p style="color:red">{{ message }}</p>
+      {% endif %}
+      <p><a href="{{ url_for('choose_course_vocabulary') }}">Back to courses</a></p>
+    {% endif %}
+  </body>
+</html>
