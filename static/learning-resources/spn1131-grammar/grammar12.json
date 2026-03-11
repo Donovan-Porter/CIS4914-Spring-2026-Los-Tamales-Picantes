@@ -1,0 +1,235 @@
+{
+  "groups": [
+    {
+      "title": "USES OF THE IMPERFECT TENSE",
+      "examples": [
+        {
+          "integral": "Macarena was ten years old.",
+          "derivative": "Macarena tenía diez años."
+        },
+        {
+          "integral": "Macarena was excited.",
+          "derivative": "Macarena estaba emocionada."
+        },
+        {
+          "integral": "Macarena used to go to the beach on weekends.",
+          "derivative": "Macarena iba a la playa los fines de semana."
+        },
+        {
+          "integral": "How were you as a child? I used to study every day.",
+          "derivative": "¿Cómo eras de niño? Estudiaba todos los días."
+        }
+      ]
+    },
+    {
+      "title": "REGULAR -AR VERB CONJUGATION IN THE IMPERFECT TENSE",
+      "examples": [
+        {
+          "integral": "Yo (montar).",
+          "derivative": "Yo montaba."
+        },
+        {
+          "integral": "Tú (montar).",
+          "derivative": "Tú montabas."
+        },
+        {
+          "integral": "Usted (montar).",
+          "derivative": "Usted montaba."
+        },
+        {
+          "integral": "Nosotros (montar).",
+          "derivative": "Nosotros montábamos."
+        },
+        {
+          "integral": "Vosotros (montar).",
+          "derivative": "Vosotros montabais."
+        },
+        {
+          "integral": "Ustedes (montar).",
+          "derivative": "Ustedes montaban."
+        }
+      ]
+    },
+    {
+      "title": "IMPERFECT TENSE: -ER VERB CONJUGATIONS",
+      "examples": [
+        {
+          "integral": "Yo (proteger).",
+          "derivative": "Yo protegía."
+        },
+        {
+          "integral": "Tú (proteger).",
+          "derivative": "Tú protegías."
+        },
+        {
+          "integral": "Usted (proteger).",
+          "derivative": "Usted protegía."
+        },
+        {
+          "integral": "Nosotros (proteger).",
+          "derivative": "Nosotros protegíamos."
+        },
+        {
+          "integral": "Vosotros (proteger).",
+          "derivative": "Vosotros protegíais."
+        },
+        {
+          "integral": "Ustedes (proteger).",
+          "derivative": "Ustedes protegían."
+        }
+      ]
+    },
+    {
+      "title": "IMPERFECT TENSE: -IR VERB CONJUGATIONS",
+      "examples": [
+        {
+          "integral": "Yo (escribir).",
+          "derivative": "Yo escribía."
+        },
+        {
+          "integral": "Tú (escribir).",
+          "derivative": "Tú escribías."
+        },
+        {
+          "integral": "Usted (escribir).",
+          "derivative": "Usted escribía."
+        },
+        {
+          "integral": "Nosotros (escribir).",
+          "derivative": "Nosotros escribíamos."
+        },
+        {
+          "integral": "Vosotros (escribir).",
+          "derivative": "Vosotros escribíais."
+        },
+        {
+          "integral": "Ustedes (escribir).",
+          "derivative": "Ustedes escribían."
+        }
+      ]
+    },
+    {
+      "title": "IMPERFECT TENSE CONJUGATION: IRREGULAR VERBS",
+      "examples": [
+        {
+          "integral": "Yo (ir).",
+          "derivative": "Yo iba."
+        },
+        {
+          "integral": "Yo (ser).",
+          "derivative": "Yo era."
+        },
+        {
+          "integral": "Yo (ver).",
+          "derivative": "Yo veía."
+        },
+        {
+          "integral": "Tú (ir).",
+          "derivative": "Tú ibas."
+        },
+        {
+          "integral": "Tú (ser).",
+          "derivative": "Tú eras."
+        },
+        {
+          "integral": "Tú (ver).",
+          "derivative": "Tú veías."
+        },
+        {
+          "integral": "Usted (ir).",
+          "derivative": "Usted iba."
+        },
+        {
+          "integral": "Usted (ser).",
+          "derivative": "Usted era."
+        },
+        {
+          "integral": "Usted (ver).",
+          "derivative": "Usted veía."
+        },
+        {
+          "integral": "Nosotros (ir).",
+          "derivative": "Nosotros íbamos."
+        },
+        {
+          "integral": "Nosotros (ser).",
+          "derivative": "Nosotros éramos."
+        },
+        {
+          "integral": "Nosotros (ver).",
+          "derivative": "Nosotros veíamos."
+        },
+        {
+          "integral": "Vosotros (ir).",
+          "derivative": "Vosotros ibais."
+        },
+        {
+          "integral": "Vosotros (ser).",
+          "derivative": "Vosotros erais."
+        },
+        {
+          "integral": "Vosotros (ver).",
+          "derivative": "Vosotros veíais."
+        },
+        {
+          "integral": "Ustedes (ir).",
+          "derivative": "Ustedes iban."
+        },
+        {
+          "integral": "Ustedes (ser).",
+          "derivative": "Ustedes eran."
+        },
+        {
+          "integral": "Ustedes (ver).",
+          "derivative": "Ustedes veían."
+        }
+      ]
+    },
+    {
+      "title": "COMPARISONS OF INEQUALITY",
+      "examples": [
+        {
+          "integral": "The train is more comfortable than the car.",
+          "derivative": "El tren es más cómodo que el carro."
+        },
+        {
+          "integral": "Exploring caves is less interesting than going skydiving.",
+          "derivative": "Explorar cuevas es menos interesante que hacer paracaidismo."
+        },
+        {
+          "integral": "The car is less practical than the bus.",
+          "derivative": "El carro es menos práctico que el autobús."
+        },
+        {
+          "integral": "The bicycles are more fun than cars.",
+          "derivative": "Las bicicletas son más divertidas que el carro."
+        },
+        {
+          "integral": "Traveling by train is less expensive than traveling by bus.",
+          "derivative": "Ir en tren es más barato que ir en autobús."
+        },
+        {
+          "integral": "Going skydiving is less interesting than exploring caves.",
+          "derivative": "Hacer paracaidismo es menos interesante que explorar cuevas."
+        }
+      ]
+    },
+    {
+      "title": "COMPARISONS OF EQUALITY",
+      "examples": [
+        {
+          "integral": "Droughts are as serious as floods.",
+          "derivative": "Las sequías son tan graves como las inundaciones."
+        },
+        {
+          "integral": "The beaches in Mexico are as beautiful as the beaches in Venezuela.",
+          "derivative": "Las playas de México son tan hermosas como las playas de Venezuela."
+        },
+        {
+          "integral": "The protection of endangered species is as important as climate change.",
+          "derivative": "La protección de las especies en peligro de extinción es tan importante como el cambio climático."
+        }
+      ]
+    }
+  ]
+}

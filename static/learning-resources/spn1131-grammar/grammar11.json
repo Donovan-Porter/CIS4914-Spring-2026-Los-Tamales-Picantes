@@ -1,0 +1,175 @@
+{
+  "groups": [
+    {
+      "title": "DIRECT OBJECT NOUNS",
+      "examples": [
+        {
+          "integral": "Do you have sunglasses?",
+          "derivative": "¿Tienes gafas de sol?"
+        },
+        {
+          "integral": "Emilia buys some red pants.",
+          "derivative": "Emilia compra unos pantalones rojos."
+        }
+      ]
+    },
+    {
+      "title": "PERSONAL 'A' WITH DIRECT OBJECTS",
+      "examples": [
+        {
+          "integral": "Mar sees Silvio at the store.",
+          "derivative": "Mar ve a Silvio en la tienda."
+        },
+        {
+          "integral": "The professor observes the student.",
+          "derivative": "El profesor observa a la estudiante."
+        },
+        {
+          "integral": "Do you have sunglasses?",
+          "derivative": "¿Tienes gafas de sol?"
+        },
+        {
+          "integral": "Do you use them often?",
+          "derivative": "¿Las usas a menudo?"
+        },
+        {
+          "integral": "Do you have a briefcase?",
+          "derivative": "¿Tienes un maletín?"
+        },
+        {
+          "integral": "Do you take it on job interviews?",
+          "derivative": "¿Lo llevas a las entrevistas de trabajo?"
+        }
+      ]
+    },
+    {
+      "title": "DIRECT OBJECT PRONOUNS",
+      "examples": [
+        {
+          "integral": "me",
+          "derivative": "me"
+        },
+        {
+          "integral": "you (informal, object)",
+          "derivative": "te"
+        },
+        {
+          "integral": "him/her (object)",
+          "derivative": "lo/la"
+        },
+        {
+          "integral": "us",
+          "derivative": "nos"
+        },
+        {
+          "integral": "you all (informal, object)",
+          "derivative": "os"
+        },
+        {
+          "integral": "them(masculine)/them(feminine) (object)",
+          "derivative": "los/las"
+        }
+      ]
+    },
+    {
+      "title": "DIRECT OBJECT PRONOUNS WITH PRESENT PROGRESSIVE",
+      "examples": [
+        {
+          "integral": "I'm looking for you. (object pronoun at beginning)",
+          "derivative": "Te estoy buscando."
+        },
+        {
+          "integral": "I'm looking for you. (object pronoun attached to verb)",
+          "derivative": "Estoy buscándote."
+        }
+      ]
+    },
+    {
+      "title": "DIRECT OBJECT PRONOUNS WITH VERB PHRASES",
+      "examples": [
+        {
+          "integral": "Mar wants to buy it (feminine). (object pronoun at beginning)",
+          "derivative": "Mar la quiere comprar."
+        },
+        {
+          "integral": "Mar wants to buy it (feminine). (object pronoun attached to verb)",
+          "derivative": "Mar quiere comprarla."
+        },
+        {
+          "integral": "They(masculine) are going to see us. (object pronoun at beginning)",
+          "derivative": "Ellos nos van a ver."
+        },
+        {
+          "integral": "They(masculine) are going to see us. (object pronoun attached to verb)",
+          "derivative": "Ellos van a vernos."
+        }
+      ]
+    },
+    {
+      "title": "INDIRECT OBJECT PRONOUNS",
+      "examples": [
+        {
+          "integral": "me (indirect object)",
+          "derivative": "me"
+        },
+        {
+          "integral": "you (informal, indirect object)",
+          "derivative": "te"
+        },
+        {
+          "integral": "him or her (indirect object)",
+          "derivative": "le"
+        },
+        {
+          "integral": "us (indirect object)",
+          "derivative": "nos"
+        },
+        {
+          "integral": "you all (informal, indirect object)",
+          "derivative": "os"
+        },
+        {
+          "integral": "you (formal, indirect object) or them (indirect object)",
+          "derivative": "les"
+        }
+      ]
+    },
+    {
+      "title": "INDIRECT OBJECT USAGE",
+      "examples": [
+        {
+          "integral": "Mar buys the purse for her mother.",
+          "derivative": "Mar le compra el bolso a su madre."
+        },
+        {
+          "integral": "Mar buys gifts for her mother and her boyfriend.",
+          "derivative": "Mar les compra regalos a su madre y a su novio."
+        },
+        {
+          "integral": "Will you carry the shopping for me, please?",
+          "derivative": "Mar: ¿ Me llevas las compras, por favor?"
+        },
+        {
+          "integral": "Of course! I'll carry them for you.",
+          "derivative": "Silvio: ¡ Claro que sí! Te las llevo."
+        },
+        {
+          "integral": "Will you carry them for me?",
+          "derivative": "¿Me las llevas?"
+        },
+        {
+          "integral": "Sorry. I can't carry them right now.",
+          "derivative": "Lo siento. No puedo llevártelas ahora."
+        },
+        {
+          "integral": "I'm carrying them for my grandmother.",
+          "derivative": "Se las llevo a mi abuela."
+        },
+        {
+          "integral": "That jacket is pleasing to me",
+          "derivative": "Me gusta esa chaqueta"
+        }
+      ]
+    }
+  ]
+}

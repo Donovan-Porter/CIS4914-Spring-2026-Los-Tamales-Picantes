@@ -1,0 +1,32 @@
+
+{% extends "base.html" %}
+
+{% block title %} Log-In {% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="/static/css/login.css">
+
+<div class="login-container">
+    <div class="welcome-container">
+        <span>¡Bienvenido! ¿Listo para jugar?</span>
+        <img src="/static/images/picantecapy.png" alt="Logo" class="profile-image" draggable="false">
+    </div>
+
+    <div class="login-section">
+        <span class="login-title">Login</span>
+        <form id="login-form" action="{{url_for('login')}}" method="POST">
+            <div>
+                <label for="">Username</label>
+                <input id="username" type="username" name="username">
+            </div>
+
+            <button type="submit">
+                ¡Vamos!
+            </button>
+        </form>
+        
+        <a id="signup-link" href="/sign-up" title="Login">No account? Make one!</a>
+    </div>
+
+</div>
+{% endblock %}

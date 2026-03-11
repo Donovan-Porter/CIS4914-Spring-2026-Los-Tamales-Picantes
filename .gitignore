@@ -1,4 +1,7 @@
 /__pycache__/
+/static/learning-resources/phrases/__pycache__/
+/static/learning-resources/phrases/data/__pycache__/
+/static/learning-resources/phrases/conjugations/__pycache__/
 /build/
 /dist/
 /test-scripts/
@@ -7,4 +10,5 @@
 /minigames/__pycache__/
 __pycache__/
 *.pyc
-minigames/__pycache__/
+/minigames/images/
+.env

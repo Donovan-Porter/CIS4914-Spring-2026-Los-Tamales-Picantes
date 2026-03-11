@@ -9,7 +9,6 @@ body
 	flex-direction: column;
 	flex-wrap: wrap;
 
-    text-align: center;
     max-width: 100vw;
 }
 
