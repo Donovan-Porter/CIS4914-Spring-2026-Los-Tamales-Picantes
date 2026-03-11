@@ -314,7 +314,8 @@ def choose_chapter_vocabulary():
     dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
     files = []
     try:
-        files = sorted([f for f in os.listdir(dirpath) if f.endswith('.json')])
+        files = sorted([f[:-5] if f.endswith('.json') else f
+                        for f in os.listdir(dirpath) if f.endswith('.json')])
     except Exception:
         files = []
     return render_template('choose_chapter_vocabulary.html', course=course, files=files)
@@ -325,7 +326,7 @@ def choose_group_vocabulary():
     vocab_file = request.values.get('file')
     if not course or not vocab_file:
         return redirect(url_for('choose_course_vocabulary'))
-    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
+    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file + '.json')
     try:
         with open(path, 'r', encoding='utf-8') as fh:
             data = json.load(fh)
@@ -361,7 +362,6 @@ def choose_group_vocabulary():
         session['current_index_vocabulary'] = 0
 
         return redirect(url_for('story_vocabulary'))
-
 
     return render_template('choose_group_vocabulary.html', course=course, vocab_file=vocab_file, groups=groups)
 
@@ -435,7 +435,8 @@ def choose_chapter_convo():
     dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
     files = []
     try:
-        files = sorted([f for f in os.listdir(dirpath) if f.endswith('.json')])
+        files = sorted([f[:-5] if f.endswith('.json') else f
+                        for f in os.listdir(dirpath) if f.endswith('.json')])
     except Exception:
         files = []
 
@@ -449,7 +450,8 @@ def choose_group_convo():
     if not course or not vocab_file:
         return redirect(url_for('choose_course_convo'))
     
-    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file)
+    # Add .json back to match actual filename
+    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file + '.json')
     try:
         with open(path, 'r', encoding='utf-8') as fh:
             data = json.load(fh)
