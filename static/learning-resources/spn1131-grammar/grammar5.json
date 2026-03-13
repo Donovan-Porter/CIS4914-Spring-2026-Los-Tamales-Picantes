@@ -46,36 +46,28 @@
       "title": "DIRECT OBJECT PRONOUNS",
       "examples": [
         {
-          "integral": "He knows me.",
-          "derivative": "Me conoce."
+          "integral": "me",
+          "derivative": "me"
         },
         {
-          "integral": "He knows you.",
-          "derivative": "Te conoce."
+          "integral": "you (informal, object)",
+          "derivative": "te"
         },
         {
-          "integral": "She knows him.",
-          "derivative": "Lo conoce."
+          "integral": "him/her (object)",
+          "derivative": "lo/la"
         },
         {
-          "integral": "He knows her.",
-          "derivative": "La conoce."
+          "integral": "us",
+          "derivative": "nos"
         },
         {
-          "integral": "He knows us.",
-          "derivative": "Nos conoce."
+          "integral": "you all (informal, object)",
+          "derivative": "os"
         },
         {
-          "integral": "He knows you chaps.",
-          "derivative": "Os conoce."
-        },
-        {
-          "integral": "He knows them guys.",
-          "derivative": "Los conoce."
-        },
-        {
-          "integral": "He knows them gals.",
-          "derivative": "Las conoce."
+          "integral": "them(masculine)/them(feminine) (object)",
+          "derivative": "los/las"
         }
       ]
     },
@@ -83,8 +75,12 @@
       "title": "DIRECT OBJECT PRONOUNS WITH PRESENT PROGRESSIVE",
       "examples": [
         {
-          "integral": "I'm looking for you.",
-          "derivative": "Estoy buscandote."
+          "integral": "I'm looking for you. (object pronoun at beginning)",
+          "derivative": "Te estoy buscando."
+        },
+        {
+          "integral": "I'm looking for you. (object pronoun attached to verb)",
+          "derivative": "Estoy buscándote."
         }
       ]
     },
@@ -92,11 +88,19 @@
       "title": "DIRECT OBJECT PRONOUNS WITH VERB PHRASES",
       "examples": [
         {
-          "integral": "Mar wants to buy it.",
+          "integral": "Mar wants to buy it (feminine). (object pronoun at beginning)",
+          "derivative": "Mar la quiere comprar."
+        },
+        {
+          "integral": "Mar wants to buy it (feminine). (object pronoun attached to verb)",
           "derivative": "Mar quiere comprarla."
         },
         {
-          "integral": "They are going to see us.",
+          "integral": "They(masculine) are going to see us. (object pronoun at beginning)",
+          "derivative": "Ellos nos van a ver."
+        },
+        {
+          "integral": "They(masculine) are going to see us. (object pronoun attached to verb)",
           "derivative": "Ellos van a vernos."
         }
       ]
@@ -105,28 +109,28 @@
       "title": "INDIRECT OBJECT PRONOUNS",
       "examples": [
         {
-          "integral": "He writes to me.",
-          "derivative": "Me escribe."
+          "integral": "me (indirect object)",
+          "derivative": "me"
         },
         {
-          "integral": "He writes to you.",
-          "derivative": "Te escribo."
+          "integral": "you (informal, indirect object)",
+          "derivative": "te"
         },
         {
-          "integral": "She writes to him.",
-          "derivative": "Le escribe."
+          "integral": "him or her (indirect object)",
+          "derivative": "le"
         },
         {
-          "integral": "He writes to us.",
-          "derivative": "Nos escribe."
+          "integral": "us (indirect object)",
+          "derivative": "nos"
         },
         {
-          "integral": "He writes to you chaps.",
-          "derivative": "Os escribe."
+          "integral": "you all (informal, indirect object)",
+          "derivative": "os"
         },
         {
-          "integral": "He writes to them.",
-          "derivative": "Les escribe."
+          "integral": "you (formal, indirect object) or them (indirect object)",
+          "derivative": "les"
         }
       ]
     },

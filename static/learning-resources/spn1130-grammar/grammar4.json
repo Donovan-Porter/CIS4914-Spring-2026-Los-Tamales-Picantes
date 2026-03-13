@@ -8,7 +8,7 @@
                     "derivative": "Yo soy estudiante."
                 },
                 {
-                    "integral": "We are from Colombia. (masculine)",
+                    "integral": "We guys are from Colombia.",
                     "derivative": "Nosotros somos de Colombia."
                 },
                 {
@@ -54,11 +54,11 @@
                     "derivative": "Yo estudio."
                 },
                 {
-                    "integral": "You study. (singular, informal)",
+                    "integral": "Ya study.",
                     "derivative": "Tú estudias."
                 },
                 {
-                    "integral": "You study. (singular, formal)",
+                    "integral": "One studies.",
                     "derivative": "Usted estudia."
                 },
                 {
@@ -70,31 +70,31 @@
                     "derivative": "Ella estudia."
                 },
                 {
-                    "integral": "We study. (masculine)",
+                    "integral": "We guys study.",
                     "derivative": "Nosotros estudiamos."
                 },
                 {
-                    "integral": "We study. (feminine)",
+                    "integral": "We gals study.",
                     "derivative": "Nosotras estudiamos."
                 },
                 {
-                    "integral": "You all study. (masculine, informal Castillian)",
+                    "integral": "You chaps study.",
                     "derivative": "Vosotros estudiáis."
                 },
                 {
-                    "integral": "You all study. (feminine, informal Castillian)",
+                    "integral": "You chapettes study.",
                     "derivative": "Vosotras estudiáis."
                 },
                 {
-                    "integral": "You all study. (formal or informal American)",
+                    "integral": "Y'all study.",
                     "derivative": "Ustedes estudian."
                 },
                 {
-                    "integral": "They study. (masculine)",
+                    "integral": "Those guys study.",
                     "derivative": "Ellos estudian."
                 },
                 {
-                    "integral": "They study. (feminine)",
+                    "integral": "They gals study.",
                     "derivative": "Ellas estudian."
                 }
             ]
@@ -147,16 +147,16 @@
                     "derivative": "to teach"
                 },
                 {
-                    "integral": "escuchar (música)",
-                    "derivative": "to listen (to music)"
+                    "integral": "escuchar música",
+                    "derivative": "to listen to music"
                 },
                 {
                     "integral": "hablar",
                     "derivative": "to speak"
                 },
                 {
-                    "integral": "lavar (la ropa)",
-                    "derivative": "to wash (clothes)"
+                    "integral": "lavar la ropa",
+                    "derivative": "to wash clothes"
                 },
                 {
                     "integral": "llegar",
@@ -175,28 +175,28 @@
                     "derivative": "to paint"
                 },
                 {
-                    "integral": "practicar (yoga)",
-                    "derivative": "to practice (yoga)"
+                    "integral": "practicar yoga",
+                    "derivative": "to practice yoga"
                 },
                 {
                     "integral": "preperar",
                     "derivative": "to prepare"
                 },
                 {
-                    "integral": "quedar (con)",
-                    "derivative": "to arrange to meet (with)"
+                    "integral": "quedar con",
+                    "derivative": "to arrange to meet with"
                 },
                 {
-                    "integral": "regresar (a)",
-                    "derivative": "to return (to)"
+                    "integral": "regresar a",
+                    "derivative": "to return to"
                 },
                 {
-                    "integral": "tomar (algo)",
-                    "derivative": "to have (a drink)"
+                    "integral": "tomar algo",
+                    "derivative": "to have a drink"
                 },
                 {
-                    "integral": "trabajar (en)",
-                    "derivative": "to work (in)"
+                    "integral": "trabajar en",
+                    "derivative": "to work in"
                 }
             ]
         },

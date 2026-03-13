@@ -4,155 +4,155 @@
           "title": "IRREGULAR VERBS IN THE YO FORM",
           "examples": [
             {
-              "integral": "I fall",
+              "integral": "to fall (I)",
               "derivative": "caigo"
             },
             {
-              "integral": "ya fall",
+              "integral": "to fall (you, informal)",
               "derivative": "caes"
             },
             {
-              "integral": "he falls",
+              "integral": "to fall (he/she; you, formal)",
               "derivative": "cae"
             },
             {
-              "integral": "we fall",
+              "integral": "to fall (we)",
               "derivative": "caemos"
             },
             {
-              "integral": "you chaps fall",
+              "integral": "to fall (you all, informal)",
               "derivative": "caéis"
             },
             {
-              "integral": "they fall",
+              "integral": "to fall (they; you all, formal)",
               "derivative": "caen"
             },
             {
-              "integral": "I give",
+              "integral": "to give (I)",
               "derivative": "doy"
             },
             {
-              "integral": "ya give",
+              "integral": "to give (you, informal)",
               "derivative": "das"
             },
             {
-              "integral": "he gives",
+              "integral": "to give (he/she; you, formal)",
               "derivative": "da"
             },
             {
-              "integral": "we give",
+              "integral": "to give (we)",
               "derivative": "damos"
             },
             {
-              "integral": "you chaps give",
+              "integral": "to give (you all, informal)",
               "derivative": "dais"
             },
             {
-              "integral": "they give",
+              "integral": "to give (they; you all, formal)",
               "derivative": "dan"
             },
             {
-              "integral": "I do",
+              "integral": "to do/make (I)",
               "derivative": "hago"
             },
             {
-              "integral": "ya do",
+              "integral": "to do/make (you, informal)",
               "derivative": "haces"
             },
             {
-              "integral": "he does",
+              "integral": "to do/make (he/she; you, formal)",
               "derivative": "hace"
             },
             {
-              "integral": "we do",
+              "integral": "to do/make (we)",
               "derivative": "hacemos"
             },
             {
-              "integral": "you chaps do",
+              "integral": "to do/make (you all, informal)",
               "derivative": "hacéis"
             },
             {
-              "integral": "they do",
+              "integral": "to do/make (they; you all, formal)",
               "derivative": "hacen"
             },
             {
-              "integral": "I put",
+              "integral": "to put (I)",
               "derivative": "pongo"
             },
             {
-              "integral": "ya put",
+              "integral": "to put (you, informal)",
               "derivative": "pones"
             },
             {
-              "integral": "he puts",
+              "integral": "to put (he/she; you, formal)",
               "derivative": "pone"
             },
             {
-              "integral": "we put",
+              "integral": "to put (we)",
               "derivative": "ponemos"
             },
             {
-              "integral": "you chaps put",
+              "integral": "to put (you all, informal)",
               "derivative": "ponéis"
             },
             {
-              "integral": "they put",
+              "integral": "to put (they; you all, formal)",
               "derivative": "ponen"
             },
             {
-              "integral": "I leave",
+              "integral": "to leave (I)",
               "derivative": "salgo"
             },
             {
-              "integral": "ya leave",
+              "integral": "to leave (you, informal)",
               "derivative": "sales"
             },
             {
-              "integral": "he leaves",
+              "integral": "to leave (he/she; you, formal)",
               "derivative": "sale"
             },
             {
-              "integral": "we leave",
+              "integral": "to leave (we)",
               "derivative": "salimos"
             },
             {
-              "integral": "you chaps leave",
+              "integral": "to leave (you all, informal)",
               "derivative": "salís"
             },
             {
-              "integral": "they leave",
+              "integral": "to leave (they; you all, formal)",
               "derivative": "salen"
             },
             {
-              "integral": "I bring",
+              "integral": "to bring (I)",
               "derivative": "traigo"
             },
             {
-              "integral": "ya bring",
+              "integral": "to bring (you, informal)",
               "derivative": "traes"
             },
             {
-              "integral": "he brings",
+              "integral": "to bring (he/she; you, formal)",
               "derivative": "trae"
             },
             {
-              "integral": "we bring",
+              "integral": "to bring (we)",
               "derivative": "traemos"
             },
             {
-              "integral": "you chaps bring",
+              "integral": "to bring (you all, informal)",
               "derivative": "traéis"
             },
             {
-              "integral": "they bring",
+              "integral": "to bring (they; you all, formal)",
               "derivative": "traen"
             },
             {
-              "integral": "I suppose",
+              "integral": "to suppose (I)",
               "derivative": "supongo"
             },
             {
-              "integral": "I see",
+              "integral": "to see (I)",
               "derivative": "veo"
             }
           ]
@@ -161,75 +161,75 @@
           "title": "IRREGULAR YO FORM + STEM-CHANGE",
           "examples": [
             {
-              "integral": "I have",
+              "integral": "to have (I)",
               "derivative": "tengo"
             },
             {
-              "integral": "ya have",
+              "integral": "to have (you, informal)",
               "derivative": "tienes"
             },
             {
-              "integral": "he has",
+              "integral": "to have (he/she; you, formal)",
               "derivative": "tiene"
             },
             {
-              "integral": "we have",
+              "integral": "to have (we)",
               "derivative": "tenemos"
             },
             {
-              "integral": "you chaps have",
+              "integral": "to have (you all, informal)",
               "derivative": "tenéis"
             },
             {
-              "integral": "they have",
+              "integral": "to have (they; you all, formal)",
               "derivative": "tienen"
             },
             {
-              "integral": "I follow",
+              "integral": "to follow (I)",
               "derivative": "sigo"
             },
             {
-              "integral": "ya follow",
+              "integral": "to follow (you, informal)",
               "derivative": "sigues"
             },
             {
-              "integral": "he follows",
+              "integral": "to follow (he/she; you, formal)",
               "derivative": "sigue"
             },
             {
-              "integral": "we follow",
+              "integral": "to follow (we)",
               "derivative": "seguimos"
             },
             {
-              "integral": "you chaps follow",
+              "integral": "to follow (you all, informal)",
               "derivative": "seguís"
             },
             {
-              "integral": "they follow",
+              "integral": "to follow (they; you all, formal)",
               "derivative": "siguen"
             },
             {
-              "integral": "I come",
+              "integral": "to come (I)",
               "derivative": "vengo"
             },
             {
-              "integral": "ya come",
+              "integral": "to come (you, informal)",
               "derivative": "vienes"
             },
             {
-              "integral": "he comes",
+              "integral": "to come (he/she; you, formal)",
               "derivative": "viene"
             },
             {
-              "integral": "we come",
+              "integral": "to come (we)",
               "derivative": "venimos"
             },
             {
-              "integral": "you chaps come",
+              "integral": "to come (you all, informal)",
               "derivative": "venís"
             },
             {
-              "integral": "they come",
+              "integral": "to come (they; you all, formal)",
               "derivative": "vienen"
             }
           ]
@@ -238,51 +238,51 @@
           "title": "FULLY IRREGULAR VERBS",
           "examples": [
             {
-              "integral": "I hear",
+              "integral": "to hear (I)",
               "derivative": "oigo"
             },
             {
-              "integral": "ya hear",
+              "integral": "to hear (you, informal)",
               "derivative": "oyes"
             },
             {
-              "integral": "he hears",
+              "integral": "to hear (he/she; you, formal)",
               "derivative": "oye"
             },
             {
-              "integral": "we hear",
+              "integral": "to hear (we)",
               "derivative": "oímos"
             },
             {
-              "integral": "you chaps hear",
+              "integral": "to hear (you all, informal)",
               "derivative": "ois"
             },
             {
-              "integral": "they hear",
+              "integral": "to hear (they; you all, formal)",
               "derivative": "oyen"
             },
             {
-              "integral": "I build",
+              "integral": "to build (I)",
               "derivative": "construyo"
             },
             {
-              "integral": "ya build",
+              "integral": "to build (you, informal)",
               "derivative": "construyes"
             },
             {
-              "integral": "he builds",
+              "integral": "to build (he/she; you, formal)",
               "derivative": "construye"
             },
             {
-              "integral": "we build",
+              "integral": "to build (we)",
               "derivative": "construimos"
             },
             {
-              "integral": "you chaps build",
+              "integral": "to build (you all, informal)",
               "derivative": "construís"
             },
             {
-              "integral": "they build",
+              "integral": "to build (they; you all, formal)",
               "derivative": "construyen"
             }
           ]
@@ -325,7 +325,7 @@
           "title": "IRREGULAR AFFIRMATIVE INFORMAL COMMANDS",
           "examples": [
             {
-              "integral": "Say what sport you will practice.",
+              "integral": "Tell what sport you will practice.",
               "derivative": "Di el deporte que vas a practicar."
             },
             {

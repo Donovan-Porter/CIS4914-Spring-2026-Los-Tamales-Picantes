@@ -43,8 +43,12 @@
           "en": "joke"
         },
         {
-          "es": "la bronca (echar una bronca)",
-          "en": "fight / quarrel (to tell off)"
+          "es": "la bronca",
+          "en": "fight"
+        },
+        {
+          "es": "echar una bronca",
+          "en": "to tell off"
         },
         {
           "es": "cara a cara",
@@ -60,7 +64,7 @@
         },
         {
           "es": "el reproche",
-          "en": "reproach / rebuke"
+          "en": "reproach"
         },
         {
           "es": "el sentimiento",
@@ -81,12 +85,12 @@
           "en": "to console"
         },
         {
-          "es": "enfadarse (con)",
-          "en": "to get angry (with) (Spain)"
+          "es": "enfadarse con un indio",
+          "en": "to get angry with an indian"
         },
         {
-          "es": "enojarse (con)",
-          "en": "to get angry (with) (Latin America)"
+          "es": "enojarse con un español",
+          "en": "to get angry with an spaniard"
         },
         {
           "es": "fastidiar",
@@ -94,23 +98,31 @@
         },
         {
           "es": "gritar",
-          "en": "to scream / to yell"
+          "en": "to scream"
         },
         {
-          "es": "hacer(le) caso (a alguien)",
-          "en": "to pay attention / listen (to someone)"
+          "es": "hacer caso",
+          "en": "to pay attention"
+        },
+        {
+          "es": "hacerle caso a alguien",
+          "en": "to listen to someone"
         },
         {
           "es": "hacer falta",
           "en": "to lack"
         },
         {
-          "es": "hacer sentir bien/mal (a alguien)",
-          "en": "to make someone feel good / bad"
+          "es": "hacer sentir bien a alguien",
+          "en": "to make someone feel good"
         },
         {
-          "es": "importar(le)",
+          "es": "importar",
           "en": "to care about"
+        },
+        {
+          "es": "ustedes le importan",
+          "en": "you all matter"
         },
         {
           "es": "negarse (a)",
@@ -129,8 +141,8 @@
           "en": "to take time"
         },
         {
-          "es": "tomar(le) el pelo a alguien",
-          "en": "to joke around with someone (literally to pull someone's hair)"
+          "es": "tomarle el pelo a alguien",
+          "en": "to joke around with someone"
         }
       ]
     },
@@ -143,11 +155,11 @@
           "en": "soulmate"
         },
         {
-          "es": "el/la conocido/a",
+          "es": "el conocido",
           "en": "acquaintance"
         },
         {
-          "es": "el/la enemigo/a",
+          "es": "el enemigo",
           "en": "enemy"
         },
         {
@@ -155,8 +167,12 @@
           "en": "soulmate"
         },
         {
-          "es": "los novios/as",
-          "en": "boyfriends / girlfriends / boyfriend-girlfriend"
+          "es": "los novios",
+          "en": "boyfriends"
+        },
+        {
+          "es": "las novias",
+          "en": "girlfriends"
         },
         {
           "es": "la pareja",
@@ -191,31 +207,31 @@
       "title-en": "CHARACTERISTICS AND STATES",
       "vocabulary": [
         {
-          "es": "amistoso/a",
+          "es": "amistoso",
           "en": "friendly"
         },
         {
-          "es": "cariñoso/a",
+          "es": "cariñoso",
           "en": "affectionate"
         },
         {
-          "es": "celoso/a",
+          "es": "celoso",
           "en": "jealous"
         },
         {
-          "es": "complicado/a",
+          "es": "complicado",
           "en": "complicated"
         },
         {
-          "es": "comprometido/a",
+          "es": "comprometido",
           "en": "engaged"
         },
         {
-          "es": "distinto/a",
+          "es": "distinto",
           "en": "different"
         },
         {
-          "es": "enojado/a",
+          "es": "enojado",
           "en": "angry"
         },
         {
@@ -223,7 +239,7 @@
           "en": "faithful"
         },
         {
-          "es": "harto/a",
+          "es": "harto",
           "en": "fed up"
         },
         {
@@ -231,12 +247,12 @@
           "en": "unfaithful"
         },
         {
-          "es": "molesto/a",
+          "es": "molesto",
           "en": "annoyed"
         },
         {
-          "es": "tonto/a",
-          "en": "dumb / silly"
+          "es": "tonto",
+          "en": "silly"
         }
       ]
     },
@@ -257,7 +273,7 @@
           "en": "to love"
         },
         {
-          "es": "arrepentir(se) de",
+          "es": "arrepentirse de",
           "en": "to regret"
         },
         {
@@ -265,23 +281,23 @@
           "en": "to kiss"
         },
         {
-          "es": "convivir (con alguien)",
-          "en": "to live (with someone)"
+          "es": "convivir con alguien",
+          "en": "to live with someone"
         },
         {
           "es": "coquetear",
           "en": "to flirt"
         },
         {
-          "es": "dejar (a alguien)",
-          "en": "to dump (someone)"
+          "es": "dejar a alguien",
+          "en": "to dump someone"
         },
         {
-          "es": "enamorarse (de)",
-          "en": "to fall in love (with)"
+          "es": "enamorarse de",
+          "en": "to fall in love with"
         },
         {
-          "es": "estar loco/a por",
+          "es": "estar loco por",
           "en": "to be crazy about"
         },
         {
@@ -289,20 +305,20 @@
           "en": "to love"
         },
         {
-          "es": "romper (con)",
-          "en": "to break up (with)"
+          "es": "romper con",
+          "en": "to break up with"
         },
         {
-          "es": "salir juntos/as",
+          "es": "salir juntos",
           "en": "to go out with"
         },
         {
-          "es": "separarse (de)",
-          "en": "to separate (from)"
+          "es": "separarse de",
+          "en": "to separate from"
         },
         {
-          "es": "tener una relación (con)",
-          "en": "to be in a relationship (with)"
+          "es": "tener una relación con",
+          "en": "to be in a relationship with"
         }
       ]
     }

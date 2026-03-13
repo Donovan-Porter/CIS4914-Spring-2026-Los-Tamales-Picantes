@@ -13,16 +13,16 @@
           "en": "The Island of Enchantment"
         },
         {
-          "es": "nuyoriqueño/a",
+          "es": "nuyoriqueño",
           "en": "Puerto Rican from New York"
         },
         {
-          "es": "¡Que viva ...!",
-          "en": "Hurray! / Long live ...!"
+          "es": "¡Que viva!",
+          "en": "Hurray!"
         },
         {
           "es": "los Reyes Magos",
-          "en": "The Wisemen / Three Kings"
+          "en": "The wisemen"
         },
         {
           "es": "el rosal",
@@ -34,7 +34,7 @@
         },
         {
           "es": "wepa",
-          "en": "an exclamation of joy and/or triumph used by Hispanics, especially in Puerto Rican communities"
+          "en": "woo-hoo"
         }
       ]
     },
@@ -59,20 +59,20 @@
           "en": "to emphasize"
         },
         {
-          "es": "desear",
-          "en": "to desire / to wish"
+          "es": "desear algo",
+          "en": "to want something"
         },
         {
           "es": "lamentar",
           "en": "to regret"
         },
         {
-          "es": "oscilar (entre)",
-          "en": "to oscillate / to fluctuate (between)"
+          "es": "oscilar entre",
+          "en": "to fluctuate between"
         },
         {
           "es": "otorgar",
-          "en": "to award / to give"
+          "en": "to award"
         }
       ]
     },
@@ -85,8 +85,12 @@
           "en": "soul"
         },
         {
-          "es": "anglosajón/anglosajona",
-          "en": "anglosaxon"
+          "es": "hombre anglosajón",
+          "en": "anglosaxon man"
+        },
+        {
+          "es": "mujer anglosajona",
+          "en": "anglosaxon woman"
         },
         {
           "es": "bilingüe",
@@ -97,36 +101,44 @@
           "en": "complexity"
         },
         {
-          "es": "dicho/a",
-          "en": "already stated / aforementioned"
+          "es": "el dicho",
+          "en": "statement"
         },
         {
           "es": "eficaz",
           "en": "effective"
         },
         {
-          "es": "el/la forastero/a",
+          "es": "el forastero",
           "en": "foreigner"
         },
         {
-          "es": "híbrido/a",
+          "es": "híbrido",
           "en": "hybrid"
         },
         {
-          "es": "homogéneo/a",
+          "es": "homogéneo",
           "en": "homogeneous"
         },
         {
-          "es": "el poeta (masc.), la poetisa (fem.)",
-          "en": "poet"
+          "es": "el poeta",
+          "en": "male poet"
         },
         {
-          "es": "la raíz (sing.), las raíces (pl.)",
-          "en": "root/s"
+          "es": "la poetisa",
+          "en": "female poet"
+        },
+        {
+          "es": "la raíz",
+          "en": "root"
+        },
+        {
+          "es": "las raíces",
+          "en": "roots"
         },
         {
           "es": "los vocablos",
-          "en": "terms / words"
+          "en": "words"
         }
       ]
     },
@@ -144,7 +156,7 @@
         },
         {
           "es": "la herencia",
-          "en": "inheritance / legacy"
+          "en": "legacy"
         },
         {
           "es": "la identidad étnica",
@@ -181,7 +193,7 @@
           "en": "personal identity"
         },
         {
-          "es": "la imagen de sí mismo/a",
+          "es": "la imagen de sí mismo",
           "en": "self image"
         },
         {
@@ -219,8 +231,12 @@
       "title-en": "THE LIFE ONE LEADS",
       "vocabulary": [
         {
-          "es": "la capacidad / la discapacidad",
-          "en": "ability / disability"
+          "es": "la capacidad",
+          "en": "ability"
+        },
+        {
+          "es": "la discapacidad",
+          "en": "disability"
         },
         {
           "es": "la creatividad",
@@ -239,8 +255,20 @@
           "en": "justice"
         },
         {
-          "es": "la orientación sexual (heterosexual, bisexual, homosexual)",
-          "en": "sexual orientation (heterosexual, bisexual, homosexual)"
+          "es": "la orientación sexual",
+          "en": "sexual orientation"
+        },
+        {
+          "es": "heterosexual",
+          "en": "heterosexual"
+        },
+        {
+          "es": "bisexual",
+          "en": "bisexual"
+        },
+        {
+          "es": "homosexual",
+          "en": "homosexual"
         },
         {
           "es": "la realidad",
@@ -278,7 +306,7 @@
         },
         {
           "es": "la fusión",
-          "en": "fusion / union"
+          "en": "fusion"
         },
         {
           "es": "el individualismo",
@@ -298,7 +326,7 @@
         },
         {
           "es": "el mestizaje",
-          "en": "blend of races (miscegenation)"
+          "en": "blend of races"
         },
         {
           "es": "la mezcla",

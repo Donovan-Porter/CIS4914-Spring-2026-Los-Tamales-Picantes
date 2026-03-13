@@ -6,7 +6,7 @@
       "vocabulary": [
         {
           "es": "el abrigo",
-          "en": "coat / overcoat"
+          "en": "coat"
         },
         {
           "es": "los calcetines",
@@ -25,12 +25,12 @@
           "en": "vest"
         },
         {
-          "es": "la chaqueta /el saco",
+          "es": "el saco",
           "en": "jacket"
         },
         {
-          "es": "la (mini)falda",
-          "en": "(mini)skirt"
+          "es": "la minifalda",
+          "en": "miniskirt"
         },
         {
           "es": "las mallas",
@@ -38,7 +38,7 @@
         },
         {
           "es": "las medias",
-          "en": "tights / pantyhose"
+          "en": "tights"
         },
         {
           "es": "los pantalones",
@@ -65,7 +65,7 @@
           "en": "dress"
         },
         {
-          "es": "los vaqueros / los jeans",
+          "es": "los vaqueros",
           "en": "jeans"
         }
       ]
@@ -87,15 +87,19 @@
           "en": "sandals"
         },
         {
-          "es": "las zapatillas (de tenis)",
-          "en": "tennis shoes / gym shoes"
+          "es": "las zapatillas de tenis",
+          "en": "tennis shoes"
         },
         {
           "es": "los zapatos",
           "en": "shoes"
         },
         {
-          "es": "los zapatos de tacón / los tacones altos",
+          "es": "los zapatos de tacón",
+          "en": "heels"
+        },
+        {
+          "es": "los tacones altos",
           "en": "high heels"
         }
       ]
@@ -118,15 +122,15 @@
         },
         {
           "es": "el glúteo",
-          "en": "gluteus (to refer to \"rear\")"
+          "en": "butt"
         },
         {
           "es": "la moda",
           "en": "fashion"
         },
         {
-          "es": "el número",
-          "en": "size (for shoes)"
+          "es": "el número de zapato",
+          "en": "shoe size"
         },
         {
           "es": "el pecho",
@@ -138,39 +142,47 @@
         },
         {
           "es": "la talla",
-          "en": "size (for clothing)"
+          "en": "clothing size"
         },
         {
           "es": "el toque personal",
-          "en": "(individual) touch"
+          "en": "personal touch"
         },
         {
           "es": "destacar",
-          "en": "to draw attention to/ to highlight"
+          "en": "to draw attention to"
         },
         {
           "es": "disimular",
-          "en": "to detract attention from / to downplay"
+          "en": "to downplay"
         },
         {
-          "es": "elegir (j)",
+          "es": "elegir",
           "en": "to choose"
+        },
+        {
+          "es": "ustedes eligen",
+          "en": "you all choose"
         },
         {
           "es": "llevar",
           "en": "to wear"
         },
         {
-          "es": "quedarle bien/mal (quedar)",
-          "en": "to look good/bad"
+          "es": "quedarle bien",
+          "en": "to look good"
+        },
+        {
+          "es": "quedarle mal",
+          "en": "to look bad"
         },
         {
           "es": "Me queda bien.",
-          "en": "It looks good/fits well."
+          "en": "It looks good on me."
         },
         {
           "es": "No me queda bien.",
-          "en": "It doesn't look good on me. / It doesn't fit me well."
+          "en": "It doesn't fit me well."
         },
         {
           "es": "¡Te queda muy bien!",
@@ -183,24 +195,40 @@
       "title-en": "TO SHOP",
       "vocabulary": [
         {
-          "es": "comprar (en línea)",
-          "en": "to buy (online)"
+          "es": "comprar en línea",
+          "en": "to buy online"
         },
         {
-          "es": "devolver (ue)",
+          "es": "devolver",
           "en": "to return"
+        },
+        {
+          "es": "ustedes devuelven",
+          "en": "you all return"
         },
         {
           "es": "pagar",
           "en": "to pay"
         },
         {
-          "es": "probar(se) (ue)",
+          "es": "probarse",
           "en": "to try on"
         },
         {
-          "es": "quedárselo(s) / quedársela(s)",
-          "en": "to keep it/them"
+          "es": "ustedes pruebanse",
+          "en": "you all try on"
+        },
+        {
+          "es": "quedárselo",
+          "en": "to keep it"
+        },
+        {
+          "es": "quedárselos",
+          "en": "to keep them"
+        },
+        {
+          "es": "ustedes se quedan con las camisetas",
+          "en": "you all keep the shirts"
         }
       ]
     },
@@ -233,8 +261,8 @@
           "en": "tie"
         },
         {
-          "es": "las gafas (de sol)",
-          "en": "the (sun)glasses"
+          "es": "las gafas de sol",
+          "en": "the sunglasses"
         },
         {
           "es": "el gorro",
@@ -246,7 +274,7 @@
         },
         {
           "es": "el pañuelo",
-          "en": "scarf / handkerchief"
+          "en": "scarf"
         },
         {
           "es": "la pulsera",
@@ -267,27 +295,27 @@
       "title-en": "STYLES",
       "vocabulary": [
         {
-          "es": "ajustado/a",
+          "es": "ajustado",
           "en": "tight"
         },
         {
-          "es": "arreglado/a",
+          "es": "arreglado",
           "en": "put together"
         },
         {
-          "es": "arriesgado/a",
+          "es": "arriesgado",
           "en": "daring"
         },
         {
-          "es": "clásico/a",
-          "en": "classic, / conservative"
+          "es": "clásico",
+          "en": "classic"
         },
         {
-          "es": "cómodo/a",
+          "es": "cómodo",
           "en": "comfortable"
         },
         {
-          "es": "deportivo/a",
+          "es": "deportivo",
           "en": "sporty"
         },
         {
@@ -295,7 +323,7 @@
           "en": "elegant"
         },
         {
-          "es": "entallado/a",
+          "es": "entallado",
           "en": "fitted"
         },
         {
@@ -303,7 +331,7 @@
           "en": "formal"
         },
         {
-          "es": "holgado/a",
+          "es": "holgado",
           "en": "loose"
         },
         {
@@ -315,11 +343,11 @@
           "en": "professional"
         },
         {
-          "es": "recto/a",
+          "es": "recto",
           "en": "straight"
         },
         {
-          "es": "relajado/a",
+          "es": "relajado",
           "en": "relaxed"
         }
       ]

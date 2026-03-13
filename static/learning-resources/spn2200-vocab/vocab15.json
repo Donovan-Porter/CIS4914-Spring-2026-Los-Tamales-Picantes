@@ -6,14 +6,14 @@
       "vocabulary": [
         {
           "es": "el fray",
-          "en": "brother (religious) / friar"
+          "en": "friar"
         },
         {
-          "es": "el/la indígena",
+          "es": "el indígena",
           "en": "indigenous person"
         },
         {
-          "es": "el/la opresor/a",
+          "es": "el opresor",
           "en": "oppressor"
         }
       ]
@@ -46,7 +46,7 @@
         },
         {
           "es": "la incredulidad",
-          "en": "incredulity / disbelief"
+          "en": "disbelief"
         },
         {
           "es": "la muerte",
@@ -67,8 +67,12 @@
       "title-en": "TO TALK ABOUT INDIGENOUS PEOPLE",
       "vocabulary": [
         {
-          "es": "la prisa (con/sin prisa)",
-          "en": "hurry (with/without hurry)"
+          "es": "con prisa",
+          "en": "with hurry"
+        },
+        {
+          "es": "sin prisa",
+          "en": "without hurry"
         },
         {
           "es": "el rostro",
@@ -81,27 +85,27 @@
       "title-en": "CHARACTERS' EMOTIONS",
       "vocabulary": [
         {
-          "es": "aislado/a",
+          "es": "aislado",
           "en": "isolated"
         },
         {
-          "es": "apresado/a",
+          "es": "apresado",
           "en": "captured"
         },
         {
-          "es": "arduo/a",
-          "en": "arduous / difficult"
+          "es": "arduo",
+          "en": "arduous"
         },
         {
           "es": "impasible",
-          "en": "unemotional / apathetic"
+          "en": "unemotional"
         },
         {
-          "es": "perdido/a",
+          "es": "perdido",
           "en": "lost"
         },
         {
-          "es": "rodeado/a",
+          "es": "rodeado",
           "en": "surrounded"
         }
       ]
@@ -123,12 +127,12 @@
           "en": "to decide"
         },
         {
-          "es": "disponerse a + infinitive",
-          "en": "to get ready to"
+          "es": "disponerse a morir",
+          "en": "to get ready to die"
         },
         {
           "es": "engañar",
-          "en": "to trick / to mislead"
+          "en": "to mislead"
         },
         {
           "es": "florecer",
@@ -157,12 +161,12 @@
       "title-en": "ANALYZING LITERATURE",
       "vocabulary": [
         {
-          "es": "el/la autor/a",
+          "es": "el autor",
           "en": "author"
         },
         {
-          "es": "el (micro)cuento",
-          "en": "(very) short story"
+          "es": "el microcuento",
+          "en": "very short story"
         },
         {
           "es": "la escena",
@@ -201,12 +205,12 @@
           "en": "purpose"
         },
         {
-          "es": "el/la protagonista",
+          "es": "el protagonista",
           "en": "protagonist"
         },
         {
-          "es": "el punto de vista (narrativo)",
-          "en": "(narrative) point of view"
+          "es": "el punto de vista narrativo",
+          "en": "narrative point of view"
         },
         {
           "es": "el símil",
@@ -235,23 +239,23 @@
           "en": "key"
         },
         {
-          "es": "irónico/a",
+          "es": "irónico",
           "en": "ironic"
         },
         {
-          "es": "polémico/a",
-          "en": "polemical / controversial"
+          "es": "polémico",
+          "en": "controversial"
         },
         {
-          "es": "retórico/a",
+          "es": "retórico",
           "en": "rhetorical"
         },
         {
-          "es": "significativo/a",
+          "es": "significativo",
           "en": "significant"
         },
         {
-          "es": "simbólico/a",
+          "es": "simbólico",
           "en": "symbolic"
         }
       ]

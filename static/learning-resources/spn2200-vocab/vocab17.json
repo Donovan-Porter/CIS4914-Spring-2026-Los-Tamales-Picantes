@@ -13,23 +13,23 @@
           "en": "short"
         },
         {
-          "es": "exitoso/a",
+          "es": "exitoso",
           "en": "successful"
         },
         {
-          "es": "guerrero/a",
-          "en": "warrior, fighter"
+          "es": "guerrero",
+          "en": "warrior"
         },
         {
           "es": "mujeriego",
           "en": "womanizer"
         },
         {
-          "es": "orgulloso/a",
+          "es": "orgulloso",
           "en": "proud"
         },
         {
-          "es": "parrandero/a",
+          "es": "parrandero",
           "en": "party animal"
         },
         {
@@ -37,12 +37,12 @@
           "en": "racist"
         },
         {
-          "es": "religioso/a",
+          "es": "religioso",
           "en": "religious"
         },
         {
-          "es": "(super)fiestero/a",
-          "en": "party-going"
+          "es": "fiestero",
+          "en": "party-goer"
         }
       ]
     },
@@ -106,7 +106,7 @@
         },
         {
           "es": "la raíz",
-          "en": "root / cause / source"
+          "en": "source"
         }
       ]
     },
@@ -119,64 +119,100 @@
           "en": "to contribute"
         },
         {
-          "es": "calificarse (como)",
-          "en": "to qualify oneself (as)"
+          "es": "calificarse como",
+          "en": "to qualify oneself as"
         },
         {
-          "es": "coincidir (con)",
-          "en": "to coincide / to agree (with)"
+          "es": "coincidir con",
+          "en": "to agree with"
         },
         {
           "es": "conservar tradiciones",
-          "en": "to keep/maintain traditions"
+          "en": "to maintain traditions"
         },
         {
-          "es": "construir(y) un estereotipo",
+          "es": "construir un estereotipo",
           "en": "to construct a stereotype"
         },
         {
-          "es": "definir a una persona / definirse (como)",
-          "en": "to define a person / to define oneself (as)"
+          "es": "ustedes construyen",
+          "en": "you all construct"
         },
         {
-          "es": "estar dispuesto/a (a)",
-          "en": "to be willing/able (to)"
+          "es": "definir a una persona",
+          "en": "to define a person"
+        },
+        {
+          "es": "definirse como",
+          "en": "to define oneself as"
+        },
+        {
+          "es": "estar dispuesto a",
+          "en": "to be willing to"
         },
         {
           "es": "pretender",
-          "en": "to try / to pretend"
+          "en": "to intend"
         },
         {
-          "es": "prevalecer (las opiniones negativas / positivas)",
-          "en": "to prevail (negative / positive opinions)"
+          "es": "prevalecer",
+          "en": "to prevail"
+        },
+        {
+          "es": "yo prevalezco",
+          "en": "I prevail"
+        },
+        {
+          "es": "las opiniones negativas",
+          "en": "negative opinions"
+        },
+        {
+          "es": "las opiniones positivas",
+          "en": "positive opinions"
         },
         {
           "es": "realizar",
-          "en": "to achieve / to complete"
+          "en": "to carry out"
         },
         {
-          "es": "recurrir (a)",
-          "en": "to appeal (to) / to draw on"
+          "es": "recurrir a",
+          "en": "to appeal to"
         },
         {
-          "es": "reforzar (ue)",
+          "es": "reforzar",
           "en": "to reinforce"
+        },
+        {
+          "es": "ustedes refuerzan",
+          "en": "you all reinforce"
         },
         {
           "es": "revelar",
           "en": "to reveal"
         },
         {
-          "es": "ser culpa de (alguien)",
-          "en": "to be (someone's) blame/fault"
+          "es": "ser culpa de alguien",
+          "en": "to be someone's fault"
         },
         {
-          "es": "ser/estar socialmente aceptado/a",
-          "en": "to be socially acceptable"
+          "es": "ser socialmente aceptado",
+          "en": "to be socially acceptable generally"
         },
         {
-          "es": "violar (las garantías / los derechos humanos)",
-          "en": "to violate (guarantees / human rights)"
+          "es": "estar socialmente aceptado",
+          "en": "to be socially acceptable now"
+        },
+        {
+          "es": "violar",
+          "en": "to violate"
+        },
+        {
+          "es": "las garantías",
+          "en": "guarantees"
+        },
+        {
+          "es": "los derechos humanos",
+          "en": "human rights"
         }
       ]
     },
@@ -185,8 +221,8 @@
       "title-en": "POSITIVE ATTRIBUTES",
       "vocabulary": [
         {
-          "es": "culto/a",
-          "en": "cultured / well educated"
+          "es": "culto",
+          "en": "cultured"
         },
         {
           "es": "diligente",
@@ -207,59 +243,63 @@
       "title-en": "NEGATIVE ATTRIBUTES",
       "vocabulary": [
         {
-          "es": "borracho/a",
+          "es": "borracho",
           "en": "drunk"
         },
         {
-          "es": "bruto/a",
-          "en": "rude / crude"
+          "es": "bruto",
+          "en": "crude"
         },
         {
-          "es": "codicioso/a",
+          "es": "codicioso",
           "en": "greedy"
         },
         {
-          "es": "excesivo/a",
-          "en": "wasteful / excessive / inflated"
+          "es": "excesivo",
+          "en": "excessive"
         },
         {
-          "es": "gruñón/gruñona",
-          "en": "grumpy"
+          "es": "hombre gruñón",
+          "en": "grumpy man"
         },
         {
-          "es": "impulsivo/a",
+          "es": "mujer gruñona",
+          "en": "grumpy woman"
+        },
+        {
+          "es": "impulsivo",
           "en": "impulsive"
         },
         {
-          "es": "incómodo/a",
+          "es": "incómodo",
           "en": "uncomfortable"
         },
         {
-          "es": "indeciso/a",
+          "es": "indeciso",
           "en": "indecisive"
         },
         {
-          "es": "malévolo/a",
-          "en": "malicious / spiteful / mean"
+          "es": "malévolo",
+          "en": "mean"
         },
         {
           "es": "materialista",
           "en": "materialistic"
         },
         {
-          "es": "mimado/a",
+          "es": "mimado",
           "en": "spoiled"
         },
         {
-          "es": "necio/a",
+          "es": "necio",
           "en": "foolish"
         },
         {
-          "es": "perezoso/a",
+          "es": "perezoso",
           "en": "lazy"
         },
         {
-          "es": "terco/a",
+          "es": "terco",
           "en": "stubborn"
         },
         {
@@ -267,7 +307,7 @@
           "en": "clumsy"
         },
         {
-          "es": "travieso/a",
+          "es": "travieso",
           "en": "naughty"
         }
       ]
@@ -277,8 +317,16 @@
       "title-en": "ATTITUDES TOWARDS PEOPLE",
       "vocabulary": [
         {
-          "es": "la clase media/baja/ alta",
-          "en": "middle/lower/upper class"
+          "es": "la clase media",
+          "en": "middle class"
+        },
+        {
+          "es": "la clase baja",
+          "en": "lower class"
+        },
+        {
+          "es": "la clase alta",
+          "en": "upper class"
         },
         {
           "es": "la creencia",
@@ -289,8 +337,12 @@
           "en": "flaw"
         },
         {
-          "es": "las (des)ventajas",
-          "en": "(dis)advantages"
+          "es": "las ventajas",
+          "en": "advantages"
+        },
+        {
+          "es": "las desventajas",
+          "en": "disadvantages"
         },
         {
           "es": "la diversidad",
@@ -355,8 +407,12 @@
           "en": "to fit in"
         },
         {
-          "es": "excluir (y)",
+          "es": "excluir",
           "en": "to exclude"
+        },
+        {
+          "es": "ustedes excluyen",
+          "en": "you all exclude"
         },
         {
           "es": "incluir",
@@ -371,12 +427,20 @@
           "en": "to reject"
         },
         {
-          "es": "soler (ue)",
+          "es": "soler",
           "en": "to usually do"
         },
         {
-          "es": "tender (ie) a",
-          "en": "to tend (to)"
+          "es": "ustedes suelen",
+          "en": "you all usually do"
+        },
+        {
+          "es": "tender a",
+          "en": "to tend to"
+        },
+        {
+          "es": "ustedes tienden a",
+          "en": "you all tend to"
         },
         {
           "es": "tolerar",

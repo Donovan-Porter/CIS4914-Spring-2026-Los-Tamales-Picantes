@@ -25,8 +25,16 @@
           "en": "to ride a bike"
         },
         {
-          "es": "patinar (en línea, sobre hielo)",
-          "en": "to skate (to rollerblade/to in-line skate, to ice-skate)"
+          "es": "patinar en línea",
+          "en": "to rollerblade"
+        },
+        {
+          "es": "patinar sobre hielo",
+          "en": "to ice-skate"
+        },
+        {
+          "es": "patinar",
+          "en": "to skate"
         }
       ]
     },
@@ -35,35 +43,35 @@
       "title-en": "TO PLAY ...",
       "vocabulary": [
         {
-          "es": "(el) básquetbol",
+          "es": "el básquetbol",
           "en": "basketball"
         },
         {
-          "es": "(el) béisbol",
+          "es": "el béisbol",
           "en": "baseball"
         },
         {
-          "es": "(el) fútbol",
+          "es": "el fútbol",
           "en": "soccer"
         },
         {
-          "es": "(el) fútbol americano",
+          "es": "el fútbol americano",
           "en": "American football"
         },
         {
-          "es": "(el) golf",
+          "es": "el golf",
           "en": "golf"
         },
         {
-          "es": "(el) hockey",
+          "es": "el hockey",
           "en": "hockey"
         },
         {
-          "es": "(el) tenis",
+          "es": "el tenis",
           "en": "tennis"
         },
         {
-          "es": "(el) vóleibol",
+          "es": "el vóleibol",
           "en": "volleyball"
         }
       ]
@@ -73,27 +81,27 @@
       "title-en": "TO PRACTICE/ TO DO ...",
       "vocabulary": [
         {
-          "es": "(la) caminata",
-          "en": "walking/hiking"
+          "es": "la caminata",
+          "en": "walking"
         },
         {
-          "es": "(el) ciclismo",
+          "es": "el ciclismo",
           "en": "cycling"
         },
         {
-          "es": "(el) esquí acuático",
+          "es": "el esquí acuático",
           "en": "water skiing"
         },
         {
-          "es": "(la) natación",
+          "es": "la natación",
           "en": "swimming"
         },
         {
-          "es": "(el) surf",
+          "es": "el surf",
           "en": "surfing"
         },
         {
-          "es": "(el) yoga",
+          "es": "el yoga",
           "en": "yoga"
         }
       ]
@@ -111,8 +119,12 @@
           "en": "to win"
         },
         {
-          "es": "perder (e>ie)",
+          "es": "perder",
           "en": "to lose"
+        },
+        {
+          "es": "ustedes pierden",
+          "en": "you all lose"
         }
       ]
     },
@@ -121,19 +133,23 @@
       "title-en": "PEOPLE",
       "vocabulary": [
         {
-          "es": "el/la aficionado/a (ser un/a aficionado/a)",
-          "en": "sports fan (to be a sports fan)"
+          "es": "el aficionado",
+          "en": "sports fan"
         },
         {
-          "es": "el/la atleta",
+          "es": "ser un aficionado",
+          "en": "to be a sports fan"
+        },
+        {
+          "es": "el atleta",
           "en": "athlete"
         },
         {
-          "es": "el/la corredor/a",
+          "es": "el corredor",
           "en": "runner"
         },
         {
-          "es": "el/la entrenador/a",
+          "es": "el entrenador",
           "en": "trainer"
         },
         {
@@ -141,7 +157,7 @@
           "en": "team"
         },
         {
-          "es": "el/la jugador(a)",
+          "es": "la jugadora",
           "en": "player"
         }
       ]
@@ -152,18 +168,18 @@
       "vocabulary": [
         {
           "es": "el campo",
-          "en": "field / course"
+          "en": "field"
         },
         {
-          "es": "la cancha (de tenis, de fútbol)",
-          "en": "(tennis) court, (soccer) field"
+          "es": "la cancha de tenis",
+          "en": "tennis court"
         },
         {
           "es": "la carrera",
           "en": "race"
         },
         {
-          "es": "la competición/la competencia",
+          "es": "la competición",
           "en": "competition"
         },
         {
@@ -176,7 +192,7 @@
         },
         {
           "es": "el partido",
-          "en": "game/match"
+          "en": "match"
         },
         {
           "es": "la pelota",
@@ -188,11 +204,11 @@
         },
         {
           "es": "la piscina",
-          "en": "(swimming) pool"
+          "en": "swimming pool"
         },
         {
-          "es": "la (semi)final",
-          "en": "(semi) final game/ match"
+          "es": "la semi final",
+          "en": "semi final"
         }
       ]
     },
@@ -201,15 +217,15 @@
       "title-en": "EDUCATION",
       "vocabulary": [
         {
-          "es": "el/la investigador/a",
+          "es": "el investigador",
           "en": "researcher"
         },
         {
-          "es": "el/la maestro/a",
+          "es": "el maestro",
           "en": "teacher"
         },
         {
-          "es": "el/la profesor/a",
+          "es": "el profesor",
           "en": "professor"
         },
         {
@@ -225,8 +241,8 @@
           "en": "to research"
         },
         {
-          "es": "mejorar (la sociedad)",
-          "en": "to make (society) better"
+          "es": "mejorar la sociedad",
+          "en": "to make society better"
         },
         {
           "es": "motivar",
@@ -239,19 +255,19 @@
       "title-en": "PUBLIC SAFETY AND THE LAW",
       "vocabulary": [
         {
-          "es": "el/la abogado/a",
+          "es": "el abogado",
           "en": "lawyer"
         },
         {
-          "es": "el/la agente federal",
+          "es": "el agente federal",
           "en": "federal agent"
         },
         {
-          "es": "el/la defensor/a público/a",
+          "es": "el defensor público",
           "en": "public defender"
         },
         {
-          "es": "el/la fiscal",
+          "es": "el fiscal",
           "en": "prosecutor"
         },
         {
@@ -259,7 +275,7 @@
           "en": "armed forces"
         },
         {
-          "es": "el/la juez/a",
+          "es": "el juez",
           "en": "judge"
         },
         {
@@ -267,11 +283,11 @@
           "en": "law"
         },
         {
-          "es": "el/la militar",
+          "es": "la militar",
           "en": "soldier"
         },
         {
-          "es": "el/la policía",
+          "es": "el policía",
           "en": "police officer"
         },
         {
@@ -289,19 +305,19 @@
       "title-en": "THE MEDIA",
       "vocabulary": [
         {
-          "es": "el/la consultor/a (de mercadeo)",
-          "en": "(marketing) consultant"
+          "es": "el consultor de mercadeo",
+          "en": "marketing consultant"
         },
         {
-          "es": "el/la periodista",
+          "es": "el periodista",
           "en": "journalist"
         },
         {
-          "es": "el/la publicista",
+          "es": "el publicista",
           "en": "advertising agent"
         },
         {
-          "es": "el/la relacionista público/a",
+          "es": "el relacionista público",
           "en": "public relations agent"
         },
         {

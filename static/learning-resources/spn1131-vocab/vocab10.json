@@ -5,39 +5,39 @@
       "title-en": "HEALTH",
       "vocabulary": [
         {
-          "es": "el/la cirujano/a",
+          "es": "el cirujano",
           "en": "surgeon"
         },
         {
-          "es": "el/la consejero/a",
+          "es": "el consejero",
           "en": "counselor"
         },
         {
-          "es": "el/la dentista",
+          "es": "el dentista",
           "en": "dentist"
         },
         {
-          "es": "el/la director/a del hospital",
+          "es": "el director del hospital",
           "en": "hospital director"
         },
         {
-          "es": "el/la enfermero/a",
+          "es": "el enfermero",
           "en": "nurse"
         },
         {
-          "es": "el/la farmacéutico/a",
+          "es": "el farmacéutico",
           "en": "pharmacist"
         },
         {
-          "es": "el/la fisioterapeuta",
+          "es": "el fisioterapeuta",
           "en": "physical therapist"
         },
         {
-          "es": "el/la médico/a",
-          "en": "doctor (of medicine)"
+          "es": "el médico",
+          "en": "medical doctor"
         },
         {
-          "es": "el /la psicólogo/a",
+          "es": "el psicólogo",
           "en": "psychologist"
         },
         {
@@ -49,8 +49,8 @@
           "en": "to cure"
         },
         {
-          "es": "preparar (medicamentos)",
-          "en": "to prepare (medication)"
+          "es": "preparar medicamentos",
+          "en": "to prepare medication"
         }
       ]
     },
@@ -59,19 +59,19 @@
       "title-en": "BUSINESS",
       "vocabulary": [
         {
-          "es": "el/la asesor/a financiero/a",
+          "es": "el asesor financiero",
           "en": "financial advisor"
         },
         {
-          "es": "el/la contador/a",
+          "es": "el contador",
           "en": "accountant"
         },
         {
-          "es": "el/la ejecutivo/a",
+          "es": "el ejecutivo",
           "en": "executive"
         },
         {
-          "es": "el/la gerente",
+          "es": "el gerente",
           "en": "manager"
         },
         {
@@ -79,8 +79,8 @@
           "en": "to advise"
         },
         {
-          "es": "administrar (una compañía)",
-          "en": "to run, to manage (a company)"
+          "es": "administrar una compañía",
+          "en": "to run, to manage a company"
         },
         {
           "es": "comprar",
@@ -105,27 +105,27 @@
       "title-en": "SCIENCE, ENGINEERING, DESIGN AND COMPUTING",
       "vocabulary": [
         {
-          "es": "el/la arquitecto/a",
+          "es": "el arquitecto",
           "en": "architect"
         },
         {
-          "es": "el/la científico/a",
+          "es": "el científico",
           "en": "scientist"
         },
         {
-          "es": "el /la diseñador/a",
+          "es": "el diseñador",
           "en": "designer"
         },
         {
-          "es": "el/la ecologista",
+          "es": "el ecologista",
           "en": "ecologist"
         },
         {
-          "es": "el/la ingeniero/a",
+          "es": "el ingeniero",
           "en": "engineer"
         },
         {
-          "es": "el /la programador/a de computación",
+          "es": "el programador de computación",
           "en": "computer programmer"
         },
         {
@@ -147,15 +147,15 @@
       "title-en": "EDUCATION",
       "vocabulary": [
         {
-          "es": "el/la investigador/a",
+          "es": "el investigador",
           "en": "researcher"
         },
         {
-          "es": "el/la maestro/a",
+          "es": "el maestro",
           "en": "teacher"
         },
         {
-          "es": "el/la profesor/a",
+          "es": "el profesor",
           "en": "professor"
         },
         {
@@ -171,8 +171,8 @@
           "en": "to research"
         },
         {
-          "es": "mejorar (la sociedad)",
-          "en": "to make (society) better"
+          "es": "mejorar la sociedad",
+          "en": "to make society better"
         },
         {
           "es": "motivar",
@@ -185,19 +185,19 @@
       "title-en": "PUBLIC SAFETY AND THE LAW",
       "vocabulary": [
         {
-          "es": "el/la abogado/a",
+          "es": "el abogado",
           "en": "lawyer"
         },
         {
-          "es": "el/la agente federal",
+          "es": "el agente federal",
           "en": "federal agent"
         },
         {
-          "es": "el/la defensor/a público/a",
+          "es": "el defensor público",
           "en": "public defender"
         },
         {
-          "es": "el/la fiscal",
+          "es": "el fiscal",
           "en": "prosecutor"
         },
         {
@@ -205,7 +205,7 @@
           "en": "armed forces"
         },
         {
-          "es": "el/la juez/a",
+          "es": "el juez",
           "en": "judge"
         },
         {
@@ -213,11 +213,11 @@
           "en": "law"
         },
         {
-          "es": "el/la militar",
+          "es": "el militar",
           "en": "soldier"
         },
         {
-          "es": "el/la policía",
+          "es": "el policía",
           "en": "police officer"
         },
         {
@@ -235,19 +235,19 @@
       "title-en": "THE MEDIA",
       "vocabulary": [
         {
-          "es": "el/la consultor/a (de mercadeo)",
-          "en": "(marketing) consultant"
+          "es": "el consultor de mercadeo",
+          "en": "marketing consultant"
         },
         {
-          "es": "el/la periodista",
+          "es": "el periodista",
           "en": "journalist"
         },
         {
-          "es": "el/la publicista",
+          "es": "el publicista",
           "en": "advertising agent"
         },
         {
-          "es": "el/la relacionista público/a",
+          "es": "el relacionista público",
           "en": "public relations agent"
         },
         {

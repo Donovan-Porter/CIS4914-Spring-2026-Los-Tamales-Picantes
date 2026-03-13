@@ -46,15 +46,15 @@
             "title": "DROPPING OF SUBJECT",
             "examples": [
                 {
-                    "integral": "Nosotros somos de Guatemala. (drop subject)",
+                    "integral": "We are from Guatemala.",
                     "derivative": "Somos de Guatemala."
                 },
                 {
-                    "integral": "Vosotros sois cómicos. (drop subject)",
+                    "integral": "You chaps are funny.",
                     "derivative": "Sois cómicos."
                 },
                 {
-                    "integral": "Los libros son interesantes. (drop subject)",
+                    "integral": "They are interesting.",
                     "derivative": "Son interesantes."
                 }
             ]
@@ -63,12 +63,20 @@
             "title": "ADJECTIVE AGREEMENT",
             "examples": [
                 {
-                    "integral": "Nosotros estamos <tired>.",
+                    "integral": "Us guys are tired.",
                     "derivative": "Nosotros estamos cansados."
                 },
                 {
-                    "integral": "Ellas están <content>.",
+                    "integral": "Those gals are content.",
                     "derivative": "Ellas están contentas."
+                },
+                {
+                    "integral": "Us gals are tired.",
+                    "derivative": "Nosotras estamos cansadas."
+                },
+                {
+                    "integral": "Those guys are content.",
+                    "derivative": "Ellos están contentos."
                 }
             ]
         },
@@ -76,31 +84,31 @@
             "title": "PRESENT TENSE OF SER, PLURAL",
             "examples": [
                 {
-                    "integral": "We are. (masculine)",
+                    "integral": "Us guys are.",
                     "derivative": "Nosotros somos."
                 },
                 {
-                    "integral": "We are. (feminine)",
+                    "integral": "Us gals are.",
                     "derivative": "Nosotras somos."
                 },
                 {
-                    "integral": "You all are. (masculine, informal Castillian)",
+                    "integral": "You chaps are.",
                     "derivative": "Vosotros sois."
                 },
                 {
-                    "integral": "You all are. (feminine, informal Castillian)",
+                    "integral": "You chapettes are.",
                     "derivative": "Vosotras sois."
                 },
                 {
-                    "integral": "You all are. (formal or informal American)",
+                    "integral": "Y'all are.",
                     "derivative": "Ustedes son."
                 },
                 {
-                    "integral": "They all are. (masculine)",
+                    "integral": "Those guys are.",
                     "derivative": "Ellos son."
                 },
                 {
-                    "integral": "They all are. (feminine)",
+                    "integral": "Those gals are.",
                     "derivative": "Ellas son."
                 }
             ]
@@ -109,31 +117,31 @@
             "title": "PRESENT TENSE OF ESTAR, PLURAL",
             "examples": [
                 {
-                    "integral": "We are. (masculine)",
+                    "integral": "Us guys are currently.",
                     "derivative": "Nosotros estamos."
                 },
                 {
-                    "integral": "We are. (feminine)",
+                    "integral": "Us gals are currently.",
                     "derivative": "Nosotras estamos."
                 },
                 {
-                    "integral": "You all are. (masculine or mixed, informal Castillian)",
+                    "integral": "You chaps are currently.",
                     "derivative": "Vosotros estáis."
                 },
                 {
-                    "integral": "You all are. (feminine, informal Castillian)",
+                    "integral": "You chapettes are currently.",
                     "derivative": "Vosotras estáis."
                 },
                 {
-                    "integral": "You all are. (formal or informal American)",
+                    "integral": "Y'all are currently.",
                     "derivative": "Ustedes están."
                 },
                 {
-                    "integral": "They all are. (masculine)",
+                    "integral": "Those guys are currently.",
                     "derivative": "Ellos están."
                 },
                 {
-                    "integral": "They all are. (feminine)",
+                    "integral": "Those gals are currently.",
                     "derivative": "Ellas están."
                 }
             ]
@@ -142,12 +150,16 @@
             "title": "THIRD PERSON PLURAL REGIONAL DIFFERENCES",
             "examples": [
                 {
-                    "integral": "You all are funny. (informal American)",
+                    "integral": "Y'all are funny.",
                     "derivative": "Ustedes son cómicos."
                 },
                 {
-                    "integral": "You all are funny. (informal Castillian)",
+                    "integral": "You chaps are funny.",
                     "derivative": "Vosotros sois cómicos."
+                },
+                {
+                    "integral": "You chapettes are funny.",
+                    "derivative": "Vosotras sois cómicas."
                 }
             ]
         },
@@ -155,7 +167,7 @@
             "title": "INVERTING ORDER OF SUBJECT AND VERB TO ASK A QUESTION",
             "examples": [
                 {
-                    "integral": "Ustedes están aburridos. (reverse subject-verb order)",
+                    "integral": "Are y'all boring?",
                     "derivative": "¿Están ustedes aburridos?"
                 }
             ]
@@ -168,7 +180,7 @@
                     "derivative": "Ustedes están aburridos, ¿verdad?"
                 },
                 {
-                    "integral": "You are called Maria, no? (informal)",
+                    "integral": "You are called Maria, no?",
                     "derivative": "Te llamos Maria, ¿no?"
                 }
             ]
@@ -201,7 +213,7 @@
                     "derivative": "¿Cuáles son tus clases preferidas?"
                 },
                 {
-                    "integral": "Why do you study Spanish? (informal; drop subject)",
+                    "integral": "Why do you study Spanish?",
                     "derivative": "¿Por qué estudias español?"
                 },
                 {
@@ -225,7 +237,7 @@
                     "derivative": "¿Cuánto cuesta el programa?"
                 },
                 {
-                    "integral": "How many courses are you taking? (informal, drop subject)",
+                    "integral": "How many courses are you taking?",
                     "derivative": "¿Cuántos cursos tomas?"
                 }
             ]
@@ -238,7 +250,7 @@
                     "derivative": "¿Qué es la contabilidad?"
                 },
                 {
-                    "integral": "What classes do you have? (informal, drop subject)",
+                    "integral": "What classes do you have?",
                     "derivative": "¿Qué clases tienes?"
                 },
                 {

@@ -15,16 +15,24 @@
       "title-en": "EVENTS",
       "vocabulary": [
         {
-          "es": "hacer el esfuerzo por + inf.",
-          "en": "to make the effort to + inf."
+          "es": "hacer el esfuerzo por",
+          "en": "to make the effort to"
         },
         {
-          "es": "lamentar(se)",
-          "en": "to lament"
+          "es": "lamentar una situación",
+          "en": "to regret a situation"
         },
         {
-          "es": "tostar (ue)",
+          "es": "lamentarse",
+          "en": "to feel regret"
+        },
+        {
+          "es": "tostar",
           "en": "to toast"
+        },
+        {
+          "es": "ustedes tuestan",
+          "en": "you all toast"
         }
       ]
     },
@@ -55,7 +63,7 @@
           "en": "metal straw"
         },
         {
-          "es": "el/la cebador/a",
+          "es": "el cebador",
           "en": "person who prepares and serves mate"
         },
         {
@@ -67,20 +75,24 @@
           "en": "to brew mate"
         },
         {
-          "es": "gracias",
-          "en": "thanks (pragmatically: no more mate; enough)"
+          "es": "suficiente",
+          "en": "enough"
         },
         {
-          "es": "hacer una mateada/terereada",
-          "en": "to gather to drink mate/tereré"
+          "es": "hacer una terereada",
+          "en": "to gather to drink tereré"
         },
         {
           "es": "la guampa",
-          "en": "gourd container/cup"
+          "en": "gourd cup"
         },
         {
-          "es": "el mate (amargo/dulce)",
-          "en": "(bitter/sweet) herbal tea infusion"
+          "es": "el mate amargo",
+          "en": "bitter herbal tea"
+        },
+        {
+          "es": "el mate dulce",
+          "en": "sweet herbal tea"
         },
         {
           "es": "la pava",
@@ -91,8 +103,8 @@
           "en": "round of mate drinking"
         },
         {
-          "es": "el sorbo (de mate / de tereré)",
-          "en": "sip (of mate/tereré)"
+          "es": "el sorbo de mate",
+          "en": "sip of mate"
         },
         {
           "es": "el tereré",
@@ -113,36 +125,40 @@
       "title-en": "CUSTOMS AND TRADITIONS",
       "vocabulary": [
         {
-          "es": "abandonar (una costumbre / una tradición)",
-          "en": "to abandon (a custom / a tradition)"
+          "es": "abandonar una costumbre, o tradición",
+          "en": "to abandon a custom, or tradition"
         },
         {
-          "es": "el código (de una norma social)",
-          "en": "code (of a social norm)"
+          "es": "el código de una norma social",
+          "en": "code of a social norm"
         },
         {
-          "es": "construir (y)",
+          "es": "construir",
           "en": "to construct"
         },
         {
-          "es": "convertir (la costumbre en tradición)",
-          "en": "to convert (a custom into tradition)"
+          "es": "ustedes construyen",
+          "en": "you all construct"
+        },
+        {
+          "es": "convertir la costumbre en tradición",
+          "en": "to convert a custom into tradition"
         },
         {
           "es": "evolucionar",
           "en": "to evolve"
         },
         {
-          "es": "introducir (la costumbre)",
-          "en": "to introduce (a custom)"
+          "es": "introducir la costumbre",
+          "en": "to introduce a custom"
         },
         {
-          "es": "perdurar (con el paso del tiempo)",
-          "en": "to endure (the passage of time)"
+          "es": "perdurar con el paso del tiempo",
+          "en": "to endure the passage of time"
         },
         {
-          "es": "rechazar (una costumbre / una tradición)",
-          "en": "to reject (a custom / a tradition)"
+          "es": "rechazar una costumbre, o tradición",
+          "en": "to reject a custom, or tradition"
         },
         {
           "es": "el valor social",

@@ -17,8 +17,8 @@
           "en": "spark"
         },
         {
-          "es": "el hilo (de la identidad)",
-          "en": "thread (of identity)"
+          "es": "el hilo de la identidad",
+          "en": "thread of identity"
         },
         {
           "es": "el proceso retrospectivo",
@@ -60,14 +60,14 @@
         },
         {
           "es": "hundir en",
-          "en": "to sink"
+          "en": "to sink in"
         },
         {
-          "es": "clavado/a",
+          "es": "clavado",
           "en": "fixated"
         },
         {
-          "es": "nostálgico/a",
+          "es": "nostálgico",
           "en": "nostalgic"
         }
       ]
@@ -93,8 +93,8 @@
           "en": "to be born again"
         },
         {
-          "es": "volver a (infinitivo)",
-          "en": "to (do something) again"
+          "es": "volver a limpiar",
+          "en": "to clean again"
         }
       ]
     },
@@ -103,8 +103,8 @@
       "title-en": "TIME EXPRESSIONS",
       "vocabulary": [
         {
-          "es": "(diez) años atrás",
-          "en": "(ten) years ago"
+          "es": "diez años atrás",
+          "en": "ten years ago"
         },
         {
           "es": "apenas",
@@ -115,8 +115,8 @@
           "en": "suddenly"
         },
         {
-          "es": "después de (la clase)",
-          "en": "after (class)"
+          "es": "después de la clase",
+          "en": "after class"
         },
         {
           "es": "ese día",
@@ -133,8 +133,16 @@
       "title-en": "PROCESSES",
       "vocabulary": [
         {
-          "es": "asimilar(se)",
+          "es": "asimilar",
           "en": "to assimilate"
+        },
+        {
+          "es": "ustedes asimilan la cultura",
+          "en": "you all take in the culture"
+        },
+        {
+          "es": "ustedes se asimilan",
+          "en": "you all blend in"
         },
         {
           "es": "cruzar",
@@ -146,7 +154,7 @@
         },
         {
           "es": "emigrar",
-          "en": "to emigrate (leave country of origin to move to another)"
+          "en": "to emigrate"
         },
         {
           "es": "heredar",
@@ -154,15 +162,15 @@
         },
         {
           "es": "inmigrar",
-          "en": "to immigrate (come to a new country permanently)"
+          "en": "to immigrate"
         },
         {
           "es": "mejorar",
           "en": "to improve"
         },
         {
-          "es": "mudar(se)",
-          "en": "to move (i.e., to a new place)"
+          "es": "mudarse a lugar",
+          "en": "to move to a place"
         }
       ]
     },
@@ -171,7 +179,7 @@
       "title-en": "PEOPLE AND COMMUNITY",
       "vocabulary": [
         {
-          "es": "el/la ciudadano/a",
+          "es": "el ciudadano",
           "en": "citizen"
         },
         {
@@ -183,11 +191,11 @@
           "en": "generation"
         },
         {
-          "es": "el/la indocumentado/a",
+          "es": "el indocumentado",
           "en": "undocumented person"
         },
         {
-          "es": "el/la inmigrante",
+          "es": "el inmigrante",
           "en": "immigrant"
         },
         {
@@ -195,7 +203,7 @@
           "en": "population"
         },
         {
-          "es": "el/la refugiado/a",
+          "es": "el refugiado",
           "en": "refugee"
         }
       ]
@@ -229,8 +237,12 @@
           "en": "war"
         },
         {
-          "es": "la migración forzada/voluntaria",
-          "en": "forced/voluntary migration"
+          "es": "la migración forzada",
+          "en": "forced migration"
+        },
+        {
+          "es": "la migración voluntaria",
+          "en": "voluntary migration"
         },
         {
           "es": "la paz",
@@ -251,16 +263,20 @@
           "en": "political asylum"
         },
         {
-          "es": "la ley / las leyes",
-          "en": "law(s)"
+          "es": "la ley",
+          "en": "law"
+        },
+        {
+          "es": "las leyes",
+          "en": "laws"
         },
         {
           "es": "la naturalización",
           "en": "naturalization"
         },
         {
-          "es": "la tarjeta de residente permanente (la tarjeta verde)",
-          "en": "permanent resident card (green card)"
+          "es": "la tarjeta verde de residente permanente",
+          "en": "permanent resident green card)"
         }
       ]
     }

@@ -5,7 +5,7 @@
       "title-en": "POSITIVE QUALITIES",
       "vocabulary": [
         {
-          "es": "abierto/a",
+          "es": "abierto",
           "en": "open"
         },
         {
@@ -17,11 +17,11 @@
           "en": "friendly"
         },
         {
-          "es": "bondadoso/a",
-          "en": "kind/good"
+          "es": "bondadoso",
+          "en": "kind"
         },
         {
-          "es": "bueno/a",
+          "es": "bueno",
           "en": "good"
         },
         {
@@ -29,23 +29,23 @@
           "en": "capable"
         },
         {
-          "es": "cariñoso/a",
+          "es": "cariñoso",
           "en": "caring"
         },
         {
-          "es": "chistoso/a",
+          "es": "chistoso",
           "en": "funny"
         },
         {
-          "es": "compasivo/a",
+          "es": "compasivo",
           "en": "compassionate"
         },
         {
-          "es": "comprensivo/a",
+          "es": "comprensivo",
           "en": "understanding"
         },
         {
-          "es": "creativo/a",
+          "es": "creativo",
           "en": "creative"
         },
         {
@@ -61,15 +61,15 @@
           "en": "faithful"
         },
         {
-          "es": "gracioso/a",
+          "es": "gracioso",
           "en": "funny"
         },
         {
-          "es": "honesto/a",
+          "es": "honesto",
           "en": "honest"
         },
         {
-          "es": "imaginativo/a",
+          "es": "imaginativo",
           "en": "imaginative"
         },
         {
@@ -81,15 +81,15 @@
           "en": "loyal"
         },
         {
-          "es": "listo/a",
-          "en": "bright, smart"
+          "es": "listo",
+          "en": "bright"
         },
         {
           "es": "mejor",
           "en": "best"
         },
         {
-          "es": "nuevo/a",
+          "es": "nuevo",
           "en": "new"
         },
         {
@@ -97,11 +97,11 @@
           "en": "patient"
         },
         {
-          "es": "pacífico/a",
+          "es": "pacífico",
           "en": "peaceful"
         },
         {
-          "es": "positivo/a",
+          "es": "positivo",
           "en": "positive"
         },
         {
@@ -113,19 +113,19 @@
           "en": "sensitive"
         },
         {
-          "es": "simpático/a",
-          "en": "kind, nice"
+          "es": "simpático",
+          "en": "sympathetic"
         },
         {
-          "es": "talentoso/a",
+          "es": "talentoso",
           "en": "talented"
         },
         {
-          "es": "tranquilo/a",
-          "en": "calm/quiet"
+          "es": "tranquilo",
+          "en": "calm"
         },
         {
-          "es": "único/a",
+          "es": "único",
           "en": "unique"
         },
         {
@@ -139,12 +139,12 @@
       "title-en": "NEGATIVE QUALITIES",
       "vocabulary": [
         {
-          "es": "aburrido/a",
+          "es": "aburrido",
           "en": "boring"
         },
         {
-          "es": "cerrado/a",
-          "en": "closed (minded)"
+          "es": "cerrado",
+          "en": "unapproachable"
         },
         {
           "es": "egoísta",
@@ -159,11 +159,11 @@
           "en": "insensitive"
         },
         {
-          "es": "malo/a",
+          "es": "malo",
           "en": "bad"
         },
         {
-          "es": "nervioso/a",
+          "es": "nervioso",
           "en": "nervous"
         },
         {
@@ -218,7 +218,7 @@
         },
         {
           "es": "cumplir",
-          "en": "to complete, finish"
+          "en": "to finish"
         },
         {
           "es": "escoger",
@@ -233,7 +233,7 @@
           "en": "to demand"
         },
         {
-          "es": "insistir (en)",
+          "es": "insistir en",
           "en": "to insist on"
         },
         {
@@ -275,12 +275,12 @@
       "title-en": "EXPRESSIONS FOR FORMAL LETTERS",
       "vocabulary": [
         {
-          "es": "Querido/a:",
+          "es": "Querido,",
           "en": "Dear,"
         },
         {
-          "es": "Estimado/a:",
-          "en": "Dear, (formal; lit. \"Esteemed,\")"
+          "es": "Estimado,",
+          "en": "Esteemed,"
         },
         {
           "es": "Por la presente, quisiera nominar a ...",

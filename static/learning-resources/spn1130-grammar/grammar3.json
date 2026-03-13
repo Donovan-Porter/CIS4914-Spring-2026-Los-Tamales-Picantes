@@ -135,11 +135,11 @@
             "title": "TO GO",
             "examples": [
                 {
-                    "integral": "I'm going to practice yoga this afternoon. (drop subject)",
+                    "integral": "I'm going to practice yoga this afternoon.",
                     "derivative": "Voy a practicar yoga esta tarde."
                 },
                 {
-                    "integral": "Are you going out Saturday night? (informal, drop subject)",
+                    "integral": "Are ya going out Saturday night?",
                     "derivative": "¿Vas a salir el sábado por la noche?"
                 }
             ]
@@ -148,11 +148,11 @@
             "title": "HAVE TO",
             "examples": [
                 {
-                    "integral": "We have to work this afternoon. (drop subject)",
+                    "integral": "We've work this afternoon.",
                     "derivative": "Tenemos que trabajar esta tarde."
                 },
                 {
-                    "integral": "Do they have to study in the morning? (drop subject)",
+                    "integral": "They have to study in the morning?",
                     "derivative": "¿Tienen que estudiar por la mañana?"
                 }
             ]
@@ -165,11 +165,11 @@
                     "derivative": "Yo voy."
                 },
                 {
-                    "integral": "You go. (informal)",
+                    "integral": "Ya go.",
                     "derivative": "Tú vas."
                 },
                 {
-                    "integral": "You go. (formal)",
+                    "integral": "One goes.",
                     "derivative": "Usted va."
                 },
                 {
@@ -181,31 +181,31 @@
                     "derivative": "Ella va."
                 },
                 {
-                    "integral": "We go. (masculine or mixed)",
+                    "integral": "We guys go.",
                     "derivative": "Nosotros vamos."
                 },
                 {
-                    "integral": "We go. (feminine)",
+                    "integral": "We gals go.",
                     "derivative": "Nosotras vamos."
                 },
                 {
-                    "integral": "You all go. (masculine, informal Castillian)",
+                    "integral": "You chaps go.",
                     "derivative": "Vosotros vais."
                 },
                 {
-                    "integral": "You all go. (feminine, informal Castillian)",
+                    "integral": "You chapettes go.",
                     "derivative": "Vosotras vais."
                 },
                 {
-                    "integral": "You all go. (formal or informal American)",
+                    "integral": "Y'all go.",
                     "derivative": "Ustedes van."
                 },
                 {
-                    "integral": "They all go. (masculine)",
+                    "integral": "Those guys go.",
                     "derivative": "Ellos van."
                 },
                 {
-                    "integral": "They all go. (feminine)",
+                    "integral": "Those gals go.",
                     "derivative": "Ellas van."
                 }
             ]
@@ -218,11 +218,11 @@
                     "derivative": "Yo tengo."
                 },
                 {
-                    "integral": "You have. (informal)",
+                    "integral": "Ya have.",
                     "derivative": "Tú tienes."
                 },
                 {
-                    "integral": "You have. (formal)",
+                    "integral": "One has.",
                     "derivative": "Usted tiene."
                 },
                 {
@@ -234,31 +234,31 @@
                     "derivative": "Ella tiene."
                 },
                 {
-                    "integral": "We have. (masculine)",
+                    "integral": "We guys have.",
                     "derivative": "Nosotros tenemos."
                 },
                 {
-                    "integral": "We have. (feminine)",
+                    "integral": "We gals have.",
                     "derivative": "Nosotras tenemos."
                 },
                 {
-                    "integral": "You all have. (masculine, informal Castillian)",
+                    "integral": "You chaps have.",
                     "derivative": "Vosotros tenéis."
                 },
                 {
-                    "integral": "You all have. (feminine, informal Castillian)",
+                    "integral": "You chapettes have.",
                     "derivative": "Vosotras tenéis."
                 },
                 {
-                    "integral": "You all have. (formal or informal American)",
+                    "integral": "Y'all have.",
                     "derivative": "Ustedes tiene."
                 },
                 {
-                    "integral": "They all have. (masculine)",
+                    "integral": "Those guys have.",
                     "derivative": "Ellos tienen."
                 },
                 {
-                    "integral": "They all have. (feminine)",
+                    "integral": "Those gals have.",
                     "derivative": "Ellas tienen."
                 }
             ]

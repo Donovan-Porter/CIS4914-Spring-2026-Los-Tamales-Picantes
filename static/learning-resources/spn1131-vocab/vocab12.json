@@ -36,15 +36,15 @@
       "vocabulary": [
         {
           "es": "ir en autobús",
-          "en": "to go in/by bus"
+          "en": "to go by bus"
         },
         {
-          "es": "ir en carro (Am. Lat.) / coche (Esp.)",
-          "en": "to go in/by car"
+          "es": "ir en carro, o coche",
+          "en": "to go by car, or car"
         },
         {
           "es": "ir en tren",
-          "en": "to go in/by train"
+          "en": "to go by train"
         }
       ]
     },
@@ -53,8 +53,8 @@
       "title-en": "ACTIVITIES",
       "vocabulary": [
         {
-          "es": "andar/montar en bicicleta (de montaña)",
-          "en": "to ride a (mountain) bike"
+          "es": "montar en bicicleta de montaña",
+          "en": "to ride a mountain bike"
         },
         {
           "es": "bucear",
@@ -65,16 +65,24 @@
           "en": "to explore a cave"
         },
         {
-          "es": "hacer/practicar paracaidismo",
-          "en": "(to go) skydiving"
+          "es": "hacer paracaidismo",
+          "en": "to do skydiving"
         },
         {
-          "es": "hacer/practicar senderismo",
-          "en": "(to go) trekking"
+          "es": "practicar paracaidismo",
+          "en": "to practice skydiving"
+        },
+        {
+          "es": "hacer senderismo",
+          "en": "to do hiking"
+        },
+        {
+          "es": "practicar senderismo",
+          "en": "to practice hiking"
         },
         {
           "es": "hacer vía ferrata",
-          "en": "mountain route equipped with fixed ladders, cables, and bridges to be accessible to climbers and walkers"
+          "en": "mountain route equipped with accessibility aids"
         },
         {
           "es": "montar a caballo",
@@ -95,8 +103,12 @@
       "title-en": "THE ENVIRONMENT AND ECOTOURISM",
       "vocabulary": [
         {
-          "es": "el ave (sing.), las aves (pl.)",
-          "en": "bird, birds"
+          "es": "el ave",
+          "en": "bird"
+        },
+        {
+          "es": "las aves",
+          "en": "birds"
         },
         {
           "es": "la biodiversidad",
@@ -123,8 +135,8 @@
           "en": "ecology"
         },
         {
-          "es": "la especie (en peligro de extinción)",
-          "en": "(endangered) species"
+          "es": "la especie en peligro de extinción",
+          "en": "endangered species"
         },
         {
           "es": "la inundación",
@@ -156,11 +168,15 @@
         },
         {
           "es": "la tierra",
-          "en": "land (when capitalized, refers to planet Earth)"
+          "en": "land"
         },
         {
-          "es": "la tortuga (marina)",
-          "en": "(sea) turtle"
+          "es": "la Tierra",
+          "en": "Earth"
+        },
+        {
+          "es": "la tortuga marina",
+          "en": "sea turtle"
         },
         {
           "es": "concientizar",
@@ -185,24 +201,35 @@
       "title-en": "INDEFINITE WORDS",
       "vocabulary": [
         {
+          "es": "algo bien",
+          "en": "something good"
+        },
+        {
           "es": "algo",
-          "en": "something, anything"
+          "en": "something"
+        },
+          "es": "cualquier cosa",
+          "en": "any thing"
         },
         {
           "es": "alguien",
-          "en": "someone, somebody, anyone"
+          "en": "someone"
         },
         {
-          "es": "algún, alguno/a(s)",
-          "en": "some, any"
+          "es": "algún cosa",
+          "en": "some thing"
+        },
+        {
+          "es": "algunas cosas",
+          "en": "some stuff"
         },
         {
           "es": "alguna vez",
-          "en": "sometimes, ever, once"
+          "en": "sometimes"
         },
         {
-          "es": "O ... 0",
-          "en": "(either ... ) or"
+          "es": "o esto o aquello",
+          "en": "either this or that"
         },
         {
           "es": "siempre",
@@ -210,7 +237,11 @@
         },
         {
           "es": "también",
-          "en": "also, too"
+          "en": "as well"
+        },
+        {
+          "es": "algo nuevo",
+          "en": "something new"
         }
       ]
     },
@@ -220,27 +251,39 @@
       "vocabulary": [
         {
           "es": "nada",
-          "en": "Nothing, not anything"
+          "en": "nothing"
         },
         {
           "es": "nadie",
-          "en": "no one, nobody, not anyone"
+          "en": "no one"
         },
         {
-          "es": "ningún, ninguno/a",
-          "en": "no, none, not any"
+          "es": "no tengo ningún libro",
+          "en": "I have no book"
         },
         {
-          "es": "ni ... ni",
-          "en": "neither ... nor"
+          "es": "no tengo ninguno",
+          "en": "I have none"
+        },
+        {
+          "es": "ni esto ni aquello",
+          "en": "neither this nor that"
         },
         {
           "es": "nunca",
-          "en": "never, not ever"
+          "en": "never"
         },
         {
           "es": "tampoco",
-          "en": "not either, neither"
+          "en": "neither"
+        },
+        {
+          "es": "ninguno de los dos",
+          "en": "neither"
+        },
+        {
+          "es": "No nuevo nada",
+          "en": "nothing new"
         }
       ]
     }

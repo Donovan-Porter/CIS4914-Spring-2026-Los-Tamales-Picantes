@@ -41,7 +41,7 @@
       "title": "GUSTAR AND SIMILAR VERBS: VOCABULARY",
       "examples": [
         {
-          "integral": "to be appealing",
+          "integral": "to be appealing/to sound good",
           "derivative": "apetecer"
         },
         {
@@ -96,28 +96,28 @@
       "title": "PRETERITE TENSE -AR VERB CONJUGATIONS (DESAYUNAR)",
       "examples": [
         {
-          "integral": "I eat breakfast",
+          "integral": "yo (To have breakfast)",
           "derivative": "yo desayuné"
         },
         {
-          "integral": "ya eat breakfast",
+          "integral": "tú (To have breakfast)",
           "derivative": "tú desayunaste"
         },
         {
-          "integral": "he eats breakfast",
-          "derivative": "él desayunó"
+          "integral": "él/ella; Ud. (To have breakfast)",
+          "derivative": "él/ella; Ud. desayunó"
         },
         {
-          "integral": "we eat breakfast",
-          "derivative": "nosotros desayunamos"
+          "integral": "nosotros/nosotras (To have breakfast)",
+          "derivative": "nosotros/nosotras desayunamos"
         },
         {
-          "integral": "you chaps eat breakfast",
-          "derivative": "vosotros desayunasteis"
+          "integral": "vosotros/vosotras (To have breakfast)",
+          "derivative": "vosotros/vosotras desayunasteis"
         },
         {
-          "integral": "they eat breakfast",
-          "derivative": "ellos desayunaron"
+          "integral": "ellos/ellas; Uds. (To have breakfast)",
+          "derivative": "ellos/ellas; Uds. desayunaron"
         }
       ]
     },
@@ -125,28 +125,28 @@
       "title": "PRETERITE TENSE -ER VERB CONJUGATIONS (COMER)",
       "examples": [
         {
-          "integral": "I ate",
+          "integral": "yo (To Eat)",
           "derivative": "yo comí"
         },
         {
-          "integral": "ya ate",
+          "integral": "tú (To Eat)",
           "derivative": "tú comiste"
         },
         {
-          "integral": "he ate",
-          "derivative": "él comió"
+          "integral": "él/ella; Ud. (To Eat)",
+          "derivative": "él/ella; Ud. comió"
         },
         {
-          "integral": "we ate",
-          "derivative": "nosotros comimos"
+          "integral": "nosotros/nosotras (To Eat)",
+          "derivative": "nosotros/nosotras comimos"
         },
         {
-          "integral": "you chaps ate",
-          "derivative": "vosotros comisteis"
+          "integral": "vosotros/vosotras (To Eat)",
+          "derivative": "vosotros/vosotras comisteis"
         },
         {
-          "integral": "they ate",
-          "derivative": "ellos comieron"
+          "integral": "ellos/ellas; Uds. (To Eat)",
+          "derivative": "ellos/ellas; Uds. comieron"
         }
       ]
     },
@@ -154,28 +154,28 @@
       "title": "PRETERITE TENSE -IR VERB CONJUGATIONS (BATIR)",
       "examples": [
         {
-          "integral": "I beat",
+          "integral": "yo (To Beat, To Shake)",
           "derivative": "yo bati"
         },
         {
-          "integral": "ya beat",
+          "integral": "tú (To Beat, To Shake)",
           "derivative": "tú batiste"
         },
         {
-          "integral": "he beat",
-          "derivative": "él batió"
+          "integral": "él/ella; Ud. (To Beat, To Shake)",
+          "derivative": "él/ella; Ud. batió"
         },
         {
-          "integral": "we beat",
-          "derivative": "nosotros batimos"
+          "integral": "nosotros/nosotras (To Beat, To Shake)",
+          "derivative": "nosotros/nosotras batimos"
         },
         {
-          "integral": "you chaps beat",
-          "derivative": "vosotros batisteis"
+          "integral": "vosotros/vosotras (To Beat, To Shake)",
+          "derivative": "vosotros/vosotras batisteis"
         },
         {
-          "integral": "they beat",
-          "derivative": "ellos batieron"
+          "integral": "ellos/ellas; Uds. (To Beat, To Shake)",
+          "derivative": "ellos/ellas; Uds. batieron"
         }
       ]
     },
@@ -228,8 +228,8 @@
           "derivative": "el año pasado"
         },
         {
-          "integral": "two years ago",
-          "derivative": "dos años atras"
+          "integral": "(two) years ago",
+          "derivative": "(dos) años atras"
         }
       ]
     }
