@@ -124,15 +124,15 @@
         },
         {
           "es": "dormir",
-          "en": "to sleep/to fall asleep"
+          "en": "to sleep"
         },
         {
           "es": "cenar",
           "en": "to have supper"
         },
         {
-          "es": "regresar (a casa)",
-          "en": "to return (home)"
+          "es": "regresar a casa",
+          "en": "to return home"
         }
       ]
     },
@@ -165,8 +165,8 @@
           "en": "to practice"
         },
         {
-          "es": "escuchar (música)",
-          "en": "to listen (to music)"
+          "es": "escuchar música",
+          "en": "to listen to music"
         },
         {
           "es": "estar libre",
@@ -178,7 +178,7 @@
         },
         {
           "es": "hablar",
-          "en": "to speak/talk"
+          "en": "to speak"
         },
         {
           "es": "hacer ejercicio",
@@ -189,20 +189,24 @@
           "en": "to make a videocall"
         },
         {
-          "es": "ir (al gimnasio/al picnic/ al cine/de compras ... )",
-          "en": "to go (to the gym/on a picnic/to the movies/ shopping)"
+          "es": "ir al gimnasio",
+          "en": "to go to the gym"
         },
         {
-          "es": "jugar al ... videojuego/ tenis/fútbol",
-          "en": "to play ... a videogame/ tennis/ football or soccer"
+          "es": "ir de compras",
+          "en": "to go shopping"
         },
         {
-          "es": "lavar (la ropa)",
-          "en": "to wash (clothes)"
+          "es": "jugar al videojuego",
+          "en": "to play a videogame"
         },
         {
-          "es": "limpiar (la casa)",
-          "en": "to clean (the house)"
+          "es": "lavar la ropa",
+          "en": "to wash clothes"
+        },
+        {
+          "es": "limpiar la casa",
+          "en": "to clean the house"
         },
         {
           "es": "llegar",
@@ -213,8 +217,8 @@
           "en": "to paint"
         },
         {
-          "es": "practicar (yoga)",
-          "en": "to practice/do (yoga)"
+          "es": "practicar yoga",
+          "en": "to do yoga"
         },
         {
           "es": "preparar",
@@ -225,16 +229,16 @@
           "en": "to arrange to meet with"
         },
         {
-          "es": "salir (a)",
-          "en": "to go out, to leave"
+          "es": "salir a lugar",
+          "en": "to go to a place"
         },
         {
-          "es": "tomar (algo)",
-          "en": "to have (a drink)"
+          "es": "tomar algo",
+          "en": "to have a drink"
         },
         {
-          "es": "trabajar (en)",
-          "en": "to work"
+          "es": "trabajar en",
+          "en": "to work in"
         },
         {
           "es": "ver",
@@ -247,28 +251,28 @@
       "title-en": "TO EXTEND AN INVITATION AND TO MAKE PLANS",
       "vocabulary": [
         {
-          "es": "¿Qué tal ...?",
-          "en": "How about / What about ...?"
+          "es": "¿Qué tal?",
+          "en": "How about?"
         },
         {
           "es": "¿Qué te parece?",
           "en": "What do you think?"
         },
         {
-          "es": "¿Qué vas a hacer ...?",
-          "en": "What are you doing/go- ing to do ...?"
+          "es": "¿Qué vas a hacer?",
+          "en": "What are you going to do?"
         },
         {
-          "es": "Tengo que ... [inf. tener que]",
-          "en": "I have to do [inf. to have to do]"
+          "es": "Tener que.",
+          "en": "To have to do."
         },
         {
-          "es": "Tengo ganas de ... [inf. tener ganas de]",
-          "en": "I feel [inf. to feel like] (doing something)"
+          "es": "Tener ganas de hacer algo.",
+          "en": "To feel like doing something."
         },
         {
           "es": "¿Tienes planes?",
-          "en": "Do you have plans?"
+          "en": "Do you have plans? (informal)"
         }
       ]
     },
@@ -315,8 +319,12 @@
           "en": "at night"
         },
         {
-          "es": "tarde",
-          "en": "late/afternoon"
+          "es": "más tarde",
+          "en": "later"
+        },
+        {
+          "es": "por la tarde",
+          "en": "in the afternoon"
         },
         {
           "es": "temprano",

@@ -17,8 +17,8 @@
           "en": "snack"
         },
         {
-          "es": "la comida (principal)",
-          "en": "(main) meal / dinner (served midday in many Hispanic countries)"
+          "es": "la comida principal",
+          "en": "main meal"
         },
         {
           "es": "la cena",
@@ -57,24 +57,44 @@
       "title-en": "TO PREPARE FOOD",
       "vocabulary": [
         {
-          "es": "batir",
-          "en": "to beat / to shake"
+            "es": "batir los huevos",
+            "en": "to beat the eggs"
         },
         {
-          "es": "calentar (e>ie)",
-          "en": "to warm / to heat up"
+            "es": "batir la crema",
+            "en": "to whip the cream"
+        },
+        {
+            "es": "batir un récord",
+            "en": "to break a record"
+        },
+        {
+          "es": "calentar",
+          "en": "to warm"
+        },
+        {
+          "es": "ustedes calientan la comida",
+          "en": "you all heat up the food"
         },
         {
           "es": "cortar",
           "en": "to cut"
         },
         {
-          "es": "freír (e>i)",
+          "es": "freír",
           "en": "to fry"
         },
         {
-          "es": "hervir (e>ie)",
+          "es": "ustedes fríen papas fritas",
+          "en": "you all fry french fries"
+        },
+        {
+          "es": "hervir",
           "en": "to boil"
+        },
+        {
+          "es": "ustedes hierven la sopa",
+          "en": "you all boil the soup"
         },
         {
           "es": "mezclar",
@@ -91,12 +111,16 @@
       "title-en": "DISHES AND PREPARATIONS",
       "vocabulary": [
         {
-          "es": "la ensalada (mixta)",
-          "en": "(mixed) salad"
+          "es": "la ensalada mixta",
+          "en": "mixed salad"
         },
         {
-          "es": "el sándwich / el bocadillo (Spain)",
-          "en": "sandwich / sub"
+          "es": "el sándwich",
+          "en": "sandwich "
+        },
+        {
+          "es": "el bocadillo",
+          "en": "sub sandwich"
         },
         {
           "es": "la sopa",
@@ -115,24 +139,40 @@
           "en": "steamed"
         },
         {
-          "es": "crudo/a",
+          "es": "crudo",
           "en": "raw"
         },
         {
-          "es": "frito/a",
+          "es": "frito",
           "en": "fried"
         },
         {
-          "es": "vegano/a",
+          "es": "vegano",
           "en": "vegan"
         },
         {
-          "es": "vegetariano/a",
+          "es": "vegetariano",
           "en": "vegetarian"
         },
         {
-          "es": "servir (e>i) frío/caliente/a temperatura ambiente",
-          "en": "to serve cold/hot/room temperature"
+          "es": "servir",
+          "en": "to serve"
+        },
+        {
+          "es": "ustedes sirven cabra",
+          "en": "you all serve goat"
+        },
+        {
+          "es": "frío",
+          "en": "cold"
+        },
+        {
+          "es": "caliente",
+          "en": "hot"
+        },
+        {
+          "es": "a temperatura ambiente",
+          "en": "at room temperature"
         }
       ]
     },
@@ -142,14 +182,14 @@
       "vocabulary": [
         {
           "es": "agridulce",
-          "en": "sweet and sour, bittersweet"
+          "en": "sweet and sour"
         },
         {
-          "es": "amargo/a",
+          "es": "amargo",
           "en": "bitter"
         },
         {
-          "es": "casero/a",
+          "es": "casero",
           "en": "homemade"
         },
         {
@@ -157,11 +197,11 @@
           "en": "sweet"
         },
         {
-          "es": "grasoso/a",
+          "es": "grasoso",
           "en": "fatty"
         },
         {
-          "es": "liviano/a",
+          "es": "liviano",
           "en": "light"
         },
         {
@@ -169,11 +209,11 @@
           "en": "spicy"
         },
         {
-          "es": "rico/a",
+          "es": "rico",
           "en": "delicious"
         },
         {
-          "es": "sano/a",
+          "es": "sano",
           "en": "healthy"
         },
         {
@@ -181,12 +221,20 @@
           "en": "smooth"
         },
         {
-          "es": "Sabe a (ajo/pollo).",
-          "en": "Tastes like (garlic/ chicken)."
+          "es": "Sabe a ajo.",
+          "en": "Tastes like garlic."
         },
         {
-          "es": "Sabe bien/mal.",
-          "en": "Tastes good/bad."
+          "es": "Sabe a pollo.",
+          "en": "Tastes like chicken."
+        },
+        {
+          "es": "Sabe bien.",
+          "en": "Tastes good."
+        },
+        {
+          "es": "Sabe mal.",
+          "en": "Tastes bad."
         }
       ]
     },
@@ -195,12 +243,12 @@
       "title-en": "PROTEINS",
       "vocabulary": [
         {
-          "es": "la carne de res (picada)",
-          "en": "(ground) beef"
+          "es": "la carne de res picada",
+          "en": "ground beef"
         },
         {
           "es": "el chorizo",
-          "en": "(type of) sausage"
+          "en": "chorizo sausage"
         },
         {
           "es": "los huevos",
@@ -241,8 +289,12 @@
           "en": "garlic"
         },
         {
-          "es": "la banana / el plátano",
+          "es": "la banana",
           "en": "banana"
+        },
+        {
+          "es": "el plátano",
+          "en": "plantain"
         },
         {
           "es": "la cebolla",
@@ -269,8 +321,8 @@
           "en": "orange"
         },
         {
-          "es": "las papas (Lat. Am.) / las patatas (Spain)",
-          "en": "potatoes"
+          "es": "las papas o las patatas",
+          "en": "potatoes or the potatoes"
         },
         {
           "es": "el pimiento",
@@ -299,8 +351,16 @@
           "en": "rice"
         },
         {
-          "es": "el pan (tostado / blanco / integral)",
-          "en": "(toasted / white / wheat) bread"
+          "es": "el pan blanco",
+          "en": "white bread"
+        },
+        {
+          "es": "el pan tostado",
+          "en": "toasted bread"
+        },
+        {
+          "es": "el pan integral",
+          "en": "whole wheat bread"
         }
       ]
     },
@@ -309,8 +369,12 @@
       "title-en": "DAIRY PRODUCTS",
       "vocabulary": [
         {
-          "es": "la leche (de soja / de almendra)",
-          "en": "(soy / almond) milk"
+          "es": "la leche de soja",
+          "en": "soy milk"
+        },
+        {
+          "es": "la leche de almendra",
+          "en": "almond milk"
         },
         {
           "es": "la mantequilla",
@@ -331,12 +395,16 @@
       "title-en": "CONDIMENTS",
       "vocabulary": [
         {
-          "es": "el aceite (de oliva)",
-          "en": "(olive) oil"
+          "es": "el aceite de oliva",
+          "en": "olive oil"
         },
         {
-          "es": "con / sin",
-          "en": "with / without"
+          "es": "con",
+          "en": "with "
+        },
+        {
+          "es": "sin",
+          "en": "without"
         },
         {
           "es": "la pimienta",

@@ -8,11 +8,11 @@
                     "derivative": "Yo quiero."
                 },
                 {
-                    "integral": "You want. (informal)",
+                    "integral": "Ya want.",
                     "derivative": "Tú quieres."
                 },
                 {
-                    "integral": "You want. (formal)",
+                    "integral": "One wants.",
                     "derivative": "Usted quiere."
                 },
                 {
@@ -24,31 +24,31 @@
                     "derivative": "Ella quiere."
                 },
                 {
-                    "integral": "We want. (masculine)",
+                    "integral": "We guys want.",
                     "derivative": "Nosotros queremos."
                 },
                 {
-                    "integral": "We want. (feminine)",
+                    "integral": "We gals want.",
                     "derivative": "Nosotras queremos."
                 },
                 {
-                    "integral": "You all want. (masculine, informal Castillian)",
+                    "integral": "You chaps want.",
                     "derivative": "Vosotros queréis."
                 },
                 {
-                    "integral": "You all want. (feminine, informal Castillian)",
+                    "integral": "You chapettes want.",
                     "derivative": "Vosotras queréis."
                 },
                 {
-                    "integral": "You all want. (formal or informal American)",
+                    "integral": "Y'all want.",
                     "derivative": "Ustedes quieren."
                 },
                 {
-                    "integral": "They want. (masculine)",
+                    "integral": "Those guys want.",
                     "derivative": "Ellos quieren."
                 },
                 {
-                    "integral": "They want. (feminine)",
+                    "integral": "Those gals want.",
                     "derivative": "Ellas quieren."
                 }
             ]
@@ -61,11 +61,11 @@
                     "derivative": "Yo sirvo."
                 },
                 {
-                    "integral": "You serve. (informal)",
+                    "integral": "Ya serve.",
                     "derivative": "Tú sirves."
                 },
                 {
-                    "integral": "You serve. (formal)",
+                    "integral": "One serves.",
                     "derivative": "Usted sirve."
                 },
                 {
@@ -77,31 +77,31 @@
                     "derivative": "Ella sirve."
                 },
                 {
-                    "integral": "We serve. (masculine)",
+                    "integral": "We guys serve.",
                     "derivative": "Nosotros servemos."
                 },
                 {
-                    "integral": "We serve. (feminine)",
+                    "integral": "We gals serve.",
                     "derivative": "Nosotras servemos."
                 },
                 {
-                    "integral": "You all serve. (masculine, informal Castillian)",
+                    "integral": "You chaps serve.",
                     "derivative": "Vosotros servis."
                 },
                 {
-                    "integral": "You all serve. (feminine, informal Castillian",
+                    "integral": "You chapettes serve.",
                     "derivative": "Vosotras servis."
                 },
                 {
-                    "integral": "You all serve. (formal or informal American)",
+                    "integral": "Y'all serve.",
                     "derivative": "Ustedes sirven."
                 },
                 {
-                    "integral": "They serve. (masculine)",
+                    "integral": "Those guys serve.",
                     "derivative": "Ellos sirven."
                 },
                 {
-                    "integral": "They serve. (feminine)",
+                    "integral": "Those gals serve.",
                     "derivative": "Ellas sirven."
                 }
             ]
@@ -114,11 +114,11 @@
                     "derivative": "Yo puedo."
                 },
                 {
-                    "integral": "You can. (informal)",
+                    "integral": "Ya can.",
                     "derivative": "Tú puedes."
                 },
                 {
-                    "integral": "You can. (formal)",
+                    "integral": "One can.",
                     "derivative": "Usted puede."
                 },
                 {
@@ -130,31 +130,31 @@
                     "derivative": "Ella puede."
                 },
                 {
-                    "integral": "We can. (masculine)",
+                    "integral": "We guys can.",
                     "derivative": "Nosotros podemos."
                 },
                 {
-                    "integral": "We can. (feminine)",
+                    "integral": "We gals can.",
                     "derivative": "Nosotras podemos."
                 },
                 {
-                    "integral": "You all can. (masculine, informal Castillian)",
+                    "integral": "You chaps can.",
                     "derivative": "Vosotros podéis."
                 },
                 {
-                    "integral": "You all can. (feminine, informal Castillian)",
+                    "integral": "You chapettes can.",
                     "derivative": "Vosotras podéis."
                 },
                 {
-                    "integral": "You all can. (formal or informal American)",
+                    "integral": "Y'all can.",
                     "derivative": "Ustedes pueden."
                 },
                 {
-                    "integral": "They can. (masculine)",
+                    "integral": "Those guys can.",
                     "derivative": "Ellos pueden."
                 },
                 {
-                    "integral": "They can. (feminine)",
+                    "integral": "Those gals can.",
                     "derivative": "Ellas pueden."
                 }
             ]
@@ -171,8 +171,8 @@
                     "derivative": "entender"
                 },
                 {
-                    "integral": "to think",
-                    "derivative": "pensar (en)"
+                    "integral": "to think about",
+                    "derivative": "pensar en"
                 },
                 {
                     "integral": "to prefer",
@@ -187,16 +187,20 @@
                     "derivative": "querer"
                 },
                 {
-                    "integral": "to count / to recount (a tale)",
-                    "derivative": "contar"
+                    "integral": "to count money",
+                    "derivative": "contar dinero"
+                },
+                {
+                    "integral": "to recount a story",
+                    "derivative": "contar una historia"
                 },
                 {
                     "integral": "to be able to",
                     "derivative": "poder"
                 },
                 {
-                    "integral": "to dream (about)",
-                    "derivative": "soñar (con)"
+                    "integral": "to dream about",
+                    "derivative": "soñar con"
                 },
                 {
                     "integral": "to smile",

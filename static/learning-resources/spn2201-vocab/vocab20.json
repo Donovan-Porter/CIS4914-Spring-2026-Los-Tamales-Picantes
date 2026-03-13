@@ -5,7 +5,7 @@
       "title-en": "ABOUT AARÓN",
       "vocabulary": [
         {
-          "es": "el/la bloguero/a",
+          "es": "el bloguero",
           "en": "blogger"
         }
       ]
@@ -15,20 +15,28 @@
       "title-en": "HIS GOALS AND DREAMS",
       "vocabulary": [
         {
-          "es": "distinguir(se)",
-          "en": "to distinguish (oneself), to stand out"
+          "es": "distinguir la persona",
+          "en": "to distinguish a person"
+        },
+        {
+          "es": "distinguirse",
+          "en": "to stand out"
         },
         {
           "es": "hacer un sueño realidad",
           "en": "to make a dream come true"
         },
         {
-          "es": "sentir(se) valorado/a",
+          "es": "sentir un dolor",
+          "en": "to feel a pain"
+        },
+        {
+          "es": "sentirse valorado",
           "en": "to feel valued"
         },
         {
-          "es": "ser un referente (para mi pueblo)",
-          "en": "to be a model (for my people)"
+          "es": "ser un referente para mi pueblo",
+          "en": "to be a model for my people"
         }
       ]
     },
@@ -37,16 +45,20 @@
       "title-en": "HIS TASKS AS INFLUENCER",
       "vocabulary": [
         {
-          "es": "asistir a (eventos)",
-          "en": "to attend (events)"
+          "es": "asistir a eventos",
+          "en": "to attend events"
         },
         {
-          "es": "dar consejos sobre (moda de hombre y belleza masculina)",
-          "en": "to give advice on (fashion for men and male beauty)"
+          "es": "dar consejos sobre moda de hombre y belleza masculina",
+          "en": "to give advice on fashion for men and male beauty"
         },
         {
-          "es": "grabar(se)",
-          "en": "to record (oneself)"
+          "es": "grabar un video",
+          "en": "to record a video"
+        },
+        {
+          "es": "grabarse",
+          "en": "to record oneself"
         },
         {
           "es": "hacer publicaciones",
@@ -57,8 +69,8 @@
           "en": "to receive products and packages"
         },
         {
-          "es": "subir contenido a (historias)",
-          "en": "to upload content to (stories)"
+          "es": "subir contenido a historias",
+          "en": "to upload content to stories"
         },
         {
           "es": "tener un canal de YouTube",
@@ -75,12 +87,16 @@
           "en": "to make a fool of oneself"
         },
         {
-          "es": "juntar (los estudios) con ...",
-          "en": "to juggle (studies) with ..."
+          "es": "juntar los estudios con",
+          "en": "to juggle studies with"
         },
         {
-          "es": "los odiadores, los enemigos",
+          "es": "los odiadores",
           "en": "haters"
+        },
+        {
+          "es": "los enemigos",
+          "en": "enemies"
         }
       ]
     },
@@ -93,16 +109,16 @@
           "en": "to get subscribers"
         },
         {
-          "es": "el creador/la creadora de contenido",
+          "es": "el creador de contenido",
           "en": "content creator"
         },
         {
-          "es": "conceder (una entrevista)",
-          "en": "to grant (an interview)"
+          "es": "conceder una entrevista",
+          "en": "to grant an interview"
         },
         {
-          "es": "dar el botón de \"(no) me gusta\"",
-          "en": "to click the \"like/dislike\" button"
+          "es": "dar el botón de no me gusta",
+          "en": "to click the dislike button"
         },
         {
           "es": "la herramienta de trabajo",
@@ -113,40 +129,60 @@
           "en": "to humanize brands"
         },
         {
-          "es": "identificar(se) con la marca",
-          "en": "to identify oneself with the brand"
+          "es": "identificar la marca",
+          "en": "to identify the brand"
         },
         {
-          "es": "ofrecer la oportunidad de (comunicar/ vender)",
-          "en": "to offer the opportunity to (communicate/ sell)"
+          "es": "identificarse con la marca",
+          "en": "to identify with the brand"
         },
         {
-          "es": "profesionalizar(se)",
-          "en": "to become a professional"
+          "es": "vender",
+          "en": "to sell"
         },
         {
-          "es": "ser falso/a",
+          "es": "comunicar",
+          "en": "to communicate"
+        },
+        {
+          "es": "ofrecer la oportunidad",
+          "en": "to offer the opportunity"
+        },
+        {
+          "es": "profesionalizar el imagen de marco",
+          "en": "to make the brand image more professional"
+        },
+        {
+          "es": "profesionalizarse",
+          "en": "to become more professional"
+        },
+        {
+          "es": "ser falso",
           "en": "to be fake"
         },
         {
-          "es": "ser natural, auténtico/a",
-          "en": "to be natural, authentic"
+          "es": "ser natural",
+          "en": "to be natural"
         },
         {
-          "es": "suministrar (productos)",
-          "en": "to supply (products)"
+          "es": "auténtico",
+          "en": "authentic"
         },
         {
-          "es": "tener capacidad de (influir)",
-          "en": "to have the ability to (influence)"
+          "es": "suministrar productos",
+          "en": "to supply products"
+        },
+        {
+          "es": "tener capacidad de influir",
+          "en": "to have the ability to influence"
         },
         {
           "es": "tener una responsabilidad social",
           "en": "to have a social responsibility"
         },
         {
-          "es": "el/la usuario/a de (Instagram)",
-          "en": "(Instagram) user"
+          "es": "el usuario de Instagram",
+          "en": "Instagram user"
         }
       ]
     },
@@ -187,8 +223,8 @@
           "en": "to be a fraud"
         },
         {
-          "es": "ser un (gran/buen/mal) negocio",
-          "en": "to be a (great/good/bad) business"
+          "es": "ser un gran negocio",
+          "en": "to be a great business"
         }
       ]
     }

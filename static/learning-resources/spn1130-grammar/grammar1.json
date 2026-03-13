@@ -8,11 +8,11 @@
                     "derivative": "Yo soy."
                 },
                 {
-                    "integral": "You are. (informal)",
+                    "integral": "Ya are.",
                     "derivative": "Tú eres."
                 },
                 {
-                    "integral": "You are. (formal)",
+                    "integral": "One is.",
                     "derivative": "Usted es."
                 },
                 {
@@ -33,11 +33,11 @@
                     "derivative": "Yo estoy."
                 },
                 {
-                    "integral": "You are. (informal)",
+                    "integral": "Ya are.",
                     "derivative": "Tú estás."
                 },
                 {
-                    "integral": "You are. (formal)",
+                    "integral": "One is.",
                     "derivative": "Usted está."
                 },
                 {
@@ -54,11 +54,11 @@
             "title": "FORMAL AND INFORMAL PRONOUNS",
             "examples": [
                 {
-                    "integral": "You. (singular, informal)",
+                    "integral": "Ya.",
                     "derivative": "Tú."
                 },
                 {
-                    "integral": "You. (singular, formal)",
+                    "integral": "One.",
                     "derivative": "Usted."
                 }
             ]
@@ -67,15 +67,15 @@
             "title": "DROPPING OF SUBJECT",
             "examples": [
                 {
-                    "integral": "Yo soy Lucas.",
+                    "integral": "I am Lucas.",
                     "derivative": "Soy Lucas."
                 },
                 {
-                    "integral": "Tú eres intelegente.",
+                    "integral": "Ya are intelegent.",
                     "derivative": "Eres inteligente."
                 },
                 {
-                    "integral": "Él es de Mexico.",
+                    "integral": "He is from Mexico.",
                     "derivative": "Es de Mexico."
                 }
             ]
@@ -84,11 +84,11 @@
             "title": "USE OF SUBJECT FOR EMPHASIS",
             "examples": [
                 {
-                    "integral": "No eres el favorito, soy el favorito.",
+                    "integral": "Ya're not the favorite, I'm the favorite!",
                     "derivative": "Tú no eres el favorito, yo soy favorito."
                 },
                 {
-                    "integral": "No soy de Peru, eres de Peru.",
+                    "integral": "I'm not from Peru, ya're from Peru!.",
                     "derivative": "Yo no soy de Peru, tú eres de Peru."
                 }
             ]
@@ -139,12 +139,20 @@
             "title": "STATEMENT NEGATION",
             "examples": [
                 {
-                    "integral": "David es de Nueva York.",
+                    "integral": "David is not from New York.",
                     "derivative": "David no es de Nueva York."
                 },
                 {
-                    "integral": "Estoy cansada ahora",
-                    "derivative": "No estoy cansada ahora."
+                    "integral": "David is from New York.",
+                    "derivative": "David es de Nueva York."
+                },
+                {
+                    "integral": "He's not tired now.",
+                    "derivative": "Él no es cansado ahora."
+                },
+                {
+                    "integral": "He's tired now.",
+                    "derivative": "Él es cansado ahora."
                 }
             ]
         },
@@ -186,20 +194,36 @@
             "title": "NOUN PLURALIZATION",
             "examples": [
                 {
-                    "integral": "el estudiante",
+                    "integral": "the students",
                     "derivative": "los estudiantes"
                 },
                 {
-                    "integral": "el chico",
+                    "integral": "the boys",
                     "derivative": "los chicos"
                 },
                 {
-                    "integral": "la fotografía",
+                    "integral": "the photographs",
                     "derivative": "las fotografías"
                 },
                 {
-                    "integral": "el perfil",
+                    "integral": "the profiles",
                     "derivative": "los perfiles"
+                },
+                {
+                    "integral": "the student",
+                    "derivative": "los estudiant"
+                },
+                {
+                    "integral": "the boy",
+                    "derivative": "los chico"
+                },
+                {
+                    "integral": "the photograph",
+                    "derivative": "las fotografía"
+                },
+                {
+                    "integral": "the profile",
+                    "derivative": "los perfil"
                 }
             ]
         },
@@ -207,16 +231,28 @@
             "title": "ADJECTIVE PLURALIZATION",
             "examples": [
                 {
-                    "integral": "activo",
-                    "derivative": "activos"
+                    "integral": "active man",
+                    "derivative": "hombre activo"
                 },
                 {
-                    "integral": "aventurera",
-                    "derivative": "aventureras"
+                    "integral": "adventurous man",
+                    "derivative": "hombre aventurera"
                 },
                 {
-                    "integral": "trabajador",
-                    "derivative": "trabajadores"
+                    "integral": "workaholic man",
+                    "derivative": "hombre trabajador"
+                },
+                {
+                    "integral": "active men",
+                    "derivative": "hombres activos"
+                },
+                {
+                    "integral": "adventurous men",
+                    "derivative": "hombres aventureras"
+                },
+                {
+                    "integral": "workaholic men",
+                    "derivative": "hombres trabajadores"
                 }
             ]
         },
@@ -292,12 +328,12 @@
             "title": "GROUPS OF MIXED BIOLOGICAL GENDER",
             "examples": [
                 {
-                    "integral": "el chico y la chica",
-                    "derivative": "los chicos"
+                    "integral": "The boy and the girl are the boys.",
+                    "derivative": "El chico y la chica están los chicos."
                 },
                 {
-                    "integral": "el estudiante y la estudiante",
-                    "derivative": "los estudiantes"
+                    "integral": "The schoolboy and the schoolgirl are the students.",
+                    "derivative": "El estudiante y la estudiante están los estudiantes."
                 }
             ]
         }

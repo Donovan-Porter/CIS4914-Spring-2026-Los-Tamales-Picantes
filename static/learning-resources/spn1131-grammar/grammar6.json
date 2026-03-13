@@ -25,27 +25,27 @@
       "title": "REGULAR -AR VERB CONJUGATION IN THE IMPERFECT TENSE",
       "examples": [
         {
-          "integral": "I used to mount.",
+          "integral": "Yo (montar).",
           "derivative": "Yo montaba."
         },
         {
-          "integral": "You used to mount.",
+          "integral": "Tú (montar).",
           "derivative": "Tú montabas."
         },
         {
-          "integral": "He used to mount.",
+          "integral": "Usted (montar).",
           "derivative": "Usted montaba."
         },
         {
-          "integral": "We used to mount.",
+          "integral": "Nosotros (montar).",
           "derivative": "Nosotros montábamos."
         },
         {
-          "integral": "You chaps used to mount.",
+          "integral": "Vosotros (montar).",
           "derivative": "Vosotros montabais."
         },
         {
-          "integral": "They used to mount.",
+          "integral": "Ustedes (montar).",
           "derivative": "Ustedes montaban."
         }
       ]
@@ -54,27 +54,27 @@
       "title": "IMPERFECT TENSE: -ER VERB CONJUGATIONS",
       "examples": [
         {
-          "integral": "I used to protect.",
+          "integral": "Yo (proteger).",
           "derivative": "Yo protegía."
         },
         {
-          "integral": "You used to protect.",
+          "integral": "Tú (proteger).",
           "derivative": "Tú protegías."
         },
         {
-          "integral": "He used to protect.",
+          "integral": "Usted (proteger).",
           "derivative": "Usted protegía."
         },
         {
-          "integral": "We used to protect.",
+          "integral": "Nosotros (proteger).",
           "derivative": "Nosotros protegíamos."
         },
         {
-          "integral": "You chaps used to protect.",
+          "integral": "Vosotros (proteger).",
           "derivative": "Vosotros protegíais."
         },
         {
-          "integral": "They used to protect.",
+          "integral": "Ustedes (proteger).",
           "derivative": "Ustedes protegían."
         }
       ]
@@ -83,27 +83,27 @@
       "title": "IMPERFECT TENSE: -IR VERB CONJUGATIONS",
       "examples": [
         {
-          "integral": "I used to write.",
+          "integral": "Yo (escribir).",
           "derivative": "Yo escribía."
         },
         {
-          "integral": "You used to write.",
+          "integral": "Tú (escribir).",
           "derivative": "Tú escribías."
         },
         {
-          "integral": "He used to write.",
+          "integral": "Usted (escribir).",
           "derivative": "Usted escribía."
         },
         {
-          "integral": "We used to write.",
+          "integral": "Nosotros (escribir).",
           "derivative": "Nosotros escribíamos."
         },
         {
-          "integral": "You chaps used to write.",
+          "integral": "Vosotros (escribir).",
           "derivative": "Vosotros escribíais."
         },
         {
-          "integral": "They used to write.",
+          "integral": "Ustedes (escribir).",
           "derivative": "Ustedes escribían."
         }
       ]
@@ -112,75 +112,75 @@
       "title": "IMPERFECT TENSE CONJUGATION: IRREGULAR VERBS",
       "examples": [
         {
-          "integral": "I used to go.",
+          "integral": "Yo (ir).",
           "derivative": "Yo iba."
         },
         {
-          "integral": "I used to be.",
+          "integral": "Yo (ser).",
           "derivative": "Yo era."
         },
         {
-          "integral": "I used to see.",
+          "integral": "Yo (ver).",
           "derivative": "Yo veía."
         },
         {
-          "integral": "You used to go.",
+          "integral": "Tú (ir).",
           "derivative": "Tú ibas."
         },
         {
-          "integral": "You used to be.",
+          "integral": "Tú (ser).",
           "derivative": "Tú eras."
         },
         {
-          "integral": "You used to see.",
+          "integral": "Tú (ver).",
           "derivative": "Tú veías."
         },
         {
-          "integral": "He used to go.",
+          "integral": "Usted (ir).",
           "derivative": "Usted iba."
         },
         {
-          "integral": "He used to be.",
+          "integral": "Usted (ser).",
           "derivative": "Usted era."
         },
         {
-          "integral": "He used to see.",
+          "integral": "Usted (ver).",
           "derivative": "Usted veía."
         },
         {
-          "integral": "We used to go.",
+          "integral": "Nosotros (ir).",
           "derivative": "Nosotros íbamos."
         },
         {
-          "integral": "We used to be.",
+          "integral": "Nosotros (ser).",
           "derivative": "Nosotros éramos."
         },
         {
-          "integral": "We used to see.",
+          "integral": "Nosotros (ver).",
           "derivative": "Nosotros veíamos."
         },
         {
-          "integral": "You chaps used to go.",
+          "integral": "Vosotros (ir).",
           "derivative": "Vosotros ibais."
         },
         {
-          "integral": "You chaps used to be.",
+          "integral": "Vosotros (ser).",
           "derivative": "Vosotros erais."
         },
         {
-          "integral": "You chaps used to see.",
+          "integral": "Vosotros (ver).",
           "derivative": "Vosotros veíais."
         },
         {
-          "integral": "They used to go.",
+          "integral": "Ustedes (ir).",
           "derivative": "Ustedes iban."
         },
         {
-          "integral": "They used to be.",
+          "integral": "Ustedes (ser).",
           "derivative": "Ustedes eran."
         },
         {
-          "integral": "They used to see.",
+          "integral": "Ustedes (ver).",
           "derivative": "Ustedes veían."
         }
       ]

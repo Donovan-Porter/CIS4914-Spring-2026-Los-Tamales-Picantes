@@ -17,8 +17,12 @@
           "en": "status"
         },
         {
-          "es": "la foto/la fotografía",
-          "en": "picture/photograph"
+          "es": "la foto",
+          "en": "picture"
+        },
+        {
+          "es": "la fotografía",
+          "en": "photograph"
         },
         {
           "es": "el perfil",
@@ -26,7 +30,7 @@
         },
         {
           "es": "la red social",
-          "en": "the social network"
+          "en": "social network"
         },
         {
           "es": "el video",
@@ -51,8 +55,8 @@
           "en": "to edit"
         },
         {
-          "es": "mandar un mensaje (de texto)",
-          "en": "to send a (text) message"
+          "es": "mandar un mensaje de texto",
+          "en": "to send a text message"
         }
       ]
     },
@@ -61,12 +65,20 @@
       "title-en": "BASIC INFORMATION",
       "vocabulary": [
         {
-          "es": "el apellido/los apellidos",
-          "en": "last name/s"
+          "es": "el apellido",
+          "en": "last name"
         },
         {
-          "es": "la dirección de correo electrónico/el e-mail",
+          "es": "los apellidos",
+          "en": "last names"
+        },
+        {
+          "es": "la dirección de correo electrónico",
           "en": "email address"
+        },
+        {
+          "es": "el e-mail",
+          "en": "email"
         },
         {
           "es": "la edad",
@@ -74,10 +86,10 @@
         },
         {
           "es": "el nombre",
-          "en": "first name"
+          "en": "name"
         },
         {
-          "es": "el (número de) teléfono",
+          "es": "el número de teléfono",
           "en": "telephone number"
         }
       ]
@@ -116,7 +128,7 @@
         },
         {
           "es": "la universidad",
-          "en": "university/college"
+          "en": "university"
         }
       ]
     },
@@ -125,7 +137,7 @@
       "title-en": "I AM ...",
       "vocabulary": [
         {
-          "es": "generoso/a",
+          "es": "generoso",
           "en": "generous"
         },
         {
@@ -133,35 +145,35 @@
           "en": "intelligent"
         },
         {
-          "es": "sedentario/a",
+          "es": "sedentario",
           "en": "sedentary"
         },
         {
-          "es": "tímido/a",
+          "es": "tímido",
           "en": "timid"
         },
         {
-          "es": "trabajador/a",
-          "en": "hard-working"
+          "es": "trabajador",
+          "en": "hardworking"
         },
         {
-          "es": "activo/a",
+          "es": "activo",
           "en": "active"
         },
         {
-          "es": "atlético/a",
+          "es": "atlético",
           "en": "athletic"
         },
         {
-          "es": "aventurero/a",
+          "es": "aventurero",
           "en": "adventurous"
         },
         {
-          "es": "cómico/a",
-          "en": "funny, comical"
+          "es": "cómico",
+          "en": "funny"
         },
         {
-          "es": "estudioso/a",
+          "es": "estudioso",
           "en": "studious"
         }
       ]
@@ -171,35 +183,35 @@
       "title-en": "RIGHT NOW I AM ...",
       "vocabulary": [
         {
-          "es": "aburrido/a",
+          "es": "aburrido",
           "en": "bored"
         },
         {
-          "es": "cansado/a",
+          "es": "cansado",
           "en": "tired"
         },
         {
-          "es": "contento/a",
+          "es": "contento",
           "en": "happy"
         },
         {
-          "es": "emocionado/a",
-          "en": "excited, emotional"
+          "es": "emocionado",
+          "en": "excited"
         },
         {
-          "es": "enojado/a",
+          "es": "enojado",
           "en": "angry"
         },
         {
-          "es": "nervioso/a",
+          "es": "nervioso",
           "en": "nervous"
         },
         {
-          "es": "ocupado/a",
-          "en": "busy, occupied"
+          "es": "ocupado",
+          "en": "busy"
         },
         {
-          "es": "relajado/a",
+          "es": "relajado",
           "en": "relaxed"
         }
       ]
@@ -209,8 +221,8 @@
       "title-en": "RIGHT NOW I'M ...",
       "vocabulary": [
         {
-          "es": "( ... ) años",
-          "en": "( ... ) years old"
+          "es": "Ahora tengo dieciocho años.",
+          "en": "I am eighteen years old."
         },
         {
           "es": "calor",

@@ -5,11 +5,11 @@
       "title-en": "PEOPLE",
       "vocabulary": [
         {
-          "es": "el/la artista",
+          "es": "el artista",
           "en": "artist"
         },
         {
-          "es": "el/la coleccionista",
+          "es": "el coleccionista",
           "en": "collector"
         },
         {
@@ -17,7 +17,7 @@
           "en": "artistic community"
         },
         {
-          "es": "el/la crítico/a de arte",
+          "es": "el crítico de arte",
           "en": "art critic"
         },
         {
@@ -48,11 +48,11 @@
         },
         {
           "es": "la muestra",
-          "en": "exhibition / showing"
+          "en": "exhibition"
         },
         {
-          "es": "el museo (fantasma)",
-          "en": "(ghost) museum"
+          "es": "el museo fantasma",
+          "en": "ghost museum"
         },
         {
           "es": "el plano",
@@ -73,8 +73,12 @@
       "title-en": "THE ORIGINS OF THE MUSEUM",
       "vocabulary": [
         {
-          "es": "el arte / las artes",
-          "en": "art /the arts"
+          "es": "el arte",
+          "en": "art"
+        },
+        {
+          "es": "las artes",
+          "en": "the arts"
         },
         {
           "es": "el chiste",
@@ -89,8 +93,8 @@
           "en": "concern"
         },
         {
-          "es": "la política (anti)vanguardista",
-          "en": "(anti) avant-garde policy"
+          "es": "la política anti-vanguardista",
+          "en": "anti-avant-garde policy"
         }
       ]
     },
@@ -107,32 +111,64 @@
           "en": "to generate"
         },
         {
-          "es": "actuar / hacer performance",
+          "es": "actuar performance",
+          "en": "acting performance"
+        },
+        {
+          "es": "hacer performance",
           "en": "to do performances"
         },
         {
-          "es": "inaugurar(se)",
-          "en": "to inaugurate, open"
+          "es": "inaugurar",
+          "en": "to inaugurate"
         },
         {
-          "es": "integrar(se)",
-          "en": "to integrate (oneself)"
+          "es": "ustedes inauguran la universidad",
+          "en": "you all inaugurate the university"
         },
         {
-          "es": "posicionar(se)",
-          "en": "to position (oneself)"
+          "es": "la universidad se inaugura",
+          "en": "the university is inaugurated"
         },
         {
-          "es": "ser desarrollado (desarrollarse)",
+          "es": "integrar",
+          "en": "to integrate"
+        },
+        {
+          "es": "integrarse",
+          "en": "to integrate oneself"
+        },
+        {
+          "es": "posicionar",
+          "en": "to position"
+        },
+        {
+          "es": "posicionarse",
+          "en": "to position oneself"
+        },
+        {
+          "es": "ser desarrollado",
           "en": "to develop"
         },
         {
-          "es": "ser despuesto (deponer)",
-          "en": "to be displaced / to displace / to oust"
+          "es": "ustedes son desarrollan",
+          "en": "you all are developed"
+        },
+        {
+          "es": "ustedes son desarrollanse",
+          "en": "you all are developing"
+        },
+        {
+          "es": "ser deponer",
+          "en": "to be deposed"
+        },
+        {
+          "es": "ustedes son despuesten",
+          "en": "you all are deposed"
         },
         {
           "es": "vibrar",
-          "en": "to vibrate / to pulse"
+          "en": "to vibrate"
         }
       ]
     },
@@ -177,7 +213,7 @@
           "en": "monument"
         },
         {
-          "es": "el/la pintor/a",
+          "es": "el pintor",
           "en": "painter"
         },
         {
@@ -189,8 +225,12 @@
           "en": "oil painting"
         },
         {
-          "es": "el retrato / el autorretrato",
-          "en": "portrait / self-portrait"
+          "es": "el retrato",
+          "en": "portrait"
+        },
+        {
+          "es": "el autorretrato",
+          "en": "self-portrait"
         }
       ]
     },
@@ -199,56 +239,64 @@
       "title-en": "COLORS",
       "vocabulary": [
         {
-          "es": "amarillento/a",
+          "es": "amarillento",
           "en": "yellowish"
         },
         {
-          "es": "anaranjado/a",
+          "es": "anaranjado",
           "en": "orange"
         },
         {
-          "es": "azulado/a",
+          "es": "azulado",
           "en": "blueish"
         },
         {
-          "es": "dorado/a",
+          "es": "dorado",
           "en": "golden"
         },
         {
-          "es": "grisáceo/a",
+          "es": "grisáceo",
           "en": "grayish"
         },
         {
-          "es": "plateado/a",
+          "es": "plateado",
           "en": "silver"
         },
         {
-          "es": "rojizo/a",
+          "es": "rojizo",
           "en": "reddish"
         },
         {
-          "es": "verdoso/a",
+          "es": "verdoso",
           "en": "greenish"
         },
         {
-          "es": "violáceo/a",
+          "es": "violáceo",
           "en": "violet-toned"
         },
         {
-          "es": "(color +) brillante / fuerte",
-          "en": "bright (color)"
+          "es": "color brillante",
+          "en": "bright color"
         },
         {
-          "es": "(color +) claro",
-          "en": "light (color)"
+          "es": "color fuerte",
+          "en": "strong color"
         },
         {
-          "es": "(color +) opaco / mate",
-          "en": "dull/matte (color)"
+          "es": "color claro",
+          "en": "light color"
         },
         {
-          "es": "(color +) oscuro",
-          "en": "dark (color)"
+          "es": "color opaco",
+          "en": "dull color"
+        },
+        {
+          "es": "color mate",
+          "en": "matte color"
+        },
+        {
+          "es": "color oscuro",
+          "en": "dark color"
         }
       ]
     },
@@ -257,16 +305,16 @@
       "title-en": "STYLES",
       "vocabulary": [
         {
-          "es": "(el arte) antiguo",
-          "en": "ancient (art)"
+          "es": "el arte antiguo",
+          "en": "ancient art"
         },
         {
-          "es": "(el arte) cotemporáneo",
-          "en": "contemporary (art)"
+          "es": "el arte cotemporáneo",
+          "en": "contemporary art"
         },
         {
-          "es": "(el arte) moderno",
-          "en": "modern (art)"
+          "es": "el arte moderno",
+          "en": "modern art"
         }
       ]
     },
@@ -275,23 +323,23 @@
       "title-en": "TO DESCRIBE A WORK OF ART",
       "vocabulary": [
         {
-          "es": "conmovedor/a",
-          "en": "poignant / moving"
+          "es": "una obra de arte en conmovedor",
+          "en": "a moving work of art"
         },
         {
-          "es": "destacado/a",
+          "es": "destacado",
           "en": "highlighted"
         },
         {
-          "es": "detallado/a",
+          "es": "detallado",
           "en": "detailed"
         },
         {
-          "es": "clásico/a",
+          "es": "clásico",
           "en": "classical"
         },
         {
-          "es": "gráfico/a",
+          "es": "gráfico",
           "en": "graphic"
         },
         {
@@ -303,8 +351,8 @@
           "en": "naturalist"
         },
         {
-          "es": "(foto)realista",
-          "en": "(photo)realist / realistic"
+          "es": "fotorealista",
+          "en": "photorealistic"
         },
         {
           "es": "surrealista",
@@ -312,18 +360,18 @@
         },
         {
           "es": "el matiz",
-          "en": "hue / shade"
+          "en": "hue"
         },
         {
           "es": "la obra maestra",
           "en": "masterpiece"
         },
         {
-          "es": "mezclar (la mezcla de ... )",
-          "en": "to mix (the mixture of ... )"
+          "es": "mezclar la mezcla de los matizes",
+          "en": "to mix the mixture of the hues"
         },
         {
-          "es": "sencillo/a",
+          "es": "sencillo",
           "en": "simple"
         }
       ]

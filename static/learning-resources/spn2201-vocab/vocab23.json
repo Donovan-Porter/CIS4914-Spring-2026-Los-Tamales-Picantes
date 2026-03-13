@@ -9,7 +9,7 @@
           "en": "street art"
         },
         {
-          "es": "el/la artista anarquista",
+          "es": "el artista anarquista",
           "en": "anarchist artist"
         },
         {
@@ -17,11 +17,11 @@
           "en": "opportunistic capitalist"
         },
         {
-          "es": "(des)penalizar",
-          "en": "(de)penalize"
+          "es": "despenalizar",
+          "en": "depenalize"
         },
         {
-          "es": "el/la grafitero/a",
+          "es": "el grafitero",
           "en": "graffiti artist"
         },
         {
@@ -29,8 +29,8 @@
           "en": "freedom of expression"
         },
         {
-          "es": "ser legal/ilegal",
-          "en": "to be legal/illegal"
+          "es": "ser legal o ilegal",
+          "en": "to be legal or illegal"
         },
         {
           "es": "el vandalismo",
@@ -51,20 +51,20 @@
           "en": "urban art"
         },
         {
-          "es": "el/la artista urbano/a",
+          "es": "el artista urbano",
           "en": "urban artist"
         },
         {
-          "es": "contener un mensaje (político)",
-          "en": "to contain a (political) message"
+          "es": "contener un mensaje político",
+          "en": "to contain a political message"
         },
         {
-          "es": "crear una cultura (sanadora)",
-          "en": "to create a (healing) culture"
+          "es": "crear una cultura sanadora",
+          "en": "to create a healing culture"
         },
         {
-          "es": "determinar/plantear la agenda (social)",
-          "en": "to determine / to set the (social) agenda"
+          "es": "determinar o plantear la agenda social",
+          "en": "to determine or set the social agenda"
         },
         {
           "es": "empoderar a",
@@ -75,7 +75,7 @@
           "en": "feminism"
         },
         {
-          "es": "el/la feminista",
+          "es": "el feminista",
           "en": "feminist"
         },
         {
@@ -83,19 +83,19 @@
           "en": "to generate social change"
         },
         {
-          "es": "intervenir en (la calle / los espacios públicos / las conversaciones)",
-          "en": "to intervene, to take part in (the street / public spaces / conversations)"
+          "es": "intervenir en la calle, los espacios públicos, y las conversaciones",
+          "en": "to take part in the street, public spaces, and conversations"
         },
         {
-          "es": "luchar contra/por",
-          "en": "to fight against/for"
+          "es": "luchar contra o por",
+          "en": "to fight against or for"
         },
         {
           "es": "la obra comunitaria",
           "en": "communal art"
         },
         {
-          "es": "el/la opositor/a",
+          "es": "el opositor",
           "en": "opponent"
         },
         {
@@ -103,7 +103,7 @@
           "en": "community organization"
         },
         {
-          "es": "el/la partidario/a",
+          "es": "el partidario",
           "en": "supporter"
         },
         {
@@ -111,12 +111,12 @@
           "en": "transformative power of"
         },
         {
-          "es": "protestar contra (los abusos de poder)",
-          "en": "to protest against (abuses of power)"
+          "es": "protestar contra los abusos de poder",
+          "en": "to protest against abuses of power"
         },
         {
-          "es": "silenciar/dar voz a (comunidades en desventaja)",
-          "en": "to silence / to give a voice to (disadvantaged communities)"
+          "es": "silenciar o dar voz a comunidades en desventaja",
+          "en": "to silence or give a voice to disadvantaged communities"
         }
       ]
     },
@@ -125,16 +125,16 @@
       "title-en": "THE PURPOSES OF ART",
       "vocabulary": [
         {
-          "es": "combatir (la injusticia social)",
-          "en": "to combat (social injustice)"
+          "es": "combatir la injusticia social",
+          "en": "to combat social injustice"
         },
         {
-          "es": "defender (la justicia social)",
-          "en": "to defend (social justice)"
+          "es": "defender la justicia social",
+          "en": "to defend social justice"
         },
         {
-          "es": "desencadenar (la revolución social)",
-          "en": "to unleash (social revolution)"
+          "es": "desencadenar la revolución social",
+          "en": "to unleash social revolution"
         },
         {
           "es": "hacer negocios",
@@ -145,8 +145,8 @@
           "en": "to promote the cause of"
         },
         {
-          "es": "tener un impacto (revolucionario)",
-          "en": "to have a (revolutionary) impact"
+          "es": "tener un impacto revolucionario",
+          "en": "to have a revolutionary impact"
         }
       ]
     },
@@ -163,8 +163,8 @@
           "en": "to demonstrate, to do demos"
         },
         {
-          "es": "pintar en (paredes públicas / casas privadas)",
-          "en": "to paint on (public walls / private houses)"
+          "es": "pintar en paredes públicas y casas privadas",
+          "en": "to paint on public walls and private houses"
         },
         {
           "es": "usar la lata de aerosol",

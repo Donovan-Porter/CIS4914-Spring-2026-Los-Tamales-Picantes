@@ -6,79 +6,79 @@
       "vocabulary": [
         {
           "es": "el apartamento",
-          "en": "the apartment"
+          "en": "apartment"
         },
         {
-          "es": "el aula (virtual)",
-          "en": "the (virtual) classroom"
+          "es": "el aula virtual",
+          "en": "virtual classroom"
         },
         {
           "es": "la biblioteca",
-          "en": "the library"
+          "en": "library"
         },
         {
           "es": "la cafetería",
-          "en": "the cafeteria"
+          "en": "cafeteria"
         },
         {
-          "es": "el campus (virtual)",
-          "en": "the (virtual) campus"
+          "es": "el campus virtual",
+          "en": "virtual campus"
         },
         {
           "es": "la casa",
-          "en": "the house"
+          "en": "house"
         },
         {
           "es": "el centro estudiantil",
-          "en": "the student center"
+          "en": "student center"
         },
         {
           "es": "la clase",
-          "en": "the class"
+          "en": "class"
         },
         {
-          "es": "el/la compañero/a de cuarto",
-          "en": "the roommate"
+          "es": "el compañero de cuarto",
+          "en": "roommate"
         },
         {
           "es": "el cuarto",
-          "en": "the room"
+          "en": "room"
         },
         {
           "es": "el edificio",
-          "en": "the building"
+          "en": "building"
         },
         {
           "es": "el gimnasio",
-          "en": "the gym"
+          "en": "gym"
         },
         {
           "es": "el laboratorio",
-          "en": "the lab"
+          "en": "lab"
         },
         {
           "es": "la librería",
-          "en": "the bookstore"
+          "en": "bookstore"
         },
         {
           "es": "la oficina",
-          "en": "the office"
+          "en": "office"
         },
         {
           "es": "la residencia estudiantil",
-          "en": "the dormitory"
+          "en": "dormitory"
         },
         {
           "es": "la reunión",
-          "en": "the meeting"
+          "en": "meeting"
         },
         {
           "es": "el salón de clase",
-          "en": "the classroom"
+          "en": "classroom"
         },
         {
-          "es": "la tienda (virtual)",
-          "en": "the (online) store"
+          "es": "la tienda virtual",
+          "en": "online store"
         }
       ]
     },
@@ -87,44 +87,48 @@
       "title-en": "IN THE CLASSROOM",
       "vocabulary": [
         {
-          "es": "el bolígrafo, la pluma",
-          "en": "the pen"
+          "es": "la pluma",
+          "en": "pen"
+        },
+        {
+            "es": "el lápiz",
+            "en": "pencil"
         },
         {
           "es": "el cuaderno",
-          "en": "the notebook"
+          "en": "notebook"
         },
         {
           "es": "el escritorio",
-          "en": "the desk"
+          "en": "desk"
         },
         {
           "es": "la fecha de entrega",
-          "en": "the due date"
+          "en": "due date"
         },
         {
           "es": "el foro",
-          "en": "the discussion board"
+          "en": "discussion board"
         },
         {
           "es": "el libro de texto",
-          "en": "the textbook"
+          "en": "textbook"
         },
         {
           "es": "la nota",
-          "en": "the grade"
+          "en": "grade"
         },
         {
-          "es": "la computadora (portátil)",
-          "en": "the laptop"
+          "es": "la computadora portátil",
+          "en": "laptop"
         },
         {
           "es": "la prueba",
-          "en": "the quiz"
+          "en": "quiz"
         },
         {
           "es": "la tableta",
-          "en": "the tablet"
+          "en": "tablet"
         }
       ]
     },
@@ -133,7 +137,7 @@
       "title-en": "TO DESCRIBE PEOPLE AND PLACES",
       "vocabulary": [
         {
-          "es": "administrativo/a",
+          "es": "administrativo",
           "en": "administrative"
         },
         {
@@ -141,43 +145,43 @@
           "en": "close to"
         },
         {
-          "es": "desordenado/a",
-          "en": "disorganized/messy"
+          "es": "desordenado",
+          "en": "disorganized"
         },
         {
           "es": "lejos de",
           "en": "far from"
         },
         {
-          "es": "limpio/a",
+          "es": "limpio",
           "en": "clean"
         },
         {
-          "es": "moderno/a",
+          "es": "moderno",
           "en": "modern"
         },
         {
-          "es": "nuevo/a",
+          "es": "nuevo",
           "en": "new"
         },
         {
-          "es": "ordenado/a",
-          "en": "organized/neat"
+          "es": "ordenado",
+          "en": "organized"
         },
         {
-          "es": "sucio/a",
+          "es": "sucio",
           "en": "dirty"
         },
         {
-          "es": "último/a",
-          "en": "last (most recent)"
+          "es": "último",
+          "en": "most recent"
         },
         {
-          "es": "universitario/a",
-          "en": "university-"
+          "es": "universitario",
+          "en": "university"
         },
         {
-          "es": "viejo/a",
+          "es": "viejo",
           "en": "old"
         }
       ]
@@ -231,24 +235,28 @@
           "en": "to participate"
         },
         {
-          "es": "pasar (tiempo)",
-          "en": "to pass (time)"
+          "es": "pasar tiempo",
+          "en": "to pass time"
         },
         {
           "es": "recibir",
           "en": "to receive"
         },
         {
-          "es": "sacar (un libro/una nota)",
-          "en": "to take out (a book); to get (a grade)"
+          "es": "sacar un libro",
+          "en": "to take out a book"
+        },
+        {
+          "es": "sacar una nota",
+          "en": "to get a grade"
         },
         {
           "es": "terminar",
           "en": "to finish"
         },
         {
-          "es": "tomar (una clase)",
-          "en": "to take (a class)"
+          "es": "tomar una clase",
+          "en": "to take a class"
         }
       ]
     },
@@ -261,12 +269,16 @@
           "en": "to be pleasing to someone"
         },
         {
-          "es": "Me gusta(n) ...",
-          "en": "I like ..."
+          "es": "Me gusta el libro.",
+          "en": "I like the book."
         },
         {
-          "es": "No me gusta(n) ...",
-          "en": "I don't like ..."
+          "es": "Me gustan los libros.",
+          "en": "I like the books."
+        },
+        {
+          "es": "No me gusta.",
+          "en": "I don't like."
         }
       ]
     }

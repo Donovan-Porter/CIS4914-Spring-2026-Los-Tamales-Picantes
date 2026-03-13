@@ -18,7 +18,7 @@
         },
         {
           "es": "¡Hola!",
-          "en": "Hi!"
+          "en": "Hello!"
         }
       ]
     },
@@ -27,8 +27,12 @@
       "title-en": "FAREWELLS",
       "vocabulary": [
         {
-          "es": "¡Adiós! / ¡Chau!",
-          "en": "Goodbye! /Bye!"
+          "es": "¡Adiós!",
+          "en": "Goodbye!"
+        },
+        {
+          "es": "¡Chau!",
+          "en": "Bye!"
         },
         {
           "es": "¡Hasta luego!",
@@ -53,44 +57,68 @@
       "title-en": "QUESTIONS AND ANSWERS",
       "vocabulary": [
         {
-          "es": "¿Cómo se llama (usted) / te llamas (tú)?",
-          "en": "What is your name? (formal / informal)"
+          "es": "¿Cómo se llama usted?",
+          "en": "What is your name? (formal)"
+        },
+        {
+          "es": "¿Cómo te llamas tú?",
+          "en": "What is your name? (informal)"
         },
         {
           "es": "Me llamo ...",
           "en": "My name is ..."
         },
         {
-          "es": "¿Cómo está (usted)? / ¿Cómo estás (tú)?",
-          "en": "How are you? (formal / informal)"
+          "es": "¿Cómo está usted?",
+          "en": "How are you? (formal)"
         },
         {
-          "es": "¿Qué pasa? / ¿Qué hay de nuevo?",
-          "en": "What's up? / What's new?"
+          "es": "¿Cómo estás tú?",
+          "en": "How are you? (informal)"
+        },
+        {
+          "es": "¿Qué pasa?",
+          "en": "What's up?"
+        },
+        {
+          "es": "¿Qué hay de nuevo?",
+          "en": "What's new?"
         },
         {
           "es": "¿Qué tal?",
           "en": "How are you?"
         },
         {
-          "es": "(No) Muy bien.",
-          "en": "(Not) Very well."
+          "es": "No muy bien.",
+          "en": "Not very well."
         },
         {
-          "es": "Regular. /Así así.",
+          "es": "Regular.",
           "en": "OK."
         },
         {
-          "es": "¿De dónde es (usted)? / ¿De dónde eres (tú)?",
-          "en": "Where are you from? (formal / informal)"
+          "es": "Así así.",
+          "en": "So-so."
+        },
+        {
+          "es": "¿De dónde es usted?",
+          "en": "Where are you from? (formal)"
+        },
+        {
+          "es": "¿De dónde eres (tú)?",
+          "en": "Where are you from? (informal)"
         },
         {
           "es": "Soy de ...",
           "en": "I'm from ..."
         },
         {
-          "es": "¿Qué estudia (usted) / estudias (tú)?",
-          "en": "What do you study? (formal / informal)"
+          "es": "¿Qué estudia usted?",
+          "en": "What do you study? (formal)"
+        },
+        {
+          "es": "¿Qué estudias tú?",
+          "en": "What do you study? (informal)"
         },
         {
           "es": "Estudio ...",
@@ -109,8 +137,12 @@
           "en": "I don't know."
         },
         {
-          "es": "¿Y usted / tú?",
-          "en": "And you? (formal / informal)"
+          "es": "¿Y usted?",
+          "en": "And you? (formal)"
+        },
+        {
+          "es": "¿Y tú?",
+          "en": "And you? (informal)"
         },
         {
           "es": "Gracias.",
@@ -193,8 +225,12 @@
           "en": "natural sciences"
         },
         {
-          "es": "la computación / la informática",
-          "en": "computer science"
+          "es": "la computación",
+          "en": "computater science"
+        },
+        {
+          "es": "la informática",
+          "en": "information science"
         },
         {
           "es": "la física",
@@ -223,12 +259,16 @@
           "en": "business administration"
         },
         {
-          "es": "las ciencias (políticas / sociales)",
-          "en": "(political / social) science"
+          "es": "las ciencias políticas",
+          "en": "political sciences"
+        },
+        {
+          "es": "las ciencias sociales",
+          "en": "social sciences"
         },
         {
           "es": "las comunicaciones",
-          "en": "communications / public relations"
+          "en": "communications"
         },
         {
           "es": "la contabilidad",
@@ -290,11 +330,11 @@
         },
         {
           "es": "estudiar",
-          "en": "study"
+          "en": "to study"
         },
         {
           "es": "difícil",
-          "en": "difficult / hard"
+          "en": "difficult"
         },
         {
           "es": "fácil",

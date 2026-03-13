@@ -8,11 +8,11 @@
                     "derivative": "Yo como."
                 },
                 {
-                    "integral": "You eat. (singular, informal)",
+                    "integral": "Ya eat.",
                     "derivative": "Tú comes."
                 },
                 {
-                    "integral": "You eat. (singular, formal)",
+                    "integral": "One eats.",
                     "derivative": "Usted come."
                 },
                 {
@@ -24,31 +24,31 @@
                     "derivative": "Ella come."
                 },
                 {
-                    "integral": "We eat. (masculine)",
+                    "integral": "We guys eat.",
                     "derivative": "Nosotros comemos."
                 },
                 {
-                    "integral": "We eat. (feminine)",
+                    "integral": "We gals eat.",
                     "derivative": "Nosotras comemos."
                 },
                 {
-                    "integral": "You all eat. (masculine, informal Castillian)",
+                    "integral": "You chaps eat.",
                     "derivative": "Vosotros coméis."
                 },
                 {
-                    "integral": "You all eat. (feminine, informal Castillian)",
+                    "integral": "You chapettes eat.",
                     "derivative": "Vosotras coméis."
                 },
                 {
-                    "integral": "You all eat. (formal or informal American)",
+                    "integral": "Y'all eat.",
                     "derivative": "Ustedes comen."
                 },
                 {
-                    "integral": "They eat. (masculine)",
+                    "integral": "Those guys eat.",
                     "derivative": "Ellos comen."
                 },
                 {
-                    "integral": "They eat. (feminine)",
+                    "integral": "Those gals eat.",
                     "derivative": "Ellas comen."
                 }
             ]
@@ -61,11 +61,11 @@
                     "derivative": "Yo escribo."
                 },
                 {
-                    "integral": "You write. (singular, informal)",
+                    "integral": "Ya write.",
                     "derivative": "Tú escribes."
                 },
                 {
-                    "integral": "You write. (singular, formal)",
+                    "integral": "One writes.",
                     "derivative": "Usted escribe."
                 },
                 {
@@ -77,31 +77,31 @@
                     "derivative": "Ella escribe."
                 },
                 {
-                    "integral": "We write. (masculine)",
+                    "integral": "We guys write.",
                     "derivative": "Nosotros escribimos."
                 },
                 {
-                    "integral": "We write. (feminine)",
+                    "integral": "We gals write.",
                     "derivative": "Nosotras escribimos."
                 },
                 {
-                    "integral": "You all write. (masculine, informal Castillian)",
+                    "integral": "You chaps write.",
                     "derivative": "Vosotros escribis."
                 },
                 {
-                    "integral": "You all write. (feminine, informal Castillian)",
+                    "integral": "You chapettes write.",
                     "derivative": "Vosotras escribis."
                 },
                 {
-                    "integral": "You all write. (formal or informal American)",
+                    "integral": "Y'all write.",
                     "derivative": "Ustedes escriben."
                 },
                 {
-                    "integral": "They write. (masculine)",
+                    "integral": "Those guys write.",
                     "derivative": "Ellos escriben."
                 },
                 {
-                    "integral": "They write. (feminine)",
+                    "integral": "Those gals write.",
                     "derivative": "Ellas escriben."
                 }
             ]
@@ -138,8 +138,8 @@
                     "derivative": "to write"
                 },
                 {
-                    "integral": "insistir (en)",
-                    "derivative": "to insist (on)"
+                    "integral": "insistir en",
+                    "derivative": "to insist on"
                 },
                 {
                     "integral": "leer",
@@ -163,15 +163,15 @@
             "title": "PRESENT TENSE EQUIVALENTS",
             "examples": [
                 {
-                    "integral": "I write a letter now. (drop subject)",
+                    "integral": "Writing a letter now.",
                     "derivative": "Ahora escribo una carta."
                 },
                 {
-                    "integral": "I write a letter to my mom every sunday. (drop subject)",
+                    "integral": "Write a letter to my mom every sunday.",
                     "derivative": "Escribo una carta a mi mamá todos los domingos."
                 },
                 {
-                    "integral": "Tomorrow I'm writing a letter to my friend. (drop subject, feminine friend)",
+                    "integral": "Writing a letter to my gal friend tomorrow.",
                     "derivative": "A mañana escribo una carta a mi amiga."
                 }
             ]
@@ -180,11 +180,11 @@
             "title": "PERSONAL 'A' TO REFER TO SENTIENT BEINGS",
             "examples": [
                 {
-                    "integral": "You know my roommate. (informal, masculine roommate)",
+                    "integral": "Ya know my guy roommate.",
                     "derivative": "Conoces a mi compañero de cuarto."
                 },
                 {
-                    "integral": "We know Felipe's dog. (drop subject)",
+                    "integral": "We know Felipe's dog.",
                     "derivative": "Conocemos al perro de Felipe."
                 }
             ]
@@ -197,11 +197,11 @@
                     "derivative": "Yo sé."
                 },
                 {
-                    "integral": "You know. (singular, informal)",
+                    "integral": "Ya know.",
                     "derivative": "Tú sabes."
                 },
                 {
-                    "integral": "You know. (singular, formal)",
+                    "integral": "One knows.",
                     "derivative": "Usted sabe."
                 },
                 {
@@ -213,31 +213,31 @@
                     "derivative": "Ella sabe."
                 },
                 {
-                    "integral": "We know. (masculine)",
+                    "integral": "We guys know.",
                     "derivative": "Nosotros sabemos."
                 },
                 {
-                    "integral": "We know. (feminine)",
+                    "integral": "We gals know.",
                     "derivative": "Nosotras sabemos."
                 },
                 {
-                    "integral": "You all know. (masculine, informal Castillian)",
+                    "integral": "You chaps know.",
                     "derivative": "Vosotros sabéis."
                 },
                 {
-                    "integral": "You all know. (feminine, informal Castillian)",
+                    "integral": "You chapettes know.",
                     "derivative": "Vosotras sabéis."
                 },
                 {
-                    "integral": "You all know. (formal or informal American)",
+                    "integral": "Y'all know.",
                     "derivative": "Ustedes sabe."
                 },
                 {
-                    "integral": "They know. (masculine)",
+                    "integral": "Those guys know.",
                     "derivative": "Ellos saben."
                 },
                 {
-                    "integral": "They know. (feminine)",
+                    "integral": "Those gals know.",
                     "derivative": "Ellas saben."
                 }
             ]
@@ -250,7 +250,7 @@
                     "derivative": "Yo no sé la respuesta."
                 },
                 {
-                    "integral": "Do you know the phone number? (informal, subject after verb)",
+                    "integral": "Know the phone number?",
                     "derivative": "¿Sabes el número de teléfono?"
                 },
                 {
@@ -267,11 +267,11 @@
                     "derivative": "Yo conozco."
                 },
                 {
-                    "integral": "You know. (singular, informal)",
+                    "integral": "Ya know.",
                     "derivative": "Tú conoces."
                 },
                 {
-                    "integral": "You know. (singular, formal)",
+                    "integral": "One knows.",
                     "derivative": "Usted conoce."
                 },
                 {
@@ -283,31 +283,31 @@
                     "derivative": "Ella conoce."
                 },
                 {
-                    "integral": "We know. (masculine)",
+                    "integral": "We guys know.",
                     "derivative": "Nosotros conocemos."
                 },
                 {
-                    "integral": "We know. (feminine)",
+                    "integral": "We gals know.",
                     "derivative": "Nosotras conocemos."
                 },
                 {
-                    "integral": "You all know. (masculine, informal Castillian)",
+                    "integral": "You chaps know.",
                     "derivative": "Vosotros conocéis."
                 },
                 {
-                    "integral": "You all know. (feminine, informal Castillian)",
+                    "integral": "You chapettes know.",
                     "derivative": "Vosotras conocéis."
                 },
                 {
-                    "integral": "You all know. (formal or informal American)",
+                    "integral": "Y'all know.",
                     "derivative": "Ustedes conoce."
                 },
                 {
-                    "integral": "They know. (masculine)",
+                    "integral": "Those guys know.",
                     "derivative": "Ellos conocen."
                 },
                 {
-                    "integral": "They know. (feminine)",
+                    "integral": "Those gals know.",
                     "derivative": "Ellas conocen."
                 }
             ]
@@ -316,7 +316,7 @@
             "title": "CONOCER EXAMPLES",
             "examples": [
                 {
-                    "integral": "Do you know Ms. Garcia? (informal, subject after verb)",
+                    "integral": "Ya know Ms. Garcia?",
                     "derivative": "¿Conoces tú a la Sra. Garcia?"
                 },
                 {

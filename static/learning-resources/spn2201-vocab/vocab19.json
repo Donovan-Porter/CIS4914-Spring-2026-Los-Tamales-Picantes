@@ -5,23 +5,31 @@
       "title-en": "FEELINGS AND CIRCUMSTANCES",
       "vocabulary": [
         {
-          "es": "estar o sentirse desconcertado/a",
+          "es": "estar o sentirse desconcertado",
           "en": "to be or feel puzzled"
         },
         {
-          "es": "estar encaminado/a",
-          "en": "to be headed (toward)"
+          "es": "estar encaminado",
+          "en": "to be headed toward"
         },
         {
-          "es": "estremecer(se)",
-          "en": "to quiver, to shake"
+          "es": "estremecer algo",
+          "en": "to shake something"
+        },
+        {
+          "es": "estremecerse",
+          "en": "to quiver"
         },
         {
           "es": "retener las lágrimas",
           "en": "to hold back tears"
         },
         {
-          "es": "sentir(se) tenso/a",
+          "es": "sentir una textura",
+          "en": "to feel a texture"
+        },
+        {
+          "es": "sentirse tenso",
           "en": "to feel tense"
         },
         {
@@ -43,16 +51,24 @@
           "en": "to abandon"
         },
         {
-          "es": "alistar(se)",
-          "en": "to get ready, to prepare"
+          "es": "alistar una comida",
+          "en": "to prepare a meal"
         },
         {
-          "es": "descargar (la caja)",
-          "en": "to unload (a box)"
+          "es": "alistarse",
+          "en": "to get ready"
         },
         {
-          "es": "inscribir(se)",
-          "en": "to check in, to register"
+          "es": "descargar la caja",
+          "en": "to unload a box"
+        },
+        {
+          "es": "inscribir a un atleta",
+          "en": "to register an athlete"
+        },
+        {
+          "es": "inscribirse",
+          "en": "to check in"
         },
         {
           "es": "las instrucciones",
@@ -91,64 +107,72 @@
           "en": "to adapt oneself to the new place/context"
         },
         {
-          "es": "alejar(se) de (la familia / los amigos)",
-          "en": "to get away from (family/friends)"
+          "es": "alejar la familia",
+          "en": "to distance the family"
+        },
+        {
+          "es": "alejarse de la familia",
+          "en": "to get away from family"
         },
         {
           "es": "ampliar la perspectiva",
           "en": "to broaden one's perspective"
         },
         {
-          "es": "asumir (la responsabilidad)",
-          "en": "to take on, to accept (responsibility)"
+          "es": "asumir la responsabilidad",
+          "en": "to take on responsibility"
         },
         {
-          "es": "comportarse como un/a adulto/a",
-          "en": "to behave like an adult, to \"adult\""
+          "es": "comportarse como un adulto",
+          "en": "to behave like an adult"
         },
         {
-          "es": "conocerse a sí mismo/a",
+          "es": "conocerse a sí mismo",
           "en": "to know oneself"
         },
         {
-          "es": "darse por vencido/a",
+          "es": "darse por vencido",
           "en": "to give up"
         },
         {
-          "es": "descubrir (una experiencia nueva)",
-          "en": "to discover (a new experience)"
+          "es": "descubrir una experiencia nueva",
+          "en": "to discover a new experience"
         },
         {
-          "es": "enfrentar (un desafío / una dificultad / un miedo)",
-          "en": "to face (a challenge / a difficulty / a fear)"
+          "es": "enfrentar un miedo",
+          "en": "to face a fear"
         },
         {
-          "es": "hacerse cargo de (los errores)",
-          "en": "to take responsibility for (one's mistakes)"
+          "es": "hacerse cargo de los errores",
+          "en": "to take responsibility for one's mistakes"
         },
         {
-          "es": "independizar(se)",
+          "es": "independizar a un hijo",
+          "en": "to make a child independant"
+        },
+        {
+          "es": "independizarse",
           "en": "to become independent"
         },
         {
           "es": "madurar",
-          "en": "to grow up, to mature"
+          "en": "to grow up"
         },
         {
-          "es": "postergar (el proyecto)",
-          "en": "to postpone (the project)"
+          "es": "postergar el proyecto",
+          "en": "to postpone the project"
         },
         {
           "es": "sentirse fuera de lugar",
           "en": "to feel out of place"
         },
         {
-          "es": "la transición (a la universidad / la vida adulta)",
-          "en": "transition (to university/adult life)"
+          "es": "la transición a la vida adulta",
+          "en": "transition to adult life"
         },
         {
-          "es": "transformar (la vida)",
-          "en": "to transform (one's life)"
+          "es": "transformar la vida",
+          "en": "to transform one's life"
         }
       ]
     }

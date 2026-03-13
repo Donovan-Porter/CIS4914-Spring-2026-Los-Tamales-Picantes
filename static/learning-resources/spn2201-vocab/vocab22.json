@@ -5,12 +5,12 @@
       "title-en": "TELECOMMUTING",
       "vocabulary": [
         {
-          "es": "concentrar la semana laboral (en)",
-          "en": "to compress/condense the work week (in)"
+          "es": "concentrar la semana laboral en",
+          "en": "to condense the work week in"
         },
         {
-          "es": "la flexibilidad (de entrada y de salida)",
-          "en": "flexibility (of start and end times)"
+          "es": "la flexibilidad de entrada y de salida",
+          "en": "flexibility of start and end times"
         },
         {
           "es": "la flexibilidad laboral",
@@ -25,12 +25,12 @@
           "en": "to telecommute"
         },
         {
-          "es": "el/la teletrabajador/a",
+          "es": "el teletrabajador",
           "en": "telecommuter"
         },
         {
-          "es": "tener puntos de conexión (wifi)",
-          "en": "to have (wifi) hotspots"
+          "es": "tener puntos de conexión wifi",
+          "en": "to have wifi hotspots"
         }
       ]
     },
@@ -39,8 +39,8 @@
       "title-en": "THE BENEFITS",
       "vocabulary": [
         {
-          "es": "desarrollar/fomentar la creatividad",
-          "en": "to develop/foster creativity"
+          "es": "desarrollar, y fomentar la creatividad",
+          "en": "to develop, and foster creativity"
         },
         {
           "es": "reducir el estrés",
@@ -61,8 +61,8 @@
           "en": "to generate CO2 emissions"
         },
         {
-          "es": "(no) ser sostenible",
-          "en": "to (not) be sustainable"
+          "es": "no ser sostenible",
+          "en": "to not be sustainable"
         }
       ]
     },
@@ -79,8 +79,8 @@
           "en": "culture of presence"
         },
         {
-          "es": "gestionar equipos (des)localizados",
-          "en": "to manage remote/local teams"
+          "es": "gestionar equipos deslocalizados",
+          "en": "to manage remote teams"
         }
       ]
     },
@@ -93,12 +93,12 @@
           "en": "to save on ..."
         },
         {
-          "es": "el área metropolitana (más/menos) congestionada",
-          "en": "(more/less) congested metropolitan area"
+          "es": "el área metropolitana más o menos congestionada",
+          "en": "more or less congested metropolitan area"
         },
         {
-          "es": "aumentar/disminuir la productividad",
-          "en": "to increase/decrease productivity"
+          "es": "aumentar o disminuir la productividad",
+          "en": "to increase or decrease productivity"
         },
         {
           "es": "la oficina en casa",
@@ -109,15 +109,15 @@
           "en": "to reduce operational costs"
         },
         {
-          "es": "la regulación de (la forma de trabajo)",
-          "en": "regulation of (a work model)"
+          "es": "la regulación de la forma de trabajo",
+          "en": "regulation of a work model"
         },
         {
-          "es": "el/la trabajador/a asalariado/a",
+          "es": "el trabajador asalariado",
           "en": "salaried worker"
         },
         {
-          "es": "el/la trabajador/a independiente",
+          "es": "el trabajador independiente",
           "en": "freelancer, independent worker"
         }
       ]
@@ -127,8 +127,8 @@
       "title-en": "OTHER LIFESTYLE IMPACTS",
       "vocabulary": [
         {
-          "es": "la (mejor/peor) calidad de vida",
-          "en": "(better/worse) quality of life"
+          "es": "la mejor or la peor calidad de vida",
+          "en": "better or worse quality of life"
         },
         {
           "es": "el conflicto familiar",
@@ -140,11 +140,11 @@
         },
         {
           "es": "la distancia social",
-          "en": "social distance/distancing"
+          "en": "social distance"
         },
         {
-          "es": "enriquecer (la vida personal/profesional)",
-          "en": "to enrich (one's personal/professional life)"
+          "es": "enriquecer la vida personal o profesional",
+          "en": "to enrich one's personal or professional life"
         },
         {
           "es": "el equilibrio entre la vida y el trabajo",
@@ -155,12 +155,12 @@
           "en": "lack of physical contact"
         },
         {
-          "es": "la fatiga de ...",
-          "en": "fatigue of/from ..."
+          "es": "la fatiga de",
+          "en": "fatigue of"
         },
         {
           "es": "el sedentarismo",
-          "en": "sedentary lifestyle, sedentariness"
+          "en": "laziness"
         }
       ]
     },
@@ -203,8 +203,8 @@
           "en": "to set up a meeting"
         },
         {
-          "es": "bajar/subir el archivo",
-          "en": "to download / to upload a file"
+          "es": "bajar o subir el archivo",
+          "en": "to download or upload a file"
         },
         {
           "es": "compartir pantalla",
@@ -219,12 +219,12 @@
           "en": "to stop video"
         },
         {
-          "es": "entrar a / finalizar una reunión",
-          "en": "to join/end a meeting"
+          "es": "entrar o finalizar a una reunión",
+          "en": "to join or end a meeting"
         },
         {
-          "es": "(no) silenciar (a alguien)",
-          "en": "to (not) mute (someone)"
+          "es": "no silenciar a alguien",
+          "en": "to not mute someone"
         }
       ]
     }

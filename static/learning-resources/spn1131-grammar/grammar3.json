@@ -12,7 +12,7 @@
           "derivative": "Juan se rompió el brazo."
         },
         {
-          "integral": "You're going to get sick!",
+          "integral": "¡Vas a enfermarte! (rearrange the reflexive pronoun)",
           "derivative": "¡Te vas a enfermar!"
         }
       ]
@@ -38,11 +38,11 @@
       "title": "REFLEXIVE VERB CONJUGATION: CUIDARSE",
       "examples": [
         {
-          "integral": "I take care of myself",
+          "integral": "yo",
           "derivative": "me cuido"
         },
         {
-          "integral": "ya take care of yourself",
+          "integral": "tú",
           "derivative": "te cuidas"
         }
       ]
@@ -51,24 +51,28 @@
       "title": "REFLEXIVE VERB CONJUGATION: LEVANTARSE",
       "examples": [
         {
-          "integral": "I get up",
+          "integral": "yo",
           "derivative": "me levanto"
         },
         {
-          "integral": "ya get up",
+          "integral": "tú",
           "derivative": "te levantas"
         },
         {
-          "integral": "he gets up",
+          "integral": "él/ella; Ud.",
           "derivative": "se levanta"
         },
         {
-          "integral": "we get up",
+          "integral": "nosotros/nosotras",
           "derivative": "nos levantamos"
         },
         {
-          "integral": "you chaps get up",
+          "integral": "vosotros/vosotras",
           "derivative": "os levantáis"
+        },
+        {
+          "integral": "ellos/ellas; Uds.",
+          "derivative": "se levantan"
         }
       ]
     },
@@ -80,11 +84,11 @@
           "derivative": "caerse"
         },
         {
-          "integral": "to get tired",
+          "integral": "to tire, to get tired",
           "derivative": "cansarse"
         },
         {
-          "integral": "to get infected",
+          "integral": "to catch / to contract",
           "derivative": "contagiarse"
         },
         {
@@ -92,15 +96,15 @@
           "derivative": "cuidarse"
         },
         {
-          "integral": "to heal oneself",
+          "integral": "to heal (oneself)",
           "derivative": "curarse"
         },
         {
-          "integral": "to get sick",
+          "integral": "to make (get) sick",
           "derivative": "enfermarse"
         },
         {
-          "integral": "to injure onself",
+          "integral": "to injure (onself)",
           "derivative": "lastimarse"
         },
         {
@@ -120,15 +124,15 @@
           "derivative": "mejorarse"
         },
         {
-          "integral": "to worry about",
-          "derivative": "preocuparse por"
+          "integral": "to worry (about)",
+          "derivative": "preocuparse (por)"
         },
         {
           "integral": "to feel",
           "derivative": "sentirse"
         },
         {
-          "integral": "to sprain",
+          "integral": "to twist / to sprain",
           "derivative": "torcerse"
         }
       ]
@@ -141,7 +145,7 @@
           "derivative": "adelgazar"
         },
         {
-          "integral": "should",
+          "integral": "to ought to (do something) / should",
           "derivative": "deber"
         },
         {
@@ -177,7 +181,7 @@
           "derivative": "toser"
         },
         {
-          "integral": "to try to",
+          "integral": "to try to (do something)",
           "derivative": "tratar de"
         }
       ]
@@ -186,27 +190,27 @@
       "title": "FORMAL AFFIRMATIVE COMMANDS",
       "examples": [
         {
-          "integral": "he connects",
+          "integral": "conectar (Ud.)",
           "derivative": "conecte"
         },
         {
-          "integral": "they connect",
+          "integral": "conectar (Uds.)",
           "derivative": "conecten"
         },
         {
-          "integral": "he coughs",
+          "integral": "toser (Ud.)",
           "derivative": "tosa"
         },
         {
-          "integral": "they cough",
+          "integral": "toser (Uds.)",
           "derivative": "tosan"
         },
         {
-          "integral": "he covers",
+          "integral": "cubrir (Ud.)",
           "derivative": "cubra"
         },
         {
-          "integral": "they cover",
+          "integral": "cubrir (Uds.)",
           "derivative": "cubran"
         }
       ]
@@ -215,20 +219,12 @@
       "title": "FORMING NEGATIVE COMMANDS",
       "examples": [
         {
-          "integral": "Do not connect the computer, guy.",
+          "integral": "Conecte la computadora. (negate this)",
           "derivative": "No conecte la computadora."
         },
         {
-          "integral": "Connect the computer, guy.",
-          "derivative": "Conecte la computadora."
-        },
-        {
-          "integral": "Don't cover the table, guys.",
+          "integral": "Cubran la mesa. (negate this)",
           "derivative": "No cubran la mesa."
-        },
-        {
-          "integral": "Cover the table, guys.",
-          "derivative": "Cubran la mesa."
         }
       ]
     },
@@ -236,51 +232,51 @@
       "title": "IRREGULAR FORMAL COMMANDS",
       "examples": [
         {
-          "integral": "he has",
+          "integral": "tener (Ud.)",
           "derivative": "tenga"
         },
         {
-          "integral": "they have",
+          "integral": "tener (Uds.)",
           "derivative": "tengan"
         },
         {
-          "integral": "he doesn't have",
+          "integral": "tener (Ud.)",
           "derivative": "no tenga"
         },
         {
-          "integral": "they don't have",
+          "integral": "tener (Uds.)",
           "derivative": "no tengan"
         },
         {
-          "integral": "he does",
+          "integral": "hacer (Ud.)",
           "derivative": "haga"
         },
         {
-          "integral": "they do",
+          "integral": "hacer (Uds.)",
           "derivative": "hagan"
         },
         {
-          "integral": "he doesn't",
+          "integral": "hacer (Ud.)",
           "derivative": "no haga"
         },
         {
-          "integral": "they don't",
+          "integral": "hacer (Uds.)",
           "derivative": "no hagan"
         },
         {
-          "integral": "he says",
+          "integral": "decir (Ud.)",
           "derivative": "diga"
         },
         {
-          "integral": "they say",
+          "integral": "decir (Uds.)",
           "derivative": "digan"
         },
         {
-          "integral": "he doesn't say",
+          "integral": "decir (Ud.)",
           "derivative": "no diga"
         },
         {
-          "integral": "they don't say",
+          "integral": "decir (Uds.)",
           "derivative": "no digan"
         }
       ]
@@ -289,27 +285,27 @@
       "title": "STEM-CHANGE IN 'YO' FORM COMMANDS",
       "examples": [
         {
-          "integral": "He feels.",
+          "integral": "Usted (sentir).",
           "derivative": "Usted sienta."
         },
         {
-          "integral": "They feel.",
+          "integral": "Ustedes (sentir).",
           "derivative": "Ustedes sientan."
         },
         {
-          "integral": "He sleeps.",
+          "integral": "Usted (dormir).",
           "derivative": "Usted duerma."
         },
         {
-          "integral": "They sleep.",
+          "integral": "Ustedes (dormir).",
           "derivative": "Ustedes duerman"
         },
         {
-          "integral": "He smiles.",
+          "integral": "Usted (sonreir).",
           "derivative": "Usted sonría."
         },
         {
-          "integral": "They smile.",
+          "integral": "Ustedes sonreir.",
           "derivative": "Ustedes sonrían."
         }
       ]
@@ -318,19 +314,19 @@
       "title": "REFLEXIVE VERBS AND PRONOUN PLACEMENT IN COMMANDS",
       "examples": [
         {
-          "integral": "Wash your hands, guy.",
+          "integral": "(Usted lavarse) las manos.",
           "derivative": "Lávese las manos."
         },
         {
-          "integral": "They wash their hands, guys.",
+          "integral": "(Ustedes lavarse) las manos.",
           "derivative": "Lávense las manos."
         },
         {
-          "integral": "Don't worry, guy.",
+          "integral": "No se (usted preocuparse).",
           "derivative": "No se preocupe."
         },
         {
-          "integral": "Don't worry, guys.",
+          "integral": "No se (ustedes preocuparse).",
           "derivative": "No se preocupen."
         }
       ]
@@ -339,27 +335,27 @@
       "title": "VERB ENDINGS -CAR, -GAR, -ZAR SPELLING CHANGES IN COMMANDS",
       "examples": [
         {
-          "integral": "Serve, guy.",
-          "derivative": "Saque."
+          "integral": "Tu (sacar, command).",
+          "derivative": "Tu saque."
         },
         {
-          "integral": "Serve, guys.",
-          "derivative": "Saquen."
+          "integral": "sacar",
+          "derivative": "saquen"
         },
         {
-          "integral": "Arrive, guy.",
-          "derivative": "Llegue."
+          "integral": "llegar",
+          "derivative": "llegue"
         },
         {
-          "integral": "Arrive, guys.",
+          "integral": "llegar",
           "derivative": "lleguen"
         },
         {
-          "integral": "Start, guy.",
+          "integral": "comenzar",
           "derivative": "comience"
         },
         {
-          "integral": "Start, guys.",
+          "integral": "comenzar",
           "derivative": "comiencen"
         }
       ]
@@ -368,43 +364,43 @@
       "title": "FORMAL COMMANDS - IRREGULAR VERBS",
       "examples": [
         {
-          "integral": "One must give.",
-          "derivative": "Usted dé."
+          "integral": "Usted (dar).",
+          "derivative": "Uested dé."
         },
         {
-          "integral": "Respectfully, you all must give.",
+          "integral": "Ustedes (dar).",
           "derivative": "Ustedes den."
         },
         {
-          "integral": "One must be currently.",
+          "integral": "Usted (estar).",
           "derivative": "Usted esté."
         },
         {
-          "integral": "Respectfully, you all must be currently.",
+          "integral": "Ustedes (estar).",
           "derivative": "Ustedes estén."
         },
         {
-          "integral": "One must go.",
+          "integral": "Usted (ir).",
           "derivative": "Usted vaya."
         },
         {
-          "integral": "Respectfully, you all must go.",
+          "integral": "Ustedes (ir).",
           "derivative": "Ustedes vayan."
         },
         {
-          "integral": "One must know.",
+          "integral": "Usted (saber).",
           "derivative": "Usted sepa."
         },
         {
-          "integral": "Respectfully, you all must know.",
+          "integral": "Ustedes (saber).",
           "derivative": "Ustedes sepan."
         },
         {
-          "integral": "One must be.",
+          "integral": "Usted (ser).",
           "derivative": "Usted sea."
         },
         {
-          "integral": "Respectfully, you all must be.",
+          "integral": "Ustedes (ser).",
           "derivative": "Ustedes sean."
         }
       ]
@@ -413,16 +409,16 @@
       "title": "NEGATIVE INFORMAL COMMANDS FORMATION",
       "examples": [
         {
-          "integral": "Don't connect, guy.",
-          "derivative": "No conectes."
+          "integral": "Tú (conectar).",
+          "derivative": "Tú conectes."
         },
         {
-          "integral": "Don't cough, guy.",
-          "derivative": "No tosas."
+          "integral": "Tú (toser).",
+          "derivative": "Tú tosas."
         },
         {
-          "integral": "Don't cover, guy.",
-          "derivative": "No cubras."
+          "integral": "Tú (cubrir).",
+          "derivative": "Tú cubras."
         }
       ]
     },

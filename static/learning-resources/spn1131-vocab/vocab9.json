@@ -25,8 +25,12 @@
           "en": "nose"
         },
         {
-          "es": "el oído / la oreja",
-          "en": "inner ear / outer ear"
+          "es": "el oído",
+          "en": "inner ear "
+        },
+        {
+          "es": "la oreja",
+          "en": "outer ear"
         },
         {
           "es": "el ojo",
@@ -53,8 +57,12 @@
           "en": "foot"
         },
         {
-          "es": "el dedo (de la mano/del pie)",
-          "en": "finger / toe"
+          "es": "el dedo de la mano",
+          "en": "finger"
+        },
+        {
+          "es": "el dedo del pie",
+          "en": "toe"
         },
         {
           "es": "la pierna",
@@ -100,15 +108,19 @@
         },
         {
           "es": "el examen físico",
-          "en": "physical (exam)"
+          "en": "physical exam"
         },
         {
-          "es": "el/la médico/a",
+          "es": "el médico",
           "en": "doctor"
         },
         {
-          "es": "la sala de urgencias / de espera",
-          "en": "emergency / waiting room"
+          "es": "la sala de urgencias",
+          "en": "emergency room"
+        },
+        {
+          "es": "la sala de espera",
+          "en": "waiting room"
         }
       ]
     },
@@ -117,8 +129,12 @@
       "title-en": "SYMPTOMS AND ILLNESSES",
       "vocabulary": [
         {
-          "es": "la alergia (ser alérgico/a)",
-          "en": "allergy (to be allergic)"
+          "es": "la alergia",
+          "en": "allergy"
+        },
+        {
+          "es": "ser alérgico",
+          "en": "to be allergic"
         },
         {
           "es": "la anorexia nervosa",
@@ -133,8 +149,8 @@
           "en": "bulimia"
         },
         {
-          "es": "la cita (médica)",
-          "en": "(medical) appointment"
+          "es": "la cita médica",
+          "en": "medical appointment"
         },
         {
           "es": "la congestión",
@@ -145,7 +161,7 @@
           "en": "depression"
         },
         {
-          "es": "estar enfermo/a",
+          "es": "estar enfermo",
           "en": "to be sick"
         },
         {
@@ -165,8 +181,12 @@
           "en": "hyperactivity"
         },
         {
-          "es": "la presión (alta / baja)",
-          "en": "(high / low) blood pressure"
+          "es": "la presión alta",
+          "en": "high blood pressure"
+        },
+        {
+          "es": "la presión baja",
+          "en": "low blood pressure"
         },
         {
           "es": "el resfriado",
@@ -174,19 +194,19 @@
         },
         {
           "es": "tener fiebre",
-          "en": "(to have) a fever"
+          "en": "to have a fever"
         },
         {
-          "es": "tener dolor de ...",
-          "en": "(to have) a pain/ache in ..."
+          "es": "tener dolor de la cabesa",
+          "en": "to have a pain in the head"
         },
         {
           "es": "la tos",
           "en": "cough"
         },
         {
-          "es": "el trastorno (psicológico)",
-          "en": "(psychological) disorder"
+          "es": "el trastorno psicológico",
+          "en": "psychological disorder"
         }
       ]
     },
@@ -199,11 +219,11 @@
           "en": "serious"
         },
         {
-          "es": "sano/a",
+          "es": "sano",
           "en": "healthy"
         },
         {
-          "es": "roto/a",
+          "es": "roto",
           "en": "broken"
         }
       ]
@@ -213,8 +233,12 @@
       "title-en": "TREATMENTS",
       "vocabulary": [
         {
-          "es": "la curita [la tirita (Spain)] / la venda",
-          "en": "bandaid / bandage"
+          "es": "la curita y la tirita",
+          "en": "the bandaid and the bandaid"
+        },
+        {
+          "es": "la venda",
+          "en": "bandage"
         },
         {
           "es": "el jarabe",
@@ -222,7 +246,7 @@
         },
         {
           "es": "el medicamento",
-          "en": "medication, medicine"
+          "en": "medicine"
         },
         {
           "es": "la pastilla",
@@ -233,12 +257,16 @@
           "en": "prescription"
         },
         {
-          "es": "la terapia / la psicoterapia",
-          "en": "(psycho)therapy"
+          "es": "la terapia",
+          "en": "therapy"
+        },
+        {
+          "es": "la psicoterapia",
+          "en": "psychotherapy"
         },
         {
           "es": "la vacuna",
-          "en": "immunization / vaccine"
+          "en": "vaccine"
         }
       ]
     },
@@ -275,28 +303,40 @@
           "en": "to maintain good health"
         },
         {
-          "es": "mantenerse (e:ie) en forma",
+          "es": "mantenerse en forma",
           "en": "to stay in good shape"
         },
         {
-          "es": "preocuparse (por)",
-          "en": "to worry (about)"
+          "es": "ustedes mantienense en forma",
+          "en": "you all stay in good shape"
+        },
+        {
+          "es": "preocuparse por",
+          "en": "to worry about"
         },
         {
           "es": "prevenir una enfermedad",
           "en": "to prevent an illness"
         },
         {
-          "es": "seguir (e:i) las recomen- daciones",
+          "es": "seguir las recomendaciones",
           "en": "to follow the recommendations"
         },
         {
-          "es": "tratar de (+ infinitive)",
-          "en": "to try to (do something)"
+          "es": "ustedes siguen las recomen- daciones",
+          "en": "you all follow the recommendations"
         },
         {
-          "es": "vacunarse / ponerse una vacuna",
+          "es": "tratar de correr",
+          "en": "to try to run"
+        },
+        {
+          "es": "vacunarse",
           "en": "to get vaccinated"
+        },
+        {
+          "es": "ponerse una vacuna",
+          "en": "to get a vaccine"
         }
       ]
     }
