@@ -20,8 +20,7 @@ None.
 - [Python](https://python.org) (scripting language); 3.12 or newer.
 - [Flask](https://pypi.org/project/Flask/) (Python package, web development)
 - [Flask Web GUI](https://pypi.org/project/flaskwebgui/) (Python package, stand-alone application interfaces based on Flask); requires Python 3.12 or newer.
-- ~~[Ollama](https://pypi.org/project/ollama/) (Python package, text-to-text large-language model (LLM))~~
-- [Transformers](https://pypi.org/project/transformers/) (text-to-text (t2t) model used now instead of Ollama)
+- [Transformers](https://pypi.org/project/transformers/) (General AI model API)
 - [PyInstaller](https://pypi.org/project/pyinstaller/) (Bundles source code into a single executable for ease of consumption)
 
 
