@@ -9,16 +9,15 @@
         <li>
           <label>
             <input type="radio" name="group_index" value="{{ loop.index0 }}" {{ 'checked' if loop.index0 == 0 else '' }}>
-            {{ g['title-es'] }} — {{ g.get('title-en','') }}
+            {{ g['title'] }}
           </label>
         </li>
         {% endfor %}
       </ul>
       <input type="hidden" name="course" value="{{ course }}">
       <input type="hidden" name="file" value="{{ vocab_file }}">
-      <!-- AI generation is automatic now; no user option required -->
-      <button type="submit">Start Story</button>
+      <button type="submit">Start Exercise</button>
     </form>
-    <p><a href="{{ url_for('choose_chapter_vocabulary') }}?course={{ course }}">Back</a></p>
+    <p><a href="{{ url_for('choose_chapter_convo') }}?course={{ course }}">Back</a></p>
   </body>
 </html>
