@@ -37,7 +37,7 @@ tags:
 
 LFM2 is a new generation of hybrid models developed by [Liquid AI](https://www.liquid.ai/), specifically designed for edge AI and on-device deployment. It sets a new standard in terms of quality, speed, and memory efficiency. 
 
-We're releasing the weights of four post-trained checkpoints with 350M, 700M, 1.2B, and 2.6 parameters. They provide the following key features to create AI-powered edge applications:
+We're releasing the weights of four post-trained checkpoints with 350M, 700M, 1.2B, and 2.6B parameters. They provide the following key features to create AI-powered edge applications:
 
 * **Fast training & inference** – LFM2 achieves 3x faster training compared to its previous generation. It also benefits from 2x faster decode and prefill speed on CPU compared to Qwen3.
 * **Best performance** – LFM2 outperforms similarly-sized models across multiple benchmark categories, including knowledge, mathematics, instruction following, and multilingual capabilities.
