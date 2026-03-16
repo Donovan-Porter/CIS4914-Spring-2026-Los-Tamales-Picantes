@@ -2,6 +2,9 @@
 /static/learning-resources/phrases/__pycache__/
 /static/learning-resources/phrases/data/__pycache__/
 /static/learning-resources/phrases/conjugations/__pycache__/
+/translation/__pycache__/
+/translation/en-es/*
+/translation/es-en/*
 /build/
 /dist/
 /test-scripts/
@@ -11,3 +14,4 @@
 __pycache__/
 *.pyc
 minigames/__pycache__/
+/model/

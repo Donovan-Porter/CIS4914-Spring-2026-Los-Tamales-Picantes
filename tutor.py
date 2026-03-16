@@ -4,9 +4,6 @@ from flaskwebgui import FlaskUI
 #TODO: fix quiz
 from quiztest import Quiz, Question
 
-import argostranslate.package # TODO: See if this import is necessary
-import argostranslate.translate
-
 # TODO: valerie matching game
 import matching_game
 
@@ -33,7 +30,13 @@ os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
-from re import sub, compile # For stripping un-punctuated portions
+
+# Huggingface translation models
+from translation import translate
+translation_models = translate.GetModels()
+
+# For stripping un-punctuated portions of chatbot responses
+from re import sub, compile
 unpunctuated = compile("(?<=[!?.])[^!?.]*$")
 
 app = Flask(__name__, static_folder="/")
@@ -172,31 +175,53 @@ def chat_clear():
 
 @app.route("/translate", methods = ['GET', 'POST'])
 def translate() :
+
+    # Using global variables to remember if en->es or es->en
     global en_src
     global lang_flow
 
+    # Just render default page
     if "GET" == request.method :
         return render_template("translate.html")
 
+    # Command from user came in
     elif "POST" == request.method :
         but_val = request.form.get("input_button")
 
+        # Translate something
         if "submit_input" == but_val :
+            # Get stuff to be translated
             input = request.form["input"]
+            model_source = None
+            # If input is English
             if en_src :
-                output = argostranslate.translate.translate(input, "en", "es")
+                model_source = translation_models[0]
+            # Otherwise, input is Spanish
             else :
-                output = argostranslate.translate.translate(input, "es", "en")
+                model_source = translation_models[1]
+    
+            # Get tokenizer and model for `Translate()` call
+            translation_tokenizer = model_source[0]
+            translation_model = model_source[1]
+
+            # Call to translation API to get output
+            output = translate.Translate(input, translation_tokenizer, translation_model)
+
+            # Render template with output filled in
             return render_template("translate.html", output = output, lang_flow=lang_flow)
 
+        # Switch language direction
         elif "switch_lang" == but_val :
+            # Flip input from English to Spanish
             if en_src :
                 en_src = False
                 lang_flow = "row-reverse"
+            # Flip input from Spanish to English
             else :
                 en_src = True
                 lang_flow = "row"
 
+            # Render blank template with switched button flow
             return render_template("translate.html", lang_flow=lang_flow)
 
 @app.route('/choose_course_vocabulary')
