@@ -6,9 +6,3 @@ download_location = os.path.join(os.getcwd(), "model")
 
 # Download the repository snapshot to the local directory
 snapshot_download(repo_id="LiquidAI/LFM2-350M", local_dir=download_location)
-
-download_location = os.path.join(os.getcwd(), "translation", "en-es")
-snapshot_download(repo_id="Anhptp/opus-mt-en-es-BDS-G1", local_dir=download_location)
-
-download_location = os.path.join(os.getcwd(), "translation", "es-en")
-snapshot_download(repo_id="Anhptp/opus-mt-es-en-BDS-G1", local_dir=download_location)
