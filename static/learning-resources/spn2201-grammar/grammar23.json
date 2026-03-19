@@ -1,0 +1,157 @@
+{
+    "groups": [
+        {
+            "title": "COMPARISONS OF EQUALITY EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Camilo López quiere que el grafiti sea tan reconocido como la ópera y el ballet.",
+                    "derivative": "Camilo López wants graffiti to be as renowned as opera and ballet."
+                },
+                {
+                    "integral": "Los grafiteros son tan políticos como el mismo gobierno.",
+                    "derivative": "The graffiti artists are as political as the government itself."
+                },
+                {
+                    "integral": " Los grafiteros pintan con pintura común tan fácilmente como con el aerosol.",
+                    "derivative": "Graffiti artists paint with regular paint as easily as with aerosol spray"
+                },
+                {
+                    "integral": "López tiene tanta fama como los grafiteros que pintan.",
+                    "derivative": "López is as famous as the graffiti artists that paint."
+                },
+                {
+                    "integral": "Los artistas buscan tantos seguidores como patrocinadores de arte.",
+                    "derivative": " Artists seek as many followers as art sponsors do."
+                },
+                {
+                    "integral": "López dirige la compañía tanto como trabaja de guía turístico.",
+                    "derivative": "López directs the company as much as he works as a tour guide."
+                }
+            ]
+        },
+        {
+            "title": "COMPARISONS OF INEQUALITY EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Para muchos críticos, el grafiti es más controvertido que las demostraciones callejeras.",
+                    "derivative": "For many critics, graffiti is more controversial than street demonstrations."
+                },
+                {
+                    "integral": "Las respuestas son menos importantes que la manera en que el grafiti está cambiando la percepción de la gente sobre su país",
+                    "derivative": "The answers are less important than the way the graffiti is changing people’s perception of their country."
+                },
+                {
+                    "integral": "El arte del grafiti en América Latina se desarrolló más tarde que en Europa.",
+                    "derivative": "Graffiti art in Latin America developed later than in Europe."
+                },
+                {
+                    "integral": "La regulación en torno al grafiti permite que los grafiteros puedan ejercer su profesión mejor en Colombia que en otros países que no cuentan esas leyes.",
+                    "derivative": "The regulations regarding graffiti allow graffiti artists to practice their profession better in Colombia than in other countries that do not have these laws."
+                },
+                {
+                    "integral": "López desea que las próximas generaciones de grafiteros tengan más oportunidades que las de ahora.",
+                    "derivative": "López wants the next generation of graffiti artists to have more opportunities than those of today."
+                },
+                {
+                    "integral": "Con la popularización del grafiti, López trabaja mucho más que antes.",
+                    "derivative": "With the popularization of graffiti, López works much more than before."
+                },
+                {
+                    "integral": "Hoy en día hay más de 260 grafiteros en Botogá.",
+                    "derivative": "At present, there’s more than 260 graffiti artists in Bogotá."
+                },
+                {
+                    "integral": "Hay menos prejuicio del que se dice.",
+                    "derivative": "There’s less prejudice than what people say."
+                }
+            ]
+        },
+        {
+            "title": "IRREGULAR COMPARISON ADJECTIVES",
+            "examples": [
+                {
+                    "integral": "bueno, mejor",
+                    "derivative": "good, better"
+                },
+                {
+                    "integral": "malo, peor",
+                    "derivative": "bad, worse"
+                },
+                {
+                    "integral": "grande, mayor",
+                    "derivative": "large, bigger"
+                },
+                {
+                    "integral": "pequeño, menor",
+                    "derivative": "tiny, smaller"
+                }
+            ]
+        },
+        {
+            "title": "RELATIVE PRONOUNS",
+            "examples": [
+                {
+                    "integral": "que",
+                    "derivative": "that"
+                },
+                {
+                    "integral": "quien",
+                    "derivative": "who"
+                },
+                {
+                    "integral": "quienes",
+                    "derivative": "whom"
+                },
+                {
+                    "integral": "donde",
+                    "derivative": "where"
+                },
+                {
+                    "integral": "el que, el cual",
+                    "derivative": "which, which"
+                },
+                {
+                    "integral": "cuyo",
+                    "derivative": "whose"
+                }
+            ]
+        },
+        {
+            "title": "RELATIVE PRONOUN EXAMPLES",
+            "examples": [
+                {
+                    "integral": "López, fundador de Vértigo Graffiti, un equipo de artistas que se dedican a esa forma de arte, ve lienzos en blanco.",
+                    "derivative": "López, the founder of Vértigo Graffiti, a crew of the graffiti artists dedicated to that form of art, sees blank canvases."
+                },
+                {
+                    "integral": "Cartagena, una histórica ciudad costera en Colombia que también es famosa por su arte de grafiti.",
+                    "derivative": "Cartagena, a historic coastal Colombian city that is also famous for its graffiti art."
+                },
+                {
+                    "integral": "Gabriel García Márquez, autor colombiano a quien López se refiere por su apodo, Gabo.",
+                    "derivative": "Gabriel García Márquez, the Colombian author whom López refers to by his nickname, Gabo."
+                },
+                {
+                    "integral": "A petición de sus padres, quienes le sugirieron que primero obtuviera la mejor educación.",
+                    "derivative": "At the request of his parents, who suggested that he first get the best education."
+                },
+                {
+                    "integral": "En septiembre, viajaron a Turquía, donde pintaron una pared del centro cultural.",
+                    "derivative": "In September, they traveled to Turkey, where they painted a wall of the cultural center."
+                },
+                {
+                    "integral": "Four Seasons Casa Medina en Bogotá, hotel para el que López organiza giras de grafiti.",
+                    "derivative": "Four Seasons Casa Medina in Bogotá, for which Lopez now leads graffiti tours."
+                },
+                {
+                    "integral": "Como sucedió en una reciente conversación en la que mencionó a John Cheever, Umberto Eco y Aristóteles.",
+                    "derivative": "As happened in a recent conversation in which he mentioned John Cheever, Umberto Eco, and Aristotle."
+                },
+                {
+                    "integral": "López es hijo de dos académicos y socialistas acérrimos, cuyas creencias se reflejan en su nombre.",
+                    "derivative": "López is the son of two academics and staunch socialists, whose beliefs are reflected in his name."
+                }
+            ]
+        }
+    ]
+}

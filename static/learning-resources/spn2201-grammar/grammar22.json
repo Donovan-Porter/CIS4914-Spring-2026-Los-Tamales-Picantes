@@ -1,0 +1,274 @@
+{
+    "groups": [
+        {
+            "title": "VERBS WITH INVERTED SUBJECT-OBJECT FOCUS",
+            "examples": [
+                {
+                    "integral": "aburrir",
+                    "derivative": "to bore"
+                },
+                {
+                    "integral": "convenir",
+                    "derivative": "to suit"
+                },
+                {
+                    "integral": "caer bien",
+                    "derivative": "to like"
+                },
+                {
+                    "integral": "caer mal",
+                    "derivative": "to not like"
+                },
+                {
+                    "integral": "doler",
+                    "derivative": "to hurt"
+                },
+                {
+                    "integral": "encantar",
+                    "derivative": "to be enchanted by"
+                },
+                {
+                    "integral": "enojar",
+                    "derivative": "to anger"
+                },
+                {
+                    "integral": "faltar",
+                    "derivative": "to lack"
+                },
+                {
+                    "integral": "fascinar",
+                    "derivative": "to fascinate"
+                },
+                {
+                    "integral": "fastidiar",
+                    "derivative": "to irritate"
+                },
+                {
+                    "integral": "hacer falta",
+                    "derivative": "to be needed"
+                },
+                {
+                    "integral": "importar",
+                    "derivative": "to be important"
+                },
+                {
+                    "integral": "interesar",
+                    "derivative": "to interest"
+                },
+                {
+                    "integral": "molestar",
+                    "derivative": "to bother"
+                },
+                {
+                    "integral": "parecer",
+                    "derivative": "to seem"
+                },
+                {
+                    "integral": "preocupar",
+                    "derivative": "to worry"
+                },
+                {
+                    "integral": "sorprender",
+                    "derivative": "to surprise"
+                }
+            ]
+        },
+        {
+            "title": "INVERTED SUBJECT-OBJECT FOCUS EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Me cae bien mi nueva compañera de trabajo. Es muy simpática y organizada.",
+                    "derivative": "I like my new coworker. She’s very nice and organized."
+                },
+                {
+                    "integral": "A la compañía le faltan las herramientas de colaboración para facilitar el trabajo remoto.",
+                    "derivative": "The company lacks the collaborative tools to facilitate remote work."
+                },
+                {
+                    "integral": "Me gustas mucho",
+                    "derivative": "I like you a lot."
+                },
+                {
+                    "integral": "A Julia le gusta un amigo de la infancia.",
+                    "derivative": "Julia likes a friend from her childhood."
+                },
+                {
+                    "integral": "Me parece increíble.",
+                    "derivative": "It seems unbelievable."
+                },
+                {
+                    "integral": "A mí me molesta la jornada laboral tradicional de horario corrido.",
+                    "derivative": "I’m bothered by the traditional work schedule, from 9 to 5."
+                },
+                {
+                    "integral": "A nosotros nos interesa concentrar la jornada laboral en cuatro días.",
+                    "derivative": "We are interested in compressing the work week in four days."
+                },
+                {
+                    "integral": "A ellas les sorprenden los ahorros relacionados con gastos personales.",
+                    "derivative": "They are surprised by the savings related to personal expenses."
+                },
+                {
+                    "integral": "¿A ti te conviene cuando tu jefe te da la opción de trabajar en forma remota? ",
+                    "derivative": "Is it convenient for you when your boss gives you the option to work remotely?"
+                },
+                {
+                    "integral": "Me gustaría que todos entremos a la reunión ahora.",
+                    "derivative": "I’d like for everyone to join the meeting now."
+                },
+                {
+                    "integral": "No me gustaba hacer videollamadas en mi anterior trabajo.",
+                    "derivative": "I didn’t like to do video calls at my previous job."
+                },
+                {
+                    "integral": "No les gustarían los modelos de liderazgo de equipo tradicionales.",
+                    "derivative": "They wouldn’t like traditional models of team leadership."
+                },
+                {
+                    "integral": "¿Te gustaría venir a la oficina todos los días?",
+                    "derivative": "Would you like to come to the office every day?"
+                },
+                {
+                    "integral": "Me encantaría poder compaginar mejor mi vida personal con la profesional.",
+                    "derivative": "I’d like to be able to better balance my personal and professional lives."
+                }
+            ]
+        },
+        {
+            "title": "PAST SUBJUNCTIVE -RA ENDINGS",
+            "examples": [
+                {
+                    "integral": "Trabajara.",
+                    "derivative": "I worked."
+                },
+                {
+                    "integral": "Trabajaras.",
+                    "derivative": "Ya worked."
+                },
+                {
+                    "integral": "Trabajara.",
+                    "derivative": "He worked."
+                },
+                {
+                    "integral": "Trabajaramos.",
+                    "derivative": "We worked."
+                },
+                {
+                    "integral": "Trabajarais.",
+                    "derivative": "You chaps worked."
+                },
+                {
+                    "integral": "Trabajaran.",
+                    "derivative": "They worked."
+                }
+            ]
+        },
+        {
+            "title": "PAST SUBJUNCTIVE -SE ENDINGS",
+            "examples": [
+                {
+                    "integral": "Trabajase.",
+                    "derivative": "I worked."
+                },
+                {
+                    "integral": "Trabajases.",
+                    "derivative": "Ya worked."
+                },
+                {
+                    "integral": "Trabajase.",
+                    "derivative": "He worked."
+                },
+                {
+                    "integral": "Trabajasemos.",
+                    "derivative": "We worked."
+                },
+                {
+                    "integral": "Trabajaseis.",
+                    "derivative": "You chaps worked."
+                },
+                {
+                    "integral": "Trabajasen.",
+                    "derivative": "They worked."
+                }
+            ]
+        },
+        {
+            "title": "VERBS WITH IRREGULAR IMPERFECT SUBJUNCTIVE FORMS",
+            "examples": [
+                {
+                    "integral": "Como si yo condujera.",
+                    "derivative": "As if I drove."
+                },
+                {
+                    "integral": "Como si creyera.",
+                    "derivative": "As if I created."
+                },
+                {
+                    "integral": "Como si diera.",
+                    "derivative": "As if I gave."
+                },
+                {
+                    "integral": "Como si estuviera.",
+                    "derivative": "As if I were then."
+                },
+                {
+                    "integral": "Como si pidiera.",
+                    "derivative": "As if I asked."
+                },
+                {
+                    "integral": "Como si sintiera.",
+                    "derivative": "As if I felt."
+                },
+                {
+                    "integral": "Como si durmiera.",
+                    "derivative": "As if I slept."
+                },
+                {
+                    "integral": "Como si influyera.",
+                    "derivative": "As if I influenced."
+                },
+                {
+                    "integral": "Como si leyera.",
+                    "derivative": "As if I read."
+                },
+                {
+                    "integral": "Como si supiera.",
+                    "derivative": "As if I knew."
+                },
+                {
+                    "integral": "Como si fuera.",
+                    "derivative": "As if I were or went."
+                }
+            ]
+        },
+        {
+            "title": "PAST SUBJUNCTIVE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Quise que me diera la oportunidad de trabajar remotamente.",
+                    "derivative": "I wanted him to give me the opportunity to work remotely."
+                },
+                {
+                    "integral": "Julio se negó a que sus colegas compartieran pantalla durante la reunión.",
+                    "derivative": "Julio refused to let his colleagues screen share during the meeting."
+                },
+                {
+                    "integral": "Señora Andrada, quisiera saber si está disponible en este momento.",
+                    "derivative": "Ms. Andrada, I would like to know if you are available right now"
+                },
+                {
+                    "integral": "¿Pudiera cerrar la puerta de su oficina, por favor?",
+                    "derivative": "Could you close your office door, please?"
+                },
+                {
+                    "integral": "Si el 40% de los trabajadores de Barcelona lo hicieran dos veces a la semana desde casa.",
+                    "derivative": "If 40% of Barcelona workers did it twice a week from home."
+                }
+                {
+                    "integral": "Se reducirían las emisiones de CO2 en más de 300.000 toneladas al año.",
+                    "derivative": "CO2 emissions would be reduced by more than 300,000 tons per year."
+                }
+            ]
+        }
+    ]
+}

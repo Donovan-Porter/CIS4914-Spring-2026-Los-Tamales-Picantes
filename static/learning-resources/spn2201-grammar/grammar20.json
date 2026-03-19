@@ -1,0 +1,520 @@
+{
+    "groups": [
+        {
+            "title": "PRESENT INDICATIVE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Vivo en Madrid.",
+                    "derivative": "I live in Madrid."
+                },
+                {
+                    "integral": "En el fondo hay mucho tema de machismo y de odio y de racismo.",
+                    "derivative": "Deep down, there’s a lot of chauvinism, hate, and racism."
+                },
+                {
+                    "integral": "Puedo asistir a muchísimos eventos.",
+                    "derivative": "I can attend a lot of events."
+                },
+                {
+                    "integral": "Las meto en el ordenador ahora mismo en el coche y las subo nomás al llegar al desfile.",
+                    "derivative": "I will put them in the computer right now while I’m in the car and I will upload them as soon as I arrive at the fashion show."
+                },
+                {
+                    "integral": "¿Qué haces? ",
+                    "derivative": "What are you doing?"
+                },
+                {
+                    "integral": "Estoy leyendo un libro.",
+                    "derivative": "I'm reading a book."
+                },
+                {
+                    "integral": "Leo un libro.",
+                    "derivative": "I read a book."
+                },
+                {
+                    "integral": "En el 2017 Aarón decide dedicarse al mundo de los influenciadores digitales.",
+                    "derivative": "In 2017 Aarón decides to devote himself to the world of digital influencers."
+                },
+                {
+                    "integral": "Si les explicas a tus padres tu objetivo, seguro lo entienden.",
+                    "derivative": "If you explain your goal to your parents, they surely understand. "
+                },
+                {
+                    "integral": "Si me llaman para una campaña publicitaria, voy.",
+                    "derivative": "If they call me for an advertising campaign, I go ."
+                }
+            ]
+        },
+        {
+            "title": "PENSAR PRESENT CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Pienso.",
+                    "derivative": "I think."
+                },
+                {
+                    "integral": "Piensas.",
+                    "derivative": "Ya ."
+                },
+                {
+                    "integral": "Piensa.",
+                    "derivative": "He ."
+                },
+                {
+                    "integral": "Piensamos.",
+                    "derivative": "We ."
+                },
+                {
+                    "integral": "Piensáis.",
+                    "derivative": "You chaps ."
+                },
+                {
+                    "integral": "Piensan.",
+                    "derivative": "They ."
+                }
+            ]
+        },
+        {
+            "title": "PEDIR PRESENT CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Pido.",
+                    "derivative": "I ask."
+                },
+                {
+                    "integral": "Pides.",
+                    "derivative": "Ya ask."
+                },
+                {
+                    "integral": "Pide.",
+                    "derivative": "He asks."
+                },
+                {
+                    "integral": "Pidimos.",
+                    "derivative": "We ask."
+                },
+                {
+                    "integral": "Pidís.",
+                    "derivative": "You chaps ask."
+                },
+                {
+                    "integral": "Piden.",
+                    "derivative": "They ask."
+                }
+            ]
+        },
+        {
+            "title": "PODER PRESENT CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Puedo.",
+                    "derivative": "I can."
+                },
+                {
+                    "integral": "Puedes.",
+                    "derivative": "Ya can."
+                },
+                {
+                    "integral": "Puede.",
+                    "derivative": "He can."
+                },
+                {
+                    "integral": "Puedimos.",
+                    "derivative": "We can."
+                },
+                {
+                    "integral": "Puedís.",
+                    "derivative": "You chaps can."
+                },
+                {
+                    "integral": "Pueden.",
+                    "derivative": "They can."
+                }
+            ]
+        },
+        {
+            "title": "STEM-CHANGING VERBS",
+            "examples": [
+                {
+                    "integral": "jugar",
+                    "derivative": "to play"
+                },
+                {
+                    "integral": "cerrar",
+                    "derivative": "to close"
+                },
+                {
+                    "integral": "empezar",
+                    "derivative": "to begin"
+                },
+                {
+                    "integral": "mentir",
+                    "derivative": "to lie"
+                },
+                {
+                    "integral": "perder",
+                    "derivative": "to lose"
+                },
+                {
+                    "integral": "querer",
+                    "derivative": "to want"
+                },
+                {
+                    "integral": "sentir",
+                    "derivative": "to feel"
+                },
+                {
+                    "integral": "medir",
+                    "derivative": "to measure"
+                },
+                {
+                    "integral": "repetir",
+                    "derivative": "to repeat"
+                },
+                {
+                    "integral": "seguir",
+                    "derivative": "to follow"
+                },
+                {
+                    "integral": "encontrar",
+                    "derivative": "to find"
+                },
+                {
+                    "integral": "mostrar",
+                    "derivative": "to show"
+                },
+                {
+                    "integral": "probar",
+                    "derivative": "to try"
+                },
+                {
+                    "integral": "soñar",
+                    "derivative": "to dream"
+                },
+                {
+                    "integral": "volver",
+                    "derivative": "to return"
+                }
+            ]
+        },
+        {
+            "title": "IRREGULAR YO FORM CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Conozco.",
+                    "derivative": "I'm familiar."
+                },
+                {
+                    "integral": "Produzco.",
+                    "derivative": "I produce."
+                },
+                {
+                    "integral": "Prodejo.",
+                    "derivative": "I protect."
+                },
+                {
+                    "integral": "Dirijo.",
+                    "derivative": "I direct."
+                },
+                {
+                    "integral": "Hago.",
+                    "derivative": "I do."
+                },
+                {
+                    "integral": "Caigo.",
+                    "derivative": "I fall."
+                },
+                {
+                    "integral": "Doy.",
+                    "derivative": "I give."
+                },
+                {
+                    "integral": "Estoy.",
+                    "derivative": "I am currently."
+                },
+                {
+                    "integral": "Sé.",
+                    "derivative": "I know."
+                },
+                {
+                    "integral": "Traigo.",
+                    "derivative": "I bring."
+                },
+                {
+                    "integral": "Veo.",
+                    "derivative": "I see"
+                },
+                {
+                    "integral": "Tengo.",
+                    "derivative": "I have."
+                },
+                {
+                    "integral": "Singo.",
+                    "derivative": "I follow."
+                },
+                {
+                    "integral": "Vengo.",
+                    "derivative": "I come."
+                }
+            ]
+        },
+        {
+            "title": "MISCELLANEOUS PHRASE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Hay una cama en el cuarto de Aarón.",
+                    "derivative": "There’s a bed in Aarón’s room."
+                },
+                {
+                    "integral": "Hay muchas personas en el evento de moda.",
+                    "derivative": "There are a lot of people at the fashion show. "
+                },
+                {
+                    "integral": "Voy a llamar al taxi y nos vamos, ¿vale?",
+                    "derivative": "I’m going to call the taxi and we’ll go, okay? "
+                },
+                {
+                    "integral": "Aarón no recibe muchos comentarios negativos. ",
+                    "derivative": "Aarón doesn’t recibe too many negative comments."
+                }
+            ]
+        },
+        {
+            "title": "IR PRESENT TENSE CONJUGATED FORMS",
+            "examples": [
+                {
+                    "integral": "Voy.",
+                    "derivative": "I go."
+                },
+                {
+                    "integral": "Vas.",
+                    "derivative": "Ya go."
+                },
+                {
+                    "integral": "Va.",
+                    "derivative": "He goes."
+                },
+                {
+                    "integral": "Vamos.",
+                    "derivative": "We go."
+                },
+                {
+                    "integral": "Vais.",
+                    "derivative": "You chaps go."
+                },
+                {
+                    "integral": "Van.",
+                    "derivative": "They go."
+                }
+            ]
+        },
+        {
+            "title": "SER PRESENT TENSE CONJUGATED FORMS",
+            "examples": [
+                {
+                    "integral": "Soy.",
+                    "derivative": "I am intrinsically."
+                },
+                {
+                    "integral": "Eres.",
+                    "derivative": "Ya are intrinsically."
+                },
+                {
+                    "integral": "Es.",
+                    "derivative": "He is intrinsically."
+                },
+                {
+                    "integral": "Somos.",
+                    "derivative": "We are intrinsically."
+                },
+                {
+                    "integral": "Sois.",
+                    "derivative": "You chaps are intrinsically."
+                },
+                {
+                    "integral": "Son.",
+                    "derivative": "They are intrinsically."
+                }
+            ]
+        },
+        {
+            "title": "OÍR PRESENT TENSE CONJUGATED FORMS",
+            "examples": [
+                {
+                    "integral": "Oigo.",
+                    "derivative": "I hear."
+                },
+                {
+                    "integral": "Oyes.",
+                    "derivative": "Ya hear."
+                },
+                {
+                    "integral": "Oye.",
+                    "derivative": "He hears."
+                },
+                {
+                    "integral": "Oímos.",
+                    "derivative": "We hear."
+                },
+                {
+                    "integral": "Oís.",
+                    "derivative": "You chaps hear."
+                },
+                {
+                    "integral": "Oyen.",
+                    "derivative": "They hear."
+                }
+            ]
+        },
+        {
+            "title": "INFLUIR PRESENT TENSE CONJUGATED FORMS",
+            "examples": [
+                {
+                    "integral": "Influyo.",
+                    "derivative": "I influence."
+                },
+                {
+                    "integral": "Influyes.",
+                    "derivative": "Ya influence."
+                },
+                {
+                    "integral": "Influye.",
+                    "derivative": "He influences."
+                },
+                {
+                    "integral": "Influímos.",
+                    "derivative": "We influence."
+                },
+                {
+                    "integral": "Influís.",
+                    "derivative": "You chaps influence."
+                },
+                {
+                    "integral": "Influyen.",
+                    "derivative": "They influence."
+                }
+            ]
+        },
+        {
+            "title": "DIRECT OBJECT FORMS",
+            "examples": [
+                {
+                    "integral": "Y me.",
+                    "derivative": "And me."
+                },
+                {
+                    "integral": "Y te.",
+                    "derivative": "And ya."
+                },
+                {
+                    "integral": "Y lo.",
+                    "derivative": "And him."
+                },
+                {
+                    "integral": "Y la.",
+                    "derivative": "And her."
+                },
+                {
+                    "integral": "Y nos.",
+                    "derivative": "And us."
+                },
+                {
+                    "integral": "Y os.",
+                    "derivative": "And you chaps."
+                },
+                {
+                    "integral": "Y los.",
+                    "derivative": "And those guys."
+                },
+                {
+                    "integral": "Y las.",
+                    "derivative": "And those gals."
+                }
+            ]
+        },
+        {
+            "title": "INDIRECT OBJECT FORMS",
+            "examples": [
+                {
+                    "integral": "Escriben a me.",
+                    "derivative": "They write to me."
+                },
+                {
+                    "integral": "Escriben a te.",
+                    "derivative": "They write to ya."
+                },
+                {
+                    "integral": "Escriben a lo.",
+                    "derivative": "They write to the other."
+                },
+                {
+                    "integral": "Escriben a nos.",
+                    "derivative": "They write to us."
+                },
+                {
+                    "integral": "Escriben a os.",
+                    "derivative": "They write to you chaps."
+                },
+                {
+                    "integral": "Escriben a les.",
+                    "derivative": "They write to them."
+                }
+            ]
+        },
+        {
+            "title": "DIRECT OBJECT EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Mis padres reciben los productos y paquetes.",
+                    "derivative": "My parents receive the products and packages. "
+                },
+                {
+                    "integral": "Mis padres los reciben.",
+                    "derivative": "My parents receive them."
+                }
+            ]
+        },
+        {
+            "title": "INDIRECT OBJECT EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Mis padres dan los productos y paquetes a mí.",
+                    "derivative": "My parents give me the products and packages. "
+                },
+                {
+                    "integral": "Los padres le dan los productos y paquetes a Aarón",
+                    "derivative": "The parents give the products and packages to Aarón."
+                }
+            ]
+        },
+        {
+            "title": "DOUBLE OBJECT EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Aarón se los va a dar.",
+                    "derivative": "Aarón is going to give them to him."
+                },
+                {
+                    "integral": "Aarón se los está dando.",
+                    "derivative": "Aarón is giving them to them."
+                },
+                {
+                    "integral": "Aarón, ¡dámelos ya!",
+                    "derivative": "Aarón, give them to me now!"
+                },
+                {
+                    "integral": "Sus padres se los dan.",
+                    "derivative": "His parents give them to him."
+                },
+                {
+                    "integral": "Sus padres no se los dan.",
+                    "derivative": "His parents don’t give them to him."
+                },
+                {
+                    "integral": "No, no voy a dártelos.",
+                    "derivative": "No, I’m not going to give them to you."
+                }
+            ]
+        }
+    ]
+}

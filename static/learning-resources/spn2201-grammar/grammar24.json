@@ -1,0 +1,402 @@
+{
+    "groups": [
+        {
+            "title": "REFLEXIVE PRONOUNS",
+            "examples": [
+                {
+                    "integral": "me conecto",
+                    "derivative": "I connect to myself"
+                },
+                {
+                    "integral": "te conectas",
+                    "derivative": "you connect to yourself"
+                },
+                {
+                    "integral": "se conects",
+                    "derivative": "he connects to himself"
+                },
+                {
+                    "integral": "nos conectamos",
+                    "derivative": "we connect to ourselves"
+                },
+                {
+                    "integral": "os conectáis",
+                    "derivative": "you chaps connect to yourselves"
+                },
+                {
+                    "integral": "se conectan",
+                    "derivative": "they connect to themselves"
+                }
+            ]
+        },
+        {
+            "title": "RECIPROCAL VERBS",
+            "examples": [
+                {
+                    "integral": "abrazarse",
+                    "derivative": "to hug each other"
+                },
+                {
+                    "integral": "codearse",
+                    "derivative": "to rub elbows with each other"
+                },
+                {
+                    "integral": "conocerse",
+                    "derivative": "to know each other"
+                },
+                {
+                    "integral": "enamorarse",
+                    "derivative": "to fall in love with each other"
+                },
+                {
+                    "integral": "mirarse",
+                    "derivative": "to look at each other"
+                },
+                {
+                    "integral": "tutearse",
+                    "derivative": "to use tú with each other"
+                }
+            ]
+        },
+        {
+            "title": "RECIPROCAL VERB EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Acurio y Schiaffino se conocen bien.",
+                    "derivative": "Acurio and Schiaffino know eachother well."
+                },
+                {
+                    "integral": "Nos abrazamos fuerte.",
+                    "derivative": "We hug each other tightly."
+                },
+                {
+                    "integral": "Los pproductores se codean entre ellos.",
+                    "derivative": "They rub elbows with each other."
+                }
+            ]
+        },
+        {
+            "title": "REFLEXIVE VERB EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Schiaffino se va a lo más alejado de la Amazonia.",
+                    "derivative": "Schiaffino leaves for the most remote parts of the Amaazon."
+                },
+                {
+                    "integral": "No te acostumbres a desperdiciar comida.",
+                    "derivative": "Don't gte in the habit of wasting food."
+                },
+                {
+                    "integral": "Acurio no se va a cansar de promover una agenda sustentable.",
+                    "derivative": "Acurio is not going to get tired of promoting a sustainable agenda."
+                },
+                {
+                    "integral": "El mundo está conectándose cada vez más gracias a internet.",
+                    "derivative": "The world is getting connected more and more thanks to the internet."
+                },
+                {
+                    "integral": "¡Siéntense a la mesa!",
+                    "derivative": "Sit down at the table!"
+                },
+                {
+                    "integral": "¿Te imaginas un mundo más justo?",
+                    "derivative": "Can you imagine a more just world?"
+                },
+                {
+                    "integral": "Sí, me lo imagino.",
+                    "derivative": "Yes, I can imagine it."
+                },
+                {
+                    "integral": "No acostamos tarde, cerca de la medianoche.",
+                    "derivative": "We went to bed late, close to midnight."
+                },
+                {
+                    "integral": "Ana y Elena nunca se lavan las manos.",
+                    "derivative": "Ana and Elena never wash their hands."
+                }
+            ]
+        },
+        {
+            "title": "VERBS WHICH EXPRESS CHANGE REFLEXIVELY",
+            "examples": [
+                {
+                    "integral": "alegrarse",
+                    "derivative": "to get happy"
+                },
+                {
+                    "integral": "convertirse",
+                    "derivative": "to turn into"
+                },
+                {
+                    "integral": "divertirse",
+                    "derivative": "to have fun"
+                },
+                {
+                    "integral": "enamorarse",
+                    "derivative": "to fall in love"
+                },
+                {
+                    "integral": "enojarse",
+                    "derivative": "to get angry"
+                },
+                {
+                    "integral": "motivarse",
+                    "derivative": "to get motivated"
+                },
+                {
+                    "integral": "olvidarse",
+                    "derivative": "to forget"
+                },
+                {
+                    "integral": "oponerse",
+                    "derivative": "to oppose"
+                },
+                {
+                    "integral": "ponerse de acuerdo",
+                    "derivative": "to agree"
+                }
+            ]
+        },
+        {
+            "title": "VERBS EXPRESSING CHANGE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "La hija de un próspero bodeguero chino cantonés se enamora.",
+                    "derivative": "The daughter of a prosperous Cantonese store owner falls in love."
+                },
+                {
+                    "integral": "Lima se haya convertido en un destino turístico gracias a los atributos de su gastronomía.",
+                    "derivative": "Lima has become a tourist hotspot thanks to the attributes of its gastronomy."
+                },
+            ]
+        },
+        {
+            "title": "VERBS WITH DIFFERENT MEANINGS WHEN USED REFLEXIVELY",
+            "examples": [
+                {
+                    "integral": "acordar",
+                    "derivative": "to agree"
+                },
+                {
+                    "integral": "acordarse",
+                    "derivative": "to remember"
+                },
+                {
+                    "integral": "beber",
+                    "derivative": "to drink"
+                },
+                {
+                    "integral": "beberse",
+                    "derivative": "to drink up"
+                },
+                {
+                    "integral": "comer",
+                    "derivative": "to eat"
+                },
+                {
+                    "integral": "comerse",
+                    "derivative": "to eat up"
+                },
+                {
+                    "integral": "ir",
+                    "derivative": "to go"
+                },
+                {
+                    "integral": "irse",
+                    "derivative": "to leave"
+                },
+                {
+                    "integral": "llamar",
+                    "derivative": "to call"
+                },
+                {
+                    "integral": "llamarse",
+                    "derivative": "to be named"
+                },
+                {
+                    "integral": "llevar",
+                    "derivative": "to wear"
+                },
+                {
+                    "integral": "llevarse",
+                    "derivative": "to get along with"
+                },
+                {
+                    "integral": "parecer",
+                    "derivative": "to seem"
+                },
+                {
+                    "integral": "parecerse",
+                    "derivative": "to look like"
+                },
+                {
+                    "integral": "poner",
+                    "derivative": "to put"
+                },
+                {
+                    "integral": "ponerse",
+                    "derivative": "to become"
+                }
+            ]
+        },
+        {
+            "title": "EXAMPLES OF DIFFERENT REFLEXIVE MEANINGS",
+            "examples": [
+                {
+                    "integral": "Los cocineros peruanos acordaron trabajar po objetivos colectivos.",
+                    "derivative": "Peruvian chefs agreed to work for shared goals."
+                },
+                {
+                    "integral": "Acurio se acordó de todas las palabras en su discurso.",
+                    "derivative": "Acurio remembered all the words in his speech."
+                },
+                {
+                    "integral": "En el restaurante de Acurio, los clientes beben los mejores vinos.",
+                    "derivative": "In Acurios restaurant, the clients drink the best wines."
+                },
+                {
+                    "integral": "El cliente se bebió toda la copa de vino.",
+                    "derivative": "The client drank upt he entire glass of wine."
+                },
+                {
+                    "integral": "Con información, podemos decidir qué comer de manera sustenable.",
+                    "derivative": "With information, we can decide what to eat sustainably."
+                },
+                {
+                    "integral": "Se comió todo el plato de ceviche.",
+                    "derivative": "He ate up the entire plate of ceviche."
+                },
+                {
+                    "integral": "Schiaffino va a buscar alimentos frescos.",
+                    "derivative": "Schiaffino goes to get fresh food."
+                },
+                {
+                    "integral": "Schiaffino se va a lo más alejado de la Amazonia.",
+                    "derivative": "Schiaffino leaves for the most remote parts of the Amazon."
+                },
+                {
+                    "integral": "Acurio llama a Pedro Schiaffino 'su gran amigo'.",
+                    "derivative": "Acurio calls Pedro Schiaffino 'his great friend'."
+                },
+                {
+                    "integral": "El restaurante de Acurio se llama Astrid y Gastón.",
+                    "derivative": "Acurio's restaurant is called Astrid and Gastóon."
+                },
+                {
+                    "integral": "Para la presentación, Acurio lleva una camisa y vaqueros.",
+                    "derivative": "For the presentation, Acurio wears a shirt and jeans."
+                },
+                {
+                    "integral": "Es evidente que Acurio se lleva bien con sus colegas.",
+                    "derivative": "It's evident that Acurio gets along well with his colleagues."
+                },
+                {
+                    "integral": "Antes, los chefs peruanos debian parecer europeos o norteamericanos pare ser reconocidos.",
+                    "derivative": "Before, Peruvian chefs had to appear European or North American to be recognized."
+                },
+                {
+                    "integral": "Acurio, se parece un poco a su madre y otro a su padre.",
+                    "derivative": "Acurio looks a little like his mother, and a bit like his father, too."
+                },
+                {
+                    "integral": "Acurio dice, 'Hay que poner a la cocina en el centro del hogar'.",
+                    "derivative": "Acurio says 'You have to put the kitchen at the center of the home'."
+                },
+                {
+                    "integral": "El público se puso contento cuando le llegó el turno de hablar a Acurio.",
+                    "derivative": "The public became happy when it was Acurios turn to speak."
+                }
+            ]
+        },
+        {
+            "title": "NON-CHANGED REFLEXIVE VERB EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Compro alimentos locales.",
+                    "derivative": "I buy local food."
+                },
+                {
+                    "integral": "Me compro alimentos locales.",
+                    "derivative": "I buy myself local food."
+                },
+                {
+                    "integral": "Trae productos regionales de los Andes.",
+                    "derivative": "He brings regional products from the Andes."
+                },
+                {
+                    "integral": "Se trae productos regionales de los Andes.",
+                    "derivative": "He brings himself regional products from the Andes."
+                }
+            ]
+        },
+        {
+            "title": "INDIRECT OBJECT PRONOUN EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Schiaffino le da oportunidad a los pequeños productores de la Amazonía.",
+                    "derivative": "Schiaffino gives the small producers in the Amazon an opportunity."
+                },
+                {
+                    "integral": "Schiaffino se la da.",
+                    "derivative": "Schiaffino gives it to them. "
+                },
+                {
+                    "integral": "Algunos cocineros peruanos quieren llevar prosperidad a su pueblo.",
+                    "derivative": "Some Peruvian chefs want to bring prosperity to their people."
+                },
+                {
+                    "integral": "Algunos cocineros peruanos quieren llevársela.",
+                    "derivative": "Some Peruvian chefs want to bring it to them."
+                }
+            ]
+        },
+        {
+            "title": "REFLEXIVE PRONOUN EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Lima se convirtió en un destino turístico gracias a los atributos de su gastronomía.",
+                    "derivative": "Lima became a tourist hotspot thanks to the attributes of its gastronomy."
+                },
+                {
+                    "integral": "Al comienzo los padres se oponen rotundamente a este amor.",
+                    "derivative": "At the beginning, their parents are adamantly opposed to their love."
+                }
+            ]
+        },
+        {
+            "title": "RECIPROCAL REFLEXIVE PRONOUN EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Nuestros padres se unieron en la mesa gracias al amor.",
+                    "derivative": "Our parents joined each other at the table thanks to love."
+                },
+                {
+                    "integral": "Al final, se ponen de acuerdo: hacen el arroz en el wok pero a fuego lento.",
+                    "derivative": "In the end, they come to an agreement: They make rice in the wok, but they slow cook it."
+                }
+            ]
+        },
+        {
+            "title": "IMPERSONAL EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Se prohíbe usar el teléfono en clase.",
+                    "derivative": "Using phones is prohibited in class"
+                },
+                {
+                    "integral": "Se nos ha impuesto un estilo de vida basado en el consumo de productos que en realidad no necesitamos.",
+                    "derivative": "A lifestyle based on consuming products that we don’t really need has been imposed upon us."
+                }
+            ]
+        },
+        {
+            "title": "PASSIVE VOICE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "La economía creciente convive con desnutrición, con anemia, en territorios donde se exportan alimentos.",
+                    "derivative": "The growing economy coexists with malnutrition, with anemia, in places where food is exported."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "groups": [
+        {
+          "title": "PAST PARTICIPLES USED AS ADJECTIVES",
+          "examples": [
+            {
+              "integral": "rodeado",
+              "derivative": "surrounded"
+            },
+            {
+              "integral": "tomado",
+              "derivative": "taken"
+            },
+            {
+              "integral": "comido.",
+              "derivative": "eaten"
+            },
+            {
+              "integral": "vivido",
+              "derivative": "lived"
+            },
+            {
+              "integral": "abierto",
+              "derivative": "opened"
+            },
+            {
+              "integral": "cubierto",
+              "derivative": "covered"
+            },
+            {
+              "integral": "dicho",
+              "derivative": "said"
+            },
+            {
+              "integral": "escrito",
+              "derivative": "written"
+            },
+            {
+              "integral": "hecho",
+              "derivative": "made"
+            },
+            {
+              "integral": "muerto",
+              "derivative": "died"
+            },
+            {
+              "integral": "puesto",
+              "derivative": "put"
+            },
+            {
+              "integral": "roto",
+              "derivative": "broken"
+            },
+            {
+              "integral": "vuelto",
+              "derivative": "returned"
+            },
+            {
+              "integral": "visto",
+              "derivative": "seen"
+            },
+            {
+              "integral": "Hecho en México.",
+              "derivative": "Made in Mexico."
+            },
+            {
+              "integral": "Una hamburguesa muy hecha.",
+              "derivative": "A well-done hamburger."
+            }
+          ]
+        },
+        {
+          "title": "PERFECT TENSES EXAMPLES",
+          "examples": [
+            {
+              "integral": "¿Alguna vez has viajado a Guatemala?",
+              "derivative": "Have you ever traveled to Guatemala?"
+            },
+            {
+              "integral": "Cuando empezaste a estudiar español, ¿habías estudiado otro idioma antes?",
+              "derivative": "When you started studying Spanish, had you studied another language before?"
+            },
+            {
+              "integral": "¿Has leído El eclipse?",
+              "derivative": "Have you read El eclipse?"
+            },
+            {
+              "integral": "La clase no ha empezado.",
+              "derivative": "The class has not started."
+            },
+            {
+              "integral": "No hemos hablado de la última escena.",
+              "derivative": "We haven’t talked about the last scene."
+            },
+            {
+              "integral": "Cuando fray Bartolomé Arrazola se sintió perdido aceptó que ya nada podría salvarlo. La selva poderosa de Guatemala lo había apresado.",
+              "derivative": "When Brother Bartolomé Arrazola felt lost, he accepted that nothing could save him anymore. The powerful Guatemalan jungle had captured him."
+            },
+            {
+              "integral": "Mientras uno de los indígenas recitaba las infinitas fechas en que se producirían eclipses solares y lunares que los astrónomos de la comunidad maya habían previsto y anotado en sus códices.",
+              "derivative": "While one of the natives recited the infinite dates of solar and lunar eclipses, all of which the astronomers of the Mayan community had foreseen and written down in their codices."
+            }
+        },
+        {
+            "title": "PRESENT PERFECT",
+            "examples": [
+                {
+                  "integral": "Yo he.",
+                  "derivative": "I had."
+                },
+                {
+                  "integral": "Tú has.",
+                  "derivative": "Ya had."
+                },
+                {
+                  "integral": "Ella ha.",
+                  "derivative": "She had."
+                },
+                {
+                  "integral": "Nosotras hemas.",
+                  "derivative": "We gals had."
+                },
+                {
+                  "integral": "Vosotras habéis",
+                  "derivative": "You chapettes had."
+                },
+                {
+                  "integral": "Ustedes han.",
+                  "derivative": "Y'all had."
+                }
+            ]
+        },
+        {
+            "title": "PAST PERFECT",
+            "examples": [
+                {
+                  "integral": "Yo había.",
+                  "derivative": "I did have."
+                },
+                {
+                  "integral": "Tú habías",
+                  "derivative": "Ya did have."
+                },
+                {
+                  "integral": "Ella había.",
+                  "derivative": "She did have."
+                },
+                {
+                  "integral": "Nosotras habíamos.",
+                  "derivative": "We gals did have."
+                },
+                {
+                  "integral": "Vosotras habíais.",
+                  "derivative": "You chapettes did have."
+                },
+                {
+                  "integral": "Ustedes habían.",
+                  "derivative": "Y'all did have."
+                }
+            ]
+        }
+    ]
+}

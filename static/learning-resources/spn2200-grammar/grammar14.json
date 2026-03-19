@@ -1,0 +1,62 @@
+{
+    "groups": [
+        {
+          "title": "REVIEW PRETERITE AND IMPERFECT",
+          "examples": [
+            {
+              "integral": "Cuando no tenía galerías, hacía poerformance en la calle.",
+              "derivative": "When he didn't have galleries, he did performances int he street."
+            },
+            {
+              "integral": "El museo de atre moderno nació en 1956.",
+              "derivative": "The museum of modern art was born in 1956."
+            },
+            {
+              "integral": "El museo necesitaba una casa propia.",
+              "derivative": "The museum needed its own home."
+            },
+            {
+              "integral": "Y en el 85 nos dieron el terreno.",
+              "derivative": "And in 85 they gave us the land."
+            },
+            {
+              "integral": "El MAMBA tiene una sede desde el 1985.",
+              "derivative": "The MAMBA has had a headquarters since 1985."
+            },
+            {
+              "integral": "Yo conozco el museo de arte moderno desde que fue creado.",
+              "derivative": "I’ve known the museum of modern art since it was created"
+            },
+            {
+              "integral": "El joven pintaba todos los días desde que recibió sus primeras pinturas.",
+              "derivative": "The young man has painted every day since he received his first set of paints."
+            }
+          ]
+        },
+        {
+          "title": "HACE IN TIME EXPRESSIONS",
+          "examples": [
+            {
+              "integral": "Hace dos meses.",
+              "derivative": "Two months ago."
+            },
+            {
+              "integral": "Hace diez minutos.",
+              "derivative": "Ten minutes ago."
+            },
+            {
+              "integral": "Hace diez años que Antonio estudia dibujo.",
+              "derivative": "Antonio has studied drawing for ten years."
+            },
+            {
+              "integral": "Hace diez años que Antonio vendió su primer cuadro.",
+              "derivative": "Antonio sold his first painting ten years ago."
+            },
+            {
+              "integral": "Hacía diez años que Antonio trabajaba de abogado cuando decidió estudiar arte.",
+              "derivative": "Antonio had been working as a lawyer for ten years when he decided to study art."
+            }
+          ]
+        }
+    ]
+}

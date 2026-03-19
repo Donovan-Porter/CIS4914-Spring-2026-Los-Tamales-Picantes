@@ -1,0 +1,724 @@
+{
+    "groups": [
+        {
+            "title": "FUTURE TENSE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Los novios van a cenar.", 
+                    "derivative": "The couple go to see a movie."
+                },
+                {
+                    "integral": "Los novios cenarán.", 
+                    "derivative": "The couple will see a movie."
+                },
+                {
+                    "integral": "Los novios se arrepentirán de la pelea", 
+                    "derivative": "The couple will regret their fight."
+                },
+                {
+                    "integral": "Los novios van a arrepentirse de la pelea.", 
+                    "derivative": "The couple is going to regret their fight"
+                },
+                {
+                    "integral": "Tú sabrás.", 
+                    "derivative": "You would know."
+                },
+                {
+                    "integral": "¿Qué será?", 
+                    "derivative": "What could it be?"
+                },
+                {
+                    "integral": "Yo me enamoraré de mi media naranja.", 
+                    "derivative": "I will fall in love with my soulmate."
+                },
+                {
+                    "integral": "Los novios se arrepentirán de la pelea.", 
+                    "derivative": "The couple will regret their fight."
+                },
+                {
+                    "integral": "Nosotros nos arrepentiremos de la pelea.", 
+                    "derivative": "We will regret their fight."
+                },
+                {
+                    "integral": "¿Vendrá tu alma gemela?", 
+                    "derivative": "Will your soulmate come?"
+                },
+                {
+                    "integral": "Podremos estar juntos para siempre.", 
+                    "derivative": "We will be able to be together forever. "
+                }
+            ]
+        },
+        {
+            "title": "FUTURE TENSE REGULAR CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Hablaré.", 
+                    "derivative": "I will speak."
+                },
+                {
+                    "integral": "Hablarás", 
+                    "derivative": "Ya will speak."
+                },
+                {
+                    "integral": "Habalará", 
+                    "derivative": "He will speak."
+                },
+                {
+                    "integral": "Hablaremos.", 
+                    "derivative": "We guys will speak."
+                },
+                {
+                    "integral": "Hablaréis.", 
+                    "derivative": "You chaps will speak."
+                },
+                {
+                    "integral": "Hablarán.", 
+                    "derivative": "Y'all will speak."
+                }
+            ]
+        },
+        {
+            "title": "DECIR FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Diré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Dirás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Dirá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Diremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Diréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Dirán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "HABER FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Habré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Habrás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Habrá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Habremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Habréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Habrán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "HACER FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Haré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Harás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Hará.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Haremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Haréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Harán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "PODER FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Podré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Podrás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Podrá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Podremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Podréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Podrán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "PONER FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Pondré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Pondrás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Pondrá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Pondremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Pondréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Pondrán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "QUERER FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Querré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Querrás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Querrá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Querremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Querréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Querrán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "SABER FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Sabré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Sabrás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Sabrá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Sabremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Sabréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Sabrán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "SALIR FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Saldré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Saldrás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Saldrá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Saldremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Saldréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Saldrán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "TENER FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Tendré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Tendrás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Tendrá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Tendremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Tendréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Tendrán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "VENIR FUTURE FORMS",
+            "examples": [
+                {
+                    "integral": "Vendré.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Vendrás.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Vendrá.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Vendremos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Vendréis.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Vendrán.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "CONDITIONAL TENSE EXAMPLES",
+            "EXAMPLES": [
+                {
+                    "integral": "¿Te mudarías a otra ciudad por tu pareja?",
+                    "derivative": "Would you move to another city for your partner?"
+                },
+                {
+                    "integral": "¿Cambiarías tu apellido al casarte?",
+                    "derivative": "Would you change your name when you get married?"
+                },
+                {
+                    "integral": "No sé, quizás Raúl le echaría una bronca.",
+                    "derivative": "I don’t know, maybe Raúl picked a fight with her."
+                },
+                {
+                    "integral": "Los novios se arrepentirían de la pelea.",
+                    "derivative": "The couple would regret their fight"
+                },
+                {
+                    "integral": "Diego no rompería con su novia para pasar más tiempo con los amigos.",
+                    "derivative": "Diego wouldn’t break up with his girlfriend to spend more time with his friends."
+                },
+                {
+                    "integral": "Yo no sabría qué decir en esa situación.",
+                    "derivative": "I wouldn’t know what to say in that situation."
+                },
+                {
+                    "integral": "¿Qué harías tú en su lugar?",
+                    "derivative": "What would you do in his place?"
+                }
+            ]
+        },
+        {
+            "title": "CONDITIONAL TENSE REGULAR CONJUGATIONS",
+            "EXAMPLES": [
+                {
+                    "integral": "Hablaría.",
+                    "derivative": "I would speak."
+                },
+                {
+                    "integral": "Hablarías.",
+                    "derivative": "Ya would speak."
+                },
+                {
+                    "integral": "Hablaría.",
+                    "derivative": "He would speak."
+                },
+                {
+                    "integral": "Hablaríamos.",
+                    "derivative": "We would speak."
+                },
+                {
+                    "integral": "Hablaríais.",
+                    "derivative": "You chaps would speak."
+                },
+                {
+                    "integral": "Hablarían.",
+                    "derivative": "They would speak."
+                }
+            ]
+        },
+        {
+            "title": "DECIR CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Diría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Dirías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Diría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Diríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Diríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Dirían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "HABER CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Habría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Habrías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Habría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Habríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Habríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Habrían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "HACER CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Haría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Harías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Haría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Haríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Haríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Harían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "PODER CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Podría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Podrías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Podría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Podríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Podríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Podrían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "PONER CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Pondría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Pondrías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Pondría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Pondríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Pondríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Pondrían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "QUERER CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Querría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Querrías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Querría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Querríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Querríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Querrían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "SABER CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Sabría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Sabrías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Sabría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Sabríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Sabríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Sabrían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "SALIR CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Saldría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Saldrías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Saldría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Saldríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Saldríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Saldrían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "TENER CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Tendría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Tendrías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Tendría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Tendríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Tendríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Tendrían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        },
+        {
+            "title": "VENIR CONDITIONAL FORMS",
+            "examples": [
+                {
+                    "integral": "Vendría.", 
+                    "derivative": "I will."
+                },
+                {
+                    "integral": "Vendrías.", 
+                    "derivative": "Ya will."
+                },
+                {
+                    "integral": "Vendría.", 
+                    "derivative": "He will."
+                },
+                {
+                    "integral": "Vendríamos.", 
+                    "derivative": "We guys will."
+                },
+                {
+                    "integral": "Vendríais.", 
+                    "derivative": "You chaps will."
+                },
+                {
+                    "integral": "Vendrían.", 
+                    "derivative": "Y'all will."
+                }
+            ]
+        }
+    ]
+}

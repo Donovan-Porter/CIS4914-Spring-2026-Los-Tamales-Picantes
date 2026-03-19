@@ -1,0 +1,824 @@
+{
+    "groups": [
+        {
+          "title": "DIFFERENCES BETWEEN PRETERITE AN DIMPERFECT",
+          "examples": [
+            {
+              "integral": "Cuando llegu é al dormitorio prepar é el almuerzo.",
+              "derivative": "When I arrived at the dorm I prepared lunch."
+            },
+            {
+              "integral": "La clase comenzó a las ocho de la mañana.",
+              "derivative": "Class started at 8 in the morning."
+            },
+            {
+              "integral": "Entró se sacó rápido los zapatos y se fue a dormir sin comer.",
+              "derivative": "He came in, took his shoes off quickly, and went to sleep without eating."
+            },
+            {
+              "integral": "El padre sostenía la niñita sobre el agua mientras las olas besaban sus piececitos suavamente.",
+              "derivative": "The father held the little girl up over the water as the waves gently kissed her little feet."
+            },
+            {
+              "integral": "El profesor Mendel siempre traia a la clases videos y enlaces interesantes.",
+              "derivative": "Professor Mendel always brought interesting videos and links to class."
+            },
+            {
+              "integral": "Me sentía mal. Mas lágrimas rodaban por mis mejillas.",
+              "derivative": "I felt bad. Tears were rolling now my cheeks."
+            },
+            {
+              "integral": "Cuando llegu é a la casa despeu és del juramento había globos azules, rojos y blancos.",
+              "derivative": "When I arrived at the house after the oath, there were blue, red, and white balloons."
+            }
+          ]
+        },
+        {
+          "title": "REGULAR PRETERITE -AR CONJUGATIONS",
+          "examples": [
+            {
+              "integral": "I ate breakfast.",
+              "derivative": "Yo desyun é.."
+            },
+            {
+              "integral": "Ya ate breakfast.",
+              "derivative": "Tú desayunaste."
+            },
+            {
+              "integral": "He ate breakfast.",
+              "derivative": "Él desayunó."
+            },
+            {
+              "integral": "We guys ate breakfast.",
+              "derivative": "Nosotros desayunamos."
+            },
+            {
+              "integral": "You chaps ate breakfast.",
+              "derivative": "Vosotros desayunasteis."
+            },
+            {
+              "integral": "Y'all ate breakfast.",
+              "derivative": "Ustedes desayunaron."
+            }
+          ]
+        },
+        {
+          "title": "REGULAR PRETERITE -ER CONJUGATIONS",
+          "examples": [
+            {
+              "integral": "I ate.",
+              "derivative": "Yo comí."
+            },
+            {
+              "integral": "Ya ate.",
+              "derivative": "Tú comiste."
+            },
+            {
+              "integral": "He ate.",
+              "derivative": "Él comió."
+            },
+            {
+              "integral": "We guys ate.",
+              "derivative": "Nosotros comimos."
+            },
+            {
+              "integral": "You chaps ate.",
+              "derivative": "Vosotros comisteis."
+            },
+            {
+              "integral": "Y'all ate.",
+              "derivative": "Ustedes comieron."
+            }
+          ]
+        },
+        {
+          "title": "REGULAR PRETERITE -IR CONJUGATIONS",
+          "examples": [
+            {
+              "integral": "I battered.",
+              "derivative": "Yo batí."
+            },
+            {
+              "integral": "Ya battered.",
+              "derivative": "Tú batiste."
+            },
+            {
+              "integral": "He battered.",
+              "derivative": "Él batió."
+            },
+            {
+              "integral": "We guys battered.",
+              "derivative": "Nosotros batimos."
+            },
+            {
+              "integral": "You chaps battered.",
+              "derivative": "Vosotros batisteis."
+            },
+            {
+              "integral": "Y'all battered.",
+              "derivative": "Ustedes batieron."
+            }
+          ]
+        },
+        {
+          "title": "PEDIR PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I asked.",
+              "derivative": "Yo pedí."
+            },
+            {
+              "integral": "Ya asked.",
+              "derivative": "Tú pediste."
+            },
+            {
+              "integral": "He asked.",
+              "derivative": "Él pidió."
+            },
+            {
+              "integral": "We guys asked.",
+              "derivative": "Nosotros pedimos."
+            },
+            {
+              "integral": "You chaps asked.",
+              "derivative": "Vosotros pedisteis."
+            },
+            {
+              "integral": "Y'all asked.",
+              "derivative": "Ustedes pidieron."
+            }
+          ]
+        },
+        {
+          "title": "SENTIR PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I felt.",
+              "derivative": "Yo sentí."
+            },
+            {
+              "integral": "Ya felt.",
+              "derivative": "Tú sentiste."
+            },
+            {
+              "integral": "He felt.",
+              "derivative": "Él sintió."
+            },
+            {
+              "integral": "We guys felt.",
+              "derivative": "Nosotros sentimos."
+            },
+            {
+              "integral": "You chaps felt.",
+              "derivative": "Vosotros sentisteis."
+            },
+            {
+              "integral": "Y'all felt.",
+              "derivative": "Ustedes sintieron."
+            }
+          ]
+        },
+        {
+          "title": "DORMIR PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I slept.",
+              "derivative": "Yo dormí."
+            },
+            {
+              "integral": "Ya slept.",
+              "derivative": "Tú dormiste."
+            },
+            {
+              "integral": "He slept.",
+              "derivative": "Él durmió."
+            },
+            {
+              "integral": "We guys slept.",
+              "derivative": "Nosotros dormimos."
+            },
+            {
+              "integral": "You chaps slept.",
+              "derivative": "Vosotros dormisteis."
+            },
+            {
+              "integral": "Y'all slept.",
+              "derivative": "Ustedes durmieron."
+            }
+          ]
+        },
+        {
+          "title": "HACER PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I did.",
+              "derivative": "Yo hice."
+            },
+            {
+              "integral": "Ya did.",
+              "derivative": "Tú hiciste."
+            },
+            {
+              "integral": "He did.",
+              "derivative": "Él hizo."
+            },
+            {
+              "integral": "We guys did.",
+              "derivative": "Nosotros hicimos."
+            },
+            {
+              "integral": "You chaps did.",
+              "derivative": "Vosotros hicisteis."
+            },
+            {
+              "integral": "Y'all did.",
+              "derivative": "Ustedes hicieron."
+            }
+          ]
+        },
+        {
+          "title": "QUERER PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I wanted.",
+              "derivative": "Yo quise."
+            },
+            {
+              "integral": "Ya wanted.",
+              "derivative": "Tú quisiste."
+            },
+            {
+              "integral": "He wanted.",
+              "derivative": "Él quiso."
+            },
+            {
+              "integral": "We guys wanted.",
+              "derivative": "Nosotros quisimos."
+            },
+            {
+              "integral": "You chaps wanted.",
+              "derivative": "Vosotros quisisteis."
+            },
+            {
+              "integral": "Y'all wanted.",
+              "derivative": "Ustedes quisieron."
+            }
+          ]
+        },
+        {
+          "title": "VENIR PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I came.",
+              "derivative": "Yo vine."
+            },
+            {
+              "integral": "Ya came.",
+              "derivative": "Tú viniste."
+            },
+            {
+              "integral": "He came.",
+              "derivative": "Él vino."
+            },
+            {
+              "integral": "We guys came.",
+              "derivative": "Nosotros vinimos."
+            },
+            {
+              "integral": "You chaps came.",
+              "derivative": "Vosotros vinisteis."
+            },
+            {
+              "integral": "Y'all came.",
+              "derivative": "Ustedes vinieron."
+            }
+          ]
+        },
+        {
+          "title": "ESTAR PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I was then.",
+              "derivative": "Yo estuve."
+            },
+            {
+              "integral": "Ya were then.",
+              "derivative": "Tú estuviste."
+            },
+            {
+              "integral": "He was then.",
+              "derivative": "Él estuvo."
+            },
+            {
+              "integral": "We guys were then.",
+              "derivative": "Nosotros estuvimos."
+            },
+            {
+              "integral": "You chaps were then.",
+              "derivative": "Vosotros estuvisteis."
+            },
+            {
+              "integral": "Y'all were then.",
+              "derivative": "Ustedes estuvieron."
+            }
+          ]
+        },
+        {
+          "title": "PODER PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I could.",
+              "derivative": "Yo pude."
+            },
+            {
+              "integral": "Ya could.",
+              "derivative": "Tú pudiste."
+            },
+            {
+              "integral": "He could.",
+              "derivative": "Él pudo."
+            },
+            {
+              "integral": "We guys could.",
+              "derivative": "Nosotros pudimos."
+            },
+            {
+              "integral": "You chaps could.",
+              "derivative": "Vosotros pudisteis."
+            },
+            {
+              "integral": "Y'all could.",
+              "derivative": "Ustedes pudieron."
+            }
+          ]
+        },
+        {
+          "title": "PONER PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I put.",
+              "derivative": "Yo puse."
+            },
+            {
+              "integral": "Ya put.",
+              "derivative": "Tú pusiste."
+            },
+            {
+              "integral": "He put.",
+              "derivative": "Él puso."
+            },
+            {
+              "integral": "We guys put.",
+              "derivative": "Nosotros pusimos."
+            },
+            {
+              "integral": "You chaps put.",
+              "derivative": "Vosotros pusisteis."
+            },
+            {
+              "integral": "Y'all put.",
+              "derivative": "Ustedes pusieron."
+            }
+          ]
+        },
+        {
+          "title": "SABER PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I knew.",
+              "derivative": "Yo supe."
+            },
+            {
+              "integral": "Ya knew.",
+              "derivative": "Tú supiste."
+            },
+            {
+              "integral": "He knew.",
+              "derivative": "Él supo."
+            },
+            {
+              "integral": "We guys knew.",
+              "derivative": "Nosotros supimos."
+            },
+            {
+              "integral": "You chaps knew.",
+              "derivative": "Vosotros supisteis."
+            },
+            {
+              "integral": "Y'all knew.",
+              "derivative": "Ustedes supieron."
+            }
+          ]
+        },
+        {
+          "title": "TENER PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I had.",
+              "derivative": "Yo tuve."
+            },
+            {
+              "integral": "Ya had.",
+              "derivative": "Tú tuviste."
+            },
+            {
+              "integral": "He had.",
+              "derivative": "Él tuvo."
+            },
+            {
+              "integral": "We guys had.",
+              "derivative": "Nosotros tuvimos."
+            },
+            {
+              "integral": "You chaps had.",
+              "derivative": "Vosotros tuvisteis."
+            },
+            {
+              "integral": "Y'all had.",
+              "derivative": "Ustedes tuvieron."
+            }
+          ]
+        },
+        {
+          "title": "DECIR PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I said.",
+              "derivative": "Yo dije."
+            },
+            {
+              "integral": "Ya said.",
+              "derivative": "Tú dijiste."
+            },
+            {
+              "integral": "He said.",
+              "derivative": "Él dijo."
+            },
+            {
+              "integral": "We guys said.",
+              "derivative": "Nosotros dijimos."
+            },
+            {
+              "integral": "You chaps said.",
+              "derivative": "Vosotros dijisteis."
+            },
+            {
+              "integral": "Y'all said.",
+              "derivative": "Ustedes dijeron."
+            }
+          ]
+        },
+        {
+          "title": "SER PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I was.",
+              "derivative": "Yo fui."
+            },
+            {
+              "integral": "Ya were.",
+              "derivative": "Tú fuiste."
+            },
+            {
+              "integral": "He was.",
+              "derivative": "Él fue."
+            },
+            {
+              "integral": "We guys were.",
+              "derivative": "Nosotros fuimos."
+            },
+            {
+              "integral": "You chaps were.",
+              "derivative": "Vosotros fuisteis."
+            },
+            {
+              "integral": "Y'all were.",
+              "derivative": "Ustedes fueron."
+            }
+          ]
+        },
+        {
+          "title": "IR PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I went.",
+              "derivative": "Yo fui."
+            },
+            {
+              "integral": "Ya went.",
+              "derivative": "Tú fuiste."
+            },
+            {
+              "integral": "He went.",
+              "derivative": "Él fue."
+            },
+            {
+              "integral": "We guys went.",
+              "derivative": "Nosotros fuimos."
+            },
+            {
+              "integral": "You chaps went.",
+              "derivative": "Vosotros fuisteis."
+            },
+            {
+              "integral": "Y'all went.",
+              "derivative": "Ustedes fueron."
+            }
+          ]
+        },
+        {
+          "title": "DAR PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I gave.",
+              "derivative": "Yo di."
+            },
+            {
+              "integral": "Ya gave.",
+              "derivative": "Tú diste."
+            },
+            {
+              "integral": "He gave.",
+              "derivative": "Él dio."
+            },
+            {
+              "integral": "We guys gave.",
+              "derivative": "Nosotros dimos."
+            },
+            {
+              "integral": "You chaps gave.",
+              "derivative": "Vosotros disteis."
+            },
+            {
+              "integral": "Y'all gave.",
+              "derivative": "Ustedes dieron."
+            }
+          ]
+        },
+        {
+          "title": "VER PRETERITE FORMS",
+          "examples": [
+            {
+              "integral": "I saw.",
+              "derivative": "Yo vi."
+            },
+            {
+              "integral": "Ya saw.",
+              "derivative": "Tú viste."
+            },
+            {
+              "integral": "He saw.",
+              "derivative": "Él vio."
+            },
+            {
+              "integral": "We guys saw.",
+              "derivative": "Nosotros vimos."
+            },
+            {
+              "integral": "You chaps saw.",
+              "derivative": "Vosotros visteis."
+            },
+            {
+              "integral": "Y'all saw.",
+              "derivative": "Ustedes vieron."
+            }
+          ]
+        },
+        {
+          "title": "REGULAR IMPERFECT -AR CONJUGATIONS",
+          "examples": [
+            {
+              "integral": "I used to ride.",
+              "derivative": "Yo montaba."
+            },
+            {
+              "integral": "Ya used to ride.",
+              "derivative": "Tú montabas."
+            },
+            {
+              "integral": "He used to ride.",
+              "derivative": "Él montaba."
+            },
+            {
+              "integral": "We guys used to ride.",
+              "derivative": "Nosotros montábamos."
+            },
+            {
+              "integral": "You chaps used to ride.",
+              "derivative": "Vosotros montabais."
+            },
+            {
+              "integral": "Y'all used to ride.",
+              "derivative": "Ustedes montaban."
+            }
+          ]
+        },
+        {
+          "title": "REGULAR IMPERFECT -ER CONJUGATIONS",
+          "examples": [
+            {
+              "integral": "I used to protect.",
+              "derivative": "Yo protegía."
+            },
+            {
+              "integral": "Ya used to protect.",
+              "derivative": "Tú protegías."
+            },
+            {
+              "integral": "He used to protect.",
+              "derivative": "Él protegía."
+            },
+            {
+              "integral": "We guys used to protect.",
+              "derivative": "Nosotros protegíamos."
+            },
+            {
+              "integral": "You chaps used to protect.",
+              "derivative": "Vosotros protegíais."
+            },
+            {
+              "integral": "Y'all used to protect.",
+              "derivative": "Ustedes protegíon."
+            }
+          ]
+        },
+        {
+          "title": "REGULAR IMPERFECT -IR CONJUGATIONS",
+          "examples": [
+            {
+              "integral": "I used to write.",
+              "derivative": "Yo escribía."
+            },
+            {
+              "integral": "Ya used to write.",
+              "derivative": "Tú escribías."
+            },
+            {
+              "integral": "He used to write.",
+              "derivative": "Él escribía."
+            },
+            {
+              "integral": "We guys used to write.",
+              "derivative": "Nosotros escribíamos."
+            },
+            {
+              "integral": "You chaps used to write.",
+              "derivative": "Vosotros escribíais."
+            },
+            {
+              "integral": "Y'all used to write.",
+              "derivative": "Ustedes escribíon."
+            }
+          ]
+        },
+        {
+          "title": "IR IMPERFECT FORMS",
+          "examples": [
+            {
+              "integral": "I used to go.",
+              "derivative": "Yo iba."
+            },
+            {
+              "integral": "Ya used to go.",
+              "derivative": "Tú ibas."
+            },
+            {
+              "integral": "He used to go.",
+              "derivative": "Él iba."
+            },
+            {
+              "integral": "We guys used to go.",
+              "derivative": "Nosotros ibamos."
+            },
+            {
+              "integral": "You chaps used to go.",
+              "derivative": "Vosotros ibais."
+            },
+            {
+              "integral": "Y'all used to go.",
+              "derivative": "Ustedes iban."
+            }
+          ]
+        },
+        {
+          "title": "SER IMPERFECT FORMS",
+          "examples": [
+            {
+              "integral": "I used to be.",
+              "derivative": "Yo era."
+            },
+            {
+              "integral": "Ya used to be.",
+              "derivative": "Tú eras."
+            },
+            {
+              "integral": "He used to be.",
+              "derivative": "Él era."
+            },
+            {
+              "integral": "We guys used to be.",
+              "derivative": "Nosotros  éramos."
+            },
+            {
+              "integral": "You chaps used to be.",
+              "derivative": "Vosotros erais."
+            },
+            {
+              "integral": "Y'all used to be.",
+              "derivative": "Ustedes eran."
+            }
+          ]
+        },
+        {
+          "title": "VER IMPERFECT FORMS",
+          "examples": [
+            {
+              "integral": "I used to see.",
+              "derivative": "Yo veía."
+            },
+            {
+              "integral": "Ya used to see.",
+              "derivative": "Tú veías."
+            },
+            {
+              "integral": "He used to see.",
+              "derivative": "Él veía."
+            },
+            {
+              "integral": "We guys used to see.",
+              "derivative": "Nosotros veíamos."
+            },
+            {
+              "integral": "You chaps used to see.",
+              "derivative": "Vosotros veíais."
+            },
+            {
+              "integral": "Y'all used to see.",
+              "derivative": "Ustedes veían."
+            }
+          ]
+        },
+        {
+          "title": "LOS ADJETIVOS DEMOSTRATIVOS",
+          "examples": [
+            {
+              "integral": "Esta foto en el álbum.",
+              "derivative": "This photo in the album."
+            },
+            {
+              "integral": "Estos sentimientos.",
+              "derivative": "These feelings."
+            },
+            {
+              "integral": "Y ese día, entre toda esa jerigonza.",
+              "derivative": "And that day, amid all that jargon."
+            },
+            {
+              "integral": "En ese momento, decidí que tenía que ir a Cuba y buscarlo.",
+              "derivative": "At that moment, I decided that I had to go to Cuba and look for him."
+            },
+            {
+              "integral": "Aquel viaje a Cuba.",
+              "derivative": "That far-away trip to Cuba."
+            },
+            {
+              "integral": "Aquellos momentos eran muy especiales.",
+              "derivative": "Those far-away moments were very special."
+            }
+          ]
+        },
+        {
+          "title": "Los pronombres demostrativos",
+          "examples": [
+            {
+              "integral": "¿Estás buscando esta caja o esa?",
+              "derivative": "Are you looking for this box or that one?"
+            },
+            {
+              "integral": "Estos videos son aburridos, pero ese era interesante.",
+              "derivative": "These videos are boring, but that one was interesting?"
+            },
+            {
+              "integral": "Esta caja es nueva, pero aquella es vieja.",
+              "derivative": "This box is new, but that one is old."
+            },
+            {
+              "integral": "Esta foto no me gusta pero ésta es muy bonita.",
+              "derivative": "I don't like this photo, but this one is very pretty."
+            },
+            {
+              "integral": "¿Estás buscando esta caja o ésa?",
+              "derivative": "Are you looking for this box or that one?"
+            },
+            {
+              "integral": "Estos videos son aburridos, pero ése era interesante.",
+              "derivative": "These videos are boring, but that one was interesting."
+            },
+            {
+              "integral": "Esta caja es nueva, pero aquélla es vieja.",
+              "derivative": "This box is new, but that one is old."
+            }
+          ]
+        }
+    ]
+}

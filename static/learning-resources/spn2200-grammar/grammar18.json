@@ -1,0 +1,82 @@
+{
+    "groups": [
+        {
+            "title": "SUBJUNCTIVE NOMINAL CLAUSE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Prefiero que escribas tu poema en español.", 
+                    "derivative": "I prefer that you write a poem in Spanish."
+                },
+                {
+                    "integral": "Insisto en que leas la poesía de Seary.", 
+                    "derivative": "I insist that you read Seary’s poetry."
+                },
+                {
+                    "integral": "Espero que te gusten los cuentos latinos.", 
+                    "derivative": "I hope that you like the Latino short stories."
+                },
+                {
+                    "integral": "Me sorprende que no haya más interés en la poesía.", 
+                    "derivative": "I’m surprised that there isn’t more interest in poetry."
+                }
+            ]
+        },
+        {
+            "title": "VERBS WHICH CAN TRIGGER SUBJUNCTIVE SUBORDINATE CLAUSE",
+            "examples": [
+                {
+                    "integral": "insistir", 
+                    "derivative": "to insist"
+                },
+                {
+                    "integral": "desear", 
+                    "derivative": "to desire"
+                },
+                {
+                    "integral": "necesitar", 
+                    "derivative": "to need"
+                },
+                {
+                    "integral": "pedir", 
+                    "derivative": "to request"
+                },
+                {
+                    "integral": "preferir", 
+                    "derivative": "to prefer"
+                },
+                {
+                    "integral": "querer", 
+                    "derivative": "to want"
+                },
+                {
+                    "integral": "recomendar", 
+                    "derivative": "to recomend"
+                },
+                {
+                    "integral": "alegrarse", 
+                    "derivative": "to be happy"
+                },
+                {
+                    "integral": "esperar", 
+                    "derivative": "to hope"
+                },
+                {
+                    "integral": "molestar", 
+                    "derivative": "to bother"
+                },
+                {
+                    "integral": "sentir", 
+                    "derivative": "to regret"
+                },
+                {
+                    "integral": "sorprender", 
+                    "derivative": "to surprise"
+                },
+                {
+                    "integral": "tener miedo de", 
+                    "derivative": "to be afraid"
+                }
+            ]
+        }
+    ]
+}

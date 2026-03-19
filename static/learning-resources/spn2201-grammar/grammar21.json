@@ -1,0 +1,311 @@
+{
+    "groups": [
+        {
+            "title": "INDICATIVE VERSUS SUBJUNCTIVE MOOD EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Digo que Yací es la diosa más poderosa.",
+                    "derivative": "I say that Yací is the most powerful goddess."
+                },
+                {
+                    "integral": "Veo que Araí tiene nubes hermanas.",
+                    "derivative": "I see that Araí has sister clouds."
+                },
+                {
+                    "integral": "Es posible que Yací diga la verdad.",
+                    "derivative": "It’s possible that Yací tells the truth."
+                },
+                {
+                    "integral": "No es que sea mentirosa; lo dice para crear suspenso.",
+                    "derivative": "It’s not that I am a liar; they say it to create suspense."
+                },
+                {
+                    "integral": "Araí, quiero que me lleves.",
+                    "derivative": "Araí, I want you to take me."
+                }
+            ]
+        },
+        {
+            "title": "VERBS AND PHRASES REQUIRING INDICATIVE MOOD",
+            "examples": [
+                {
+                    "integral": "creer",
+                    "derivative": "to believe"
+                },
+                {
+                    "integral": "estar seguro de",
+                    "derivative": "to be sure of"
+                },
+                {
+                    "integral": "pensar",
+                    "derivative": "to think"
+                },
+                {
+                    "integral": "ser evidente que",
+                    "derivative": "to be evident that"
+                },
+                {
+                    "integral": "ser obvio que",
+                    "derivative": "to be obvious that"
+                },
+                {
+                    "integral": "ser verdad que",
+                    "derivative": "to be true that"
+                },
+                {
+                    "integral": "decir",
+                    "derivative": "to say"
+                },
+                {
+                    "integral": "informar",
+                    "derivative": "to inform"
+                },
+                {
+                    "integral": "notar",
+                    "derivative": "to notice"
+                },
+                {
+                    "integral": "oír",
+                    "derivative": "to hear"
+                },
+                {
+                    "integral": "ver",
+                    "derivative": "to see"
+                }
+            ]
+        },
+        {
+            "title": "VERBS AND PHRASES REQUIRING SUBJUNCTIVE MOOD",
+            "examples": [
+                {
+                    "integral": "aconsejar",
+                    "derivative": "to advise"
+                },
+                {
+                    "integral": "esperar",
+                    "derivative": "to hope"
+                },
+                {
+                    "integral": "insistir en",
+                    "derivative": "to insist on"
+                },
+                {
+                    "integral": "ordenar",
+                    "derivative": "to command"
+                },
+                {
+                    "integral": "pedir",
+                    "derivative": "to request"
+                },
+                {
+                    "integral": "permitir",
+                    "derivative": "to permit"
+                },
+                {
+                    "integral": "preferir",
+                    "derivative": "to prefer"
+                },
+                {
+                    "integral": "querer",
+                    "derivative": "to want"
+                },
+                {
+                    "integral": "sugerir",
+                    "derivative": "to suggest"
+                },
+                {
+                    "integral": "dudar",
+                    "derivative": "to doubt"
+                },
+                {
+                    "integral": "negar",
+                    "derivative": "to deny"
+                },
+                {
+                    "integral": "no creer",
+                    "derivative": "to not believe"
+                },
+                {
+                    "integral": "no ser que",
+                    "derivative": "to not be that"
+                },
+                {
+                    "integral": "ser posible que",
+                    "derivative": "to be possible that"
+                },
+                {
+                    "integral": "alegrarse de",
+                    "derivative": "to be glad about"
+                },
+                {
+                    "integral": "desear",
+                    "derivative": "to wish"
+                },
+                {
+                    "integral": "sentir",
+                    "derivative": "to feel"
+                },
+                {
+                    "integral": "ser triste que",
+                    "derivative": "to be sad about"
+                }
+            ]
+        },
+        {
+            "title": "ADJECTIVE CLAUSES EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Yací decide premiarlo con un regalo que es valioso para él.",
+                    "derivative": "Yací decides to reward him with a gift that is valuable for him."
+                },
+                {
+                    "integral": "Ofrézcansela a los viajeros que necesitan compañía y alimento.",
+                    "derivative": "Offer it to travelers who need company and food."
+                },
+                {
+                    "integral": "Ofrézcansela a los viajeros que necesiten compañía y alimento.",
+                    "derivative": "Offer it to travelers who may need company and food."
+                },
+                {
+                    "integral": "Yací decide premiarlo con un valioso regalo para él.",
+                    "derivative": "Yací decides to reward him with a valuable gift for him."
+                },
+                {
+                    "integral": "Hay alguien aquí que juega al tenis a nivel profesional. ¿Saben quién es?",
+                    "derivative": "Someone is here that plays professional tennis. Do you know who it is?"
+                },
+                {
+                    "integral": "Busco a mi amigo que sabe contar cuentos.",
+                    "derivative": "I’m looking for my friend who knows how to tell stories."
+                },
+                {
+                    "integral": "¿Hay alguien aquí que juegue un deporte a nivel profesional?",
+                    "derivative": "Is someone here that plays a sport at a professional level?"
+                },
+                {
+                    "integral": "Busco alguien que sepa contar leyendas",
+                    "derivative": "I’m looking for someone who knows how to tell legends."
+                }
+            ]
+        },
+        {
+            "title": "WORDS OR PHRASES WHICH INTRODUCE SUBJUNCTIVE ADJECTIVE CLAUSES",
+            "examples": [
+                {
+                    "integral": "alguien",
+                    "derivative": "someone"
+                },
+                {
+                    "integral": "algo",
+                    "derivative": "something"
+                },
+                {
+                    "integral": "nada",
+                    "derivative": "nothing"
+                },
+                {
+                    "integral": "nadie",
+                    "derivative": "no one"
+                },
+                {
+                    "integral": "ninguno",
+                    "derivative": "none"
+                },
+                {
+                    "integral": "buscar a",
+                    "derivative": "to search for"
+                }
+            ]
+        },
+        {
+            "title": "ADVERBIAL CLAUSES EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Juan bebe el mate por la mañana.",
+                    "derivative": "Juan drinks mate in the morning."
+                },
+                {
+                    "integral": "Juan bebe el mate cuando se despierta por la mañana.",
+                    "derivative": "Juan drinks mate when he wakes up in the morning."
+                },
+                {
+                    "integral": "Cuando me despierto por la mañana, voy al baño y saco al perro.",
+                    "derivative": "When I wake up in the morning, I go to the bathroom and take the dog outside."
+                },
+                {
+                    "integral": "Cuando se despierten por las mañanas, bébanla.",
+                    "derivative": "When you wake up in the mornings, drink it. "
+                },
+                {
+                    "integral": "Siempre preparo mate cuando viene Ana.",
+                    "derivative": "I always prepare mate when Ana comes."
+                },
+                {
+                    "integral": "Voy a preparar el mate en caso de que venga Ana.",
+                    "derivative": "I’m going to prepare a mate in case Ana comes."
+                },
+                {
+                    "integral": "Hasta que termine mi tarea, no podré relajarme.",
+                    "derivative": "Until I finish my homework, I won’t be able to relax."
+                }
+            ]
+        },
+        {
+            "title": "ADVERBIAL CONJUNCTIONS",
+            "examples": [
+                {
+                    "integral": "cuando",
+                    "derivative": "when"
+                },
+                {
+                    "integral": "despues que",
+                    "derivative": "after"
+                },
+                {
+                    "integral": "en cuanto",
+                    "derivative": "as soon as"
+                },
+                {
+                    "integral": "hasta que",
+                    "derivative": "until"
+                },
+                {
+                    "integral": "para cuando",
+                    "derivative": "by when"
+                },
+                {
+                    "integral": "siempre que",
+                    "derivative": "as long as"
+                },
+                {
+                    "integral": "tan pronto como",
+                    "derivative": "as soon as"
+                },
+                {
+                    "integral": "a menos que",
+                    "derivative": "unless"
+                },
+                {
+                    "integral": "antes que",
+                    "derivative": "before"
+                },
+                {
+                    "integral": "con tal que",
+                    "derivative": "provided that"
+                },
+                {
+                    "integral": "en caso que",
+                    "derivative": "in case that"
+                },
+                {
+                    "integral": "para que",
+                    "derivative": "for what"
+                },
+                {
+                    "integral": "sin que",
+                    "derivative": "without"
+                }
+            ]
+        }
+    ]
+}

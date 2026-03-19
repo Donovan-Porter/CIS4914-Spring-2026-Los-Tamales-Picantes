@@ -1,0 +1,540 @@
+{
+    "groups": [
+        {
+            "title": "SER AND ESTAR EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Panchito es un estudiante inmigrante.",
+                    "derivative": "Panchito is an immigrant student."
+                },
+                {
+                    "integral": "Panchito está triste por abandonar a su familia.",
+                    "derivative": "Panchito is sad to leave his family behind."
+                },
+                {
+                    "integral": "Francisco Jiménez es un autor mexicoamericano.",
+                    "derivative": "Francisco Jiménez is a Mexican-American author. "
+                },
+                {
+                    "integral": "Las botas de Francisco eran negras y puntiagudas.",
+                    "derivative": "Francisco’s boots were black and pointed."
+                },
+                {
+                    "integral": "Son las cinco de la tarde.",
+                    "derivative": "It’s five o’clock in the afternoon."
+                },
+                {
+                    "integral": "Era el domingo 9 de septiembre de 1962.",
+                    "derivative": "It was Sunday, September 9, 1962."
+                },
+                {
+                    "integral": "La fiesta es en mi casa.",
+                    "derivative": "The party is at my house."
+                },
+                {
+                    "integral": "El padre de Francisco está nervioso.",
+                    "derivative": "Francisco’s father is nervous."
+                },
+                {
+                    "integral": "Los otros estudiantes están bien vestidos.",
+                    "derivative": "The other students are well-dressed."
+                },
+                {
+                    "integral": "Francisco está delgado.",
+                    "derivative": "Francisco seems thin."
+                },
+                {
+                    "integral": "Las botas de Francisco están gastadas.",
+                    "derivative": "Francisco’s boots seem worn."
+                },
+                {
+                    "integral": "Más atrás estaba la Iglesia de la Misión.",
+                    "derivative": "Further back was the Mission Church."
+                },
+                {
+                    "integral": "El encargado estaba sentado tras una pequeña mesa.",
+                    "derivative": "The attendant was sitting behind a small table."
+                },
+                {
+                    "integral": "La melena de Francisco es larga.",
+                    "derivative": "Francisco’s hair is long."
+                },
+                {
+                    "integral": "La melena de Francisco está larga.",
+                    "derivative": "Francisco’s hair seems long. "
+                },
+                {
+                    "integral": "Era el domingo 9 de septiembre de 1962.",
+                    "derivative": "It was Sunday, September 9, 1962."
+                },
+                {
+                    "integral": "Lo que no anticipé, fue lo difícil que resultaría abandonar a mi familia.",
+                    "derivative": "What I didn’t anticipate, was how difficult it was to lose my family."
+                },
+                {
+                    "integral": "Sé respetuoso.",
+                    "derivative": "Be respectful."
+                },
+                {
+                    "integral": "De acuerdo a este mapa, Kenna está al otro lado.",
+                    "derivative": "According to this map, Kenna is on the other side."
+                },
+                {
+                    "integral": "Estaba sentado tras una pequeña mesa.",
+                    "derivative": "He was sitting behind a small table."
+                },
+                {
+                    "integral": "Estaré en la residencia Kenna Hall.",
+                    "derivative": "I’ll be in Kenna Hall."
+                }
+            ]
+        },
+        {
+            "title": "SER WITH ADJECTIVES",
+            "examples": [
+                {
+                    "integral": "ser bueno",
+                    "derivative": "to be good"
+                },
+                {
+                    "integral": "ser despierto",
+                    "derivative": "to be alert"
+                },
+                {
+                    "integral": "ser interesado",
+                    "derivative": "to be selfish"
+                },
+                {
+                    "integral": "ser listo",
+                    "derivative": "to be shrewd"
+                },
+                {
+                    "integral": "ser loco",
+                    "derivative": "to be crazy"
+                }
+            ]
+        },
+        {
+            "title": "ESTAR WITH ADJECTIVES",
+            "examples": [
+                {
+                    "integral": "estar bueno",
+                    "derivative": "to seem good"
+                },
+                {
+                    "integral": "estar despierto",
+                    "derivative": "to be awake"
+                },
+                {
+                    "integral": "estar interesado",
+                    "derivative": "to be interesting"
+                },
+                {
+                    "integral": "estar listo",
+                    "derivative": "to be ready"
+                },
+                {
+                    "integral": "estar loco",
+                    "derivative": "to seem crazy"
+                }
+            ]
+        },
+        {
+            "title": "SER PRESENT INDICATIVE TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Soy.",
+                    "derivative": "I am intrinsically."
+                },
+                {
+                    "integral": "Eres.",
+                    "derivative": "Ya are intrinsically."
+                },
+                {
+                    "integral": "Es.",
+                    "derivative": "He is intrinsically."
+                },
+                {
+                    "integral": "Somos.",
+                    "derivative": "We are intrinsically."
+                },
+                {
+                    "integral": "Sois.",
+                    "derivative": "You chaps are intrinsically."
+                },
+                {
+                    "integral": "Son.",
+                    "derivative": "They are intrinsically."
+                }
+            ]
+        },
+        {
+            "title": "SER IMPERFECT TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Fui.",
+                    "derivative": "I have been intrinsically."
+                },
+                {
+                    "integral": "Fuiste.",
+                    "derivative": "Ya have been intrinsically."
+                },
+                {
+                    "integral": "Fue.",
+                    "derivative": "He has been intrinsically."
+                },
+                {
+                    "integral": "Fuimos.",
+                    "derivative": "We have been intrinsically."
+                },
+                {
+                    "integral": "Fuisteis.",
+                    "derivative": "You chaps have been intrinsically."
+                },
+                {
+                    "integral": "Fueron.",
+                    "derivative": "They have been intrinsically."
+                }
+            ]
+        },
+        {
+            "title": "SER PRETERITE TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Era.",
+                    "derivative": "I was intrinsically."
+                },
+                {
+                    "integral": "Eras.",
+                    "derivative": "Ya were intrinsically."
+                },
+                {
+                    "integral": "Era.",
+                    "derivative": "He was intrinsically."
+                },
+                {
+                    "integral": "Éramos.",
+                    "derivative": "We were intrinsically."
+                },
+                {
+                    "integral": "Erais.",
+                    "derivative": "You chaps were intrinsically."
+                },
+                {
+                    "integral": "Eran.",
+                    "derivative": "They were intrinsically."
+                }
+            ]
+        },
+        {
+            "title": "SER FUTURE TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Seré.",
+                    "derivative": "I will be intrinsically."
+                },
+                {
+                    "integral": "Serás.",
+                    "derivative": "Ya will be intrinsically."
+                },
+                {
+                    "integral": "Será.",
+                    "derivative": "He will be intrinsically."
+                },
+                {
+                    "integral": "Seremos.",
+                    "derivative": "We will be intrinsically."
+                },
+                {
+                    "integral": "Seréis.",
+                    "derivative": "You will be are intrinsically."
+                },
+                {
+                    "integral": "Serán.",
+                    "derivative": "They will be intrinsically."
+                }
+            ]
+        },
+        {
+            "title": "SER CONDITIONAL TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Sería.",
+                    "derivative": "I would be intrinsically."
+                },
+                {
+                    "integral": "Serías.",
+                    "derivative": "Ya would be intrinsically."
+                },
+                {
+                    "integral": "Sería.",
+                    "derivative": "He would be intrinsically."
+                },
+                {
+                    "integral": "Seríamos.",
+                    "derivative": "We would be intrinsically."
+                },
+                {
+                    "integral": "Seríais.",
+                    "derivative": "You chaps would be intrinsically."
+                },
+                {
+                    "integral": "Serían.",
+                    "derivative": "They would be intrinsically."
+                }
+            ]
+        },
+        {
+            "title": "ESTAR PRESENT INDICATIVE TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Estoy.",
+                    "derivative": "I am currently."
+                },
+                {
+                    "integral": "Estás.",
+                    "derivative": "Ya are currently."
+                },
+                {
+                    "integral": "Está.",
+                    "derivative": "He is currently."
+                },
+                {
+                    "integral": "Estamos.",
+                    "derivative": "We are currently."
+                },
+                {
+                    "integral": "Estáis.",
+                    "derivative": "You chaps are currently."
+                },
+                {
+                    "integral": "Están.",
+                    "derivative": "They are currently."
+                }
+            ]
+        },
+        {
+            "title": "ESTAR IMPERFECT TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Estaba.",
+                    "derivative": "I have been."
+                },
+                {
+                    "integral": "Estabas.",
+                    "derivative": "Ya have been."
+                },
+                {
+                    "integral": "Estaba.",
+                    "derivative": "He have been."
+                },
+                {
+                    "integral": "Estábamos.",
+                    "derivative": "We have been."
+                },
+                {
+                    "integral": "Estabais.",
+                    "derivative": "You chaps have been."
+                },
+                {
+                    "integral": "Estaban.",
+                    "derivative": "They have been."
+                }
+            ]
+        },
+        {
+            "title": "ESTAR PRETERITE TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Estuve.",
+                    "derivative": "I was then."
+                },
+                {
+                    "integral": "Estuviste.",
+                    "derivative": "Ya were then."
+                },
+                {
+                    "integral": "Estuvo.",
+                    "derivative": "He was then."
+                },
+                {
+                    "integral": "Estuvimos.",
+                    "derivative": "We were then."
+                },
+                {
+                    "integral": "Estuvisteis.",
+                    "derivative": "You chaps were then."
+                },
+                {
+                    "integral": "Estuvieron.",
+                    "derivative": "They were then."
+                }
+            ]
+        },
+        {
+            "title": "ESTAR FUTURE TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Estaré.",
+                    "derivative": "I will be then."
+                },
+                {
+                    "integral": "Estarás.",
+                    "derivative": "Ya will be then."
+                },
+                {
+                    "integral": "Estará.",
+                    "derivative": "He will be then."
+                },
+                {
+                    "integral": "Estaremos.",
+                    "derivative": "We will be then."
+                },
+                {
+                    "integral": "Estaréis.",
+                    "derivative": "You chaps will be then."
+                },
+                {
+                    "integral": "Estarán.",
+                    "derivative": "They will be then."
+                }
+            ]
+        },
+        {
+            "title": "ESTAR CONDITIONAL TENSE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Estaría.",
+                    "derivative": "I would be then."
+                },
+                {
+                    "integral": "Estarías.",
+                    "derivative": "Ya would be then."
+                },
+                {
+                    "integral": "Estaría.",
+                    "derivative": "He would be then."
+                },
+                {
+                    "integral": "Estaríamos.",
+                    "derivative": "We would be then."
+                },
+                {
+                    "integral": "Estaríais.",
+                    "derivative": "You chaps would be then."
+                },
+                {
+                    "integral": "Estarían.",
+                    "derivative": "They would be then."
+                }
+            ]
+        },
+        {
+            "title": "PRETERITE TENSE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Trampita se deslizó en el asiento del conductor.",
+                    "derivative": "Trampita slid into the driver’s seat."
+                },
+                {
+                    "integral": "Ató la puerta.",
+                    "derivative": "She tied the door with the rope."
+                },
+                {
+                    "integral": "Encendió el motor.",
+                    "derivative": "She started the motor."
+                },
+                {
+                    "integral": "Lentamente retrocedió para salir del estacionamiento.",
+                    "derivative": "She slowly backed out of the parking space."
+                },
+                {
+                    "integral": "Luego empezó a alejarse.",
+                    "derivative": "She then began to drive away."
+                },
+                {
+                    "integral": "El coche petardeó, dejando una estela de humo gris por detrás.",
+                    "derivative": "The car backfired, leaving a trail of gray smoke behind."
+                },
+                {
+                    "integral": "Yo me quedé solo de pie sobre la acera.",
+                    "derivative": "I stood alone on the sidewalk."
+                },
+                {
+                    "integral": "Me despedí con la mano.",
+                    "derivative": "I waved goodbye."
+                },
+                {
+                    "integral": "Siguiendo con la vista al DeSoto hasta que dobló a la derecha hacia El Camino Real y desapareció.",
+                    "derivative": "I watched the DeSoto until it turned right toward El Camino Real and disappeared."
+                },
+                {
+                    "integral": "Me sentí emocionado y nervioso mientras me alisté para salir con rumbo norte en dirección a Santa Clara. ",
+                    "derivative": "I felt excited and nervous as I got ready to head north toward Santa Clara."
+                }
+            ]
+        },
+        {
+            "title": "IMPEREFCT TENSE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Su fachada de estilo español tenía talladas estatuas de madera de santos a ambos lados.",
+                    "derivative": "Its Spanish-style facade had carved wooden statues of saints on both sides."
+                },
+                {
+                    "integral": "Hacia la izquierda había un campanario.",
+                    "derivative": "To the left there was a bell tower"
+                },
+                {
+                    "integral": "Lo llamaba 'Toto'.",
+                    "derivative": "I used to call him 'Toto'."
+                },
+                {
+                    "integral": "Cuando yo estaba aprendiendo a hablar no podía pronunciar su nombre, Roberto.",
+                    "derivative": "When I was learning to speak I couldn’t pronounce his name, Roberto"
+                },
+                {
+                    "integral": "Me sentía emocionado y nervioso mientras me alistaba para salir con rumbo norte en dirección a Santa Clara. ",
+                    "derivative": "I was feeling excited and nervous as I got ready to head north toward Santa Clara."
+                }
+            ]
+        },
+        {
+            "title": "VERBS WITH CHANGED MEANING IN PRETERITE VERSUS IMPERFECT",
+            "examples": [
+                {
+                    "integral": "Conoci a mujer.",
+                    "derivative": "I met a woman."
+                },
+                {
+                    "integral": "El hijo de ellos y yo nos conociamos.",
+                    "derivative": "Their son and I knew eachother."
+                },
+                {
+                    "integral": "Cuando supe.",
+                    "derivative": "When I found out."
+                },
+                {
+                    "integral": "Porque sabía cómo se sentian.",
+                    "derivative": "Because I knew how they felt."
+                },
+                {
+                    "integral": "Pude ver a mi mamá.",
+                    "derivative": "I was able to see my mother."
+                },
+                {
+                    "integral": "Yo podía considerar como mio.",
+                    "derivative": "I could consider it mine."
+                },
+                {
+                    "integral": "Mi mamá quiso.",
+                    "derivative": "My mother tried."
+                },
+                {
+                    "integral": "El quería.",
+                    "derivative": "He wanted."
+                }
+            ]
+        }
+    ]
+}

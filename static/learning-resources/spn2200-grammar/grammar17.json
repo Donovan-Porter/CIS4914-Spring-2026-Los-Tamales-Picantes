@@ -1,0 +1,684 @@
+{
+    "groups": [
+        {
+            "title": "SUBJUNCTIVE EXAMPLES",
+            "examples": [
+                {
+                    "integral": "Desde el siglo XIX se han realizado estudios.", 
+                    "derivative": "Studies have been conducted since the 19th century."
+                },
+                {
+                    "integral": "Se conservan muchas tradiciones.", 
+                    "derivative": "Many traditions are safeguarded."
+                },
+                {
+                    "integral": "Se habla inglés.", 
+                    "derivative": "English is spoken here."
+                },
+                {
+                    "integral": "Se prohíbe fumar.", 
+                    "derivative": "Smoking is prohibited."
+                },
+                {
+                    "integral": "No todo se puede modificar radicalmente.", 
+                    "derivative": "Not everything can be changed radically"
+                }
+            ]
+        },
+        {
+            "title": "DOUBT AND DENIAL PHRASES",
+            "examples": [
+                {
+                    "integral": "Es dudoso que..",
+                    "derivative": "It's doubtful that.."
+                },
+                {
+                    "integral": "Es imposible que..",
+                    "derivative": "It's impossible that.."
+                },
+                {
+                    "integral": "Es improbable que..",
+                    "derivative": "It's improbable that.."
+                },
+                {
+                    "integral": "Es increible que..",
+                    "derivative": "It's incredible that.."
+                },
+                {
+                    "integral": "Es posible que..",
+                    "derivative": "It's possible that.."
+                },
+                {
+                    "integral": "Es probable que..",
+                    "derivative": "It's probable that.."
+                },
+                {
+                    "integral": "Es raro que..",
+                    "derivative": "It's rare that.."
+                }
+            ]
+        },
+        {
+            "title": "DESIRE AND INFLUENCE PHRASES",
+            "examples": [
+                {
+                    "integral": "Es bueno que..",
+                    "derivative": "It's good that.."
+                },
+                {
+                    "integral": "Es mejor que..",
+                    "derivative": "It's better that"
+                },
+                {
+                    "integral": "Es necesario que..",
+                    "derivative": "It's necessary that.."
+                },
+                {
+                    "integral": "Es preferible que..",
+                    "derivative": "It's preferable that.."
+                }
+            ]
+        },
+        {
+            "title": "EMOTION PHRASES",
+            "examples": [
+                {
+                    "integral": "Es difícil que..",
+                    "derivative": "It's difficult that.."
+                },
+                {
+                    "integral": "Es fácil que..",
+                    "derivative": "It's easy that."
+                },
+                {
+                    "integral": "Es fantástico que..",
+                    "derivative": "It's fantastic that.."
+                },
+                {
+                    "integral": "Es una lástima que..",
+                    "derivative": "It's a shame that.."
+                },
+                {
+                    "integral": "Es malo que..",
+                    "derivative": "It's bad that."
+                },
+                {
+                    "integral": "Es ridiculo que..",
+                    "derivative": "It's ridiculous that.."
+                },
+                {
+                    "integral": "Es terrible que..",
+                    "derivative": "It's terrible that.."
+                }
+            ]
+        },
+        {
+            "title": "ASSERTION IMPERSONAL PHRASES",
+            "examples": [
+                {
+                    "integral": "Es evidente que..",
+                    "derivative": "It is evident that.."
+                },
+                {
+                    "integral": "Es obvio que..",
+                    "derivative": "It's obvious that.."
+                },
+                {
+                    "integral": "Es verdad que..",
+                    "derivative": "It is true that.."
+                }
+            ]
+        },
+        {
+            "title": "SUBJUNCTIVE REGULAR -AR CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es posible que revele..",
+                    "derivative": "It is possible that I reveal.."
+                },
+                {
+                    "integral": "Es posible que reveles..",
+                    "derivative": "It is possible that ya reveal.."
+                },
+                {
+                    "integral": "Es posible que revele..",
+                    "derivative": "It is possible that he reveals.."
+                },
+                {
+                    "integral": "Es posible que revelemos..",
+                    "derivative": "It is possible that we reveal.."
+                },
+                {
+                    "integral": "Es posible que reveléis..",
+                    "derivative": "It is possible that those hcaps reveal.."
+                },
+                {
+                    "integral": "Es posible que revelen..",
+                    "derivative": "It is possible that they reveal.."
+                }
+            ]
+        },
+        {
+            "title": "SUBJUNCTIVE REGULAR -ER and -IR CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es posible que pretenda..",
+                    "derivative": "It is possible that I.."
+                },
+                {
+                    "integral": "Es posible que pretendas..",
+                    "derivative": "It is possible that ya.."
+                },
+                {
+                    "integral": "Es posible que pretenda..",
+                    "derivative": "It is possible that he.."
+                },
+                {
+                    "integral": "Es posible que pretendamos..",
+                    "derivative": "It is possible that we.."
+                },
+                {
+                    "integral": "Es posible que pretendáis..",
+                    "derivative": "It is possible that you chaps.."
+                },
+                {
+                    "integral": "Es posible que pretendan..",
+                    "derivative": "It is possible that they.."
+                }
+            ]
+        },
+        {
+            "title": "DECIR SUBJUNCTIVE FORMS",
+            "examples": [
+                {
+                    "integral": "Es que diga.",
+                    "derivative": "It's that I say."
+                },
+                {
+                    "integral": "Es que dicas.", 
+                    "derivative": "It's that ya say."
+                },
+                {
+                    "integral": "Es que dica.", 
+                    "derivative": "It's that he says."
+                },
+                {
+                    "integral": "Es que dicamos.", 
+                    "derivative": "It's that we say."
+                },
+                {
+                    "integral": "Es que dicáis.", 
+                    "derivative": "It's that you chaps say."
+                },
+                {
+                    "integral": "Es que dican.", 
+                    "derivative": "It's that they say."
+                }
+            ]
+        },
+        {
+            "title": "OFRECER SUBJUNCTIVE FORMS",
+            "examples": [
+                {
+                    "integral": "Es que ofrezca.",
+                    "derivative": "It's that I offer."
+                },
+                {
+                    "integral": "Es que ofrecas.", 
+                    "derivative": "It's that ya offer."
+                },
+                {
+                    "integral": "Es que ofreca.", 
+                    "derivative": "It's that he offers."
+                },
+                {
+                    "integral": "Es que ofrecamos.", 
+                    "derivative": "It's that we offer."
+                },
+                {
+                    "integral": "Es que ofrecáis.", 
+                    "derivative": "It's that you chaps offer."
+                },
+                {
+                    "integral": "Es que ofrecan.", 
+                    "derivative": "It's that they offer."
+                }
+            ]
+        },
+        {
+            "title": "TENER SUBJUNCTIVE FORMS",
+            "examples": [
+                {
+                    "integral": "Es que tenga.",
+                    "derivative": "It's that I have."
+                },
+                {
+                    "integral": "Es que tienas.", 
+                    "derivative": "It's that ya have."
+                },
+                {
+                    "integral": "Es que tiena.", 
+                    "derivative": "It's that he has."
+                },
+                {
+                    "integral": "Es que tienamos.", 
+                    "derivative": "It's that we have."
+                },
+                {
+                    "integral": "Es que tienáis.", 
+                    "derivative": "It's that you chaps have."
+                },
+                {
+                    "integral": "Es que tienan.", 
+                    "derivative": "It's that they have."
+                }
+            ]
+        },
+        {
+            "title": "SACAR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que saque.", 
+                    "derivative": "It's that I check out."
+                },
+                {
+                    "integral": "Es que saques.", 
+                    "derivative": "It's that ya check out."
+                },
+                {
+                    "integral": "Es que saque.", 
+                    "derivative": "It's that he check out."
+                },
+                {
+                    "integral": "Es que saquemos.", 
+                    "derivative": "It's that we check out."
+                },
+                {
+                    "integral": "Es que saquéis.", 
+                    "derivative": "It's that you chaps check out."
+                },
+                {
+                    "integral": "Es que saquen.", 
+                    "derivative": "It's that they check out."
+                }
+            ]
+        },
+        {
+            "title": "OTORGAR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que otorgue.", 
+                    "derivative": "It's that I award."
+                },
+                {
+                    "integral": "Es que otorgues.", 
+                    "derivative": "It's that ya award."
+                },
+                {
+                    "integral": "Es que otorgue.", 
+                    "derivative": "It's that he awards."
+                },
+                {
+                    "integral": "Es que otorguemos.", 
+                    "derivative": "It's that we award."
+                },
+                {
+                    "integral": "Es que otorguéis.", 
+                    "derivative": "It's that you chaps award."
+                },
+                {
+                    "integral": "Es que otorguen.", 
+                    "derivative": "It's that they award."
+                }
+            ]
+        },
+        {
+            "title": "REFORZAR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que refuerce.", 
+                    "derivative": "It's that I reinforce."
+                },
+                {
+                    "integral": "Es que refuerces.", 
+                    "derivative": "It's that ya reinforce."
+                },
+                {
+                    "integral": "Es que refuerce.", 
+                    "derivative": "It's that he reinforces."
+                },
+                {
+                    "integral": "Es que refuercemos.", 
+                    "derivative": "It's that we reinforce."
+                },
+                {
+                    "integral": "Es que refuercéis.", 
+                    "derivative": "It's that you chaps reinforce."
+                },
+                {
+                    "integral": "Es que refuercen.", 
+                    "derivative": "It's that they reinforce."
+                }
+            ]
+        },
+        {
+            "title": "ENTENDER PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que entienda.", 
+                    "derivative": "It's that I understand."
+                },
+                {
+                    "integral": "Es que entiendas.", 
+                    "derivative": "It's that ya understand."
+                },
+                {
+                    "integral": "Es que entienda.", 
+                    "derivative": "It's that he understand."
+                },
+                {
+                    "integral": "Es que entiendamos.", 
+                    "derivative": "It's that we understand."
+                },
+                {
+                    "integral": "Es que entiendáis.", 
+                    "derivative": "It's that you chaps understand."
+                },
+                {
+                    "integral": "Es que entiendan.", 
+                    "derivative": "It's that they understand."
+                }
+            ]
+        },
+        {
+            "title": "PENSAR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que peinse.", 
+                    "derivative": "It's that I think."
+                },
+                {
+                    "integral": "Es que peinses.", 
+                    "derivative": "It's that ya think."
+                },
+                {
+                    "integral": "Es que peinse.", 
+                    "derivative": "It's that he thinks."
+                },
+                {
+                    "integral": "Es que peinsemos.", 
+                    "derivative": "It's that we think."
+                },
+                {
+                    "integral": "Es que peinséis.", 
+                    "derivative": "It's that you chaps think."
+                },
+                {
+                    "integral": "Es que peinsen.", 
+                    "derivative": "It's that they think."
+                }
+            ]
+        },
+        {
+            "title": "PODER PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que pueda.", 
+                    "derivative": "It's that I can."
+                },
+                {
+                    "integral": "Es que puedas.", 
+                    "derivative": "It's that ya can."
+                },
+                {
+                    "integral": "Es que pueda.", 
+                    "derivative": "It's that he can."
+                },
+                {
+                    "integral": "Es que puedamos.", 
+                    "derivative": "It's that we can."
+                },
+                {
+                    "integral": "Es que puedáis.", 
+                    "derivative": "It's that you chaps can."
+                },
+                {
+                    "integral": "Es que puedan.", 
+                    "derivative": "It's that they can."
+                }
+            ]
+        },
+        {
+            "title": "SENTIR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que sienta.", 
+                    "derivative": "It's that I feel."
+                },
+                {
+                    "integral": "Es que sientas.", 
+                    "derivative": "It's that ya feel."
+                },
+                {
+                    "integral": "Es que sienta.", 
+                    "derivative": "It's that he feels."
+                },
+                {
+                    "integral": "Es que sientamos.", 
+                    "derivative": "It's that we feel."
+                },
+                {
+                    "integral": "Es que sientáis.", 
+                    "derivative": "It's that you chaps feel."
+                },
+                {
+                    "integral": "Es que sientan.", 
+                    "derivative": "It's that they feel."
+                }
+            ]
+        },
+        {
+            "title": "SERVIR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que sirva.", 
+                    "derivative": "It's that I serve."
+                },
+                {
+                    "integral": "Es que sirvas.", 
+                    "derivative": "It's that ya serve."
+                },
+                {
+                    "integral": "Es que sirva.", 
+                    "derivative": "It's that he serves."
+                },
+                {
+                    "integral": "Es que sirvamos.", 
+                    "derivative": "It's that we serve."
+                },
+                {
+                    "integral": "Es que sirváis.", 
+                    "derivative": "It's that you chaps serve."
+                },
+                {
+                    "integral": "Es que sirvan.", 
+                    "derivative": "It's that they serve."
+                }
+            ]
+        },
+        {
+            "title": "DAR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que dé.", 
+                    "derivative": "It's that I give."
+                },
+                {
+                    "integral": "Es que des.", 
+                    "derivative": "It's that ya give."
+                },
+                {
+                    "integral": "Es que dé.", 
+                    "derivative": "It's that he gives."
+                },
+                {
+                    "integral": "Es que demos.", 
+                    "derivative": "It's that we give."
+                },
+                {
+                    "integral": "Es que déis.", 
+                    "derivative": "It's that you chaps give."
+                },
+                {
+                    "integral": "Es que den.", 
+                    "derivative": "It's that they give."
+                }
+            ]
+        },
+        {
+            "title": "IR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que vaya.", 
+                    "derivative": "It's that I ."
+                },
+                {
+                    "integral": "Es que vayas.", 
+                    "derivative": "It's that ya ."
+                },
+                {
+                    "integral": "Es que vaya.", 
+                    "derivative": "It's that he ."
+                },
+                {
+                    "integral": "Es que vayamos.", 
+                    "derivative": "It's that we ."
+                },
+                {
+                    "integral": "Es que vayáis.", 
+                    "derivative": "It's that you chaps ."
+                },
+                {
+                    "integral": "Es que vayan.", 
+                    "derivative": "It's that they ."
+                }
+            ]
+        },
+        {
+            "title": "SER PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que sea.", 
+                    "derivative": "It's that I am intrinsically."
+                },
+                {
+                    "integral": "Es que seas.", 
+                    "derivative": "It's that ya are intrinsically."
+                },
+                {
+                    "integral": "Es que sea.", 
+                    "derivative": "It's that he is intrinsically."
+                },
+                {
+                    "integral": "Es que seamos.", 
+                    "derivative": "It's that we are intrinsically."
+                },
+                {
+                    "integral": "Es que seáis.", 
+                    "derivative": "It's that you chaps are intrinsically."
+                },
+                {
+                    "integral": "Es que sean.", 
+                    "derivative": "It's that they are intrinsically."
+                }
+            ]
+        },
+        {
+            "title": "HABER PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que haya.", 
+                    "derivative": "It's that I have."
+                },
+                {
+                    "integral": "Es que hayas.", 
+                    "derivative": "It's that ya have."
+                },
+                {
+                    "integral": "Es que haya.", 
+                    "derivative": "It's that he has."
+                },
+                {
+                    "integral": "Es que hayamos.", 
+                    "derivative": "It's that we have."
+                },
+                {
+                    "integral": "Es que hayáis.", 
+                    "derivative": "It's that you chaps have."
+                },
+                {
+                    "integral": "Es que hayan.", 
+                    "derivative": "It's that they have."
+                }
+            ]
+        },
+        {
+            "title": "ESTAR PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que esté.", 
+                    "derivative": "It's that I am currently."
+                },
+                {
+                    "integral": "Es que estés.", 
+                    "derivative": "It's that ya are currently."
+                },
+                {
+                    "integral": "Es que esté.", 
+                    "derivative": "It's that he is currently."
+                },
+                {
+                    "integral": "Es que estemos.", 
+                    "derivative": "It's that we are currently."
+                },
+                {
+                    "integral": "Es que estéis.", 
+                    "derivative": "It's that you chaps are currently."
+                },
+                {
+                    "integral": "Es que estén.", 
+                    "derivative": "It's that they are currently."
+                }
+            ]
+        },
+        {
+            "title": "SABER PRESENT SUBJUNCTIVE CONJUGATIONS",
+            "examples": [
+                {
+                    "integral": "Es que sepa.", 
+                    "derivative": "It's that I know."
+                },
+                {
+                    "integral": "Es que sepas.", 
+                    "derivative": "It's that ya know."
+                },
+                {
+                    "integral": "Es que sepa.", 
+                    "derivative": "It's that he knows."
+                },
+                {
+                    "integral": "Es que sepamos.", 
+                    "derivative": "It's that we know."
+                },
+                {
+                    "integral": "Es que sepáis.", 
+                    "derivative": "It's that you chaps know."
+                },
+                {
+                    "integral": "Es que sepan.", 
+                    "derivative": "It's that they know."
+                }
+            ]
+        }
+    ]
+}
