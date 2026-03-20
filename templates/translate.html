@@ -1,32 +1,20 @@
 <!DOCTYPE HTML>
 
+<link rel="stylesheet" href="/static/css/style.css">
+<link rel="stylesheet" href="/static/css/translate.css">
+
 <head>
     <title>
         Translation
     </title>
-    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 
 
-<body>
+<span class="header"></span>
 
-
-    <span class="header">
-    </span>
-
-    <div>
-
-        <div style="border:1px solid black">
-            {{output}}
-        </div>
-
-        <form id="input" action="{{url_for('translate')}}" method="POST" autocomplete="off">
-            <input type="text" name="input">
-            <button type="submit" name="input_button" value="submit_input">
-                Translate
-            </button>
-        </form>
-
+<div class="translate-container">
+    
+    <div class="switch-container">
         <form action="{{url_for('translate')}}" method="POST" autocomplete="off">
             <button type="submit" name="input_button" value="switch_lang">
                 Switch Source Language:
@@ -35,7 +23,7 @@
                         EN
                     </span>
                     <span class="button_word">
-                        ->
+                        ⇄
                     </span>
                     <span class="button_word">
                         ES
@@ -43,10 +31,25 @@
                 </span>
             </button>
         </form>
-
     </div>
 
-    <script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+    <div class="input-container">
+        <form id="input" action="{{url_for('translate')}}" method="POST" autocomplete="off">
+            <input type="text" name="input" class="input-box" placeholder="Enter Text">
+            <button type="submit" name="input_button" value="submit_input">
+                Translate
+            </button>
+        </form>
+    </div>
 
+    <div class="output-container">
+        {% if output %}
+            {{output}}
+        {% else %}
+            <span class="placehold">Translated Text</span>
+        {% endif %}
+    </div>
 
-</body>
+</div>
+
+<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
