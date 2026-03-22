@@ -4,9 +4,6 @@ from flaskwebgui import FlaskUI
 import sqlite3
 from local_db import LocalDB
 
-import argostranslate.package # TODO: See if this import is necessary
-import argostranslate.translate
-
 # TODO: valerie matching game
 import matching_game
 
@@ -43,6 +40,19 @@ os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
 base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
+
+
+# Huggingface translation models
+from transformers import MarianMTModel, MarianTokenizer
+
+model_dir = os.path.join(base_path, "translation", "en-es")
+en_es_tokenizer = MarianTokenizer.from_pretrained(model_dir)
+en_es_model = MarianMTModel.from_pretrained(model_dir)
+
+model_dir = os.path.join(base_path, "translation", "es-en")
+es_en_tokenizer = MarianTokenizer.from_pretrained(model_dir)
+es_en_model = MarianMTModel.from_pretrained(model_dir)
+
 
 # Chatbot output sanitation using regular expression
 from re import sub, compile
@@ -280,32 +290,56 @@ def chat_clear():
 
 @app.route("/translate", methods = ['GET', 'POST'])
 def translate() :
+
+    # Using global variables to remember if en->es or es->en
     global en_src
     global lang_flow
+    global en_es_tokenizer, es_en_model, es_en_tokenizer, es_en_model
 
+    # Just render default page
     if "GET" == request.method :
         return render_template("translate.html")
 
+    # Command from user came in
     elif "POST" == request.method :
         but_val = request.form.get("input_button")
 
+        # Translate something
+        # Get tokenizer and model for `Translate()` call
         if "submit_input" == but_val :
+            # Get stuff to be translated
             input = request.form["input"]
  
             if en_src :
-                output = argostranslate.translate.translate(input, "en", "es")
+                tokenizer = en_es_tokenizer
+                model = en_es_model
+            # Otherwise, input is Spanish
             else :
-                output = argostranslate.translate.translate(input, "es", "en")
+                tokenizer = es_en_tokenizer
+                model = es_en_model
+
+            # Encode input
+            inputs = tokenizer(input, return_tensors="pt", padding=True)
+            # Call model
+            translated_tokens = model.generate(**inputs)
+            # Decode output
+            output = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
+
+            # Render template with output filled in
             return render_template("translate.html", output = output, lang_flow=lang_flow)
 
+        # Switch language direction
         elif "switch_lang" == but_val :
+            # Flip input from English to Spanish
             if en_src :
                 en_src = False
                 lang_flow = "row-reverse"
+            # Flip input from Spanish to English
             else :
                 en_src = True
                 lang_flow = "row"
 
+            # Render blank template with switched button flow
             return render_template("translate.html", lang_flow=lang_flow)
 
 @app.route('/choose_course_vocabulary')
