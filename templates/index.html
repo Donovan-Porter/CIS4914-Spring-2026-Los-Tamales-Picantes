@@ -15,24 +15,36 @@
 <div>
   <h1 class="main-choose-msg">¡Vamos aprender! Choose an activity to get started!</h1>
   <div class="main-game-container">
-      <a class="game-bttn" href="/matching_page" title="Matching Game">
-          Matching Game
-      </a>
-      <a class="game-bttn" href="/choose_course_convo" title="Conjugation Conversations">
-          Conjugation Conversations
-      </a>
-      <a class="game-bttn" href="/matching_page" title="Matching Game">
-          Matching Game
-      </a>
+    <a class="game-bttn" href="/matching_page" title="Matching Game" onclick="playSound(menuBttn)">
+        Matching Game
+    </a>
+    <a class="game-bttn" href="/choose_course_convo" title="Conjugation Conversations" onclick="playSound(menuBttn)">
+        Conjugation Conversations
+    </a>
+    <a class="game-bttn" href="/flashcard_page" title="Flashcard Game" onclick="playSound(menuBttn)">
+        Flashcard Game
+    </a>
   </div>
 
-  <div style="text-align: center;">
-      <p id="timer_status"> Timer: ON </p>
+  <div class="switch-container">
+    <div>
+        <p id="timer_status"> Timer: ON </p>
 
-      <label class="switch">
-          <input type="checkbox" id="timerToggle" checked>
-          <span class="slider round"></span>
-      </label>
+        <label class="switch">
+            <input type="checkbox" id="timerToggle" checked>
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    <div>
+        <p id="audio_status"> Audio: ON </p>
+
+        <label class="switch">
+            <input type="checkbox" id="audioToggle" checked>
+            <span class="slider round"></span>
+        </label>
+    </div>
+
   </div>
 
 </div>
@@ -41,9 +53,23 @@
 <script>
     header = document.querySelector(".header");
 
-    window.onload = loadTimerToggle;
+    var menuBttn = new Audio('/static/audio/467951__benzix2__ui-button-click.ogg');
+    var audioOn = new Audio('/static/audio/273748__mlara1270__creole-guitar-guitarra-criolla-in-dm.wav');
+
+    function playSound(sound) {
+        sound.play();
+        sound.currentTime=0;
+    }
+
+    window.onload = loadWindow;
+
+    function loadWindow() {
+        loadTimerToggle();
+        loadAudioToggle();
+    }
 
     timerToggle.addEventListener("change", setTimerToggle);
+    audioToggle.addEventListener("change", setAudioToggle);
 
     function setTimerToggle() {
         const timerToggle = document.getElementById('timerToggle')
@@ -61,11 +87,11 @@
         })
         .then(response => response.json())
         .then(data => {
-            console.log(data)
+            console.log(data);
         })
 
         .catch(error => {
-            console.log('Error', error)
+            console.log('Error', error);
         });
     }
 
@@ -78,10 +104,62 @@
             console.log(data.status);
             document.getElementById('timerToggle').checked = data.status;
             document.getElementById('timer_status').textContent = data.status ? 'Timer: ON' : 'Timer: OFF';
-
+            
         })
         .catch(error => {
-            console.log('Error', error)
+            console.log('Error', error);
+        });
+    }
+
+    function setAudioToggle() {
+        const audioToggle = document.getElementById('audioToggle')
+        const status = audioToggle.checked;
+
+        document.getElementById('audio_status').textContent = status ? 'Audio: ON' : 'Audio: OFF';
+        document.querySelectorAll(".game-bttn").forEach(link => {
+                if(status) link.setAttribute("onclick", "playSound(menuBttn)");
+                else link.removeAttribute("onclick");
+        });
+        
+        if (status)
+        {
+            playSound(audioOn);
+        }
+
+        // passing into backend variable
+        fetch('/toggleAudio', {
+            method: 'POST',
+            headers: {
+                'Content-Type' : 'application/json'
+            },
+            body: JSON.stringify({status: status})
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+        })
+
+        .catch(error => {
+            console.log('Error', error);
+        });
+    }
+
+    function loadAudioToggle() {
+        fetch('/toggleAudio', {
+            method: 'GET',
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.status);
+            document.getElementById('audioToggle').checked = data.status;
+            document.getElementById('audio_status').textContent = data.status ? 'Audio: ON' : 'Audio: OFF';
+            document.querySelectorAll(".game-bttn").forEach(link => {
+                    if(data.status) link.setAttribute("onclick", "playSound(menuBttn)");
+                    else link.removeAttribute("onclick");
+            });
+        })
+        .catch(error => {
+            console.log('Error', error);
         });
     }
 

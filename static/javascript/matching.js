@@ -214,6 +214,9 @@ function loadBoard(state)
     document.getElementById("hint").style.display = 'inline-block'; 
 }
 
+var cardSound = new Audio('/static/audio/202309__7778__button-3.mp3');
+var pointsSound = new Audio('/static/audio/531175__ryusa__synth-glockenspiel-bell-item-money-gold-coin-pick-up.wav');
+
 // handle when the card is clicked
 async function clickedCard(incomingRow, incomingCol, cardDiv) 
 {
@@ -232,6 +235,10 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
     clickedCards.push(cardDiv);
     cardDiv.classList.add("pending-match");
 
+    if (audioOn)
+    {
+        playSound(cardSound);
+    }
 
     // send the card to the backend
     const res = await fetch(`/matching/${gameId}/click`, {
@@ -327,6 +334,10 @@ async function clickedCard(incomingRow, incomingCol, cardDiv)
             console.log(data.status);
             if (data.status === "OK")
             {
+                if (audioOn)
+                {
+                    playSound(pointsSound);
+                }
                 alert("Points Recieved!");
                 points = 0;
                 pointsSpan.innerHTML = points;
@@ -427,4 +438,26 @@ async function hint_hint_baby()
     {
         console.error("Error loading hint image:", error);
     }
+}
+
+
+//audio 
+var audioOn = getAudioStatus();
+function playSound(sound) {
+    sound.play();
+    sound.currentTime=0;
+}
+
+function getAudioStatus() {
+    fetch('/toggleAudio', {
+            method: 'GET',
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.status);
+            audioOn = data.status;
+        })
+        .catch(error => {
+            console.log('Error', error);
+        });
 }
