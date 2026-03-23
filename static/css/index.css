@@ -55,6 +55,16 @@
     transform: scale(1.4);
 }
 
+.switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  gap: 3vw;
+  flex-direction: row;
+}
+
 .switch {
   position: relative;
   display: inline-block;
