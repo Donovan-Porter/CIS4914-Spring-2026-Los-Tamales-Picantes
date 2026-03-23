@@ -5,7 +5,7 @@ import sqlite3
 from local_db import LocalDB
 
 # TODO: valerie matching game
-import matching_game
+import minigame_controller
 
 import os, sys, json, random
 from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
@@ -571,7 +571,7 @@ def convo_conjugation():
         answer_vocab=answer_vocab
     )
 
-# TODO: valerie matching game
+# memory matching game
 @app.route("/matching_page")
 def matching_page():
     '''
@@ -588,7 +588,7 @@ def create_matching_game():
     spn_lvl = request.json.get("spanish_level", "spn1130")
     chp_num = request.json.get("chapter_number", 1)
     file_type = request.json.get("file_type", "Vocabulary")
-    return matching_game.create_game(returned_size, spn_lvl, chp_num, file_type)
+    return minigame_controller.create_game(returned_size, spn_lvl, chp_num, file_type)
 
 @app.route("/matching/<game_id>/click", methods=["POST"])
 def click_card(game_id):
@@ -598,7 +598,64 @@ def click_card(game_id):
     # get the position of the card
     row = request.json.get("row")
     col = request.json.get("col")
-    return matching_game.handle_click_card(game_id, row, col)
+    return minigame_controller.handle_click_card(game_id, row, col)
+
+@app.route("/matching/<game_id>/hint", methods=["GET"])
+def hint_image(game_id):
+    """
+    generate and return a hint image for the selected card
+    """
+    row = int(request.args.get("row"))
+    col = int(request.args.get("col"))
+    image_path, mimetype = minigame_controller.handle_hint_image(game_id, row, col)
+    return send_file(image_path, mimetype=mimetype)
+
+
+# flashcard game
+@app.route("/flashcard_page")
+def flashcard_page():
+    '''
+    get the correct html for the flashcard game
+    '''
+    return render_template("flashcard.html")
+  
+@app.route("/flashcard", methods=["POST"])
+def create_flashcard_game():
+    '''
+    create a flashcard game
+    '''
+    spn_lvl = request.json.get("spanish_level", "spn1130")
+    chp_num = request.json.get("chapter_number", 1)
+    file_type = request.json.get("file_type", "Vocabulary")
+    game_mode = request.json.get("game_mode", "word_to_picture")
+    return minigame_controller.create_flashcard_game(spn_lvl, chp_num, file_type, game_mode)
+  
+@app.route("/flashcard/<game_id>/reveal", methods=["POST"])
+def flashcard_reveal(game_id):
+    '''
+    reveal the english translation for the flashcard
+    '''
+    return minigame_controller.reveal_translation(game_id)
+  
+@app.route("/flashcard/<game_id>/click", methods=["POST"])
+def flashcard_click(game_id):
+    '''
+    handle a choice being choosen
+    '''
+    chosen_english = request.json.get("chosen_english", "")
+    return minigame_controller.handle_flashcard_click(game_id, chosen_english)
+ 
+@app.route("/flashcard/<game_id>/image", methods=["GET"])
+def flashcard_image(game_id):
+    '''
+    generate and return a picture for a given english word
+    '''
+    word = request.args.get("word", "")
+    image_path, mimetype = minigame_controller.get_flashcard_image(word)
+    if image_path is None:
+        abort(500)
+    return send_file(image_path, mimetype=mimetype)
+ 
 
 # TODO: Remove the giant 'CAUSE ERROR' button in index, and remove this (or, keep it. Whatever.)
 # Just for showing the `abort()` functionality
@@ -614,16 +671,6 @@ def internal_error(error) :
 def conflict_error(error) :
     #flash("Input cannot be used.")
     pass
-@app.route("/matching/<game_id>/hint", methods=["GET"])
-def hint_image(game_id):
-    """
-    generate and return a hint image for the selected card
-    """
-    row = int(request.args.get("row"))
-    col = int(request.args.get("col"))
-    image_path = matching_game.handle_hint_image(game_id, row, col)
-    # send the image to the frontend to display
-    return send_file(image_path, mimetype="image/png")
 
 
 if __name__ == "__main__" :

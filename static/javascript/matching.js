@@ -65,6 +65,8 @@ function update_course_options()
         Grammar: [
             {value: "spn1130", text: "Spanish 1130"},
             {value: "spn1131", text: "Spanish 1131"},
+            {value: "spn2200", text: "Spanish 2200"},
+            {value: "spn2201", text: "Spanish 2201"},
         ]};
 
     // work
