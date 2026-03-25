@@ -175,6 +175,19 @@ def fix_reflexive_infinitive(sentence, person_to):
 
 def generate_conjugation_exercise_from_list(pipe, grammar_list):
 
+    conversation_mapping = {
+        "Yo": "Tú",            # I → you
+        "Tú": "Yo",            # you → me
+        "Usted": "Yo",         # formal you → me
+        "Él": "Él",            # he → he
+        "Ella": "Ella",        # she → she
+        "Nosotros": "Ustedes",  # we → you all (formal)
+        "Nosotras": "Ustedes",  # we → you all (feminine, formal)
+        "Ustedes": "Nosotros",  # you all (formal) → we (default masculine)
+        "Ellos": "Ellos",      # they (m) → they (m)
+        "Ellas": "Ellas",      # they (f) → they (f)
+    }
+
     exercises = []
 
     grammar_phrases = [
@@ -193,13 +206,20 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
         print(f"[DEBUG] Starting new exercise")
         print(f"[DEBUG] phrase_from: {phrase_from}")
 
-        possible_targets = [p for p in grammar_phrases if p != phrase_from]
+        person_from = extract_subject(phrase_from)
+        person_to = conversation_mapping.get(person_from)
 
-        if not possible_targets:
-            print("[DEBUG] No possible targets. Skipping.")
+        if not person_to:
+            print(f"[DEBUG] No conversational mapping for {person_from}. Skipping.")
             continue
 
-        phrase_to = random.choice(possible_targets)
+        # Find the phrase in grammar_phrases that starts with person_to
+        phrase_to_candidates = [p for p in grammar_phrases if p.startswith(person_to + " ")]
+        if not phrase_to_candidates:
+            print(f"[DEBUG] No matching phrase_to for person_to {person_to}. Skipping.")
+            continue
+
+        phrase_to = phrase_to_candidates[0]  # choose first match
 
         print(f"[DEBUG] phrase_to selected: {phrase_to}")
 
@@ -236,8 +256,21 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
         print("[DEBUG] phrase_from found successfully.")
 
         # create question version of the original sentence
-        sentence_question = full_sentence.rstrip(".")
-        sentence_question = f"¿{sentence_question}?"
+        words = full_sentence.rstrip(".").split()  # split into words
+
+        if len(words) >= 2:
+            # swap first two words
+            words[0], words[1] = words[1], words[0]
+            
+            # capitalize first word (verb), lowercase second word (subject)
+            words[0] = words[0].capitalize()
+            words[1] = words[1].lower()
+            
+            sentence_question = " ".join(words)
+            sentence_question = f"¿{sentence_question}?"
+        else:
+            # fallback if too short
+            sentence_question = f"¿{full_sentence.rstrip('.')}?"
 
         # replace subject phrase
         sentence_changed = re.sub(
@@ -254,10 +287,6 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
             continue
 
         print("[DEBUG] phrase_to confirmed in changed sentence.")
-
-        # extract subjects
-        person_from = extract_subject(phrase_from)
-        person_to = extract_subject(phrase_to)
 
         print(f"[DEBUG] Extracted person_from: {person_from}")
         print(f"[DEBUG] Extracted person_to: {person_to}")
