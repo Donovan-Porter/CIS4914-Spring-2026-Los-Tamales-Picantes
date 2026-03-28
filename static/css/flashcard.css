@@ -16,6 +16,13 @@
     width: 90%;
 }
 
+.mode-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
 .points-container {
     display: flex;
     flex-direction: row;
