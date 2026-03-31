@@ -1,13 +1,28 @@
 <!doctype html>
 <html>
-  <head><meta charset="utf-8"><title>Choose Course</title></head>
-  <body>
-    <h1>Choose Course</h1>
-    <ul>
-      {% for c in courses %}
-      <li><a href="{{ url_for('choose_chapter_convo') }}?course={{ c }}">{{ c }}</a></li>
-      {% endfor %}
-    </ul>
-    <p><a href="/">Home</a></p>
-  </body>
+  <head>
+    <title>Conjugation Game</title>
+  </head>
+
+  <div class="container">
+    <div class="conj-game-header">
+        <img src="/static/images/duck.png" alt="Capy Decor" class="conj-decor-image" draggable="false">
+
+        <div class="conj-top-container">
+            <h1>Choose Course</h1>
+        </div>
+        <hr class="conj-game-line" style="margin-left: 0vw;">
+
+        <div class="options">
+          {% for c in courses %}
+          <a class="select-bttn" href="{{ url_for('choose_chapter_convo') }}?course={{ c }}">{{ c }}</a>
+          {% endfor %}
+        </div>
+
+      <a id="home" class="bttn" href="/">Home</a>
+    </div>
+  </div>
 </html>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/conj-select.css') }}" >

@@ -1,0 +1,179 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 2vw;
+}
+
+.word-bank span {
+    padding: 4px;
+    border: 1px solid #04361D;
+    margin: 2px;
+
+    color: #04361D;
+    display: inline-block;
+}
+
+.sp-key {
+    width: 3vw;
+    height: 5vh;
+
+    text-align: center;
+
+    background-color: #FFBF00;
+    color: black;
+    border: none;
+
+    cursor: pointer;
+    border-radius: 10px;
+
+    margin: 2px;
+    padding: 6px 8px;
+
+    transition-duration: 0.4s;
+}
+
+.sp-key:hover {
+    background-color: #0067A5;
+    color: white;
+}
+
+.sp-key:active {
+    transform: scale(1.4);
+}
+
+.points-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-left: auto;
+
+    font-size: 35px;
+    color: #FFBF00;
+}
+
+.points-container svg {
+    width: 3vw;
+    height: auto;
+}
+
+.conj-top-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.conj-game-line {
+    background-color: #FFBF00;
+
+    border-width: 0;
+
+    height: 0.4vh;
+    width: 90vw;
+}
+
+h1 {
+    color: #EF233C;
+}
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container button {
+    margin-left: 10px;
+}
+
+.sentence-with-blank {
+    display: inline;
+}
+
+#guess-input {
+    display: inline-block;
+    width: 200px;
+    padding: 4px;
+    margin-left: 10px;
+
+    border: 2px solid #0067A5;
+    border-radius: 5px;
+}
+
+#icon {
+    width: 4vw;
+    height: 4vh;
+
+    background-color: #0067A5;
+    color: white;
+}
+
+#icon:hover {
+    background-color: #FFBF00;
+    color: black;
+}
+
+#submit {
+    width: 6vw;
+    height: 4vh;
+
+    background-color: #0067A5;
+    color: white;
+}
+
+#submit:hover {
+    background-color: #FFBF00;
+    color: black;
+}
+
+#back {
+    width: 13vw;
+    height: 4vh;
+
+    background-color: #FFBF00;
+    color: black;
+
+    display: flex; 
+
+    justify-content: center;
+    align-items: center;
+}
+
+#back:hover {
+    background-color: #0067A5;
+    color: white;
+}
+
+.bttn {
+
+    border: none;
+    text-decoration: none;
+
+    cursor: pointer;
+    border-radius: 10px;
+
+    padding: 5px;
+    margin: 5px;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
+    transition-duration: 0.4s;
+}
+
+.bttn:active {
+    transform: scale(1.4);
+}
+
+#timer-container {
+    display: none;
+    align-items: center;
+
+    margin-top: 2vh;
+}
+
+#time {
+    font-size: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,151 @@
+.conj-decor-image {
+    position: fixed;
+
+    height: 27vh;
+    width: auto;
+
+    top: 0vh;
+    left: 0vw;
+
+    margin-left: 1vw;
+}
+
+.conj-top-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.conj-game-line {
+    background-color: #FFBF00;
+
+    border-width: 0;
+
+    height: 0.4vh;
+    width: 80vw;
+}
+
+h1 {
+    color: #EF233C;
+    margin: 1vw;
+}
+
+.conj-game-header {
+    margin-left: 15vw;
+}
+
+#course {
+    width: 10vw;
+    height: 4vh;
+}
+
+#home, #back {
+    width: 7vw;
+    height: 4vh;
+}
+
+#submit-bttn {
+    width: 10vw;
+    height: 4vh;
+
+    font-size: 15px;
+}
+
+.bttn {
+
+    display: flex;
+
+    background-color: #0067A5;
+    color: white;
+    border: none;
+
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    cursor: pointer;
+    border-radius: 10px;
+
+    padding: 5px;
+    margin: 5px;
+
+    margin-top: 1vw;
+
+    transition-duration: 0.4s;
+}
+
+.bttn:hover {
+    background-color: #FFBF00;
+    color: black;
+}
+
+.bttn:active {
+    transform: scale(1.4);
+}
+
+.options {
+    display: flex;
+	flex-direction: row;
+}
+
+.select-bttn {
+    width: 10vw;
+    height: 20vh;
+
+    display: flex;
+
+    background-color: #FFBF00;
+    color: black;
+    border: none;
+
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    cursor: pointer;
+    border-radius: 10px;
+
+    padding: 5px;
+    margin: 5px;
+
+    transition-duration: 0.4s;
+}
+
+.select-bttn:hover {
+    background-color: #0067A5;
+    color: white;
+}
+
+.select-bttn:active {
+    transform: scale(1.4);
+}
+
+.label-options {
+    display: flex;
+    gap: 5px;
+}
+
+.ellipsis {
+      display: inline-block;
+      width: 24px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  .ellipsis span {
+      display: inline-block;
+      animation: bounce 1.4s infinite;
+      font-size: 20px;
+      margin-right: 2px;
+
+      color: black;
+  }
+
+  .ellipsis span:nth-child(1) { animation-delay: 0s; }
+  .ellipsis span:nth-child(2) { animation-delay: 0.2s; }
+  .ellipsis span:nth-child(3) { animation-delay: 0.4s; }
+
+  @keyframes bounce {
+      0%, 80%, 100% { transform: translateY(0); }
+      40% { transform: translateY(-5px); }
+  }
