@@ -4,6 +4,8 @@ import requests
 import random
 import glob
 import mimetypes
+import re
+
 
 from minigames.matching import MemoryGame
 from huggingface_hub import InferenceClient
@@ -293,18 +295,7 @@ def _open_file(key_word):
     :param key_word: cleaned keyword to search for
     '''
     try:
-        folders = ["minigames\\images\\default-images\\1-1",
-                   "minigames\\images\\default-images\\1-2",
-                   "minigames\\images\\default-images\\2-1",
-                   "minigames\\images\\default-images\\2-2",
-                   "minigames\\images\\default-images\\3-1",
-                   "minigames\\images\\default-images\\3-2",
-                   "minigames\\images\\default-images\\4-1",
-                   "minigames\\images\\default-images\\4-1",
-                   "minigames\\images\\default-images\\5-1",
-                   "minigames\\images\\default-images\\5-2",
-                   "minigames\\images\\default-images\\6-1",
-                   "minigames\\images\\default-images\\6-2",
+        folders = ["minigames\\images\\default-images",
                    "minigames\\images"]
         for eachFolder in folders:
             matches = glob.glob(f"{eachFolder}\\{key_word}.*")
@@ -322,43 +313,49 @@ def _get_keyword(word):
 
     :param word: english word 
     '''
-    # check if it has special charater
-    has_special_char = False
-    special_char = ["/", "\\", ",", "("]
-    for each_char in special_char:
-        if word.find(each_char) != -1:
-            has_special_char = True
-        
-    # the word is short enough
-    if len(word) <= 100:
-        # no special char
-        if has_special_char == False:
-            return word
-    
-    # working with a word with a special char or too long
-    key_word = None
 
-    # remove everything after comma
-    clean_word = word.split(",")[0]
+    # Strip punctuation markers like ¡ ! ¿ ? and trailing periods
+    clean_word = re.sub(r'[¡¿!?.]', '', word).strip()
 
-    # remove everything after parenthesis
-    clean_word = clean_word.split("(")[0]
+    # Remove bracketed expressions entirely, e.g. "[inf to feel like]"
+    clean_word = re.sub(r'\[.*?\]', '', clean_word).strip()
 
-    clean_word = clean_word.replace("/", " ").strip()
-    clean_word = clean_word.replace("\\", " ").strip()
-    noneed_words = ["to", "a", "the", "of", "in", "on", "at", "for", "with", "by", "from"]
+    # Remove everything after a semicolon (alternative phrases)
+    clean_word = clean_word.split(';')[0].strip()
+
+    # Remove parenthetical expressions, including unclosed ones e.g. "(pragmatically: no more mate"
+    clean_word = re.sub(r'\(.*?\)', '', clean_word).strip()
+    clean_word = re.sub(r'\(.*$', '', clean_word).strip()  # unclosed paren
+
+    # Remove quoted strings (they are examples, not alternatives)
+    clean_word = re.sub(r'".*?"', '', clean_word).strip()
+
+    # Take only the first alternative when separated by " / " or " \ "
+    clean_word = re.split(r'\s*/\s*|\s*\\\s*', clean_word)[0].strip()
+
+    # Remove everything after a comma
+    clean_word = clean_word.split(',')[0].strip()
+
+    # Collapse extra whitespace
+    clean_word = re.sub(r'\s+', ' ', clean_word).strip()
+
+    if not clean_word:
+        # strip only ASCII special chars
+        # i.e. handle the accented letters
+        clean_word = re.sub(r'[^\w\s\'-]', '', word, flags=re.UNICODE).strip()
+
+    # If still short and clean, return as-is
+    if len(clean_word) <= 100:
+        return clean_word
+
+    # For very long results, extract the first non-filler word
+    noneed_words = {"to", "a", "the", "of", "in", "on", "at", "for", "with", "by", "from"}
     words = clean_word.split()
+    for eachWord in words:
+        if eachWord.lower() not in noneed_words:
+            return eachWord
 
-    for each_word in words:
-        if each_word.lower() not in noneed_words:
-            key_word = each_word
-            break
-
-    # if every word was filler then just take the first one
-    if key_word is None:
-        key_word = words[0]
-
-    return key_word
+    return words[0]
 
 def _image_generation(word):
     '''
