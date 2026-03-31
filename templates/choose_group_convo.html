@@ -1,55 +1,37 @@
 <!doctype html>
 <html>
-  <head><meta charset="utf-8"><title>Choose Group</title></head>
-  <body>
-    <h1>Choose Group in {{ vocab_file }}</h1>
-    <form method="post" onsubmit="showLoad()">
-      <ul>
-        {% for g in groups %}
-        <li>
-          <label>
-            <input type="radio" name="group_index" value="{{ loop.index0 }}" {{ 'checked' if loop.index0 == 0 else '' }}>
-            {{ g['title'] }}
-          </label>
-        </li>
-        {% endfor %}
-      </ul>
-      <input type="hidden" name="course" value="{{ course }}">
-      <input type="hidden" name="file" value="{{ vocab_file }}">
-      <button id="submit-bttn" type="submit">Start Exercise</button>
-    </form>
-    <p><a href="{{ url_for('choose_chapter_convo') }}?course={{ course }}">Back</a></p>
-  </body>
+  <head>
+    <title>Conjugation Game</title>
+  </head>
+
+  <div class="container">
+    <div class="conj-game-header">
+        <img src="/static/images/duck.png" alt="Capy Decor" class="conj-decor-image" draggable="false">
+
+        <div class="conj-top-container">
+            <h1>Choose Group in {{ vocab_file }}</h1>
+        </div>
+        <hr class="conj-game-line" style="margin-left: 0vw;">
+
+        <form method="post" onsubmit="showLoad()" class="exercise-select">
+            {% for g in groups %}
+              <label class="label-options">
+                <input type="radio" name="group_index" value="{{ loop.index0 }}" {{ 'checked' if loop.index0 == 0 else '' }}>
+                {{ g['title'] }}
+              </label>
+            {% endfor %}
+          <input type="hidden" name="course" value="{{ course }}">
+          <input type="hidden" name="file" value="{{ vocab_file }}">
+          <br>
+          <button id="submit-bttn" class="select-bttn" type="submit">Start Exercise</button>
+        </form>
+        <a id="back" class="bttn" href="{{ url_for('choose_chapter_convo') }}?course={{ course }}">Back</a>
+    </div>
+  </div>
 </html>
 
-<style>
-
-  .ellipsis {
-      display: inline-block;
-      width: 24px;
-      text-align: left;
-      font-weight: bold;
-  }
-
-  .ellipsis span {
-      display: inline-block;
-      animation: bounce 1.4s infinite;
-      font-size: 20px;
-      margin-right: 2px;
-
-      color: black;
-  }
-
-  .ellipsis span:nth-child(1) { animation-delay: 0s; }
-  .ellipsis span:nth-child(2) { animation-delay: 0.2s; }
-  .ellipsis span:nth-child(3) { animation-delay: 0.4s; }
-
-  @keyframes bounce {
-      0%, 80%, 100% { transform: translateY(0); }
-      40% { transform: translateY(-5px); }
-  }
-
-</style>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/conj-select.css') }}" >
 
 <script>
     function showLoad()
@@ -69,6 +51,7 @@
         submitBttn.innerHTML = "";
         submitBttn.appendChild(ellipsis);
 
+        submitBttn.style.pointerEvents = 'none';
         submitBttn.disabled = true;
 
         return true;
