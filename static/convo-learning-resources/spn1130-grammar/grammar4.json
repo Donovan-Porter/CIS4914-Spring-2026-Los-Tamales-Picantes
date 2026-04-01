@@ -1,0 +1,976 @@
+{
+    "groups": [
+        {
+            "title": "PRESENT TENSE OF ESTUDIAR",
+            "examples": [
+                {
+                    "integral": "I study.",
+                    "derivative": "Yo estudio."
+                },
+                {
+                    "integral": "You study. (singular, informal)",
+                    "derivative": "Tú estudias."
+                },
+                {
+                    "integral": "You study. (singular, formal)",
+                    "derivative": "Usted estudia."
+                },
+                {
+                    "integral": "He studies.",
+                    "derivative": "Él estudia."
+                },
+                {
+                    "integral": "She studies.",
+                    "derivative": "Ella estudia."
+                },
+                {
+                    "integral": "We study. (masculine)",
+                    "derivative": "Nosotros estudiamos."
+                },
+                {
+                    "integral": "We study. (feminine)",
+                    "derivative": "Nosotras estudiamos."
+                },
+                {
+                    "integral": "You all study. (formal or informal American)",
+                    "derivative": "Ustedes estudian."
+                },
+                {
+                    "integral": "They study. (masculine)",
+                    "derivative": "Ellos estudian."
+                },
+                {
+                    "integral": "They study. (feminine)",
+                    "derivative": "Ellas estudian."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF AYUDAR",
+            "examples": [
+                {
+                    "integral": "I help.",
+                    "derivative": "Yo ayudo."
+                },
+                {
+                    "integral": "You help. (singular, informal)",
+                    "derivative": "Tú ayudas."
+                },
+                {
+                    "integral": "You help. (singular, formal)",
+                    "derivative": "Usted ayuda."
+                },
+                {
+                    "integral": "He helps.",
+                    "derivative": "Él ayuda."
+                },
+                {
+                    "integral": "She helps.",
+                    "derivative": "Ella ayuda."
+                },
+                {
+                    "integral": "We help. (masculine)",
+                    "derivative": "Nosotros ayudamos."
+                },
+                {
+                    "integral": "We help. (feminine)",
+                    "derivative": "Nosotras ayudamos."
+                },
+                {
+                    "integral": "You all help. (formal or informal American)",
+                    "derivative": "Ustedes ayudan."
+                },
+                {
+                    "integral": "They help. (masculine)",
+                    "derivative": "Ellos ayudan."
+                },
+                {
+                    "integral": "They help. (feminine)",
+                    "derivative": "Ellas ayudan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF BAILAR",
+            "examples": [
+                {
+                    "integral": "I dance.",
+                    "derivative": "Yo bailo."
+                },
+                {
+                    "integral": "You dance. (singular, informal)",
+                    "derivative": "Tú bailas."
+                },
+                {
+                    "integral": "You dance. (singular, formal)",
+                    "derivative": "Usted baila."
+                },
+                {
+                    "integral": "He dances.",
+                    "derivative": "Él baila."
+                },
+                {
+                    "integral": "She dances.",
+                    "derivative": "Ella baila."
+                },
+                {
+                    "integral": "We dance. (masculine)",
+                    "derivative": "Nosotros bailamos."
+                },
+                {
+                    "integral": "We dance. (feminine)",
+                    "derivative": "Nosotras bailamos."
+                },
+                {
+                    "integral": "You all dance. (formal or informal American)",
+                    "derivative": "Ustedes bailan."
+                },
+                {
+                    "integral": "They dance. (masculine)",
+                    "derivative": "Ellos bailan."
+                },
+                {
+                    "integral": "They dance. (feminine)",
+                    "derivative": "Ellas bailan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF BUSCAR",
+            "examples": [
+                {
+                    "integral": "I look for.",
+                    "derivative": "Yo busco."
+                },
+                {
+                    "integral": "You look for. (singular, informal)",
+                    "derivative": "Tú buscas."
+                },
+                {
+                    "integral": "You look for. (singular, formal)",
+                    "derivative": "Usted busca."
+                },
+                {
+                    "integral": "He looks for.",
+                    "derivative": "Él busca."
+                },
+                {
+                    "integral": "She looks for.",
+                    "derivative": "Ella busca."
+                },
+                {
+                    "integral": "We look for. (masculine)",
+                    "derivative": "Nosotros buscamos."
+                },
+                {
+                    "integral": "We look for. (feminine)",
+                    "derivative": "Nosotras buscamos."
+                },
+                {
+                    "integral": "You all look for. (formal or informal American)",
+                    "derivative": "Ustedes buscan."
+                },
+                {
+                    "integral": "They look for. (masculine)",
+                    "derivative": "Ellos buscan."
+                },
+                {
+                    "integral": "They look for. (feminine)",
+                    "derivative": "Ellas buscan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF CENAR",
+            "examples": [
+                {
+                    "integral": "I eat dinner.",
+                    "derivative": "Yo ceno."
+                },
+                {
+                    "integral": "You eat dinner. (singular, informal)",
+                    "derivative": "Tú cenas."
+                },
+                {
+                    "integral": "You eat dinner. (singular, formal)",
+                    "derivative": "Usted cena."
+                },
+                {
+                    "integral": "He eats dinner.",
+                    "derivative": "Él cena."
+                },
+                {
+                    "integral": "She eats dinner.",
+                    "derivative": "Ella cena."
+                },
+                {
+                    "integral": "We eat dinner. (masculine)",
+                    "derivative": "Nosotros cenamos."
+                },
+                {
+                    "integral": "We eat dinner. (feminine)",
+                    "derivative": "Nosotras cenamos."
+                },
+                {
+                    "integral": "You all eat dinner. (formal or informal American)",
+                    "derivative": "Ustedes cenan."
+                },
+                {
+                    "integral": "They eat dinner. (masculine)",
+                    "derivative": "Ellos cenan."
+                },
+                {
+                    "integral": "They eat dinner. (feminine)",
+                    "derivative": "Ellas cenan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF COCINAR",
+            "examples": [
+                {
+                    "integral": "I cook.",
+                    "derivative": "Yo cocino."
+                },
+                {
+                    "integral": "You cook. (singular, informal)",
+                    "derivative": "Tú cocinas."
+                },
+                {
+                    "integral": "You cook. (singular, formal)",
+                    "derivative": "Usted cocina."
+                },
+                {
+                    "integral": "He cooks.",
+                    "derivative": "Él cocina."
+                },
+                {
+                    "integral": "She cooks.",
+                    "derivative": "Ella cocina."
+                },
+                {
+                    "integral": "We cook. (masculine)",
+                    "derivative": "Nosotros cocinamos."
+                },
+                {
+                    "integral": "We cook. (feminine)",
+                    "derivative": "Nosotras cocinamos."
+                },
+                {
+                    "integral": "You all cook. (formal or informal American)",
+                    "derivative": "Ustedes cocinan."
+                },
+                {
+                    "integral": "They cook. (masculine)",
+                    "derivative": "Ellos cocinan."
+                },
+                {
+                    "integral": "They cook. (feminine)",
+                    "derivative": "Ellas cocinan."
+                }
+            ]
+            },
+        {
+            "title": "PRESENT TENSE OF COMPRAR",
+            "examples": [
+                {
+                    "integral": "I buy.",
+                    "derivative": "Yo compro."
+                },
+                {
+                    "integral": "You buy. (singular, informal)",
+                    "derivative": "Tú compras."
+                },
+                {
+                    "integral": "You buy. (singular, formal)",
+                    "derivative": "Usted compra."
+                },
+                {
+                    "integral": "He buys.",
+                    "derivative": "Él compra."
+                },
+                {
+                    "integral": "She buys.",
+                    "derivative": "Ella compra."
+                },
+                {
+                    "integral": "We buy. (masculine)",
+                    "derivative": "Nosotros compramos."
+                },
+                {
+                    "integral": "We buy. (feminine)",
+                    "derivative": "Nosotras compramos."
+                },
+                {
+                    "integral": "You all buy. (formal or informal American)",
+                    "derivative": "Ustedes compran."
+                },
+                {
+                    "integral": "They buy. (masculine)",
+                    "derivative": "Ellos compran."
+                },
+                {
+                    "integral": "They buy. (feminine)",
+                    "derivative": "Ellas compran."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF DESAYUNAR",
+            "examples": [
+                {
+                    "integral": "I eat breakfast.",
+                    "derivative": "Yo desayuno."
+                },
+                {
+                    "integral": "You eat breakfast. (singular, informal)",
+                    "derivative": "Tú desayunas."
+                },
+                {
+                    "integral": "You eat breakfast. (singular, formal)",
+                    "derivative": "Usted desayuna."
+                },
+                {
+                    "integral": "He eats breakfast.",
+                    "derivative": "Él desayuna."
+                },
+                {
+                    "integral": "She eats breakfast.",
+                    "derivative": "Ella desayuna."
+                },
+                {
+                    "integral": "We eat breakfast. (masculine)",
+                    "derivative": "Nosotros desayunamos."
+                },
+                {
+                    "integral": "We eat breakfast. (feminine)",
+                    "derivative": "Nosotras desayunamos."
+                },
+                {
+                    "integral": "You all eat breakfast. (formal or informal American)",
+                    "derivative": "Ustedes desayunan."
+                },
+                {
+                    "integral": "They eat breakfast. (masculine)",
+                    "derivative": "Ellos desayunan."
+                },
+                {
+                    "integral": "They eat breakfast. (feminine)",
+                    "derivative": "Ellas desayunan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF DESCANSAR",
+            "examples": [
+                {
+                    "integral": "I rest.",
+                    "derivative": "Yo descanso."
+                },
+                {
+                    "integral": "You rest. (singular, informal)",
+                    "derivative": "Tú descansas."
+                },
+                {
+                    "integral": "You rest. (singular, formal)",
+                    "derivative": "Usted descansa."
+                },
+                {
+                    "integral": "He rests.",
+                    "derivative": "Él descansa."
+                },
+                {
+                    "integral": "She rests.",
+                    "derivative": "Ella descansa."
+                },
+                {
+                    "integral": "We rest. (masculine)",
+                    "derivative": "Nosotros descansamos."
+                },
+                {
+                    "integral": "We rest. (feminine)",
+                    "derivative": "Nosotras descansamos."
+                },
+                {
+                    "integral": "You all rest. (formal or informal American)",
+                    "derivative": "Ustedes descansan."
+                },
+                {
+                    "integral": "They rest. (masculine)",
+                    "derivative": "Ellos descansan."
+                },
+                {
+                    "integral": "They rest. (feminine)",
+                    "derivative": "Ellas descansan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF EDITAR",
+            "examples": [
+                {
+                    "integral": "I edit.",
+                    "derivative": "Yo edito."
+                },
+                {
+                    "integral": "You edit. (singular, informal)",
+                    "derivative": "Tú editas."
+                },
+                {
+                    "integral": "You edit. (singular, formal)",
+                    "derivative": "Usted edita."
+                },
+                {
+                    "integral": "He edits.",
+                    "derivative": "Él edita."
+                },
+                {
+                    "integral": "She edits.",
+                    "derivative": "Ella edita."
+                },
+                {
+                    "integral": "We edit. (masculine)",
+                    "derivative": "Nosotros editamos."
+                },
+                {
+                    "integral": "We edit. (feminine)",
+                    "derivative": "Nosotras editamos."
+                },
+                {
+                    "integral": "You all edit. (formal or informal American)",
+                    "derivative": "Ustedes editan."
+                },
+                {
+                    "integral": "They edit. (masculine)",
+                    "derivative": "Ellos editan."
+                },
+                {
+                    "integral": "They edit. (feminine)",
+                    "derivative": "Ellas editan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF ENSAYAR",
+            "examples": [
+                {
+                    "integral": "I rehearse.",
+                    "derivative": "Yo ensayo."
+                },
+                {
+                    "integral": "You rehearse. (singular, informal)",
+                    "derivative": "Tú ensayas."
+                },
+                {
+                    "integral": "You rehearse. (singular, formal)",
+                    "derivative": "Usted ensaya."
+                },
+                {
+                    "integral": "He rehearses.",
+                    "derivative": "Él ensaya."
+                },
+                {
+                    "integral": "She rehearses.",
+                    "derivative": "Ella ensaya."
+                },
+                {
+                    "integral": "We rehearse. (masculine)",
+                    "derivative": "Nosotros ensayamos."
+                },
+                {
+                    "integral": "We rehearse. (feminine)",
+                    "derivative": "Nosotras ensayamos."
+                },
+                {
+                    "integral": "You all rehearse. (formal or informal American)",
+                    "derivative": "Ustedes ensayan."
+                },
+                {
+                    "integral": "They rehearse. (masculine)",
+                    "derivative": "Ellos ensayan."
+                },
+                {
+                    "integral": "They rehearse. (feminine)",
+                    "derivative": "Ellas ensayan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF ENSEÑAR",
+            "examples": [
+                {
+                    "integral": "I teach.",
+                    "derivative": "Yo enseño."
+                },
+                {
+                    "integral": "You teach. (singular, informal)",
+                    "derivative": "Tú enseñas."
+                },
+                {
+                    "integral": "You teach. (singular, formal)",
+                    "derivative": "Usted enseña."
+                },
+                {
+                    "integral": "He teaches.",
+                    "derivative": "Él enseña."
+                },
+                {
+                    "integral": "She teaches.",
+                    "derivative": "Ella enseña."
+                },
+                {
+                    "integral": "We teach. (masculine)",
+                    "derivative": "Nosotros enseñamos."
+                },
+                {
+                    "integral": "We teach. (feminine)",
+                    "derivative": "Nosotras enseñamos."
+                },
+                {
+                    "integral": "You all teach. (formal or informal American)",
+                    "derivative": "Ustedes enseñan."
+                },
+                {
+                    "integral": "They teach. (masculine)",
+                   "derivative": "Ellos enseñan."
+                },
+                {
+                    "integral": "They teach. (feminine)",
+                   "derivative": "Ellas enseñan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF ESCUCHAR",
+            "examples": [
+                {
+                    "integral": "I listen.",
+                    "derivative": "Yo escucho."
+                },
+                {
+                    "integral": "You listen. (singular, informal)",
+                    "derivative": "Tú escuchas."
+                },
+                {
+                    "integral": "You listen. (singular, formal)",
+                    "derivative": "Usted escucha."
+                },
+                {
+                    "integral": "He listens.",
+                    "derivative": "Él escucha."
+                },
+                {
+                    "integral": "She listens.",
+                    "derivative": "Ella escucha."
+                },
+                {
+                    "integral": "We listen. (masculine)",
+                    "derivative": "Nosotros escuchamos."
+                },
+                {
+                    "integral": "We listen. (feminine)",
+                    "derivative": "Nosotras escuchamos."
+                },
+                {
+                    "integral": "You all listen. (formal or informal American)",
+                    "derivative": "Ustedes escuchan."
+                },
+                {
+                    "integral": "They listen. (masculine)",
+                    "derivative": "Ellos escuchan."
+                },
+                {
+                    "integral": "They listen. (feminine)",
+                    "derivative": "Ellas escuchan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF HABLAR",
+            "examples": [
+                {
+                    "integral": "I speak.",
+                    "derivative": "Yo hablo."
+                },
+                {
+                    "integral": "You speak. (singular, informal)",
+                    "derivative": "Tú hablas."
+                },
+                {
+                    "integral": "You speak. (singular, formal)",
+                    "derivative": "Usted habla."
+                },
+                {
+                    "integral": "He speaks.",
+                    "derivative": "Él habla."
+                },
+                {
+                    "integral": "She speaks.",
+                    "derivative": "Ella habla."
+                },
+                {
+                    "integral": "We speak. (masculine)",
+                    "derivative": "Nosotros hablamos."
+                },
+                {
+                    "integral": "We speak. (feminine)",
+                    "derivative": "Nosotras hablamos."
+                },
+                {
+                    "integral": "You all speak. (formal or informal American)",
+                    "derivative": "Ustedes hablan."
+                },
+                {
+                    "integral": "They speak. (masculine)",
+                    "derivative": "Ellos hablan."
+                },
+                {
+                    "integral": "They speak. (feminine)",
+                    "derivative": "Ellas hablan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF LAVAR",
+            "examples": [
+                {
+                    "integral": "I wash.",
+                    "derivative": "Yo lavo."
+                },
+                {
+                    "integral": "You wash. (singular, informal)",
+                    "derivative": "Tú lavas."
+                },
+                {
+                    "integral": "You wash. (singular, formal)",
+                    "derivative": "Usted lava."
+                },
+                {
+                    "integral": "He washes.",
+                    "derivative": "Él lava."
+                },
+                {
+                    "integral": "She washes.",
+                    "derivative": "Ella lava."
+                },
+                {
+                    "integral": "We wash. (masculine)",
+                    "derivative": "Nosotros lavamos."
+                },
+                {
+                    "integral": "We wash. (feminine)",
+                    "derivative": "Nosotras lavamos."
+                },
+                {
+                    "integral": "You all wash. (formal or informal American)",
+                    "derivative": "Ustedes lavan."
+                },
+                {
+                    "integral": "They wash. (masculine)",
+                    "derivative": "Ellos lavan."
+                },
+                {
+                    "integral": "They wash. (feminine)",
+                    "derivative": "Ellas lavan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF LLEGAR",
+            "examples": [
+                {
+                    "integral": "I arrive.",
+                    "derivative": "Yo llego."
+                },
+                {
+                    "integral": "You arrive. (singular, informal)",
+                    "derivative": "Tú llegas."
+                },
+                {
+                    "integral": "You arrive. (singular, formal)",
+                    "derivative": "Usted llega."
+                },
+                {
+                    "integral": "He arrives.",
+                    "derivative": "Él llega."
+                },
+                {
+                    "integral": "She arrives.",
+                    "derivative": "Ella llega."
+                },
+                {
+                    "integral": "We arrive. (masculine)",
+                    "derivative": "Nosotros llegamos."
+                },
+                {
+                    "integral": "We arrive. (feminine)",
+                    "derivative": "Nosotras llegamos."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF MANDAR",
+            "examples": [
+                {
+                    "integral": "I send.",
+                    "derivative": "Yo mando."
+                },
+                {
+                    "integral": "You send. (singular, informal)",
+                    "derivative": "Tú mandas."
+                },
+                {
+                    "integral": "You send. (singular, formal)",
+                    "derivative": "Usted manda."
+                },
+                {
+                    "integral": "He sends.",
+                    "derivative": "Él manda."
+                },
+                {
+                    "integral": "She sends.",
+                    "derivative": "Ella manda."
+                },
+                {
+                    "integral": "We send. (masculine)",
+                    "derivative": "Nosotros mandamos."
+                },
+                {
+                    "integral": "We send. (feminine)",
+                    "derivative": "Nosotras mandamos."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF MIRAR",
+            "examples": [
+                {
+                    "integral": "I look at.",
+                    "derivative": "Yo miro."
+                },
+                {
+                    "integral": "You look at. (singular, informal)",
+                    "derivative": "Tú miras."
+                },
+                {
+                    "integral": "You look at. (singular, formal)",
+                    "derivative": "Usted mira."
+                },
+                {
+                    "integral": "He looks at.",
+                    "derivative": "Él mira."
+                },
+                {
+                    "integral": "She looks at.",
+                    "derivative": "Ella mira."
+                },
+                {
+                    "integral": "We look at. (masculine)",
+                    "derivative": "Nosotros miramos."
+                },
+                {
+                    "integral": "We look at. (feminine)",
+                    "derivative": "Nosotras miramos."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF PINTAR",
+            "examples": [
+                {
+                    "integral": "I paint.",
+                    "derivative": "Yo pinto."
+                },
+                {
+                    "integral": "You paint. (singular, informal)",
+                    "derivative": "Tú pintas."
+                },
+                {
+                    "integral": "You paint. (singular, formal)",
+                    "derivative": "Usted pinta."
+                },
+                {
+                    "integral": "He paints.",
+                    "derivative": "Él pinta."
+                },
+                {
+                    "integral": "She paints.",
+                    "derivative": "Ella pinta."
+                },
+                {
+                    "integral": "We paint. (masculine)",
+                    "derivative": "Nosotros pintamos."
+                },
+                {
+                    "integral": "We paint. (feminine)",
+                    "derivative": "Nosotras pintamos."
+                }
+             ]
+        },
+        {
+            "title": "PRESENT TENSE OF PRACTICAR",
+            "examples": [
+                {
+                    "integral": "I practice.",
+                    "derivative": "Yo practico."
+                },
+                {
+                    "integral": "You practice. (singular, informal)",
+                    "derivative": "Tú practicas."
+                },
+                {
+                    "integral": "You practice. (singular, formal)",
+                    "derivative": "Usted practica."
+                },
+                {
+                    "integral": "He practices.",
+                    "derivative": "Él practica."
+                },
+                {
+                    "integral": "She practices.",
+                    "derivative": "Ella practica."
+                },
+                {
+                    "integral": "We practice. (masculine)",
+                    "derivative": "Nosotros practicamos."
+                },
+                {
+                    "integral": "We practice. (feminine)",
+                    "derivative": "Nosotras practicamos."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF QUEDAR",
+            "examples": [
+                {
+                    "integral": "I stay.",
+                    "derivative": "Yo quedo."
+                },
+                {
+                    "integral": "You stay. (singular, informal)",
+                    "derivative": "Tú quedas."
+                },
+                {
+                    "integral": "You stay. (singular, formal)",
+                    "derivative": "Usted queda."
+                },
+                {
+                    "integral": "He stays.",
+                    "derivative": "Él queda."
+                },
+                {
+                    "integral": "She stays.",
+                    "derivative": "Ella queda."
+                },
+                {
+                    "integral": "We stay. (masculine)",
+                    "derivative": "Nosotros quedamos."
+                },
+                {
+                    "integral": "We stay. (feminine)",
+                    "derivative": "Nosotras quedamos."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF REGRESAR",
+            "examples": [
+                {
+                    "integral": "I return.",
+                    "derivative": "Yo regreso."
+                },
+                {
+                    "integral": "You return. (singular, informal)",
+                    "derivative": "Tú regresas."
+                },
+                {
+                    "integral": "You return. (singular, formal)",
+                    "derivative": "Usted regresa."
+                },
+                {
+                    "integral": "He returns.",
+                    "derivative": "Él regresa."
+                },
+                {
+                    "integral": "She returns.",
+                    "derivative": "Ella regresa."
+                },
+                {
+                    "integral": "We return. (masculine)",
+                    "derivative": "Nosotros regresamos."
+                },
+                {
+                    "integral": "We return. (feminine)",
+                    "derivative": "Nosotras regresamos."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF TOMAR",
+            "examples": [
+                {
+                    "integral": "I take.",
+                    "derivative": "Yo tomo."
+                },
+                {
+                    "integral": "You take. (singular, informal)",
+                    "derivative": "Tú tomas."
+                },
+                {
+                    "integral": "You take. (singular, formal)",
+                    "derivative": "Usted toma."
+                },
+                {
+                    "integral": "He takes.",
+                    "derivative": "Él toma."
+                },
+                {
+                    "integral": "She takes.",
+                    "derivative": "Ella toma."
+                },
+                {
+                    "integral": "We take. (masculine)",
+                    "derivative": "Nosotros tomamos."
+                },
+                {
+                    "integral": "We take. (feminine)",
+                    "derivative": "Nosotras tomamos."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF TRABAJAR",
+            "examples": [
+                {
+                    "integral": "I work.",
+                    "derivative": "Yo trabajo."
+                },
+                {
+                    "integral": "You work. (singular, informal)",
+                    "derivative": "Tú trabajas."
+                },
+                {
+                    "integral": "You work. (singular, formal)",
+                    "derivative": "Usted trabaja."
+                },
+                {
+                    "integral": "He works.",
+                    "derivative": "Él trabaja."
+                },
+                {
+                    "integral": "She works.",
+                    "derivative": "Ella trabaja."
+                },
+                {
+                    "integral": "We work. (masculine)",
+                    "derivative": "Nosotros trabajamos."
+                },
+                {
+                    "integral": "We work. (feminine)",
+                    "derivative": "Nosotras trabajamos."
+                }
+            ]
+        }
+    ]
+}

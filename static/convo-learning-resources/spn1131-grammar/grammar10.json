@@ -1,0 +1,551 @@
+{
+  "groups": [
+    {
+      "title": "PRESENT PARTICIPLE FORMATION: LEER",
+      "examples": [
+        {
+          "integral": "I am reading.",
+          "derivative": "Estoy leyendo."
+        },
+        {
+          "integral": "You are reading. (informal)",
+          "derivative": "Tú estás leyendo."
+        },
+        {
+          "integral": "You are reading. (formal)",
+          "derivative": "Usted está leyendo."
+        },
+        {
+          "integral": "He is reading.",
+          "derivative": "Él está leyendo."
+        },
+        {
+          "integral": "She is reading.",
+          "derivative": "Ella está leyendo."
+        },
+        {
+          "integral": "We are reading. (masculine)",
+          "derivative": "Nosotros estamos leyendo."
+        },
+        {
+          "integral": "We are reading. (feminine)",
+          "derivative": "Nosotras estamos leyendo."
+        },
+        {
+          "integral": "You all are reading. (formal)",
+          "derivative": "Ustedes están leyendo."
+        },
+        {
+          "integral": "They are reading. (masculine)",
+          "derivative": "Ellos están leyendo."
+        },
+        {
+          "integral": "They are reading. (feminine)",
+          "derivative": "Ellas están leyendo."
+        }
+      ]
+    },
+    {
+    "title": "PRESENT PARTICIPLE FORMATION: DEFENDER",
+    "examples": [
+        {
+            "integral": "I am defending.",
+            "derivative": "Estoy defendiendo."
+        },
+        {
+            "integral": "You are defending. (informal)",
+            "derivative": "Tú estás defendiendo."
+        },
+        {
+            "integral": "You are defending. (formal)",
+            "derivative": "Usted está defendiendo."
+        },
+        {
+            "integral": "He is defending.",
+            "derivative": "Él está defendiendo."
+        },
+        {
+            "integral": "She is defending.",
+            "derivative": "Ella está defendiendo."
+        },
+        {
+            "integral": "We are defending. (masculine)",
+            "derivative": "Nosotros estamos defendiendo."
+        },
+        {
+            "integral": "We are defending. (feminine)",
+            "derivative": "Nosotras estamos defendiendo."
+        },
+        {
+            "integral": "You all are defending. (formal)",
+            "derivative": "Ustedes están defendiendo."
+        },
+        {
+            "integral": "They are defending. (masculine)",
+            "derivative": "Ellos están defendiendo."
+        },
+        {
+            "integral": "They are defending. (feminine)",
+            "derivative": "Ellas están defendiendo."
+        }
+      ]
+    },
+    {
+    "title": "PRESENT PARTICIPLE FORMATION: ASISTIR",
+    "examples": [
+        {
+            "integral": "I am attending.",
+            "derivative": "Estoy asistiendo."
+        },
+        {
+            "integral": "You are attending. (informal)",
+            "derivative": "Tú estás asistiendo."
+        },
+        {
+            "integral": "You are attending. (formal)",
+            "derivative": "Usted está asistiendo."
+        },
+        {
+            "integral": "He is attending.",
+            "derivative": "Él está asistiendo."
+        },
+        {
+            "integral": "She is attending.",
+            "derivative": "Ella está asistiendo."
+        },
+        {
+            "integral": "We are attending. (masculine)",
+            "derivative": "Nosotros estamos asistiendo."
+        },
+        {
+            "integral": "We are attending. (feminine)",
+            "derivative": "Nosotras estamos asistiendo."
+        },
+        {
+            "integral": "You all are attending. (formal)",
+            "derivative": "Ustedes están asistiendo."
+        },
+        {
+            "integral": "They are attending. (masculine)",
+            "derivative": "Ellos están asistiendo."
+        },
+        {
+            "integral": "They are attending. (feminine)",
+            "derivative": "Ellas están asistiendo."
+        }
+      ]
+    },
+    {
+    "title": "PRESENT PARTICIPLE FORMATION: CAER",
+    "examples": [
+        {
+            "integral": "I am falling.",
+            "derivative": "Estoy cayendo."
+        },
+        {
+            "integral": "You are falling. (informal)",
+            "derivative": "Tú estás cayendo."
+        },
+        {
+            "integral": "You are falling. (formal)",
+            "derivative": "Usted está cayendo."
+        },
+        {
+            "integral": "He is falling.",
+            "derivative": "Él está cayendo."
+        },
+        {
+            "integral": "She is falling.",
+            "derivative": "Ella está cayendo."
+        },
+        {
+            "integral": "We are falling. (masculine)",
+            "derivative": "Nosotros estamos cayendo."
+        },
+        {
+            "integral": "We are falling. (feminine)",
+            "derivative": "Nosotras estamos cayendo."
+        },
+        {
+            "integral": "You all are falling. (formal)",
+            "derivative": "Ustedes están cayendo."
+        },
+        {
+            "integral": "They are falling. (masculine)",
+            "derivative": "Ellos están cayendo."
+        },
+        {
+            "integral": "They are falling. (feminine)",
+            "derivative": "Ellas están cayendo."
+        }
+      ]
+    },
+    {
+    "title": "PRETERITE TENSE OF PEDIR",
+    "examples": [
+        {
+            "integral": "I asked for.",
+            "derivative": "Yo pedí."
+        },
+        {
+            "integral": "You asked for. (informal)",
+            "derivative": "Tú pediste."
+        },
+        {
+            "integral": "You asked for. (formal)",
+            "derivative": "Usted pidió."
+        },
+        {
+            "integral": "He asked for.",
+            "derivative": "Él pidió."
+        },
+        {
+            "integral": "She asked for.",
+            "derivative": "Ella pidió."
+        },
+        {
+            "integral": "We asked for. (masculine)",
+            "derivative": "Nosotros pedimos."
+        },
+        {
+            "integral": "We asked for. (feminine)",
+            "derivative": "Nosotras pedimos."
+        },
+        {
+            "integral": "You all asked for. (formal or informal American)",
+            "derivative": "Ustedes pidieron."
+        },
+        {
+            "integral": "They asked for. (masculine)",
+            "derivative": "Ellos pidieron."
+        },
+        {
+            "integral": "They asked for. (feminine)",
+            "derivative": "Ellas pidieron."
+        }
+      ]
+    },
+    {
+        "title": "PRETERITE TENSE OF HACER",
+        "examples": [
+            {"integral": "I did/made.", "derivative": "Yo hice."},
+            {"integral": "You did/made. (informal)", "derivative": "Tú hiciste."},
+            {"integral": "You did/made. (formal)", "derivative": "Usted hizo."},
+            {"integral": "He did/made.", "derivative": "Él hizo."},
+            {"integral": "She did/made.", "derivative": "Ella hizo."},
+            {"integral": "We did/made. (masculine)", "derivative": "Nosotros hicimos."},
+            {"integral": "We did/made. (feminine)", "derivative": "Nosotras hicimos."},
+            {"integral": "You all did/made. (formal or informal American)", "derivative": "Ustedes hicieron."},
+            {"integral": "They did/made. (masculine)", "derivative": "Ellos hicieron."},
+            {"integral": "They did/made. (feminine)", "derivative": "Ellas hicieron."}
+        ]
+    },
+    {
+        "title": "PRETERITE TENSE OF QUERER",
+        "examples": [
+            {"integral": "I wanted.", "derivative": "Yo quise."},
+            {"integral": "You wanted. (informal)", "derivative": "Tú quisiste."},
+            {"integral": "You wanted. (formal)", "derivative": "Usted quiso."},
+            {"integral": "He wanted.", "derivative": "Él quiso."},
+            {"integral": "She wanted.", "derivative": "Ella quiso."},
+            {"integral": "We wanted. (masculine)", "derivative": "Nosotros quisimos."},
+            {"integral": "We wanted. (feminine)", "derivative": "Nosotras quisimos."},
+            {"integral": "You all wanted. (formal or informal American)", "derivative": "Ustedes quisieron."},
+            {"integral": "They wanted. (masculine)", "derivative": "Ellos quisieron."},
+            {"integral": "They wanted. (feminine)", "derivative": "Ellas quisieron."}
+        ]
+    },
+    {
+        "title": "PRETERITE TENSE OF VENIR",
+        "examples": [
+            {"integral": "I came.", "derivative": "Yo vine."},
+            {"integral": "You came. (informal)", "derivative": "Tú viniste."},
+            {"integral": "You came. (formal)", "derivative": "Usted vino."},
+            {"integral": "He came.", "derivative": "Él vino."},
+            {"integral": "She came.", "derivative": "Ella vino."},
+            {"integral": "We came. (masculine)", "derivative": "Nosotros vinimos."},
+            {"integral": "We came. (feminine)", "derivative": "Nosotras vinimos."},
+            {"integral": "You all came. (formal or informal American)", "derivative": "Ustedes vinieron."},
+            {"integral": "They came. (masculine)", "derivative": "Ellos vinieron."},
+            {"integral": "They came. (feminine)", "derivative": "Ellas vinieron."}
+        ]
+    },
+    {
+        "title": "PRETERITE TENSE OF ESTAR",
+        "examples": [
+            {"integral": "I was.", "derivative": "Yo estuve."},
+            {"integral": "You were. (informal)", "derivative": "Tú estuviste."},
+            {"integral": "You were. (formal)", "derivative": "Usted estuvo."},
+            {"integral": "He was.", "derivative": "Él estuvo."},
+            {"integral": "She was.", "derivative": "Ella estuvo."},
+            {"integral": "We were. (masculine)", "derivative": "Nosotros estuvimos."},
+            {"integral": "We were. (feminine)", "derivative": "Nosotras estuvimos."},
+            {"integral": "You all were. (formal or informal American)", "derivative": "Ustedes estuvieron."},
+            {"integral": "They were. (masculine)", "derivative": "Ellos estuvieron."},
+            {"integral": "They were. (feminine)", "derivative": "Ellas estuvieron."}
+        ]
+    },
+    {
+        "title": "PRETERITE TENSE OF PODER",
+        "examples": [
+            {"integral": "I was able/could.", "derivative": "Yo pude."},
+            {"integral": "You were able/could. (informal)", "derivative": "Tú pudiste."},
+            {"integral": "You were able/could. (formal)", "derivative": "Usted pudo."},
+            {"integral": "He was able/could.", "derivative": "Él pudo."},
+            {"integral": "She was able/could.", "derivative": "Ella pudo."},
+            {"integral": "We were able/could. (masculine)", "derivative": "Nosotros pudimos."},
+            {"integral": "We were able/could. (feminine)", "derivative": "Nosotras pudimos."},
+            {"integral": "You all were able/could. (formal or informal American)", "derivative": "Ustedes pudieron."},
+            {"integral": "They were able/could. (masculine)", "derivative": "Ellos pudieron."},
+            {"integral": "They were able/could. (feminine)", "derivative": "Ellas pudieron."}
+        ]
+    },
+    {
+        "title": "PRETERITE TENSE OF PONER",
+        "examples": [
+            {"integral": "I put.", "derivative": "Yo puse."},
+            {"integral": "You put. (informal)", "derivative": "Tú pusiste."},
+            {"integral": "You put. (formal)", "derivative": "Usted puso."},
+            {"integral": "He put.", "derivative": "Él puso."},
+            {"integral": "She put.", "derivative": "Ella puso."},
+            {"integral": "We put. (masculine)", "derivative": "Nosotros pusimos."},
+            {"integral": "We put. (feminine)", "derivative": "Nosotras pusimos."},
+            {"integral": "You all put. (formal or informal American)", "derivative": "Ustedes pusieron."},
+            {"integral": "They put. (masculine)", "derivative": "Ellos pusieron."},
+            {"integral": "They put. (feminine)", "derivative": "Ellas pusieron."}
+        ]
+    },
+    {
+        "title": "PRETERITE TENSE OF SABER",
+        "examples": [
+            {"integral": "I found out.", "derivative": "Yo supe."},
+            {"integral": "You found out. (informal)", "derivative": "Tú supiste."},
+            {"integral": "You found out. (formal)", "derivative": "Usted supo."},
+            {"integral": "He found out.", "derivative": "Él supo."},
+            {"integral": "She found out.", "derivative": "Ella supo."},
+            {"integral": "We found out. (masculine)", "derivative": "Nosotros supimos."},
+            {"integral": "We found out. (feminine)", "derivative": "Nosotras supimos."},
+            {"integral": "You all found out. (formal or informal American)", "derivative": "Ustedes supieron."},
+            {"integral": "They found out. (masculine)", "derivative": "Ellos supieron."},
+            {"integral": "They found out. (feminine)", "derivative": "Ellas supieron."}
+        ]
+    },
+    {
+        "title": "PRETERITE TENSE OF TENER",
+        "examples": [
+            {"integral": "I had.", "derivative": "Yo tuve."},
+            {"integral": "You had. (informal)", "derivative": "Tú tuviste."},
+            {"integral": "You had. (formal)", "derivative": "Usted tuvo."},
+            {"integral": "He had.", "derivative": "Él tuvo."},
+            {"integral": "She had.", "derivative": "Ella tuvo."},
+            {"integral": "We had. (masculine)", "derivative": "Nosotros tuvimos."},
+            {"integral": "We had. (feminine)", "derivative": "Nosotras tuvimos."},
+            {"integral": "You all had. (formal or informal American)", "derivative": "Ustedes tuvieron."},
+            {"integral": "They had. (masculine)", "derivative": "Ellos tuvieron."},
+            {"integral": "They had. (feminine)", "derivative": "Ellas tuvieron."}
+        ]
+    },
+
+    {
+      "title": "PRETERITE TENSE OF DECIR",
+      "examples": [
+        {
+          "integral": "Yo (decir, preterite).",
+          "derivative": "Yo dije."
+        },
+        {
+          "integral": "Tú (decir, preterite).",
+          "derivative": "Tú dijiste."
+        },
+        {
+          "integral": "Usted (decir, preterite).",
+          "derivative": "Usted dijo."
+        },
+        {
+          "integral": "Él (decir, preterite).",
+          "derivative": "Él dijo."
+        },
+        {
+          "integral": "Ella (decir, preterite).",
+          "derivative": "Ella dijo."
+        },
+        {
+          "integral": "Nosotros (decir, preterite).",
+          "derivative": "Nosotros dijimos."
+        },
+        {
+          "integral": "Nosotras (decir, preterite).",
+          "derivative": "Nosotras dijimos."
+        },
+        {
+           "integral": "Ellos (decir, preterite).",
+           "derivative": "Ellos dijeron."
+        },
+        {
+          "integral": "Ellas (decir, preterite).",
+          "derivative": "Ellas dijeron."
+        },
+        {
+          "integral": "Ustedes (decir, preterite).",
+          "derivative": "Ustedes dijeron."
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE TENSE OF IRREGULAR VERBS: SER",
+      "examples": [
+        {
+          "integral": "Yo (ser, preterite).",
+          "derivative": "Yo fui."
+        },
+        {
+          "integral": "Tú (ser, preterite).",
+          "derivative": "Tú fuiste."
+        },
+        {
+          "integral": "Usted (ser, preterite).",
+          "derivative": "Usted fue."
+        },
+        {
+          "integral": "Nosotros (ser, preterite).",
+          "derivative": "Nosotros fuimos."
+        },
+        {
+          "integral": "Nosotras (ser, preterite).",
+          "derivative": "Nosotras fuimos."
+        },
+        {
+          "integral": "Ellos (ser, preterite).",
+          "derivative": "Ellos fueron."
+        },
+        {
+          "integral": "Ellas (ser, preterite).",
+          "derivative": "Ellas fueron."
+        },
+        {
+          "integral": "Ustedes (ser, preterite).",
+          "derivative": "Ustedes fueron."
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE TENSE OF IR",
+      "examples": [
+        {
+          "integral": "Yo (ir, preterite).",
+          "derivative": "Yo fui."
+        },
+        {
+          "integral": "Tú (ir, preterite).",
+          "derivative": "Tú fuiste."
+        },
+        {
+          "integral": "Usted (ir, preterite).",
+          "derivative": "Usted fue."
+        },
+        {
+          "integral": "Nosotros (ir, preterite).",
+          "derivative": "Nosotros fuimos."
+        },
+        {
+          "integral": "Nosotras (ir, preterite).",
+          "derivative": "Nosotras fuimos."
+        },
+        {
+          "integral": "Ellos (ir, preterite).",
+          "derivative": "Ellos fueron."
+        },
+        {
+          "integral": "Ellas (ir, preterite).",
+          "derivative": "Ellas fueron."
+        },
+        {
+          "integral": "Ustedes (ir, preterite).",
+          "derivative": "Ustedes fueron."
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE TENSE OF IRREGULAR VERBS: DAR",
+      "examples": [
+        {
+          "integral": "Yo (dar, preterite).",
+          "derivative": "Yo di."
+        },
+        {
+          "integral": "Tú (dar, preterite).",
+          "derivative": "Tú diste."
+        },
+        {
+          "integral": "Usted (dar, preterite).",
+          "derivative": "Usted dio."
+        },
+        {
+          "integral": "Él (dar, preterite).",
+          "derivative": "Él dio."
+        },
+        {
+          "integral": "Ella (dar, preterite).",
+          "derivative": "Ella dio."
+        },
+        {
+          "integral": "Nosotros (dar, preterite).",
+          "derivative": "Nosotros dimos."
+        },
+        {
+          "integral": "Nosotras (dar, preterite).",
+          "derivative": "Nosotras dimos."
+        },
+        {
+          "integral": "Ellos (dar, preterite).",
+          "derivative": "Ellos dieron."
+        },
+        {
+          "integral": "Ellas (dar, preterite).",
+          "derivative": "Ellas dieron."
+        },
+        {
+          "integral": "Ustedes (dar, preterite).",
+          "derivative": "Ustedes dieron."
+        }
+      ]
+    },
+    {
+      "title": "PRETERITE TENSE OF VER",
+      "examples": [
+        {
+          "integral": "Yo (ver, preterite).",
+          "derivative": "Yo vi."
+        },
+        {
+          "integral": "Tú (ver, preterite).",
+          "derivative": "Tú viste."
+        },
+        {
+          "integral": "Usted (ver, preterite).",
+          "derivative": "Usted vio."
+        },
+        {
+          "integral": "Nosotros (ver, preterite).",
+          "derivative": "Nosotros vimos."
+        },
+        {
+          "integral": "Nosotras (ver, preterite).",
+          "derivative": "Nosotras vimos."
+        },
+        {
+          "integral": "Ellos (ver, preterite).",
+          "derivative": "Ellos vieron."
+        },
+        {
+          "integral": "Ellas (ver, preterite).",
+          "derivative": "Ellas vieron."
+        },
+        {
+          "integral": "Ustedes (ver, preterite).",
+          "derivative": "Ustedes vieron."
+        }
+      ]
+    }
+  ]
+}

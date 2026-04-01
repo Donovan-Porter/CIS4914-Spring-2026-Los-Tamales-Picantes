@@ -1,0 +1,54 @@
+{
+    "groups": [
+        {
+            "title": "PRESENT TENSE OF SER, SINGULAR",
+            "examples": [
+                {
+                    "integral": "I am.",
+                    "derivative": "Yo soy."
+                },
+                {
+                    "integral": "You are. (informal)",
+                    "derivative": "Tú eres."
+                },
+                {
+                    "integral": "You are. (formal)",
+                    "derivative": "Usted es."
+                },
+                {
+                    "integral": "He is.",
+                    "derivative": "Él es."
+                },
+                {
+                    "integral": "She is.",
+                    "derivative": "Ella es."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF ESTAR, SINGULAR",
+            "examples": [
+                {
+                    "integral": "I am.",
+                    "derivative": "Yo estoy."
+                },
+                {
+                    "integral": "You are. (informal)",
+                    "derivative": "Tú estás."
+                },
+                {
+                    "integral": "You are. (formal)",
+                    "derivative": "Usted está."
+                },
+                {
+                    "integral": "He is.",
+                    "derivative": "Él está."
+                },
+                {
+                    "integral": "She is.",
+                    "derivative": "Ella está."
+                }
+            ]
+        }
+    ]
+}

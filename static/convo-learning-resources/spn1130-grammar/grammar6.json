@@ -1,0 +1,769 @@
+{
+    "groups": [
+        {
+            "title": "PRESENT TENSE OF SERVIR",
+            "examples": [
+                {
+                    "integral": "I serve.",
+                    "derivative": "Yo sirvo."
+                },
+                {
+                    "integral": "You serve. (informal)",
+                    "derivative": "Tú sirves."
+                },
+                {
+                    "integral": "You serve. (formal)",
+                    "derivative": "Usted sirve."
+                },
+                {
+                    "integral": "He serves.",
+                    "derivative": "Él sirve."
+                },
+                {
+                    "integral": "She serves.",
+                    "derivative": "Ella sirve."
+                },
+                {
+                    "integral": "We serve. (masculine)",
+                    "derivative": "Nosotros servemos."
+                },
+                {
+                    "integral": "We serve. (feminine)",
+                    "derivative": "Nosotras servemos."
+                },
+                {
+                    "integral": "You all serve. (formal or informal American)",
+                    "derivative": "Ustedes sirven."
+                },
+                {
+                    "integral": "They serve. (masculine)",
+                    "derivative": "Ellos sirven."
+                },
+                {
+                    "integral": "They serve. (feminine)",
+                    "derivative": "Ellas sirven."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF PODER",
+            "examples": [
+                {
+                    "integral": "I can.",
+                    "derivative": "Yo puedo."
+                },
+                {
+                    "integral": "You can. (informal)",
+                    "derivative": "Tú puedes."
+                },
+                {
+                    "integral": "You can. (formal)",
+                    "derivative": "Usted puede."
+                },
+                {
+                    "integral": "He can.",
+                    "derivative": "Él puede."
+                },
+                {
+                    "integral": "She can.",
+                    "derivative": "Ella puede."
+                },
+                {
+                    "integral": "We can. (masculine)",
+                    "derivative": "Nosotros podemos."
+                },
+                {
+                    "integral": "We can. (feminine)",
+                    "derivative": "Nosotras podemos."
+                },
+                {
+                    "integral": "You all can. (formal or informal American)",
+                    "derivative": "Ustedes pueden."
+                },
+                {
+                    "integral": "They can. (masculine)",
+                    "derivative": "Ellos pueden."
+                },
+                {
+                    "integral": "They can. (feminine)",
+                    "derivative": "Ellas pueden."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF EMPEZAR",
+            "examples": [
+                {
+                    "integral": "I start.",
+                    "derivative": "Yo empiezo."
+                },
+                {
+                    "integral": "You start. (informal)",
+                    "derivative": "Tú empiezas."
+                },
+                {
+                    "integral": "You start. (formal)",
+                    "derivative": "Usted empieza."
+                },
+                {
+                    "integral": "He starts.",
+                    "derivative": "Él empieza."
+                },
+                {
+                    "integral": "She starts.",
+                    "derivative": "Ella empieza."
+                },
+                {
+                    "integral": "We start. (masculine)",
+                    "derivative": "Nosotros empezamos."
+                },
+                {
+                    "integral": "We start. (feminine)",
+                    "derivative": "Nosotras empezamos."
+                },
+                {
+                    "integral": "You all start. (formal or informal American)",
+                    "derivative": "Ustedes empiezan."
+                },
+                {
+                    "integral": "They start. (masculine)",
+                    "derivative": "Ellos empiezan."
+                },
+                {
+                    "integral": "They start. (feminine)",
+                    "derivative": "Ellas empiezan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF ENTENDER",
+            "examples": [
+                {
+                    "integral": "I understand.",
+                    "derivative": "Yo entiendo."
+                },
+                {
+                    "integral": "You understand. (informal)",
+                    "derivative": "Tú entiendes."
+                },
+                {
+                    "integral": "You understand. (formal)",
+                    "derivative": "Usted entiende."
+                },
+                {
+                    "integral": "He understands.",
+                    "derivative": "Él entiende."
+                },
+                {
+                    "integral": "She understands.",
+                    "derivative": "Ella entiende."
+                },
+                {
+                    "integral": "We understand. (masculine)",
+                    "derivative": "Nosotros entendemos."
+                },
+                {
+                    "integral": "We understand. (feminine)",
+                    "derivative": "Nosotras entendemos."
+                },
+                {
+                    "integral": "You all understand. (formal or informal American)",
+                    "derivative": "Ustedes entienden."
+                },
+                {
+                    "integral": "They understand. (masculine)",
+                    "derivative": "Ellos entienden."
+                },
+                {
+                    "integral": "They understand. (feminine)",
+                    "derivative": "Ellas entienden."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF PENSAR",
+            "examples": [
+                {
+                    "integral": "I think.",
+                    "derivative": "Yo pienso."
+                },
+                {
+                    "integral": "You think. (informal)",
+                    "derivative": "Tú piensas."
+                },
+                {
+                    "integral": "You think. (formal)",
+                    "derivative": "Usted piensa."
+                },
+                {
+                    "integral": "He thinks.",
+                    "derivative": "Él piensa."
+                },
+                {
+                    "integral": "She thinks.",
+                    "derivative": "Ella piensa."
+                },
+                {
+                    "integral": "We think. (masculine)",
+                    "derivative": "Nosotros pensamos."
+                },
+                {
+                    "integral": "We think. (feminine)",
+                    "derivative": "Nosotras pensamos."
+                },
+                {
+                    "integral": "You all think. (formal or informal American)",
+                    "derivative": "Ustedes piensan."
+                },
+                {
+                    "integral": "They think. (masculine)",
+                    "derivative": "Ellos piensan."
+                },
+                {
+                    "integral": "They think. (feminine)",
+                    "derivative": "Ellas piensan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF PREFERIR",
+            "examples": [
+                {
+                    "integral": "I prefer.",
+                    "derivative": "Yo prefiero."
+                },
+                {
+                    "integral": "You prefer. (informal)",
+                    "derivative": "Tú prefieres."
+                },
+                {
+                    "integral": "You prefer. (formal)",
+                    "derivative": "Usted prefiere."
+                },
+                {
+                    "integral": "He prefers.",
+                    "derivative": "Él prefiere."
+                },
+                {
+                    "integral": "She prefers.",
+                    "derivative": "Ella prefiere."
+                },
+                {
+                    "integral": "We prefer. (masculine)",
+                    "derivative": "Nosotros preferimos."
+                },
+                {
+                    "integral": "We prefer. (feminine)",
+                    "derivative": "Nosotras preferimos."
+                },
+                {
+                    "integral": "You all prefer. (formal or informal American)",
+                    "derivative": "Ustedes prefieren."
+                },
+                {
+                    "integral": "They prefer. (masculine)",
+                    "derivative": "Ellos prefieren."
+                },
+                {
+                    "integral": "They prefer. (feminine)",
+                    "derivative": "Ellas prefieren."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF PERDER",
+            "examples": [
+                {
+                    "integral": "I lose.",
+                    "derivative": "Yo pierdo."
+                },
+                {
+                    "integral": "You lose. (informal)",
+                    "derivative": "Tú pierdes."
+                },
+                {
+                    "integral": "You lose. (formal)",
+                    "derivative": "Usted pierde."
+                },
+                {
+                    "integral": "He loses.",
+                    "derivative": "Él pierde."
+                },
+                {
+                    "integral": "She loses.",
+                    "derivative": "Ella pierde."
+                },
+                {
+                    "integral": "We lose. (masculine)",
+                    "derivative": "Nosotros perdemos."
+                },
+                {
+                    "integral": "We lose. (feminine)",
+                    "derivative": "Nosotras perdemos."
+                },
+                {
+                    "integral": "You all lose. (formal or informal American)",
+                    "derivative": "Ustedes pierden."
+                },
+                {
+                    "integral": "They lose. (masculine)",
+                    "derivative": "Ellos pierden."
+                },
+                {
+                    "integral": "They lose. (feminine)",
+                    "derivative": "Ellas pierden."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF QUERER",
+            "examples": [
+                {
+                    "integral": "I want.",
+                    "derivative": "Yo quiero."
+                },
+                {
+                    "integral": "You want. (informal)",
+                    "derivative": "Tú quieres."
+                },
+                {
+                    "integral": "You want. (formal)",
+                    "derivative": "Usted quiere."
+                },
+                {
+                    "integral": "He wants.",
+                    "derivative": "Él quiere."
+                },
+                {
+                    "integral": "She wants.",
+                    "derivative": "Ella quiere."
+                },
+                {
+                    "integral": "We want. (masculine)",
+                    "derivative": "Nosotros queremos."
+                },
+                {
+                    "integral": "We want. (feminine)",
+                    "derivative": "Nosotras queremos."
+                },
+                {
+                    "integral": "You all want. (formal or informal American)",
+                    "derivative": "Ustedes quieren."
+                },
+                {
+                    "integral": "They want. (masculine)",
+                    "derivative": "Ellos quieren."
+                },
+                {
+                    "integral": "They want. (feminine)",
+                    "derivative": "Ellas quieren."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF CONTAR",
+            "examples": [
+                {
+                    "integral": "I count.",
+                    "derivative": "Yo cuento."
+                },
+                {
+                    "integral": "You count. (informal)",
+                    "derivative": "Tú cuentas."
+                },
+                {
+                    "integral": "You count. (formal)",
+                    "derivative": "Usted cuenta."
+                },
+                {
+                    "integral": "He counts.",
+                    "derivative": "Él cuenta."
+                },
+                {
+                    "integral": "She counts.",
+                    "derivative": "Ella cuenta."
+                },
+                {
+                    "integral": "We count. (masculine)",
+                    "derivative": "Nosotros contamos."
+                },
+                {
+                    "integral": "We count. (feminine)",
+                    "derivative": "Nosotras contamos."
+                },
+                {
+                    "integral": "You all count. (formal or informal American)",
+                    "derivative": "Ustedes cuentan."
+                },
+                {
+                    "integral": "They count. (masculine)",
+                    "derivative": "Ellos cuentan."
+                },
+                {
+                    "integral": "They count. (feminine)",
+                    "derivative": "Ellas cuentan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF PODER",
+            "examples": [
+                {
+                    "integral": "I can.",
+                    "derivative": "Yo puedo."
+                },
+                {
+                    "integral": "You can. (informal)",
+                    "derivative": "Tú puedes."
+                },
+                {
+                    "integral": "You can. (formal)",
+                    "derivative": "Usted puede."
+                },
+                {
+                    "integral": "He can.",
+                    "derivative": "Él puede."
+                },
+                {
+                    "integral": "She can.",
+                    "derivative": "Ella puede."
+                },
+                {
+                    "integral": "We can. (masculine)",
+                    "derivative": "Nosotros podemos."
+                },
+                {
+                    "integral": "We can. (feminine)",
+                    "derivative": "Nosotras podemos."
+                },
+                {
+                    "integral": "You all can. (formal or informal American)",
+                    "derivative": "Ustedes pueden."
+                },
+                {
+                    "integral": "They can. (masculine)",
+                    "derivative": "Ellos pueden."
+                },
+                {
+                    "integral": "They can. (feminine)",
+                    "derivative": "Ellas pueden."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF SOÑAR",
+            "examples": [
+                {
+                    "integral": "I dream.",
+                    "derivative": "Yo sueño."
+                },
+                {
+                    "integral": "You dream. (informal)",
+                    "derivative": "Tú sueñas."
+                },
+                {
+                    "integral": "You dream. (formal)",
+                    "derivative": "Usted sueña."
+                },
+                {
+                    "integral": "He dreams.",
+                    "derivative": "Él sueña."
+                },
+                {
+                    "integral": "She dreams.",
+                    "derivative": "Ella sueña."
+                },
+                {
+                    "integral": "We dream. (masculine)",
+                    "derivative": "Nosotros soñamos."
+                },
+                {
+                    "integral": "We dream. (feminine)",
+                    "derivative": "Nosotras soñamos."
+                },
+                {
+                    "integral": "You all dream. (formal or informal American)",
+                    "derivative": "Ustedes sueñan."
+                },
+                {
+                    "integral": "They dream. (masculine)",
+                    "derivative": "Ellos sueñan."
+                },
+                {
+                    "integral": "They dream. (feminine)",
+                    "derivative": "Ellas sueñan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF SONREÍR",
+            "examples": [
+                {
+                    "integral": "I smile.",
+                    "derivative": "Yo sonrío."
+                },
+                {
+                    "integral": "You smile. (informal)",
+                    "derivative": "Tú sonríes."
+                },
+                {
+                    "integral": "You smile. (formal)",
+                    "derivative": "Usted sonríe."
+                },
+                {
+                    "integral": "He smiles.",
+                    "derivative": "Él sonríe."
+                },
+                {
+                    "integral": "She smiles.",
+                    "derivative": "Ella sonríe."
+                },
+                {
+                    "integral": "We smile. (masculine)",
+                    "derivative": "Nosotros sonreímos."
+                },
+                {
+                    "integral": "We smile. (feminine)",
+                    "derivative": "Nosotras sonreímos."
+                },
+                {
+                    "integral": "You all smile. (formal or informal American)",
+                    "derivative": "Ustedes sonríen."
+                },
+                {
+                    "integral": "They smile. (masculine)",
+                    "derivative": "Ellos sonríen."
+                },
+                {
+                    "integral": "They smile. (feminine)",
+                    "derivative": "Ellas sonríen."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF REÍR",
+            "examples": [
+                {
+                    "integral": "I laugh.",
+                    "derivative": "Yo río."
+                },
+                {
+                    "integral": "You laugh. (informal)",
+                    "derivative": "Tú ríes."
+                },
+                {
+                    "integral": "You laugh. (formal)",
+                    "derivative": "Usted ríe."
+                },
+                {
+                    "integral": "He laughs.",
+                    "derivative": "Él ríe."
+                },
+                {
+                    "integral": "She laughs.",
+                    "derivative": "Ella ríe."
+                },
+                {
+                    "integral": "We laugh. (masculine)",
+                    "derivative": "Nosotros reímos."
+                },
+                {
+                    "integral": "We laugh. (feminine)",
+                    "derivative": "Nosotras reímos."
+                },
+                {
+                    "integral": "You all laugh. (formal or informal American)",
+                    "derivative": "Ustedes ríen."
+                },
+                {
+                    "integral": "They laugh. (masculine)",
+                    "derivative": "Ellos ríen."
+                },
+                {
+                    "integral": "They laugh. (feminine)",
+                    "derivative": "Ellas ríen."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF REPETIR",
+            "examples": [
+                {
+                    "integral": "I repeat.",
+                    "derivative": "Yo repito."
+                },
+                {
+                    "integral": "You repeat. (informal)",
+                    "derivative": "Tú repites."
+                },
+                {
+                    "integral": "You repeat. (formal)",
+                    "derivative": "Usted repite."
+                },
+                {
+                    "integral": "He repeats.",
+                    "derivative": "Él repite."
+                },
+                {
+                    "integral": "She repeats.",
+                    "derivative": "Ella repite."
+                },
+                {
+                    "integral": "We repeat. (masculine)",
+                    "derivative": "Nosotros repetimos."
+                },
+                {
+                    "integral": "We repeat. (feminine)",
+                    "derivative": "Nosotras repetimos."
+                },
+                {
+                    "integral": "You all repeat. (formal or informal American)",
+                    "derivative": "Ustedes repiten."
+                },
+                {
+                    "integral": "They repeat. (masculine)",
+                    "derivative": "Ellos repiten."
+                },
+                {
+                    "integral": "They repeat. (feminine)",
+                    "derivative": "Ellas repiten."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF SERVIR",
+            "examples": [
+                {
+                    "integral": "I serve.",
+                    "derivative": "Yo sirvo."
+                },
+                {
+                    "integral": "You serve. (informal)",
+                    "derivative": "Tú sirves."
+                },
+                {
+                    "integral": "You serve. (formal)",
+                    "derivative": "Usted sirve."
+                },
+                {
+                    "integral": "He serves.",
+                    "derivative": "Él sirve."
+                },
+                {
+                    "integral": "She serves.",
+                    "derivative": "Ella sirve."
+                },
+                {
+                    "integral": "We serve. (masculine)",
+                    "derivative": "Nosotros servimos."
+                },
+                {
+                    "integral": "We serve. (feminine)",
+                    "derivative": "Nosotras servimos."
+                },
+                {
+                    "integral": "You all serve. (formal or informal American)",
+                    "derivative": "Ustedes sirven."
+                },
+                {
+                    "integral": "They serve. (masculine)",
+                    "derivative": "Ellos sirven."
+                },
+                {
+                    "integral": "They serve. (feminine)",
+                    "derivative": "Ellas sirven."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF JUGAR",
+            "examples": [
+                {
+                    "integral": "I play.",
+                    "derivative": "Yo juego."
+                },
+                {
+                    "integral": "You play. (informal)",
+                    "derivative": "Tú juegas."
+                },
+                {
+                    "integral": "You play. (formal)",
+                    "derivative": "Usted juega."
+                },
+                {
+                    "integral": "He plays.",
+                    "derivative": "Él juega."
+                },
+                {
+                    "integral": "She plays.",
+                    "derivative": "Ella juega."
+                },
+                {
+                    "integral": "We play. (masculine)",
+                    "derivative": "Nosotros jugamos."
+                },
+                {
+                    "integral": "We play. (feminine)",
+                    "derivative": "Nosotras jugamos."
+                },
+                {
+                    "integral": "You all play. (formal or informal American)",
+                    "derivative": "Ustedes juegan."
+                },
+                {
+                    "integral": "They play. (masculine)",
+                    "derivative": "Ellos juegan."
+                },
+                {
+                    "integral": "They play. (feminine)",
+                    "derivative": "Ellas juegan."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF TENER",
+            "examples": [
+                {
+                    "integral": "I have.",
+                    "derivative": "Yo tengo."
+                },
+                {
+                    "integral": "You have. (informal)",
+                    "derivative": "Tú tienes."
+                },
+                {
+                    "integral": "You have. (formal)",
+                    "derivative": "Usted tiene."
+                },
+                {
+                    "integral": "He has.",
+                    "derivative": "Él tiene."
+                },
+                {
+                    "integral": "She has.",
+                    "derivative": "Ella tiene."
+                },
+                {
+                    "integral": "We have. (masculine)",
+                    "derivative": "Nosotros tenemos."
+                },
+                {
+                    "integral": "We have. (feminine)",
+                    "derivative": "Nosotras tenemos."
+                },
+                {
+                    "integral": "You all have. (formal or informal American)",
+                    "derivative": "Ustedes tienen."
+                },
+                {
+                    "integral": "They have. (masculine)",
+                    "derivative": "Ellos tienen."
+                },
+                {
+                    "integral": "They have. (feminine)",
+                    "derivative": "Ellas tienen."
+                }
+            ]
+        }
+    ]
+}
