@@ -705,6 +705,18 @@
                 {
                     "integral": "We arrive. (feminine)",
                     "derivative": "Nosotras llegamos."
+                },
+                {
+                    "integral": "You all arrive. (formal or informal American)",
+                    "derivative": "Ustedes llegan."
+                },
+                {
+                    "integral": "They arrive. (masculine)",
+                    "derivative": "Ellos llegan."
+                },
+                {
+                    "integral": "They arrive. (feminine)",
+                    "derivative": "Ellas llegan."
                 }
             ]
         },
@@ -738,6 +750,18 @@
                 {
                     "integral": "We send. (feminine)",
                     "derivative": "Nosotras mandamos."
+                },
+                {
+                    "integral": "You all send. (formal or informal American)",
+                    "derivative": "Ustedes mandan."
+                },
+                {
+                    "integral": "They send. (masculine)",
+                    "derivative": "Ellos mandan."
+                },
+                {
+                    "integral": "They send. (feminine)",
+                    "derivative": "Ellas mandan."
                 }
             ]
         },
@@ -771,6 +795,18 @@
                 {
                     "integral": "We look at. (feminine)",
                     "derivative": "Nosotras miramos."
+                },
+                {
+                    "integral": "You all look at. (formal or informal American)",
+                    "derivative": "Ustedes miran."
+                },
+                {
+                    "integral": "They look at. (masculine)",
+                    "derivative": "Ellos miran."
+                },
+                {
+                    "integral": "They look at. (feminine)",
+                    "derivative": "Ellas miran."
                 }
             ]
         },
@@ -804,6 +840,18 @@
                 {
                     "integral": "We paint. (feminine)",
                     "derivative": "Nosotras pintamos."
+                },
+                {
+                    "integral": "You all paint. (formal or informal American)",
+                    "derivative": "Ustedes pintan."
+                },
+                {
+                    "integral": "They paint. (masculine)",
+                    "derivative": "Ellos pintan."
+                },
+                {
+                    "integral": "They paint. (feminine)",
+                    "derivative": "Ellas pintan."
                 }
              ]
         },
@@ -837,6 +885,18 @@
                 {
                     "integral": "We practice. (feminine)",
                     "derivative": "Nosotras practicamos."
+                },
+                {
+                    "integral": "You all practice. (formal or informal American)",
+                    "derivative": "Ustedes practican."
+                },
+                {
+                    "integral": "They practice. (masculine)",
+                    "derivative": "Ellos practican."
+                },
+                {
+                    "integral": "They practice. (feminine)",
+                    "derivative": "Ellas practican."
                 }
             ]
         },
@@ -870,6 +930,18 @@
                 {
                     "integral": "We stay. (feminine)",
                     "derivative": "Nosotras quedamos."
+                },
+                {
+                    "integral": "You all stay. (formal or informal American)",
+                    "derivative": "Ustedes quedan."
+                },
+                {
+                    "integral": "They stay. (masculine)",
+                    "derivative": "Ellos quedan."
+                },
+                {
+                    "integral": "They stay. (feminine)",
+                    "derivative": "Ellas quedan."
                 }
             ]
         },
@@ -903,6 +975,18 @@
                 {
                     "integral": "We return. (feminine)",
                     "derivative": "Nosotras regresamos."
+                },
+                {
+                    "integral": "You all return. (formal or informal American)",
+                    "derivative": "Ustedes regresan."
+                },
+                {
+                    "integral": "They return. (masculine)",
+                    "derivative": "Ellos regresan."
+                },
+                {
+                    "integral": "They return. (feminine)",
+                    "derivative": "Ellas regresan."
                 }
             ]
         },
@@ -936,6 +1020,18 @@
                 {
                     "integral": "We take. (feminine)",
                     "derivative": "Nosotras tomamos."
+                },
+                {
+                    "integral": "You all take. (formal or informal American)",
+                    "derivative": "Ustedes toman."
+                },
+                {
+                    "integral": "They take. (masculine)",
+                    "derivative": "Ellos toman."
+                },
+                {
+                    "integral": "They take. (feminine)",
+                    "derivative": "Ellas toman."
                 }
             ]
         },
@@ -969,7 +1065,20 @@
                 {
                     "integral": "We work. (feminine)",
                     "derivative": "Nosotras trabajamos."
+                },
+                {
+                    "integral": "You all work. (formal or informal American)",
+                    "derivative": "Ustedes trabajan."
+                },
+                {
+                    "integral": "They work. (masculine)",
+                    "derivative": "Ellos trabajan."
+                },
+                {
+                    "integral": "They work. (feminine)",
+                    "derivative": "Ellas trabajan."
                 }
+
             ]
         }
     ]
