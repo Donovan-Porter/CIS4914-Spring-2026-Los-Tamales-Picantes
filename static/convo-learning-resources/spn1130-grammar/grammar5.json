@@ -406,51 +406,6 @@
             ]
         },
         {
-            "title": "PRESENT TENSE OF ESCRIBIR",
-            "examples": [
-                {
-                    "integral": "I write.",
-                    "derivative": "Yo escribo."
-                },
-                {
-                    "integral": "You write. (singular, informal)",
-                    "derivative": "Tú escribes."
-                },
-                {
-                    "integral": "You write. (singular, formal)",
-                    "derivative": "Usted escribe."
-                },
-                {
-                    "integral": "He writes.",
-                    "derivative": "Él escribe"
-                },
-                {
-                    "integral": "She writes.",
-                    "derivative": "Ella escribe."
-                },
-                {
-                    "integral": "We write. (masculine)",
-                    "derivative": "Nosotros escribimos."
-                },
-                {
-                    "integral": "We write. (feminine)",
-                    "derivative": "Nosotras escribimos."
-                },
-                {
-                    "integral": "You all write. (formal or informal American)",
-                    "derivative": "Ustedes escriben."
-                },
-                {
-                    "integral": "They write. (masculine)",
-                    "derivative": "Ellos escriben."
-                },
-                {
-                    "integral": "They write. (feminine)",
-                    "derivative": "Ellas escriben."
-                }
-            ]
-        },
-        {
             "title": "PRESENT TENSE OF INSISTIR",
             "examples": [
                 {
