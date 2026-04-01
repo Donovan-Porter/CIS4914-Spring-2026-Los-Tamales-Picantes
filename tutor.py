@@ -492,10 +492,10 @@ def choose_chapter_convo():
     dirpath = os.path.join(base_path, 'static', 'convo-learning-resources', course)
     files = []
     try:
-        # files = sorted([f[:-5] if f.endswith('.json') else f
-        #                 for f in os.listdir(dirpath) if f.endswith('.json')])
-
-        files = ["grammar7", "grammar8", "grammar9", "grammar10", "grammar11"]  # TODO: Remove hardcoding
+        files = sorted(
+            [f[:-5] for f in os.listdir(dirpath) if f.endswith('.json')],
+            key=lambda x: int(re.search(r'\d+', x).group()) if re.search(r'\d+', x) else 0
+        )
 
     except Exception:
         files = []
