@@ -424,7 +424,7 @@ async function clickedCard(chosenEnglish, cardDiv)
                 game: "flashcard",
                 points: points,
                 time: count,
-                size: 4}
+                size: result.total}
             )
         })
         .then(response => response.json())

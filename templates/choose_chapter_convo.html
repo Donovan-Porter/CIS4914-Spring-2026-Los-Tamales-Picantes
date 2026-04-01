@@ -1,15 +1,28 @@
 <!doctype html>
 <html>
-  <head><meta charset="utf-8"><title>Choose Chapter</title></head>
-  <body>
-    <h1>Choose Chapter in {{ course }}</h1>
-    <ul>
-      {% for f in files %}
-      <li>
-        <a href="{{ url_for('choose_group_convo') }}?course={{ course }}&file={{ f }}">{{ f }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-    <p><a href="{{ url_for('choose_course_convo') }}">Back to courses</a></p>
-  </body>
+  <head>
+    <title>Conjugation Game</title>
+  </head>
+
+  <div class="container">
+    <div class="conj-game-header">
+        <img src="/static/images/duck.png" alt="Capy Decor" class="conj-decor-image" draggable="false">
+
+        <div class="conj-top-container">
+            <h1>Choose Chapter in {{ course }}</h1>
+        </div>
+        <hr class="conj-game-line" style="margin-left: 0vw;">
+
+        <div class="options">
+          {% for f in files %}
+          <a class="select-bttn" href="{{ url_for('choose_group_convo') }}?course={{ course }}&file={{ f }}">{{ f }}</a>
+          {% endfor %}
+        </div>
+
+        <a id="course" class="bttn" href="{{ url_for('choose_course_convo') }}">Back to courses</a></p>
+    </div>
+  </div>
 </html>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/conj-select.css') }}" >

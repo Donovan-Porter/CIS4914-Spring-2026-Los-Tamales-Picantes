@@ -89,8 +89,28 @@ function update_course_options()
 
     // then update the chapter numbers too
     update_chap_numbers();
+
+    // show or hide the hint button based on file type
+    // i.e. hide the hint button for the grammar files since the images aren't relevant 
+    update_hint_visibility();
 }
 
+function update_hint_visibility()
+{
+    const hintBtn = document.getElementById("hint");
+    if (file_type.value === "Grammar")
+    {
+        hintBtn.style.display = "none";
+    }
+    else
+    {
+        // only show it if a board is already loaded
+        if (gameId)
+        {
+            hintBtn.style.display = "inline-block";
+        }
+    }
+}
 
 function get_board_size()
 {
@@ -211,7 +231,8 @@ function loadBoard(state)
     start = true;
 
     // loading the hint button 
-    document.getElementById("hint").style.display = 'inline-block'; 
+    // i.e only show for vocab
+    update_hint_visibility();
 }
 
 // handle when the card is clicked

@@ -78,23 +78,36 @@ def reset_login_session():
     session["points"] = ""
     
 def points_calculator(game, points, time, size):
+    high = 0 # last time before normal points are rewarded
+    low = 20 # first time where half points are rewarded
+    
     if game == "match":
-        high = 30 # last time before normal points are rewarded
-        low = 20  # first time where half points are rewarded
+        high = 30  # default for this
+        low = 20  
         
-        if size == 6:
+        if size == 6:   # medium sized board
             high = 120
             low = 60
-        elif size == 8:
+        elif size == 8:     #largest board
             high = 240
             low = 180
+    
+    elif game == "flashcard":
+        high = 30 # default for this
+        low = 20
         
-        if time > 0:
-            if high > time >= low:
-                points = points * (size/2)
-            elif low > time:
-                points = points * size
-    return points
+        if size == 10:  # 10 questions/total flashcards
+            high = 60
+            low = 30
+        
+                        # calculate the multiplier
+    if time > 0:
+        if high > time >= low:
+            points = points * (size/2)
+        elif low > time:
+            points = points * size
+
+    return round(points)
 
 @app.route('/favicon.ico')
 def favicon() :
@@ -102,8 +115,11 @@ def favicon() :
 
 @app.route("/")
 def index() :
-    test_text = "Lorem Ipsum Dolor Sit Amet..."
-    return render_template("index.html", index_testing=test_text)
+    if session.get("local_login") is True:
+        return render_template("index.html")
+    
+    return render_template("index.html", login_message="You're not logged in!")
+    # return redirect(url_for('login'))
 
 
 @app.route("/toggleTimer", methods=['GET', 'POST'])
