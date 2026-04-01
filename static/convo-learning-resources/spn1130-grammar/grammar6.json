@@ -46,51 +46,6 @@
             ]
         },
         {
-            "title": "PRESENT TENSE OF PODER",
-            "examples": [
-                {
-                    "integral": "I can.",
-                    "derivative": "Yo puedo."
-                },
-                {
-                    "integral": "You can. (informal)",
-                    "derivative": "Tú puedes."
-                },
-                {
-                    "integral": "You can. (formal)",
-                    "derivative": "Usted puede."
-                },
-                {
-                    "integral": "He can.",
-                    "derivative": "Él puede."
-                },
-                {
-                    "integral": "She can.",
-                    "derivative": "Ella puede."
-                },
-                {
-                    "integral": "We can. (masculine)",
-                    "derivative": "Nosotros podemos."
-                },
-                {
-                    "integral": "We can. (feminine)",
-                    "derivative": "Nosotras podemos."
-                },
-                {
-                    "integral": "You all can. (formal or informal American)",
-                    "derivative": "Ustedes pueden."
-                },
-                {
-                    "integral": "They can. (masculine)",
-                    "derivative": "Ellos pueden."
-                },
-                {
-                    "integral": "They can. (feminine)",
-                    "derivative": "Ellas pueden."
-                }
-            ]
-        },
-        {
             "title": "PRESENT TENSE OF EMPEZAR",
             "examples": [
                 {
