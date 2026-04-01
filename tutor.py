@@ -473,7 +473,7 @@ def choose_chapter_convo():
     if not course:
         return redirect(url_for('choose_course_convo'))
 
-    dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
+    dirpath = os.path.join(base_path, 'static', 'convo-learning-resources', course)
     files = []
     try:
         files = sorted([f[:-5] if f.endswith('.json') else f
@@ -492,7 +492,7 @@ def choose_group_convo():
         return redirect(url_for('choose_course_convo'))
     
     # Add .json back to match actual filename
-    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file + '.json')
+    path = os.path.join(base_path, 'static', 'convo-learning-resources', course, vocab_file + '.json')
     try:
         with open(path, 'r', encoding='utf-8') as fh:
             data = json.load(fh)

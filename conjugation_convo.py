@@ -25,7 +25,7 @@ def strip_article(s):
 
 def find_grammar_dirs():
     # return list of grammar courses (folders ending with -grammar).
-    lr = os.path.join(base_path, 'static', 'learning-resources')
+    lr = os.path.join(base_path, 'static', 'convo-learning-resources')
     if not os.path.isdir(lr):
         return []
     entries = [d for d in os.listdir(lr)
@@ -63,7 +63,8 @@ def subject_to_image(person):
         "Vosotros": "VosotrosCapy.png", # TODO: no images for vosotros/as rn
         "Vosotras": "VosotrasCapy.png",
         "Ellos": "EllosCapy.png",
-        "Ellas": "EllasCapy.png"
+        "Ellas": "EllasCapy.png",
+        "Ustedes": "UstedesCapy.png"
     }
 
     return mapping.get(key, "Default.png")
