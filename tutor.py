@@ -7,7 +7,7 @@ from local_db import LocalDB
 # TODO: valerie matching game
 import minigame_controller
 
-import os, sys, json, random
+import os, sys, json, random, re
 from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
 from conjugation_convo import generate_conjugation_exercise_from_list, find_grammar_dirs, normalize_text
 
@@ -476,8 +476,11 @@ def choose_chapter_convo():
     dirpath = os.path.join(base_path, 'static', 'convo-learning-resources', course)
     files = []
     try:
-        files = sorted([f[:-5] if f.endswith('.json') else f
-                        for f in os.listdir(dirpath) if f.endswith('.json')])
+        # files = sorted([f[:-5] if f.endswith('.json') else f
+        #                 for f in os.listdir(dirpath) if f.endswith('.json')])
+
+        files = ["grammar7", "grammar8", "grammar9", "grammar10", "grammar11"]  # TODO: Remove hardcoding
+
     except Exception:
         files = []
 
