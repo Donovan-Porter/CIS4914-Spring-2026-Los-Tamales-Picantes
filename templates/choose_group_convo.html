@@ -6,7 +6,7 @@
 
   <div class="container">
     <div class="conj-game-header">
-        <img src="/static/images/duck.png" alt="Capy Decor" class="conj-decor-image" draggable="false">
+        <img src="{{ url_for('static', filename='images/duck.png') }}" alt="Capy Decor" class="conj-decor-image" draggable="false">
 
         <div class="conj-top-container">
             <h1>Choose Group in {{ vocab_file }}</h1>
@@ -30,8 +30,8 @@
   </div>
 </html>
 
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/conj-select.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/conj-select.css') }}" >
 
 <script>
     function showLoad()

@@ -13,7 +13,7 @@
 <body>
 <div class="chatbot-container">
     <div class="chatbot-header">
-        <img src="/static/images/duck-profile.png" alt="AI Profile" class="profile-image" draggable="false">
+        <img src="{{ url_for('static', filename='images/duck-profile.png') }}" alt="AI Profile" class="profile-image" draggable="false">
         <h1>Chatear Conmigo</h1>
     </div>
 
@@ -37,7 +37,7 @@
             <button type="submit" id="chatbot-submit">
                 Envías
             </button>
-            <img src="/static/images/capy-profile.png" alt="Profile" class="profile-image" draggable="false">
+            <img src="{{ url_for('static', filename='images/capy-profile.png') }}" alt="Profile" class="profile-image" draggable="false">
         </form>
     </div>
 
@@ -50,9 +50,9 @@
 </div>
 </body>
 
-<link rel="stylesheet" type="text/css" href="/static/css/style.css" >
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/chatbot.css') }}" >
-<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/chatbot.css') }}" >
+<script async type="text/javascript" src="{{ url_for('static', filename='javascript/header.js') }}"></script>
 <script>
     function showLoad()
     {

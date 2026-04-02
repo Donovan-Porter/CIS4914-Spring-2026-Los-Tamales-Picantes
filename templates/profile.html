@@ -4,12 +4,12 @@
     <title>
         Profile
     </title>
-    <link rel="stylesheet" href="/static/css/style.css">
-    <link rel="stylesheet" href="/static/css/profile.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
 </head>
 
 <span class="header"></span>
-<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+<script async type="text/javascript" src="{{ url_for('static', filename='javascript/header.js') }}"></script>
 
 
 <div class="container">
@@ -38,7 +38,7 @@
             </div>
             <hr> 
 
-            <a class="logout-bttn" href="/profile/logout" title="Logout">
+            <a class="logout-bttn" href="{{ url_for('logout') }}" title="Logout">
                 <button>
                     Logout
                 </button>
@@ -46,7 +46,7 @@
         </div>
     </div>
 
-    <a class="delete-bttn" href="/profile/delete" title="Delete" onclick="return confirm('Are you sure you want to delete your account?');">
+    <a class="delete-bttn" href="{{ url_for('delete') }}" title="Delete" onclick="return confirm('Are you sure you want to delete your account?');">
         <button>
             Delete
         </button>

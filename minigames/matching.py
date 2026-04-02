@@ -1,6 +1,6 @@
 import random
 import json
-
+import os
 
 class Card:
     def __init__(self, eng, spn):
@@ -54,7 +54,7 @@ class MemoryGame:
         :param file_type: is it a vocab file or grammar file
         '''
         # base file location
-        self.base_file = "static\\learning-resources\\"
+        self.base_file = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir, "static", "learning-resources"))
         
                 # width & height of board
         self.size = size
@@ -116,7 +116,7 @@ class MemoryGame:
         Parsing the data from a vocab file
         
         '''
-        filename = self.base_file + f"{self.spn_lvl}-vocab\\vocab{self.chp_num}.json"
+        filename = os.path.join(self.base_file, f"{self.spn_lvl}-vocab", f"vocab{self.chp_num}.json")
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -135,7 +135,7 @@ class MemoryGame:
         Parsing the data from a grammar file
         
         '''
-        filename = self.base_file + f"{self.spn_lvl}-grammar\\grammar{self.chp_num}.json"
+        filename = os.path.join(self.base_file, f"{self.spn_lvl}-grammar", f"grammar{self.chp_num}.json")
 
         with open(filename, "r", encoding="utf-8") as f:
             data = json.load(f)

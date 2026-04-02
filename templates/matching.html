@@ -5,7 +5,7 @@
 
 <div class="match-game-container">
     <div class="match-game-header">
-        <img src="/static/images/picantecapy.png" alt="Capy Decor" class="match-decor-image" draggable="false">
+        <img src="{{ url_for('static', filename='images/picantecapy.png') }}" alt="Capy Decor" class="match-decor-image" draggable="false">
 
         <div class="match-top-container">
             <h1>Matching Game</h1>
@@ -70,11 +70,11 @@
     </div>
 
     <script 
-        defer type="text/javascript" src="/static/javascript/matching.js">
+        defer type="text/javascript" src="{{ url_for('static', filename='javascript/matching.js') }}">
     </script>
 
 
 </div>
 
-<link rel="stylesheet" type="text/css" href="/static/css/style.css" >
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/matching.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/matching.css') }}" >

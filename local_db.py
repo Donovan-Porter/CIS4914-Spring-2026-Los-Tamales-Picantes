@@ -11,12 +11,11 @@ class LocalDB:
     @staticmethod
     def Path(relative_path):
         """ Stolen from Google, which stole from StackOverflow:
-            https://stackoverflow.com/questions/51060894/adding-a-data-file-in-pyinstaller-using-the-onefile-option"""
-        try:
-            # PyInstaller creates a temp folder and stores path in _MEIPASS
-            base_path = sys._MEIPASS
-        except Exception:
-            base_path = os.path.abspath(".")
+            https://stackoverflow.com/questions/51060894/adding-a-data-file-in-pyinstaller-using-the-onefile-option
+            -- Had  to change due to wsgi implementation"""
+
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = os.path.dirname(os.path.abspath(__file__))
         return os.path.join(base_path, relative_path)
 
             

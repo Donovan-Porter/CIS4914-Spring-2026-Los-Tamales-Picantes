@@ -4,12 +4,12 @@
 {% block title %} Sign-Up {% endblock %}
 
 {% block body %}
-<link rel="stylesheet" href="/static/css/signup.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/signup.css') }}">
 
 <div class="signup-container">
     <div class="welcome-container">
         <span>¡Bienvenido! ¿Listo para jugar?</span>
-        <img src="/static/images/picantecapy.png" alt="Logo" class="profile-image" draggable="false">
+        <img src="{{ url_for('static', filename='images/picantecapy.png') }}" alt="Logo" class="profile-image" draggable="false">
     </div>
 
     <div class="signup-section">
@@ -26,7 +26,7 @@
         </form>
 
 
-        <a id="login-link" href="/login" title="Login">Already have an account?</a>
+        <a id="login-link" href="{{ url_for('login') }}" title="Login">Already have an account?</a>
 
     </div>
 

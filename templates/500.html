@@ -25,8 +25,8 @@
 
 <span class="header"></span>
 
-<img src="/static/images/duck.png" alt="Duck Decor" class="left-decor-image" draggable="false">
-<img src="/static/images/capy.png" alt="Capy Decor" class="main-decor-image" draggable="false">
+<img src="{{ url_for('static', filename='images/duck.png') }}" alt="Duck Decor" class="left-decor-image" draggable="false">
+<img src="{{ url_for('static', filename='images/capy.png') }}" alt="Capy Decor" class="main-decor-image" draggable="false">
 
 <div class="center">
     <h1>
@@ -37,17 +37,17 @@
         We're sorry for the inconvenience.
     </p>
     <p>
-        <a href="/">
+        <a href="{{ url_for('index') }}">
             Home
         </a>
     </p>
 </div>
 
 
-<script async type="text/javascript" src="/static/javascript/header.js"></script>
+<script async type="text/javascript" src="{{ url_for('static', filename='javascript/header.js') }}"></script>
 <script>
     header = document.querySelector(".header");
 </script>
 
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/style.css') }}" >
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/static/css/index.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}" >

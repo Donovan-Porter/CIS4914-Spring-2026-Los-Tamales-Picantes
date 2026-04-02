@@ -6,11 +6,11 @@
     {% block title %}
     {% endblock %}
     </title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <span class="header"></span>
-<script async type="text/javascript" src="{{ url_for('static', filename='/static/javascript/header.js') }}"></script>
+<script async type="text/javascript" src="{{ url_for('static', filename='javascript/header.js') }}"></script>
 
 <!-- Copied from Google, which probably got it from: https://flask.palletsprojects.com/en/stable/patterns/flashing/ 
 It's also found here https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms -->
