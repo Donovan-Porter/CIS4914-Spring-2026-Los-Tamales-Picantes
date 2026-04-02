@@ -63,7 +63,7 @@ from re import sub, compile
 trailing = compile(r'(?<=[!?.])\s*(?:\n[#*]+[^\n]*\n)?(?:(?:\d+|\S)\.)?[^!?.`"\']*$')
 # TODO: Improve the regular expression
 
-app = Flask(__name__, static_folder="/")
+app = Flask(__name__, static_folder="static")
 
 # LOCAL DB
 localdb_handler = LocalDB()
@@ -156,6 +156,7 @@ def update_points():
         # update the session points to display on UI
         session['points'] = res
         return jsonify({'status' : "OK"})
+    # TODO: Handle instance of no return (un-logged-in)
 
 
 @app.route("/profile", methods=["POST", "GET"])
@@ -245,6 +246,7 @@ def login():
 def chat() :
     # TODO: Add Markdown support.
     # TODO: Ensure ends in punctuation
+    # TODO: Pass either 'generation_config' or generation-related arguments, not both.
 
     # Declared at top of file
     global messages
