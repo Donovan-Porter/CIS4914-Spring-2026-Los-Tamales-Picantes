@@ -11,6 +11,8 @@ import os, sys, json, random
 from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
 from conjugation_convo import generate_conjugation_exercise_from_list, find_grammar_dirs, normalize_text
 
+from werkzeug.middleware.proxy_fix import ProxyFix
+
 #
 # ____/\____
 #      O __|
@@ -38,7 +40,7 @@ messages = [message_role]
 os.environ["HF_HUB_OFFLINE"] = "1" 
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
-base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+base_path = os.path.dirname(os.path.abspath(__file__)) #getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 
@@ -64,6 +66,7 @@ trailing = compile(r'(?<=[!?.])\s*(?:\n[#*]+[^\n]*\n)?(?:(?:\d+|\S)\.)?[^!?.`"\'
 # TODO: Improve the regular expression
 
 app = Flask(__name__, static_folder="static")
+ap.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
 # LOCAL DB
 localdb_handler = LocalDB()
