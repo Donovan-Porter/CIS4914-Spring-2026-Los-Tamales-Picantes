@@ -7,7 +7,7 @@ from local_db import LocalDB
 # TODO: valerie matching game
 import minigame_controller
 
-import os, sys, json, random
+import os, sys, json, random, re
 from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
 from conjugation_convo import generate_conjugation_exercise_from_list, find_grammar_dirs, normalize_text
 
@@ -489,11 +489,14 @@ def choose_chapter_convo():
     if not course:
         return redirect(url_for('choose_course_convo'))
 
-    dirpath = os.path.join(base_path, 'static', 'learning-resources', course)
+    dirpath = os.path.join(base_path, 'static', 'convo-learning-resources', course)
     files = []
     try:
-        files = sorted([f[:-5] if f.endswith('.json') else f
-                        for f in os.listdir(dirpath) if f.endswith('.json')])
+        files = sorted(
+            [f[:-5] for f in os.listdir(dirpath) if f.endswith('.json')],
+            key=lambda x: int(re.search(r'\d+', x).group()) if re.search(r'\d+', x) else 0
+        )
+
     except Exception:
         files = []
 
@@ -508,7 +511,7 @@ def choose_group_convo():
         return redirect(url_for('choose_course_convo'))
     
     # Add .json back to match actual filename
-    path = os.path.join(base_path, 'static', 'learning-resources', course, vocab_file + '.json')
+    path = os.path.join(base_path, 'static', 'convo-learning-resources', course, vocab_file + '.json')
     try:
         with open(path, 'r', encoding='utf-8') as fh:
             data = json.load(fh)

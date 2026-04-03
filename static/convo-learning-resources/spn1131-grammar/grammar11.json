@@ -1,0 +1,184 @@
+{
+  "groups": [
+    {
+      "title": "IMPERFECT TENSE OF MONTAR",
+      "examples": [
+          {
+              "integral": "Yo (montar).",
+              "derivative": "Yo montaba."
+          },
+          {
+              "integral": "Tú (montar).",
+              "derivative": "Tú montabas."
+          },
+          {
+              "integral": "Usted (montar).",
+              "derivative": "Usted montaba."
+          },
+          {
+              "integral": "Él (montar).",
+              "derivative": "Él montaba."
+          },
+          {
+              "integral": "Ella (montar).",
+              "derivative": "Ella montaba."
+          },
+          {
+              "integral": "Nosotros (montar).",
+              "derivative": "Nosotros montábamos."
+          },
+          {
+              "integral": "Nosotras (montar).",
+              "derivative": "Nosotras montábamos."
+          },
+          {
+              "integral": "Ellos (montar).",
+              "derivative": "Ellos montaban."
+          },
+          {
+              "integral": "Ellas (montar).",
+              "derivative": "Ellas montaban."
+          },
+          {
+              "integral": "Ustedes (montar).",
+              "derivative": "Ustedes montaban."
+          }
+        ]
+    },
+    {
+        "title": "IMPERFECT TENSE OF PROTEGER",
+        "examples": [
+            {
+              "integral": "Yo (proteger).",
+              "derivative": "Yo protegía."
+            },
+            {
+              "integral": "Tú (proteger).",
+              "derivative": "Tú protegías."
+            },
+            {
+              "integral": "Usted (proteger).",
+              "derivative": "Usted protegía."
+            },
+            {
+              "integral": "Él (proteger).",
+              "derivative": "Él protegía."
+            },
+            {
+              "integral": "Ella (proteger).",
+              "derivative": "Ella protegía."
+            },
+            {
+              "integral": "Nosotros (proteger).",
+              "derivative": "Nosotros protegíamos."
+            },
+            {
+              "integral": "Nosotras (proteger).",
+              "derivative": "Nosotras protegíamos."
+            },
+            {
+              "integral": "Ellos (proteger).",
+              "derivative": "Ellos protegían."
+            },
+            {
+              "integral": "Ellas (proteger).",
+              "derivative": "Ellas protegían."
+            },
+            {
+              "integral": "Ustedes (proteger).",
+              "derivative": "Ustedes protegían."
+            }
+        ]
+    },
+    {
+        "title": "IMPERFECT TENSE OF ESCRIBIR",
+        "examples": [
+            {
+              "integral": "Yo (escribir).",
+              "derivative": "Yo escribía."
+            },
+            {
+              "integral": "Tú (escribir).",
+              "derivative": "Tú escribías."
+            },
+            {
+              "integral": "Usted (escribir).",
+              "derivative": "Usted escribía."
+            },
+            {
+              "integral": "Él (escribir).",
+              "derivative": "Él escribía."
+            },
+            {
+              "integral": "Ella (escribir).",
+              "derivative": "Ella escribía."
+            },
+            {
+              "integral": "Nosotros (escribir).",
+              "derivative": "Nosotros escribíamos."
+            },
+            {
+              "integral": "Nosotras (escribir).",
+              "derivative": "Nosotras escribíamos."
+            },
+            {
+              "integral": "Ellos (escribir).",
+              "derivative": "Ellos escribían."
+            },
+            {
+              "integral": "Ellas (escribir).",
+              "derivative": "Ellas escribían."
+            },
+            {
+              "integral": "Ustedes (escribir).",
+              "derivative": "Ustedes escribían."
+            }
+        ]
+    },
+    {
+        "title": "IMPERFECT TENSE OF IR",
+        "examples": [
+            {
+              "integral": "Yo (ir).",
+              "derivative": "Yo iba."
+            },
+            {
+              "integral": "Tú (ir).",
+              "derivative": "Tú ibas."
+            },
+            {
+              "integral": "Usted (ir).",
+              "derivative": "Usted iba."
+            },
+            {
+              "integral": "Él (ir).",
+              "derivative": "Él iba."
+            },
+            {
+              "integral": "Ella (ir).",
+              "derivative": "Ella iba."
+            },
+            {
+              "integral": "Nosotros (ir).",
+              "derivative": "Nosotros íbamos."
+            },
+            {
+              "integral": "Nosotras (ir).",
+              "derivative": "Nosotras íbamos."
+            },
+            {
+              "integral": "Ellos (ir).",
+              "derivative": "Ellos iban."
+            },
+            {
+              "integral": "Ellas (ir).",
+              "derivative": "Ellas iban."
+            },
+            {
+              "integral": "Ustedes (ir).",
+              "derivative": "Ustedes iban."
+            }
+        ]
+    }
+  ]
+}

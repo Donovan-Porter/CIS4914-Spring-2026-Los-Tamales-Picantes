@@ -1,0 +1,188 @@
+{
+    "groups": [
+        {
+            "title": "PRESENT TENSE OF CAER",
+            "examples": [
+                { "integral": "I fall.", "derivative": "Yo caigo." },
+                { "integral": "You fall. (informal)", "derivative": "Tú caes." },
+                { "integral": "He falls.", "derivative": "Él cae." },
+                { "integral": "She falls.", "derivative": "Ella cae." },
+                { "integral": "You fall. (formal)", "derivative": "Usted cae." },
+                { "integral": "We fall. (masculine)", "derivative": "Nosotros caemos." },
+                { "integral": "We fall. (feminine)", "derivative": "Nosotras caemos." },
+                { "integral": "You all fall. (formal, Latin America)", "derivative": "Ustedes caen." },
+                { "integral": "They fall. (masculine)", "derivative": "Ellos caen." },
+                { "integral": "They fall. (feminine)", "derivative": "Ellas caen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF DAR",
+            "examples": [
+                { "integral": "I give.", "derivative": "Yo doy." },
+                { "integral": "You give. (informal)", "derivative": "Tú das." },
+                { "integral": "He gives.", "derivative": "Él da." },
+                { "integral": "She gives.", "derivative": "Ella da." },
+                { "integral": "You give. (formal)", "derivative": "Usted da." },
+                { "integral": "We give. (masculine)", "derivative": "Nosotros damos." },
+                { "integral": "We give. (feminine)", "derivative": "Nosotras damos." },
+                { "integral": "You all give. (formal, Latin America)", "derivative": "Ustedes dan." },
+                { "integral": "They give. (masculine)", "derivative": "Ellos dan." },
+                { "integral": "They give. (feminine)", "derivative": "Ellas dan." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF HACER",
+            "examples": [
+                { "integral": "I do/make.", "derivative": "Yo hago." },
+                { "integral": "You do/make. (informal)", "derivative": "Tú haces." },
+                { "integral": "He does/makes.", "derivative": "Él hace." },
+                { "integral": "She does/makes.", "derivative": "Ella hace." },
+                { "integral": "You do/make. (formal)", "derivative": "Usted hace." },
+                { "integral": "We do/make. (masculine)", "derivative": "Nosotros hacemos." },
+                { "integral": "We do/make. (feminine)", "derivative": "Nosotras hacemos." },
+                { "integral": "You all do/make. (formal, Latin America)", "derivative": "Ustedes hacen." },
+                { "integral": "They do/make. (masculine)", "derivative": "Ellos hacen." },
+                { "integral": "They do/make. (feminine)", "derivative": "Ellas hacen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF PONER",
+            "examples": [
+                { "integral": "I put.", "derivative": "Yo pongo." },
+                { "integral": "You put. (informal)", "derivative": "Tú pones." },
+                { "integral": "He puts.", "derivative": "Él pone." },
+                { "integral": "She puts.", "derivative": "Ella pone." },
+                { "integral": "You put. (formal)", "derivative": "Usted pone." },
+                { "integral": "We put. (masculine)", "derivative": "Nosotros ponemos." },
+                { "integral": "We put. (feminine)", "derivative": "Nosotras ponemos." },
+                { "integral": "You all put. (formal, Latin America)", "derivative": "Ustedes ponen." },
+                { "integral": "They put. (masculine)", "derivative": "Ellos ponen." },
+                { "integral": "They put. (feminine)", "derivative": "Ellas ponen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF SALIR",
+            "examples": [
+                { "integral": "I leave/go out.", "derivative": "Yo salgo." },
+                { "integral": "You leave/go out. (informal)", "derivative": "Tú sales." },
+                { "integral": "He leaves/goes out.", "derivative": "Él sale." },
+                { "integral": "She leaves/goes out.", "derivative": "Ella sale." },
+                { "integral": "You leave/go out. (formal)", "derivative": "Usted sale." },
+                { "integral": "We leave/go out. (masculine)", "derivative": "Nosotros salimos." },
+                { "integral": "We leave/go out. (feminine)", "derivative": "Nosotras salimos." },
+                { "integral": "You all leave/go out. (formal, Latin America)", "derivative": "Ustedes salen." },
+                { "integral": "They leave/go out. (masculine)", "derivative": "Ellos salen." },
+                { "integral": "They leave/go out. (feminine)", "derivative": "Ellas salen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF TRAER",
+            "examples": [
+                { "integral": "I bring.", "derivative": "Yo traigo." },
+                { "integral": "You bring. (informal)", "derivative": "Tú traes." },
+                { "integral": "He brings.", "derivative": "Él trae." },
+                { "integral": "She brings.", "derivative": "Ella trae." },
+                { "integral": "You bring. (formal)", "derivative": "Usted trae." },
+                { "integral": "We bring. (masculine)", "derivative": "Nosotros traemos." },
+                { "integral": "We bring. (feminine)", "derivative": "Nosotras traemos." },
+                { "integral": "You all bring. (formal, Latin America)", "derivative": "Ustedes traen." },
+                { "integral": "They bring. (masculine)", "derivative": "Ellos traen." },
+                { "integral": "They bring. (feminine)", "derivative": "Ellas traen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF SUPONER",
+            "examples": [
+                { "integral": "I suppose.", "derivative": "Yo supongo." },
+                { "integral": "You suppose. (informal)", "derivative": "Tú supones." },
+                { "integral": "He supposes.", "derivative": "Él supone." },
+                { "integral": "She supposes.", "derivative": "Ella supone." },
+                { "integral": "You suppose. (formal)", "derivative": "Usted supone." },
+                { "integral": "We suppose. (masculine)", "derivative": "Nosotros suponemos." },
+                { "integral": "We suppose. (feminine)", "derivative": "Nosotras suponemos." },
+                { "integral": "You all suppose. (formal, Latin America)", "derivative": "Ustedes suponen." },
+                { "integral": "They suppose. (masculine)", "derivative": "Ellos suponen." },
+                { "integral": "They suppose. (feminine)", "derivative": "Ellas suponen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF VER",
+            "examples": [
+                { "integral": "I see.", "derivative": "Yo veo." },
+                { "integral": "You see. (informal)", "derivative": "Tú ves." },
+                { "integral": "He sees.", "derivative": "Él ve." },
+                { "integral": "She sees.", "derivative": "Ella ve." },
+                { "integral": "You see. (formal)", "derivative": "Usted ve." },
+                { "integral": "We see. (masculine)", "derivative": "Nosotros vemos." },
+                { "integral": "We see. (feminine)", "derivative": "Nosotras vemos." },
+                { "integral": "You all see. (formal, Latin America)", "derivative": "Ustedes ven." },
+                { "integral": "They see. (masculine)", "derivative": "Ellos ven." },
+                { "integral": "They see. (feminine)", "derivative": "Ellas ven." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF SEGUIR",
+            "examples": [
+                { "integral": "I follow.", "derivative": "Yo sigo." },
+                { "integral": "You follow. (informal)", "derivative": "Tú sigues." },
+                { "integral": "He follows.", "derivative": "Él sigue." },
+                { "integral": "She follows.", "derivative": "Ella sigue." },
+                { "integral": "You follow. (formal)", "derivative": "Usted sigue." },
+                { "integral": "We follow. (masculine)", "derivative": "Nosotros seguimos." },
+                { "integral": "We follow. (feminine)", "derivative": "Nosotras seguimos." },
+                { "integral": "You all follow. (informal, Spain)", "derivative": "Vosotros seguís." },
+                { "integral": "You all follow. (formal, Latin America)", "derivative": "Ustedes siguen." },
+                { "integral": "They follow. (masculine)", "derivative": "Ellos siguen." },
+                { "integral": "They follow. (feminine)", "derivative": "Ellas siguen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF VENIR",
+            "examples": [
+                { "integral": "I come.", "derivative": "Yo vengo." },
+                { "integral": "You come. (informal)", "derivative": "Tú vienes." },
+                { "integral": "He comes.", "derivative": "Él viene." },
+                { "integral": "She comes.", "derivative": "Ella viene." },
+                { "integral": "You come. (formal)", "derivative": "Usted viene." },
+                { "integral": "We come. (masculine)", "derivative": "Nosotros venimos." },
+                { "integral": "We come. (feminine)", "derivative": "Nosotras venimos." },
+                { "integral": "You all come. (informal, Spain)", "derivative": "Vosotros venís." },
+                { "integral": "You all come. (formal, Latin America)", "derivative": "Ustedes vienen." },
+                { "integral": "They come. (masculine)", "derivative": "Ellos vienen." },
+                { "integral": "They come. (feminine)", "derivative": "Ellas vienen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF OÍR",
+            "examples": [
+                { "integral": "I hear.", "derivative": "Yo oigo." },
+                { "integral": "You hear. (informal)", "derivative": "Tú oyes." },
+                { "integral": "He hears.", "derivative": "Él oye." },
+                { "integral": "She hears.", "derivative": "Ella oye." },
+                { "integral": "You hear. (formal)", "derivative": "Usted oye." },
+                { "integral": "We hear. (masculine)", "derivative": "Nosotros oímos." },
+                { "integral": "We hear. (feminine)", "derivative": "Nosotras oímos." },
+                { "integral": "You all hear. (informal, Spain)", "derivative": "Vosotros oís." },
+                { "integral": "You all hear. (formal, Latin America)", "derivative": "Ustedes oyen." },
+                { "integral": "They hear. (masculine)", "derivative": "Ellos oyen." },
+                { "integral": "They hear. (feminine)", "derivative": "Ellas oyen." }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF CONSTRUIR",
+            "examples": [
+                { "integral": "I build.", "derivative": "Yo construyo." },
+                { "integral": "You build. (informal)", "derivative": "Tú construyes." },
+                { "integral": "He builds.", "derivative": "Él construye." },
+                { "integral": "She builds.", "derivative": "Ella construye." },
+                { "integral": "You build. (formal)", "derivative": "Usted construye." },
+                { "integral": "We build. (masculine)", "derivative": "Nosotros construimos." },
+                { "integral": "We build. (feminine)", "derivative": "Nosotras construimos." },
+                { "integral": "You all build. (informal, Spain)", "derivative": "Vosotros construís." },
+                { "integral": "You all build. (formal, Latin America)", "derivative": "Ustedes construyen." },
+                { "integral": "They build. (masculine)", "derivative": "Ellos construyen." },
+                { "integral": "They build. (feminine)", "derivative": "Ellas construyen." }
+            ]
+        }
+    ]
+}

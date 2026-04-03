@@ -1,0 +1,94 @@
+{
+    "groups": [
+        {
+            "title": "PRESENT TENSE OF IR",
+            "examples": [
+                {
+                    "integral": "I go.",
+                    "derivative": "Yo voy."
+                },
+                {
+                    "integral": "You go. (informal)",
+                    "derivative": "Tú vas."
+                },
+                {
+                    "integral": "You go. (formal)",
+                    "derivative": "Usted va."
+                },
+                {
+                    "integral": "He goes.",
+                    "derivative": "Él va."
+                },
+                {
+                    "integral": "She goes.",
+                    "derivative": "Ella va."
+                },
+                {
+                    "integral": "We go. (masculine or mixed)",
+                    "derivative": "Nosotros vamos."
+                },
+                {
+                    "integral": "We go. (feminine)",
+                    "derivative": "Nosotras vamos."
+                },
+                {
+                    "integral": "You all go. (formal or informal American)",
+                    "derivative": "Ustedes van."
+                },
+                {
+                    "integral": "They all go. (masculine)",
+                    "derivative": "Ellos van."
+                },
+                {
+                    "integral": "They all go. (feminine)",
+                    "derivative": "Ellas van."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF TENER",
+            "examples": [
+                {
+                    "integral": "I have.",
+                    "derivative": "Yo tengo."
+                },
+                {
+                    "integral": "You have. (informal)",
+                    "derivative": "Tú tienes."
+                },
+                {
+                    "integral": "You have. (formal)",
+                    "derivative": "Usted tiene."
+                },
+                {
+                    "integral": "He has.",
+                    "derivative": "Él tiene."
+                },
+                {
+                    "integral": "She has.",
+                    "derivative": "Ella tiene."
+                },
+                {
+                    "integral": "We have. (masculine)",
+                    "derivative": "Nosotros tenemos."
+                },
+                {
+                    "integral": "We have. (feminine)",
+                    "derivative": "Nosotras tenemos."
+                },
+                {
+                    "integral": "You all have. (formal or informal American)",
+                    "derivative": "Ustedes tiene."
+                },
+                {
+                    "integral": "They all have. (masculine)",
+                    "derivative": "Ellos tienen."
+                },
+                {
+                    "integral": "They all have. (feminine)",
+                    "derivative": "Ellas tienen."
+                }
+            ]
+        }
+    ]
+}
