@@ -1,15 +1,20 @@
-<!DOCTYPE HTML>
 
+
+{% extends "base.html" %}
+
+
+{% block title %}
+Translation
+{% endblock %}
+
+
+{% block head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/translate.css') }}">
-
-<head>
-    <title>
-        Translation
-    </title>
-</head>
+{% endblock %}
 
 
+{% block body %}
 <span class="header"></span>
 
 <div class="translate-container">
@@ -51,5 +56,4 @@
     </div>
 
 </div>
-
-<script async type="text/javascript" src="{{ url_for('static', filename='javascript/header.js') }}"></script>
+{% endblock %}

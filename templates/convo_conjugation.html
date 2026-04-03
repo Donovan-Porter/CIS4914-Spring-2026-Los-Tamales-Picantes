@@ -1,13 +1,22 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Conjugation Conversation Exercise</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/conj.css') }}" >
-</head>
 
+
+{% extends "base.html" %}
+
+
+{% block title %}
+Conjugation Conversation Exercise
+{% endblock %}
+
+
+{% block head %}
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/conj.css') }}" >
+{% endblock %}
+
+
+{% block body %}
 <div class="container">
   <div class="conj-game-header">
 
@@ -140,7 +149,7 @@ function checkFinish() {
     pointSpan.innerHTML = curr_index + 1;
 
     // update in the backend
-        fetch('/update-points', {
+        fetch('{{ url_for("update-points") }}', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
@@ -269,5 +278,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
-
-</html>
+{% endblock %}

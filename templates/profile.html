@@ -1,16 +1,21 @@
-<!DOCTYPE HTML>
 
-<head>
-    <title>
-        Profile
-    </title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
-</head>
 
+{% extends "base.html" %}
+
+
+{% block title %}
+Profile
+{% endblock %}
+
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+{% endblock %}
+
+
+{% block body %}
 <span class="header"></span>
-<script async type="text/javascript" src="{{ url_for('static', filename='javascript/header.js') }}"></script>
-
 
 <div class="container">
 
@@ -53,3 +58,4 @@
     </a>
 
 </div>
+{% endblock %}

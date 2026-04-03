@@ -1,13 +1,24 @@
-<!doctype html>
-<html>
-  <head><meta charset="utf-8"><title>Choose Course</title></head>
-  <body>
-    <h1>Choose Course</h1>
-    <ul>
-      {% for c in courses %}
-      <li><a href="{{ url_for('choose_chapter_vocabulary') }}?course={{ c }}">{{ c }}</a></li>
-      {% endfor %}
-    </ul>
-    <p><a href="{{ url_for('index') }}">Home</a></p>
-  </body>
-</html>
+
+
+{% extends "base.html" %}
+
+
+{% block title %}
+Choose Course
+{% endblock %}
+
+
+{% block head %}
+<meta charset="utf-8">
+{% endblock %}
+
+
+{% block body %}
+<h1>Choose Course</h1>
+<ul>
+  {% for c in courses %}
+  <li><a href="{{ url_for('choose_chapter_vocabulary') }}?course={{ c }}">{{ c }}</a></li>
+  {% endfor %}
+</ul>
+<p><a href="{{ url_for('index') }}">Home</a></p>
+{% endblock %}

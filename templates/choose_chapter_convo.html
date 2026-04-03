@@ -1,9 +1,19 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Conjugation Game</title>
-  </head>
 
+
+{% extends "base.html" %}
+
+
+{% block title %}
+Conjugation Game
+{% endblock %}
+
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/conj-select.css') }}" >
+{% endblock %}
+
+
+{% block body %}
   <div class="container">
     <div class="conj-game-header">
         <img src="{{ url_for('static', filename='images/duck.png') }}" alt="Capy Decor" class="conj-decor-image" draggable="false">
@@ -22,7 +32,4 @@
         <a id="course" class="bttn" href="{{ url_for('choose_course_convo') }}">Back to courses</a></p>
     </div>
   </div>
-</html>
-
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/conj-select.css') }}" >
+{% endblock %}

@@ -1,27 +1,28 @@
 
-<!DOCTYPE HTML>
+{% extends "base.html" %}
 
-<head>
-  <title>
-    Learn - El Tamale Picante
-  </title>
 
-<style>
-    .center {text-align:center;}
-    .left-decor-image {
-  position: fixed;
+{% block title %} Learn - El Tamale Picante {% endblock %}
 
-  height: 40vh;
-  width: auto;
 
-  top: 13vh;
-  left: 5vw;
+{% block head %}
+    <style>
+        .center {text-align:center;}
+        .left-decor-image {
+      position: fixed;
 
-  transform: rotate(-5deg);;}
-</style>
+      height: 40vh;
+      width: auto;
 
-</head>
+      top: 13vh;
+      left: 5vw;
 
+      transform: rotate(-5deg);;}
+    </style>
+{% endblock %}
+
+
+{% block body %}
 
 <span class="header"></span>
 
@@ -51,3 +52,5 @@
 
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}" >
+
+{% endblock %}

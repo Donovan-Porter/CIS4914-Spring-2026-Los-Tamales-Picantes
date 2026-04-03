@@ -1,37 +1,44 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Conjugation Game</title>
-  </head>
 
-  <div class="container">
-    <div class="conj-game-header">
-        <img src="{{ url_for('static', filename='images/duck.png') }}" alt="Capy Decor" class="conj-decor-image" draggable="false">
 
-        <div class="conj-top-container">
-            <h1>Choose Group in {{ vocab_file }}</h1>
-        </div>
-        <hr class="conj-game-line" style="margin-left: 0vw;">
+{% extends "base.html" %}
 
-        <form method="post" onsubmit="showLoad()" class="exercise-select">
-            {% for g in groups %}
-              <label class="label-options">
-                <input type="radio" name="group_index" value="{{ loop.index0 }}" {{ 'checked' if loop.index0 == 0 else '' }}>
-                {{ g['title'] }}
-              </label>
-            {% endfor %}
-          <input type="hidden" name="course" value="{{ course }}">
-          <input type="hidden" name="file" value="{{ vocab_file }}">
-          <br>
-          <button id="submit-bttn" class="select-bttn" type="submit">Start Exercise</button>
-        </form>
-        <a id="back" class="bttn" href="{{ url_for('choose_chapter_convo') }}?course={{ course }}">Back</a>
-    </div>
-  </div>
-</html>
 
+{% block title %}
+Conjugation Game
+{% endblock %}
+
+
+{% block head %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/conj-select.css') }}" >
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+  <div class="conj-game-header">
+    <img src="{{ url_for('static', filename='images/duck.png') }}" alt="Capy Decor" class="conj-decor-image" draggable="false">
+
+    <div class="conj-top-container">
+        <h1>Choose Group in {{ vocab_file }}</h1>
+    </div>
+    <hr class="conj-game-line" style="margin-left: 0vw;">
+
+    <form method="post" onsubmit="showLoad()" class="exercise-select">
+        {% for g in groups %}
+          <label class="label-options">
+            <input type="radio" name="group_index" value="{{ loop.index0 }}" {{ 'checked' if loop.index0 == 0 else '' }}>
+            {{ g['title'] }}
+          </label>
+        {% endfor %}
+      <input type="hidden" name="course" value="{{ course }}">
+      <input type="hidden" name="file" value="{{ vocab_file }}">
+      <br>
+      <button id="submit-bttn" class="select-bttn" type="submit">Start Exercise</button>
+    </form>
+    <a id="back" class="bttn" href="{{ url_for('choose_chapter_convo') }}?course={{ course }}">Back</a>
+  </div>
+</div>
 
 <script>
     function showLoad()
@@ -57,3 +64,4 @@
         return true;
     }
 </script>
+{% endblock %}

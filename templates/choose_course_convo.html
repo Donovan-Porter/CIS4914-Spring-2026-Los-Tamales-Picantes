@@ -1,28 +1,36 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Conjugation Game</title>
-  </head>
 
-  <div class="container">
-    <div class="conj-game-header">
-        <img src="{{ url_for('static', filename='images/duck.png') }}" alt="Capy Decor" class="conj-decor-image" draggable="false">
 
-        <div class="conj-top-container">
-            <h1>Choose Course</h1>
-        </div>
-        <hr class="conj-game-line" style="margin-left: 0vw;">
+{% extends "base.html" %}
 
-        <div class="options">
-          {% for c in courses %}
-          <a class="select-bttn" href="{{ url_for('choose_chapter_convo') }}?course={{ c }}">{{ c }}</a>
-          {% endfor %}
-        </div>
 
-      <a id="home" class="bttn" href="/">Home</a>
-    </div>
-  </div>
-</html>
+{% block title %}
+Conjugation Game
+{% endblock %}
 
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
+
+{% block head %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/conj-select.css') }}" >
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+<div class="conj-game-header">
+    <img src="{{ url_for('static', filename='images/duck.png') }}" alt="Capy Decor" class="conj-decor-image" draggable="false">
+
+    <div class="conj-top-container">
+        <h1>Choose Course</h1>
+    </div>
+    <hr class="conj-game-line" style="margin-left: 0vw;">
+
+    <div class="options">
+      {% for c in courses %}
+      <a class="select-bttn" href="{{ url_for('choose_chapter_convo') }}?course={{ c }}">{{ c }}</a>
+      {% endfor %}
+    </div>
+
+  <a id="home" class="bttn" href="{{ url_for('index') }}">Home</a>
+</div>
+</div>
+{% endblock %}
+

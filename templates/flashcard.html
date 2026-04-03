@@ -1,8 +1,19 @@
-<!DOCTYPE html>
-<head>
-    <title>Flashcard Game</title>
-</head>
 
+
+{% extends "base.html" %}
+
+
+{% block title %}
+Flashcard Game
+{% endblock %}
+
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/flashcard.css') }}">
+{% endblock %}
+
+
+{% block body %}
 <div class="match-game-container">
     <div class="match-game-header">
         <img src="{{ url_for('static', filename='images/picantecapy.png') }}" alt="Capy Decor" class="match-decor-image" draggable="false">
@@ -84,12 +95,8 @@
         <button id="home-button" class="home-button">Return to Homepage</button>
     </div>
 
-    <script
-        defer type="text/javascript" src="{{ url_for('static', filename='javascript/flashcard.js') }}">
-    </script>
+{% include 'flashcard_script.html' %}
 
 
 </div>
-
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/flashcard.css') }}">
+{% endblock %}

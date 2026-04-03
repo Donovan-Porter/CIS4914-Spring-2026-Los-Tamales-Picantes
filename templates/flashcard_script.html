@@ -1,0 +1,508 @@
+<script>
+    const SCRIPT_ROOT = {{ request.script_root|tojson }};
+    let gameId = null;
+    let waiting = false;
+
+    let start = false;
+
+    let points = 0;
+    const pointsSpan = document.getElementById("points-number");
+
+    const boardDiv = document.getElementById("board");
+    const matchDiv = document.getElementById("match-count");
+    const progressDiv = document.getElementById("progress");
+    const spanishWord = document.getElementById("spanish-word");
+    const englishTranslation = document.getElementById("english-translation");
+    const revealBtn = document.getElementById("reveal-btn");
+    const choicesGrid = document.getElementById("choices-grid");
+    const cardImageSlot = document.getElementById("card-image-slot");
+    const modeToggle = document.getElementById("mode-toggle");
+
+
+    // redirect to home page
+    document.getElementById('home-button').onclick = function() { window.location.href = '{{ url_for("index") }}'; };
+
+    // default image load up
+    const defaultImg = document.createElement("img");
+    defaultImg.src = "{{ url_for('static', filename='images/base_question_mark.png') }}";
+    cardImageSlot.appendChild(defaultImg);
+
+    // four default placeholders
+    for (let i = 0; i < 4; i++)
+    {
+        const cardDiv = document.createElement("div");
+        cardDiv.classList.add("card");
+     
+        const imgElement = document.createElement("img");
+        imgElement.style.maxWidth = "380px";
+        imgElement.style.maxHeight = "380px";
+        imgElement.src = "{{ url_for('static', filename='images/base_question_mark.png') }}";
+        cardDiv.appendChild(imgElement);
+     
+        choicesGrid.appendChild(cardDiv);
+    }
+
+    // change the chapter selection
+    const spanish_select = document.getElementById("spn_lvl");
+    spanish_select.addEventListener("change", update_chap_numbers);
+    function update_chap_numbers()
+    {
+        const all_chap_num = {
+            spn1130: [1, 2, 3, 4, 5, 6],
+            spn1131: [7, 8, 9, 10, 11, 12],
+            spn2200: [13, 14, 15, 16, 17, 18],
+            spn2201: [19, 20, 21, 22, 23, 24]};
+
+        // work
+        const working_chap = all_chap_num[spanish_select.value];
+
+        let fill_in_chap = document.getElementById("chp_num");
+        // clear the dropdown
+        fill_in_chap.innerHTML = "";
+
+        // add each chapter option
+        for (const num of working_chap)
+        {
+            // create an option
+            const option = document.createElement("option");
+            option.value = num;
+            option.innerText = `Chapter ${num}`;
+            // add it on the html side
+            fill_in_chap.appendChild(option);
+        }
+    }
+
+
+    // change the course selection
+    const file_type = document.getElementById("file_type");
+    file_type.addEventListener("change", update_course_options);
+    function update_course_options()
+    {
+        const course_options = {
+            Vocabulary: [
+                {value: "spn1130", text: "Spanish 1130"},
+                {value: "spn1131", text: "Spanish 1131"},
+                {value: "spn2200", text: "Spanish 2200"},
+                {value: "spn2201", text: "Spanish 2201"}],
+            Grammar: [
+                {value: "spn1130", text: "Spanish 1130"},
+                {value: "spn1131", text: "Spanish 1131"},
+                {value: "spn2200", text: "Spanish 2200"},
+                {value: "spn2201", text: "Spanish 2201"},
+            ]};
+
+        // work
+        const working_list = course_options[file_type.value];
+
+        const spn_options = document.getElementById("spn_lvl");
+        // clear the dropdown
+        spn_options.innerHTML = "";
+
+        // add each course option
+        for (const course of working_list)
+        {
+            // create an option
+            const option = document.createElement("option");
+            option.value = course.value;
+            option.innerText = course.text;
+            // add it on the html side
+            spn_options.appendChild(option);
+        }
+
+        // then update the chapter numbers too
+        update_chap_numbers();
+    }
+
+
+    // send the file parts to the game
+    document.getElementById('load-file').onclick = parse_the_file_info_and_setup;
+    async function parse_the_file_info_and_setup()
+    {
+        // reset everything on a new load
+        waiting = false;
+        matchDiv.innerText = `Score: 0`;
+
+        // reset timer variables
+        start = false;
+        count = 0;
+
+        const res = await fetch("{{ url_for('create_flashcard_game') }}", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                spanish_level: document.getElementById("spn_lvl").value,
+                chapter_number: document.getElementById("chp_num").value,
+                file_type: document.getElementById("file_type").value,
+                game_mode: modeToggle.checked ? "word_to_picture" : "picture_to_word"})
+        });
+        const data = await res.json();
+
+        // save game ID
+        gameId = data.game_id;
+
+        // reset points
+        points = 0;
+        pointsSpan.innerHTML = points;
+
+        // draw the board
+        loadBoard(data.state);
+    }
+
+
+    function loadBoard(state)
+    {
+        // restore visibility of the board
+        document.getElementById("flashcard-word-card").style.display = "flex";
+        choicesGrid.style.display = "grid";
+        progressDiv.style.display = "block";
+        matchDiv.style.display = "block";
+
+        // remove the final score div if it exists
+        const oldScore = document.getElementById("final-score");
+        if (oldScore) 
+        {
+            oldScore.remove();
+        }
+
+        // start the timer up
+        start = true;
+
+        drawBoard(state);
+    }
+
+
+    function drawBoard(state)
+    {
+        if (state.finished)
+        {
+            showFinished(state);
+            return;
+        }
+
+        // update progress
+        progressDiv.innerText = `Card ${state.current_index + 1} of ${state.total}`;
+
+        // hide translation 
+        englishTranslation.style.display = "none";
+
+        // show the reveal button again
+        revealBtn.style.display = "inline-block";
+
+        // clicking on words to match to a picture
+        // which means show the picture but not the spanish word
+        if (state.game_mode === "picture_to_word")
+        {
+            // hide the spanish word
+            spanishWord.style.display = "none";
+
+            const slotImg = document.createElement("img");
+            slotImg.src = `${SCRIPT_ROOT}/flashcard/${gameId}/image?word=${encodeURIComponent(state.correct_english)}`;
+
+            // clean up whatever was there before
+            cardImageSlot.innerHTML = "";
+            cardImageSlot.appendChild(slotImg);
+
+            // build and set up the 4 choices
+            // clean up
+            choicesGrid.innerHTML = "";
+            for (const choice of state.choices)
+            {
+                const cardDiv = document.createElement("div");
+                // add the styles
+                cardDiv.classList.add("card");
+
+                // hold the english word
+                cardDiv.dataset.english = choice.english;
+
+                // add the word
+                const wordBox = document.createElement("div");
+                wordBox.innerText = choice.spanish;
+                cardDiv.appendChild(wordBox);
+
+                // add a listener so handle whenever it is clicked
+                cardDiv.addEventListener("click", () => clickedCard(choice.english, cardDiv));
+                choicesGrid.appendChild(cardDiv);
+            }
+        }
+
+        else
+        {
+            // word_to_picture option
+            // clicking on pictures to match to a word
+            // which means show the word but not the picture
+
+            // show the spanish word
+            spanishWord.style.display = "block";
+            spanishWord.innerText = state.spanish_word;
+
+            // get the default base image
+            const defaultImg = document.createElement("img");
+            defaultImg.src = `{{ url_for('static', filename='images/base_question_mark.png') }}`;
+            cardImageSlot.innerHTML = "";
+            cardImageSlot.appendChild(defaultImg);
+
+            // choices are image cards
+            // clean up still
+            choicesGrid.innerHTML = "";
+            for (const choice of state.choices)
+            {
+                const cardDiv = document.createElement("div");
+                // add the styles
+                cardDiv.classList.add("card");
+                // hold the english word
+                cardDiv.dataset.english = choice.english;
+
+                // a lil placeholder incase it takes forever to load
+                cardDiv.innerText = "Loading...";
+
+                // add a listener to handle when it is clicked
+                cardDiv.addEventListener("click", () => clickedCard(choice.english, cardDiv));
+                choicesGrid.appendChild(cardDiv);
+
+                // add the image
+                loadChoiceImage(choice.english, cardDiv);
+            }
+        }
+    }
+
+
+    async function loadChoiceImage(englishWord, cardDiv)
+    {
+        try
+        {
+            const response = await fetch(`${SCRIPT_ROOT}/flashcard/${gameId}/image?word=${englishWord}`);
+            if (!response.ok)
+            {
+                throw new Error("Image fetch failed");
+            }
+            const blob = await response.blob();
+
+            const imgElement = document.createElement("img");
+            // lets cap this so it doesnt look crazy
+            imgElement.style.maxWidth = "380px";
+            imgElement.style.maxHeight = "380px";
+            imgElement.src = URL.createObjectURL(blob);
+
+            // clear the placeholder
+            cardDiv.innerText = "";
+
+            // add the image
+            cardDiv.appendChild(imgElement);
+        }
+        catch (error)
+        {
+            // fall back to showing the english word if image fails
+            cardDiv.innerText = englishWord;
+            console.error("Error loading choice image:", error);
+        }
+    }
+
+
+    // handle translation reveal button click 
+    revealBtn.onclick = async function()
+    {
+        if (!gameId) 
+        {
+            return;
+        }
+
+        const response = await fetch(`${SCRIPT_ROOT}/flashcard/${gameId}/reveal`, { method: "POST" });
+        const data = await response.json();
+
+        // just update the translation in place
+        englishTranslation.innerText = data.english_translation;
+        englishTranslation.style.display = "block";
+
+        // remember to hide the reveal button now
+        revealBtn.style.display = "none";
+    };
+
+
+    // handle when a choice card is clicked
+    async function clickedCard(chosenEnglish, cardDiv)
+    {
+        if (waiting) 
+        {
+            return;
+        }
+
+        waiting = true;
+
+        // show what was clicked visually
+        cardDiv.classList.add("matched");
+
+        // send the choice to the backend
+        const res = await fetch(`${SCRIPT_ROOT}/flashcard/${gameId}/click`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ chosen_english: chosenEnglish })
+        });
+        const result = await res.json();
+
+        // find the correct card already on screen and copy its image into the slot
+        if (result.state && result.state.game_mode === "word_to_picture" || !result.state)
+        {
+            const allCards = choicesGrid.querySelectorAll(".card");
+            for (const card of allCards)
+            {
+                if (card.dataset.english === result.correct_english)
+                {
+                    const img = card.querySelector("img");
+                    if (img)
+                    {
+                        const slotImg = document.createElement("img");
+                        slotImg.src = img.src;
+                        cardImageSlot.innerHTML = "";
+                        cardImageSlot.appendChild(slotImg);
+                    }
+                    break;
+                }
+            }
+        }
+
+        // reveal the english translation now that the correct image is shown
+        englishTranslation.innerText = result.correct_english;
+        englishTranslation.style.display = "block";
+        revealBtn.style.display = "none";
+
+        // correct answer
+        if (result.correct)
+        {
+            // add points if correct
+            points++;
+        }
+        // wrong answer
+        else
+        {
+            // mark the clicked card red
+            cardDiv.classList.remove("matched");
+            cardDiv.classList.add("wrong");
+
+            // highlight the correct card green
+            const allCards = choicesGrid.querySelectorAll(".card");
+            for (const card of allCards)
+            {
+                if (card.dataset.english === result.correct_english)
+                {
+                    card.classList.add("matched");
+                    break;
+                }
+            }
+
+            // subtract points if wrong
+            points--;
+        }
+
+        // update points frontend
+        pointsSpan.innerHTML = points;
+        matchDiv.innerText = `Score: ${result.score} / ${result.total}`;
+
+        // wait 1 second to show the correct answer before next card
+        await new Promise(resolve => setTimeout(resolve, 1000));
+
+        // hide the translation
+        englishTranslation.style.display = "none";
+        // show the reveal button again
+        revealBtn.style.display = "inline-block";
+
+        waiting = false;
+
+        // check if finished
+        if (result.finished)
+        {
+            showFinished({ 
+                score: result.score, 
+                total: result.total });
+            start = false;
+
+            // update in the backend
+            fetch('{{ url_for("update_points") }}', {
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(
+                {
+                    game: "flashcard",
+                    points: points,
+                    time: count,
+                    size: result.total}
+                )
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data.status);
+                if (data.status === "OK")
+                {
+                    alert("Points Recieved!");
+                    points = 0;
+                    pointsSpan.innerHTML = points;
+                }
+            })
+            .catch(error => {
+                console.log('Error', error)
+            });
+        }
+        else
+        {
+            drawBoard(result.state);
+        }
+    }
+
+    // game is done 
+    function showFinished(state)
+    {
+        // hide the board 
+        document.getElementById("flashcard-word-card").style.display = "none";
+        choicesGrid.style.display = "none";
+        progressDiv.style.display = "none";
+        matchDiv.style.display = "none";
+     
+        // only show the final score in the board area
+        const scoreDiv = document.createElement("div");
+        scoreDiv.id = "final-score";
+        scoreDiv.innerText = `Final Score: ${state.score} / ${state.total}`;
+        boardDiv.appendChild(scoreDiv);
+     
+        start = false;
+    }
+
+
+    // timer
+    timeBox = document.getElementById("timer-container");
+    time = document.getElementById("time");
+    var count = 0;
+    var interval = setInterval(function() {
+
+        fetch('{{ url_for("toggle_timer") }}', {
+            method: 'GET',
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === true)
+            {
+                timeBox.style.display = "flex";
+
+                if (start === true)
+                {
+                    count++;
+                    time.innerHTML = count;
+                }
+                else
+                {
+                    time.innerHTML = count;
+                }
+            }
+            else
+            {
+                clearInterval(interval);
+                timeBox.style.display = "none";
+                time.innerHTML = "";
+            }
+        })
+        .catch(error => {
+            console.log('Error', error)
+        });
+
+    }, 1000);
+</script>

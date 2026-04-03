@@ -1,16 +1,24 @@
-<!DOCTYPE HTML>
 
-<head>
-    <title>
-        LLM Chat Interface
-    </title>
-</head>
 
+{% extends "base.html" %}
+
+
+{% block title %}
+LLM Chat Interface
+{% endblock %}
+
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/chatbot.css') }}" >
+{% endblock %}
+
+
+{% block body %}
 <span class="header"></span>
 
 <br>
 
-<body>
 <div class="chatbot-container">
     <div class="chatbot-header">
         <img src="{{ url_for('static', filename='images/duck-profile.png') }}" alt="AI Profile" class="profile-image" draggable="false">
@@ -48,11 +56,7 @@
     </form>
 
 </div>
-</body>
 
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" >
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/chatbot.css') }}" >
-<script async type="text/javascript" src="{{ url_for('static', filename='javascript/header.js') }}"></script>
 <script>
     function showLoad()
     {
@@ -75,3 +79,4 @@
         return true;
     }
 </script>
+{% endblock %}
