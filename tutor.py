@@ -66,7 +66,7 @@ trailing = compile(r'(?<=[!?.])\s*(?:\n[#*]+[^\n]*\n)?(?:(?:\d+|\S)\.)?[^!?.`"\'
 # TODO: Improve the regular expression
 
 app = Flask(__name__, static_folder="static")
-ap.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
 # LOCAL DB
 localdb_handler = LocalDB()
