@@ -149,7 +149,7 @@ function checkFinish() {
     pointSpan.innerHTML = curr_index + 1;
 
     // update in the backend
-        fetch('{{ url_for("update-points") }}', {
+        fetch('{{ url_for("update_points") }}', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
