@@ -1,4 +1,4 @@
-import os
+import os, sys
 import uuid
 import requests
 import random
@@ -295,8 +295,16 @@ def _open_file(key_word):
     :param key_word: cleaned keyword to search for
     '''
     try:
-        folders = ["minigames\\images\\default-images",
-                   "minigames\\images"]
+        base_path = ""
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            # pyinstaller
+            base_path = os.path.join(sys._MEIPASS, "minigames")
+        else:
+            # wsgi or local
+            base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "minigames")
+
+        folders = [os.path.join(base_path, "images", "default-images"),
+                   os.path.join(base_path, "images")]
         for eachFolder in folders:
             matches = glob.glob(f"{eachFolder}\\{key_word}.*")
             if matches:
@@ -373,7 +381,15 @@ def _image_generation(word):
     if file_created:
         return file_created, _get_mimetype(file_created)
     
-    image_path = f"minigames\\images\\{key_word}.png"
+    base_path = ""
+    if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+        # pyinstaller
+        base_path = os.path.join(sys._MEIPASS, "minigames")
+    else:
+        # wsgi or local
+        base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "minigames")
+
+    image_path = os.path.join(base_path, "images", f"{key_word}.png")
 
     # hugging face stuff
     HF_TOKEN = os.getenv("HF_TOKEN")

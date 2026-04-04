@@ -10,7 +10,6 @@ import minigame_controller
 import os, sys, json, random
 from short_story import normalize_text, strip_article, find_vocab_dirs, generate_story_with_model
 from conjugation_convo import generate_conjugation_exercise_from_list, find_grammar_dirs, normalize_text
-
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 #
@@ -40,7 +39,15 @@ messages = [message_role]
 os.environ["HF_HUB_OFFLINE"] = "1" 
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from transformers import pipeline
-base_path = os.path.dirname(os.path.abspath(__file__)) #getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+
+base_path = ""
+if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+    # pyinstaller
+    base_path = sys._MEIPASS
+else:
+    # wsgi or local
+    base_path = os.path.dirname(os.path.abspath(__file__))
+
 pipe = pipeline("text-generation", model=os.path.join(base_path, "model"))
 
 
@@ -65,8 +72,10 @@ from re import sub, compile
 trailing = compile(r'(?<=[!?.])\s*(?:\n[#*]+[^\n]*\n)?(?:(?:\d+|\S)\.)?[^!?.`"\']*$')
 # TODO: Improve the regular expression
 
+
 app = Flask(__name__, static_folder="static")
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
+MINIGAMES = os.path.join(base_path, 'minigames')
 
 # LOCAL DB
 localdb_handler = LocalDB()
@@ -124,6 +133,10 @@ def index() :
     return render_template("index.html", login_message="You're not logged in!")
     # return redirect(url_for('login'))
 
+@app.route('/minigames/<path:filename>')
+def minigames(filename):
+    global MINIGAMES
+    return send_from_directory(MINIGAMES, filename)
 
 @app.route("/toggleTimer", methods=['GET', 'POST'])
 def toggle_timer():
@@ -159,7 +172,6 @@ def update_points():
         # update the session points to display on UI
         session['points'] = res
         return jsonify({'status' : "OK"})
-    # TODO: Handle instance of no return (un-logged-in)
 
 
 @app.route("/profile", methods=["POST", "GET"])
@@ -249,7 +261,6 @@ def login():
 def chat() :
     # TODO: Add Markdown support.
     # TODO: Ensure ends in punctuation
-    # TODO: Pass either 'generation_config' or generation-related arguments, not both.
 
     # Declared at top of file
     global messages

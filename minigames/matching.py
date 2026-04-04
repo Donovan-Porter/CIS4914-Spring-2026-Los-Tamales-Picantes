@@ -1,6 +1,7 @@
 import random
 import json
 import os
+import sys
 
 class Card:
     def __init__(self, eng, spn):
@@ -54,7 +55,13 @@ class MemoryGame:
         :param file_type: is it a vocab file or grammar file
         '''
         # base file location
-        self.base_file = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir, "static", "learning-resources"))
+        self.base_file = ""
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            # pyinstaller
+            self.base_file = os.path.join(sys._MEIPASS, "static", "learning-resources")
+        else:
+            # wsgi or local
+            self.base_file = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir, "static", "learning-resources"))
         
                 # width & height of board
         self.size = size
