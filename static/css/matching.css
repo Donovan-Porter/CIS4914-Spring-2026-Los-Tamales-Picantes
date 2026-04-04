@@ -100,14 +100,24 @@ h1 {
     transition-duration: 0.3s;
 }
 
-.matched { 
-    background-color: #00A86B; 
+.card.card-spanish {
+    background-color: #2da167;
+    color: black;
+}
+
+.card.card-english {
+    background-color: #83ceae;
+    color: black;
+}
+
+.card.pending-match {
+    background-color: #0067A5; 
     color: white; 
 }
 
-.pending-match {
-    background-color: #0067A5; 
-    color: white; 
+.card.matched { 
+    background-color: #adb0af; 
+    color: rgba(255, 255, 255, 0.664); 
 }
 
 #match-count { 

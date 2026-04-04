@@ -204,6 +204,14 @@ function loadBoard(state)
             // set card value
             cardDiv.innerText = state.board[eachRow][eachCol];
 
+            // color the spanish and english cards differently
+            const lang = state.languages?.[eachRow]?.[eachCol];
+            if (lang === "spanish") {
+                cardDiv.classList.add("card-spanish");
+            } else {
+                cardDiv.classList.add("card-english");
+            }
+
             // Check if there is a matched array
             if (state.matched) 
             {
