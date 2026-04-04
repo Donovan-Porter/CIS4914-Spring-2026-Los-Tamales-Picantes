@@ -102,7 +102,7 @@ h1 {
 
 .card.card-spanish {
     background-color: #2da167;
-    color: white;
+    color: black;
 }
 
 .card.card-english {
@@ -112,7 +112,7 @@ h1 {
 
 .card.pending-match {
     background-color: #0067A5; 
-    color: black; 
+    color: white; 
 }
 
 .card.matched { 
