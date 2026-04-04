@@ -1,0 +1,54 @@
+{
+    "groups": [
+        {
+            "title": "PRESENT TENSE OF SER, PLURAL",
+            "examples": [
+                {
+                    "integral": "We are. (masculine)",
+                    "derivative": "Nosotros somos."
+                },
+                {
+                    "integral": "We are. (feminine)",
+                    "derivative": "Nosotras somos."
+                },
+                {
+                    "integral": "You all are. (formal or informal American)",
+                    "derivative": "Ustedes son."
+                },
+                {
+                    "integral": "They all are. (masculine)",
+                    "derivative": "Ellos son."
+                },
+                {
+                    "integral": "They all are. (feminine)",
+                    "derivative": "Ellas son."
+                }
+            ]
+        },
+        {
+            "title": "PRESENT TENSE OF ESTAR, PLURAL",
+            "examples": [
+                {
+                    "integral": "We are. (masculine)",
+                    "derivative": "Nosotros estamos."
+                },
+                {
+                    "integral": "We are. (feminine)",
+                    "derivative": "Nosotras estamos."
+                },
+                {
+                    "integral": "You all are. (formal or informal American)",
+                    "derivative": "Ustedes están."
+                },
+                {
+                    "integral": "They all are. (masculine)",
+                    "derivative": "Ellos están."
+                },
+                {
+                    "integral": "They all are. (feminine)",
+                    "derivative": "Ellas están."
+                }
+            ]
+        }        
+    ]
+}

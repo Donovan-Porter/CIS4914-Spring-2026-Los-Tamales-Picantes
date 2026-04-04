@@ -301,5 +301,17 @@ class MemoryGame:
         else:
             game_state["finished"] = False
         
+        # to know what cards are spanish and english for coloring
+        languages = []
+        for row in self.game_board:
+            lang_row = []
+            for card in row:
+                if card.is_spanish_card():
+                    lang_row.append("spanish")
+                else:
+                    lang_row.append("english")                     
+            languages.append(lang_row)
+        game_state["languages"] = languages
+
         return game_state
         

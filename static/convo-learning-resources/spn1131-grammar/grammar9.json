@@ -1,0 +1,589 @@
+{
+  "groups": [
+    {
+      "title": "PRESENT TENSE OF ADELGAZAR",
+      "examples": [
+          {
+              "integral": "I lose weight.",
+              "derivative": "Yo adelgazo."
+          },
+          {
+              "integral": "You lose weight. (informal)",
+              "derivative": "Tú adelgazas."
+          },
+          {
+              "integral": "You lose weight. (formal)",
+              "derivative": "Usted adelgaza."
+          },
+          {
+              "integral": "He loses weight.",
+              "derivative": "Él adelgaza."
+          },
+          {
+              "integral": "She loses weight.",
+              "derivative": "Ella adelgaza."
+          },
+          {
+              "integral": "We lose weight. (masculine)",
+              "derivative": "Nosotros adelgazamos."
+          },
+          {
+              "integral": "We lose weight. (feminine)",
+              "derivative": "Nosotras adelgazamos."
+          },
+          {
+              "integral": "You all lose weight. (formal or informal American)",
+              "derivative": "Ustedes adelgazan."
+          },
+          {
+              "integral": "They lose weight. (masculine)",
+              "derivative": "Ellos adelgazan."
+          },
+          {
+              "integral": "They lose weight. (feminine)",
+              "derivative": "Ellas adelgazan."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF DEBER",
+      "examples": [
+          {
+              "integral": "I should.",
+              "derivative": "Yo debo."
+          },
+          {
+              "integral": "You should. (informal)",
+              "derivative": "Tú debes."
+          },
+          {
+              "integral": "You should. (formal)",
+              "derivative": "Usted debe."
+          },
+          {
+              "integral": "He should.",
+              "derivative": "Él debe."
+          },
+          {
+              "integral": "She should.",
+              "derivative": "Ella debe."
+          },
+          {
+              "integral": "We should. (masculine)",
+              "derivative": "Nosotros debemos."
+          },
+          {
+              "integral": "We should. (feminine)",
+              "derivative": "Nosotras debemos."
+          },
+          {
+              "integral": "You all should. (formal or informal American)",
+              "derivative": "Ustedes deben."
+          },
+          {
+              "integral": "They should. (masculine)",
+              "derivative": "Ellos deben."
+          },
+          {
+              "integral": "They should. (feminine)",
+              "derivative": "Ellas deben."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF DESCANSAR",
+      "examples": [
+          {
+              "integral": "I rest.",
+              "derivative": "Yo descanso."
+          },
+          {
+              "integral": "You rest. (informal)",
+              "derivative": "Tú descansas."
+          },
+          {
+              "integral": "You rest. (formal)",
+              "derivative": "Usted descansa."
+          },
+          {
+              "integral": "He rests.",
+              "derivative": "Él descansa."
+          },
+          {
+              "integral": "She rests.",
+              "derivative": "Ella descansa."
+          },
+          {
+              "integral": "We rest. (masculine)",
+              "derivative": "Nosotros descansamos."
+          },
+          {
+              "integral": "We rest. (feminine)",
+              "derivative": "Nosotras descansamos."
+          },
+          {
+              "integral": "You all rest. (formal or informal American)",
+              "derivative": "Ustedes descansan."
+          },
+          {
+              "integral": "They rest. (masculine)",
+              "derivative": "Ellos descansan."
+          },
+          {
+              "integral": "They rest. (feminine)",
+              "derivative": "Ellas descansan."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF ENGORDAR",
+      "examples": [
+          {
+              "integral": "I gain weight.",
+              "derivative": "Yo engordo."
+          },
+          {
+              "integral": "You gain weight. (informal)",
+              "derivative": "Tú engordas."
+          },
+          {
+              "integral": "You gain weight. (formal)",
+              "derivative": "Usted engorda."
+          },
+          {
+              "integral": "He gains weight.",
+              "derivative": "Él engorda."
+          },
+          {
+              "integral": "She gains weight.",
+              "derivative": "Ella engorda."
+          },
+          {
+              "integral": "We gain weight. (masculine)",
+              "derivative": "Nosotros engordamos."
+          },
+          {
+              "integral": "We gain weight. (feminine)",
+              "derivative": "Nosotras engordamos."
+          },
+          {
+              "integral": "You all gain weight. (formal or informal American)",
+              "derivative": "Ustedes engordan."
+          },
+          {
+              "integral": "They gain weight. (masculine)",
+              "derivative": "Ellos engordan."
+          },
+          {
+              "integral": "They gain weight. (feminine)",
+              "derivative": "Ellas engordan."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF ESTORNUDAR",
+      "examples": [
+          {
+              "integral": "I sneeze.",
+              "derivative": "Yo estornudo."
+          },
+          {
+              "integral": "You sneeze. (informal)",
+              "derivative": "Tú estornudas."
+          },
+          {
+              "integral": "You sneeze. (formal)",
+              "derivative": "Usted estornuda."
+          },
+          {
+              "integral": "He sneezes.",
+              "derivative": "Él estornuda."
+          },
+          {
+              "integral": "She sneezes.",
+              "derivative": "Ella estornuda."
+          },
+          {
+              "integral": "We sneeze. (masculine)",
+              "derivative": "Nosotros estornudamos."
+          },
+          {
+              "integral": "We sneeze. (feminine)",
+              "derivative": "Nosotras estornudamos."
+          },
+          {
+              "integral": "You all sneeze. (formal or informal American)",
+              "derivative": "Ustedes estornudan."
+          },
+          {
+              "integral": "They sneeze. (masculine)",
+              "derivative": "Ellos estornudan."
+          },
+          {
+              "integral": "They sneeze. (feminine)",
+              "derivative": "Ellas estornudan."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF EVITAR",
+      "examples": [
+          {
+              "integral": "I avoid.",
+              "derivative": "Yo evito."
+          },
+          {
+              "integral": "You avoid. (informal)",
+              "derivative": "Tú evitas."
+          },
+          {
+              "integral": "You avoid. (formal)",
+              "derivative": "Usted evita."
+          },
+          {
+              "integral": "He avoids.",
+              "derivative": "Él evita."
+          },
+          {
+              "integral": "She avoids.",
+              "derivative": "Ella evita."
+          },
+          {
+              "integral": "We avoid. (masculine)",
+              "derivative": "Nosotros evitamos."
+          },
+          {
+              "integral": "We avoid. (feminine)",
+              "derivative": "Nosotras evitamos."
+          },
+          {
+              "integral": "You all avoid. (formal or informal American)",
+              "derivative": "Ustedes evitan."
+          },
+          {
+              "integral": "They avoid. (masculine)",
+              "derivative": "Ellos evitan."
+          },
+          {
+              "integral": "They avoid. (feminine)",
+              "derivative": "Ellas evitan."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF RESPIRAR",
+      "examples": [
+          {
+              "integral": "I breathe.",
+              "derivative": "Yo respiro."
+          },
+          {
+              "integral": "You breathe. (informal)",
+              "derivative": "Tú respiras."
+          },
+          {
+              "integral": "You breathe. (formal)",
+              "derivative": "Usted respira."
+          },
+          {
+              "integral": "He breathes.",
+              "derivative": "Él respira."
+          },
+          {
+              "integral": "She breathes.",
+              "derivative": "Ella respira."
+          },
+          {
+              "integral": "We breathe. (masculine)",
+              "derivative": "Nosotros respiramos."
+          },
+          {
+              "integral": "We breathe. (feminine)",
+              "derivative": "Nosotras respiramos."
+          },
+          {
+              "integral": "You all breathe. (formal or informal American)",
+              "derivative": "Ustedes respiran."
+          },
+          {
+              "integral": "They breathe. (masculine)",
+              "derivative": "Ellos respiran."
+          },
+          {
+              "integral": "They breathe. (feminine)",
+              "derivative": "Ellas respiran."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF SUDAR",
+      "examples": [
+          {
+              "integral": "I sweat.",
+              "derivative": "Yo sudo."
+          },
+          {
+              "integral": "You sweat. (informal)",
+              "derivative": "Tú sudas."
+          },
+          {
+              "integral": "You sweat. (formal)",
+              "derivative": "Usted suda."
+          },
+          {
+              "integral": "He sweats.",
+              "derivative": "Él suda."
+          },
+          {
+              "integral": "She sweats.",
+              "derivative": "Ella suda."
+          },
+          {
+              "integral": "We sweat. (masculine)",
+              "derivative": "Nosotros sudamos."
+          },
+          {
+              "integral": "We sweat. (feminine)",
+              "derivative": "Nosotras sudamos."
+          },
+          {
+              "integral": "You all sweat. (formal or informal American)",
+              "derivative": "Ustedes sudan."
+          },
+          {
+              "integral": "They sweat. (masculine)",
+              "derivative": "Ellos sudan."
+          },
+          {
+              "integral": "They sweat. (feminine)",
+              "derivative": "Ellas sudan."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF TOSER",
+      "examples": [
+          {
+              "integral": "I cough.",
+              "derivative": "Yo toso."
+          },
+          {
+              "integral": "You cough. (informal)",
+              "derivative": "Tú toses."
+          },
+          {
+              "integral": "You cough. (formal)",
+              "derivative": "Usted tose."
+          },
+          {
+              "integral": "He coughs.",
+              "derivative": "Él tose."
+          },
+          {
+              "integral": "She coughs.",
+              "derivative": "Ella tose."
+          },
+          {
+              "integral": "We cough. (masculine)",
+              "derivative": "Nosotros tosemos."
+          },
+          {
+              "integral": "We cough. (feminine)",
+              "derivative": "Nosotras tosemos."
+          },
+          {
+              "integral": "You all cough. (formal or informal American)",
+              "derivative": "Ustedes tosen."
+          },
+          {
+              "integral": "They cough. (masculine)",
+              "derivative": "Ellos tosen."
+          },
+          {
+              "integral": "They cough. (feminine)",
+              "derivative": "Ellas tosen."
+          }
+        ]
+    },
+    {
+      "title": "PRESENT TENSE OF SENTIR",
+      "examples": [
+        {
+            "integral": "I feel.",
+            "derivative": "Yo siento."
+        },
+        {
+            "integral": "You feel. (informal)",
+            "derivative": "Tú sientes."
+        },
+        {
+            "integral": "You feel. (formal)",
+            "derivative": "Usted siente."
+        },
+        {
+            "integral": "He feels.",
+            "derivative": "Él siente."
+        },
+        {
+            "integral": "She feels.",
+            "derivative": "Ella siente."
+        },
+        {
+            "integral": "We feel. (masculine)",
+            "derivative": "Nosotros sentimos."
+        },
+        {
+            "integral": "We feel. (feminine)",
+            "derivative": "Nosotras sentimos."
+        },
+        {
+            "integral": "You all feel. (formal or informal American)",
+            "derivative": "Ustedes sienten."
+        },
+        {
+            "integral": "They feel. (masculine)",
+            "derivative": "Ellos sienten."
+        },
+        {
+            "integral": "They feel. (feminine)",
+            "derivative": "Ellas sienten."
+        }
+      ]
+    },
+    {
+      "title": "PRESENT TENSE OF DORMIR",
+      "examples": [
+        {
+            "integral": "I sleep.",
+            "derivative": "Yo duermo."
+        },
+        {
+            "integral": "You sleep. (informal)",
+            "derivative": "Tú duermes."
+        },
+        {
+            "integral": "You sleep. (formal)",
+            "derivative": "Usted duerme."
+        },
+        {
+            "integral": "He sleeps.",
+            "derivative": "Él duerme."
+        },
+        {
+            "integral": "She sleeps.",
+            "derivative": "Ella duerme."
+        },
+        {
+            "integral": "We sleep. (masculine)",
+            "derivative": "Nosotros dormimos."
+        },
+        {
+            "integral": "We sleep. (feminine)",
+            "derivative": "Nosotras dormimos."
+        },
+        {
+            "integral": "You all sleep. (formal or informal American)",
+            "derivative": "Ustedes duermen."
+        },
+        {
+            "integral": "They sleep. (masculine)",
+            "derivative": "Ellos duermen."
+        },
+        {
+            "integral": "They sleep. (feminine)",
+            "derivative": "Ellas duermen."
+        }
+      ]
+    },
+    {
+      "title": "PRESENT TENSE OF SONREIR",
+      "examples": [
+        {
+            "integral": "I smile.",
+            "derivative": "Yo sonrío."
+        },
+        {
+            "integral": "You smile. (informal)",
+            "derivative": "Tú sonríes."
+        },
+        {
+            "integral": "You smile. (formal)",
+            "derivative": "Usted sonríe."
+        },
+        {
+            "integral": "He smiles.",
+            "derivative": "Él sonríe."
+        },
+        {
+            "integral": "She smiles.",
+            "derivative": "Ella sonríe."
+        },
+        {
+            "integral": "We smile. (masculine)",
+            "derivative": "Nosotros sonreímos."
+        },
+        {
+            "integral": "We smile. (feminine)",
+            "derivative": "Nosotras sonreímos."
+        },
+        {
+            "integral": "You all smile. (formal or informal American)",
+            "derivative": "Ustedes sonríen."
+        },
+        {
+            "integral": "They smile. (masculine)",
+            "derivative": "Ellos sonríen."
+        },
+        {
+            "integral": "They smile. (feminine)",
+            "derivative": "Ellas sonríen."
+        }
+      ]
+    },
+    {
+      "title": "PRESENT TENSE OF LLEGAR",
+      "examples": [
+        {
+            "integral": "I arrive.",
+            "derivative": "Yo llego."
+        },
+        {
+            "integral": "You arrive. (informal)",
+            "derivative": "Tú llegas."
+        },
+        {
+            "integral": "You arrive. (formal)",
+            "derivative": "Usted llega."
+        },
+        {
+            "integral": "He arrives.",
+            "derivative": "Él llega."
+        },
+        {
+            "integral": "She arrives.",
+            "derivative": "Ella llega."
+        },
+        {
+            "integral": "We arrive. (masculine)",
+            "derivative": "Nosotros llegamos."
+        },
+        {
+            "integral": "We arrive. (feminine)",
+            "derivative": "Nosotras llegamos."
+        },
+        {
+            "integral": "You all arrive. (formal or informal American)",
+            "derivative": "Ustedes llegan."
+        },
+        {
+            "integral": "They arrive. (masculine)",
+            "derivative": "Ellos llegan."
+        },
+        {
+            "integral": "They arrive. (feminine)",
+            "derivative": "Ellas llegan."
+        }
+      ]
+    }
+  ]
+}

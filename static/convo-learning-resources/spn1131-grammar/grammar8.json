@@ -1,0 +1,79 @@
+{
+  "groups": [
+    {
+      "title": "PRETERITE TENSE OF DESAYUNAR",
+      "examples": [
+          {
+              "integral": "I ate breakfast.",
+              "derivative": "Yo desayuné."
+          },
+          {
+              "integral": "You ate breakfast. (informal)",
+              "derivative": "Tú desayunaste."
+          },
+          {
+              "integral": "You ate breakfast. (formal)",
+              "derivative": "Usted desayunó."
+          },
+          {
+              "integral": "He ate breakfast.",
+              "derivative": "Él desayunó."
+          },
+          {
+              "integral": "She ate breakfast.",
+              "derivative": "Ella desayunó."
+          },
+          {
+              "integral": "We ate breakfast. (masculine)",
+              "derivative": "Nosotros desayunamos."
+          },
+          {
+              "integral": "We ate breakfast. (feminine)",
+              "derivative": "Nosotras desayunamos."
+          },
+          {
+              "integral": "You all ate breakfast. (formal or informal American)",
+              "derivative": "Ustedes desayunaron."
+          },
+          {
+              "integral": "They ate breakfast. (masculine)",
+              "derivative": "Ellos desayunaron."
+          },
+          {
+              "integral": "They ate breakfast. (feminine)",
+              "derivative": "Ellas desayunaron."
+          }
+      ]
+    },
+    {
+          "title": "PRETERITE TENSE OF COMER",
+          "examples": [
+              { "integral": "I ate.", "derivative": "Yo comí." },
+              { "integral": "You ate. (informal)", "derivative": "Tú comiste." },
+              { "integral": "You ate. (formal)", "derivative": "Usted comió." },
+              { "integral": "He ate.", "derivative": "Él comió." },
+              { "integral": "She ate.", "derivative": "Ella comió." },
+              { "integral": "We ate. (masculine)", "derivative": "Nosotros comimos." },
+              { "integral": "We ate. (feminine)", "derivative": "Nosotras comimos." },
+              { "integral": "You all ate. (formal or informal American)", "derivative": "Ustedes comieron." },
+              { "integral": "They ate. (masculine)", "derivative": "Ellos comieron." },
+              { "integral": "They ate. (feminine)", "derivative": "Ellas comieron." }
+          ]
+      },
+      {
+          "title": "PRETERITE TENSE OF BATIR",
+          "examples": [
+              { "integral": "I beat/mixed.", "derivative": "Yo batí." },
+              { "integral": "You beat/mixed. (informal)", "derivative": "Tú batiste." },
+              { "integral": "You beat/mixed. (formal)", "derivative": "Usted batió." },
+              { "integral": "He beat/mixed.", "derivative": "Él batió." },
+              { "integral": "She beat/mixed.", "derivative": "Ella batió." },
+              { "integral": "We beat/mixed. (masculine)", "derivative": "Nosotros batimos." },
+              { "integral": "We beat/mixed. (feminine)", "derivative": "Nosotras batimos." },
+              { "integral": "You all beat/mixed. (formal or informal American)", "derivative": "Ustedes batieron." },
+              { "integral": "They beat/mixed. (masculine)", "derivative": "Ellos batieron." },
+              { "integral": "They beat/mixed. (feminine)", "derivative": "Ellas batieron." }
+          ]
+        }
+  ]
+}
