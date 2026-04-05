@@ -288,29 +288,21 @@ def _get_mimetype(image_path):
     return mimetype
 
 def _open_file(key_word):
-    '''
-    check if an image already exists for the keyword with any extension
-    checks both the default-images and images folders
- 
-    :param key_word: cleaned keyword to search for
-    '''
     try:
         base_path = ""
         if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
-            # pyinstaller
             base_path = os.path.join(sys._MEIPASS, "minigames")
         else:
-            # wsgi or local
             base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "minigames")
 
         folders = [os.path.join(base_path, "images", "default-images"),
                    os.path.join(base_path, "images")]
         for eachFolder in folders:
-            matches = glob.glob(f"{eachFolder}\\{key_word}.*")
+            matches = glob.glob(os.path.join(eachFolder, f"{key_word}.*"))  # ← fix here
             if matches:
                 return matches[0]
         return None
-    
+
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
         return None
@@ -354,6 +346,7 @@ def _get_keyword(word):
 
     # If still short and clean, return as-is
     if len(clean_word) <= 100:
+        clean_word = clean_word.replace("/", "-")
         return clean_word
 
     # For very long results, extract the first non-filler word
@@ -361,9 +354,11 @@ def _get_keyword(word):
     words = clean_word.split()
     for eachWord in words:
         if eachWord.lower() not in noneed_words:
-            return eachWord
+            clean_word = eachWord.replace("/", "-")
+            return clean_word
 
-    return words[0]
+    clean_word = words[0].replace("/", "-")
+    return clean_word
 
 def _image_generation(word):
     '''
