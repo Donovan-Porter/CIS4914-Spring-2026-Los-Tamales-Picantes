@@ -159,7 +159,7 @@
         // send the info to set up a new game
         const board_size = get_board_size();
 
-        const res = await fetch("/matching", {
+        const res = await fetch(`${SCRIPT_ROOT}/matching`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ 
@@ -425,7 +425,7 @@
         try 
         {
             // make sure we can actually grab the image
-            const response = await fetch(`${SCRIPT_ROOT}/matching/${gameId}/hint?row=${row}&col=${col}`);
+            const response = await fetch(`${SCRIPT_ROOT}/matching/${gameId}/hint/${row}/${col}`);
             if (!response.ok) 
             {
                 hintDiv.textContent = "Failed to Load Hint...";
