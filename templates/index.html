@@ -57,7 +57,7 @@
         document.getElementById('timer_status').textContent = status ? 'Timer: ON' : 'Timer: OFF';
 
         // passing into backend variable
-        fetch({{ url_for('toggle_timer') }}, {
+        fetch("{{ url_for('toggle_timer') }}", {
             method: 'POST',
             headers: {
                 'Content-Type' : 'application/json'
@@ -75,7 +75,7 @@
     }
 
     function loadTimerToggle() {
-        fetch({{ url_for('toggle_timer') }}, {
+        fetch("{{ url_for('toggle_timer') }}", {
             method: 'GET',
         })
         .then(response => response.json())

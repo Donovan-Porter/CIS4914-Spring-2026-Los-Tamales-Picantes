@@ -133,10 +133,6 @@ def index() :
     return render_template("index.html", login_message="You're not logged in!")
     # return redirect(url_for('login'))
 
-@app.route('/script_root')
-def script_root():
-    return request.environ.get("SCRIPT_NAME", "")
-
 @app.route('/minigames/<path:filename>')
 def minigames(filename):
     global MINIGAMES
