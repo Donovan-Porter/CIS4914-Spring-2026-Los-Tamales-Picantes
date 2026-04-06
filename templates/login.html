@@ -9,7 +9,7 @@ Log-In
 
 
 {% block head %}
-<link rel="stylesheet" href="/static/css/login.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
 {% endblock %}
 
 
@@ -17,7 +17,7 @@ Log-In
 <div class="login-container">
     <div class="welcome-container">
         <span>¡Bienvenido! ¿Listo para jugar?</span>
-        <img src="url_for('static', filename='images/picantecapy.png') }}" alt="Logo" class="profile-image" draggable="false">
+        <img src="{{ url_for('static', filename='images/picantecapy.png') }}" alt="Logo" class="profile-image" draggable="false">
     </div>
 
     <div class="login-section">
@@ -33,7 +33,7 @@ Log-In
             </button>
         </form>
         
-        <a id="signup-link" href="{{ url_for('sign-up') }}" title="Login">No account? Make one!</a>
+        <a id="signup-link" href="{{ url_for('sign_up') }}" title="Login">No account? Make one!</a>
     </div>
 
 </div>
