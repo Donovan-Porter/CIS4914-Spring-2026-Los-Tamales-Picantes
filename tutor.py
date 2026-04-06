@@ -133,6 +133,10 @@ def index() :
     return render_template("index.html", login_message="You're not logged in!")
     # return redirect(url_for('login'))
 
+@app.route('/script_root')
+def script_root():
+    return request.environ.get("SCRIPT_NAME", "")
+
 @app.route('/minigames/<path:filename>')
 def minigames(filename):
     global MINIGAMES
@@ -632,14 +636,12 @@ def click_card(game_id):
     col = request.json.get("col")
     return minigame_controller.handle_click_card(game_id, row, col)
 
-@app.route("/matching/<game_id>/hint", methods=["GET"])
-def hint_image(game_id):
+@app.route("/matching/<game_id>/hint/<row>/<col>", methods=["GET"])
+def hint_image(game_id, row, col):
     """
     generate and return a hint image for the selected card
     """
-    row = int(request.args.get("row"))
-    col = int(request.args.get("col"))
-    image_path, mimetype = minigame_controller.handle_hint_image(game_id, row, col)
+    image_path, mimetype = minigame_controller.handle_hint_image(game_id, int(row), int(col))
     return send_file(image_path, mimetype=mimetype)
 
 
