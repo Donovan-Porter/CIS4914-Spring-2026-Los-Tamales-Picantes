@@ -16,6 +16,8 @@ const choicesGrid = document.getElementById("choices-grid");
 const cardImageSlot = document.getElementById("card-image-slot");
 const modeToggle = document.getElementById("mode-toggle");
 
+var cardSound = new Audio('/static/audio/202309__7778__button-3.mp3');
+var pointsSound = new Audio('/static/audio/531175__ryusa__synth-glockenspiel-bell-item-money-gold-coin-pick-up.wav');
 
 // redirect to home page
 document.getElementById('home-button').onclick = function() { window.location.href = '/'; };
@@ -329,6 +331,11 @@ async function clickedCard(chosenEnglish, cardDiv)
     // show what was clicked visually
     cardDiv.classList.add("matched");
 
+    if (audioOn)
+    {
+        playSound(cardSound);
+    }
+
     // send the choice to the backend
     const res = await fetch(`/flashcard/${gameId}/click`, {
         method: "POST",
@@ -432,6 +439,11 @@ async function clickedCard(chosenEnglish, cardDiv)
             console.log(data.status);
             if (data.status === "OK")
             {
+                if (audioOn)
+                {
+                    playSound(pointsSound);
+                }
+                
                 alert("Points Recieved!");
                 points = 0;
                 pointsSpan.innerHTML = points;
@@ -503,3 +515,24 @@ var interval = setInterval(function() {
     });
 
 }, 1000);
+
+//audio 
+var audioOn = getAudioStatus();
+function playSound(sound) {
+    sound.play();
+    sound.currentTime=0;
+}
+
+function getAudioStatus() {
+    fetch('/toggleAudio', {
+            method: 'GET',
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.status);
+            audioOn = data.status;
+        })
+        .catch(error => {
+            console.log('Error', error);
+        });
+}

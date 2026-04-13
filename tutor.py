@@ -70,6 +70,7 @@ localdb_handler = LocalDB()
 
 # Toggles
 timerOn = True
+audioOn = True
 
 app.secret_key = "quiz-dev-key"
 def reset_login_session():
@@ -135,6 +136,21 @@ def toggle_timer():
         return jsonify({'status' : timerOn})
  
     return jsonify({"Error Timer Toggle": "Error: Could not process /toggleTimer"})
+
+@app.route("/toggleAudio", methods=['GET', 'POST'])
+def toggle_audio():
+    global audioOn
+    
+    if request.method == 'POST':
+        status = request.get_json().get("status")
+        audioOn = status
+        return jsonify({"Audio Toggle Status": audioOn})
+        
+    if request.method == 'GET':
+        return jsonify({'status' : audioOn})
+ 
+    return jsonify({"Error Audio Toggle": "Error: Could not process /toggleAudio"})
+
 
 @app.route("/update-points", methods=["POST"])
 def update_points():
