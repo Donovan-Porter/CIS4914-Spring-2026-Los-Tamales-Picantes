@@ -158,6 +158,10 @@ function checkFinish() {
             console.log(data.status);
             if (data.status === "OK")
             {
+                if (audioOn)
+                {
+                  playSound(pointsSound);
+                }
                 alert("Points Recieved!");
                 pointSpan.innerHTML = 0;
             }
@@ -170,6 +174,29 @@ function checkFinish() {
   {
     pointSpan.innerHTML = curr_index;
   }
+}
+
+//audio 
+var audioOn = getAudioStatus();
+var pointsSound = new Audio('/static/audio/531175__ryusa__synth-glockenspiel-bell-item-money-gold-coin-pick-up.wav');
+
+function playSound(sound) {
+    sound.play();
+    sound.currentTime=0;
+}
+
+function getAudioStatus() {
+    fetch('/toggleAudio', {
+            method: 'GET',
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.status);
+            audioOn = data.status;
+        })
+        .catch(error => {
+            console.log('Error', error);
+        });
 }
 
 /*
