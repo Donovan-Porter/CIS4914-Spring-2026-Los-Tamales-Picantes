@@ -50,6 +50,7 @@ Follow the instructions there to install the most recent stable release.
 There are three methods to run this application.
 1. Directly via Python.
     - Install Python, using the link from earlier.
+        Ideally version 3.12 or later.
     - Run `tutor.bat`.
 2. Download the executable.
     - You can look [here](https://mega.nz/folder/ovMjlajJ#4AlZ0oFrY9M3Zy3VLrcEjg) or [here](https://mega.nz/file/HSokjYTZ#luDZc4CMZgkdeKObzDl249--tSNSzcK7rmT4LCQJcKY) to find the executable for Windows.
@@ -269,3 +270,4 @@ A script file to do the operations programmatically may be useful, as well.
 - Accents.
 - Learning anchors in the form of geographical, geopolitical, and cultural, content.
 - Significant gamification.
+- Achievements and badges.
