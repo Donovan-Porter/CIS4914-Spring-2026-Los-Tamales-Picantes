@@ -312,8 +312,8 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
 
         print(f"[DEBUG] Sentence with blank: {sentence_blank}")
 
-        image_from = f"/static/images/{subject_to_image(person_from)}"
-        image_to = f"/static/images/{subject_to_image(person_to)}"
+        image_from = f"/images/{subject_to_image(person_from)}"
+        image_to = f"/images/{subject_to_image(person_to)}"
 
         print(f"[DEBUG] image_from path: {image_from}")
         print(f"[DEBUG] image_to path: {image_to}")

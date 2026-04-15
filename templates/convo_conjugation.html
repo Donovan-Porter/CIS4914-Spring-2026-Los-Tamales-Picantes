@@ -77,7 +77,7 @@ Conjugation Conversation Exercise
         <div style="margin-bottom:20px">
 
           <!-- first sentence image -->
-          <img src="{{ ex.image_from }}" alt="{{ ex.from }}" style="height:120px;margin-bottom:10px">
+          <img src="{{ url_for('static', filename=ex.image_from) }}" alt="{{ ex.from }}" style="height:120px;margin-bottom:10px">
 
           <!-- button for text to speech -->
           <div style="display: flex; align-items: center;">
@@ -91,7 +91,7 @@ Conjugation Conversation Exercise
           </div>
 
           <!-- second sentence image -->
-          <img src="{{ ex.image_to }}" alt="{{ ex.to }}" style="height:120px;margin:10px 0">
+          <img src="{{ url_for('static', filename=ex.image_to) }}" alt="{{ ex.to }}" style="height:120px;margin:10px 0">
 
           <!-- second sentence (blank or filled) -->
           <p>
