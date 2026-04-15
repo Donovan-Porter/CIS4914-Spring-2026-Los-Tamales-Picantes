@@ -43,6 +43,9 @@ def clean_model_output(text):
     # remove leading and trailing spaces
     text = text.strip()
 
+    # remove commas
+    text = text.replace(',', '')
+
     # check if the text contains more than one sentence, only take the first
     if '.' in text:
         text = text.split('.')[0].strip() + '.'
@@ -190,144 +193,158 @@ def generate_conjugation_exercise_from_list(pipe, grammar_list):
     }
 
     exercises = []
-
+    
     grammar_phrases = [
         item.strip() if isinstance(item, str)
         else item.get('derivative', '').strip()
         for item in grammar_list
     ]
-
+    
     print("\n[DEBUG] Normalized grammar phrases:")
     for g in grammar_phrases:
         print("   -", g)
+    
+    # retry loop to regenerate sentences if no valid exercises were generated
+    while len(exercises) == 0:  # Retry entire generation if no sentences were generated
+        print("\n[DEBUG] Starting new attempt to generate exercises.")
 
-    for phrase_from in grammar_phrases:
+        for phrase_from in grammar_phrases:
 
-        print("\n----------------------------------------")
-        print(f"[DEBUG] Starting new exercise")
-        print(f"[DEBUG] phrase_from: {phrase_from}")
+            print("\n----------------------------------------")
+            print(f"[DEBUG] Starting new exercise")
+            print(f"[DEBUG] phrase_from: {phrase_from}")
 
-        person_from = extract_subject(phrase_from)
-        person_to = conversation_mapping.get(person_from)
+            person_from = extract_subject(phrase_from)
+            person_to = conversation_mapping.get(person_from)
 
-        if not person_to:
-            print(f"[DEBUG] No conversational mapping for {person_from}. Skipping.")
-            continue
+            if not person_to:
+                print(f"[DEBUG] No conversational mapping for {person_from}. Skipping.")
+                continue
 
-        # Find the phrase in grammar_phrases that starts with person_to
-        phrase_to_candidates = [p for p in grammar_phrases if p.startswith(person_to + " ")]
-        if not phrase_to_candidates:
-            print(f"[DEBUG] No matching phrase_to for person_to {person_to}. Skipping.")
-            continue
+            # phrase in grammar_phrases that starts with person_to
+            phrase_to_candidates = [p for p in grammar_phrases if p.startswith(person_to + " ")]
+            if not phrase_to_candidates:
+                print(f"[DEBUG] No matching phrase_to for person_to {person_to}. Skipping.")
+                continue
 
-        phrase_to = phrase_to_candidates[0]  # choose first match
+            phrase_to = phrase_to_candidates[0]  # choose first match
 
-        print(f"[DEBUG] phrase_to selected: {phrase_to}")
+            print(f"[DEBUG] phrase_to selected: {phrase_to}")
 
-        prompt = (
-            f"Escribe SÓLO una oración que simple use EXACTAMENTE la frase '{phrase_from}'. "
-            "No cambies el verbo ni el tiempo. Incluye un complemento."
-        )
+            valid_sentence = False
+            full_sentence = ""
 
-        print(f"[DEBUG] Prompt sent to model: {prompt}")
+            print(f"[DEBUG] Generating sentence for phrase_from: {phrase_from}")
+            prompt = (
+                f"Escribe SÓLO una oración que simple use EXACTAMENTE la frase '{phrase_from}'. "
+                "No cambies el verbo ni el tiempo. Incluye un complemento."
+            )
 
-        out = pipe([{"role": "user", "content": prompt}])
+            print(f"[DEBUG] Prompt sent to model: {prompt}")
 
-        full_sentence = clean_model_output(
-            out[0]['generated_text'][1]['content'].strip()
-        )
+            out = pipe([{"role": "user", "content": prompt}])
 
+            full_sentence = clean_model_output(
+                out[0]['generated_text'][1]['content'].strip()
+            )
 
-        if ":" in full_sentence or '"' in full_sentence:
-            print(f"[DEBUG] Skipping sentence with invalid punctuation: {full_sentence}")
-            continue
+            # validate the sentence
+            if ":" in full_sentence or '"' in full_sentence:
+                print(f"[DEBUG] Skipping sentence with invalid punctuation: {full_sentence}")
+                continue
 
-        # common LLM generated mistake sentences to skip
-        if full_sentence == "Yo soy yo." or full_sentence == "Yo soy tú.":
-            print(f"[DEBUG] Skipping invalid sentence generation for phrase: {phrase_from}")
-            continue
+            # common LLM generated mistake sentences to skip
+            if full_sentence == "Yo soy yo." or full_sentence == "Yo soy tú.":
+                print(f"[DEBUG] Skipping invalid sentence generation for phrase: {phrase_from}")
+                continue
 
-        print(f"[DEBUG] Model generated sentence: {full_sentence}")
+            print(f"[DEBUG] Model generated sentence: {full_sentence}")
 
-        # exact match
-        if not re.search(rf'\b{re.escape(phrase_from)}\b', full_sentence):
-            print("[DEBUG] phrase_from NOT found exactly in sentence. Skipping.")
-            continue
+            # exact match
+            if not re.search(rf'\b{re.escape(phrase_from)}\b', full_sentence):
+                print("[DEBUG] phrase_from NOT found exactly in sentence. Skipping.")
+                continue
 
-        print("[DEBUG] phrase_from found successfully.")
+            print("[DEBUG] phrase_from found successfully.")
+            valid_sentence = True
 
-        # create question version of the original sentence
-        words = full_sentence.rstrip(".").split()  # split into words
+            # if sentence is valid
+            if valid_sentence:
+                # create question version of the original sentence
+                words = full_sentence.rstrip(".").split()  # split into words
 
-        if len(words) >= 2:
-            # swap first two words
-            words[0], words[1] = words[1], words[0]
-            
-            # capitalize first word (verb), lowercase second word (subject)
-            words[0] = words[0].capitalize()
-            words[1] = words[1].lower()
-            
-            sentence_question = " ".join(words)
-            sentence_question = f"¿{sentence_question}?"
-        else:
-            # fallback if too short
-            sentence_question = f"¿{full_sentence.rstrip('.')}?"
+                if len(words) >= 2:
+                    # swap first two words
+                    words[0], words[1] = words[1], words[0]
 
-        # replace subject phrase
-        sentence_changed = re.sub(
-            rf'\b{re.escape(phrase_from)}\b',
-            phrase_to,
-            full_sentence,
-            count=1
-        )
+                    # capitalize first word (verb), lowercase second word (subject)
+                    words[0] = words[0].capitalize()
+                    words[1] = words[1].lower()
 
-        print(f"[DEBUG] Sentence after replacement: {sentence_changed}")
+                    sentence_question = " ".join(words)
+                    sentence_question = f"¿{sentence_question}?"
+                else:
+                    # fallback if too short
+                    sentence_question = f"¿{full_sentence.rstrip('.')}?"
 
-        if not re.search(rf'\b{re.escape(phrase_to)}\b', sentence_changed):
-            print("[DEBUG] phrase_to NOT found after replacement. Skipping.")
-            continue
+                # replace subject phrase
+                sentence_changed = re.sub(
+                    rf'\b{re.escape(phrase_from)}\b',
+                    phrase_to,
+                    full_sentence,
+                    count=1
+                )
 
-        print("[DEBUG] phrase_to confirmed in changed sentence.")
+                print(f"[DEBUG] Sentence after replacement: {sentence_changed}")
 
-        print(f"[DEBUG] Extracted person_from: {person_from}")
-        print(f"[DEBUG] Extracted person_to: {person_to}")
+                if not re.search(rf'\b{re.escape(phrase_to)}\b', sentence_changed):
+                    print("[DEBUG] phrase_to NOT found after replacement. Skipping.")
+                    continue
 
-        if not person_from or not person_to:
-            print("[DEBUG] Could not extract subject(s). Skipping.")
-            continue
+                print("[DEBUG] phrase_to confirmed in changed sentence.")
 
-        sentence_changed = swap_indirect_pronouns(person_from, person_to, sentence_changed)
-        sentence_changed = fix_ser_identity(sentence_changed, person_from, person_to)
-        sentence_changed = fix_reflexive_infinitive(sentence_changed, person_to)
+                print(f"[DEBUG] Extracted person_from: {person_from}")
+                print(f"[DEBUG] Extracted person_to: {person_to}")
 
-        print(f"[DEBUG] Sentence after gender-based article swap: {sentence_changed}")
+                if not person_from or not person_to:
+                    print("[DEBUG] Could not extract subject(s). Skipping.")
+                    continue
 
-        # create blank
-        sentence_blank = re.sub(
-            rf'\b{re.escape(phrase_to)}\b',
-            "_______",
-            sentence_changed,
-            count=1
-        )
+                sentence_changed = swap_indirect_pronouns(person_from, person_to, sentence_changed)
+                sentence_changed = fix_ser_identity(sentence_changed, person_from, person_to)
+                sentence_changed = fix_reflexive_infinitive(sentence_changed, person_to)
 
-        print(f"[DEBUG] Sentence with blank: {sentence_blank}")
+                print(f"[DEBUG] Sentence after gender-based article swap: {sentence_changed}")
 
-        image_from = f"/static/images/{subject_to_image(person_from)}"
-        image_to = f"/static/images/{subject_to_image(person_to)}"
+                # create blank
+                sentence_blank = re.sub(
+                    rf'\b{re.escape(phrase_to)}\b',
+                    "_______",
+                    sentence_changed,
+                    count=1
+                )
 
-        print(f"[DEBUG] image_from path: {image_from}")
-        print(f"[DEBUG] image_to path: {image_to}")
+                print(f"[DEBUG] Sentence with blank: {sentence_blank}")
 
-        exercises.append({
-            "sentence_full": sentence_question,
-            "sentence_blank": sentence_blank,
-            "answer": phrase_to,
-            "from": person_from,
-            "to": person_to,
-            "image_from": image_from,
-            "image_to": image_to
-        })
+                image_from = f"/static/images/{subject_to_image(person_from)}"
+                image_to = f"/static/images/{subject_to_image(person_to)}"
 
+                print(f"[DEBUG] image_from path: {image_from}")
+                print(f"[DEBUG] image_to path: {image_to}")
+
+                exercises.append({
+                    "sentence_full": sentence_question,
+                    "sentence_blank": sentence_blank,
+                    "answer": phrase_to,
+                    "from": person_from,
+                    "to": person_to,
+                    "image_from": image_from,
+                    "image_to": image_to
+                })
+
+        # check if no exercises were generated, then retry
+        if len(exercises) == 0:
+            print("[DEBUG] No exercises generated, retrying.")
 
     print(f"[DEBUG] Total exercises generated: {len(exercises)}")
 
