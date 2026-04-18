@@ -24,6 +24,13 @@
 
     <hr class="conj-game-line" style="margin-left: 0vw;">
 
+    
+    <div class="instructions">
+      <h3 style="color:#04361D;">Instructions</h3>
+      <p>In this conversation practice game, you will receive a conjugated verb in question format. Your task is to write the corresponding point-of-view statement.</p>
+      <p>Use the capybara as a visual cue, where the capybara on the left represents your perspective.</p>
+    </div>
+
     <h3 style="color:#04361D;">Word bank</h3>
     <div class="word-bank">
       {% for w in vocab_list %}
@@ -31,7 +38,7 @@
       {% endfor %}
     </div>
 
-    <h3>Spanish keyboard</h3>
+    <h3 style="color:#04361D;">Spanish keyboard</h3>
     <div id="sp-keyboard" style="margin-bottom:12px">
       {% set keys = ['á','é','í','ó','ú','ñ','Á','É','Í','Ó','Ú','Ñ'] %}
       {% for k in keys %}
