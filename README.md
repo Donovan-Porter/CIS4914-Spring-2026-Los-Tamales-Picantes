@@ -53,7 +53,7 @@ There are three methods to run this application.
         Ideally version 3.12 or later.
     - Run `tutor.bat`.
 2. Download the executable.
-    - You can look [here](https://mega.nz/file/Q29BXQwL#L9dkWO0-N50rksyZC91Co0-S-VbL6k-92CrEZjZhrEw) or [here](https://mega.nz/file/HPZBlaDD#eLTKKznsQK9LmDIui5WkjdzpjwEtCfEDTBxwqUd-Bzw) to find the executable for Windows.
+    - You can look [here](https://mega.nz/file/56lz2LKT#yq26z7g7HaA1lP7PqhS3xcjNwwztYWY4YGHbxWjwVJQ) or [here](https://mega.nz/file/HPZBlaDD#eLTKKznsQK9LmDIui5WkjdzpjwEtCfEDTBxwqUd-Bzw) to find the executable for Windows.
     - It is a large file, and so may take some time to download.
     - There's no guarantee that the versions found here are up-to-date.
 3. Create your own executable.
